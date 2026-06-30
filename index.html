@@ -9,28 +9,25 @@
   <body>
     <header class="topbar">
       <div class="topbar-inner">
-        <a class="site-title" href="#latest" data-section-link="latest">Solid Earth Literature Brief</a>
+        <a class="site-title" href="#journals" data-section-link="journals">Solid Earth Literature Brief</a>
         <nav class="topbar-nav" aria-label="Report sections">
-          <a href="#latest" data-section-link="latest" class="active">Latest Issue</a>
+          <a href="#journals" data-section-link="journals" class="active">Journals</a>
           <a href="#search" data-section-link="search">Search Articles</a>
-          <a href="#archive" data-section-link="archive">Archive</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="latest" class="latest-section content-section active" aria-labelledby="latest-title">
-        <div class="latest-head">
+      <section id="journals" class="journal-directory content-section active" aria-labelledby="journals-title">
+        <div class="section-title-row">
           <div>
-            <p class="section-kicker">Latest Issue</p>
-            <h2 id="latest-title"></h2>
-            <p id="latest-meta" class="meta-line"></p>
+            <p class="section-kicker">Browse by publication</p>
+            <h1 id="journals-title">Journals</h1>
+            <p class="directory-intro">Open a journal to read its latest Solid Earth articles and browse previous updates.</p>
           </div>
-          <div id="latest-count" class="count-box"></div>
+          <div id="journal-count" class="count-box"></div>
         </div>
-
-        <div id="latest-summary" class="summary-grid"></div>
-        <div id="latest-list" class="article-list"></div>
+        <div id="journal-list" class="journal-list"></div>
       </section>
 
       <section id="search" class="search-section content-section" aria-labelledby="search-title">
@@ -53,19 +50,9 @@
         <div id="search-results" class="article-list compact-list"></div>
       </section>
 
-      <section id="archive" class="archive-section content-section" aria-labelledby="archive-title">
-        <div class="section-title-row">
-          <div>
-            <p class="section-kicker">Archive</p>
-            <h2 id="archive-title">Previous Reports</h2>
-          </div>
-          <span id="archive-count" class="small-note"></span>
-        </div>
-        <div id="archive-list" class="archive-list"></div>
-      </section>
-
     </main>
 
+    <script src="assets/data.js"></script>
     <script src="assets/app.js"></script>
   </body>
 </html>

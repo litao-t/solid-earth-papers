@@ -11,9 +11,8 @@
       <div class="topbar-inner">
         <a class="site-title" href="index.html">Solid Earth Literature Brief</a>
         <nav class="topbar-nav" aria-label="Report navigation">
-          <a href="index.html#latest">Latest Issue</a>
+          <a href="index.html#journals">Journals</a>
           <a href="index.html#search">Search Articles</a>
-          <a href="index.html#archive">Archive</a>
         </nav>
       </div>
     </header>
@@ -22,25 +21,36 @@
       <section id="report-detail" class="detail-section detail-page" aria-labelledby="detail-title" hidden>
         <div class="detail-head">
           <div>
-            <p class="section-kicker">Report Detail</p>
+            <p id="detail-kicker" class="section-kicker">Journal</p>
             <h2 id="detail-title"></h2>
             <p id="detail-meta" class="meta-line"></p>
           </div>
           <div class="detail-actions">
             <a id="detail-source" class="article-link" target="_blank" rel="noreferrer" hidden>Issue Page</a>
-            <a class="article-link" href="index.html#archive">Back</a>
+            <a id="detail-back" class="article-link" href="index.html#journals">Back</a>
           </div>
         </div>
 
         <div id="detail-summary" class="summary-grid"></div>
         <div id="detail-list" class="article-list"></div>
+        <section id="journal-archive" class="journal-archive" aria-labelledby="journal-archive-title">
+          <div class="section-title-row">
+            <div>
+              <p class="section-kicker">Archive</p>
+              <h2 id="journal-archive-title">Previous Updates</h2>
+            </div>
+            <span id="journal-archive-count" class="small-note"></span>
+          </div>
+          <div id="journal-archive-list" class="archive-list"></div>
+        </section>
       </section>
 
       <section id="report-missing" class="detail-section detail-page" hidden>
-        <div class="empty-state">Report not found. Return to Previous Reports and choose another issue.</div>
+        <div class="empty-state">Journal or report not found. Return to the journal directory and choose another publication.</div>
       </section>
     </main>
 
+    <script src="assets/data.js"></script>
     <script src="assets/app.js"></script>
   </body>
 </html>
