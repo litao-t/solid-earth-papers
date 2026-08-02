@@ -7,4 +7,4 @@ The page highlights the latest report, keeps previous reports in chronological
 order, and lets readers search articles by title, author, method, region,
 journal, and interest keywords.
 
-Usage: Open [litao-t.github.io/article_monitor](https://litao-t.github.io/article_monitor) directly in a browser.
+Usage: Click [HERE](https://litao-t.github.io/solid-earth-papers) directly in a browser.
