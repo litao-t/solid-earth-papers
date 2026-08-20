@@ -127,9 +127,9 @@ function mergeJournalBatches(batches) {
       return;
     }
 
-    const seen = new Set(current.articles.map((article) => normalize(article.link || article.title)));
+    const seen = new Set(current.articles.map((article) => normalize(article.doi || article.link || article.title)));
     batch.articles.forEach((article) => {
-      const articleKey = normalize(article.link || article.title);
+      const articleKey = normalize(article.doi || article.link || article.title);
       if (!seen.has(articleKey)) {
         current.articles.push(article);
         seen.add(articleKey);
@@ -282,6 +282,10 @@ function renderArticleCard(article, options = {}) {
     ? `<div class="ai-badge">AI generated</div>`
     : "";
   const methodLine = article.method ? `<div class="article-meta">Method: ${article.method}</div>` : "";
+  const descriptiveTags = [
+    article.topic ? `<span class="tag topic">${article.topic}</span>` : "",
+    article.region ? `<span class="tag">${article.region}</span>` : ""
+  ].join("");
   const pdfControl = pdfLink
     ? `<a class="article-link" href="${pdfLink}" target="_blank" rel="noreferrer">Open PDF</a>`
     : "";
@@ -290,8 +294,7 @@ function renderArticleCard(article, options = {}) {
     <article class="article-card" id="${articleId}" tabindex="-1">
       <div>
         <div class="article-topline">
-          <span class="tag topic">${article.topic}</span>
-          <span class="tag">${article.region}</span>
+          ${descriptiveTags}
           ${issueTag}
         </div>
         <h3><a class="article-title-link" href="${article.link}" target="_blank" rel="noreferrer">${article.title}</a></h3>
