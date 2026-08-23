@@ -43,6 +43,7 @@ const el = {
   detailKicker: document.querySelector("#detail-kicker"),
   detailTitle: document.querySelector("#detail-title"),
   detailMeta: document.querySelector("#detail-meta"),
+  detailKeyPointsSource: document.querySelector("#detail-key-points-source"),
   detailSource: document.querySelector("#detail-source"),
   detailBack: document.querySelector("#detail-back"),
   detailSummary: document.querySelector("#detail-summary"),
@@ -287,9 +288,6 @@ function renderArticleCard(article, options = {}) {
   const issueTag = options.showIssue
     ? `<span class="tag journal">${getJournalDisplayName(article.reportJournal)}</span><span class="tag">${article.reportIssue}</span>`
     : "";
-  const keyPointBadge = article.keyPointsSource && article.keyPointsSource !== "official-publisher"
-    ? `<div class="ai-badge">AI generated</div>`
-    : "";
   const methodLine = article.method ? `<div class="article-meta">Method: ${article.method}</div>` : "";
   const descriptiveTags = [
     article.topic ? `<span class="tag topic">${article.topic}</span>` : "",
@@ -308,7 +306,6 @@ function renderArticleCard(article, options = {}) {
         </div>
         <h3><a class="article-title-link" href="${article.link}" target="_blank" rel="noreferrer">${article.title}</a></h3>
         <p class="article-authors">${article.authors}</p>
-        ${keyPointBadge}
         <ul class="key-points">${article.keyPoints.map((point) => `<li>${point}</li>`).join("")}</ul>
         ${methodLine}
       </div>
@@ -435,6 +432,7 @@ function renderArchive(group, currentBatch) {
 
 function renderBatch(batch, group, isJournalLanding) {
   const displayName = getJournalDisplayName(group.name);
+  const hasPublisherKeyPoints = batch.articles.every((article) => article.keyPointsSource === "official-publisher");
   el.detail.hidden = false;
   if (el.detailMissing) el.detailMissing.hidden = true;
   document.title = `${displayName} | Solid Earth Literature Brief`;
@@ -445,6 +443,12 @@ function renderBatch(batch, group, isJournalLanding) {
     : `${displayName} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${batch.articles.length} Solid Earth articles`;
   el.detailBack.href = isJournalLanding ? "index.html#journals" : `#journal=${group.slug}`;
   el.detailBack.textContent = isJournalLanding ? "All journals" : `Back to ${displayName}`;
+  if (el.detailKeyPointsSource) {
+    el.detailKeyPointsSource.className = `key-points-source-note ${hasPublisherKeyPoints ? "source-publisher" : "source-ai"}`;
+    el.detailKeyPointsSource.textContent = hasPublisherKeyPoints
+      ? "Key Points provided by the publisher."
+      : "Key Points are AI-generated from article abstracts.";
+  }
   setIssuePage(batch);
   el.detailSummary.innerHTML = renderRecommendationCard(batch);
   el.detailList.innerHTML = batch.articles.map((article) => renderArticleCard(article, { reportId: batch.id })).join("");

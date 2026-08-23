@@ -9417,3 +9417,17 @@ const reports = [
     ]
   }
 ];
+
+const officialKeyPointJournals = new Set([
+  "Geophysical Research Letters",
+  "Journal of Geophysical Research: Solid Earth"
+]);
+
+reports.forEach((report) => {
+  report.articles.forEach((article) => {
+    const journal = article.journal || report.journal;
+    article.keyPointsSource = officialKeyPointJournals.has(journal)
+      ? "official-publisher"
+      : "ai-generated";
+  });
+});
