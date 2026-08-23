@@ -2,150 +2,8 @@
 // Edit data/curated/reports.json, then regenerate this file.
 const reports = [
   {
-    "id": "grl-v53-i16-2026-08-28",
-    "date": "2026-08-20",
-    "journal": "Geophysical Research Letters",
-    "issue": "Volume 53, Issue 16",
-    "issueDate": "2026-08-28",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Seismic Exploration for Magmatic Brine Lenses: An Example From Soufrière Hills Volcano, Montserrat",
-        "doi": "10.1029/2026gl124020",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Petros Bogiatzis, J.‐Michael Kendall, Jonathan D. Blundy, Graham A. Ryan, Alan F. Baird",
-        "keyPoints": [
-          "Seismic reflection imaging at Soufrière Hills Volcano is used to identify and characterize subsurface magmatic brine lenses."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl124020",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Montserrat",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-19",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124020",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Detailed Shallow Shear Velocity Structure in the Nankai Trough From Ambient Noise Differential Adjoint Tomography: Implications for Earthquake Generation Mechanisms",
-        "doi": "10.1029/2026gl123021",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Lina Gao, Xin Liu, Ayako Nakanishi, Haoran Meng, Xi Wang, Zhanwen Li, Gou Fujie",
-        "keyPoints": [
-          "Seismic and aseismic slip has been reported in the Nankai Trough."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl123021",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Nankai Trough",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-18",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123021",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Global Evidence for Off‐Axis Flexural Modification of Abyssal Hill Faults at Mid‐Ocean Ridges",
-        "doi": "10.1029/2026gl125366",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Ran Li, Zhonglan Liu, Shuming Feng, Teng Peng, Yuan Wang",
-        "keyPoints": [
-          "Young oceanic lithosphere flexes as axial topography decays across mid‐ocean ridge shoulders, yet this deformation has been quantified at only a few segments, leaving its global expression poorly constrained."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl125366",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-14",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125366",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "An Inflating Upper Mantle Magma Reservoir Beneath the Tip of the Condor Seamount, Azores Revealed by Rapid‐Response Ocean‐Bottom‐Seismometer Data",
-        "doi": "10.1029/2025gl119884",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Yingchen Liu, Neil Mitchell, Dietrich Lange, Ingo Grevemeyer",
-        "keyPoints": [
-          "Condor Seamount is among the most seismically active regions on the Azores Plateau."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl119884",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Azores",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-13",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL119884",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Deep Seismic Tremors in the 2025 Santorini Seismo‐Volcanic Crisis Highlight Magmatic Feeding From a Mid‐Crustal Reservoir",
-        "doi": "10.1029/2025gl119853",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Jean Soubestre, Jannes Münchmeyer, Quentin Higueret, Nikolai M. Shapiro, Florent Brenguier, Anthony Lomax",
-        "keyPoints": [
-          "An intense seismic swarm started on 27 January 2025 in the Santorini‐Amorgos region and lasted for approximately 45 days."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl119853",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Santorini-Amorgos",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-12",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL119853",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Abrupt Suppression of Tectonic Tremors Outside the Stress Shadow of Mendocino Earthquakes",
-        "doi": "10.1029/2026gl123699",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Weifan Lu, Satoshi Ide, Chunmei Ren",
-        "keyPoints": [
-          "Tectonic tremor is a long‐duration noise‐like seismic signal associated with slow fault motion at major plate boundaries."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl123699",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Mendocino Triple Junction",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-12",
-        "volume": "53",
-        "issueNumber": "16",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123699",
-        "pdfLinkSource": "collector"
-      }
-    ]
-  },
-  {
     "id": "grl-v53-i15-2026-08-16",
-    "date": "2026-08-20",
+    "date": "2026-08-01",
     "journal": "Geophysical Research Letters",
     "issue": "Volume 53, Issue 15",
     "issueDate": "2026-08-16",
@@ -153,1863 +11,323 @@ const reports = [
     "source": "",
     "articles": [
       {
-        "title": "Evolution of P‐wave Anisotropy as an Indicator of Pre‐failure Deformation in Shale",
-        "doi": "10.1029/2025gl120970",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Matthieu Lusseyran, Audrey Bonnelye, Alexandre Dimanov, Alexandre Tanguy, Pierre Dick, Jérôme Fortin",
-        "keyPoints": [
-          "Laboratory P-wave anisotropy measurements track pre-failure deformation and evolving damage in shale."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl120970",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-10",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120970",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Dike‐Induced Earthquakes as Probes of the Local Stress Field Prior to the 1998 Eruption of the Piton de la Fournaise Volcano, La Réunion",
-        "doi": "10.1029/2025gl120150",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yiwen Huang, Yan Zhan, Diana C. Roman, Valérie Ferrazzini, Zacharie Duputel",
-        "keyPoints": [
-          "Volcano‐tectonic (VT) earthquakes generated during dike propagation provide useful constraints on stress changes in volcanic systems."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl120150",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "La Réunion",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-10",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120150",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Seismic Constraints of the 23 November 2025 Hayli Gubbi Eruption Sequence in Afar, Ethiopia",
-        "doi": "10.1029/2025gl121422",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "F. Limberger, S. Alemayehu, G. Rümpker, A. Ayele",
-        "keyPoints": [
-          "On 23 November 2025, the Hayli Gubbi volcano in Afar (Ethiopia) erupted in a massive explosion."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl121422",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Afar, Ethiopia",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-08",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121422",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Seismic Tremor as a Precursor to Hydrothermal Explosions Near Mutnovsky Volcano (Kamchatka)",
-        "doi": "10.1029/2026gl122331",
+        "title": "Gravitational Stability of Hydrated SiO <sub>2</sub> and Basaltic Crust in the Lower Mantle",
+        "doi": "10.1029/2025gl121232",
         "interestTags": [
           "Seismology"
         ],
-        "authors": "Y. Berezhnev, N. Belovezhets, N. M. Shapiro, S. Abramenkov, I. Abkadyrov, S. Yaskevich, D. Chebrov, I. Koulakov",
+        "authors": "Yanyao Zhang, Chenxing Luo",
         "keyPoints": [
-          "Mutnovsky Volcano, ∼70 km SW of Petropavlovsk‐Kamchatsky, exhibits persistent degassing, hosts active hydrothermal springs and the Mutnovsky Geothermal Power Plant (MGPP) on its slopes."
+          "Gravitational Stability of Hydrated SiO 2 and Basaltic Crust in the Lower Mantle — We determined thermal equations of state of hydrated stishovite and CaCl 2 ‐type SiO 2 up to 100 GPa and 3,000 K to assess the gravitational stability of hyd"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl122331",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Kamchatka",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-07",
+        "link": "https://doi.org/10.1029/2025gl121232",
+        "topic": "Deep-Mantle Water Storage",
+        "region": "Earth's lower mantle",
+        "method": "Machine-learning atomistic simulations and thermal equations of state",
+        "onlineDate": "2026-07-30",
         "volume": "53",
         "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122331",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121232",
         "pdfLinkSource": "collector"
-      },
+      }
+    ]
+  },
+  {
+    "id": "pnas-v123-i31-2026-08-04",
+    "date": "2026-08-01",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issue": "Volume 123, Issue 31",
+    "issueDate": "2026-08-04",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
       {
-        "title": "A Microphysical Model for Predicting Magma Fragmentation",
-        "doi": "10.1029/2025gl120213",
-        "interestTags": [],
-        "authors": "Jérémie Vasseur, Fabian B. Wadsworth, Edward W. Llewellin, Francisco Cáceres, Donald B. Dingwell, Yan Lavallée, Bettina Scheu",
-        "keyPoints": [
-          "Explosive volcanic eruptions occur when coherent bubbly magma breaks apart in a process called “fragmentation.” Accurate conceptual and numerical models of fragmentation are a pre‐requisite for prediction of eruption explosivity."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl120213",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-07",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120213",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Bayesian Modeling of Crustal Azimuthal Anisotropy Supports Partial Crust–Mantle Anisotropic Decoupling in a Continental Back‐Arc, Northeast China",
-        "doi": "10.1029/2026gl122506",
+        "title": "Abrupt transition to irreversible damage in the overdrafted Sacramento Valley aquifer system",
+        "doi": "10.1073/pnas.2526041123",
         "interestTags": [
-          "Seismology",
           "Crustal Deformation"
         ],
-        "authors": "Chunsen Li, Xiao Xu, Xiaoyu Guo, Xiaofei Tong, Hengcheng Ying, Lingyan Li",
+        "authors": "Stacy Larochelle, Kristel Chanard, Manon Dalaison, Jérôme Fortin, Romain Jolivet, Laurent Longuevergne, Luce Fleitout, Donald F. Argus, Louis-Marie Gauer, Jean-Philippe Avouac",
         "keyPoints": [
-          "How crustal deformation responds to complex mantle flow in continental back‐arc settings remains poorly constrained."
+          "Abrupt transition to irreversible damage in the overdrafted Sacramento Valley aquifer system — Groundwater extraction decreases water pressure in aquifer systems, causing reversible or irreversible deformation of the water-bearing layers th"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl122506",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Northeast China",
-        "method": "Receiver-function imaging and interpretation",
-        "onlineDate": "2026-08-05",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122506",
+        "link": "https://doi.org/10.1073/pnas.2526041123",
+        "topic": "Aquifer Compaction and Subsidence",
+        "region": "Sacramento Valley, California",
+        "method": "Joint analysis of ground deformation and groundwater levels",
+        "onlineDate": "2026-07-27",
+        "volume": "123",
+        "issueNumber": "31",
+        "pdfLink": "https://pnas.org/doi/pdf/10.1073/pnas.2526041123",
         "pdfLinkSource": "collector"
-      },
+      }
+    ]
+  },
+  {
+    "id": "tgrs-v64-2026-08-04",
+    "date": "2026-08-20",
+    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+    "issue": "Recent Solid Earth Candidates (2026-08-02 to 2026-08-20)",
+    "issueDate": "2026-08-04",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
       {
-        "title": "Hydrogen‐Enhanced Grain Boundary Conductivity Explains High‐Conductivity Anomalies in Trans‐Lithospheric Shear Zones",
-        "doi": "10.1029/2025gl120721",
-        "interestTags": [],
-        "authors": "Haoqing Wang, Kui Han, Chuanyu Zhang, Xiaofeng Tian, Xuben Wang, Simon Martin Clark",
+        "title": "Topographic Delays Correction Based on Optimal Selection of Common-Reference Interferometric Subsets",
+        "doi": "10.1109/tgrs.2026.3719089",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Guangrong Li, Chaoying Zhao, Zhong Lu, Baohang Wang, Ming Yan, Liquan Chen, Jianqi Lou",
         "keyPoints": [
-          "Magnetotelluric (MT) surveys reveal high electrical conductivity anomalies along major trans‐lithospheric shear zones."
+          "Optimal common-reference interferometric subset selection corrects topography-related delays"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025gl120721",
-        "topic": "Volcanology and Magma Dynamics",
+        "link": "https://doi.org/10.1109/tgrs.2026.3719089",
+        "topic": "Geodetic Deformation Monitoring",
         "region": "Global / method-focused",
-        "method": "Numerical geodynamic and mechanical modeling",
+        "method": "Optimal selection of common-reference interferometric subsets for topographic-delay correction",
         "onlineDate": "2026-08-04",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120721",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Very‐Long‐Period Seismic Signals During Lateral Dike Propagation at Piton de La Fournaise Volcano",
-        "doi": "10.1029/2026gl123552",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Z. Duputel, O. Lengliné, L. Costes, V. Ferrazzini",
-        "keyPoints": [
-          "We report a previously undocumented sequence of very long period (VLP) signals preceding the September 2022 eruption at Piton de la Fournaise."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026gl123552",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "La Réunion",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-03",
-        "volume": "53",
-        "issueNumber": "15",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123552",
-        "pdfLinkSource": "collector"
+        "volume": "64"
       }
     ]
   },
   {
-    "id": "science-v393-i6812-2026-08-13",
+    "id": "tgrs-2026-08-03",
     "date": "2026-08-20",
-    "journal": "Science",
-    "issue": "Volume 393, Issue 6812",
-    "issueDate": "2026-08-13",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "A joint geophysical-geochemical deep-mantle zoning map beneath East Africa and the Indian Ocean",
-        "doi": "10.1126/science.aea5466",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Xiyuan Bao, Mathurin Dongmo Wamba, Andreas Stracke",
-        "keyPoints": [
-          "Joint geophysical and geochemical mapping resolves deep-mantle source zones beneath East Africa and the Indian Ocean."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1126/science.aea5466",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "East Africa and Indian Ocean",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-13",
-        "volume": "393",
-        "issueNumber": "6812"
-      }
-    ]
-  },
-  {
-    "id": "gji-v247-i1-2026-08-10",
-    "date": "2026-08-20",
-    "journal": "Geophysical Journal International",
-    "issue": "Volume 247, Issue 1",
-    "issueDate": "2026-08-10",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Massive-scale unlabelled field and labelled synthetic seismic data sets of global shelf-edge clinothems",
-        "doi": "10.1093/gji/ggag295",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Hui Gao, Xinming Wu, Jintao Li, Xiaoming Sun, Jiarun Yang",
-        "keyPoints": [
-          "Seismic stratigraphic interpretation of shelf-edge clinothems is essential for revealing tectonic evolution, paleoclimate change, depositional dynamic conditions and hydrocarbon generation and accumulation during basin filling."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag295",
-        "topic": "Crustal Deformation and Tectonics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-08",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag295/70556247/ggag295.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Analytical expressions of gravitational field and its vertical gradient generated by two-dimensional and three-dimensional frustum with a quadratic density distribution",
-        "doi": "10.1093/gji/ggag312",
-        "interestTags": [],
-        "authors": "Huan Xu, He Tang, Shuang Yi, Yi Zeng, Chao Dong",
-        "keyPoints": [
-          "Advances in high-precision gravimetric instrumentation have significantly improved the quality of gravity data and increased the need for refined theoretical modelling of local gravitational fields."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag312",
-        "topic": "Gravity Field and Geodesy",
-        "region": "Global / method-focused",
-        "method": "Gravity-field analysis and geophysical modeling",
-        "onlineDate": "2026-08-08",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag312/70556245/ggag312.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Simultaneous spectral induced polarization and X-ray µCT imaging to investigate pore-scale dynamics and geoelectrical responses during stepwise drainage–imbibition experiment in porous media",
-        "doi": "10.1093/gji/ggag287",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Hamdi Omar, Flore Rembert, Tom Bultreys, Sojwal Manoorkar, Frédéric Nguyen, David Caterina, Thomas Hermans",
-        "keyPoints": [
-          "Understanding the interplay between pore-scale fluid distribution and bulk electrical properties is critical to improving petrophysical models of partially saturated porous media."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag287",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-06",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag287/70512015/ggag287.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Seismic noise recorded by the Formosa Array",
-        "doi": "10.1093/gji/ggag313",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Mei Chien, Alan Levander, Po-Fei Chen",
-        "keyPoints": [
-          "Seismic ambient noise records continuous ground motion from ocean waves, weather and human activity, and is increasingly exploited for imaging and monitoring."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag313",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Taiwan",
-        "method": "Ambient-noise and distributed-acoustic-sensing analysis",
-        "onlineDate": "2026-08-05",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag313/70496533/ggag313.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Physics based broad-band ground motion synthetics of deadliest 1993 <i>M</i> W 6.2 Latur (India) earthquake to elucidate physical phenomenon behind various unresolved issues",
-        "doi": "10.1093/gji/ggag304",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Priyanka Verma, J P Narayan, Sameer Malik, M L Sharma",
-        "keyPoints": [
-          "The paper presents the physics-based broad-band (0–10 Hz) near-fault ground motion synthetics of the 1993 (Mw 6.2) Latur (India) earthquake to elucidate the unresolved issues related to this deadliest stable continental region earthqua"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag304",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Latur, India",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-05",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag304/70500816/ggag304.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "The influence of variations in prior information and design criteria on optimal designs of seismic source location surveys",
-        "doi": "10.1093/gji/ggag301",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Dominik Strutz, Tjeerd Kiers, Cédric Schmelzbach, Hansruedi Maurer, Andrew Curtis",
-        "keyPoints": [
-          "Survey-design tests quantify how prior information and design criteria affect seismic source-location network performance."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag301",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-03",
-        "volume": "247",
-        "issueNumber": "1",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag301/70473514/ggag301.pdf",
-        "pdfLinkSource": "collector"
-      }
-    ]
-  },
-  {
-    "id": "cee-2026-08-10",
-    "date": "2026-08-20",
-    "journal": "Communications Earth & Environment",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-20)",
-    "issueDate": "2026-08-10",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Mechanoradical hydrogen generation during seismic slip in an active fault zone",
-        "doi": "10.1038/s43247-026-03912-2",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Yun Ya Ling, Li-Wei Kuo, Kuo-Fong Ma, Wen-Jie Wu",
-        "keyPoints": [
-          "Fault-core mineralogy and microstructures from Taiwan provide field evidence consistent with mechanoradical hydrogen generation during seismic shearing."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-03912-2",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Taiwan",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-10"
-      }
-    ]
-  },
-  {
-    "id": "nature-communications-v17-i1-2026-08-07",
-    "date": "2026-08-10",
-    "journal": "Nature Communications",
-    "issue": "Volume 17, Issue 1",
-    "issueDate": "2026-08-07",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Melt burst events in a dominantly amagmatic lithosphere at Gakkel Ridge in the Arctic Ocean",
-        "doi": "10.1038/s41467-026-76409-3",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Fei Zhou, Ingo Grevemeyer, Jérôme Dyment",
-        "keyPoints": [
-          "Alternation of magmatic and amagmatic seafloor along the slow and ultraslow spreading ridges is common."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76409-3",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Gakkel Ridge, Arctic Ocean",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-07",
-        "volume": "17",
-        "issueNumber": "1",
-        "pdfLink": "https://www.nature.com/articles/s41467-026-76409-3.pdf",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Microseismic monitoring with the quake neural operator",
-        "doi": "10.1038/s41467-026-73965-6",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Hongyu Sun",
-        "keyPoints": [
-          "Microseismic monitoring with the quake neural operator — Accurate monitoring of small-scale seismic events is essential for seismological studies."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-73965-6",
-        "topic": "Microseismic Monitoring",
-        "region": "Global / method-focused",
-        "method": "Deep-learning neural-operator catalog construction from continuous seismic data",
-        "onlineDate": "2026-07-06",
-        "volume": "17",
-        "issueNumber": "1",
-        "pdfLink": "https://www.nature.com/articles/s41467-026-73965-6.pdf",
-        "pdfLinkSource": "collector"
-      }
-    ]
-  },
-  {
-    "id": "srl-2026-08-05",
-    "date": "2026-08-20",
-    "journal": "Seismological Research Letters",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-20)",
-    "issueDate": "2026-08-05",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "TL-BiRNN-Pick: An End-to-End Automated Microseismic Monitoring Framework for Underground Mines via Transfer Learning",
-        "doi": "10.1785/0220260072",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Ping Song, Rui Xu, Kai Zhan, Hao Luo, Jinghua Zhao",
-        "keyPoints": [
-          "Microseismic monitoring is essential for ensuring mine safety, yet the accuracy of P-wave phase picking is often hindered by low signal-to-noise ratios and complex waveforms in mining environments."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260072",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-18",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260072/8155674/srl-2026072.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Dynamic Rupture Process of the 2025 Mw 7.1 Dingri, Tibet, Earthquake: Insights into the Role of Fault Geometry and Stress Heterogeneity",
-        "doi": "10.1785/0220250442",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Zhangdi Xie",
-        "keyPoints": [
-          "The 2025 Mw 7.1 Dingri earthquake provides a rare opportunity to investigate the dynamic rupture behavior of a normal fault within the South Tibetan rift system."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220250442",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tibetan Plateau",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-18",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250442/8155684/srl-2025442.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "DAS Dataset and Processing Results for Microseismic Events Recorded During the 2024 Stimulations at the Utah FORGE Site",
-        "doi": "10.1785/0220250255",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Ismael Vera Rodriguez, Thomas Coleman, David Podrasky, Carlos Maldaner, Yuanyuan Ma, Xiaoyu Zhu, Jonathan Ajo-Franklin",
-        "keyPoints": [
-          "We present a distributed acoustic sensing (DAS) dataset recorded during stimulation operations conducted in April 2024 at the Utah Frontier Observatory for Research in Geothermal Energy (Utah FORGE) site."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220250255",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Utah FORGE, USA",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-18",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250255/8155695/srl-2025255.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "VIDEAT, an Operational System for Rapid Assessment of the Macroseismic Intensity of Earthquakes in Italy, with Estimates of Fatalities and Economic Loss",
-        "doi": "10.1785/0220260206",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Valerio De Rubeis, Patrizia Tosi, Paola Sbarra, Diego Sorrentino",
-        "keyPoints": [
-          "We present Valutazione dell’Impatto e Degli Effetti Attesi del Terremoto—assessment of the impact and expected effects of the earthquake, a system that provides a time-evolving assessment of earthquake effects in Italy in terms of."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260206",
-        "topic": "Earthquake Early Warning and Forecasting",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-13",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260206/8150082/srl-2026206.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Toward Improved Seismic Hazard Analysis Using Spectral Modeling to Estimate the Moment Magnitudes of Small Earthquakes",
-        "doi": "10.1785/0220260173",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Keith D. Koper, Relu Burlacu",
-        "keyPoints": [
-          "Computing magnitudes is a key part of characterizing earthquakes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260173",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-13",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260173/8150069/srl-2026173.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "The Reflectivity Method for Synthetic Seismograms at a Buried Receiver",
-        "doi": "10.1785/0220260001",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Kazuki Koketsu",
-        "keyPoints": [
-          "The reflectivity method for computing synthetic seismograms at the ground surface has been extended to include buried receivers while maintaining computational stability."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260001",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-13",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260001/8150063/srl-2026001.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Digitizer Suite: The Albuquerque Seismological Laboratory Digitizer Testing Suite",
-        "doi": "10.1785/0220260114",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Patrick Bastien, Corey Beutel, Andrew Holcomb, James F. Holland, Aaron Kearns, Edward Kromer, Mairi Litherland, Ian Podmore, Adam T. Ringler",
-        "keyPoints": [
-          "Laboratory testing of digitizers and seismometers helps ensure that, before deployment, the instrumentation can produce high-quality data and is operating within specifications."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260114",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-10",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260114/8148337/srl-2026114.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Deploying the First Regional DAS Seismic Network in a High-Hazard European Region: The Case of Northeastern Italy",
-        "doi": "10.1785/0220260094",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Giuseppe Davide Chiappetta, Valerio Poggi, Paolo Comelli, Stefano Parolai, Andrea Magrin, Enrico Magrin, Alessio Compagno, Simone Galvi, Davide Cuzzolin, Francesco Fabbro, Paolo Perucci, Andrea Buttol, Matteo Picozzi",
-        "keyPoints": [
-          "A regional distributed-acoustic-sensing network demonstrates dense seismic monitoring across northeastern Italy."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260094",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Northeastern Italy",
-        "method": "Ambient-noise and distributed-acoustic-sensing analysis",
-        "onlineDate": "2026-08-10",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260094/8148351/srl-2026094.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "High-Resolution 3D Shallow Crustal Shear-Wave Velocity and Azimuthal Anisotropy Structures in the Middle Segment of Longriba Fault Zone, Eastern Tibetan Plateau",
-        "doi": "10.1785/0220260023",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Zhengjie Zhang, Kai Wang, Lurun Su, Yifang Chen, Jiuhui Chen, Honglin He",
-        "keyPoints": [
-          "The Longriba fault zone (LRBFZ) represents a key tectonic transition zone where the eastward extrusion of the eastern Tibetan plateau is obstructed by the rigid Yangtze block, making it crucial for understanding regional crustal deform"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260023",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Tibetan Plateau",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-07",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260023/8145477/srl-2026023.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Foreshocks and Nucleation Process of the 2018 Ms 4.8 and 5.2 Chengduo Doublet, China",
-        "doi": "10.1785/0220260032",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yipei Tan, Wenzheng Gong, Ting Ma, Li Deng",
-        "keyPoints": [
-          "Foreshocks may offer critical insights into the nucleation process of an upcoming mainshock, yet their underlying physical mechanisms remain a topic of ongoing debate."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220260032",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-07",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260032/8145465/srl-2026032.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "SIN-Polarity: A Novel Algorithm for Automatic Identification of <i>P</i> -Wave First-Motion Polarity Based on a Sine-Wave Template",
-        "doi": "10.1785/0220250396",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Huilian Ma, Jianlong Yuan, Jiashun Yu, Dawei Gao, Shaojie Zhang, Cong Wang, Xinran Fan",
-        "keyPoints": [
-          "SIN-Polarity uses sine-wave templates to automatically identify P-wave first-motion polarity."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220250396",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Southern California",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-05",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250396/8138601/srl-2025396.1.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Attn-Loc: Deep Learning for Microseismic Event Location via Transformer Encoder",
-        "doi": "10.1785/0220250416",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Xingzhi Teng, Jing Zheng, Suping Peng, Yanqing Wu",
-        "keyPoints": [
-          "Microseismic event location is a crucial geophysical monitoring task in engineering applications such as hydraulic fracturing, geothermal development, carbon dioxide geological storage, and mining safety monitoring."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1785/0220250416",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-05",
-        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250416/8138591/srl-2025416.1.pdf",
-        "pdfLinkSource": "collector"
-      }
-    ]
-  },
-  {
-    "id": "nature-communications-2026-08-03",
-    "date": "2026-08-10",
-    "journal": "Nature Communications",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-10)",
+    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+    "issue": "Recent Solid Earth Candidates (2026-08-02 to 2026-08-20)",
     "issueDate": "2026-08-03",
     "title": "Solid Earth Article Brief",
     "source": "",
     "articles": [
       {
-        "title": "Heterogeneous stagnant slab controls focused crustal recycling and volcanic clustering",
-        "doi": "10.1038/s41467-026-76463-x",
+        "title": "An effective 3D inversion algorithm for semi-airborne transient electromagnetic simulation using the Gauss-Newton method based on multi-GPU parallelism",
+        "doi": "10.1109/tgrs.2026.3725240",
         "interestTags": [],
-        "authors": "Sheng Zhu, Yangfan Deng, Yi-Gang Xu, Yun Chen, Zhou Zhang, Hong-Yan Li, Zhong-Hai Li, Shui-Jiong Wang, Xin Wang, Keith Priestley",
+        "authors": "Qi Zhao, Shangbin Liu, Xushan Lu, Huaifeng Sun, Rui Liu, Nuoya Zhang, Zhiyou Gao",
         "keyPoints": [
-          "Receiver-function imaging and joint thermochemical inversion link stagnant-slab heterogeneity beneath Northeast China to focused recycling and volcanic clusters."
+          "An effective 3D inversion algorithm for semi-airborne transient electromagnetic simulation using the Gauss-Newton method based on multi-GPU parallelism"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76463-x",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Northeast China",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-15"
+        "link": "https://doi.org/10.1109/tgrs.2026.3725240",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "An effective 3D inversion algorithm for semi-airborne transient electromagnetic simulation using the Gauss-Newton method based on multi-GPU parallelism",
+        "onlineDate": "2026-08-18"
       },
       {
-        "title": "Focal mechanism variations reveal mechanical controls on segmentation at oceanic transform faults",
-        "doi": "10.1038/s41467-026-76407-5",
+        "title": "Exploring Feasibility of Using Electromagnetic Fields Excited by Overhead AC Transmission Lines to Recover Underground Structures: Insights from Forward Modeling",
+        "doi": "10.1109/tgrs.2026.3724124",
+        "interestTags": [],
+        "authors": "Siwei Zhu, Jianhui Li, Xiangyun Hu",
+        "keyPoints": [
+          "Exploring Feasibility of Using Electromagnetic Fields Excited by Overhead AC Transmission Lines to Recover Underground Structures: Insights from Forward Modeling"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3724124",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Exploring Feasibility of Using Electromagnetic Fields Excited by Overhead AC Transmission Lines to Recover Underground Structures: Insights from Forward Modeling",
+        "onlineDate": "2026-08-14"
+      },
+      {
+        "title": "A Solid Seismic Wavefield Simulation Method Based on the Elastic Multiple-relaxation-time Lattice Boltzmann Model",
+        "doi": "10.1109/tgrs.2026.3723870",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Chuntao Jiang, Hui Zhou, Hong Liu, Yong Zeng, Zhonghui Yan, Jiajia Yang, Jiangxin Chen",
+        "keyPoints": [
+          "A Solid Seismic Wavefield Simulation Method Based on the Elastic Multiple-relaxation-time Lattice Boltzmann Model"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3723870",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "A Solid Seismic Wavefield Simulation Method Based on the Elastic Multiple-relaxation-time Lattice Boltzmann Model",
+        "onlineDate": "2026-08-14"
+      },
+      {
+        "title": "Efficient Three-Dimensional Electroseismic Modeling Based on CNCSU-FDTD and Wavefield Decomposition",
+        "doi": "10.1109/tgrs.2026.3723712",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Xinyuan Li, Xuejiao Zhao, Li Han, Yibing Yu, Yanju Ji",
+        "keyPoints": [
+          "Efficient Three-Dimensional Electroseismic Modeling Based on CNCSU-FDTD and Wavefield Decomposition"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3723712",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Efficient Three-Dimensional Electroseismic Modeling Based on CNCSU-FDTD and Wavefield Decomposition",
+        "onlineDate": "2026-08-13"
+      },
+      {
+        "title": "Physics Prior Constrained ResUNet-BiMamba Network for Pre-stack AVO Inversion",
+        "doi": "10.1109/tgrs.2026.3723091",
         "interestTags": [
           "Seismology",
           "Crustal Deformation"
         ],
-        "authors": "Fengzhou Tan, Wenyuan Fan, Peter M. Shearer, Mark D. Behn, Jeffrey J. McGuire",
+        "authors": "Yingzi Huang, Dongyong Zhou, Junyi Liao, Sihao Zhou, Xiaotao Wen",
         "keyPoints": [
-          "Oceanic transform faults (OTFs) exhibit concurrent slip behaviors, with creep and characteristic earthquakes on localized patches."
+          "Physics Prior Constrained ResUNet-BiMamba Network for Pre-stack AVO Inversion"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76407-5",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Gofar transform fault, East Pacific Rise",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-15"
-      },
-      {
-        "title": "Depletion of davemaoite in Earth’s ambient lower mantle",
-        "doi": "10.1038/s41467-026-76943-0",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Ming Hao, Motohiko Murakami, Pinku Saha, Nicolas Guignot",
-        "keyPoints": [
-          "The mineralogy of the Earth’s lower mantle is fundamental to understanding the planet’s formation, composition, evolution, and dynamics."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76943-0",
-        "topic": "Volcanology and Magma Dynamics",
+        "link": "https://doi.org/10.1109/tgrs.2026.3723091",
+        "topic": "Seismic Imaging and Inversion",
         "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-15"
-      },
-      {
-        "title": "Geophysical evidence of a nearly dry bridgmanite in the Earth’s lower mantle",
-        "doi": "10.1038/s41467-026-76621-1",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Yoshiyuki Okuda, Kenji Ohta, Chris E. Mohn, Yu Nishihara, Goru Takaichi, Saori Kawaguchi-Imada, Hirokazu Kadobayashi, Kei Hirose",
-        "keyPoints": [
-          "Water in Earth’s mantle plays a crucial role in shaping geological and geochemical processes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76621-1",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
+        "method": "Physics Prior Constrained ResUNet-BiMamba Network for Pre-stack AVO Inversion",
         "onlineDate": "2026-08-12"
       },
       {
-        "title": "Secular change in orogenic duration reveals alternating tectonic regimes during the Archaean-Proterozoic",
-        "doi": "10.1038/s41467-026-76530-3",
+        "title": "Enhancing Electrical Resistivity Tomography Detection of Landslide Structures through Multi-Source Geological Constraints",
+        "doi": "10.1109/tgrs.2026.3723153",
         "interestTags": [
           "Crustal Deformation"
         ],
-        "authors": "Lei Zou, Guangyu Huang, Jinghui Guo, Peter A. Cawood, Jia-Hui Liu, Pinghua Liu, Shujuan Jiao, Xiao-Ping Xia, Huijuan Li, Jun-Bo Zhang, Meiyun Huang, Lifei Zhang, Guochun Zhao",
+        "authors": "Fan Li, Kai Lu, Guangtian Niu, Peng Wang, Zhenyu Li",
         "keyPoints": [
-          "Geological constraints and modelling results reveal major yet poorly understood changes in Earth’s tectonic regimes during the late Archaean and Proterozoic."
+          "Enhancing Electrical Resistivity Tomography Detection of Landslide Structures through Multi-Source Geological Constraints"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76530-3",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
+        "link": "https://doi.org/10.1109/tgrs.2026.3723153",
+        "topic": "Electromagnetic and Electrical Imaging",
         "region": "Global / method-focused",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-11"
+        "method": "Enhancing Electrical Resistivity Tomography Detection of Landslide Structures through Multi-Source Geological Constraints",
+        "onlineDate": "2026-08-12"
       },
       {
-        "title": "Performance and user response of android’s smartphone-based alerts in the 2025 Marmara Ereğlisi earthquake",
-        "doi": "10.1038/s41467-026-76413-7",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "S. Mostafa Mousavi, Patrick Robertson, Richard M. Allen, Alexei Barski, Robert Bosch, Nivetha Thiruverahan, Youngmin Cho, Tajinder Gadh, Steve Malkos, Boone Spooner, Greg Wimpey, Edward Shi, Marc Stogaitis",
-        "keyPoints": [
-          "Evaluation of Android earthquake alerts for the 2025 Marmara Ereğlisi event quantifies detection speed, warning time, accuracy, and user response."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76413-7",
-        "topic": "Earthquake Early Warning and Forecasting",
-        "region": "Marmara Ereğlisi, Türkiye",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-11"
-      },
-      {
-        "title": "Sustained ash emission during lava effusion is a hidden volcanic hazard of silicic eruptions",
-        "doi": "10.1038/s41467-026-76464-w",
+        "title": "An ω-k Migration Algorithm for Pseudo-Random-Coded Ground Penetrating Radar Considering Signal Nonlinear Phase and Bandwidth Properties",
+        "doi": "10.1109/tgrs.2026.3721105",
         "interestTags": [],
-        "authors": "Jingwei Zhang, Hugh Tuffen, Fabian B. Wadsworth, Jamie I. Farquharson, Holly E. Unwin, Alastair G. E. Hodgetts, Thomas J. Aubry, Maciej W. Farbicki, Dave McGarvie, Daníel Freyr Sigurbjargarson",
+        "authors": "Shinan Lang, Jiaqi Li, Shidong Li, Bo Zhao, Xiaojun Liu",
         "keyPoints": [
-          "Volcanic ash poses diverse and widespread hazards."
+          "An ω-k Migration Algorithm for Pseudo-Random-Coded Ground Penetrating Radar Considering Signal Nonlinear Phase and Bandwidth Properties"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76464-w",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Iceland",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-08"
+        "link": "https://doi.org/10.1109/tgrs.2026.3721105",
+        "topic": "Ground-Penetrating Radar Imaging",
+        "region": "Global / method-focused",
+        "method": "An ω-k Migration Algorithm for Pseudo-Random-Coded Ground Penetrating Radar Considering Signal Nonlinear Phase and Bandwidth Properties",
+        "onlineDate": "2026-08-11"
       },
       {
-        "title": "Select earthquake forecasting models demonstrate consistency with prospective decadal observations in California",
-        "doi": "10.1038/s41467-026-76243-7",
+        "title": "Three-Dimensional Transient Electromagnetic Modeling Using Rational Chebyshev Approximation",
+        "doi": "10.1109/tgrs.2026.3721644",
+        "interestTags": [],
+        "authors": "Yan Dong, Jingyu Gao, Handong Tan, Stefan Guttel, Shuai Shao, Changhong Lin",
+        "keyPoints": [
+          "Three-Dimensional Transient Electromagnetic Modeling Using Rational Chebyshev Approximation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3721644",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Three-Dimensional Transient Electromagnetic Modeling Using Rational Chebyshev Approximation",
+        "onlineDate": "2026-08-07"
+      },
+      {
+        "title": "InSAR and Closure Phase Errors due to the Along-Track Ionospheric Variations within the Synthetic Aperture",
+        "doi": "10.1109/tgrs.2026.3721702",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Fan Yang, Yuhang Wang, Cunren Liang, Kunyi Chen",
+        "keyPoints": [
+          "Along-track ionospheric variability produces measurable InSAR and closure-phase errors"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3721702",
+        "topic": "Ionospheric Effects in InSAR",
+        "region": "Global / method-focused",
+        "method": "TEC Taylor expansion, matched-filter analysis, simulation, and real-data validation",
+        "onlineDate": "2026-08-07"
+      },
+      {
+        "title": "Eigenvector-Rectified Analytic Directional Structure Tensor for Seismic Data Discontinuity Detection",
+        "doi": "10.1109/tgrs.2026.3720202",
         "interestTags": [
           "Seismology"
         ],
-        "authors": "José A. Bayona, Francesco Serafini, Fábio Silva, Pablo Iturrieta, William H. Savran, Marcus Herrmann, Warner Marzocchi, Philip J. Maechling, Maximilian J. Werner",
+        "authors": "Zicheng Wang, Jianguo Song, Yufei Su, Zhanpeng Zhao, Jiayu Shi, Ziyao Zhang",
         "keyPoints": [
-          "Earthquake forecasting systems are now operationalized by agencies in several countries, providing situational awareness to at-risk communities."
+          "Eigenvector-Rectified Analytic Directional Structure Tensor for Seismic Data Discontinuity Detection"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76243-7",
-        "topic": "Earthquake Early Warning and Forecasting",
-        "region": "California",
-        "method": "Laboratory experiments and physical-property measurements",
+        "link": "https://doi.org/10.1109/tgrs.2026.3720202",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Eigenvector-Rectified Analytic Directional Structure Tensor for Seismic Data Discontinuity Detection",
         "onlineDate": "2026-08-06"
       },
       {
-        "title": "Seismic evidence for lower-mantle heat supply beneath the Cordilleran slab window in western Canada",
-        "doi": "10.1038/s41467-026-76194-z",
+        "title": "Dual-branch seismic inversion via learnable time-to-depth mapping for structurally guided detail recovery",
+        "doi": "10.1109/tgrs.2026.3720793",
         "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
+          "Seismology"
         ],
-        "authors": "Quan Zhang, Pascal Audet, Cong Ji, Clément Estève",
+        "authors": "Qiong Xu, Fan Min, Shulin Pan, Yu Sun, Guojie Song, Yi-Fan Wang",
         "keyPoints": [
-          "Receiver functions and mineral-physics constraints indicate that a western Canadian slab window channels lower-mantle heat into the upper mantle and lithosphere."
+          "Dual-branch seismic inversion via learnable time-to-depth mapping for structurally guided detail recovery"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76194-z",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Western Canada",
-        "method": "Receiver-function imaging and interpretation",
+        "link": "https://doi.org/10.1109/tgrs.2026.3720793",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Dual-branch seismic inversion via learnable time-to-depth mapping for structurally guided detail recovery",
+        "onlineDate": "2026-08-06"
+      },
+      {
+        "title": "A Multi-Modal Seismic Attenuation Compensation Based on Shallow-Dominant Attenuation Collaborative Mapping",
+        "doi": "10.1109/tgrs.2026.3720655",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Yuqian Zong, Yanwu Xu, Chunmei Luo, Shangxu Wang, Sanyi Yuan",
+        "keyPoints": [
+          "A Multi-Modal Seismic Attenuation Compensation Based on Shallow-Dominant Attenuation Collaborative Mapping"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3720655",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "A Multi-Modal Seismic Attenuation Compensation Based on Shallow-Dominant Attenuation Collaborative Mapping",
+        "onlineDate": "2026-08-06"
+      },
+      {
+        "title": "Real-Time Microseismic Event Location with Latent Diffusion Models",
+        "doi": "10.1109/tgrs.2026.3718892",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Yuanyuan Yang, Omar M. Saad, Tariq Alkhalifah",
+        "keyPoints": [
+          "Real-Time Microseismic Event Location with Latent Diffusion Models"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3718892",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Real-Time Microseismic Event Location with Latent Diffusion Models",
         "onlineDate": "2026-08-03"
       }
     ]
   },
   {
-    "id": "gji-2026-08-03",
-    "date": "2026-08-20",
-    "journal": "Geophysical Journal International",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-20)",
-    "issueDate": "2026-08-03",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Paleo- and Neo-Tethyan subducted slabs beneath the Eastern Mediterranean region",
-        "doi": "10.1093/gji/ggag329",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Douwe J J van Hinsbergen, Derya Gürer, Douwe G van der Meer, Wim Spakman",
-        "keyPoints": [
-          "The Alpine-Himalayan orogen preserves geological remnants of subducted lithosphere from the Paleotethys and Neotethys oceans and intervening microcontinents."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag329",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Tibetan Plateau",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-19",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag329/70703309/ggag329.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Equivalent-current inversion to account for infrastructure-related effects in semi-airborne electromagnetic data",
-        "doi": "10.1093/gji/ggag330",
-        "interestTags": [],
-        "authors": "H Treppke, M Becken, R Rochlitz",
-        "keyPoints": [
-          "Equivalent-current inversion accounts for infrastructure-related distortions in semi-airborne electromagnetic data."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag330",
-        "topic": "Electromagnetic Geophysics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-19",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag330/70703300/ggag330.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Effects of Pore Structure Evolution on Elastic Wave Velocities and Permeability of Tight Sandstones under Pressure",
-        "doi": "10.1093/gji/ggag328",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone"
-        ],
-        "authors": "Xi Qing, Baode Ren, Genyang Tang, Jun Yu, Shangxu Wang, Guohua Wei, Minlong Li",
-        "keyPoints": [
-          "Permeability is a critical parameter for reservoir characterization and hydrocarbon development, yet its accurate prediction remains a challenge."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag328",
-        "topic": "Rock Physics and Rheology",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-19",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag328/70703278/ggag328.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "A Novel Three-Observation-Link Satellite Formation for Enhanced Temporal Gravity Field Recovery",
-        "doi": "10.1093/gji/ggag327",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Tiantian Qing, Hao Zhou, Yaozong Li, Shuyun Zheng, Mingyang Xia, Zhicai Luo, Zebing Zhou",
-        "keyPoints": [
-          "Satellite formation configuration plays a crucial role in formulating the next generation gravity mission aiming at improving the accuracy and spatiotemporal resolution of Earth’s gravity field modeling."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag327",
-        "topic": "Gravity Field and Geodesy",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-18",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag327/70684986/ggag327.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "The Spatio-Temporal Behavior of the Sensitivity of Geophysical Time-Domain Electromagnetics",
-        "doi": "10.1093/gji/ggag324",
-        "interestTags": [],
-        "authors": "Klaus Spitzer, Mathias Scheunert, Jana Börner, Matthias Hort",
-        "keyPoints": [
-          "In this paper, we derive and compare two approaches for computing the three-dimensional sensitivity of time-domain electromagnetic (TEM) data with respect to subsurface electrical conductivity: the convolutional adjoint state meth."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag324",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Iceland",
-        "method": "Electromagnetic forward modeling and inversion",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag324/70665654/ggag324.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Testing a multi-station deep learning seismic phase picker trained on surface array data in a high frequency downhole setting",
-        "doi": "10.1093/gji/ggag326",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "H J Burnett, C S Y Lim, M J Werner, J P Verdon",
-        "keyPoints": [
-          "A surface-array-trained multi-station deep phase picker is tested on high-frequency downhole induced-seismicity data."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag326",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag326/70665649/ggag326.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Seismic Wave Amplification in the Gilan and Qazvin Thick Sedimentary Basins, Northern Iran",
-        "doi": "10.1093/gji/ggag319",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Maryam Akbarzadeh-Aghdam, Abdolreza Ghods, Mohammad Enayat, Khalil Motaghi",
-        "keyPoints": [
-          "Waveform analysis resolves amplification across the thick Gilan sedimentary basin and adjacent northern Iran."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag319",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Northern Iran",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag319/70665657/ggag319.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Enhanced source discrimination between tectonic earthquakes and quarry blasts via a hybrid CNN-GNN trained with multiple stations",
-        "doi": "10.1093/gji/ggag322",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Yun Zhang, Jun Zhu, Xihai Li, Xiaoniu Zeng",
-        "keyPoints": [
-          "Accurate seismic event discrimination has significant scientific and societal implications."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag322",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag322/70665630/ggag322.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Detection and characterization of Earth’s interior signals in geodetic data using blind source separation methods",
-        "doi": "10.1093/gji/ggag325",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Olivier de Viron, Michel Van Camp, Nicolas Sidére",
-        "keyPoints": [
-          "We assess the potential of blind source separation (BSS) methods to recover signals originating from Earth’s interior, using synthetic tests and satellite gravimetry data."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag325",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Gravity-field analysis and geophysical modeling",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag325/70665621/ggag325.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Crustal and upper mantle model of the Middle East based on full-waveform inversion",
-        "doi": "10.1093/gji/ggag323",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Rıdvan Örsvuran, Ebru Bozdağ, Daniel Peter, Andrea Chiang, Rengin Gök, Yahya M Tarabulsi, Ahmed Hosny, Khalid Yousef, Abdullah Mousa",
-        "keyPoints": [
-          "We present MEAD-M20 (Middle East ADjoint-Model20), a new tomographic model of the Middle East and its surrounding regions, including Anatolia, Iran, and the Caucasus."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag323",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Middle East",
-        "method": "Full-waveform inversion and numerical wavefield modeling",
-        "onlineDate": "2026-08-17",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag323/70665677/ggag323.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Wavefield Separation and Signal Enhancement in the Stockwell Transform Domain and Applications to Local and Regional Seismic Data",
-        "doi": "10.1093/gji/ggag320",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Rigobert Tibi",
-        "keyPoints": [
-          "Stockwell-domain wavefield separation improves signal enhancement in local and regional seismic data."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag320",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-12",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag320/70621455/ggag320.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Recovery of global marine full-tensor gravity gradients from SWOT wide-swath altimetry",
-        "doi": "10.1093/gji/ggag321",
-        "interestTags": [],
-        "authors": "Nengfang Chao, Junhui Li, Cheinway Hwang, Shaofeng Bian, Xiaoli Deng, Gang Chen, Zheng Liu",
-        "keyPoints": [
-          "Global marine full-tensor gravity-gradient (FTGG) products with sufficient spatial resolution to characterize fine-scale oceanic gravity-field structures remain limited."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag321",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Global / method-focused",
-        "method": "Gravity-field analysis and geophysical modeling",
-        "onlineDate": "2026-08-12",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag321/70621454/ggag321.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Bayesian full waveform inversion using the shifted ordinary differential equation method with underdamped Langevin Markov chain Monte Carlo",
-        "doi": "10.1093/gji/ggag318",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Shuang Wang, Xiangbo Gong, Qiao Cheng, Guangshuai Peng",
-        "keyPoints": [
-          "Full waveform inversion (FWI) is a powerful tool for constructing high-resolution subsurface models but remains fundamentally ill-posed due to sparse and noisy data, modeling errors, and the severe nonlinearity of the forward modeling."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag318",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Full-waveform inversion and numerical wavefield modeling",
-        "onlineDate": "2026-08-12",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag318/70621458/ggag318.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Seismic clusters under the Maladeta massif in the central Pyrénées",
-        "doi": "10.1093/gji/ggag315",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Jean Letort, Matthieu Sylvander, Albert Macau, Pierre Lacan, Maria Ortuño, Agathe Rouille, Bertrand Delouis, Alexis Rigo, Juvenal Andres, Sara Figueras, Anna Gabàs, Fabian Bellmunt, Anna Echeverria, Meritxell Reazo, Helene Pauchet, Frank Grimaud, Sebastien Benahmed, Pauliana Courbier, Jonathan Jung, Maël Boussange",
-        "keyPoints": [
-          "The North Maladeta fault system, reactivated after the Alpine orogeny as a normal fault (Ortuño et al., 2008; Ortuño and Viaplana-Muzas, 2018) extends for almost 75 km across the border between Spain and France."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag315",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Central Pyrenees",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-11",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag315/70611239/ggag315.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Thermal conductivity anisotropy of EBSD-resolved rock fabrics: multiscale homogenization of texture and microstructure",
-        "doi": "10.1093/gji/ggag309",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Senthil S Vel, Scott E Johnson, Won Joon Song",
-        "keyPoints": [
-          "Thermal conductivity anisotropy influences heat flow in the crust, yet predicting it from rock fabric remains difficult because the effective conductivity of a polycrystalline rock depends not only on mineral thermal properties an."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag309",
-        "topic": "Crustal Deformation and Tectonics",
-        "region": "Global / method-focused",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-08",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag309/70556241/ggag309.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Deep Learning-based Seismic Reflectivity Estimation by Pre-training on Labeled Synthetic Data and Physics-guided Fine-tuning in Field Data",
-        "doi": "10.1093/gji/ggag317",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yuting Wang, Jintao Li, Xiaoming Sun, Xinming Wu",
-        "keyPoints": [
-          "Reflectivity estimation aims to enhance the resolution of seismic data, providing crucial support for the detailed inversion of reservoir parameters."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag317",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-08",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag317/70556234/ggag317.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Single Fault Earthquake Cycle Complexity",
-        "doi": "10.1093/gji/ggag316",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Huiwen Sun, Thorsten W Becker",
-        "keyPoints": [
-          "Mechanical modeling with rate-and-state friction identifies transitions between periodic and irregular earthquake cycles on a single fault."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag316",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-06",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag316/70512033/ggag316.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "The stress pattern and slip tendency in the Tibetan Plateau and adjacent regions under a new active-tectonic block framework",
-        "doi": "10.1093/gji/ggag311",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yangyang Diao, Zhengyang Pan, Zhigang Shao, Wuxing Wang, Meiyi Li, Meixuan Hao",
-        "keyPoints": [
-          "In 2024, China Earthquake Administration developed the Active Block 2.0 model for the Tibetan Plateau."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag311",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tibetan Plateau",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-05",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag311/70496477/ggag311.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Reciprocal analysis and error quantification of fullwave Time-Domain electrical resistivity and Induced Polarization measurements",
-        "doi": "10.1093/gji/ggag307",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "M Rossi, T Dahlin",
-        "keyPoints": [
-          "Measurement errors play a critical role in the reliability of geophysical imaging techniques, particularly in ill-posed and bad conditioned problems such as Electrical Resistivity Tomography (ERT)."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag307",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-03",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag307/70470616/ggag307.pdf",
-        "pdfLinkSource": "collector"
-      },
-      {
-        "title": "Joint body- and surface-wave transdimensional Monte Carlo imaging of upper mantle anisotropy",
-        "doi": "10.1093/gji/ggag310",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "G Del Piccolo, J S Byrnes, J B Gaherty, B P VanderBeek, M Faccenda, A Morelli",
-        "keyPoints": [
-          "Seismic body and surface waves provide complimentary sensitivities to isotropic and anisotropic elastic properties of Earth’s upper mantle."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1093/gji/ggag310",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-03",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag310/70473516/ggag310.pdf",
-        "pdfLinkSource": "collector"
-      }
-    ]
-  },
-  {
     "id": "jgr-solid-earth-v131-i8-2026-08-01",
-    "date": "2026-08-20",
+    "date": "2026-08-01",
     "journal": "Journal of Geophysical Research: Solid Earth",
     "issue": "Volume 131, Issue 8",
     "issueDate": "2026-08-01",
     "title": "Solid Earth Article Brief",
     "source": "",
     "articles": [
-      {
-        "title": "Plate Divergence at the Krafla Volcanic System, Iceland: Insight From GNSS Geodesy and Sentinel‐1 Satellite Radar Interferometry in 2002–2024",
-        "doi": "10.1029/2026jb034040",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yilin Yang, Freysteinn Sigmundsson, Halldór Geirsson, Juliet Biggs, Vincent Drouin, Josefa Sepúlveda‐Araya, Sigrún Hreinsdóttir, Chiara Lanzi, Joachim Gottsmann, Taco Broerse, Sandra Verhagen",
-        "keyPoints": [
-          "The Krafla volcanic system in Iceland, a subaerial segment of the divergent boundary between the North American and Eurasian plates, offers a unique opportunity to investigate volcano‐tectonic processes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb034040",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Iceland",
-        "method": "Satellite geodesy and deformation modeling",
-        "onlineDate": "2026-08-19",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034040",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Temporal Changes in the Earth's Outer Core From Nuclear‐Test PKP Waves",
-        "doi": "10.1029/2026jb033798",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Ying Zhou",
-        "keyPoints": [
-          "We investigate temporal changes in P‐wave velocity in the outer core using short‐period PKP waves generated by underground nuclear tests conducted in French Polynesia and recorded at seismic station BRVK in Kazakhstan."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033798",
-        "topic": "Seismology and Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-18",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033798",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Quantifying Crustal Seismic Attenuation Across Continental China: A Comprehensive Coda‐Wave Tomography From Ambient Noise Correlations",
-        "doi": "10.1029/2026jb034338",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yuanlei Zhang, Wei Wang, Juan Li, Xiao Xiao, Ji Zhang, Li Sun, Huajian Yao",
-        "keyPoints": [
-          "Ambient noise cross‐correlation has emerged as a key technique in low‐frequency seismology, enabling coda‐attenuation measurements at frequencies difficult to access with traditional earthquake‐based approaches, especially in regi."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb034338",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Continental China",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-18",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034338",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Impact of Heterogeneous Mantle Viscosity on the Glacial Isostatic Adjustment Correction for GRACE(‐FO): Implications for Surface Mass Trends",
-        "doi": "10.1029/2026jb033791",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "E. Hightower, L. Caron, F. Landerer, M. Watkins, E. Ivins, E. Larour",
-        "keyPoints": [
-          "Accurate interpretation of time‐variable gravity from GRACE (‐FO) requires correction for glacial isostatic adjustment (GIA), which has a gravitational signal similar in magnitude to that of contemporary hydrological and cryospheric ma"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033791",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Antarctica",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-17",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033791",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "The Overprint of Transient Rheology on Laterally Heterogeneous Viscosity: Influences on Sea‐Level Change Driven by Antarctic Ice Sheet Loss",
-        "doi": "10.1029/2026jb033961",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Harriet C. P. Lau, Allie N. Coonin, Frederick D. Richards, Konstantin Latychev",
-        "keyPoints": [
-          "Through bedrock deformation, solid Earth dynamics (specifically, glacial isostatic adjustment or GIA) influences ice sheet mass balance, especially for marine‐based ice sheets like the West Antarctic ice sheet (WAIS)."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033961",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Antarctica",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-16",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033961",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Bathymetry Prediction With SWOT Gravity Anomaly Using Machine Learning Methods: Paper 2—Model Evaluation and Uncertainty Analysis",
-        "doi": "10.1029/2025jb033502",
-        "interestTags": [],
-        "authors": "Bjarke Nilsson, Benjamin J. Phrampus, Farshad Salajegheh, Biao Lu, Yao Yu, David Sandwell, Ole B. Andersen, Walter H. F. Smith, Paul Elmore, Jonathan F. Kirby, Luis Altamirano",
-        "keyPoints": [
-          "Despite millions of ship soundings, bathymetry from satellite derived gravity is still necessary to fill in approximately three quarters of the global oceans."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033502",
-        "topic": "Gravity Field and Geodesy",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-16",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033502",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Bathymetry Prediction With SWOT Gravity Anomaly Using Machine Learning Methods: Paper 1–Model Development",
-        "doi": "10.1029/2025jb032798",
-        "interestTags": [],
-        "authors": "David Sandwell, Benjamin J. Phrampus, Farshad Salajegheh, Bjarke Nilsson, Biao Lu, Yao Yu, Hugh Harper, Ole B. Andersen, Walter Smith, Paul Elmore, Jonathan Kirby, James Beale, Jamie Roberts, Luis Altamirano",
-        "keyPoints": [
-          "Only one quarter of the global ocean floor has been directly surveyed; the remaining three quarters are inferred from satellite altimeter‐derived gravity data using techniques developed in the 1990s."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb032798",
-        "topic": "Gravity Field and Geodesy",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
-        "onlineDate": "2026-08-16",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032798",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Kinematics and Dynamics of Normal Faults in Southern Tibet: Insights From the 2025 Mw 7.1 Dingri Earthquake",
-        "doi": "10.1029/2025jb033666",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Haicheng Xiong, Yanchuan Li, Xinjian Shan, Zhenjie Wang, Yingfeng Zhang, Zhaowu Guo, Chenglong Li, Renqi Lu, Jun Hua, Chunyan Qu",
-        "keyPoints": [
-          "Normal faults in southern Tibet have long suffered from limited ground‐based seismic and geodetic observations, constraining our understanding of both interseismic and coseismic processes and their interactions."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033666",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tibetan Plateau",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-14",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033666",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Dynamic Evolution of Forearc Subsidence Controlled by Slab Geometry",
-        "doi": "10.1029/2026jb033850",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "F. Bolrão, W. P. Schellart",
-        "keyPoints": [
-          "Several subduction zones worldwide present an enigmatic forearc topography and strain characterized by extension at a forearc ridge near the trench and shortening within a forearc valley located between the ridge and the magmatic arc."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033850",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-13",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033850",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Crustal Shortening Mechanism Near the Central Altyn Tagh Fault in Northern Tibet",
-        "doi": "10.1029/2026jb034178",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Zhiqiang Li, You Tian, Dapeng Zhao, Dong Yan, Xuan Feng",
-        "keyPoints": [
-          "The Altyn Tagh Fault, as the northern edge of the Tibetan Plateau, is crucial for understanding the plateau evolution and continental convergence processes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb034178",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Tibetan Plateau",
-        "method": "Receiver-function imaging and interpretation",
-        "onlineDate": "2026-08-13",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034178",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Multi‐Scale Spatial Variations in Pacific Mantle Seismic Anisotropy: Constraints on Plate Evolution and Asthenospheric Flow",
-        "doi": "10.1029/2025jb033545",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Joseph H. Phillips, James B. Gaherty, Joshua B. Russell, Zachary C. Eilon, Donald W. Forsyth, Joseph S. Byrnes",
-        "keyPoints": [
-          "We present array‐scale (∼500 × 500 km) anisotropic shear‐velocity models from two Pacific ocean‐bottom seismometer (OBS) arrays of the OBS Research in the Convecting Asthenosphere (ORCA) experiment: Young ORCA (∼43 Ma) and Old ORCA (∼9"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033545",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Pacific mantle",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-12",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033545",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Lithospheric Rheology in Southern California Derived From Novel Observations of Lake Unloading",
-        "doi": "10.1029/2025jb032924",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "R. Thicklin, D. T. Sandwell, Y. Bock, K. Luttrell, A. P. Young",
-        "keyPoints": [
-          "Recent Lake Cahuilla has undergone repeated filling and drying cycles over the past millennium, resulting in lithospheric and mantle loading responses."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb032924",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Southern California",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-12",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032924",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Curie Point Depth Distribution in the Tibetan Plateau Based on Wavelet Analysis and Bayesian Inversion of Newly Compiled Aeromagnetic Anomaly Data",
-        "doi": "10.1029/2025jb033612",
-        "interestTags": [],
-        "authors": "Xin Zhang, Jinsong Du, Chi‐Chia Tang, Pan Zhang, Ying Liu",
-        "keyPoints": [
-          "The Tibetan Plateau and its surrounding regions are characterized by pronounced structural complexity and active tectonics, yet a high‐resolution map of Curie point depth (CPD) remains lacking."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033612",
-        "topic": "Geomagnetism and Geodynamo",
-        "region": "Tibetan Plateau",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-12",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033612",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Along‐Strike Variations in Sub‐Arc Melting Beneath the Alaska Peninsula Revealed by P‐Wave Attenuation",
-        "doi": "10.1029/2026jb033769",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Zhuoran Zhang, S. Shawn Wei, Yurong Riley Zhang, Fan Wang, Dongdong Tian",
-        "keyPoints": [
-          "The diverse volcanic activity in the Alaska Peninsula section of the Alaska‐Aleutian subduction zone is presumably caused by substantial variations in mantle wedge melting or trans‐crustal processes beneath the arc."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033769",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Alaska Peninsula",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-12",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033769",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "The 2024 Mw4.8 New Jersey Intraplate Earthquake: Preferential Rupture of an Immature Fault in Frictionally Unstable Basement Rocks",
-        "doi": "10.1029/2025jb033723",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "F. Kolawole, E. Beaucé, Z. Foster‐Baril, M. Colet, L. Seeber, J. Tielke, A. Prakash, W. Y. Kim, R. Ajala, C. McCarthy, F. Waldhauser",
-        "keyPoints": [
-          "Intraplate regions commonly host energetic earthquakes on less‐prominent faults, raising questions on how fault structure may influence intraplate seismogenesis."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033723",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "New Jersey, USA",
-        "method": "Laboratory experiments and physical-property measurements",
-        "onlineDate": "2026-08-11",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033723",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Modeling Vertical Size Sorting in Geophysical Granular Flows: Role of Particle Size Compositions",
-        "doi": "10.1029/2026jb034408",
-        "interestTags": [],
-        "authors": "Kahlil Fredrick E. Cui, Gordon G. D. Zhou, Juan Carlos A. Graciosa, Lu Jing, Xueqiang Lu, Giulia Bossi, Louis Moresi",
-        "keyPoints": [
-          "Vertical size sorting in geophysical mass flows, arising from the competition of size segregation and diffusive remixing, is controlled by particle size composition and the properties of the interstitial fluid."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb034408",
-        "topic": "Rock Physics and Rheology",
-        "region": "Global / method-focused",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-11",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034408",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Imaging Near‐Surface Bedrock Fracturing and Fluid Pathways Using Seismic Attenuation and Velocity From Viscoacoustic Full‐Waveform Inversion of Refraction Data",
-        "doi": "10.1029/2025jb033491",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Donggeon Kim, Guangchi Xing, Tieyuan Zhu",
-        "keyPoints": [
-          "Seismic attenuation provides sensitivity to fracture density, fluid saturation, and pore geometry that complements velocity, enabling quantitative imaging of fracture architecture and associated fluid‐pathways in near‐surface bedrock."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033491",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Full-waveform inversion and numerical wavefield modeling",
-        "onlineDate": "2026-08-11",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033491",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Bayesian Inference of Fault Slip Heterogeneity and Overlap: Application to 2019 Ridgecrest Earthquakes and Afterslip",
-        "doi": "10.1029/2025jb033686",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Xiong Zhao, Junle Jiang",
-        "keyPoints": [
-          "Fault slip occurs in both seismic and aseismic styles with spatial variability across scales, yet non‐unique source inference limits our ability to resolve slip complexity and dynamics."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033686",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Ridgecrest, California",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-11",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033686",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Subsurface Lithologic Controls on Off‐Fault Deformation and Multi‐Fault Slip During the 2016 Mw 6.5 Norcia Earthquake Revealed by Satellite Geodesy",
-        "doi": "10.1029/2025jb032653",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Mathilde Marchandon, James Hollingsworth, Louise Maubant, Anne Socquet, Erwan Pathier, Mathilde Radiguet, Alice‐Agnes Gabriel",
-        "keyPoints": [
-          "Understanding the mechanisms controlling deformation localization is crucial for our understanding of fault mechanics and improving seismic hazard assessment, but has not been extensively studied for normal‐faulting earthquakes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb032653",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Norcia, Italy",
-        "method": "Satellite geodesy and deformation modeling",
-        "onlineDate": "2026-08-10",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032653",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Material Circulation, Arc Rifting and Back‐Arc Spreading Promoted by Deep Mantle Upwelling in Izu‐Bonin‐Mariana",
-        "doi": "10.1029/2025jb033662",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Lijuan She, Jianke Fan, Dapeng Zhao, Cuilin Li, Xiaoyang Wu, Dongdong Dong, Mei Xue",
-        "keyPoints": [
-          "Arc rifting and back‐arc spreading reflect complex interactions between deep Earth processes and surface tectonics, playing a fundamental role in understanding oceanic crust formation, material circulation, and Earth's habitability."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033662",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Izu-Bonin-Mariana",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-10",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033662",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Pressurization of Shallow Magma Reservoir Preceding Basaltic Eruptions at an Open‐Vent Volcano",
-        "doi": "10.1029/2025jb032373",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "A. Ishikawa, T. Nishimura, G. Lacanna, H. Aoyama, R. Kawaguchi, E. Fujita, T. Yamada, T. Miwa, M. Ripepe",
-        "keyPoints": [
-          "Open‐vent volcanoes are characterized by the persistent activity of outgassing, lava effusion and mild explosions, which is, however, occasionally interrupted by more violent explosive activity (paroxysm), for example, Stromboli (Italy"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb032373",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Global / method-focused",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-07",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032373",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "High‐Resolution Imaging of Lithosphere‐Asthenosphere Structure in Northeast China Using Eikonal Tomography With Physics‐Informed Deep Learning",
-        "doi": "10.1029/2025jb033724",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Xinyuan Cui, You Tian, Chao Song, Honghao Li, Umair bin Waheed, Cai Liu",
-        "keyPoints": [
-          "In this study, we develop a 3D S‐wave velocity model extending to 120 km depth beneath Northeast China, featuring high resolution for the crust and uppermost mantle, based on physics‐informed neural network framework for eikonal tomogr"
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033724",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Northeast China",
-        "method": "Seismic tomography and structural interpretation",
-        "onlineDate": "2026-08-07",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033724",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Two Distinct Growth Styles of Riedel Shear Zones in Cratonic Strike‐Slip Fault System, Tarim Basin, NW China",
-        "doi": "10.1029/2026jb033965",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Jiajun Chen, Zhanfeng Qiao, Tianfu Zhang, Uwe Ring, Shaoying Chang, Peng Cao, Mengxiu Wang, Yifan Du",
-        "keyPoints": [
-          "The kinematics and progressive evolution of Riedel shear zones have been extensively studied, yet the factors controlling their distinct evolutionary styles in natural settings remain debated."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033965",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tarim Basin, China",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-05",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033965",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Time Dependence of Multiple Geomagnetic Surface Intensity Minima",
-        "doi": "10.1029/2026jb033955",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Yaochen Yue, Filipe Terra‐Nova, Hagay Amit, Victor Marum, Yuqi Wang, Yong Wei",
-        "keyPoints": [
-          "The present‐day geomagnetic field is characterized by a region of weak intensity over the South Atlantic, known as the South Atlantic Anomaly (SAA)."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033955",
-        "topic": "Geomagnetism and Geodynamo",
-        "region": "Global / method-focused",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-04",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033955",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Three‐Dimensional Structure of the Los Angeles Basin and Its Underlying Moho",
-        "doi": "10.1029/2026jb033837",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Valeria Villa, Robert W. Clayton",
-        "keyPoints": [
-          "The sedimentary basin beneath the city of Los Angeles and surrounding area intensifies seismic ground motions and prolongs the duration of shaking experienced by major population centers and infrastructure in Southern California."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb033837",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Los Angeles Basin",
-        "method": "Receiver-function imaging and interpretation",
-        "onlineDate": "2026-08-04",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033837",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Imaging Active Fault Zones in the Deep Tonga Slab",
-        "doi": "10.1029/2025jb033217",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone",
-          "Crustal Deformation"
-        ],
-        "authors": "Adrea Williams, Douglas A. Wiens, Farzaneh Aziz Zanjani, Eric A. Bergman, S. Shawn Wei",
-        "keyPoints": [
-          "Two‐thirds of global deep earthquakes occur within the subducting Tonga slab, making it an ideal setting to investigate slab deformation at transition zone depths, and to gain insights into the rupture mechanisms of deep earthquakes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033217",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tonga",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-04",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033217",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Reappraisal of Holocene Caldera Resurgence at Campi Flegrei (Southern Italy): A Long‐Lived Magma‐Driven Resurgent Dome System",
-        "doi": "10.1029/2025jb033576",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Jacopo Natale, Stefano Vitale",
-        "keyPoints": [
-          "Caldera systems commonly experience inner resurgence, which shapes patterns of volcanic activity."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb033576",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Campi Flegrei, Italy",
-        "method": "Integrated analysis of verified observations and physical models",
-        "onlineDate": "2026-08-03",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033576",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
-      {
-        "title": "Seismic Characteristics of the Gas Hydrate System in the Mackenzie Trough of the Canadian Beaufort Sea, Arctic Ocean",
-        "doi": "10.1029/2026jb034470",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "Yeonjin Choi, Young Keun Jin, Michael Riedel, Jong Kuk Hong, Mathieu J. Duchesne, Sung‐Ryul Shin, Wookeen Chung, Seung‐Goo Kang",
-        "keyPoints": [
-          "We present a comprehensive seismic characterization of the gas hydrate system in the outer continental shelf of the Mackenzie Trough, Canadian Beaufort Sea, based on recently acquired multichannel seismic (MCS) data, P‐wave veloci."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2026jb034470",
-        "topic": "Rock Physics and Rheology",
-        "region": "Mackenzie Trough, Arctic Canada",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-02",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034470",
-        "pdfLinkSource": "collector",
-        "updated": true
-      },
       {
         "title": "Thermochemical Controls on the X, 410, and 660 Discontinuities in the Central Mediterranean",
         "doi": "10.1029/2025jb033542",
@@ -2019,41 +337,18 @@ const reports = [
         ],
         "authors": "Luciana Bonatto, Stephen Monna, Caterina Montuori, Claudia Piromallo, Vernon Cormier",
         "keyPoints": [
-          "The mantle beneath the Central Mediterranean is thermally and compositionally heterogeneous, as indicated by fragmented and locally stagnant slabs in tomographic images and HIMU‐like anorogenic magmatism."
+          "Thermochemical Controls on the X, 410, and 660 Discontinuities in the Central Mediterranean — The mantle beneath the Central Mediterranean is thermally and compositionally heterogeneous, as indicated by fragmented and locally stagnant slabs"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1029/2025jb033542",
-        "topic": "Seismic Imaging and Earth Structure",
-        "region": "Global / method-focused",
-        "method": "Receiver-function imaging and interpretation",
+        "topic": "Mantle Discontinuities and Thermochemistry",
+        "region": "Central Mediterranean",
+        "method": "Teleseismic P-receiver-function analysis of mantle discontinuities",
         "onlineDate": "2026-08-01",
         "volume": "131",
         "issueNumber": "8",
         "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033542",
         "pdfLinkSource": "collector"
-      },
-      {
-        "title": "New 2010 Maule Aftershock Catalog Reveals Structure of the Deep Subduction Interface",
-        "doi": "10.1029/2025jb032839",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
-        "authors": "C. Chalumeau, A. Rietbrock",
-        "keyPoints": [
-          "On 27 February 2010, a Mw 8.8 earthquake occurred near Maule in south‐central Chile."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1029/2025jb032839",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Maule, Chile",
-        "method": "Earthquake catalog and focal-mechanism analysis",
-        "onlineDate": "2026-08-01",
-        "volume": "131",
-        "issueNumber": "8",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032839",
-        "pdfLinkSource": "collector",
-        "updated": true
       },
       {
         "title": "Extraction of Stable Empirical Green's Functions From Short‐Duration Ambient Noise Using a Physics‐Constrained Self‐Supervised Network",
@@ -2064,13 +359,13 @@ const reports = [
         ],
         "authors": "Guiqi Fan, Yifan Yu, Tao Wang, Anrui Wei",
         "keyPoints": [
-          "Ambient noise interferometry is a key seismological method that extracts stable empirical Green's functions (EGFs) from seismic noise for subsurface imaging without requiring earthquakes."
+          "Extraction of Stable Empirical Green's Functions From Short‐Duration Ambient Noise Using a Physics‐Constrained Self‐Supervised Network — Ambient noise interferometry is a key seismological method that extracts stable empirical Green's funct"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1029/2026jb033827",
-        "topic": "Earthquake and Fault Mechanics",
+        "topic": "Ambient-Noise Interferometry",
         "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
+        "method": "Physics-constrained self-supervised recovery of empirical Green functions",
         "onlineDate": "2026-08-01",
         "volume": "131",
         "issueNumber": "8",
@@ -2085,17 +380,38 @@ const reports = [
         ],
         "authors": "Ulrich Faul",
         "keyPoints": [
-          "Transmission electron microscopy imaging of dislocations in olivine indicates heterogeneous structures and diversity of dislocation types."
+          "Dislocation Bands and Subboundaries in Experimentally Deformed Olivine — Transmission electron microscopy imaging of dislocations in olivine indicates heterogeneous structures and diversity of dislocation types."
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1029/2025jb033737",
-        "topic": "Crustal Deformation and Tectonics",
+        "topic": "Olivine Deformation and Mantle Rheology",
         "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
+        "method": "Electron backscatter diffraction mapping of experimentally deformed olivine",
         "onlineDate": "2026-08-01",
         "volume": "131",
         "issueNumber": "8",
         "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033737",
+        "pdfLinkSource": "collector"
+      },
+      {
+        "title": "Independent Component Analysis (ICA) as a Superior Atmospheric Correction Method for InSAR Time Series",
+        "doi": "10.1029/2025jb032632",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "M. Gaddes, A. Hooper, S. Ebmeier",
+        "keyPoints": [
+          "Independent Component Analysis (ICA) as a Superior Atmospheric Correction Method for InSAR Time Series — Satellites such as the European Space Agency's Sentinel‐1 constellation allow for the creation of unprecedented volumes of Interferomet"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1029/2025jb032632",
+        "topic": "InSAR Atmospheric Correction",
+        "region": "Vesuvius, Italy",
+        "method": "Independent-component analysis of atmospheric signals in InSAR time series",
+        "onlineDate": "2026-07-30",
+        "volume": "131",
+        "issueNumber": "8",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032632",
         "pdfLinkSource": "collector"
       },
       {
@@ -2189,9 +505,9 @@ const reports = [
   },
   {
     "id": "epsl-v687-2026-08-01",
-    "date": "2026-08-20",
+    "date": "2026-08-01",
     "journal": "Earth and Planetary Science Letters",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-20)",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
     "issueDate": "2026-08-01",
     "title": "Solid Earth Article Brief",
     "source": "",
@@ -2205,29 +521,13 @@ const reports = [
         ],
         "authors": "Yuyang Wang, Yang Wang, Chris K. Morley, Boris J.P. Kaus, Jianfeng Yang, Ya Cui, Jinjiang Zhang, Peizhen Zhang",
         "keyPoints": [
-          "Three-dimensional thermo-mechanical models link hot Moho conditions, strain localization, and buoyancy to deep crustal exhumation in southeastern Tibet."
+          "Thermal weakening and strain localization enable deep crustal exhumation in southeastern Tibet"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120076",
-        "topic": "Crustal Deformation and Tectonics",
-        "region": "Tibetan Plateau",
-        "method": "Numerical geodynamic and mechanical modeling",
-        "onlineDate": "2026-08-01",
-        "volume": "687"
-      },
-      {
-        "title": "Thermally buffered remnant melts sustain explosivity after caldera collapse: Cryptotephra evidence from Aira, Japan",
-        "doi": "10.1016/j.epsl.2026.120093",
-        "interestTags": [],
-        "authors": "Xuan-Yu Chen, Yi-Gang Xu, Xiao-Long Huang, Ji-Hoon Kim, Shuang Yan, Peng-Li He, Myong-Ho Park, Jong-Hwa Chun",
-        "keyPoints": [
-          "Marine cryptotephra records show that isolated residual melts sustained explosive eruptions for millennia after collapse of Aira caldera."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1016/j.epsl.2026.120093",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Aira caldera, Japan",
-        "method": "Integrated analysis of verified observations and physical models",
+        "topic": "Crustal Rheology and Exhumation",
+        "region": "Southeastern Tibetan Plateau",
+        "method": "3D visco-elasto-plastic numerical modeling",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
@@ -2239,31 +539,13 @@ const reports = [
         ],
         "authors": "Zhenghong Song, Xiangfang Zeng, Herbert F. Wang, He Tang, Sidao Ni, Jiangcun Zhou, Ruyu Yan, Qingwen Liu, Tengfei Xu",
         "keyPoints": [
-          "Ambient-noise interferometry on a decommissioned seafloor cable resolves hourly seismic-velocity changes driven mainly by tides and pore pressure."
+          "Submarine fiber sensing tracks tide- and pore-pressure-driven seafloor velocity changes"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120077",
-        "topic": "Rock Physics and Rheology",
-        "region": "Global / method-focused",
-        "method": "Seismic waveform analysis and physical modeling",
-        "onlineDate": "2026-08-01",
-        "volume": "687"
-      },
-      {
-        "title": "Ordovician Reversed Superchron: Fact or Fallacy?",
-        "doi": "10.1016/j.epsl.2026.120071",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Nastaran Ahanin, Stuart A. Gilder, Jan Ove R. Ebbestad, Sophie Roud, Fabian Dellefant, Bjarne S.G. Almqvist, Yury Zablotski",
-        "keyPoints": [
-          "Paleomagnetic records and reversal-duration statistics support a distinct Ordovician reversed superchron and constrain its termination."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1016/j.epsl.2026.120071",
-        "topic": "Geomagnetism and Geodynamo",
-        "region": "Global / method-focused",
-        "method": "Paleomagnetic and magnetostratigraphic analysis",
+        "topic": "Marine Sediment Seismology",
+        "region": "Yellow River Delta, Bohai Sea",
+        "method": "Fiber-optic ambient-noise interferometry and Scholte-wave dispersion",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
@@ -2271,35 +553,34 @@ const reports = [
         "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
         "doi": "10.1016/j.epsl.2026.120091",
         "interestTags": [
-          "Seismology"
+          "Seismology",
+          "Fault Damage Zone"
         ],
         "authors": "Ying Huang, Muao Shen, Fengming Shen, Lifeng Wang, Peixun Liu, Shengli Ma",
         "keyPoints": [
-          "Random-forest analysis of acoustic emissions identifies spatially decaying preseismic signals during repeated laboratory earthquake cycles."
+          "Machine learning isolates a spatially decaying preseismic phase in laboratory earthquakes"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120091",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Machine-learning analysis of geophysical observations",
+        "topic": "Laboratory Earthquake Precursors",
+        "region": "Global / laboratory analog",
+        "method": "Random-forest classification of acoustic-emission waveforms",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
       {
         "title": "Linking deep-time magmatism to present-day lithospheric architecture through integrating geochemical mapping, geophysical observation, and phase equilibrium modeling",
         "doi": "10.1016/j.epsl.2026.120072",
-        "interestTags": [
-          "Seismology"
-        ],
+        "interestTags": [],
         "authors": "He Huang, Tao Wang, Daniel Gómez-Frutos, Antonio Castro, Hua Xiang, Xuewei Bao, Xiaosan Zhu, Jiyuan Yin, Yannan Wang, Xuxuan Ma, Zhenyu He",
         "keyPoints": [
-          "Integrated isotopic mapping, gravity, seismic velocity, and phase-equilibrium modeling connect ancient magmatism to modern West Tianshan lithospheric structure."
+          "Deep-time magmatism explains present-day geochemical and geophysical lithospheric domains"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120072",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "West Tianshan",
-        "method": "Gravity-field analysis and geophysical modeling",
+        "topic": "Lithospheric Architecture",
+        "region": "Western Central Asian Orogenic Belt",
+        "method": "Geochemical mapping, gravity and Vs analysis, and phase-equilibrium modeling",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
@@ -2312,31 +593,13 @@ const reports = [
         ],
         "authors": "Yapei Ye, Wen Yang, Jian Xu, Junlun Li, Renqi Lu, Hongyu Yu, Chang Guo, Yingwen Zhao, Haijiang Zhang, Ryan Schultz",
         "keyPoints": [
-          "Seismic, InSAR, reflection, and geomechanical observations show how injected fluids initiated and sustained a multi-fault earthquake cascade in Sichuan."
+          "Migrating injected fluids trigger, prepare, and sustain a multi-fault earthquake cascade"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120092",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Sichuan Basin, China",
-        "method": "Satellite geodesy and deformation modeling",
-        "onlineDate": "2026-08-01",
-        "volume": "687"
-      },
-      {
-        "title": "Geodynamic controls on the habitable basement of shallow coral reefs at rifted continental margins",
-        "doi": "10.1016/j.epsl.2026.120073",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Zhibin Lei, Shaohong Xia, Sascha Brune, Michaël Pons, Chenglong Zhang, Tao Gou, Changrong Zhang, Chaoyan Fan",
-        "keyPoints": [
-          "Coupled thermo-mechanical and surface-process models quantify how rifting and margin evolution create shallow habitable basement for coral reefs."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1016/j.epsl.2026.120073",
-        "topic": "Mantle Dynamics and Lithospheric Structure",
-        "region": "Global / method-focused",
-        "method": "Numerical geodynamic and mechanical modeling",
+        "topic": "Induced Seismicity",
+        "region": "Changning, Sichuan Basin, China",
+        "method": "Dense seismology, 3D reflection imaging, InSAR, and geomechanical modeling",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
@@ -2346,13 +609,13 @@ const reports = [
         "interestTags": [],
         "authors": "T. Frasson, N. Schaeffer, H.-C. Nataf, S. Labrosse",
         "keyPoints": [
-          "Numerical geodynamo simulations test how realistic core-mantle boundary heat-flux patterns destabilize the magnetic dipole and alter reversal behavior."
+          "Realistic core-mantle boundary heat flux patterns modulate geomagnetic dipole stability"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120089",
-        "topic": "Geomagnetism and Geodynamo",
-        "region": "Global / method-focused",
-        "method": "Numerical geodynamic and mechanical modeling",
+        "topic": "Geodynamo Dynamics",
+        "region": "Earth's core–mantle boundary",
+        "method": "Numerical dynamo simulations with mantle-derived heat-flux patterns",
         "onlineDate": "2026-08-01",
         "volume": "687"
       },
@@ -2361,17 +624,18 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120060",
         "interestTags": [
           "Seismology",
+          "Fault Damage Zone",
           "Crustal Deformation"
         ],
         "authors": "P. Dublanchet, F.X. Passelégue, H. Chauris, A. Gesret, C. Noël",
         "keyPoints": [
-          "Local strain inversion in triaxial granite experiments images quasi-static preslip preceding repeated laboratory earthquakes."
+          "Laboratory earthquake nucleation evolves with cumulative slip and fault memory"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120060",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
+        "topic": "Earthquake Nucleation",
+        "region": "Global / laboratory analog",
+        "method": "Triaxial granite experiments with local-strain inversion",
         "onlineDate": "2026-08-01",
         "volume": "687"
       }
@@ -2379,9 +643,9 @@ const reports = [
   },
   {
     "id": "epsl-v688-2026-08-01",
-    "date": "2026-08-20",
+    "date": "2026-08-01",
     "journal": "Earth and Planetary Science Letters",
-    "issue": "Recent Solid Earth Candidates (2026-08-01 to 2026-08-20)",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
     "issueDate": "2026-08-01",
     "title": "Solid Earth Article Brief",
     "source": "",
@@ -2392,13 +656,13 @@ const reports = [
         "interestTags": [],
         "authors": "Fabrizio Di Fiore, Alessio Pontesilli, Giacomo Pozzi, Gianmarco Buono, Laura Calabrò, Silvio Mollo, Lucia Pappalardo, Piergiorgio Scarlato, Claudia Romano, Jacopo Taddeucci, Alessandro Vona",
         "keyPoints": [
-          "Rheometry and microstructural analysis of Etna basalt show that shear accelerates crystallization and can drive magma toward brittle failure."
+          "Shear accelerates basalt crystallization and can drive rapid magma solidification"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120116",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
+        "topic": "Magma Rheology",
+        "region": "Mt. Etna, Italy",
+        "method": "High-temperature rheometry, texture analysis, and EBSD",
         "onlineDate": "2026-08-01",
         "volume": "688"
       },
@@ -2410,32 +674,29 @@ const reports = [
         ],
         "authors": "Yuanyuan Hua, Dapeng Zhao, Yang Yu, Yi-Gang Xu, Xiao-Long Huang",
         "keyPoints": [
-          "Joint isotropic and anisotropic P-wave tomography links slab interaction and toroidal mantle flow to the curved Calabrian subduction zone."
+          "Toroidal mantle flow and differential slab rollback shape the curved Calabrian subduction zone"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120112",
-        "topic": "Seismic Imaging and Earth Structure",
+        "topic": "Subduction-Zone Dynamics",
         "region": "Calabrian subduction zone",
-        "method": "Seismic tomography and structural interpretation",
+        "method": "Joint isotropic and anisotropic P-wave tomography",
         "onlineDate": "2026-08-01",
         "volume": "688"
       },
       {
         "title": "Local and regional tectonic controls on spatial patterns of erosion rate and topography in the Three Rivers Region, southeastern Tibetan Plateau",
         "doi": "10.1016/j.epsl.2026.120099",
-        "interestTags": [
-          "Seismology",
-          "Crustal Deformation"
-        ],
+        "interestTags": [],
         "authors": "Xianjun Fang, Sean D. Willett, Rong Yang, Dirk Scherler, Negar Haghipour, Marcus Christl",
         "keyPoints": [
-          "Cosmogenic erosion rates, channel steepness, and geodetic constraints reveal local fault and regional tectonic controls on southeastern Tibetan topography."
+          "Erosion and channel steepness reveal local fault geometry and regional indentation patterns"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120099",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Tibetan Plateau",
-        "method": "Integrated analysis of verified observations and physical models",
+        "topic": "Tectonic Geomorphology",
+        "region": "Three Rivers Region, southeastern Tibetan Plateau",
+        "method": "Channel-steepness analysis and cosmogenic 10Be erosion rates",
         "onlineDate": "2026-08-01",
         "volume": "688"
       },
@@ -2448,33 +709,61 @@ const reports = [
         ],
         "authors": "Nico Bigaroni, Fabio Trippetta, Corentin Noël, Carolina Giorgetti, Cristiano Collettini",
         "keyPoints": [
-          "Triaxial sandstone experiments show that high differential stress and low effective pressure jointly produce extreme fault-zone Vp/Vs ratios."
+          "Vp/Vs evolution reflects combined tectonic differential stress and near-lithostatic fluid pressure"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120090",
-        "topic": "Earthquake and Fault Mechanics",
-        "region": "Global / method-focused",
-        "method": "Laboratory experiments and physical-property measurements",
+        "topic": "Fault Mechanics and Seismic Velocity",
+        "region": "Global / laboratory analog",
+        "method": "Fluid-pressurized triaxial experiments with ultrasonic monitoring",
         "onlineDate": "2026-08-01",
         "volume": "688"
       },
       {
         "title": "Does hydrothermal cooling cause an extremely thick lithosphere at a nearly- amagmatic ultraslow-spreading ridge?",
         "doi": "10.1016/j.epsl.2026.120111",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
+        "interestTags": [],
         "authors": "Pingchuan Tan, Jiabiao Li, Jie Chen, Zhiteng Yu, Chunyang Wang",
         "keyPoints": [
-          "Thermo-gravity modeling constrains lithospheric thickness and the limited contribution of hydrothermal cooling at an ultraslow Southwest Indian Ridge segment."
+          "Hydrothermal cooling adds only limited thickness to ultraslow-spreading ridge lithosphere"
         ],
         "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120111",
-        "topic": "Volcanology and Magma Dynamics",
-        "region": "Southwest Indian Ridge",
-        "method": "Gravity-field analysis and geophysical modeling",
+        "topic": "Oceanic Lithosphere Accretion",
+        "region": "Southwest Indian Ridge, 13–14°E",
+        "method": "Coupled hydrothermal-convection and gravity modeling",
         "onlineDate": "2026-08-01",
         "volume": "688"
+      }
+    ]
+  },
+  {
+    "id": "pnas-v123-i30-2026-07-28",
+    "date": "2026-08-01",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issue": "Volume 123, Issue 30",
+    "issueDate": "2026-07-28",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Radial gradient of superionic hydrogen in the Earth’s inner core",
+        "doi": "10.1073/pnas.2604621123",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Zepeng Wu, Liangrui Wei, Chen Gao, Shunqing Wu, Renata M. Wentzcovitch, Yang Sun",
+        "keyPoints": [
+          "Radial gradient of superionic hydrogen in the Earth’s inner core — Hydrogen is considered a key light element in Earth’s core, yet the thermodynamics of its superionic phase and its distribution in the inner core remain unclear."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1073/pnas.2604621123",
+        "topic": "Earth's Inner Core",
+        "region": "Earth's inner core",
+        "method": "Mineral-physics analysis of the radial distribution of superionic hydrogen",
+        "onlineDate": "2026-07-21",
+        "volume": "123",
+        "issueNumber": "30"
       }
     ]
   },
@@ -2648,6 +937,101 @@ const reports = [
         "issueNumber": "14"
       },
       {
+        "title": "Residual Magnetization Accumulation Enables Rapid Pre‐Polarized Surface NMR Groundwater Detection",
+        "journal": "Geophysical Research Letters",
+        "publicationLabel": "Volume 53, Issue 14",
+        "publicationDate": "2026-07-28",
+        "topic": "Groundwater Geophysics",
+        "region": "Global / method-focused",
+        "method": "Surface NMR theory, forward simulation, and groundwater field testing",
+        "interestTags": [],
+        "authors": "Xing Gao, Tingting Lin, Yujing Yang, Hanqing Zhao",
+        "keyPoints": [
+          "Residual magnetization enables rapid pre-polarized surface NMR groundwater detection"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-18",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1029/2026gl122951",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122951",
+        "pdfLinkSource": "collector",
+        "doi": "10.1029/2026gl122951",
+        "volume": "53",
+        "issueNumber": "14"
+      },
+      {
+        "title": "Least‐Resistance Path as a Proxy for Efficient Simulation of Solute Transport in Heterogeneous Porous Media",
+        "journal": "Geophysical Research Letters",
+        "publicationLabel": "Volume 53, Issue 14",
+        "publicationDate": "2026-07-28",
+        "topic": "Subsurface Solute Transport",
+        "region": "Global / method-focused",
+        "method": "Fractional-Brownian conductivity simulation and flow-path analysis",
+        "interestTags": [],
+        "authors": "Binhao Li, Felipe P. J. de Barros, Muhammad Sahimi",
+        "keyPoints": [
+          "Least-resistance paths efficiently approximate fastest solute transport in heterogeneous porous media"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-18",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1029/2026gl124085",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124085",
+        "pdfLinkSource": "collector",
+        "doi": "10.1029/2026gl124085",
+        "volume": "53",
+        "issueNumber": "14"
+      },
+      {
+        "title": "Advancing Aquifer Characterization Through the Integration of Satellite Geodesy, Geomechanics, and Bayesian Inference",
+        "journal": "Geophysical Research Letters",
+        "publicationLabel": "Volume 53, Issue 14",
+        "publicationDate": "2026-07-28",
+        "topic": "Geodetic Aquifer Deformation",
+        "region": "Nevada, USA",
+        "method": "Bayesian poroelastic inversion of InSAR and GPS surface deformation",
+        "interestTags": [
+          "Fault Damage Zone",
+          "Crustal Deformation"
+        ],
+        "authors": "Amal Alghamdi, Marc A. Hesse, Jingyi Chen, Omar Ghattas",
+        "keyPoints": [
+          "Advancing Aquifer Characterization Through the Integration of Satellite Geodesy, Geomechanics, and Bayesian Inference — Unsustainable rates of groundwater (GW) depletion make GW management a priority."
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-18",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1029/2025gl117023",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL117023",
+        "pdfLinkSource": "collector",
+        "doi": "10.1029/2025gl117023",
+        "volume": "53",
+        "issueNumber": "14"
+      },
+      {
+        "title": "Fracture–Matrix Flow Partitioning Governs Retention Regime Transitions in Unsaturated Fractured Rock",
+        "journal": "Geophysical Research Letters",
+        "publicationLabel": "Volume 53, Issue 14",
+        "publicationDate": "2026-07-28",
+        "topic": "Fractured-Rock Hydrology",
+        "region": "Global / method-focused",
+        "method": "3D direct numerical simulation and analytical retention modeling",
+        "interestTags": [],
+        "authors": "M. A. Pratama, C. Jiang, M. Ziegler, Q. Lei",
+        "keyPoints": [
+          "Fracture–matrix flow partitioning controls retention-regime transitions in unsaturated rock"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-17",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1029/2026gl123310",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123310",
+        "pdfLinkSource": "collector",
+        "doi": "10.1029/2026gl123310",
+        "volume": "53",
+        "issueNumber": "14"
+      },
+      {
         "title": "Linking Interseismic Locking to Coseismic Rupture: The 2025 M <sub>w</sub> 8.8 Kamchatka Earthquake",
         "journal": "Geophysical Research Letters",
         "publicationLabel": "Volume 53, Issue 14",
@@ -2672,6 +1056,28 @@ const reports = [
         "doi": "10.1029/2026gl121826",
         "volume": "53",
         "issueNumber": "14"
+      },
+      {
+        "title": "Investigating Meter‐Scale Wavefield Complexity and Amplification at the Basin Edge With a Fiber‐Optic Array",
+        "doi": "10.1029/2025gl119492",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "J. Atterholt, A. J. Barbour, J. J. McGuire, M. P. Moschetti",
+        "keyPoints": [
+          "Investigating Meter‐Scale Wavefield Complexity and Amplification at the Basin Edge With a Fiber‐Optic Array — Edges of sedimentary basins generate complex seismic wavefield effects and localized amplification."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1029/2025gl119492",
+        "topic": "Seismic Basin-Edge Effects",
+        "region": "Arcata, California",
+        "method": "Distributed acoustic sensing and shallow velocity modeling",
+        "onlineDate": "2026-07-15",
+        "volume": "53",
+        "issueNumber": "14",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL119492",
+        "pdfLinkSource": "collector"
       },
       {
         "title": "Discrepancy in Satellite Altimetry Products Hinders Robust Retrieval of GIA Signals From Bedrock GNSS Data in Greenland",
@@ -2875,137 +1281,6 @@ const reports = [
     ]
   },
   {
-    "id": "nature-communications-2026-07-25",
-    "date": "2026-08-01",
-    "journal": "Nature Communications",
-    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
-    "issueDate": "2026-07-25",
-    "title": "Solid Earth Article Brief",
-    "source": "",
-    "articles": [
-      {
-        "title": "Sharp structural variability of the Gorda slab imaged by a fiber array",
-        "doi": "10.1038/s41467-026-76002-8",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "James Atterholt, Jeffrey J. McGuire, Andrew J. Barbour, Morgan P. Moschetti",
-        "keyPoints": [
-          "Sharp structural variability of the Gorda slab imaged by a fiber array — Structural variability at the subduction interface imposes stress and strength heterogeneity that affects the behavior of megathrust earthquakes."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-76002-8",
-        "topic": "Subduction Interface Structure",
-        "region": "Gorda slab, northern California",
-        "method": "Fiber-optic DAS imaging of converted phases from intraslab earthquakes",
-        "onlineDate": "2026-07-25"
-      }
-    ]
-  },
-  {
-    "id": "grl-solid-earth-2026-07-22",
-    "date": "2026-07-22",
-    "journal": "Geophysical Research Letters",
-    "issue": "Recent Solid Earth Articles (2026-07-01 to 2026-07-22)",
-    "issueDate": "2026-07-22",
-    "title": "Solid Earth Article Brief",
-    "source": "https://api.crossref.org/journals/1944-8007/works",
-    "articles": [
-      {
-        "title": "Residual Magnetization Accumulation Enables Rapid Pre‐Polarized Surface NMR Groundwater Detection",
-        "journal": "Geophysical Research Letters",
-        "publicationLabel": "Volume 53, Issue 14",
-        "publicationDate": "2026-07-28",
-        "topic": "Rock, Fluid, and Reservoir Processes",
-        "region": "Global / method-focused",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Xing Gao, Tingting Lin, Yujing Yang, Hanqing Zhao",
-        "keyPoints": [
-          "Residual Magnetization Accumulation Enables Rapid Pre‐Polarized Surface NMR Groundwater Detection"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-18",
-        "issueDate": "2026-07-22",
-        "link": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026gl122951",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026gl122951",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1029/2026gl122951"
-      },
-      {
-        "title": "Least‐Resistance Path as a Proxy for Efficient Simulation of Solute Transport in Heterogeneous Porous Media",
-        "journal": "Geophysical Research Letters",
-        "publicationLabel": "Volume 53, Issue 14",
-        "publicationDate": "2026-07-28",
-        "topic": "Rock, Fluid, and Reservoir Processes",
-        "region": "Global / method-focused",
-        "method": "Numerical modeling and geophysical interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Binhao Li, Felipe P. J. de Barros, Muhammad Sahimi",
-        "keyPoints": [
-          "Least‐Resistance Path as a Proxy for Efficient Simulation of Solute Transport in Heterogeneous Porous Media"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-18",
-        "issueDate": "2026-07-22",
-        "link": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026gl124085",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026gl124085",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1029/2026gl124085"
-      },
-      {
-        "title": "Advancing Aquifer Characterization Through the Integration of Satellite Geodesy, Geomechanics, and Bayesian Inference",
-        "journal": "Geophysical Research Letters",
-        "publicationLabel": "Volume 53, Issue 14",
-        "publicationDate": "2026-07-28",
-        "topic": "Geodesy and Crustal Deformation",
-        "region": "Global / method-focused",
-        "method": "Geodetic analysis using GNSS/GPS observations and deformation modeling",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Amal Alghamdi, Marc A. Hesse, Jingyi Chen, Omar Ghattas",
-        "keyPoints": [
-          "Advancing Aquifer Characterization Through the Integration of Satellite Geodesy, Geomechanics, and Bayesian Inference"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-18",
-        "issueDate": "2026-07-22",
-        "link": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025gl117023",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025gl117023",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1029/2025gl117023"
-      },
-      {
-        "title": "Fracture–Matrix Flow Partitioning Governs Retention Regime Transitions in Unsaturated Fractured Rock",
-        "journal": "Geophysical Research Letters",
-        "publicationLabel": "Volume 53, Issue 14",
-        "publicationDate": "2026-07-28",
-        "topic": "Rock, Fluid, and Reservoir Processes",
-        "region": "Global / method-focused",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "M. A. Pratama, C. Jiang, M. Ziegler, Q. Lei",
-        "keyPoints": [
-          "Fracture–Matrix Flow Partitioning Governs Retention Regime Transitions in Unsaturated Fractured Rock"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-17",
-        "issueDate": "2026-07-22",
-        "link": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026gl123310",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026gl123310",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1029/2026gl123310"
-      }
-    ]
-  },
-  {
     "id": "nature-geoscience-2026-07-20",
     "date": "2026-08-01",
     "journal": "Nature Geoscience",
@@ -3169,6 +1444,27 @@ const reports = [
         "issueNumber": "13"
       },
       {
+        "title": "Cyclic Thermal Shock‐Induced Permeability Enhancement in Tight Lithologies: Microstructural Controls and Elastic‐Wave Monitoring",
+        "doi": "10.1029/2025gl120566",
+        "interestTags": [
+          "Fault Damage Zone"
+        ],
+        "authors": "M. G. Malenda, T. Vanorio",
+        "keyPoints": [
+          "Cyclic Thermal Shock‐Induced Permeability Enhancement in Tight Lithologies: Microstructural Controls and Elastic‐Wave Monitoring — Enhanced geothermal systems rely on increasing permeability and pore surface area in rock."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1029/2025gl120566",
+        "topic": "Geothermal Rock Mechanics",
+        "region": "Global / method-focused",
+        "method": "Cyclic thermal-shock experiments with permeability and elastic-wave monitoring",
+        "onlineDate": "2026-07-06",
+        "volume": "53",
+        "issueNumber": "13",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120566",
+        "pdfLinkSource": "collector"
+      },
+      {
         "title": "Limits of Water Storage in Stishovite at Deep Mantle Conditions",
         "doi": "10.1029/2025gl120078",
         "interestTags": [],
@@ -3204,6 +1500,28 @@ const reports = [
         "volume": "53",
         "issueNumber": "13",
         "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123614",
+        "pdfLinkSource": "collector"
+      },
+      {
+        "title": "Field and Experimental Observations Show Elevated Shear Strength of Active Margin Sediments Requires Processes Beyond Normal Consolidation",
+        "doi": "10.1029/2026gl122842",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Bailey Fitzgerald, Derek E. Sawyer, Julia S. Reece, Wyatt Scott",
+        "keyPoints": [
+          "Field and Experimental Observations Show Elevated Shear Strength of Active Margin Sediments Requires Processes Beyond Normal Consolidation — Near‐seafloor marine sediments on active margins have been shown to be stronger than those on passi"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1029/2026gl122842",
+        "topic": "Active-Margin Sediment Mechanics",
+        "region": "Nankai, Cascadia, and Surveyor Fan",
+        "method": "Resedimentation, oedometer, and undrained shear-strength experiments",
+        "onlineDate": "2026-07-02",
+        "volume": "53",
+        "issueNumber": "13",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122842",
         "pdfLinkSource": "collector"
       },
       {
@@ -3253,77 +1571,33 @@ const reports = [
     ]
   },
   {
-    "id": "cee-2026-07-15",
+    "id": "pnas-v123-i28-2026-07-14",
     "date": "2026-08-01",
-    "journal": "Communications Earth & Environment",
-    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
-    "issueDate": "2026-07-15",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issue": "Volume 123, Issue 28",
+    "issueDate": "2026-07-14",
     "title": "Solid Earth Article Brief",
     "source": "",
     "articles": [
       {
-        "title": "Transcrustal magma ascent beneath Laguna del Maule, Chile",
-        "doi": "10.1038/s43247-026-03863-8",
+        "title": "Asymmetric and intermittent supershear rupture mediated by local fault complexity during the 2025 M W 7.7 Myanmar earthquake",
+        "doi": "10.1073/pnas.2602650123",
         "interestTags": [
           "Seismology",
           "Crustal Deformation"
         ],
-        "authors": "Jim Bradford, Sankha Subhra Mahanti, Eric Kiser, Susan Beck, Martin Fernandez, Sol Trad, Ryan Porter, Sebastian Tauber, Ariane Maharaj, Hannah Howe, Gustavo Federico Ortiz, Mauro Saez",
+        "authors": "Tao Xia, Lingling Ye, Jinlai Hao, Haijun Gao, Thorne Lay, Xiaotian Ding, Zhenxing Yao",
         "keyPoints": [
-          "Transcrustal magma ascent beneath Laguna del Maule, Chile — Arc volcanoes are fed by complex networks of storage zones that extend throughout the crust."
+          "Asymmetric and intermittent supershear rupture mediated by local fault complexity during the 2025 M W 7.7 Myanmar earthquake — We determine the detailed rupture process of the 2025 M W 7.7 Myanmar earthquake by joint inversion of near-fault"
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-03863-8",
-        "topic": "Transcrustal Magma Transport",
-        "region": "Laguna del Maule, Chile",
-        "method": "Seismic imaging and seismicity analysis of crustal magma pathways",
-        "onlineDate": "2026-07-24"
-      },
-      {
-        "title": "Earthquake doublets in subduction zones are an Omori process promoted by megathrust tear fault interaction",
-        "journal": "Communications Earth & Environment",
-        "publicationLabel": "July 2026",
-        "publicationDate": "2026-07-15",
-        "topic": "Seismology and Earthquake Processes",
-        "region": "Global / method-focused",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Seismology"
-        ],
-        "authors": "Yu Jiang, Ross S. Stein, Daniel T. Trugman",
-        "keyPoints": [
-          "Earthquake doublets in subduction zones are an Omori process promoted by megathrust tear fault interaction — Earthquake doublets—nearby events of similar size striking within a short period—have been a seismological puzzle for 50 years."
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-15",
-        "issueDate": "2026-07-22",
-        "link": "https://doi.org/10.1038/s43247-026-03820-5",
-        "pdfLink": "https://www.nature.com/articles/s43247-026-03820-5.pdf",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1038/s43247-026-03820-5"
-      },
-      {
-        "title": "CO2 reactive fracturing creates stress-resistant permeability by coupling fracture generation and chemical roughening",
-        "journal": "Communications Earth & Environment",
-        "publicationLabel": "July 2026",
-        "publicationDate": "2026-07-02",
-        "topic": "Geodesy and Crustal Deformation",
-        "region": "Global / method-focused",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Luis Salalá, Eko Pramudyo, Kevin Ryano, Kazumasa Sueyoshi, Ryota Tamura, Jiajie Wang, Kiyotoshi Sakaguchi, Sho Ogata, Kazumi Osato, Takuya Teraoka, Noriaki Watanabe",
-        "keyPoints": [
-          "CO2 reactive fracturing creates stress-resistant permeability by coupling fracture generation and chemical roughening"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-02",
-        "issueDate": "2026-07-22",
-        "link": "https://doi.org/10.1038/s43247-026-03768-6",
-        "pdfLink": "https://www.nature.com/articles/s43247-026-03768-6.pdf",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1038/s43247-026-03768-6"
+        "link": "https://doi.org/10.1073/pnas.2602650123",
+        "topic": "Earthquake Rupture Dynamics",
+        "region": "Sagaing Fault, Myanmar",
+        "method": "Joint inversion of near-fault strong-motion, geodetic, and teleseismic observations",
+        "onlineDate": "2026-07-06",
+        "volume": "123",
+        "issueNumber": "28"
       }
     ]
   },
@@ -3798,76 +2072,6 @@ const reports = [
         "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag283/68798604/ggag283.pdf",
         "pdfLinkSource": "collector",
         "doi": "10.1093/gji/ggag283"
-      },
-      {
-        "title": "Remodeled Asymmetric Seamount Morphology: A Global Dataset Derived from SWOT Gravity and Multibeam Echo Sounder",
-        "journal": "Geophysical Journal International",
-        "publicationLabel": "July 2026",
-        "publicationDate": "2026-07-13",
-        "topic": "Geophysical Imaging and Inversion",
-        "region": "Global",
-        "method": "Gravity-field analysis and inversion",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Tianying Hu, Huan Xu, Qihua Cui, Xiaohui Liu, Shuang Yi, Changyi Xu",
-        "keyPoints": [
-          "Remodeled Asymmetric Seamount Morphology: A Global Dataset Derived from SWOT Gravity and Multibeam Echo Sounder"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-13",
-        "issueDate": "2026-07-22",
-        "link": "https://academic.oup.com/gji/article/doi/10.1093/gji/ggag261",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag261/68764375/ggag261.pdf",
-        "pdfLinkSource": "crossref-link",
-        "doi": "10.1093/gji/ggag261"
-      },
-      {
-        "title": "Spatiotemporal evolution of stormquake energy along the east coast of North America and implications for excitation mechanisms",
-        "journal": "Geophysical Journal International",
-        "publicationLabel": "Volume 246, Issue 3",
-        "publicationDate": "2026-07-10",
-        "topic": "Solid Earth Geophysics",
-        "region": "Global / method-focused",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Anrui Wei, Tao Wang",
-        "keyPoints": [
-          "Spatiotemporal evolution of stormquake energy along the east coast of North America and implications for excitation mechanisms"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-01",
-        "issueDate": "2026-07-22",
-        "link": "https://academic.oup.com/gji/article/doi/10.1093/gji/ggag258",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag258/68665180/ggag258.pdf",
-        "pdfLinkSource": "crossref-link",
-        "doi": "10.1093/gji/ggag258"
-      },
-      {
-        "title": "Rethinking the Main Marmara Fault—seismotectonic complexity and seismic hazard in the Istanbul–Marmara region",
-        "journal": "Geophysical Journal International",
-        "publicationLabel": "Volume 246, Issue 3",
-        "publicationDate": "2026-07-10",
-        "topic": "Seismology and Earthquake Processes",
-        "region": "Marmara",
-        "method": "Geophysical data analysis and interpretation",
-        "interestTags": [
-          "Seismology",
-          "Fault Damage Zone"
-        ],
-        "authors": "Marco Bohnhoff",
-        "keyPoints": [
-          "Rethinking the Main Marmara Fault—seismotectonic complexity and seismic hazard in the Istanbul–Marmara region"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-01",
-        "issueDate": "2026-07-22",
-        "link": "https://academic.oup.com/gji/article/doi/10.1093/gji/ggag253",
-        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag253/68665143/ggag253.pdf",
-        "pdfLinkSource": "crossref-link",
-        "doi": "10.1093/gji/ggag253"
       }
     ]
   },
@@ -4092,6 +2296,31 @@ const reports = [
         "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag278/68764373/ggag278.pdf",
         "pdfLinkSource": "collector",
         "doi": "10.1093/gji/ggag278",
+        "volume": "246",
+        "issueNumber": "3"
+      },
+      {
+        "title": "Remodeled asymmetric seamount morphology: a global data set derived from SWOT gravity and multibeam echo sounder",
+        "journal": "Geophysical Journal International",
+        "publicationLabel": "July 2026",
+        "publicationDate": "2026-07-13",
+        "topic": "Marine Gravity and Seamount Structure",
+        "region": "Global seamounts",
+        "method": "Joint inversion of SWOT gravity gradients and multibeam bathymetry",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Tianying Hu, Huan Xu, Qihua Cui, Xiaohui Liu, Shuang Yi, Changyi Xu",
+        "keyPoints": [
+          "Remodeled asymmetric seamount morphology: a global data set derived from SWOT gravity and multibeam echo sounder — Seamount morphology provides key geophysical signatures of eruptive processes, lithospheric flexure and post-volcanic erosion"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-13",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1093/gji/ggag261",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag261/68764375/ggag261.pdf",
+        "pdfLinkSource": "collector",
+        "doi": "10.1093/gji/ggag261",
         "volume": "246",
         "issueNumber": "3"
       },
@@ -4491,6 +2720,31 @@ const reports = [
         "issueNumber": "3"
       },
       {
+        "title": "Spatiotemporal evolution of stormquake energy along the east coast of North America and implications for excitation mechanisms",
+        "journal": "Geophysical Journal International",
+        "publicationLabel": "Volume 246, Issue 3",
+        "publicationDate": "2026-07-10",
+        "topic": "Stormquake Seismology",
+        "region": "East coast of North America",
+        "method": "Multi-array back projection and frequency–wavenumber analysis",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Anrui Wei, Tao Wang",
+        "keyPoints": [
+          "Multi-array back projection resolves stormquake energy and excitation along eastern North America"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-01",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1093/gji/ggag258",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag258/68665180/ggag258.pdf",
+        "pdfLinkSource": "collector",
+        "doi": "10.1093/gji/ggag258",
+        "volume": "246",
+        "issueNumber": "3"
+      },
+      {
         "title": "Multiscale spatiotemporal inversion filter of a dense GNSS observations network: application to the deformation anomalies detection related to the 2021 Yangbi earthquake of Ms 6.4",
         "journal": "Geophysical Journal International",
         "publicationLabel": "July 2026",
@@ -4599,6 +2853,673 @@ const reports = [
         "issueNumber": "8122",
         "pdfLink": "https://www.nature.com/articles/s41586-026-10719-w.pdf",
         "pdfLinkSource": "collector"
+      }
+    ]
+  },
+  {
+    "id": "nature-communications-v17-i1-2026-07-06",
+    "date": "2026-08-01",
+    "journal": "Nature Communications",
+    "issue": "Volume 17, Issue 1",
+    "issueDate": "2026-07-06",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Microseismic monitoring with the quake neural operator",
+        "doi": "10.1038/s41467-026-73965-6",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Hongyu Sun",
+        "keyPoints": [
+          "Microseismic monitoring with the quake neural operator — Accurate monitoring of small-scale seismic events is essential for seismological studies."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-73965-6",
+        "topic": "Microseismic Monitoring",
+        "region": "Global / method-focused",
+        "method": "Deep-learning neural-operator catalog construction from continuous seismic data",
+        "onlineDate": "2026-07-06",
+        "volume": "17",
+        "issueNumber": "1",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-73965-6.pdf",
+        "pdfLinkSource": "collector"
+      }
+    ]
+  },
+  {
+    "id": "nature-communications-2026-07-02",
+    "date": "2026-08-01",
+    "journal": "Nature Communications",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
+    "issueDate": "2026-07-02",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Sharp structural variability of the Gorda slab imaged by a fiber array",
+        "doi": "10.1038/s41467-026-76002-8",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "James Atterholt, Jeffrey J. McGuire, Andrew J. Barbour, Morgan P. Moschetti",
+        "keyPoints": [
+          "Sharp structural variability of the Gorda slab imaged by a fiber array — Structural variability at the subduction interface imposes stress and strength heterogeneity that affects the behavior of megathrust earthquakes."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-76002-8",
+        "topic": "Subduction Interface Structure",
+        "region": "Gorda slab, northern California",
+        "method": "Fiber-optic DAS imaging of converted phases from intraslab earthquakes",
+        "onlineDate": "2026-07-25"
+      },
+      {
+        "title": "Serpentine’s wet breakdown path and enhanced water flux in cold subduction zones",
+        "doi": "10.1038/s41467-026-75935-4",
+        "interestTags": [],
+        "authors": "Heehyeon Sim, Yoonah Bang, Huijeong Hwang, Nico Giordano, Dongzhou Zhang, Hyun Hwi Lee, Taeyeol Jeon, Robert Farla, Hanns-Peter Liermann, Yongjae Lee",
+        "keyPoints": [
+          "Excess water changes serpentine breakdown and deep-water transport in cold slabs"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-75935-4",
+        "topic": "Deep Water Cycling",
+        "region": "Cold subduction zones",
+        "method": "High-pressure synchrotron XRD and ultrasonic velocity experiments",
+        "onlineDate": "2026-07-24"
+      },
+      {
+        "title": "Extension of Tian Shan along a nascent shear zone",
+        "doi": "10.1038/s41467-026-74965-2",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Qi Ou, John R. Elliott, Yasser Maghsoudi, Chris Rollins, Milan Lazecky, Tim J. Wright",
+        "keyPoints": [
+          "Extension of Tian Shan along a nascent shear zone — Our understanding of the dynamics of mountain belt growth is hampered by the lack of high-resolution kinematic observations spanning entire orogenic belts."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-74965-2",
+        "topic": "Orogenic Deformation",
+        "region": "Tian Shan",
+        "method": "Sentinel-1 deformation mapping and shear-zone kinematic interpretation",
+        "onlineDate": "2026-07-22"
+      },
+      {
+        "title": "Subducted sediments hidden in the upper-mantle X-discontinuities",
+        "doi": "10.1038/s41467-026-75572-x",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Baoyun Wang, Jin Liu, Yanyao Zhang, Lulu Liu, Zhongfa Zhou, Yongjun Tian",
+        "keyPoints": [
+          "Subducted sediment assemblages provide a viable source of upper-mantle X-discontinuities"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-75572-x",
+        "topic": "Upper-Mantle Discontinuities",
+        "region": "Earth's upper mantle",
+        "method": "Seismic-velocity modeling of sediment–basalt–pyrolite assemblages",
+        "onlineDate": "2026-07-14"
+      },
+      {
+        "title": "Structural evolution of iron oxides melts at Earth’s outer-core pressures",
+        "doi": "10.1038/s41467-026-75204-4",
+        "interestTags": [],
+        "authors": "Céline Crépisson, Mila Fitzgerald, Domenic Peake, Patrick G. Heighway, Thomas Stevens, Adrien Descamps, David McGonegle, Alexis Amouretti, Karim K. Alaa El-Din, Michal Andrzejewski, Sam Azadi, Erik Brambrink, Carolina Camarda, David A. Chin, Samuele Di Dio Cafiso, Ana Coutinho Dutra, Hauke Höppner, Kohdai Yamamoto, Phani S. Karamched, Zuzana Konôpková, Motoaki Nakatsutsumi, Norimasa Ozaki, Danae N. Polsin, Jan-Patrick Schwinkendorf, Georgiy Shoulga, Cornelius Strohm, Minxue Tang, Harry Taylor, Monika Toncian, Yizhen Wang, Jin Yao, Gianluca Gregori, Justin S. Wark, Karen Appel, Marion Harmand, Sam M. Vinko",
+        "keyPoints": [
+          "Structural evolution of iron oxides melts at Earth’s outer-core pressures — Oxygen and other light elements comprise up to 5 wt% of the Earth’s outer-core, and may significantly influence its physical properties and the operation of the geo"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-75204-4",
+        "topic": "Earth's Outer Core",
+        "region": "Earth's outer core",
+        "method": "Shock-compression X-ray diffraction of iron-oxide melts",
+        "onlineDate": "2026-07-10"
+      },
+      {
+        "title": "Ancient plume-reinforced lithosphere modulates present-day crustal fluid migration and deformation",
+        "doi": "10.1038/s41467-026-75203-5",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Zikun Zhou, Nian Yu, Xin Li, Sheng Zhang, Tianqi Wang, Wenxin Kong, Tianyang Li",
+        "keyPoints": [
+          "A fossil Emeishan plume remnant redirects crustal fluids and localizes deformation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-75203-5",
+        "topic": "Plume-Modified Lithosphere",
+        "region": "Huayingshan Fault, southwestern China",
+        "method": "3D magnetotelluric imaging and geodynamic simulation",
+        "onlineDate": "2026-07-04"
+      },
+      {
+        "title": "Water exchange process and bulk composition regulate slab dynamics and deep earthquakes",
+        "doi": "10.1038/s41467-026-74842-y",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Jintao Zhu, Renbiao Tao, Lifei Zhang, Takayuki Ishii",
+        "keyPoints": [
+          "Water exchange and bulk Mg/Si regulate slab stagnation and deep-earthquake mechanisms"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-74842-y",
+        "topic": "Slab Hydration and Deep Earthquakes",
+        "region": "Mantle transition zone",
+        "method": "High-pressure, high-temperature mineral experiments",
+        "onlineDate": "2026-07-03"
+      },
+      {
+        "title": "Modulation of intra-oceanic trench bending and along-trench thermochemical transport by mantle toroidal flow",
+        "doi": "10.1038/s41467-026-75061-1",
+        "interestTags": [],
+        "authors": "Liang Liu, Zebin Cao, Jason P. Morgan, Lijun Liu, Shi-Mai Long, Yuan-Yuan Hua, Hong-Yan Li, Yi-Gang Xu",
+        "keyPoints": [
+          "Toroidal mantle flow couples Mariana trench bending to along-strike thermal transport"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-75061-1",
+        "topic": "Trench Bending and Mantle Flow",
+        "region": "Mariana Trench",
+        "method": "3D thermo-mechanical geodynamic modeling",
+        "onlineDate": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "id": "tgrs-v64-2026-07-02",
+    "date": "2026-08-01",
+    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
+    "issueDate": "2026-07-02",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Physics-Consistent GPR Inversion via Feature-Enhanced Forward Module and Envelope Data",
+        "doi": "10.1109/tgrs.2026.3718580",
+        "interestTags": [],
+        "authors": "Meijia Huang, Xiang Qiu, Yanqi Wu, Yonghao Wang, Zhuo Jia",
+        "keyPoints": [
+          "Physics-Consistent GPR Inversion via Feature-Enhanced Forward Module and Envelope Data"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3718580",
+        "topic": "Ground-Penetrating Radar Imaging",
+        "region": "Global / method-focused",
+        "method": "Physics-Consistent GPR Inversion via Feature-Enhanced Forward Module and Envelope Data",
+        "onlineDate": "2026-07-30",
+        "volume": "64"
+      },
+      {
+        "title": "Volcanic SO 2 Monitoring From Space Using SAM2 Foundation Model",
+        "doi": "10.1109/tgrs.2026.3718024",
+        "interestTags": [],
+        "authors": "Simona Cariello, Claudia Corradino, Alessandro La Spina, Ciro Del Negro",
+        "keyPoints": [
+          "Volcanic SO 2 Monitoring From Space Using SAM2 Foundation Model"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3718024",
+        "topic": "Volcano Monitoring",
+        "region": "Global / method-focused",
+        "method": "Volcanic SO 2 Monitoring From Space Using SAM2 Foundation Model",
+        "onlineDate": "2026-07-29",
+        "volume": "64"
+      },
+      {
+        "title": "Seismic Acoustic Impedance Inversion Framework Based on Conditional Latent Generative Diffusion Model",
+        "doi": "10.1109/tgrs.2026.3717153",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Jie Chen, Hongling Chen, Jinghuai Gao, Chuangji Meng, Tao Yang, XinXin Liang",
+        "keyPoints": [
+          "Seismic Acoustic Impedance Inversion Framework Based on Conditional Latent Generative Diffusion Model"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3717153",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Seismic Acoustic Impedance Inversion Framework Based on Conditional Latent Generative Diffusion Model",
+        "onlineDate": "2026-07-27",
+        "volume": "64"
+      },
+      {
+        "title": "Jointed AVO Inversion Method Using Seismic Velocity and Acceleration Signals",
+        "doi": "10.1109/tgrs.2026.3717161",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Zhuo Lin, Ye Yang, Jiaqi Liu, Yuyong Yang, Zhengyang Wang, Kanglan Zhao, Huaibang Zhang, Huailai Zhou, Dan Chen",
+        "keyPoints": [
+          "Jointed AVO Inversion Method Using Seismic Velocity and Acceleration Signals"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3717161",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Jointed AVO Inversion Method Using Seismic Velocity and Acceleration Signals",
+        "onlineDate": "2026-07-27",
+        "volume": "64"
+      },
+      {
+        "title": "Physics-Guided Deep Regression for High-Precision Seismic First-Arrival Picking",
+        "doi": "10.1109/tgrs.2026.3716811",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Qiang Feng, Liguo Han",
+        "keyPoints": [
+          "Physics-Guided Deep Regression for High-Precision Seismic First-Arrival Picking"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3716811",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Physics-Guided Deep Regression for High-Precision Seismic First-Arrival Picking",
+        "onlineDate": "2026-07-24",
+        "volume": "64"
+      },
+      {
+        "title": "Bayesian Full Waveform Inversion With Learned Prior Using Deep Convolutional Autoencoder",
+        "doi": "10.1109/tgrs.2026.3716672",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Shuhua Hu, Mrinal K. Sen, Zeyu Zhao, Abdelrahman Elmeliegy, Shuo Zhang",
+        "keyPoints": [
+          "Bayesian Full Waveform Inversion With Learned Prior Using Deep Convolutional Autoencoder"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3716672",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Bayesian Full Waveform Inversion With Learned Prior Using Deep Convolutional Autoencoder",
+        "onlineDate": "2026-07-24",
+        "volume": "64"
+      },
+      {
+        "title": "Adaptive Wavelet Scattering With SegFormer for Seismic Facies Segmentation",
+        "doi": "10.1109/tgrs.2026.3716111",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Yunkun Wu, Qianqi Le, Yang Yang, Jinghuai Gao, Zijian Ye, Naihao Liu",
+        "keyPoints": [
+          "Adaptive Wavelet Scattering With SegFormer for Seismic Facies Segmentation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3716111",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Adaptive Wavelet Scattering With SegFormer for Seismic Facies Segmentation",
+        "onlineDate": "2026-07-22",
+        "volume": "64"
+      },
+      {
+        "title": "A Reliable Multisource Dynamically Regularized Elastic Wavefield Reconstruction Inversion for Microseismic Data",
+        "doi": "10.1109/tgrs.2026.3715820",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Liyuan Feng, Huailiang Li, Jian He, Junnan Wen, Linjia Li, Wanting Wu",
+        "keyPoints": [
+          "A Reliable Multisource Dynamically Regularized Elastic Wavefield Reconstruction Inversion for Microseismic Data"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3715820",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "A Reliable Multisource Dynamically Regularized Elastic Wavefield Reconstruction Inversion for Microseismic Data",
+        "onlineDate": "2026-07-22",
+        "volume": "64"
+      },
+      {
+        "title": "Physics-Driven Resolution Refinement for Electrical Resistivity Tomography Using Multiarray Learning and Vision Mamba",
+        "doi": "10.1109/tgrs.2026.3715567",
+        "interestTags": [],
+        "authors": "Yinpeng Li, Xianghao Liu, Yanqi Wu, Zhijun Huo, Zhuo Jia",
+        "keyPoints": [
+          "Physics-Driven Resolution Refinement for Electrical Resistivity Tomography Using Multiarray Learning and Vision Mamba"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3715567",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Physics-Driven Resolution Refinement for Electrical Resistivity Tomography Using Multiarray Learning and Vision Mamba",
+        "onlineDate": "2026-07-21",
+        "volume": "64"
+      },
+      {
+        "title": "Phase Gradient Rate-Constrained SHP Selection for Distributed Scatterer InSAR: Integrating Deformation Boundary Detection With Amplitude Statistical Testing",
+        "doi": "10.1109/tgrs.2026.3715526",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Xiaosong Feng, Lianhuan Wei, Yingjie Chen, Yaowu Feng, Meng Ao, Yian Wang, Shiliu Wang, Qin Wang, Christian Bignami, Cristiano Tolomei",
+        "keyPoints": [
+          "Phase Gradient Rate-Constrained SHP Selection for Distributed Scatterer InSAR: Integrating Deformation Boundary Detection With Amplitude Statistical Testing"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3715526",
+        "topic": "Geodetic Deformation Monitoring",
+        "region": "Global / method-focused",
+        "method": "Phase Gradient Rate-Constrained SHP Selection for Distributed Scatterer InSAR: Integrating Deformation Boundary Detection With Amplitude Statistical Testing",
+        "onlineDate": "2026-07-21",
+        "volume": "64"
+      },
+      {
+        "title": "Multidirectional Wavefield-Decomposition Elastic Reverse-Time Migration With Dip-Guided Imaging Conditions",
+        "doi": "10.1109/tgrs.2026.3714860",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Xiaoting Zhou, Xiyan Zhou, Teng Hu, Shaohuan Zu, Xiaotao Wen",
+        "keyPoints": [
+          "Multidirectional Wavefield-Decomposition Elastic Reverse-Time Migration With Dip-Guided Imaging Conditions"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3714860",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Multidirectional Wavefield-Decomposition Elastic Reverse-Time Migration With Dip-Guided Imaging Conditions",
+        "onlineDate": "2026-07-20",
+        "volume": "64"
+      },
+      {
+        "title": "Q -Compensated Robust Blind Acoustic Impedance Inversion With Structural Guidance",
+        "doi": "10.1109/tgrs.2026.3714226",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Qibin Wu, Guochang Liu, Lanting Shi, Jiahao Shen, Yuxin Su, Chao Li",
+        "keyPoints": [
+          "Q -Compensated Robust Blind Acoustic Impedance Inversion With Structural Guidance"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3714226",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Q -Compensated Robust Blind Acoustic Impedance Inversion With Structural Guidance",
+        "onlineDate": "2026-07-16",
+        "volume": "64"
+      },
+      {
+        "title": "Integrating Physical Information Constraints for Magnetotelluric Data-Driven Inversion",
+        "doi": "10.1109/tgrs.2026.3713906",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Changqing Feng, Yuguo Li, Pan Li",
+        "keyPoints": [
+          "Integrating Physical Information Constraints for Magnetotelluric Data-Driven Inversion"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3713906",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Integrating Physical Information Constraints for Magnetotelluric Data-Driven Inversion",
+        "onlineDate": "2026-07-16",
+        "volume": "64"
+      },
+      {
+        "title": "Efficient PS Wavefield Separation for Anisotropic VTI and TTI Media in the Spatial Domain",
+        "doi": "10.1109/tgrs.2026.3713993",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Qingyou Zhi, Jiachun You, Yiyang Jiang, Haipeng Hu",
+        "keyPoints": [
+          "Efficient PS Wavefield Separation for Anisotropic VTI and TTI Media in the Spatial Domain"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3713993",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Efficient PS Wavefield Separation for Anisotropic VTI and TTI Media in the Spatial Domain",
+        "onlineDate": "2026-07-16",
+        "volume": "64"
+      },
+      {
+        "title": "Hybrid Mesh Finite-Element Method for Marine CSEM Modeling With Octree Framework",
+        "doi": "10.1109/tgrs.2026.3713588",
+        "interestTags": [],
+        "authors": "Qiang Liu, Luyuan Wang, Changchun Yin, Jun Li, Shuai Yan, Xinru Guo, Hao Liang",
+        "keyPoints": [
+          "Hybrid Mesh Finite-Element Method for Marine CSEM Modeling With Octree Framework"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3713588",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Hybrid Mesh Finite-Element Method for Marine CSEM Modeling With Octree Framework",
+        "onlineDate": "2026-07-15",
+        "volume": "64"
+      },
+      {
+        "title": "An Advection-Equation-Based Topography-Dependent First-Arrival Adjoint Tomography: Methodology and Application",
+        "doi": "10.1109/tgrs.2026.3713293",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Xiaole Zhou, Andrzej Gorszczyk",
+        "keyPoints": [
+          "An Advection-Equation-Based Topography-Dependent First-Arrival Adjoint Tomography: Methodology and Application"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3713293",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "An Advection-Equation-Based Topography-Dependent First-Arrival Adjoint Tomography: Methodology and Application",
+        "onlineDate": "2026-07-14",
+        "volume": "64"
+      },
+      {
+        "title": "Along-Track Dual-Satellite D-InSAR for Multidimensional Deformation and Troposphere Joint Measurement: Configuration Optimization and Performance Analysis",
+        "doi": "10.1109/tgrs.2026.3711898",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Yuanhao Li, Junpeng Ren, Xin Xie, Yuxiao Wang, Cheng Liu, Xingzhe Zhao, Zhiyang Chen, Yanyang Liu, Yishi Qiao, Zhonghua Chen, Junli Chen, Cheng Hu",
+        "keyPoints": [
+          "Along-Track Dual-Satellite D-InSAR for Multidimensional Deformation and Troposphere Joint Measurement: Configuration Optimization and Performance Analysis"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3711898",
+        "topic": "Geodetic Deformation Monitoring",
+        "region": "Global / method-focused",
+        "method": "Along-Track Dual-Satellite D-InSAR for Multidimensional Deformation and Troposphere Joint Measurement: Configuration Optimization and Performance Analysis",
+        "onlineDate": "2026-07-09",
+        "volume": "64"
+      },
+      {
+        "title": "Estimating Tropospheric Delay in Spotlight Mode InSAR Data Using Multisquint Processing",
+        "doi": "10.1109/tgrs.2026.3711538",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Stacey A. Huang, Samuel F. Chan, Shadi Oveisgharan, Xiaoqing Wu, Néstor Yagüe-Martínez, Craig Stringham, Gordon Farquharson",
+        "keyPoints": [
+          "Regularized multi-squint InSAR jointly resolves tropospheric delay and surface deformation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3711538",
+        "topic": "InSAR Atmospheric Correction",
+        "region": "Multiple satellite test sites",
+        "method": "Multi-squint sub-aperture InSAR inversion",
+        "onlineDate": "2026-07-08",
+        "volume": "64"
+      },
+      {
+        "title": "SFDDPM: Signal-Fitting Diffusion Model for Prestack Seismic Denoising With Total Variation Constraint",
+        "doi": "10.1109/tgrs.2026.3710810",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Yawen Zhang, Shengchang Chen, Wenhao Luo, Xinyue Gong, Ruxun Dou, Haowen Xiao",
+        "keyPoints": [
+          "SFDDPM: Signal-Fitting Diffusion Model for Prestack Seismic Denoising With Total Variation Constraint"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3710810",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "SFDDPM: Signal-Fitting Diffusion Model for Prestack Seismic Denoising With Total Variation Constraint",
+        "onlineDate": "2026-07-07",
+        "volume": "64"
+      },
+      {
+        "title": "Unsupervised Attenuation of Aliased Ground Roll in Undersampled 3-D Land Seismic Data",
+        "doi": "10.1109/tgrs.2026.3710605",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Ji Li, Dawei Liu, Daniel Trad",
+        "keyPoints": [
+          "Unsupervised Attenuation of Aliased Ground Roll in Undersampled 3-D Land Seismic Data"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3710605",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Unsupervised Attenuation of Aliased Ground Roll in Undersampled 3-D Land Seismic Data",
+        "onlineDate": "2026-07-06",
+        "volume": "64"
+      },
+      {
+        "title": "Physics-Informed CNN–LSTM Framework for Electromagnetic Inverse Scattering in Multilayer Soil With Surface Roughness",
+        "doi": "10.1109/tgrs.2026.3710673",
+        "interestTags": [],
+        "authors": "Sahar Bagherkhani, Franco De Flaviis",
+        "keyPoints": [
+          "Physics-Informed CNN–LSTM Framework for Electromagnetic Inverse Scattering in Multilayer Soil With Surface Roughness"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3710673",
+        "topic": "Electromagnetic and Electrical Imaging",
+        "region": "Global / method-focused",
+        "method": "Physics-Informed CNN–LSTM Framework for Electromagnetic Inverse Scattering in Multilayer Soil With Surface Roughness",
+        "onlineDate": "2026-07-06",
+        "volume": "64"
+      },
+      {
+        "title": "Seismic Impedance Inversion via Physics-Driven Learned Primal-Dual Deep Unrolling With Total Variation",
+        "doi": "10.1109/tgrs.2026.3709616",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Detao Wang, Guoxiong Chen",
+        "keyPoints": [
+          "Seismic Impedance Inversion via Physics-Driven Learned Primal-Dual Deep Unrolling With Total Variation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3709616",
+        "topic": "Seismic Imaging and Inversion",
+        "region": "Global / method-focused",
+        "method": "Seismic Impedance Inversion via Physics-Driven Learned Primal-Dual Deep Unrolling With Total Variation",
+        "onlineDate": "2026-07-02",
+        "volume": "64"
+      }
+    ]
+  },
+  {
+    "id": "cee-2026-07-02",
+    "date": "2026-08-01",
+    "journal": "Communications Earth & Environment",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
+    "issueDate": "2026-07-02",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Transcrustal magma ascent beneath Laguna del Maule, Chile",
+        "doi": "10.1038/s43247-026-03863-8",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Jim Bradford, Sankha Subhra Mahanti, Eric Kiser, Susan Beck, Martin Fernandez, Sol Trad, Ryan Porter, Sebastian Tauber, Ariane Maharaj, Hannah Howe, Gustavo Federico Ortiz, Mauro Saez",
+        "keyPoints": [
+          "Transcrustal magma ascent beneath Laguna del Maule, Chile — Arc volcanoes are fed by complex networks of storage zones that extend throughout the crust."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-03863-8",
+        "topic": "Transcrustal Magma Transport",
+        "region": "Laguna del Maule, Chile",
+        "method": "Seismic imaging and seismicity analysis of crustal magma pathways",
+        "onlineDate": "2026-07-24"
+      },
+      {
+        "title": "Earthquake doublets in subduction zones are an Omori process promoted by megathrust tear fault interaction",
+        "journal": "Communications Earth & Environment",
+        "publicationLabel": "July 2026",
+        "publicationDate": "2026-07-15",
+        "topic": "Seismology and Earthquake Processes",
+        "region": "Global / method-focused",
+        "method": "Geophysical data analysis and interpretation",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Yu Jiang, Ross S. Stein, Daniel T. Trugman",
+        "keyPoints": [
+          "Earthquake doublets in subduction zones are an Omori process promoted by megathrust tear fault interaction — Earthquake doublets—nearby events of similar size striking within a short period—have been a seismological puzzle for 50 years."
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-15",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1038/s43247-026-03820-5",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03820-5.pdf",
+        "pdfLinkSource": "publisher-pattern",
+        "doi": "10.1038/s43247-026-03820-5"
+      },
+      {
+        "title": "A hierarchical framework governs depth-dependence and scaling laws for slow earthquakes",
+        "doi": "10.1038/s43247-026-03777-5",
+        "interestTags": [
+          "Seismology",
+          "Fault Damage Zone"
+        ],
+        "authors": "Tongbin Shao, Lei Zhang, Jie Wu, Maoshuang Song",
+        "keyPoints": [
+          "Effective normal stress and fault-rock architecture jointly govern slow-earthquake scaling"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-03777-5",
+        "topic": "Slow Earthquake Mechanics",
+        "region": "Global / laboratory analog",
+        "method": "Olivine-antigorite friction experiments and cross-study synthesis",
+        "onlineDate": "2026-07-08"
+      },
+      {
+        "title": "CO2 reactive fracturing creates stress-resistant permeability by coupling fracture generation and chemical roughening",
+        "journal": "Communications Earth & Environment",
+        "publicationLabel": "July 2026",
+        "publicationDate": "2026-07-02",
+        "topic": "Subsurface Rock Fracturing",
+        "region": "Global / method-focused",
+        "method": "True-triaxial CO2 reactive-fracturing experiments",
+        "interestTags": [
+          "Fault Damage Zone",
+          "Crustal Deformation"
+        ],
+        "authors": "Luis Salalá, Eko Pramudyo, Kevin Ryano, Kazumasa Sueyoshi, Ryota Tamura, Jiajie Wang, Kiyotoshi Sakaguchi, Sho Ogata, Kazumi Osato, Takuya Teraoka, Noriaki Watanabe",
+        "keyPoints": [
+          "CO2 reactive fracturing creates stress-resistant permeability by coupling fracture generation and chemical roughening — Permeability enhancement in subsurface reservoirs is commonly achieved by hydraulic or CO 2 -based fracturing, yet the r"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-02",
+        "issueDate": "2026-07-22",
+        "link": "https://doi.org/10.1038/s43247-026-03768-6",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03768-6.pdf",
+        "pdfLinkSource": "publisher-pattern",
+        "doi": "10.1038/s43247-026-03768-6"
       }
     ]
   },
@@ -5283,22 +4204,22 @@ const reports = [
         "journal": "Seismological Research Letters",
         "publicationLabel": "July 2026",
         "publicationDate": "2026-07-01",
-        "topic": "Solid Earth Geophysics",
-        "region": "Three Gorge Reservoir",
-        "method": "HVSR seismic site-response analysis",
+        "topic": "Landslide Seismic Monitoring",
+        "region": "Three Gorges Reservoir area, China",
+        "method": "Ambient-noise horizontal-to-vertical spectral-ratio monitoring",
         "interestTags": [
-          "Crustal Deformation"
+          "Seismology"
         ],
         "authors": "Hao Li, Lei Fu, Yajun Liu, Dongdong Tian, Yu Sun, Cong Zhou, Xiangyun Hu",
         "keyPoints": [
-          "Using the HVSR to Study the Landslide Media Changes in Three Gorge Reservoir Area"
+          "Using the HVSR to Study the Landslide Media Changes in Three Gorge Reservoir Area — The Huangtupo Linjiang Number 1 landslide (HTPLJ1) in the Three Gorges Reservoir area poses a significant geological hazard, influenced by periodic fluctuat"
         ],
         "keyPointsSource": "ai-generated",
         "onlineDate": "2026-07-01",
         "issueDate": "2026-07-22",
-        "link": "https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250223",
+        "link": "https://doi.org/10.1785/0220250223",
         "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250223/8051906/srl-2025223.1.pdf",
-        "pdfLinkSource": "crossref-link",
+        "pdfLinkSource": "collector",
         "doi": "10.1785/0220250223"
       },
       {
@@ -5652,6 +4573,32 @@ const reports = [
         "issueNumber": "7"
       },
       {
+        "title": "Structure and Origin of an Active Hydrothermal System in NW Svalbard: A Combined Magnetotelluric and Gas‐Water Isotope Study",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "publicationLabel": "Volume 131, Issue 7",
+        "publicationDate": "2026-07",
+        "topic": "Geothermal and Hydrothermal Systems",
+        "region": "Woodfjorden, Svalbard",
+        "method": "3D magnetotelluric imaging integrated with gas and water isotope analysis",
+        "interestTags": [
+          "Fault Damage Zone",
+          "Crustal Deformation"
+        ],
+        "authors": "Alexander Minakov, Horst Kämpf, Deniz Varılsüha, Kim Senger, Maxim Smirnov, Samuel Niedermann, Martin Zimmer, Maik Neukirch, Peter Betlem, Anniken Helland‐Hansen, Rafael Horota, Agnes Kontny, Sverre Planke, Sebastian Tappe, Maria Telmon, Dmitry Zastrozhnov",
+        "keyPoints": [
+          "Structure and Origin of an Active Hydrothermal System in NW Svalbard: A Combined Magnetotelluric and Gas‐Water Isotope Study — The Woodfjorden area in northwestern Svalbard hosts the world's northernmost onshore thermal springs, extinct Qua"
+        ],
+        "keyPointsSource": "ai-generated",
+        "onlineDate": "2026-07-19",
+        "issueDate": "2026-07",
+        "link": "https://doi.org/10.1029/2025jb033374",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033374",
+        "pdfLinkSource": "collector",
+        "doi": "10.1029/2025jb033374",
+        "volume": "131",
+        "issueNumber": "7"
+      },
+      {
         "title": "Multi‐Stage Lithospheric Destruction of the North China Craton: Evidence From a Magnetotelluric Array Study",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "publicationLabel": "Volume 131, Issue 7",
@@ -5837,7 +4784,9 @@ const reports = [
         "topic": "Volcanism, Rifting, and Hydrothermal Systems",
         "region": "Global / method-focused",
         "method": "Geophysical data analysis and interpretation",
-        "interestTags": [],
+        "interestTags": [
+          "Crustal Deformation"
+        ],
         "authors": "Christopher Galley, John Jamieson, Amy Gartman, Isobel Yeo, Masako Tominaga, Maurice Tivey, Carlos Braga, Laura Moore, Sharon L. Walker",
         "keyPoints": [
           "Tectonic Controls on Volcanism and Associated Hydrothermal Activity in a Sediment‐Dominated Mid‐Ocean Ridge; Escanaba Trough — Mid‐ocean ridges, the Earth's most extensive volcanic system, exhibit unique characteristics in sediment‐dominant"
@@ -6318,6 +5267,138 @@ const reports = [
     ]
   },
   {
+    "id": "epsl-v685-2026-07-01",
+    "date": "2026-08-01",
+    "journal": "Earth and Planetary Science Letters",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
+    "issueDate": "2026-07-01",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Seismicity modulation along the Aleutian arc volcanoes occurs over multiple time scales",
+        "doi": "10.1016/j.epsl.2026.120025",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "B. Senapati, K.I. Konstantinou",
+        "keyPoints": [
+          "Aleutian volcano seismicity varies with seasonal loading and Earth-rotation forcing"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120025",
+        "topic": "Volcano Seismicity",
+        "region": "Aleutian Arc",
+        "method": "Multiyear earthquake-catalog periodicity and forcing analysis",
+        "onlineDate": "2026-07-01",
+        "volume": "685"
+      },
+      {
+        "title": "Imaging lithosphere–asthenosphere interaction beneath the North China Craton: Implications for intraplate volcanism and anomalous basin subsidence",
+        "doi": "10.1016/j.epsl.2026.120026",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Bowen Li, Juan C. Afonso, Dinghui Yang, Mengxue Liu, Xingpeng Dong, Xiaobing Xu",
+        "keyPoints": [
+          "Joint inversion links Datong volcanism and Bohai Bay subsidence to paired mantle flow"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120026",
+        "topic": "Lithosphere–Asthenosphere Interaction",
+        "region": "North China Craton",
+        "method": "Probabilistic joint inversion of multiple geophysical datasets",
+        "onlineDate": "2026-07-01",
+        "volume": "685"
+      },
+      {
+        "title": "High-resolution imaging of the seismogenic fault of three earthquakes in Luxian, Sichuan Basin, China, from data recorded by dense linear arrays and methane sources",
+        "doi": "10.1016/j.epsl.2026.120042",
+        "interestTags": [
+          "Seismology"
+        ],
+        "authors": "Xiaona Ma, Weitao Wang, Shanhui Xu, Wei Yang, Bao Deng, Yunpeng Zhang, Ziye Yu, Xiang Huang, Min Ji",
+        "keyPoints": [
+          "Dense-array P- and S-wave imaging resolves the blind fault system of the Luxian earthquakes"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120042",
+        "topic": "Seismogenic Fault Imaging",
+        "region": "Luxian, Sichuan Basin, China",
+        "method": "Dense-array active-source P- and S-wave tomography",
+        "onlineDate": "2026-07-01",
+        "volume": "685"
+      },
+      {
+        "title": "Effect of dip-slip on stream offsets along strike-slip faults",
+        "doi": "10.1016/j.epsl.2026.120039",
+        "interestTags": [
+          "Crustal Deformation"
+        ],
+        "authors": "Yifei Li, Huiping Zhang, Xudong Zhao, Mian Liu",
+        "keyPoints": [
+          "Dip-slip controls river diversion and can bias strike-slip estimates from stream offsets"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120039",
+        "topic": "Tectonic Geomorphology",
+        "region": "Global strike-slip fault systems",
+        "method": "Landscape-evolution modeling and comparison with field cases",
+        "onlineDate": "2026-07-01",
+        "volume": "685"
+      },
+      {
+        "title": "Earthquake-induced dolomite decarbonation in the Dinar Fault Zone, western Türkiye",
+        "doi": "10.1016/j.epsl.2026.120030",
+        "interestTags": [
+          "Seismology",
+          "Fault Damage Zone"
+        ],
+        "authors": "Cecilia Viti, Telemaco Tesei, Andrea Brogi, Richard Spiess, Domenico Liotta, M. Cihat Alçiçek",
+        "keyPoints": [
+          "Fault-mirror nanostructures record earthquake-induced dolomite decarbonation"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120030",
+        "topic": "Earthquake Fault-Rock Processes",
+        "region": "Dinar Fault Zone, western Türkiye",
+        "method": "Outcrop-to-nanoscale microscopy and electron diffraction",
+        "onlineDate": "2026-07-01",
+        "volume": "685"
+      }
+    ]
+  },
+  {
+    "id": "epsl-v686-2026-07-01",
+    "date": "2026-08-01",
+    "journal": "Earth and Planetary Science Letters",
+    "issue": "Recent Solid Earth Candidates (2026-07-01 to 2026-08-01)",
+    "issueDate": "2026-07-01",
+    "title": "Solid Earth Article Brief",
+    "source": "",
+    "articles": [
+      {
+        "title": "Near instantaneously triggered Mw 5.9 aftershock during the 2025 Mw 7.1 Dingri earthquake revealed by radar interferometry",
+        "doi": "10.1016/j.epsl.2026.120070",
+        "interestTags": [
+          "Seismology",
+          "Crustal Deformation"
+        ],
+        "authors": "Xin Wang, Duo Li, Jun Zhu, Xiaohua Xu, Zefeng Li, David Sandwell, Dengcheng Hao, Chengli liu, Rongxin Fang",
+        "keyPoints": [
+          "InSAR detects a hidden Mw 5.9 rupture dynamically triggered during the Dingri earthquake"
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120070",
+        "topic": "Earthquake Rupture Dynamics",
+        "region": "Dingri, southern Tibet",
+        "method": "Multi-track InSAR, geodetic inversion, and 3D dynamic rupture simulation",
+        "onlineDate": "2026-07-01",
+        "volume": "686"
+      }
+    ]
+  },
+  {
     "id": "cee-v7-i1-2026-07-01",
     "date": "2026-08-01",
     "journal": "Communications Earth & Environment",
@@ -6403,29 +5484,6 @@ const reports = [
     "title": "Solid Earth Article Brief",
     "source": "https://agupubs.onlinelibrary.wiley.com/toc/21699356/2026/131/7",
     "articles": [
-      {
-        "title": "Structure and Origin of an Active Hydrothermal System in NW Svalbard: A Combined Magnetotelluric and Gas‐Water Isotope Study",
-        "journal": "Journal of Geophysical Research: Solid Earth",
-        "publicationLabel": "Volume 131, Issue 7",
-        "publicationDate": "2026-07",
-        "topic": "Volcanism, Rifting, and Hydrothermal Systems",
-        "region": "Svalbard",
-        "method": "Magnetotelluric imaging and tectonic interpretation",
-        "interestTags": [
-          "Crustal Deformation"
-        ],
-        "authors": "Alexander Minakov, Horst Kämpf, Deniz Varılsüha, Kim Senger, Maxim Smirnov, Samuel Niedermann, Martin Zimmer, Maik Neukirch, Peter Betlem, Anniken Helland‐Hansen, Rafael Horota, Agnes Kontny, et al.",
-        "keyPoints": [
-          "Structure and Origin of an Active Hydrothermal System in NW Svalbard: A Combined Magnetotelluric and Gas‐Water Isotope Study"
-        ],
-        "keyPointsSource": "ai-generated",
-        "onlineDate": "2026-07-19",
-        "issueDate": "2026-07",
-        "link": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025jb033374",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025jb033374",
-        "pdfLinkSource": "publisher-pattern",
-        "doi": "10.1029/2025jb033374"
-      },
       {
         "title": "High‐Resolution Magnetic Signature of Lava Flows, Hydrothermal Field and Fossil Lava Lakes on the Equatorial East Pacific Rise",
         "topic": "Oceanic Crust Magnetism",
