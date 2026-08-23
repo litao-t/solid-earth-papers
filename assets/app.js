@@ -25,6 +25,11 @@ const publicationModes = {
   "Earth and Planetary Science Letters": "volume"
 };
 
+const journalDisplayNames = {
+  "IEEE Transactions on Geoscience and Remote Sensing": "TAGS",
+  "Proceedings of the National Academy of Sciences of the United States of America": "PNAS"
+};
+
 const el = {
   journalList: document.querySelector("#journal-list"),
   journalCount: document.querySelector("#journal-count"),
@@ -53,6 +58,10 @@ const availableSections = Array.from(el.sections).map((section) => section.id).f
 
 function normalize(value) {
   return String(value || "").toLowerCase().trim();
+}
+
+function getJournalDisplayName(journal) {
+  return journalDisplayNames[journal] || journal;
 }
 
 function slugify(value) {
@@ -276,7 +285,7 @@ function renderArticleCard(article, options = {}) {
   const articleId = getArticleId(reportId, article);
   const pdfLink = getPdfLink(article);
   const issueTag = options.showIssue
-    ? `<span class="tag journal">${article.reportJournal}</span><span class="tag">${article.reportIssue}</span>`
+    ? `<span class="tag journal">${getJournalDisplayName(article.reportJournal)}</span><span class="tag">${article.reportIssue}</span>`
     : "";
   const keyPointBadge = article.keyPointsSource && article.keyPointsSource !== "official-publisher"
     ? `<div class="ai-badge">AI generated</div>`
@@ -313,10 +322,11 @@ function renderJournalDirectory() {
   el.journalCount.innerHTML = `<strong>${journalGroups.length}</strong><span>journals monitored</span>`;
   el.journalList.innerHTML = journalGroups.map((group) => {
     const latest = group.batches[0];
+    const displayName = getJournalDisplayName(group.name);
     return `
-      <a class="journal-card" href="report.html#journal=${group.slug}" aria-label="Open ${group.name}">
+      <a class="journal-card" href="report.html#journal=${group.slug}" aria-label="Open ${displayName}">
         <div>
-          <h2>${group.name}</h2>
+          <h2>${displayName}</h2>
           <p class="journal-latest">${latest.displayLabel}</p>
           <p class="meta-line">${latest.publicationDate ? `Published ${latest.publicationDate} · ` : ""}${latest.articles.length} latest article${latest.articles.length === 1 ? "" : "s"}</p>
         </div>
@@ -424,16 +434,17 @@ function renderArchive(group, currentBatch) {
 }
 
 function renderBatch(batch, group, isJournalLanding) {
+  const displayName = getJournalDisplayName(group.name);
   el.detail.hidden = false;
   if (el.detailMissing) el.detailMissing.hidden = true;
-  document.title = `${group.name} | Solid Earth Literature Brief`;
+  document.title = `${displayName} | Solid Earth Literature Brief`;
   el.detailKicker.textContent = isJournalLanding ? "Journal" : "Archived Update";
-  el.detailTitle.textContent = isJournalLanding ? group.name : batch.displayLabel;
+  el.detailTitle.textContent = isJournalLanding ? displayName : batch.displayLabel;
   el.detailMeta.textContent = isJournalLanding
     ? `${batch.displayLabel} · ${batch.articles.length} latest Solid Earth article${batch.articles.length === 1 ? "" : "s"}`
-    : `${group.name} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${batch.articles.length} Solid Earth articles`;
+    : `${displayName} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${batch.articles.length} Solid Earth articles`;
   el.detailBack.href = isJournalLanding ? "index.html#journals" : `#journal=${group.slug}`;
-  el.detailBack.textContent = isJournalLanding ? "All journals" : `Back to ${group.name}`;
+  el.detailBack.textContent = isJournalLanding ? "All journals" : `Back to ${displayName}`;
   setIssuePage(batch);
   el.detailSummary.innerHTML = renderRecommendationCard(batch);
   el.detailList.innerHTML = batch.articles.map((article) => renderArticleCard(article, { reportId: batch.id })).join("");
