@@ -285,6 +285,9 @@ function renderArticleCard(article, options = {}) {
   const reportId = options.reportId || article.reportId || "article";
   const articleId = getArticleId(reportId, article);
   const pdfLink = getPdfLink(article);
+  const keyPointSourceClass = article.keyPointsSource === "official-publisher"
+    ? "publisher-key-points"
+    : "ai-key-points";
   const issueTag = options.showIssue
     ? `<span class="tag journal">${getJournalDisplayName(article.reportJournal)}</span><span class="tag">${article.reportIssue}</span>`
     : "";
@@ -306,7 +309,7 @@ function renderArticleCard(article, options = {}) {
         </div>
         <h3><a class="article-title-link" href="${article.link}" target="_blank" rel="noreferrer">${article.title}</a></h3>
         <p class="article-authors">${article.authors}</p>
-        <ul class="key-points">${article.keyPoints.map((point) => `<li>${point}</li>`).join("")}</ul>
+        <ul class="key-points ${keyPointSourceClass}">${article.keyPoints.map((point) => `<li>${point}</li>`).join("")}</ul>
         ${methodLine}
       </div>
       ${pdfControl}

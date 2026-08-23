@@ -720,8 +720,12 @@ a.recommendation-card:focus-visible {
   color: #28312f;
 }
 
-.key-points li::marker {
+.key-points.publisher-key-points li::marker {
   color: var(--blue-bright);
+}
+
+.key-points.ai-key-points li::marker {
+  color: var(--amber);
 }
 
 .article-meta {
