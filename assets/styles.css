@@ -379,10 +379,9 @@ main {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) auto;
+  grid-template-columns: 1fr;
   gap: 16px;
   margin: 18px 0 4px;
-  align-items: end;
 }
 
 .search-box {
@@ -411,11 +410,73 @@ main {
   outline: none;
 }
 
-.interest-filters {
+.research-area-control,
+.detail-research-filter {
+  display: grid;
+  gap: 10px;
+}
+
+.research-area-control {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-soft);
+}
+
+.detail-research-filter {
+  margin-top: 18px;
+  padding: 14px 0 2px;
+  border-top: 1px solid var(--line);
+}
+
+.filter-heading-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+}
+
+.filter-heading-row > div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  gap: 4px 10px;
+  align-items: baseline;
+}
+
+.filter-label {
+  margin: 0;
+  color: var(--slate);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.filter-hint {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.research-area-filters {
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
+}
+
+.clear-filter-button {
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--blue-bright);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 780;
+  cursor: pointer;
+}
+
+.clear-filter-button:hover,
+.clear-filter-button:focus-visible {
+  text-decoration: underline;
+  outline: none;
 }
 
 .filter-button {
@@ -832,10 +893,6 @@ a.recommendation-card:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .interest-filters {
-    justify-content: flex-start;
-  }
-
   .count-box {
     width: 100%;
     text-align: left;
@@ -931,5 +988,14 @@ a.recommendation-card:focus-visible {
 
   .article-card {
     padding: 16px;
+  }
+
+  .filter-heading-row {
+    align-items: flex-start;
+  }
+
+  .filter-button {
+    flex: 1 1 210px;
+    text-align: left;
   }
 }

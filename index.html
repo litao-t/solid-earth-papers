@@ -44,7 +44,16 @@
             <span>Keyword</span>
             <input id="search-input" type="search" placeholder="Title, author, method, region, key point" />
           </label>
-          <div id="interest-filters" class="interest-filters" aria-label="Interest keyword filter"></div>
+          <div class="research-area-control">
+            <div class="filter-heading-row">
+              <div>
+                <span class="filter-label">Research areas</span>
+                <span class="filter-hint">Select one or more · matches all selected</span>
+              </div>
+              <button id="search-clear-areas" class="clear-filter-button" type="button" hidden>Clear areas</button>
+            </div>
+            <div id="research-area-filters" class="research-area-filters" aria-label="Research area filters"></div>
+          </div>
         </div>
 
         <div class="key-points-source-legend" role="note" aria-label="Key Points source legend">

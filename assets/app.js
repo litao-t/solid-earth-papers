@@ -1,21 +1,9 @@
-const interestKeywords = [
-  {
-    label: "Seismology",
-    relatedTerms: ["seismic", "seismology", "earthquake", "receiver function", "waveform inversion", "aftershock", "ambient noise", "DAS", "tomoDD", "Vp/Vs", "Moho"]
-  },
-  {
-    label: "Fault Damage Zone",
-    relatedTerms: ["fault zone", "fault gouge", "fault rock", "friction", "shearing", "rupture zone", "damage zone", "mafic intrusion", "permeability"]
-  },
-  {
-    label: "Crustal Deformation",
-    relatedTerms: ["crustal deformation", "deformation", "InSAR", "creep", "slip", "rift", "extension", "strain", "uplift", "subsidence"]
-  }
-];
+const researchAreaSlugs = new Set(researchAreaDefinitions.map((area) => area.slug));
+const researchAreaLabels = new Map(researchAreaDefinitions.map((area) => [area.slug, area.label]));
 
 const state = {
   query: "",
-  interest: "",
+  selectedAreas: readSelectedAreasFromUrl(),
   section: "journals"
 };
 
@@ -35,7 +23,8 @@ const el = {
   journalCount: document.querySelector("#journal-count"),
   searchResults: document.querySelector("#search-results"),
   searchCount: document.querySelector("#search-count"),
-  filters: document.querySelector("#interest-filters"),
+  filters: document.querySelector("#research-area-filters"),
+  searchClear: document.querySelector("#search-clear-areas"),
   search: document.querySelector("#search-input"),
   sectionLinks: document.querySelectorAll("[data-section-link]"),
   sections: document.querySelectorAll(".content-section"),
@@ -44,6 +33,9 @@ const el = {
   detailTitle: document.querySelector("#detail-title"),
   detailMeta: document.querySelector("#detail-meta"),
   detailKeyPointsSource: document.querySelector("#detail-key-points-source"),
+  detailFilters: document.querySelector("#detail-research-area-filters"),
+  detailFilterCount: document.querySelector("#detail-filter-count"),
+  detailClear: document.querySelector("#detail-clear-areas"),
   detailSource: document.querySelector("#detail-source"),
   detailBack: document.querySelector("#detail-back"),
   detailSummary: document.querySelector("#detail-summary"),
@@ -59,6 +51,43 @@ const availableSections = Array.from(el.sections).map((section) => section.id).f
 
 function normalize(value) {
   return String(value || "").toLowerCase().trim();
+}
+
+function readSelectedAreasFromUrl() {
+  return Array.from(new Set(new URLSearchParams(window.location.search).getAll("area")))
+    .filter((slug) => researchAreaSlugs.has(slug));
+}
+
+function writeSelectedAreasToUrl() {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("area");
+  state.selectedAreas.forEach((slug) => url.searchParams.append("area", slug));
+  window.history.pushState(null, "", `${url.pathname}${url.search}${url.hash}`);
+}
+
+function matchesResearchAreas(article) {
+  const articleAreas = article.researchAreas || [];
+  return state.selectedAreas.every((slug) => articleAreas.includes(slug));
+}
+
+function toggleResearchArea(slug) {
+  if (!researchAreaSlugs.has(slug)) return;
+  state.selectedAreas = state.selectedAreas.includes(slug)
+    ? state.selectedAreas.filter((selected) => selected !== slug)
+    : [...state.selectedAreas, slug];
+  writeSelectedAreasToUrl();
+  renderResearchAreaControls();
+  renderSearchResults();
+  renderReportDetail();
+}
+
+function clearResearchAreas() {
+  if (!state.selectedAreas.length) return;
+  state.selectedAreas = [];
+  writeSelectedAreasToUrl();
+  renderResearchAreaControls();
+  renderSearchResults();
+  renderReportDetail();
 }
 
 function getJournalDisplayName(journal) {
@@ -225,28 +254,18 @@ function getArticleSearchText(article) {
     article.method,
     article.reportJournal,
     article.reportIssue,
-    (article.interestTags || []).join(" "),
+    (article.researchAreas || []).map((slug) => researchAreaLabels.get(slug) || slug).join(" "),
     (article.keyPoints || []).join(" ")
   ].join(" "));
 }
 
-function matchesInterest(article, interestLabel) {
-  if (!interestLabel) return true;
-  const tags = article.interestTags || [];
-  if (tags.includes(interestLabel)) return true;
-  if (tags.length) return false;
-
-  const interest = interestKeywords.find((item) => item.label === interestLabel);
-  return Boolean(interest && interest.relatedTerms.some((term) => getArticleSearchText(article).includes(normalize(term))));
-}
-
 function articleMatches(article) {
   const query = normalize(state.query);
-  return matchesInterest(article, state.interest) && (!query || getArticleSearchText(article).includes(query));
+  return matchesResearchAreas(article) && (!query || getArticleSearchText(article).includes(query));
 }
 
 function hasActiveSearch() {
-  return Boolean(normalize(state.query) || state.interest);
+  return Boolean(normalize(state.query) || state.selectedAreas.length);
 }
 
 function getPdfLink(article) {
@@ -266,9 +285,9 @@ function getArticleId(reportId, article) {
   return `article-${reportId}-${slugify(article.title)}`;
 }
 
-function renderRecommendationCard(report) {
+function renderRecommendationCard(report, visibleArticles = report.articles) {
   if (!report.recommendation) return "";
-  const recommendedArticle = report.articles.find((article) => article.title === report.recommendation.title);
+  const recommendedArticle = visibleArticles.find((article) => article.title === report.recommendation.title);
   if (!recommendedArticle) return "";
   const targetId = getArticleId(report.id, recommendedArticle);
 
@@ -339,13 +358,20 @@ function renderJournalDirectory() {
   }).join("");
 }
 
-function renderFilters() {
-  if (!el.filters) return;
-  el.filters.innerHTML = interestKeywords.map((interest) => `
-    <button class="filter-button" type="button" data-interest="${interest.label}" aria-pressed="${interest.label === state.interest}">
-      ${interest.label}
+function renderResearchAreaFilters(container) {
+  if (!container) return;
+  container.innerHTML = researchAreaDefinitions.map((area) => `
+    <button class="filter-button" type="button" data-research-area="${area.slug}" aria-pressed="${state.selectedAreas.includes(area.slug)}" title="${area.description}">
+      ${area.label}
     </button>
   `).join("");
+}
+
+function renderResearchAreaControls() {
+  renderResearchAreaFilters(el.filters);
+  renderResearchAreaFilters(el.detailFilters);
+  if (el.searchClear) el.searchClear.hidden = !state.selectedAreas.length;
+  if (el.detailClear) el.detailClear.hidden = !state.selectedAreas.length;
 }
 
 function renderSearchResults() {
@@ -360,7 +386,7 @@ function renderSearchResults() {
   el.searchCount.textContent = `${visible.length} result${visible.length === 1 ? "" : "s"}`;
   el.searchResults.innerHTML = visible.length
     ? visible.map((article) => renderArticleCard(article, { showIssue: true })).join("")
-    : `<div class="empty-state">No matching articles. Try another keyword or interest keyword.</div>`;
+    : `<div class="empty-state">No articles match the keyword and all selected research areas. Try fewer areas or another keyword.</div>`;
 }
 
 function getSectionFromHash() {
@@ -435,6 +461,10 @@ function renderArchive(group, currentBatch) {
 
 function renderBatch(batch, group, isJournalLanding) {
   const displayName = getJournalDisplayName(group.name);
+  const visibleArticles = batch.articles.filter(matchesResearchAreas);
+  const articleCountLabel = state.selectedAreas.length
+    ? `${visibleArticles.length} of ${batch.articles.length}`
+    : `${batch.articles.length}`;
   const hasPublisherKeyPoints = batch.articles.every((article) => article.keyPointsSource === "official-publisher");
   el.detail.hidden = false;
   if (el.detailMissing) el.detailMissing.hidden = true;
@@ -442,8 +472,8 @@ function renderBatch(batch, group, isJournalLanding) {
   el.detailKicker.textContent = isJournalLanding ? "Journal" : "Archived Update";
   el.detailTitle.textContent = isJournalLanding ? displayName : batch.displayLabel;
   el.detailMeta.textContent = isJournalLanding
-    ? `${batch.displayLabel} · ${batch.articles.length} latest Solid Earth article${batch.articles.length === 1 ? "" : "s"}`
-    : `${displayName} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${batch.articles.length} Solid Earth articles`;
+    ? `${batch.displayLabel} · ${articleCountLabel} latest Solid Earth article${visibleArticles.length === 1 ? "" : "s"}`
+    : `${displayName} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${articleCountLabel} Solid Earth articles`;
   el.detailBack.href = isJournalLanding ? "index.html#journals" : `#journal=${group.slug}`;
   el.detailBack.textContent = isJournalLanding ? "All journals" : `Back to ${displayName}`;
   if (el.detailKeyPointsSource) {
@@ -453,8 +483,15 @@ function renderBatch(batch, group, isJournalLanding) {
       : "Key Points are AI-generated from article abstracts.";
   }
   setIssuePage(batch);
-  el.detailSummary.innerHTML = renderRecommendationCard(batch);
-  el.detailList.innerHTML = batch.articles.map((article) => renderArticleCard(article, { reportId: batch.id })).join("");
+  if (el.detailFilterCount) {
+    el.detailFilterCount.textContent = state.selectedAreas.length
+      ? `${visibleArticles.length} shown · matches all selected`
+      : "Select one or more · matches all selected";
+  }
+  el.detailSummary.innerHTML = renderRecommendationCard(batch, visibleArticles);
+  el.detailList.innerHTML = visibleArticles.length
+    ? visibleArticles.map((article) => renderArticleCard(article, { reportId: batch.id })).join("")
+    : `<div class="empty-state">No articles in this update match all selected research areas. Clear or remove a filter to see more.</div>`;
   renderArchive(group, batch);
 }
 
@@ -490,7 +527,7 @@ function render() {
   validateReports();
   setActiveSection(getSectionFromHash() || state.section);
   renderJournalDirectory();
-  renderFilters();
+  renderResearchAreaControls();
   renderSearchResults();
   renderReportDetail();
 }
@@ -502,15 +539,16 @@ if (el.search) {
   });
 }
 
-if (el.filters) {
-  el.filters.addEventListener("click", (event) => {
-    const button = event.target.closest("button[data-interest]");
-    if (!button) return;
-    state.interest = state.interest === button.dataset.interest ? "" : button.dataset.interest;
-    renderFilters();
-    renderSearchResults();
+[el.filters, el.detailFilters].filter(Boolean).forEach((container) => {
+  container.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-research-area]");
+    if (button) toggleResearchArea(button.dataset.researchArea);
   });
-}
+});
+
+[el.searchClear, el.detailClear].filter(Boolean).forEach((button) => {
+  button.addEventListener("click", clearResearchAreas);
+});
 
 el.sectionLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
@@ -547,6 +585,13 @@ window.addEventListener("hashchange", () => {
     renderReportDetail();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
+});
+
+window.addEventListener("popstate", () => {
+  state.selectedAreas = readSelectedAreasFromUrl();
+  renderResearchAreaControls();
+  renderSearchResults();
+  renderReportDetail();
 });
 
 render();
