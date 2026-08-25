@@ -408,6 +408,11 @@ a {
   font: 450 13px/1.6 var(--utility);
 }
 
+.search-header > p {
+  max-width: none;
+  white-space: nowrap;
+}
+
 .journal-directory {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

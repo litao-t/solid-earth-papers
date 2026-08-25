@@ -484,7 +484,8 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
   const articleHref = safeExternalHref(article.link);
   const pdfHref = safeExternalHref(getPdfLink(article));
   const isPublisher = article.keyPointsSource === "official-publisher";
-  const sourceLabel = isPublisher ? "Publisher Key Points" : "AI-generated Key Points";
+  const sourceClass = isPublisher ? "publisher" : "ai";
+  const sourceLabel = "AI-generated Key Points";
   const tags = [
     showJournal ? `<span class="article-tag journal">${escapeHtml(getJournalAbbreviation(article.reportJournal))}</span>` : "",
     article.topic ? `<span class="article-tag topic">${escapeHtml(article.topic)}</span>` : "",
@@ -492,7 +493,7 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
     showJournal && article.reportIssue ? `<span class="article-tag">${escapeHtml(article.reportIssue)}</span>` : ""
   ].join("");
   const keyPoints = (article.keyPoints || []).length
-    ? `<ul class="key-points ${isPublisher ? "publisher" : "ai"}">${article.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
+    ? `<ul class="key-points ${sourceClass}">${article.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
     : "";
   const methodParts = [
     article.method ? `Method: ${escapeHtml(article.method)}` : "",
@@ -501,7 +502,8 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
   const actions = [
     pdfHref ? `<a href="${pdfHref}" target="_blank" rel="noreferrer">Open PDF <span aria-hidden="true">↓</span></a>` : ""
   ].join("");
-  const topline = `${tags}${showSourceBadge ? `<span class="source-badge ${isPublisher ? "publisher" : "ai"}">${sourceLabel}</span>` : ""}`;
+  const shouldShowSourceBadge = showSourceBadge && article.keyPointsSource === "ai-generated";
+  const topline = `${tags}${shouldShowSourceBadge ? `<span class="source-badge ${sourceClass}">${sourceLabel}</span>` : ""}`;
 
   return `
     <article class="article-card${actions ? " has-action" : ""}">
@@ -655,7 +657,7 @@ function renderDetail(group, batch, isJournalLanding) {
   const visibleArticles = batch.articles.filter((article) => matchesSelectedAreas(article, state.detailAreas));
   const displayName = getJournalDisplayName(group.name);
   const issuePage = safeExternalHref(getIssuePage(batch));
-  const sourceKinds = new Set(batch.articles.map((article) => article.keyPointsSource));
+  const sourceKinds = new Set(batch.articles.map((article) => article.keyPointsSource).filter(Boolean));
 
   el.detailBack.href = isJournalLanding ? "#journals" : `#journal=${encodeURIComponent(group.slug)}`;
   el.detailBack.dataset.route = el.detailBack.href;
@@ -676,11 +678,16 @@ function renderDetail(group, batch, isJournalLanding) {
   el.detailClearAreas.hidden = !state.detailAreas.length;
 
   if (sourceKinds.size > 1) {
-    el.detailSourceNote.textContent = "Key Points provenance is shown on every article: publisher-provided or AI-generated from abstracts.";
+    const statusLabels = [];
+    if (sourceKinds.has("official-publisher")) statusLabels.push("publisher-provided");
+    if (sourceKinds.has("ai-generated")) statusLabels.push("AI-generated from abstracts");
+    el.detailSourceNote.textContent = `Key Points status: ${statusLabels.join(" · ")}.`;
   } else if (sourceKinds.has("official-publisher")) {
-    el.detailSourceNote.textContent = "Key Points in this update are provided by the publisher.";
+    el.detailSourceNote.textContent = "Key Points are provided by the publisher.";
+  } else if (!sourceKinds.size) {
+    el.detailSourceNote.textContent = "";
   } else {
-    el.detailSourceNote.textContent = "Key Points in this update are AI-generated from article abstracts.";
+    el.detailSourceNote.textContent = "Key Points are AI-generated from article abstracts.";
   }
 
   el.detailArticles.innerHTML = visibleArticles.length
