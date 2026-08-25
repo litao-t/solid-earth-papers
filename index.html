@@ -3,68 +3,183 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Solid Earth Literature Monitor</title>
+    <meta name="description" content="A focused literature monitor for Solid Earth research across leading journals." />
+    <title>Solid Earth Literature Observatory</title>
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="topbar-inner">
-        <a class="site-title" href="#journals" data-section-link="journals">Solid Earth Literature Brief</a>
-        <nav class="topbar-nav" aria-label="Report sections">
-          <a href="#journals" data-section-link="journals" class="active">Journals</a>
-          <a href="#search" data-section-link="search">Search Articles</a>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#latest" data-route="#latest" aria-label="Solid Earth Literature Observatory home">
+          <span class="brand-mark" aria-hidden="true">SE</span>
+          <span class="brand-copy">
+            <strong>Solid Earth</strong>
+            <span>Literature Observatory</span>
+          </span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="#latest" data-route="#latest">Latest</a>
+          <a href="#journals" data-route="#journals">Journals</a>
+          <a href="#areas" data-route="#areas">Research areas</a>
         </nav>
-      </div>
-    </header>
 
-    <main>
-      <section id="journals" class="journal-directory content-section active" aria-labelledby="journals-title">
-        <div class="section-title-row">
-          <div>
-            <p class="section-kicker">Browse by publication</p>
-            <h1 id="journals-title">Journals</h1>
-            <p class="directory-intro">Open a journal to read its latest Solid Earth articles and browse previous updates.</p>
-          </div>
-          <div id="journal-count" class="count-box"></div>
-        </div>
-        <div id="journal-list" class="journal-list"></div>
-      </section>
+        <a class="header-search" href="#search" data-route="#search" aria-label="Search articles">
+          <span>Search articles</span>
+          <i class="search-icon" aria-hidden="true"></i>
+        </a>
+      </header>
 
-      <section id="search" class="search-section content-section" aria-labelledby="search-title">
-        <div class="section-title-row">
-          <div>
-            <p class="section-kicker">Search</p>
-            <h2 id="search-title">Search Articles</h2>
-          </div>
-          <span id="search-count" class="small-note"></span>
-        </div>
-
-        <div class="controls" aria-label="Search recorded articles">
-          <label class="search-box">
-            <span>Keyword</span>
-            <input id="search-input" type="search" placeholder="Title, author, method, region, key point" />
-          </label>
-          <div class="research-area-control">
-            <div class="filter-heading-row">
-              <div>
-                <span class="filter-label">Research areas</span>
-                <span class="filter-hint">Select one or more · matches all selected</span>
+      <main id="main-content" tabindex="-1">
+        <section id="home-view" class="view" aria-labelledby="home-title">
+          <section class="hero">
+            <div class="hero-copy">
+              <h1 id="home-title">Earth changes. <span>We follow the evidence.</span></h1>
+              <div class="hero-actions">
+                <a class="action action-primary" href="#journals" data-route="#journals">Browse journals <span aria-hidden="true">→</span></a>
+                <a class="action" href="#search" data-route="#search">Search articles <span aria-hidden="true">→</span></a>
               </div>
-              <button id="search-clear-areas" class="clear-filter-button" type="button" hidden>Clear areas</button>
             </div>
-            <div id="research-area-filters" class="research-area-filters" aria-label="Research area filters"></div>
+
+            <dl class="hero-status" aria-label="Observatory status">
+              <div><dt>Journals</dt><dd id="hero-journal-count">—</dd></div>
+              <div><dt>Articles</dt><dd id="hero-article-count">—</dd></div>
+              <div><dt>Earliest article</dt><dd id="hero-earliest-date">—</dd></div>
+              <div><dt>Latest update</dt><dd id="hero-latest-date">—</dd></div>
+            </dl>
+          </section>
+
+          <section id="journal-index" class="journal-section" aria-labelledby="journal-index-title">
+            <div class="index-heading">
+              <h2 id="journal-index-title">Journal index</h2>
+              <span class="index-heading-rule" aria-hidden="true"></span>
+            </div>
+            <div id="journal-directory" class="journal-directory"></div>
+          </section>
+
+          <section id="research-areas" class="areas-section" aria-labelledby="areas-title">
+            <div class="index-heading">
+              <h2 id="areas-title">Research areas</h2>
+              <span class="index-heading-rule" aria-hidden="true"></span>
+            </div>
+            <div id="home-area-grid" class="home-area-grid"></div>
+          </section>
+        </section>
+
+        <section id="search-view" class="view search-view" aria-labelledby="search-title" hidden>
+          <header class="view-header search-header">
+            <div>
+              <p class="overline">Article search / complete index</p>
+              <h1 id="search-title">Find the research you need</h1>
+            </div>
+            <p>Search titles, authors, methods, regions, journals and Key Points.</p>
+          </header>
+
+          <div class="search-controls" aria-label="Article search controls">
+            <label class="search-field" for="search-input">
+              <span>Keyword</span>
+              <span class="search-input-wrap">
+                <i class="search-icon" aria-hidden="true"></i>
+                <input id="search-input" type="search" autocomplete="off" placeholder="Try “slow earthquakes”, “InSAR”, or “Tibet”" />
+              </span>
+            </label>
+
+            <div class="area-filter-block">
+              <div class="filter-heading">
+                <div><strong>Research areas</strong><span>Matches every selected area</span></div>
+                <button id="search-reset" class="text-button" type="button">Reset search</button>
+              </div>
+              <div id="search-area-filters" class="area-filters" aria-label="Research area filters"></div>
+            </div>
           </div>
-        </div>
 
-        <div class="key-points-source-legend" role="note" aria-label="Key Points source legend">
-          <span class="source-legend-item source-publisher"><strong>Publisher-provided:</strong> GRL and JGR: Solid Earth</span>
-          <span class="source-legend-item source-ai"><strong>AI-generated:</strong> all other journals</span>
-        </div>
+          <section class="date-filter" aria-labelledby="date-filter-title">
+            <div class="date-filter-heading">
+              <div>
+                <strong id="date-filter-title">Publication window</strong>
+                <span id="date-filter-help">Drag either handle to select an inclusive article date range.</span>
+              </div>
+              <div class="date-filter-values" aria-live="polite">
+                <output id="search-date-from-output" for="search-date-from">—</output>
+                <span aria-hidden="true">—</span>
+                <output id="search-date-to-output" for="search-date-to">—</output>
+              </div>
+            </div>
+            <div id="date-range-control" class="date-range-control">
+              <div class="date-range-track" aria-hidden="true"><span></span></div>
+              <label class="visually-hidden" for="search-date-from">Start date</label>
+              <input id="search-date-from" type="range" min="0" max="1" value="0" step="1" aria-describedby="date-filter-help" />
+              <label class="visually-hidden" for="search-date-to">End date</label>
+              <input id="search-date-to" type="range" min="0" max="1" value="1" step="1" aria-describedby="date-filter-help" />
+            </div>
+            <div id="date-range-ticks" class="date-range-ticks" aria-hidden="true"></div>
+          </section>
 
-        <div id="search-results" class="article-list compact-list"></div>
-      </section>
+          <div class="key-points-legend" role="note" aria-label="Key Points source legend">
+            <strong>Key Points</strong>
+            <span class="legend-item"><i class="legend-dot publisher" aria-hidden="true"></i>Publisher-provided · GRL and JGR: Solid Earth</span>
+            <span class="legend-item"><i class="legend-dot ai" aria-hidden="true"></i>AI-generated from abstracts · other indexed articles</span>
+          </div>
 
-    </main>
+          <div class="results-toolbar">
+            <p id="search-summary" aria-live="polite"></p>
+            <span>Newest first</span>
+          </div>
+          <div id="search-results" class="article-list"></div>
+          <div class="load-more-wrap">
+            <button id="load-more" class="action" type="button" hidden>Load 24 more <span aria-hidden="true">↓</span></button>
+          </div>
+        </section>
+
+        <section id="detail-view" class="view detail-view" aria-labelledby="detail-title" hidden>
+          <header class="view-header detail-header">
+            <div>
+              <a id="detail-back" class="back-link" href="#journals" data-route="#journals">← All journals</a>
+              <p id="detail-kicker" class="overline">Journal / latest batch</p>
+              <h1 id="detail-title"></h1>
+              <p id="detail-meta" class="detail-meta"></p>
+            </div>
+            <a id="detail-source" class="action" target="_blank" rel="noreferrer" hidden>Open issue page <span aria-hidden="true">↗</span></a>
+          </header>
+
+          <div class="detail-filter-panel">
+            <div class="filter-heading">
+              <div><strong>Filter this update</strong><span id="detail-filter-summary"></span></div>
+              <button id="detail-clear-areas" class="text-button" type="button">Clear areas</button>
+            </div>
+            <div id="detail-area-filters" class="area-filters" aria-label="Research area filters for this update"></div>
+          </div>
+
+          <p id="detail-source-note" class="source-note"></p>
+          <div id="detail-articles" class="article-list"></div>
+
+          <section class="archive-section" aria-labelledby="archive-title">
+            <div class="section-heading">
+              <div><p class="overline">Journal archive</p><h2 id="archive-title">Other recorded updates</h2></div>
+              <p id="archive-summary" class="section-summary"></p>
+            </div>
+            <div id="archive-list" class="archive-list"></div>
+          </section>
+        </section>
+
+        <section id="missing-view" class="view missing-view" aria-labelledby="missing-title" hidden>
+          <p class="overline">Route not found</p>
+          <h1 id="missing-title">This signal is outside the recorded range.</h1>
+          <p>Return to the journal index or search the complete article collection.</p>
+          <div class="hero-actions">
+            <a class="action action-primary" href="#journals" data-route="#journals">Browse journals</a>
+            <a class="action" href="#search" data-route="#search">Search articles</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>Solid Earth Literature Observatory</span>
+        <a href="https://github.com/litao-t/article_monitor" target="_blank" rel="noreferrer">Star on GitHub · @litao-t <span aria-hidden="true">↗</span></a>
+      </footer>
+    </div>
 
     <script src="assets/data.js"></script>
     <script src="assets/app.js"></script>

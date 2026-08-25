@@ -1,11 +1,9 @@
+"use strict";
+
+const PAGE_SIZE = 24;
+const DAY_MS = 24 * 60 * 60 * 1000;
 const researchAreaSlugs = new Set(researchAreaDefinitions.map((area) => area.slug));
 const researchAreaLabels = new Map(researchAreaDefinitions.map((area) => [area.slug, area.label]));
-
-const state = {
-  query: "",
-  selectedAreas: readSelectedAreasFromUrl(),
-  section: "journals"
-};
 
 const publicationModes = {
   "Communications Earth & Environment": "month",
@@ -14,84 +12,106 @@ const publicationModes = {
 };
 
 const journalDisplayNames = {
-  "IEEE Transactions on Geoscience and Remote Sensing": "TAGS",
+  "IEEE Transactions on Geoscience and Remote Sensing": "IEEE TGRS",
   "Proceedings of the National Academy of Sciences of the United States of America": "PNAS"
 };
 
+const journalAbbreviations = {
+  "Communications Earth & Environment": "CEE",
+  "Earth and Planetary Science Letters": "EPSL",
+  "Geophysical Journal International": "GJI",
+  "Geophysical Research Letters": "GRL",
+  "IEEE Transactions on Geoscience and Remote Sensing": "TGRS",
+  "Journal of Geophysical Research: Solid Earth": "JGR",
+  "Nature": "NAT",
+  "Nature Communications": "NCOM",
+  "Nature Geoscience": "NGEO",
+  "Proceedings of the National Academy of Sciences of the United States of America": "PNAS",
+  "Science": "SCI",
+  "Seismological Research Letters": "SRL"
+};
+
+const state = {
+  query: "",
+  searchAreas: [],
+  dateFrom: "",
+  dateTo: "",
+  detailAreas: [],
+  visibleCount: PAGE_SIZE,
+  activeDetailKey: "",
+  previousRouteType: ""
+};
+
 const el = {
-  journalList: document.querySelector("#journal-list"),
-  journalCount: document.querySelector("#journal-count"),
+  main: document.querySelector("#main-content"),
+  homeView: document.querySelector("#home-view"),
+  searchView: document.querySelector("#search-view"),
+  detailView: document.querySelector("#detail-view"),
+  missingView: document.querySelector("#missing-view"),
+  navLinks: document.querySelectorAll(".site-header [data-route]"),
+  heroJournalCount: document.querySelector("#hero-journal-count"),
+  heroArticleCount: document.querySelector("#hero-article-count"),
+  heroEarliestDate: document.querySelector("#hero-earliest-date"),
+  heroLatestDate: document.querySelector("#hero-latest-date"),
+  journalDirectory: document.querySelector("#journal-directory"),
+  homeAreaGrid: document.querySelector("#home-area-grid"),
+  searchInput: document.querySelector("#search-input"),
+  searchAreaFilters: document.querySelector("#search-area-filters"),
+  searchReset: document.querySelector("#search-reset"),
+  searchDateFrom: document.querySelector("#search-date-from"),
+  searchDateTo: document.querySelector("#search-date-to"),
+  searchDateFromOutput: document.querySelector("#search-date-from-output"),
+  searchDateToOutput: document.querySelector("#search-date-to-output"),
+  dateRangeControl: document.querySelector("#date-range-control"),
+  dateRangeTicks: document.querySelector("#date-range-ticks"),
+  searchSummary: document.querySelector("#search-summary"),
   searchResults: document.querySelector("#search-results"),
-  searchCount: document.querySelector("#search-count"),
-  filters: document.querySelector("#research-area-filters"),
-  searchClear: document.querySelector("#search-clear-areas"),
-  search: document.querySelector("#search-input"),
-  sectionLinks: document.querySelectorAll("[data-section-link]"),
-  sections: document.querySelectorAll(".content-section"),
-  detail: document.querySelector("#report-detail"),
+  loadMore: document.querySelector("#load-more"),
+  detailBack: document.querySelector("#detail-back"),
   detailKicker: document.querySelector("#detail-kicker"),
   detailTitle: document.querySelector("#detail-title"),
   detailMeta: document.querySelector("#detail-meta"),
-  detailKeyPointsSource: document.querySelector("#detail-key-points-source"),
-  detailFilters: document.querySelector("#detail-research-area-filters"),
-  detailFilterCount: document.querySelector("#detail-filter-count"),
-  detailClear: document.querySelector("#detail-clear-areas"),
   detailSource: document.querySelector("#detail-source"),
-  detailBack: document.querySelector("#detail-back"),
-  detailSummary: document.querySelector("#detail-summary"),
-  detailList: document.querySelector("#detail-list"),
-  detailMissing: document.querySelector("#report-missing"),
-  journalArchive: document.querySelector("#journal-archive"),
-  journalArchiveTitle: document.querySelector("#journal-archive-title"),
-  journalArchiveCount: document.querySelector("#journal-archive-count"),
-  journalArchiveList: document.querySelector("#journal-archive-list")
+  detailAreaFilters: document.querySelector("#detail-area-filters"),
+  detailFilterSummary: document.querySelector("#detail-filter-summary"),
+  detailClearAreas: document.querySelector("#detail-clear-areas"),
+  detailSourceNote: document.querySelector("#detail-source-note"),
+  detailArticles: document.querySelector("#detail-articles"),
+  archiveSummary: document.querySelector("#archive-summary"),
+  archiveList: document.querySelector("#archive-list")
 };
 
-const availableSections = Array.from(el.sections).map((section) => section.id).filter(Boolean);
-
 function normalize(value) {
-  return String(value || "").toLowerCase().trim();
+  return String(value || "")
+    .replace(/<[^>]*>/g, " ")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function readSelectedAreasFromUrl() {
-  return Array.from(new Set(new URLSearchParams(window.location.search).getAll("area")))
-    .filter((slug) => researchAreaSlugs.has(slug));
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
-function writeSelectedAreasToUrl() {
-  const url = new URL(window.location.href);
-  url.searchParams.delete("area");
-  state.selectedAreas.forEach((slug) => url.searchParams.append("area", slug));
-  window.history.pushState(null, "", `${url.pathname}${url.search}${url.hash}`);
+function renderTitle(value) {
+  return escapeHtml(value)
+    .replace(/&lt;(\/?)(sub|sup|i|em)&gt;/gi, "<$1$2>")
+    .replace(/&lt;\/?scp&gt;/gi, "");
 }
 
-function matchesResearchAreas(article) {
-  const articleAreas = article.researchAreas || [];
-  return state.selectedAreas.every((slug) => articleAreas.includes(slug));
-}
-
-function toggleResearchArea(slug) {
-  if (!researchAreaSlugs.has(slug)) return;
-  state.selectedAreas = state.selectedAreas.includes(slug)
-    ? state.selectedAreas.filter((selected) => selected !== slug)
-    : [...state.selectedAreas, slug];
-  writeSelectedAreasToUrl();
-  renderResearchAreaControls();
-  renderSearchResults();
-  renderReportDetail();
-}
-
-function clearResearchAreas() {
-  if (!state.selectedAreas.length) return;
-  state.selectedAreas = [];
-  writeSelectedAreasToUrl();
-  renderResearchAreaControls();
-  renderSearchResults();
-  renderReportDetail();
-}
-
-function getJournalDisplayName(journal) {
-  return journalDisplayNames[journal] || journal;
+function safeExternalHref(value) {
+  if (!value) return "";
+  try {
+    const url = new URL(value, window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? escapeHtml(url.href) : "";
+  } catch {
+    return "";
+  }
 }
 
 function slugify(value) {
@@ -100,6 +120,21 @@ function slugify(value) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 100);
+}
+
+function getJournalDisplayName(journal) {
+  return journalDisplayNames[journal] || journal;
+}
+
+function getJournalAbbreviation(journal) {
+  if (journalAbbreviations[journal]) return journalAbbreviations[journal];
+  return journal
+    .split(/\s+/)
+    .filter((word) => !["and", "of", "the", "&"].includes(word.toLowerCase()))
+    .map((word) => word[0])
+    .join("")
+    .slice(0, 5)
+    .toUpperCase();
 }
 
 function isCrossJournalReport(report) {
@@ -113,8 +148,20 @@ function getArticleJournal(article, report) {
 function formatMonthYear(value) {
   const [year, month] = String(value || "").split("-").map(Number);
   if (!year || !month) return "Undated";
-  return new Intl.DateTimeFormat("en", { month: "long", year: "numeric", timeZone: "UTC" })
-    .format(new Date(Date.UTC(year, month - 1, 1)));
+  return new Intl.DateTimeFormat("en", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC"
+  }).format(new Date(Date.UTC(year, month - 1, 1)));
+}
+
+function formatDate(value) {
+  if (!value) return "Undated";
+  const source = String(value).slice(0, 10);
+  const normalized = /^\d{4}-\d{2}$/.test(source) ? `${source}-01` : source;
+  const date = new Date(`${normalized}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return value;
+  return `${date.getUTCDate()}/${date.getUTCMonth() + 1}/${String(date.getUTCFullYear()).slice(-2)}`;
 }
 
 function getPublicationLabel(batch) {
@@ -130,13 +177,8 @@ function getPublicationLabel(batch) {
 }
 
 function makeBatch(report, journal, articles, suffix = "", publicationLabel = "") {
-  const recommendation = report.recommendation &&
-    articles.some((article) => article.title === report.recommendation.title)
-    ? report.recommendation
-    : null;
-
   const publicationDate = articles
-    .map((article) => article.publicationDate || article.onlineDate || "")
+    .map((article) => getArticleDate(article))
     .sort()
     .at(-1) || report.issueDate || report.date;
 
@@ -149,8 +191,7 @@ function makeBatch(report, journal, articles, suffix = "", publicationLabel = ""
     publicationLabel,
     publicationDate,
     sortDate: publicationDate,
-    articles,
-    recommendation
+    articles: [...articles]
   };
 }
 
@@ -162,7 +203,7 @@ function mergeJournalBatches(batches) {
     const key = normalize(displayLabel);
     const current = merged.get(key);
     if (!current) {
-      merged.set(key, { ...batch, displayLabel });
+      merged.set(key, { ...batch, displayLabel, articles: [...batch.articles] });
       return;
     }
 
@@ -174,8 +215,8 @@ function mergeJournalBatches(batches) {
         seen.add(articleKey);
       }
     });
+
     current.sourceIds = Array.from(new Set([...current.sourceIds, ...batch.sourceIds]));
-    if (!current.recommendation && batch.recommendation) current.recommendation = batch.recommendation;
     if (String(batch.date) > String(current.date)) current.date = batch.date;
     if (String(batch.issueDate) > String(current.issueDate)) current.issueDate = batch.issueDate;
     if (String(batch.publicationDate) > String(current.publicationDate)) current.publicationDate = batch.publicationDate;
@@ -191,7 +232,11 @@ function buildJournalGroups() {
   reports.forEach((report) => {
     const hasArticlePublicationLabels = report.articles.some((article) => article.publicationLabel);
     if (!isCrossJournalReport(report) && !hasArticlePublicationLabels) {
-      const group = groups.get(report.journal) || { name: report.journal, slug: slugify(report.journal), batches: [] };
+      const group = groups.get(report.journal) || {
+        name: report.journal,
+        slug: slugify(report.journal),
+        batches: []
+      };
       group.batches.push(makeBatch(report, report.journal, report.articles));
       groups.set(report.journal, group);
       return;
@@ -202,9 +247,9 @@ function buildJournalGroups() {
       const journal = getArticleJournal(article, report);
       const publicationLabel = article.publicationLabel || "";
       const key = `${journal}::${publicationLabel}`;
-      const group = articleGroups.get(key) || { journal, publicationLabel, articles: [] };
-      group.articles.push(article);
-      articleGroups.set(key, group);
+      const articleGroup = articleGroups.get(key) || { journal, publicationLabel, articles: [] };
+      articleGroup.articles.push(article);
+      articleGroups.set(key, articleGroup);
     });
 
     articleGroups.forEach(({ journal, publicationLabel, articles }) => {
@@ -224,7 +269,8 @@ function buildJournalGroups() {
           const bVolume = Number((b.displayLabel.match(/\d+/) || [0])[0]);
           if (aVolume !== bVolume) return bVolume - aVolume;
         }
-        const dateCompare = String(b.sortDate || b.date || b.issueDate).localeCompare(String(a.sortDate || a.date || a.issueDate));
+        const dateCompare = String(b.sortDate || b.date || b.issueDate)
+          .localeCompare(String(a.sortDate || a.date || a.issueDate));
         return dateCompare || String(b.issueDate).localeCompare(String(a.issueDate));
       });
       group.articleCount = group.batches.reduce((sum, batch) => sum + batch.articles.length, 0);
@@ -239,11 +285,110 @@ const allArticles = allBatches.flatMap((batch) =>
   batch.articles.map((article) => ({
     ...article,
     reportId: batch.id,
-    reportTitle: batch.title,
     reportJournal: batch.journal,
-    reportIssue: batch.displayLabel
+    reportIssue: batch.displayLabel,
+    reportDate: batch.publicationDate || batch.sortDate || batch.date || batch.issueDate || ""
   }))
 );
+
+function getArticleDate(article) {
+  const candidates = [article.publicationDate, article.onlineDate, article.reportDate, article.issueDate];
+  return candidates.map((value) => normalizeArticleDate(value)).find(Boolean)
+    || candidates.find(Boolean)
+    || "";
+}
+
+const sortedArticles = [...allArticles].sort((a, b) => {
+  const dateCompare = String(getArticleDate(b)).localeCompare(String(getArticleDate(a)));
+  return dateCompare || String(a.title).localeCompare(String(b.title));
+});
+
+function normalizeIsoDate(value) {
+  const source = String(value || "").slice(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(source)) return "";
+  const date = new Date(`${source}T00:00:00Z`);
+  if (Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== source) return "";
+  return source;
+}
+
+function normalizeArticleDate(value) {
+  const exactDate = normalizeIsoDate(value);
+  if (exactDate) return exactDate;
+  const month = String(value || "").slice(0, 7);
+  if (!/^\d{4}-\d{2}$/.test(month)) return "";
+  const [year, monthNumber] = month.split("-").map(Number);
+  if (monthNumber < 1 || monthNumber > 12) return "";
+  return new Date(Date.UTC(year, monthNumber, 0)).toISOString().slice(0, 10);
+}
+
+function isoDateToDay(value) {
+  return Math.floor(Date.parse(`${value}T00:00:00Z`) / DAY_MS);
+}
+
+function dayToIsoDate(value) {
+  return new Date(value * DAY_MS).toISOString().slice(0, 10);
+}
+
+const indexedArticleDates = sortedArticles
+  .map((article) => normalizeArticleDate(getArticleDate(article)))
+  .filter(Boolean)
+  .sort();
+const SEARCH_DATE_MIN = indexedArticleDates[0] || "1970-01-01";
+const SEARCH_DATE_MAX = indexedArticleDates.at(-1) || SEARCH_DATE_MIN;
+const SEARCH_DAY_MIN = isoDateToDay(SEARCH_DATE_MIN);
+const SEARCH_DAY_MAX = isoDateToDay(SEARCH_DATE_MAX);
+const SEARCH_DAY_SPAN = Math.max(SEARCH_DAY_MAX - SEARCH_DAY_MIN, 1);
+
+function clampSearchDate(value, fallback) {
+  const normalized = normalizeIsoDate(value);
+  if (!normalized) return fallback;
+  if (normalized < SEARCH_DATE_MIN) return SEARCH_DATE_MIN;
+  if (normalized > SEARCH_DATE_MAX) return SEARCH_DATE_MAX;
+  return normalized;
+}
+
+function syncSearchStateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const requestedFrom = params.get("from");
+  const requestedTo = params.get("to");
+  state.query = params.get("q") || "";
+  state.searchAreas = Array.from(new Set(params.getAll("area")))
+    .filter((slug) => researchAreaSlugs.has(slug));
+  state.dateFrom = clampSearchDate(requestedFrom, SEARCH_DATE_MIN);
+  state.dateTo = clampSearchDate(requestedTo, SEARCH_DATE_MAX);
+  if (state.dateFrom > state.dateTo) {
+    [state.dateFrom, state.dateTo] = [state.dateTo, state.dateFrom];
+  }
+  state.visibleCount = PAGE_SIZE;
+
+  const canonicalFrom = state.dateFrom === SEARCH_DATE_MIN ? null : state.dateFrom;
+  const canonicalTo = state.dateTo === SEARCH_DATE_MAX ? null : state.dateTo;
+  if (window.location.hash === "#search"
+    && (requestedFrom !== canonicalFrom || requestedTo !== canonicalTo)) {
+    writeSearchState({ historyMode: "replace", hash: "#search" });
+  }
+}
+
+function writeSearchState({ historyMode = "replace", hash = window.location.hash || "#search" } = {}) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("q");
+  url.searchParams.delete("area");
+  url.searchParams.delete("from");
+  url.searchParams.delete("to");
+  if (state.query.trim()) url.searchParams.set("q", state.query.trim());
+  state.searchAreas.forEach((slug) => url.searchParams.append("area", slug));
+  if (state.dateFrom !== SEARCH_DATE_MIN) url.searchParams.set("from", state.dateFrom);
+  if (state.dateTo !== SEARCH_DATE_MAX) url.searchParams.set("to", state.dateTo);
+  url.hash = hash;
+  window.history[`${historyMode}State`](null, "", `${url.pathname}${url.search}${url.hash}`);
+}
+
+function getLatestDate() {
+  return allBatches
+    .flatMap((batch) => [batch.date, batch.sortDate, batch.publicationDate, batch.issueDate].filter(Boolean))
+    .sort()
+    .at(-1) || "";
+}
 
 function getArticleSearchText(article) {
   return normalize([
@@ -254,18 +399,24 @@ function getArticleSearchText(article) {
     article.method,
     article.reportJournal,
     article.reportIssue,
+    article.doi,
     (article.researchAreas || []).map((slug) => researchAreaLabels.get(slug) || slug).join(" "),
     (article.keyPoints || []).join(" ")
   ].join(" "));
 }
 
-function articleMatches(article) {
-  const query = normalize(state.query);
-  return matchesResearchAreas(article) && (!query || getArticleSearchText(article).includes(query));
+function matchesSelectedAreas(article, selectedAreas) {
+  const articleAreas = article.researchAreas || [];
+  return selectedAreas.every((slug) => articleAreas.includes(slug));
 }
 
-function hasActiveSearch() {
-  return Boolean(normalize(state.query) || state.selectedAreas.length);
+function articleMatchesSearch(article) {
+  const query = normalize(state.query);
+  const articleDate = normalizeIsoDate(getArticleDate(article));
+  const matchesDate = articleDate && articleDate >= state.dateFrom && articleDate <= state.dateTo;
+  return matchesDate
+    && matchesSelectedAreas(article, state.searchAreas)
+    && (!query || getArticleSearchText(article).includes(query));
 }
 
 function getPdfLink(article) {
@@ -276,148 +427,202 @@ function getPdfLink(article) {
   return "";
 }
 
-function getIssuePage(report) {
-  const source = report.source || "";
+function getIssuePage(batch) {
+  const source = batch.source || "";
   return source.includes("agupubs.onlinelibrary.wiley.com/toc/") ? source : "";
 }
 
-function getArticleId(reportId, article) {
-  return `article-${reportId}-${slugify(article.title)}`;
-}
-
-function renderRecommendationCard(report, visibleArticles = report.articles) {
-  if (!report.recommendation) return "";
-  const recommendedArticle = visibleArticles.find((article) => article.title === report.recommendation.title);
-  if (!recommendedArticle) return "";
-  const targetId = getArticleId(report.id, recommendedArticle);
-
-  return `
-    <a class="recommendation-card" href="#${targetId}" data-scroll-target="${targetId}" aria-label="Jump to recommended article: ${recommendedArticle.title}">
-      <b>${report.recommendation.label}</b>
-      <h3>${report.recommendation.title}</h3>
-      <p>${report.recommendation.text}</p>
-    </a>
-  `;
-}
-
-function renderArticleCard(article, options = {}) {
-  const reportId = options.reportId || article.reportId || "article";
-  const articleId = getArticleId(reportId, article);
-  const pdfLink = getPdfLink(article);
-  const keyPointSourceClass = article.keyPointsSource === "official-publisher"
-    ? "publisher-key-points"
-    : "ai-key-points";
-  const issueTag = options.showIssue
-    ? `<span class="tag journal">${getJournalDisplayName(article.reportJournal)}</span><span class="tag">${article.reportIssue}</span>`
-    : "";
-  const methodLine = article.method ? `<div class="article-meta">Method: ${article.method}</div>` : "";
-  const descriptiveTags = [
-    article.topic ? `<span class="tag topic">${article.topic}</span>` : "",
-    article.region ? `<span class="tag">${article.region}</span>` : ""
-  ].join("");
-  const pdfControl = pdfLink
-    ? `<a class="article-link" href="${pdfLink}" target="_blank" rel="noreferrer">Open PDF</a>`
-    : "";
-
-  return `
-    <article class="article-card" id="${articleId}" tabindex="-1">
-      <div>
-        <div class="article-topline">
-          ${descriptiveTags}
-          ${issueTag}
-        </div>
-        <h3><a class="article-title-link" href="${article.link}" target="_blank" rel="noreferrer">${article.title}</a></h3>
-        <p class="article-authors">${article.authors}</p>
-        <ul class="key-points ${keyPointSourceClass}">${article.keyPoints.map((point) => `<li>${point}</li>`).join("")}</ul>
-        ${methodLine}
-      </div>
-      ${pdfControl}
-    </article>
-  `;
+function renderUtility() {
+  const latestDate = getLatestDate();
+  el.heroJournalCount.textContent = journalGroups.length;
+  el.heroArticleCount.textContent = allArticles.length;
+  el.heroEarliestDate.textContent = formatDate(SEARCH_DATE_MIN);
+  el.heroLatestDate.textContent = latestDate ? formatDate(latestDate) : "—";
 }
 
 function renderJournalDirectory() {
-  if (!el.journalList || !el.journalCount) return;
-  el.journalCount.innerHTML = `<strong>${journalGroups.length}</strong><span>journals monitored</span>`;
-  el.journalList.innerHTML = journalGroups.map((group) => {
+  el.journalDirectory.innerHTML = journalGroups.map((group) => {
     const latest = group.batches[0];
     const displayName = getJournalDisplayName(group.name);
     return `
-      <a class="journal-card" href="report.html#journal=${group.slug}" aria-label="Open ${displayName}">
-        <div>
-          <h2>${displayName}</h2>
-          <p class="journal-latest">${latest.displayLabel}</p>
-          <p class="meta-line">${latest.publicationDate ? `Published ${latest.publicationDate} · ` : ""}${latest.articles.length} latest article${latest.articles.length === 1 ? "" : "s"}</p>
+      <a class="journal-entry" href="#journal=${encodeURIComponent(group.slug)}" data-route="#journal=${escapeHtml(group.slug)}" aria-label="Open ${escapeHtml(displayName)}">
+        <div class="journal-entry-heading">
+          <h3>${escapeHtml(displayName)}</h3>
+          <span class="journal-count">${group.articleCount}<small>papers</small></span>
         </div>
-        <div class="journal-card-stats">
-          <strong>${group.articleCount}</strong>
-          <span>articles in ${group.batches.length} update${group.batches.length === 1 ? "" : "s"}</span>
+        <div class="journal-entry-footer">
+          <span><b>Latest:</b> ${escapeHtml(latest.displayLabel)} · ${escapeHtml(formatDate(latest.publicationDate))}</span>
+          <span class="journal-entry-record">${latest.articles.length} latest · ${group.batches.length} update${group.batches.length === 1 ? "" : "s"}<i aria-hidden="true">↗</i></span>
         </div>
       </a>
     `;
   }).join("");
 }
 
-function renderResearchAreaFilters(container) {
-  if (!container) return;
-  container.innerHTML = researchAreaDefinitions.map((area) => `
-    <button class="filter-button" type="button" data-research-area="${area.slug}" aria-pressed="${state.selectedAreas.includes(area.slug)}" title="${area.description}">
-      ${area.label}
+function renderHomeAreas() {
+  el.homeAreaGrid.innerHTML = researchAreaDefinitions.map((area) => `
+    <button class="home-area" type="button" data-explore-area="${escapeHtml(area.slug)}" aria-label="Search ${escapeHtml(area.label)} articles">
+      <strong>${escapeHtml(area.label)}</strong>
     </button>
   `).join("");
 }
 
-function renderResearchAreaControls() {
-  renderResearchAreaFilters(el.filters);
-  renderResearchAreaFilters(el.detailFilters);
-  if (el.searchClear) el.searchClear.hidden = !state.selectedAreas.length;
-  if (el.detailClear) el.detailClear.hidden = !state.selectedAreas.length;
+function renderHome() {
+  renderJournalDirectory();
+  renderHomeAreas();
 }
 
-function renderSearchResults() {
-  if (!el.searchCount || !el.searchResults) return;
-  if (!hasActiveSearch()) {
-    el.searchCount.textContent = "";
-    el.searchResults.innerHTML = "";
-    return;
+function renderAreaFilters(container, selectedAreas) {
+  container.innerHTML = researchAreaDefinitions.map((area) => `
+    <button class="area-filter" type="button" data-area-filter="${escapeHtml(area.slug)}" aria-pressed="${selectedAreas.includes(area.slug)}">
+      ${escapeHtml(area.label)}
+    </button>
+  `).join("");
+}
+
+function renderArticleCard(article, { showJournal = false, showSourceBadge = true } = {}) {
+  const articleHref = safeExternalHref(article.link);
+  const pdfHref = safeExternalHref(getPdfLink(article));
+  const isPublisher = article.keyPointsSource === "official-publisher";
+  const sourceLabel = isPublisher ? "Publisher Key Points" : "AI-generated Key Points";
+  const tags = [
+    showJournal ? `<span class="article-tag journal">${escapeHtml(getJournalAbbreviation(article.reportJournal))}</span>` : "",
+    article.topic ? `<span class="article-tag topic">${escapeHtml(article.topic)}</span>` : "",
+    article.region ? `<span class="article-tag">${escapeHtml(article.region)}</span>` : "",
+    showJournal && article.reportIssue ? `<span class="article-tag">${escapeHtml(article.reportIssue)}</span>` : ""
+  ].join("");
+  const keyPoints = (article.keyPoints || []).length
+    ? `<ul class="key-points ${isPublisher ? "publisher" : "ai"}">${article.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
+    : "";
+  const methodParts = [
+    article.method ? `Method: ${escapeHtml(article.method)}` : "",
+    article.doi ? `DOI: ${escapeHtml(article.doi)}` : ""
+  ].filter(Boolean);
+  const actions = [
+    pdfHref ? `<a href="${pdfHref}" target="_blank" rel="noreferrer">Open PDF <span aria-hidden="true">↓</span></a>` : ""
+  ].join("");
+  const topline = `${tags}${showSourceBadge ? `<span class="source-badge ${isPublisher ? "publisher" : "ai"}">${sourceLabel}</span>` : ""}`;
+
+  return `
+    <article class="article-card${actions ? " has-action" : ""}">
+      <div>
+        ${topline.trim() ? `<div class="article-topline">${topline}</div>` : ""}
+        <h2>${articleHref ? `<a class="article-title-link" href="${articleHref}" target="_blank" rel="noreferrer">${renderTitle(article.title)}</a>` : renderTitle(article.title)}</h2>
+        ${article.authors ? `<p class="article-authors">${escapeHtml(article.authors)}</p>` : ""}
+        ${keyPoints}
+        ${methodParts.length ? `<div class="article-method">${methodParts.join(" · ")}</div>` : ""}
+      </div>
+      ${actions ? `<div class="article-actions">${actions}</div>` : ""}
+    </article>
+  `;
+}
+
+function getDateRangeTicks() {
+  const minDate = new Date(`${SEARCH_DATE_MIN}T00:00:00Z`);
+  const maxDate = new Date(`${SEARCH_DATE_MAX}T00:00:00Z`);
+  const spansYears = minDate.getUTCFullYear() !== maxDate.getUTCFullYear();
+  const ticks = [];
+  let cursor = new Date(Date.UTC(minDate.getUTCFullYear(), minDate.getUTCMonth(), 1));
+  const lastMonth = Date.UTC(maxDate.getUTCFullYear(), maxDate.getUTCMonth(), 1);
+
+  while (cursor.getTime() <= lastMonth) {
+    const day = Math.max(Math.floor(cursor.getTime() / DAY_MS), SEARCH_DAY_MIN);
+    const label = new Intl.DateTimeFormat("en", {
+      month: "short",
+      ...(spansYears ? { year: "2-digit" } : {}),
+      timeZone: "UTC"
+    }).format(cursor);
+    ticks.push({ day, label });
+    cursor = new Date(Date.UTC(cursor.getUTCFullYear(), cursor.getUTCMonth() + 1, 1));
   }
 
-  const visible = allArticles.filter(articleMatches);
-  el.searchCount.textContent = `${visible.length} result${visible.length === 1 ? "" : "s"}`;
-  el.searchResults.innerHTML = visible.length
-    ? visible.map((article) => renderArticleCard(article, { showIssue: true })).join("")
-    : `<div class="empty-state">No articles match the keyword and all selected research areas. Try fewer areas or another keyword.</div>`;
+  if (ticks.length > 1 && (ticks[1].day - ticks[0].day) / SEARCH_DAY_SPAN < 0.08) {
+    ticks.shift();
+  }
+
+  if (ticks.length <= 7) return ticks;
+  const sampled = new Map();
+  for (let index = 0; index < 7; index += 1) {
+    const tickIndex = Math.round((index / 6) * (ticks.length - 1));
+    sampled.set(tickIndex, ticks[tickIndex]);
+  }
+  return Array.from(sampled.values());
 }
 
-function getSectionFromHash() {
-  const hash = window.location.hash.replace("#", "");
-  return availableSections.includes(hash) ? hash : null;
-}
+function renderSearchDateControls() {
+  const rangeMax = SEARCH_DAY_SPAN;
+  const fromOffset = Math.max(isoDateToDay(state.dateFrom) - SEARCH_DAY_MIN, 0);
+  const toOffset = Math.max(isoDateToDay(state.dateTo) - SEARCH_DAY_MIN, 0);
+  const fromPercent = (fromOffset / rangeMax) * 100;
+  const toPercent = (toOffset / rangeMax) * 100;
 
-function setActiveSection(sectionId, options = {}) {
-  if (!availableSections.length) return;
-  const nextSection = availableSections.includes(sectionId) ? sectionId : "journals";
-  state.section = nextSection;
-
-  el.sections.forEach((section) => section.classList.toggle("active", section.id === nextSection));
-  el.sectionLinks.forEach((link) => {
-    const isActive = link.dataset.sectionLink === nextSection;
-    link.classList.toggle("active", isActive);
-    if (isActive) link.setAttribute("aria-current", "page");
-    else link.removeAttribute("aria-current");
+  [el.searchDateFrom, el.searchDateTo].forEach((input) => {
+    input.min = "0";
+    input.max = String(rangeMax);
   });
-
-  if (options.focusSearch && nextSection === "search" && el.search) {
-    el.search.focus({ preventScroll: true });
-  }
+  el.searchDateFrom.value = String(fromOffset);
+  el.searchDateTo.value = String(toOffset);
+  el.searchDateFromOutput.textContent = formatDate(state.dateFrom);
+  el.searchDateToOutput.textContent = formatDate(state.dateTo);
+  el.searchDateFrom.setAttribute("aria-valuetext", `Start date ${formatDate(state.dateFrom)}`);
+  el.searchDateTo.setAttribute("aria-valuetext", `End date ${formatDate(state.dateTo)}`);
+  el.dateRangeControl.style.setProperty("--range-start", `${fromPercent}%`);
+  el.dateRangeControl.style.setProperty("--range-end", `${toPercent}%`);
+  el.dateRangeTicks.innerHTML = getDateRangeTicks().map((tick) => {
+    const position = ((tick.day - SEARCH_DAY_MIN) / rangeMax) * 100;
+    return `<span style="left: ${position}%">${escapeHtml(tick.label)}</span>`;
+  }).join("");
 }
 
-function parseDetailRoute() {
-  const hash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
-  if (!hash) return {};
-  if (hash.startsWith("journal=")) return { journalSlug: hash.slice("journal=".length) };
-  if (hash.startsWith("report=")) return { reportId: hash.slice("report=".length) };
-  return { reportId: hash };
+function updateSearchDateRange(changedHandle) {
+  let fromOffset = Number(el.searchDateFrom.value);
+  let toOffset = Number(el.searchDateTo.value);
+  if (fromOffset > toOffset) {
+    if (changedHandle === "from") toOffset = fromOffset;
+    else fromOffset = toOffset;
+  }
+  state.dateFrom = dayToIsoDate(SEARCH_DAY_MIN + fromOffset);
+  state.dateTo = dayToIsoDate(SEARCH_DAY_MIN + toOffset);
+  state.visibleCount = PAGE_SIZE;
+  writeSearchState({ historyMode: "replace", hash: "#search" });
+  renderSearch();
+}
+
+function handleSearchDateKeydown(event, changedHandle) {
+  const keySteps = {
+    ArrowLeft: -1,
+    ArrowDown: -1,
+    ArrowRight: 1,
+    ArrowUp: 1,
+    PageDown: -7,
+    PageUp: 7
+  };
+  const rangeMax = Number(event.currentTarget.max);
+  let nextValue = Number(event.currentTarget.value);
+  if (event.key === "Home") nextValue = 0;
+  else if (event.key === "End") nextValue = rangeMax;
+  else if (keySteps[event.key]) nextValue += keySteps[event.key];
+  else return;
+  event.preventDefault();
+  event.currentTarget.value = String(Math.min(Math.max(nextValue, 0), rangeMax));
+  updateSearchDateRange(changedHandle);
+}
+
+function renderSearch() {
+  el.searchInput.value = state.query;
+  renderAreaFilters(el.searchAreaFilters, state.searchAreas);
+  renderSearchDateControls();
+  const visible = sortedArticles.filter(articleMatchesSearch);
+  const shown = visible.slice(0, state.visibleCount);
+  el.searchSummary.textContent = `Showing ${shown.length} of ${visible.length} matching article${visible.length === 1 ? "" : "s"}`;
+  el.searchResults.innerHTML = shown.length
+    ? shown.map((article) => renderArticleCard(article, { showJournal: true, showSourceBadge: false })).join("")
+    : `<div class="empty-state">No articles match the keyword, publication window and every selected research area. Adjust the date range, remove a filter or try another term.</div>`;
+  el.loadMore.hidden = shown.length >= visible.length;
+  if (!el.loadMore.hidden) {
+    const remaining = visible.length - shown.length;
+    el.loadMore.firstChild.textContent = `Load ${Math.min(PAGE_SIZE, remaining)} more `;
+  }
 }
 
 function findBatch(reportId) {
@@ -428,170 +633,279 @@ function findGroupForBatch(batch) {
   return batch ? journalGroups.find((group) => group.name === batch.journal) || null : null;
 }
 
-function setIssuePage(report) {
-  if (!el.detailSource) return;
-  const issuePage = getIssuePage(report);
-  el.detailSource.hidden = !issuePage;
-  if (issuePage) el.detailSource.href = issuePage;
-  else el.detailSource.removeAttribute("href");
-}
-
 function renderArchive(group, currentBatch) {
-  if (!el.journalArchive || !el.journalArchiveCount || !el.journalArchiveList) return;
   const archive = group.batches.filter((batch) => batch.id !== currentBatch.id);
-  if (el.journalArchiveTitle) {
-    el.journalArchiveTitle.textContent = group.batches[0].id === currentBatch.id ? "Previous Updates" : "Other Updates";
-  }
-  el.journalArchive.hidden = false;
-  el.journalArchiveCount.textContent = archive.length
-    ? `${archive.length} previous update${archive.length === 1 ? "" : "s"}`
-    : "No previous updates";
-  el.journalArchiveList.innerHTML = archive.length
+  el.archiveSummary.textContent = archive.length
+    ? `${archive.length} other update${archive.length === 1 ? "" : "s"}`
+    : "No other updates recorded";
+  el.archiveList.innerHTML = archive.length
     ? archive.map((batch) => `
-      <a class="archive-item" href="#report=${batch.id}" aria-label="Open ${batch.displayLabel}">
+      <a class="archive-item" href="#report=${encodeURIComponent(batch.id)}" data-route="#report=${escapeHtml(batch.id)}">
         <div>
-          <h3>${batch.displayLabel}</h3>
-          <p class="meta-line">${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${batch.articles.length} articles</p>
+          <h3>${escapeHtml(batch.displayLabel)}</h3>
+          <p>${escapeHtml(formatDate(batch.publicationDate))} · ${batch.articles.length} article${batch.articles.length === 1 ? "" : "s"}</p>
         </div>
-        <span class="article-link">View update</span>
+        <span>Open update →</span>
       </a>
     `).join("")
     : `<div class="empty-state">This journal has one recorded update so far.</div>`;
 }
 
-function renderBatch(batch, group, isJournalLanding) {
+function renderDetail(group, batch, isJournalLanding) {
+  const visibleArticles = batch.articles.filter((article) => matchesSelectedAreas(article, state.detailAreas));
   const displayName = getJournalDisplayName(group.name);
-  const visibleArticles = batch.articles.filter(matchesResearchAreas);
-  const articleCountLabel = state.selectedAreas.length
-    ? `${visibleArticles.length} of ${batch.articles.length}`
-    : `${batch.articles.length}`;
-  const hasPublisherKeyPoints = batch.articles.every((article) => article.keyPointsSource === "official-publisher");
-  el.detail.hidden = false;
-  if (el.detailMissing) el.detailMissing.hidden = true;
-  document.title = `${displayName} | Solid Earth Literature Brief`;
-  el.detailKicker.textContent = isJournalLanding ? "Journal" : "Archived Update";
+  const issuePage = safeExternalHref(getIssuePage(batch));
+  const sourceKinds = new Set(batch.articles.map((article) => article.keyPointsSource));
+
+  el.detailBack.href = isJournalLanding ? "#journals" : `#journal=${encodeURIComponent(group.slug)}`;
+  el.detailBack.dataset.route = el.detailBack.href;
+  el.detailBack.textContent = isJournalLanding ? "← All journals" : `← Back to ${displayName}`;
+  el.detailKicker.textContent = isJournalLanding ? "Journal / latest batch" : "Journal archive / recorded update";
   el.detailTitle.textContent = isJournalLanding ? displayName : batch.displayLabel;
   el.detailMeta.textContent = isJournalLanding
-    ? `${batch.displayLabel} · ${articleCountLabel} latest Solid Earth article${visibleArticles.length === 1 ? "" : "s"}`
-    : `${displayName} · ${batch.publicationDate ? `Published: ${batch.publicationDate} · ` : ""}${articleCountLabel} Solid Earth articles`;
-  el.detailBack.href = isJournalLanding ? "index.html#journals" : `#journal=${group.slug}`;
-  el.detailBack.textContent = isJournalLanding ? "All journals" : `Back to ${displayName}`;
-  if (el.detailKeyPointsSource) {
-    el.detailKeyPointsSource.className = `key-points-source-note ${hasPublisherKeyPoints ? "source-publisher" : "source-ai"}`;
-    el.detailKeyPointsSource.textContent = hasPublisherKeyPoints
-      ? "Key Points provided by the publisher."
-      : "Key Points are AI-generated from article abstracts.";
+    ? `${batch.displayLabel} · ${visibleArticles.length} of ${batch.articles.length} articles shown · updated ${formatDate(batch.publicationDate)}`
+    : `${displayName} · ${visibleArticles.length} of ${batch.articles.length} articles shown · recorded ${formatDate(batch.publicationDate)}`;
+  el.detailSource.hidden = !issuePage;
+  if (issuePage) el.detailSource.href = issuePage;
+  else el.detailSource.removeAttribute("href");
+
+  renderAreaFilters(el.detailAreaFilters, state.detailAreas);
+  el.detailFilterSummary.textContent = state.detailAreas.length
+    ? `${visibleArticles.length} shown · matches every selected area`
+    : "No research-area filter applied";
+  el.detailClearAreas.hidden = !state.detailAreas.length;
+
+  if (sourceKinds.size > 1) {
+    el.detailSourceNote.textContent = "Key Points provenance is shown on every article: publisher-provided or AI-generated from abstracts.";
+  } else if (sourceKinds.has("official-publisher")) {
+    el.detailSourceNote.textContent = "Key Points in this update are provided by the publisher.";
+  } else {
+    el.detailSourceNote.textContent = "Key Points in this update are AI-generated from article abstracts.";
   }
-  setIssuePage(batch);
-  if (el.detailFilterCount) {
-    el.detailFilterCount.textContent = state.selectedAreas.length
-      ? `${visibleArticles.length} shown · matches all selected`
-      : "Select one or more · matches all selected";
-  }
-  el.detailSummary.innerHTML = renderRecommendationCard(batch, visibleArticles);
-  el.detailList.innerHTML = visibleArticles.length
-    ? visibleArticles.map((article) => renderArticleCard(article, { reportId: batch.id })).join("")
-    : `<div class="empty-state">No articles in this update match all selected research areas. Clear or remove a filter to see more.</div>`;
+
+  el.detailArticles.innerHTML = visibleArticles.length
+    ? visibleArticles.map((article) => renderArticleCard(
+      { ...article, reportJournal: group.name, reportIssue: batch.displayLabel },
+      { showSourceBadge: sourceKinds.size > 1 }
+    )).join("")
+    : `<div class="empty-state">No articles in this update match every selected research area. Clear or remove a filter to see more.</div>`;
   renderArchive(group, batch);
+  document.title = `${isJournalLanding ? displayName : batch.displayLabel} | Solid Earth Observatory`;
 }
 
-function renderReportDetail() {
-  if (!el.detail) return;
-  const route = parseDetailRoute();
-  let group = route.journalSlug ? journalGroups.find((item) => item.slug === route.journalSlug) : null;
-  let batch = route.reportId ? findBatch(route.reportId) : null;
-  if (!group && batch) group = findGroupForBatch(batch);
-  if (group && !batch) batch = group.batches[0];
+function parseRoute() {
+  const raw = decodeURIComponent(window.location.hash.replace(/^#/, "")) || "latest";
+  if (["latest", "journals", "areas", "search"].includes(raw)) return { type: raw };
+  if (raw.startsWith("journal=")) return { type: "journal", slug: raw.slice("journal=".length) };
+  if (raw.startsWith("report=")) return { type: "report", id: raw.slice("report=".length) };
+  return { type: "missing" };
+}
 
-  if (!group || !batch) {
-    el.detail.hidden = true;
-    if (el.detailMissing) el.detailMissing.hidden = false;
+function getDetailRouteKey(route) {
+  if (route.type === "journal") return `journal:${route.slug}`;
+  if (route.type === "report") return `report:${route.id}`;
+  return "";
+}
+
+function showView(view) {
+  [el.homeView, el.searchView, el.detailView, el.missingView].forEach((candidate) => {
+    candidate.hidden = candidate !== view;
+  });
+}
+
+function setNavigationState(route) {
+  el.navLinks.forEach((link) => {
+    const href = link.getAttribute("href");
+    let active = false;
+    if (route.type === "search") active = href === "#search";
+    else if (["journal", "report"].includes(route.type)) active = href === "#journals";
+    else active = href === `#${route.type}` || (route.type === "latest" && href === "#latest");
+    if (active) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+function scrollForRoute(route, shouldScroll) {
+  if (!shouldScroll) return;
+  window.requestAnimationFrame(() => {
+    const target = route.type === "journals"
+      ? document.querySelector("#journal-index")
+      : route.type === "areas"
+        ? document.querySelector("#research-areas")
+        : null;
+    if (target) target.scrollIntoView({ block: "start" });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+function renderRoute({ shouldScroll = true } = {}) {
+  const route = parseRoute();
+  if (route.type !== "search") {
+    const cleanUrl = new URL(window.location.href);
+    const searchParameterNames = ["q", "area", "from", "to"];
+    if (searchParameterNames.some((name) => cleanUrl.searchParams.has(name))) {
+      searchParameterNames.forEach((name) => cleanUrl.searchParams.delete(name));
+      window.history.replaceState(null, "", `${cleanUrl.pathname}${cleanUrl.hash}`);
+    }
+  }
+  const detailKey = getDetailRouteKey(route);
+  const wasInDetail = ["journal", "report"].includes(state.previousRouteType);
+  if (detailKey && (state.activeDetailKey !== detailKey || !wasInDetail)) {
+    state.detailAreas = [];
+  }
+  state.activeDetailKey = detailKey;
+  state.previousRouteType = route.type;
+  setNavigationState(route);
+
+  if (["latest", "journals", "areas"].includes(route.type)) {
+    showView(el.homeView);
+    document.title = "Solid Earth Literature Observatory";
+    scrollForRoute(route, shouldScroll);
     return;
   }
 
-  renderBatch(batch, group, Boolean(route.journalSlug));
+  if (route.type === "search") {
+    showView(el.searchView);
+    renderSearch();
+    document.title = "Search Articles | Solid Earth Observatory";
+    scrollForRoute(route, shouldScroll);
+    return;
+  }
+
+  if (route.type === "journal") {
+    const group = journalGroups.find((item) => item.slug === route.slug);
+    if (group) {
+      showView(el.detailView);
+      renderDetail(group, group.batches[0], true);
+      scrollForRoute(route, shouldScroll);
+      return;
+    }
+  }
+
+  if (route.type === "report") {
+    const batch = findBatch(route.id);
+    const group = findGroupForBatch(batch);
+    if (batch && group) {
+      showView(el.detailView);
+      renderDetail(group, batch, false);
+      scrollForRoute(route, shouldScroll);
+      return;
+    }
+  }
+
+  showView(el.missingView);
+  document.title = "Route Not Found | Solid Earth Observatory";
+  scrollForRoute({ type: "missing" }, shouldScroll);
 }
 
-function validateReports() {
-  reports.forEach((report) => {
-    if (!report.issueDate) return;
-    report.articles.forEach((article) => {
-      if (article.issueDate && article.issueDate !== report.issueDate) {
-        console.warn(`Issue date mismatch: "${article.title}" is ${article.issueDate}, expected ${report.issueDate}.`);
-      }
-    });
-  });
+function navigate(hash, { historyMode = "push" } = {}) {
+  const url = new URL(window.location.href);
+  const targetRoute = decodeURIComponent(String(hash).replace(/^#/, ""));
+  if (targetRoute !== "search") {
+    url.searchParams.delete("q");
+    url.searchParams.delete("area");
+    url.searchParams.delete("from");
+    url.searchParams.delete("to");
+  }
+  url.hash = hash;
+  window.history[`${historyMode}State`](null, "", `${url.pathname}${url.search}${url.hash}`);
+  if (targetRoute === "search") syncSearchStateFromUrl();
+  renderRoute();
 }
 
-function render() {
-  validateReports();
-  setActiveSection(getSectionFromHash() || state.section);
-  renderJournalDirectory();
-  renderResearchAreaControls();
-  renderSearchResults();
-  renderReportDetail();
+function toggleArea(slug) {
+  if (!researchAreaSlugs.has(slug)) return;
+  const route = parseRoute();
+  if (route.type === "search") {
+    state.searchAreas = state.searchAreas.includes(slug)
+      ? state.searchAreas.filter((selected) => selected !== slug)
+      : [...state.searchAreas, slug];
+    state.visibleCount = PAGE_SIZE;
+    writeSearchState({ historyMode: "push", hash: "#search" });
+    renderSearch();
+    return;
+  }
+  if (route.type === "journal" || route.type === "report") {
+    state.detailAreas = state.detailAreas.includes(slug)
+      ? state.detailAreas.filter((selected) => selected !== slug)
+      : [...state.detailAreas, slug];
+    renderRoute({ shouldScroll: false });
+  }
 }
-
-if (el.search) {
-  el.search.addEventListener("input", (event) => {
-    state.query = event.target.value;
-    renderSearchResults();
-  });
-}
-
-[el.filters, el.detailFilters].filter(Boolean).forEach((container) => {
-  container.addEventListener("click", (event) => {
-    const button = event.target.closest("button[data-research-area]");
-    if (button) toggleResearchArea(button.dataset.researchArea);
-  });
-});
-
-[el.searchClear, el.detailClear].filter(Boolean).forEach((button) => {
-  button.addEventListener("click", clearResearchAreas);
-});
-
-el.sectionLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    const sectionId = link.dataset.sectionLink;
-    if (!availableSections.includes(sectionId)) return;
-    event.preventDefault();
-    setActiveSection(sectionId, { focusSearch: sectionId === "search" });
-    window.history.replaceState(null, "", `#${sectionId}`);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-});
 
 document.addEventListener("click", (event) => {
-  const trigger = event.target.closest("[data-scroll-target]");
-  if (!trigger) return;
-  const target = document.getElementById(trigger.dataset.scrollTarget);
-  if (!target) return;
-  event.preventDefault();
-  target.scrollIntoView({ behavior: "smooth", block: "center" });
-  target.focus({ preventScroll: true });
-  target.classList.remove("article-card-highlight");
-  window.requestAnimationFrame(() => {
-    target.classList.add("article-card-highlight");
-    window.setTimeout(() => target.classList.remove("article-card-highlight"), 1800);
-  });
-});
+  const routeLink = event.target.closest("a[data-route]");
+  if (routeLink && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+    const href = routeLink.getAttribute("href");
+    if (href && href.startsWith("#")) {
+      event.preventDefault();
+      navigate(href);
+      return;
+    }
+  }
 
-window.addEventListener("hashchange", () => {
-  const sectionId = getSectionFromHash();
-  if (sectionId) {
-    setActiveSection(sectionId);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  } else {
-    renderReportDetail();
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const areaButton = event.target.closest("button[data-area-filter]");
+  if (areaButton) {
+    toggleArea(areaButton.dataset.areaFilter);
+    return;
+  }
+
+  const exploreButton = event.target.closest("button[data-explore-area]");
+  if (exploreButton) {
+    state.query = "";
+    state.searchAreas = [exploreButton.dataset.exploreArea];
+    state.dateFrom = SEARCH_DATE_MIN;
+    state.dateTo = SEARCH_DATE_MAX;
+    state.visibleCount = PAGE_SIZE;
+    writeSearchState({ historyMode: "push", hash: "#search" });
+    renderRoute();
   }
 });
 
-window.addEventListener("popstate", () => {
-  state.selectedAreas = readSelectedAreasFromUrl();
-  renderResearchAreaControls();
-  renderSearchResults();
-  renderReportDetail();
+el.searchInput.addEventListener("input", (event) => {
+  state.query = event.target.value;
+  state.visibleCount = PAGE_SIZE;
+  writeSearchState({ historyMode: "replace", hash: "#search" });
+  renderSearch();
 });
 
-render();
+el.searchDateFrom.addEventListener("input", () => updateSearchDateRange("from"));
+el.searchDateTo.addEventListener("input", () => updateSearchDateRange("to"));
+el.searchDateFrom.addEventListener("keydown", (event) => handleSearchDateKeydown(event, "from"));
+el.searchDateTo.addEventListener("keydown", (event) => handleSearchDateKeydown(event, "to"));
+
+el.searchReset.addEventListener("click", () => {
+  state.query = "";
+  state.searchAreas = [];
+  state.dateFrom = SEARCH_DATE_MIN;
+  state.dateTo = SEARCH_DATE_MAX;
+  state.visibleCount = PAGE_SIZE;
+  writeSearchState({ historyMode: "push", hash: "#search" });
+  renderSearch();
+  el.searchInput.focus();
+});
+
+el.detailClearAreas.addEventListener("click", () => {
+  state.detailAreas = [];
+  renderRoute({ shouldScroll: false });
+});
+
+el.loadMore.addEventListener("click", () => {
+  state.visibleCount += PAGE_SIZE;
+  renderSearch();
+});
+
+window.addEventListener("popstate", () => {
+  syncSearchStateFromUrl();
+  renderRoute();
+});
+
+window.addEventListener("hashchange", () => {
+  syncSearchStateFromUrl();
+  renderRoute();
+});
+
+syncSearchStateFromUrl();
+renderUtility();
+renderHome();
+renderRoute({ shouldScroll: Boolean(window.location.hash) });

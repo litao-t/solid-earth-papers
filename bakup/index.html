@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solid Earth Literature Monitor</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="site-title" href="#journals" data-section-link="journals">Solid Earth Literature Brief</a>
+        <nav class="topbar-nav" aria-label="Report sections">
+          <a href="#journals" data-section-link="journals" class="active">Journals</a>
+          <a href="#search" data-section-link="search">Search Articles</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="journals" class="journal-directory content-section active" aria-labelledby="journals-title">
+        <div class="section-title-row">
+          <div>
+            <p class="section-kicker">Browse by publication</p>
+            <h1 id="journals-title">Journals</h1>
+            <p class="directory-intro">Open a journal to read its latest Solid Earth articles and browse previous updates.</p>
+          </div>
+          <div id="journal-count" class="count-box"></div>
+        </div>
+        <div id="journal-list" class="journal-list"></div>
+      </section>
+
+      <section id="search" class="search-section content-section" aria-labelledby="search-title">
+        <div class="section-title-row">
+          <div>
+            <p class="section-kicker">Search</p>
+            <h2 id="search-title">Search Articles</h2>
+          </div>
+          <span id="search-count" class="small-note"></span>
+        </div>
+
+        <div class="controls" aria-label="Search recorded articles">
+          <label class="search-box">
+            <span>Keyword</span>
+            <input id="search-input" type="search" placeholder="Title, author, method, region, key point" />
+          </label>
+          <div class="research-area-control">
+            <div class="filter-heading-row">
+              <div>
+                <span class="filter-label">Research areas</span>
+                <span class="filter-hint">Select one or more · matches all selected</span>
+              </div>
+              <button id="search-clear-areas" class="clear-filter-button" type="button" hidden>Clear areas</button>
+            </div>
+            <div id="research-area-filters" class="research-area-filters" aria-label="Research area filters"></div>
+          </div>
+        </div>
+
+        <div class="key-points-source-legend" role="note" aria-label="Key Points source legend">
+          <span class="source-legend-item source-publisher"><strong>Publisher-provided:</strong> GRL and JGR: Solid Earth</span>
+          <span class="source-legend-item source-ai"><strong>AI-generated:</strong> all other journals</span>
+        </div>
+
+        <div id="search-results" class="article-list compact-list"></div>
+      </section>
+
+    </main>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
