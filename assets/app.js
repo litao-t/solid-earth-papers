@@ -98,10 +98,30 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
-function renderTitle(value) {
-  return escapeHtml(value)
+const chemicalElements = new Set(
+  "H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn Fr Ra Ac Th Pa U Np Pu Am Cm Bk Cf Es Fm Md No Lr Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl Mc Lv Ts Og".split(" ")
+);
+
+function renderChemicalFormulae(value) {
+  return value.replace(/\b(?:[A-Z][a-z]?\d*){2,}\b/g, (candidate) => {
+    const atoms = [...candidate.matchAll(/([A-Z][a-z]?)(\d*)/g)];
+    const isFormula = atoms.some(([, , count]) => count)
+      && atoms.every(([, element]) => chemicalElements.has(element))
+      && atoms.map((match) => match[0]).join("") === candidate;
+    return isFormula ? candidate.replace(/\d+/g, (count) => `<sub>${count}</sub>`) : candidate;
+  });
+}
+
+function renderScientificText(value) {
+  const safeMarkup = escapeHtml(value)
     .replace(/&lt;(\/?)(sub|sup|i|em)&gt;/gi, "<$1$2>")
-    .replace(/&lt;\/?scp&gt;/gi, "");
+    .replace(/&lt;\/?scp&gt;/gi, "")
+    .replace(/\s+(?=<(?:sub|sup)>)/gi, "");
+
+  return safeMarkup
+    .split(/(<\/?(?:sub|sup|i|em)>)/i)
+    .map((segment) => segment.startsWith("<") ? segment : renderChemicalFormulae(segment))
+    .join("");
 }
 
 function safeExternalHref(value) {
@@ -493,7 +513,7 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
     showJournal && article.reportIssue ? `<span class="article-tag">${escapeHtml(article.reportIssue)}</span>` : ""
   ].join("");
   const keyPoints = (article.keyPoints || []).length
-    ? `<ul class="key-points ${sourceClass}">${article.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>`
+    ? `<ul class="key-points ${sourceClass}">${article.keyPoints.map((point) => `<li>${renderScientificText(point)}</li>`).join("")}</ul>`
     : "";
   const methodParts = [
     article.method ? `Method: ${escapeHtml(article.method)}` : "",
@@ -509,7 +529,7 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
     <article class="article-card${actions ? " has-action" : ""}">
       <div>
         ${topline.trim() ? `<div class="article-topline">${topline}</div>` : ""}
-        <h2>${articleHref ? `<a class="article-title-link" href="${articleHref}" target="_blank" rel="noreferrer">${renderTitle(article.title)}</a>` : renderTitle(article.title)}</h2>
+        <h2>${articleHref ? `<a class="article-title-link" href="${articleHref}" target="_blank" rel="noreferrer">${renderScientificText(article.title)}</a>` : renderScientificText(article.title)}</h2>
         ${article.authors ? `<p class="article-authors">${escapeHtml(article.authors)}</p>` : ""}
         ${keyPoints}
         ${methodParts.length ? `<div class="article-method">${methodParts.join(" · ")}</div>` : ""}
