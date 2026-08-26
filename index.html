@@ -54,7 +54,6 @@
           <section id="journal-index" class="journal-section" aria-labelledby="journal-index-title">
             <div class="index-heading">
               <h2 id="journal-index-title">Journal index</h2>
-              <span class="index-heading-rule" aria-hidden="true"></span>
             </div>
             <div id="journal-directory" class="journal-directory"></div>
           </section>
@@ -62,7 +61,6 @@
           <section id="research-areas" class="areas-section" aria-labelledby="areas-title">
             <div class="index-heading">
               <h2 id="areas-title">Research areas</h2>
-              <span class="index-heading-rule" aria-hidden="true"></span>
             </div>
             <div id="home-area-grid" class="home-area-grid"></div>
           </section>
@@ -101,10 +99,12 @@
                 <strong id="date-filter-title">Publication window</strong>
                 <span id="date-filter-help">Drag either handle to select an inclusive article date range.</span>
               </div>
-              <div class="date-filter-values" aria-live="polite">
-                <output id="search-date-from-output" for="search-date-from">—</output>
+              <div class="date-filter-values">
+                <label class="visually-hidden" for="search-date-from-input">Start date</label>
+                <input id="search-date-from-input" type="date" aria-label="Start date" />
                 <span aria-hidden="true">—</span>
-                <output id="search-date-to-output" for="search-date-to">—</output>
+                <label class="visually-hidden" for="search-date-to-input">End date</label>
+                <input id="search-date-to-input" type="date" aria-label="End date" />
               </div>
             </div>
             <div id="date-range-control" class="date-range-control">
@@ -117,16 +117,17 @@
             <div id="date-range-ticks" class="date-range-ticks" aria-hidden="true"></div>
           </section>
 
+          <div class="results-toolbar">
+            <p id="search-summary" aria-live="polite"></p>
+            <span>Newest first</span>
+          </div>
+
           <div class="key-points-legend" role="note" aria-label="Key Points source legend">
             <strong>Key Points</strong>
             <span class="legend-item"><i class="legend-dot publisher" aria-hidden="true"></i>Publisher-provided · GRL and JGR: Solid Earth</span>
             <span class="legend-item"><i class="legend-dot ai" aria-hidden="true"></i>AI-generated from abstracts · other indexed articles</span>
           </div>
 
-          <div class="results-toolbar">
-            <p id="search-summary" aria-live="polite"></p>
-            <span>Newest first</span>
-          </div>
           <div id="search-results" class="article-list"></div>
           <div class="load-more-wrap">
             <button id="load-more" class="action" type="button" hidden>Load 24 more <span aria-hidden="true">↓</span></button>

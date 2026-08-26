@@ -60,8 +60,8 @@ const el = {
   searchReset: document.querySelector("#search-reset"),
   searchDateFrom: document.querySelector("#search-date-from"),
   searchDateTo: document.querySelector("#search-date-to"),
-  searchDateFromOutput: document.querySelector("#search-date-from-output"),
-  searchDateToOutput: document.querySelector("#search-date-to-output"),
+  searchDateFromInput: document.querySelector("#search-date-from-input"),
+  searchDateToInput: document.querySelector("#search-date-to-input"),
   dateRangeControl: document.querySelector("#date-range-control"),
   dateRangeTicks: document.querySelector("#date-range-ticks"),
   searchSummary: document.querySelector("#search-summary"),
@@ -584,8 +584,12 @@ function renderSearchDateControls() {
   });
   el.searchDateFrom.value = String(fromOffset);
   el.searchDateTo.value = String(toOffset);
-  el.searchDateFromOutput.textContent = formatDate(state.dateFrom);
-  el.searchDateToOutput.textContent = formatDate(state.dateTo);
+  [el.searchDateFromInput, el.searchDateToInput].forEach((input) => {
+    input.min = SEARCH_DATE_MIN;
+    input.max = SEARCH_DATE_MAX;
+  });
+  el.searchDateFromInput.value = state.dateFrom;
+  el.searchDateToInput.value = state.dateTo;
   el.searchDateFrom.setAttribute("aria-valuetext", `Start date ${formatDate(state.dateFrom)}`);
   el.searchDateTo.setAttribute("aria-valuetext", `End date ${formatDate(state.dateTo)}`);
   el.dateRangeControl.style.setProperty("--range-start", `${fromPercent}%`);
@@ -605,6 +609,26 @@ function updateSearchDateRange(changedHandle) {
   }
   state.dateFrom = dayToIsoDate(SEARCH_DAY_MIN + fromOffset);
   state.dateTo = dayToIsoDate(SEARCH_DAY_MIN + toOffset);
+  state.visibleCount = PAGE_SIZE;
+  writeSearchState({ historyMode: "replace", hash: "#search" });
+  renderSearch();
+}
+
+function updateSearchDateInput(changedInput) {
+  const input = changedInput === "from" ? el.searchDateFromInput : el.searchDateToInput;
+  const nextDate = normalizeIsoDate(input.value);
+  if (!nextDate) {
+    renderSearchDateControls();
+    return;
+  }
+
+  if (changedInput === "from") {
+    state.dateFrom = clampSearchDate(nextDate, state.dateFrom);
+    if (state.dateFrom > state.dateTo) state.dateTo = state.dateFrom;
+  } else {
+    state.dateTo = clampSearchDate(nextDate, state.dateTo);
+    if (state.dateTo < state.dateFrom) state.dateFrom = state.dateTo;
+  }
   state.visibleCount = PAGE_SIZE;
   writeSearchState({ historyMode: "replace", hash: "#search" });
   renderSearch();
@@ -900,6 +924,8 @@ el.searchDateFrom.addEventListener("input", () => updateSearchDateRange("from"))
 el.searchDateTo.addEventListener("input", () => updateSearchDateRange("to"));
 el.searchDateFrom.addEventListener("keydown", (event) => handleSearchDateKeydown(event, "from"));
 el.searchDateTo.addEventListener("keydown", (event) => handleSearchDateKeydown(event, "to"));
+el.searchDateFromInput.addEventListener("change", () => updateSearchDateInput("from"));
+el.searchDateToInput.addEventListener("change", () => updateSearchDateInput("to"));
 
 el.searchReset.addEventListener("click", () => {
   state.query = "";

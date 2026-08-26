@@ -237,7 +237,6 @@ a {
   min-height: 390px;
   align-items: end;
   padding: 68px 48px 54px;
-  border-bottom: 1px solid var(--basalt);
 }
 
 .hero-copy {
@@ -353,6 +352,25 @@ a {
   padding: 44px 48px 54px;
 }
 
+.journal-section {
+  position: relative;
+}
+
+.journal-section::before {
+  position: absolute;
+  top: 0;
+  right: 48px;
+  left: 48px;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--signal) 0 62%,
+    var(--fault) 62% 77%,
+    var(--line) 77% 100%
+  );
+  content: "";
+}
+
 #journal-index,
 #research-areas {
   scroll-margin-top: 112px;
@@ -384,12 +402,6 @@ a {
   font: 760 clamp(20px, 1.8vw, 24px)/1 var(--display);
   letter-spacing: -0.015em;
   text-transform: uppercase;
-}
-
-.index-heading-rule {
-  flex: 1 1 auto;
-  height: 1px;
-  background: var(--basalt);
 }
 
 .section-heading h2 {
@@ -537,6 +549,26 @@ a {
   border-bottom: 1px solid var(--basalt);
 }
 
+.search-header {
+  position: relative;
+  border-bottom: 0;
+}
+
+.search-header::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--signal) 0 62%,
+    var(--fault) 62% 77%,
+    var(--line) 77% 100%
+  );
+  content: "";
+}
+
 .view-header h1,
 .missing-view h1 {
   max-width: 900px;
@@ -548,8 +580,7 @@ a {
   display: grid;
   grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
   gap: 32px;
-  padding: 28px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 28px 0 22px;
 }
 
 .search-field {
@@ -657,8 +688,7 @@ a {
 }
 
 .date-filter {
-  padding: 24px 0 18px;
-  border-bottom: 1px solid var(--line);
+  padding: 18px 0 12px;
 }
 
 .date-filter-heading {
@@ -692,13 +722,19 @@ a {
   font: 650 13px/1 var(--utility);
 }
 
-.date-filter-values output {
-  min-width: 58px;
+.date-filter-values input[type="date"] {
+  min-width: 100px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--paper);
   color: var(--basalt);
+  font: 650 13px/1 var(--utility);
 }
 
-.date-filter-values output:last-child {
-  text-align: right;
+.date-filter-values input[type="date"]:focus-visible {
+  outline: 2px solid var(--sulfur);
+  outline-offset: 2px;
 }
 
 .date-range-control {
@@ -814,8 +850,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 24px;
-  padding: 17px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 15px 0 8px;
   color: var(--graphite);
   font-size: 13px;
   line-height: 1.45;
@@ -853,7 +888,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   align-items: center;
-  padding: 18px 0;
+  padding: 12px 0 8px;
   border-bottom: 2px solid var(--basalt);
   color: var(--graphite);
   font: 550 12px/1.4 var(--utility);
@@ -1277,6 +1312,11 @@ a {
   .missing-view,
   .areas-section {
     padding: 34px 22px 40px;
+  }
+
+  .journal-section::before {
+    right: 22px;
+    left: 22px;
   }
 
   .index-heading {
