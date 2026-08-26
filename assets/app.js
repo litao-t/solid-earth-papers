@@ -103,13 +103,29 @@ const chemicalElements = new Set(
 );
 
 function renderChemicalFormulae(value) {
-  return value.replace(/\b(?:[A-Z][a-z]?\d*){2,}\b/g, (candidate) => {
+  const withSpacedSubscripts = value.replace(
+    /\b((?:[A-Z][a-z]?)+)\s+(\d+)(?=\s*(?:[A-Z][a-z]?\b|[-–—/]|$|[),.;:]))/g,
+    (candidate, formula, count) => {
+      const atoms = [...formula.matchAll(/[A-Z][a-z]?/g)];
+      const isFormula = atoms.every(([element]) => chemicalElements.has(element))
+        && atoms.map(([element]) => element).join("") === formula;
+      return isFormula ? `${formula}<sub>${count}</sub>` : candidate;
+    }
+  ).replace(/<\/sub>\s+(?=[A-Z][a-z]?\b)/g, "</sub>");
+
+  return withSpacedSubscripts.replace(/\b(?:[A-Z][a-z]?\d*){2,}\b/g, (candidate) => {
     const atoms = [...candidate.matchAll(/([A-Z][a-z]?)(\d*)/g)];
     const isFormula = atoms.some(([, , count]) => count)
       && atoms.every(([, element]) => chemicalElements.has(element))
       && atoms.map((match) => match[0]).join("") === candidate;
     return isFormula ? candidate.replace(/\d+/g, (count) => `<sub>${count}</sub>`) : candidate;
   });
+}
+
+function renderScientificPowers(value) {
+  return value
+    .replace(/\b10\s+([+−-]?\d+)\b/g, "10<sup>$1</sup>")
+    .replace(/\b(km|cm|mm|µm|um|m)\s+([23])\b/g, "$1<sup>$2</sup>");
 }
 
 function renderScientificText(value) {
@@ -120,7 +136,7 @@ function renderScientificText(value) {
 
   return safeMarkup
     .split(/(<\/?(?:sub|sup|i|em)>)/i)
-    .map((segment) => segment.startsWith("<") ? segment : renderChemicalFormulae(segment))
+    .map((segment) => segment.startsWith("<") ? segment : renderChemicalFormulae(renderScientificPowers(segment)))
     .join("");
 }
 
