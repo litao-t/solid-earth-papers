@@ -441,6 +441,28 @@ function articleMatchesSearch(article) {
 
 function getPdfLink(article) {
   if (article.pdfLink) return article.pdfLink;
+
+  const doi = String(article.doi || "")
+    .trim()
+    .replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "");
+  const journal = normalize(article.reportJournal || article.journal);
+  const isPnas = journal === "pnas"
+    || journal === "proceedings of the national academy of sciences of the united states of america";
+  if (isPnas) {
+    const articleLink = String(article.link || "");
+    if (/^https?:\/\/(?:www\.)?pnas\.org\/doi\/(?!pdf\/)/i.test(articleLink)) {
+      return articleLink.replace(/\/doi\//i, "/doi/pdf/");
+    }
+    if (doi) return `https://www.pnas.org/doi/pdf/${doi}`;
+  }
+
+  const ieeeArticleNumber = String(article.ieeeArticleNumber || "")
+    || String(article.link || "").match(/ieeexplore\.ieee\.org\/document\/(\d+)/i)?.[1]
+    || "";
+  if (ieeeArticleNumber) {
+    return `https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=${ieeeArticleNumber}`;
+  }
+
   if (article.link && article.link.includes("agupubs.onlinelibrary.wiley.com/doi/")) {
     return article.link.replace("/doi/", "/doi/pdf/");
   }

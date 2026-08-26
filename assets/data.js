@@ -180,6 +180,7 @@ const reports = [
       {
         "title": "Topographic Delays Correction Based on Optimal Selection of Common-Reference Interferometric Subsets",
         "doi": "10.1109/tgrs.2026.3719089",
+        "ieeeArticleNumber": "11641632",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -238,6 +239,7 @@ const reports = [
       {
         "title": "An effective 3D inversion algorithm for semi-airborne transient electromagnetic simulation using the Gauss-Newton method based on multi-GPU parallelism",
         "doi": "10.1109/tgrs.2026.3725240",
+        "ieeeArticleNumber": "11658745",
         "interestTags": [],
         "authors": [
           "Qi Zhao",
@@ -290,6 +292,7 @@ const reports = [
       {
         "title": "Exploring Feasibility of Using Electromagnetic Fields Excited by Overhead AC Transmission Lines to Recover Underground Structures: Insights from Forward Modeling",
         "doi": "10.1109/tgrs.2026.3724124",
+        "ieeeArticleNumber": "11655912",
         "interestTags": [],
         "authors": [
           "Siwei Zhu",
@@ -338,6 +341,7 @@ const reports = [
       {
         "title": "A Solid Seismic Wavefield Simulation Method Based on the Elastic Multiple-relaxation-time Lattice Boltzmann Model",
         "doi": "10.1109/tgrs.2026.3723870",
+        "ieeeArticleNumber": "11655926",
         "interestTags": [
           "Seismology"
         ],
@@ -393,6 +397,7 @@ const reports = [
       {
         "title": "Efficient Three-Dimensional Electroseismic Modeling Based on CNCSU-FDTD and Wavefield Decomposition",
         "doi": "10.1109/tgrs.2026.3723712",
+        "ieeeArticleNumber": "11655345",
         "interestTags": [
           "Seismology"
         ],
@@ -446,6 +451,7 @@ const reports = [
       {
         "title": "Physics Prior Constrained ResUNet-BiMamba Network for Pre-stack AVO Inversion",
         "doi": "10.1109/tgrs.2026.3723091",
+        "ieeeArticleNumber": "11653431",
         "interestTags": [
           "Seismology",
           "Crustal Deformation"
@@ -500,6 +506,7 @@ const reports = [
       {
         "title": "Enhancing Electrical Resistivity Tomography Detection of Landslide Structures through Multi-Source Geological Constraints",
         "doi": "10.1109/tgrs.2026.3723153",
+        "ieeeArticleNumber": "11653443",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -544,6 +551,7 @@ const reports = [
       {
         "title": "An ω-k Migration Algorithm for Pseudo-Random-Coded Ground Penetrating Radar Considering Signal Nonlinear Phase and Bandwidth Properties",
         "doi": "10.1109/tgrs.2026.3721105",
+        "ieeeArticleNumber": "11646849",
         "interestTags": [],
         "authors": [
           "Shinan Lang",
@@ -594,6 +602,7 @@ const reports = [
       {
         "title": "Three-Dimensional Transient Electromagnetic Modeling Using Rational Chebyshev Approximation",
         "doi": "10.1109/tgrs.2026.3721644",
+        "ieeeArticleNumber": "11644748",
         "interestTags": [],
         "authors": [
           "Yan Dong",
@@ -637,6 +646,7 @@ const reports = [
       {
         "title": "InSAR and Closure Phase Errors due to the Along-Track Ionospheric Variations within the Synthetic Aperture",
         "doi": "10.1109/tgrs.2026.3721702",
+        "ieeeArticleNumber": "11644755",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -681,6 +691,7 @@ const reports = [
       {
         "title": "Eigenvector-Rectified Analytic Directional Structure Tensor for Seismic Data Discontinuity Detection",
         "doi": "10.1109/tgrs.2026.3720202",
+        "ieeeArticleNumber": "11643272",
         "interestTags": [
           "Seismology"
         ],
@@ -735,6 +746,7 @@ const reports = [
       {
         "title": "Dual-branch seismic inversion via learnable time-to-depth mapping for structurally guided detail recovery",
         "doi": "10.1109/tgrs.2026.3720793",
+        "ieeeArticleNumber": "11643884",
         "interestTags": [
           "Seismology"
         ],
@@ -781,6 +793,7 @@ const reports = [
       {
         "title": "A Multi-Modal Seismic Attenuation Compensation Based on Shallow-Dominant Attenuation Collaborative Mapping",
         "doi": "10.1109/tgrs.2026.3720655",
+        "ieeeArticleNumber": "11643893",
         "interestTags": [
           "Seismology"
         ],
@@ -834,6 +847,7 @@ const reports = [
       {
         "title": "Real-Time Microseismic Event Location with Latent Diffusion Models",
         "doi": "10.1109/tgrs.2026.3718892",
+        "ieeeArticleNumber": "11638240",
         "interestTags": [
           "Seismology"
         ],
@@ -7244,6 +7258,7 @@ const reports = [
       {
         "title": "Physics-Consistent GPR Inversion via Feature-Enhanced Forward Module and Envelope Data",
         "doi": "10.1109/tgrs.2026.3718580",
+        "ieeeArticleNumber": "11631738",
         "interestTags": [],
         "authors": [
           "Meijia Huang",
@@ -7287,6 +7302,7 @@ const reports = [
       {
         "title": "Volcanic SO 2 Monitoring From Space Using SAM2 Foundation Model",
         "doi": "10.1109/tgrs.2026.3718024",
+        "ieeeArticleNumber": "11627959",
         "interestTags": [],
         "authors": [
           "Simona Cariello",
@@ -7329,6 +7345,7 @@ const reports = [
       {
         "title": "Seismic Acoustic Impedance Inversion Framework Based on Conditional Latent Generative Diffusion Model",
         "doi": "10.1109/tgrs.2026.3717153",
+        "ieeeArticleNumber": "11625946",
         "interestTags": [
           "Seismology"
         ],
@@ -7376,6 +7393,7 @@ const reports = [
       {
         "title": "Jointed AVO Inversion Method Using Seismic Velocity and Acceleration Signals",
         "doi": "10.1109/tgrs.2026.3717161",
+        "ieeeArticleNumber": "11625955",
         "interestTags": [
           "Seismology"
         ],
@@ -7426,6 +7444,7 @@ const reports = [
       {
         "title": "Physics-Guided Deep Regression for High-Precision Seismic First-Arrival Picking",
         "doi": "10.1109/tgrs.2026.3716811",
+        "ieeeArticleNumber": "11623278",
         "interestTags": [
           "Seismology"
         ],
@@ -7469,6 +7488,7 @@ const reports = [
       {
         "title": "Bayesian Full Waveform Inversion With Learned Prior Using Deep Convolutional Autoencoder",
         "doi": "10.1109/tgrs.2026.3716672",
+        "ieeeArticleNumber": "11623319",
         "interestTags": [
           "Seismology"
         ],
@@ -7515,6 +7535,7 @@ const reports = [
       {
         "title": "Adaptive Wavelet Scattering With SegFormer for Seismic Facies Segmentation",
         "doi": "10.1109/tgrs.2026.3716111",
+        "ieeeArticleNumber": "11618540",
         "interestTags": [
           "Seismology"
         ],
@@ -7562,6 +7583,7 @@ const reports = [
       {
         "title": "A Reliable Multisource Dynamically Regularized Elastic Wavefield Reconstruction Inversion for Microseismic Data",
         "doi": "10.1109/tgrs.2026.3715820",
+        "ieeeArticleNumber": "11618549",
         "interestTags": [
           "Seismology"
         ],
@@ -7609,6 +7631,7 @@ const reports = [
       {
         "title": "Physics-Driven Resolution Refinement for Electrical Resistivity Tomography Using Multiarray Learning and Vision Mamba",
         "doi": "10.1109/tgrs.2026.3715567",
+        "ieeeArticleNumber": "11616565",
         "interestTags": [],
         "authors": [
           "Yinpeng Li",
@@ -7652,6 +7675,7 @@ const reports = [
       {
         "title": "Phase Gradient Rate-Constrained SHP Selection for Distributed Scatterer InSAR: Integrating Deformation Boundary Detection With Amplitude Statistical Testing",
         "doi": "10.1109/tgrs.2026.3715526",
+        "ieeeArticleNumber": "11616570",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -7702,6 +7726,7 @@ const reports = [
       {
         "title": "Multidirectional Wavefield-Decomposition Elastic Reverse-Time Migration With Dip-Guided Imaging Conditions",
         "doi": "10.1109/tgrs.2026.3714860",
+        "ieeeArticleNumber": "11614576",
         "interestTags": [
           "Seismology"
         ],
@@ -7748,6 +7773,7 @@ const reports = [
       {
         "title": "Q -Compensated Robust Blind Acoustic Impedance Inversion With Structural Guidance",
         "doi": "10.1109/tgrs.2026.3714226",
+        "ieeeArticleNumber": "11612839",
         "interestTags": [
           "Seismology"
         ],
@@ -7795,6 +7821,7 @@ const reports = [
       {
         "title": "Integrating Physical Information Constraints for Magnetotelluric Data-Driven Inversion",
         "doi": "10.1109/tgrs.2026.3713906",
+        "ieeeArticleNumber": "11612915",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -7838,6 +7865,7 @@ const reports = [
       {
         "title": "Efficient PS Wavefield Separation for Anisotropic VTI and TTI Media in the Spatial Domain",
         "doi": "10.1109/tgrs.2026.3713993",
+        "ieeeArticleNumber": "11612920",
         "interestTags": [
           "Seismology"
         ],
@@ -7883,6 +7911,7 @@ const reports = [
       {
         "title": "Hybrid Mesh Finite-Element Method for Marine CSEM Modeling With Octree Framework",
         "doi": "10.1109/tgrs.2026.3713588",
+        "ieeeArticleNumber": "11611256",
         "interestTags": [],
         "authors": [
           "Qiang Liu",
@@ -7928,6 +7957,7 @@ const reports = [
       {
         "title": "An Advection-Equation-Based Topography-Dependent First-Arrival Adjoint Tomography: Methodology and Application",
         "doi": "10.1109/tgrs.2026.3713293",
+        "ieeeArticleNumber": "11609295",
         "interestTags": [
           "Seismology"
         ],
@@ -7971,6 +8001,7 @@ const reports = [
       {
         "title": "Along-Track Dual-Satellite D-InSAR for Multidimensional Deformation and Troposphere Joint Measurement: Configuration Optimization and Performance Analysis",
         "doi": "10.1109/tgrs.2026.3711898",
+        "ieeeArticleNumber": "11602086",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -8023,6 +8054,7 @@ const reports = [
       {
         "title": "Estimating Tropospheric Delay in Spotlight Mode InSAR Data Using Multisquint Processing",
         "doi": "10.1109/tgrs.2026.3711538",
+        "ieeeArticleNumber": "11599652",
         "interestTags": [
           "Crustal Deformation"
         ],
@@ -8071,6 +8103,7 @@ const reports = [
       {
         "title": "SFDDPM: Signal-Fitting Diffusion Model for Prestack Seismic Denoising With Total Variation Constraint",
         "doi": "10.1109/tgrs.2026.3710810",
+        "ieeeArticleNumber": "11598910",
         "interestTags": [
           "Seismology",
           "Crustal Deformation"
@@ -8119,6 +8152,7 @@ const reports = [
       {
         "title": "Unsupervised Attenuation of Aliased Ground Roll in Undersampled 3-D Land Seismic Data",
         "doi": "10.1109/tgrs.2026.3710605",
+        "ieeeArticleNumber": "11595834",
         "interestTags": [
           "Seismology"
         ],
@@ -8163,6 +8197,7 @@ const reports = [
       {
         "title": "Physics-Informed CNN–LSTM Framework for Electromagnetic Inverse Scattering in Multilayer Soil With Surface Roughness",
         "doi": "10.1109/tgrs.2026.3710673",
+        "ieeeArticleNumber": "11595860",
         "interestTags": [],
         "authors": [
           "Sahar Bagherkhani",
@@ -8203,6 +8238,7 @@ const reports = [
       {
         "title": "Seismic Impedance Inversion via Physics-Driven Learned Primal-Dual Deep Unrolling With Total Variation",
         "doi": "10.1109/tgrs.2026.3709616",
+        "ieeeArticleNumber": "11593871",
         "interestTags": [
           "Seismology"
         ],
