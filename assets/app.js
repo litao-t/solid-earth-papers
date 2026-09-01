@@ -7,6 +7,7 @@ const researchAreaLabels = new Map(researchAreaDefinitions.map((area) => [area.s
 
 const publicationModes = {
   "Communications Earth & Environment": "month",
+  "Geophysical Journal International": "month",
   "Nature Communications": "month",
   "Earth and Planetary Science Letters": "volume"
 };
@@ -200,9 +201,57 @@ function formatDate(value) {
   return `${date.getUTCDate()}/${date.getUTCMonth() + 1}/${String(date.getUTCFullYear()).slice(-2)}`;
 }
 
-function getPublicationLabel(batch) {
-  if (batch.publicationLabel) return batch.publicationLabel;
+function uniqueMetadataValues(values) {
+  return [...new Set(values
+    .map((value) => String(value || "").trim())
+    .filter(Boolean))];
+}
+
+function parseIssueLabel(value) {
+  const issue = String(value || "");
+  const issueMatch = issue.match(/volume\s+(\d+).*issue\s+(\d+)/i);
+  if (issueMatch) {
+    return { volume: issueMatch[1], issueNumber: issueMatch[2] };
+  }
+  const volumeMatch = issue.match(/volume\s+(\d+)/i);
+  return volumeMatch ? { volume: volumeMatch[1], issueNumber: "" } : null;
+}
+
+function formatVolumeIssueLabel(volume, issueNumber) {
+  return issueNumber ? `Volume ${volume}, Issue ${issueNumber}` : `Volume ${volume}`;
+}
+
+function getStructuredPublicationLabel(batch) {
   const mode = publicationModes[batch.journal] || "issue";
+  const parsedIssue = parseIssueLabel(batch.issue);
+  const volumes = uniqueMetadataValues((batch.articles || []).map((article) => article.volume));
+  const issueNumbers = uniqueMetadataValues((batch.articles || []).map((article) => article.issueNumber));
+  const volume = parsedIssue?.volume || (volumes.length === 1 ? volumes[0] : "");
+  const issueNumber = parsedIssue?.issueNumber || (issueNumbers.length === 1 ? issueNumbers[0] : "");
+
+  if (mode === "volume" && volume) return formatVolumeIssueLabel(volume, "");
+  if (mode === "issue" && volume && issueNumber) return formatVolumeIssueLabel(volume, issueNumber);
+  return "";
+}
+
+function getArticlePublicationLabel(article, report) {
+  const journal = getArticleJournal(article, report);
+  const mode = publicationModes[journal] || "issue";
+  const volume = String(article.volume || "").trim();
+  const issueNumber = String(article.issueNumber || "").trim();
+
+  if (mode === "month") return formatMonthYear(article.issueDate || article.onlineDate || report.issueDate || report.date);
+  if (mode === "volume" && volume) return formatVolumeIssueLabel(volume, "");
+  if (mode === "issue" && volume && issueNumber) return formatVolumeIssueLabel(volume, issueNumber);
+  return article.publicationLabel || "";
+}
+
+function getPublicationLabel(batch) {
+  const mode = publicationModes[batch.journal] || "issue";
+  if (mode === "month") return formatMonthYear(batch.issueDate || batch.date);
+  const structuredLabel = getStructuredPublicationLabel(batch);
+  if (structuredLabel) return structuredLabel;
+  if (batch.publicationLabel) return batch.publicationLabel;
   const issue = String(batch.issue || "");
   const hasIssue = /volume\s+\d+.*issue\s+\d+/i.test(issue);
   const volumeMatch = issue.match(/volume\s+\d+/i);
@@ -281,7 +330,7 @@ function buildJournalGroups() {
     const articleGroups = new Map();
     report.articles.forEach((article) => {
       const journal = getArticleJournal(article, report);
-      const publicationLabel = article.publicationLabel || "";
+      const publicationLabel = getArticlePublicationLabel(article, report);
       const key = `${journal}::${publicationLabel}`;
       const articleGroup = articleGroups.get(key) || { journal, publicationLabel, articles: [] };
       articleGroup.articles.push(article);
