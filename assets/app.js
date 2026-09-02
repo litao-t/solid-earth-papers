@@ -8,7 +8,9 @@ const researchAreaLabels = new Map(researchAreaDefinitions.map((area) => [area.s
 const publicationModes = {
   "Communications Earth & Environment": "month",
   "Geophysical Journal International": "month",
+  "Nature Geoscience": "month",
   "Nature Communications": "month",
+  "Seismological Research Letters": "month",
   "Earth and Planetary Science Letters": "volume"
 };
 
@@ -201,6 +203,14 @@ function formatDate(value) {
   return `${date.getUTCDate()}/${date.getUTCMonth() + 1}/${String(date.getUTCFullYear()).slice(-2)}`;
 }
 
+function parseMonthYearLabel(value) {
+  const match = String(value || "").match(/^([A-Z][a-z]+)\s+(\d{4})$/);
+  if (!match) return "";
+  const month = new Date(`${match[1]} 1, ${match[2]} 00:00:00 UTC`).getUTCMonth();
+  if (Number.isNaN(month)) return "";
+  return new Date(Date.UTC(Number(match[2]), month + 1, 0)).toISOString().slice(0, 10);
+}
+
 function uniqueMetadataValues(values) {
   return [...new Set(values
     .map((value) => String(value || "").trim())
@@ -353,6 +363,11 @@ function buildJournalGroups() {
           const aVolume = Number((a.displayLabel.match(/\d+/) || [0])[0]);
           const bVolume = Number((b.displayLabel.match(/\d+/) || [0])[0]);
           if (aVolume !== bVolume) return bVolume - aVolume;
+        }
+        if (publicationModes[group.name] === "month") {
+          const monthCompare = parseMonthYearLabel(b.displayLabel)
+            .localeCompare(parseMonthYearLabel(a.displayLabel));
+          if (monthCompare) return monthCompare;
         }
         const dateCompare = String(b.sortDate || b.date || b.issueDate)
           .localeCompare(String(a.sortDate || a.date || a.issueDate));
