@@ -53,7 +53,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Taozhi Wang, Zhen Guo, Yanbin Wang, Lipeng He, Xiaobo Tian",
-        "keyPoints": [],
+        "keyPoints": [
+          "Ambient noise adjoint tomography reveals crustal deformation beneath the southern Tibetan rifts",
+          "The mid-to lower crust undergoes pervasive N–S ductile deformation driven by northward underthrusting of the Indian lower crust",
+          "E–W extension in the mid-to upper crust is mainly confined to weak zones beneath rift axes"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123600",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Radial Anisotropy of the Southern Tibetan Rifts From Ambient Noise Adjoint Tomography",
@@ -77,7 +82,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "E. J. Piispa, C. R. Gallagher, S. Bernholt, G. M. Einarsson, Ö. Erlendsson, K. Á. Karlsdóttir, M. Á. Sigurgeirsson, R. A. Askew, D. Ben‐Yehoshua, B. V. Óskarsson, S. R. Gunnarson, M. T. Gudmundsson, G. Björnsson",
-        "keyPoints": [],
+        "keyPoints": [
+          "UAV- and ground-based magnetometry resolved fractures and shallow voids formed during the 2023–2025 Grindavík dyke intrusions",
+          "Short-wavelength magnetic anomalies reveal subsurface damage several meters below ground i.e. invisible to surface mapping alone",
+          "Rapid urban fracture mapping is feasible where magnetic contrast exceeds background noise"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121613",
         "journal": "Geophysical Research Letters",
         "topic": "Rapid UAV‐ and Ground‐Based Magnetic Mapping of Subsurface Fractures During a Volcano‐Tectonic Crisis in Grindavík",
@@ -102,7 +112,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kamal Bayramov, Michael J. Heap, Patrick Baud, Adalat B. Hasanov",
-        "keyPoints": [],
+        "keyPoints": [
+          "Inelastic compaction can occur in lava under constant stress in ductile regime",
+          "The inelastic compaction rate has a low dependence on applied differential stress",
+          "Compaction bands can develop in lava over extended periods of time under constant stress"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124214",
         "journal": "Geophysical Research Letters",
         "topic": "Time‐dependent (Creep) Compaction in Volcanic Rocks",
@@ -126,7 +141,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Qingjun Meng, Zhen Liu, Surendra Adhikari, Yingdi Luo",
-        "keyPoints": [],
+        "keyPoints": [
+          "ETS seasonal pattern changes over time in northern Cascadia, especially after 2015",
+          "The complex seasonal tremor pattern is likely driven by the stress variation of SSE activity in Cascadia transition zone",
+          "The observed ETS nucleation and propagation direction change may relate to the change of relative stress along subduction zone strike"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120690",
         "journal": "Geophysical Research Letters",
         "topic": "Cascadia Slow Earthquake Behaviors Modulated by Tectonic and Environmental Forcings",
@@ -149,7 +169,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Petros Bogiatzis, J.‐Michael Kendall, Jonathan D. Blundy, Graham A. Ryan, Alan F. Baird",
-        "keyPoints": [],
+        "keyPoints": [
+          "Joint P and S wave travel time tomography combined with seismicity enables discrimination between brine, melt and clay in volcanic systems",
+          "For the first time, a V S model of Montserrat, compatible with V P through joint inversion, allowed the examination of the V P / V S ratio",
+          "Evidence for a subvolcanic brine lens manifested as a region of high V P / V S, elevated V P, and seismicity indicating brittle behavior"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124020",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Exploration for Magmatic Brine Lenses",
@@ -174,7 +199,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lina Gao, Xin Liu, Ayako Nakanishi, Haoran Meng, Xi Wang, Zhanwen Li, Gou Fujie",
-        "keyPoints": [],
+        "keyPoints": [
+          "A high-resolution S-wave velocity model beneath a linear ocean-bottom seismometer array is obtained in the Nankai Trough",
+          "The shallow imbricate thrust zone exhibits higher S-wave velocity than the adjacent regions and may trap fluids and promote slow earthquakes",
+          "The large-scale low-velocity anomaly in the Kumano basin may be caused by the upward-migrating fluids from dehydration at the plate boundary"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123021",
         "journal": "Geophysical Research Letters",
         "topic": "Detailed Shallow Shear Velocity Structure in the Nankai Trough From Ambient Noise Differential Adjoint Tomography",
@@ -197,7 +227,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yingchen Liu, Neil Mitchell, Dietrich Lange, Ingo Grevemeyer",
-        "keyPoints": [],
+        "keyPoints": [
+          "A high-resolution local earthquake catalog around Condor seamount was built using a machine learning workflow",
+          "Episodic but spatially stable earthquake activity in the upper mantle beneath the tip of Condor Ridge was revealed",
+          "Varied P-wave polarity behaviors in different swarms support a local stress rotation model for magma intrusion"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119884",
         "journal": "Geophysical Research Letters",
         "topic": "An Inflating Upper Mantle Magma Reservoir Beneath the Tip of the Condor Seamount, Azores Revealed by Rapid‐Response",
@@ -250,7 +285,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Weifan Lu, Satoshi Ide, Chunmei Ren",
-        "keyPoints": [],
+        "keyPoints": [
+          "Tectonic tremors were abruptly suppressed after three M6+ earthquakes near the Mendocino Triple Junction",
+          "Tremor activity recovered with a clear spatial migration despite increased Coulomb stress",
+          "Fluid-related processes may control the suppression and recovery of tectonic tremors"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123699",
         "journal": "Geophysical Research Letters",
         "topic": "Abrupt Suppression of Tectonic Tremors Outside the Stress Shadow of Mendocino Earthquakes",
@@ -286,7 +326,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yiwen Huang, Yan Zhan, Diana C. Roman, Valérie Ferrazzini, Zacharie Duputel",
-        "keyPoints": [],
+        "keyPoints": [
+          "1998 Piton de la Fournaise VT focal mechanisms show depth‐dependent changes in dominant P‐ and T‐axis orientations",
+          "Dike propagation and background stress models test roles of edifice loading, tectonics, and dike‐induced stresses",
+          "Results support a qualitative framework for interpreting local stress changes during pre‐eruptive magma migration"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120150",
         "journal": "Geophysical Research Letters",
         "topic": "Dike‐Induced Earthquakes as Probes of the Local Stress Field Prior to the 1998 Eruption of the Piton de la Fournaise",
@@ -312,7 +357,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "F. Limberger, S. Alemayehu, G. Rümpker, A. Ayele",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismic recordings reveal that the 23 November 2025 Hayli Gubbi eruption consisted of precursory signals, two main and further secondary seismic events",
+          "Signal timing and source characterization indicate a predominantly isotropic seismic source approximately 20 min after initial vent opening",
+          "Satellite constraints suggest the main seismic events reflect collapse and explosive processes along the Erta Ale–Hayli Gubbi rift segment"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl121422",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Constraints of the 23 November 2025 Hayli Gubbi Eruption Sequence in Afar, Ethiopia",
@@ -337,7 +387,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Y. Berezhnev, N. Belovezhets, N. M. Shapiro, S. Abramenkov, I. Abkadyrov, S. Yaskevich, D. Chebrov, I. Koulakov",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismic tremor that began 10 days before the hydrothermal explosions was analyzed using the network covariance matrix method",
+          "Spatiotemporal tremor characteristics suggest its hydrothermal origin due to new magma injection that likely triggered the explosions",
+          "The tremor was shown to be a potential precursor for seismic monitoring"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122331",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Tremor as a Precursor to Hydrothermal Explosions Near Mutnovsky Volcano (Kamchatka)",
@@ -359,7 +414,12 @@ const reports = [
         "doi": "10.1029/2025gl120213",
         "interestTags": [],
         "authors": "Jérémie Vasseur, Fabian B. Wadsworth, Edward W. Llewellin, Francisco Cáceres, Donald B. Dingwell, Yan Lavallée, Bettina Scheu",
-        "keyPoints": [],
+        "keyPoints": [
+          "A model for bubble growth in a viscoelastic liquid shell is developed with applications to magmas",
+          "Brittle fragmentation occurs when stresses in the liquid shells exceeds a critical value of approximately 100 MPa",
+          "Experimental results for decompressing hydrous magmas agree with the model results, providing a validated fragmentation criterion"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120213",
         "journal": "Geophysical Research Letters",
         "topic": "A Microphysical Model for Predicting Magma Fragmentation",
@@ -383,7 +443,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chunsen Li, Xiao Xu, Xiaoyu Guo, Xiaofei Tong, Hengcheng Ying, Lingyan Li",
-        "keyPoints": [],
+        "keyPoints": [
+          "A robust Bayesian working-likelihood framework estimates effective crust-averaged azimuthal anisotropy from P-wave receiver functions",
+          "Crustal fast-axis strikes contain a regionally coherent E–W component consistent with Pacific-slab rollback–driven extension",
+          "Contrasts between coherent crustal and heterogeneous mantle anisotropy support partial crust–mantle anisotropic decoupling"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122506",
         "journal": "Geophysical Research Letters",
         "topic": "Bayesian Modeling of Crustal Azimuthal Anisotropy Supports Partial Crust–Mantle Anisotropic Decoupling in a Continental",
@@ -404,7 +469,12 @@ const reports = [
         "doi": "10.1029/2025gl120721",
         "interestTags": [],
         "authors": "Haoqing Wang, Kui Han, Chuanyu Zhang, Xiaofeng Tian, Xuben Wang, Simon Martin Clark",
-        "keyPoints": [],
+        "keyPoints": [
+          "Molecular Dynamics simulations reveal the rapid transport process of H+ along olivine grain boundaries at the microscale",
+          "H+ dominates the grain boundary conductivity, increasing the bulk conductivity by two orders of magnitude",
+          "The H‐bearing grain boundary model quantitatively reproduces MT conductivity anomalies observed in Trans‐lithospheric shear zones"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120721",
         "journal": "Geophysical Research Letters",
         "topic": "Hydrogen‐Enhanced Grain Boundary Conductivity Explains High‐Conductivity Anomalies in Trans‐Lithospheric Shear Zones",
@@ -429,7 +499,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Z. Duputel, O. Lengliné, L. Costes, V. Ferrazzini",
-        "keyPoints": [],
+        "keyPoints": [
+          "Quasi-periodic very-long-period signals accompanied lateral dike propagation before the September 2022 eruption at Piton de la Fournaise",
+          "Moment tensor inversions reveal a stable tensile-crack source at the junction between vertical and lateral magma transport paths",
+          "The VLP recurrence and volume increments are consistent with repeated reopening of a shallow crack under near-constant magma supply"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl123552",
         "journal": "Geophysical Research Letters",
         "topic": "Very‐Long‐Period Seismic Signals During Lateral Dike Propagation at Piton de La Fournaise Volcano",
@@ -2951,7 +3026,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Brendan Meade",
-        "keyPoints": [],
+        "keyPoints": ["Earthquake sequences are generated without requiring knowledge of stress or friction", "An uncertainty maximizing approach is used to determine earthquake locations", "Ensembles of synthetic loading-dependent, finite-slip, earthquake sequences can be generated cheaply"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033912",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Geometric Moment Modulated and Maximum Entropy Informed Earthquake + Afterslip Sequences",
@@ -2974,7 +3050,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "M. Han, L. Mizrahi, S. Wiemer",
-        "keyPoints": [],
+        "keyPoints": ["We modify the expectation–maximization method for ETAS parameter inversion to estimate elliptic spatial aftershock distribution", "The method yields less biased ETAS parameters and aftershock ellipse estimates, improving forecast performance", "We constrain ellipses during ongoing sequences and verify success in pseudo-prospective forecasting experiments"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033834",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Improving Earthquake Forecasting for Europe Using Elliptic ETAS Aftershock Distribution Kernels",
@@ -2998,7 +3075,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chong Zang, Wenbo Wu, Min Xu, Sidao Ni",
-        "keyPoints": [],
+        "keyPoints": ["A Bayesian method is developed for earthquake source parameter estimation using relative spectra of teleseismic Rayleigh waves", "A Gaussian-windowed narrowband approach estimates frequency-dependent measurement errors from station-specific spectra", "Relative horizontal locations and centroid depths between earthquakes can be determined with an accuracy of 1 km"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb034688",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Bayesian Source Characterization of Oceanic Transform Fault Earthquakes Using Relative Teleseismic Rayleigh Wave Spectra",
@@ -3024,7 +3102,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Y. Jiang, D. T. Trugman, P. J. González",
-        "keyPoints": [],
+        "keyPoints": ["We develop a Bayesian inversion tool to estimate temporal stress evolutions from seismicity rates using the rate-and-state friction law", "We introduce a trapezoidal stress-rate function that effectively models diverse transient fault loading scenarios", "Multiple stress-loading phases precede the largest event of the 2008 Reno-Mogul swarm; the latest is likely aseismic-slip driven"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033922",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Bayesian Inference of Complex Stress Evolution in Rate‐and‐State Governed Faults Constrained by Seismicity Rate",
@@ -3046,7 +3125,8 @@ const reports = [
         "doi": "10.1029/2025jb033665",
         "interestTags": [],
         "authors": "Johanna Berckhan, Agnes Kontny, Katarzyna Dudzisz, Jan Mrlina, Norbert Nowaczyk, Simo Spassov, Franziska D. H. Wilke",
-        "keyPoints": [],
+        "keyPoints": ["New rock-magnetic data from ICDP drill cores provide the first detailed magnetic characterization of the Bažina maar", "Integrated magnetic and mineralogical analyses distinguish effusive, explosive, and hydrothermally altered volcanic units", "Out-of-phase magnetic susceptibility is an underused but powerful tool for resolving emplacement conditions and alteration in volcanics"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033665",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Emplacement Conditions and Alteration of Volcanic Deposits Inferred From Magnetic Properties of the ICDP Eger Drill",
@@ -3071,7 +3151,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jue Hou, Guiping Yu, Bo Xu, Yingjie Yang, Xiaobo Tian, Tianyang Gao, Maowen Yuan, Zhuang Miao, Lei Gao, Nian Yu",
-        "keyPoints": [],
+        "keyPoints": ["A post-collisional porphyry Au-Cu deposit model is proposed", "Receiver functions reveal a subduction-modified lower crust as the source of Eocene magmatism", "Ambient-noise tomography reveals three fault-controlled magma conduits and dual shallow magma chambers"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033663",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Cenozoic Post‐Collisional Au‐Rich Porphyry System Imaged by a High‐Density Seismic Array and Magma Records in the SE",
@@ -3097,7 +3178,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yurui Guan, Juan Li, Zhuowei Xiao, Wei Wang, Tao Xu",
-        "keyPoints": [],
+        "keyPoints": ["Over 170,000 PKP precursors are identified from approximately 2 million global seismograms recorded between 1990 and 2024 via deep learning", "The global PKP precursor map reveals refined scattering at the core-mantle boundary with unprecedented density and coverage", "Dual-probability analysis identifies six new high-potential scattering zones at the core-mantle boundary"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033195",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Global Distribution of PKP Precursors Derived From Three Decades of Seismic Data With Deep Learning",
@@ -3120,7 +3202,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Erina Prastyani, Lei Wang, Jessica McBeck, Benoît Cordonnier, Erik Rybacki, Georg Dresen, François Renard",
-        "keyPoints": [],
+        "keyPoints": ["Carrara marble deforms mostly aseismically at low to intermediate confinement", "Moderate confinement produces dilatant cataclastic flow that reduces seismic velocity by approximately 40–50%", "During cataclastic flow, acoustic emissions indicate compression-dominated sources, while image correlation shows dilation and compaction"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb034160",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Transition From Faulting to Dilatant Cataclastic Flow in Carrara Marble Revealed by Acoustic Monitoring and 4D X‐Ray",
@@ -3143,7 +3226,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Takashi Hirose, Takeshi Nishimura, Hisashi Nakahara, Kimiko Taguchi, Haruhisa Nakamichi, Kentaro Emoto, Satoru Hamanaka",
-        "keyPoints": [],
+        "keyPoints": ["Dense DAS observations enable spatially detailed monitoring of coseismic structural changes related to ground shaking along the cable", "Significant seismic velocity decreases in low-AVS30 areas indicate enhanced sensitivity of unconsolidated materials to shaking perturbations", "High-channel-count DAS observations track post-seismic velocity recovery with 30-min time resolution"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb031867",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Shaking‐Induced Small Seismic Velocity Changes as Revealed From Seismic Interferometry Analysis of Distributed Acoustic",
@@ -3167,7 +3251,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Henrik Grob, Micheal Riedel, Sebastian Krastel, Jonas Preine, Mathieu J. Duchesne, Young Keun Jin, Jong Kuk Hong",
-        "keyPoints": [],
+        "keyPoints": ["Thermal base of submarine permafrost is calculated from the base of the gas hydrate stability zone in the southern Canadian Beaufort Sea"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033245",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Inferring the Base of Submarine Permafrost in the Canadian Beaufort Sea From Seismic Data and the Depth of the Gas",
@@ -3191,7 +3276,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yilin Yang, Freysteinn Sigmundsson, Halldór Geirsson, Juliet Biggs, Vincent Drouin, Josefa Sepúlveda‐Araya, Sigrún Hreinsdóttir, Chiara Lanzi, Joachim Gottsmann, Taco Broerse, Sandra Verhagen",
-        "keyPoints": [],
+        "keyPoints": ["GNSS and InSAR jointly constrain North American–Eurasian plate divergence across the Krafla volcanic system in Iceland", "Locking depth is shallowest (∼2.7 km) beneath the Krafla caldera and increases northward to ∼4.9 km and southward to ∼6.8 km", "Three local areas of deflation from residual velocities are related to geothermal activity and lava subsidence"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb034040",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Plate Divergence at the Krafla Volcanic System, Iceland",
@@ -3215,7 +3301,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Ying Zhou",
-        "keyPoints": [],
+        "keyPoints": ["Finite-frequency sensitivity calculations identify a new PKP phase (PKrKP) as an internal reflection within the outer core", "Inversions of PKP-PP traveltimes from nuclear tests reveal 0.1–0.2 s of temporal variations in PKP traveltime", "Rapid changes in PKP traveltime over 2–5 years suggest vigorous mixing in the liquid outer core"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033798",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Temporal Changes in the Earth's Outer Core From Nuclear‐Test PKP Waves",
@@ -3239,7 +3326,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yuanlei Zhang, Wei Wang, Juan Li, Xiao Xiao, Ji Zhang, Li Sun, Huajian Yao",
-        "keyPoints": [],
+        "keyPoints": ["Broadband (3–30 s) Rayleigh-wave coda attenuation tomography of continental China is derived from ambient-noise EGFs", "A novel bound-constrained Gauss–Newton inversion scheme enables robust, high-resolution Qc imaging", "Qc anomalies show clear spatial correlations with major sedimentary basins, active faults, and seismogenic zones"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb034338",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Quantifying Crustal Seismic Attenuation Across Continental China",
@@ -3263,7 +3351,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Harriet C. P. Lau, Allie N. Coonin, Frederick D. Richards, Konstantin Latychev",
-        "keyPoints": [],
+        "keyPoints": ["Transient viscoelasticity can have a greater effect on sea-level change than three-dimensional Maxwell viscoelasticity", "In the West Antarctic Ice Sheet region, three-dimensional transient-viscoelastic uplift rates are roughly twice the three-dimensional Maxwell-viscoelastic uplift rates", "Fully coupling glacial-isostatic-adjustment and dynamic ice-sheet models is needed to assess the implications for ice-sheet evolution"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2026jb033961",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Overprint of Transient Rheology on Laterally Heterogeneous Viscosity",
@@ -3286,7 +3375,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Izumi Mashino, Takashi Yoshino, Shinji Kitao, Takaya Mitsui, Ryo Masuda, Makoto Seto",
-        "keyPoints": [],
+        "keyPoints": ["We conducted high-pressure electrical conductivity measurements of both Fe2+- and Fe3+-bearing pyroxene glasses as analogs of melts", "Decreases of electrical conductivity at 77–85 GPa correspond to the spin-state change of Fe3+", "The inferred Fe3+ spin transition may influence iron partitioning and the evolution of deep-mantle melts"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb034225",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Spin Transition of Ferric Iron in Silicate Glasses Inferred by High‐Pressure Electrical Conductivity Measurements",
@@ -3310,7 +3400,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Haicheng Xiong, Yanchuan Li, Xinjian Shan, Zhenjie Wang, Yingfeng Zhang, Zhaowu Guo, Chenglong Li, Renqi Lu, Jun Hua, Chunyan Qu",
-        "keyPoints": [],
+        "keyPoints": ["Coseismic slip of the Dingri earthquake broadly overlaps areas of interseismic fault locking, but the correspondence is not uniform", "The rupture involved two asperities and a shallow slip gap, controlled by geometric and stress-strength heterogeneities", "Normal faults in southern Tibet can generate Mw 5.3–7.2 earthquakes every 500 years, highlighting substantial seismic hazards"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033666",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Kinematics and Dynamics of Normal Faults in Southern Tibet",
@@ -3334,7 +3425,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "F. Bolrão, W. P. Schellart",
-        "keyPoints": [],
+        "keyPoints": ["Four-dimensional geodynamic analogue models investigate how subduction parameters influence overriding-plate forearc topography and strain", "Forearc subsidence responds to geometric evolution of the slab and its initial system conditions", "Curvature of surface topography is predominantly responsible for local strain in the subsided forearc region"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033850",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Dynamic Evolution of Forearc Subsidence Controlled by Slab Geometry",
@@ -3359,7 +3451,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhiqiang Li, You Tian, Dapeng Zhao, Dong Yan, Xuan Feng",
-        "keyPoints": [],
+        "keyPoints": [
+          "Receiver function imaging reveals complex intracrustal discontinuities and lateral Moho variations beneath the central Altyn Tagh Fault.",
+          "Northern Tibet accommodates shortening through brittle faulting and folding in the upper crust and ductile deformation, distributed shear, and basal thickening in the mid-lower crust.",
+          "India–Asia collision stresses, Tarim Basin blocking, and lateral extrusion jointly drive crustal shortening between the Altyn Tagh and eastern Kunlun faults."
+        ],
         "link": "https://doi.org/10.1029/2026jb034178",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Crustal Shortening Mechanism Near the Central Altyn Tagh Fault in Northern Tibet",
@@ -3383,7 +3479,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Joseph H. Phillips, James B. Gaherty, Joshua B. Russell, Zachary C. Eilon, Donald W. Forsyth, Joseph S. Byrnes",
-        "keyPoints": [],
+        "keyPoints": ["New regional models of seismic anisotropy reveal lateral and depth-dependent variations in Pacific mantle anisotropy not captured by global models", "Strong asthenospheric anisotropy reflects plate-driven shear in a sub-lithospheric channel and pressure- and/or buoyancy-driven deformation at greater depth", "Lithospheric anisotropy is heterogeneous in strength and direction with respect to spreading, indicating competing sources of ridge-related deformation"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033545",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Multi‐Scale Spatial Variations in Pacific Mantle Seismic Anisotropy",
@@ -3407,7 +3504,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "R. Thicklin, D. T. Sandwell, Y. Bock, K. Luttrell, A. P. Young",
-        "keyPoints": [],
+        "keyPoints": [
+          "Joint modeling of Lake Cahuilla shoreline displacements and long-term GPS velocities constrains Southern California lithospheric rheology.",
+          "The best-fitting model has a 30 km elastic plate thickness and a 25–30 year viscoelastic relaxation time, equivalent to a viscosity of approximately 5.5 × 10¹⁹ Pa s.",
+          "Complete drawdown of the Salton Sea could produce several centimeters of uplift around Northshore and Salton City over roughly 150 years."
+        ],
         "link": "https://doi.org/10.1029/2025jb032924",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Lithospheric Rheology in Southern California Derived From Novel Observations of Lake Unloading",
@@ -3429,7 +3530,11 @@ const reports = [
         "doi": "10.1029/2025jb033612",
         "interestTags": [],
         "authors": "Xin Zhang, Jinsong Du, Chi‐Chia Tang, Pan Zhang, Ying Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "A revised spherical-cap harmonic analysis and a wavelet–Bayesian inversion produce a higher-resolution Curie point depth model for the Tibetan Plateau.",
+          "Curie point depth varies laterally, being deeper beneath sedimentary basins and shallower beneath the Qiangtang and Lhasa blocks.",
+          "Shallow Curie point depth branches in eastern Tibet coincide with previously proposed crustal-flow directions, while relative variations remain robust despite uncertainty in absolute depth."
+        ],
         "link": "https://doi.org/10.1029/2025jb033612",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Curie Point Depth Distribution in the Tibetan Plateau Based on Wavelet Analysis and Bayesian Inversion of Newly",
@@ -3454,7 +3559,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhuoran Zhang, S. Shawn Wei, Yurong Riley Zhang, Fan Wang, Dongdong Tian",
-        "keyPoints": [],
+        "keyPoints": [
+          "P-wave attenuation imaging reveals substantial along-strike variations in mantle-wedge melting beneath the Alaska Peninsula.",
+          "Extensive slab dehydration promotes partial melting in the Pavlof and Chirikof–Kodiak segments, whereas the intervening Shumagin–Chignik segments show limited dehydration and melt generation.",
+          "Along-arc mantle melting variations do not match surface volcanic styles, indicating that trans-crustal processes also modulate volcanism."
+        ],
         "link": "https://doi.org/10.1029/2026jb033769",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Along‐Strike Variations in Sub‐Arc Melting Beneath the Alaska Peninsula Revealed by P‐Wave Attenuation",
@@ -3479,7 +3588,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "F. Kolawole, E. Beaucé, Z. Foster‐Baril, M. Colet, L. Seeber, J. Tielke, A. Prakash, W. Y. Kim, R. Ajala, C. McCarthy, F. Waldhauser",
-        "keyPoints": [],
+        "keyPoints": ["Aftershocks align with an unmapped 2-km-wide fault zone with gougeless fracture clusters, implying an immature rough fault", "Friction experiments and slip-tendency analysis on paleo-slip surfaces predict fault instability and possible shallow stress perturbation", "Structurally studied seismic sources in the region manifest hazards from prestressed immature, rough intraplate faults"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033723",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The 2024 Mw4.8 New Jersey Intraplate Earthquake",
@@ -3504,7 +3614,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Donggeon Kim, Guangchi Xing, Tieyuan Zhu",
-        "keyPoints": [],
+        "keyPoints": ["Joint modeling of LiDAR shoreline elevations and long-term GPS vertical velocities constrains lithospheric rebound from Lake Cahuilla loading history", "The best-fitting model has an elastic plate thickness of 30 ± 2 km and a mantle relaxation time of 25 +10/−6 years", "Complete drawdown of the Salton Sea could produce several centimeters of uplift around the lake over roughly 150 years"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033491",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Imaging Near‐Surface Bedrock Fracturing and Fluid Pathways Using Seismic Attenuation and Velocity From Viscoacoustic",
@@ -3530,7 +3641,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xiong Zhao, Junle Jiang",
-        "keyPoints": [],
+        "keyPoints": ["Bayesian fault-slip inversions without imposed smoothing preserve local amplitudes and spatial roughness of heterogeneous slip patterns", "Unbiased infusion of near-fault data, elastic layering, and their uncertainty is critical for inferring shallow seismic slip at Ridgecrest", "Along-depth and lateral variations in Ridgecrest co- and post-seismic slip, and their limited spatial overlap, are geodetically resolvable"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033686",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Bayesian Inference of Fault Slip Heterogeneity and Overlap",
@@ -3555,7 +3667,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Mathilde Marchandon, James Hollingsworth, Louise Maubant, Anne Socquet, Erwan Pathier, Mathilde Radiguet, Alice‐Agnes Gabriel",
-        "keyPoints": [],
+        "keyPoints": ["Analysis of a new high‐resolution optical displacement field reveals 46% of off‐fault deformation (OFD)", "Near‐surface lithology exerts a first‐order control on OFD, while effect of segments orientation with respect to the stress field is limited", "A new multi‐fault slip model reveals 72% of Shallow Slip Deficit (SSD) on average and no correlation between the amount of SSD and OFD"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032653",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Subsurface Lithologic Controls on Off‐Fault Deformation and Multi‐Fault Slip During the 2016 Mw 6.5 Norcia Earthquake",
@@ -3580,7 +3693,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lijuan She, Jianke Fan, Dapeng Zhao, Cuilin Li, Xiaoyang Wu, Dongdong Dong, Mei Xue",
-        "keyPoints": [],
+        "keyPoints": ["Three-dimensional P-wave tomography images distinct low-velocity anomalies beneath the Izu-Bonin and central Mariana regions to 700 km depth", "Deep mantle upwelling and material circulation are likely triggered by devolatilization and oceanic-crust melting of the deeply subducted Pacific slab", "Different upwelling morphologies are proposed to drive the contrasting stages of arc rifting and back-arc spreading in the Izu-Bonin and Mariana regions"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033662",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Material Circulation, Arc Rifting and Back‐Arc Spreading Promoted by Deep Mantle Upwelling in Izu‐Bonin‐Mariana",
@@ -3604,7 +3718,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Dan Liu, Ya‐Nan Yang, Hongzhan Fei, Fei Wang, Narangoo Purevjav, Yu Ye, Takayuki Ishii, Tomoo Katsura",
-        "keyPoints": [],
+        "keyPoints": ["Stishovite incorporates 0.5–0.7 wt.% H2O and 3.4–5.5 wt.% Al2O3, whereas post-stishovite incorporates 1.1–2.0 wt.% H2O and 8.6–15.1 wt.% Al2O3", "H2O and Al2O3 solubilities increase with pressure and temperature, and Al-bearing post-stishovite may retain more than 1 wt.% H2O", "Chemical composition can shift the stishovite–post-stishovite transition depth by several hundred kilometers, potentially explaining the broad distribution of mid-mantle seismic scatterers"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033119",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Systematic Study of the Pressure and Temperature Dependences of H 2 O and Al 2 O 3 Solubility in Al‐bearing",
@@ -3627,7 +3742,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "A. Ishikawa, T. Nishimura, G. Lacanna, H. Aoyama, R. Kawaguchi, E. Fujita, T. Yamada, T. Miwa, M. Ripepe",
-        "keyPoints": [],
+        "keyPoints": ["A common pressurized shallow reservoir of gas-poor, crystal-rich stagnant magma lies about 280 m beneath Stromboli's eruptive vent", "The same shallow magmatic system explains ground deformation preceding explosive activity and during flank effusive eruptions", "A fluid-mechanical conduit model links geodetic pressure changes to eruptive phenomena and magma-surface inflation velocity"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb032373",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Pressurization of Shallow Magma Reservoir Preceding Basaltic Eruptions at an Open‐Vent Volcano",
@@ -3652,7 +3768,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jiajun Chen, Zhanfeng Qiao, Tianfu Zhang, Uwe Ring, Shaoying Chang, Peng Cao, Mengxiu Wang, Yifan Du",
-        "keyPoints": [],
+        "keyPoints": ["Borehole and high-resolution 3D seismic data distinguish R–P and R–Y shear fracture systems in three deeply buried Tarim Basin fault zones", "Two evolutionary styles follow en echelon R-shear formation: Y-dominated shearing at FI5 and P-dominated shearing at FI17", "The overlap-to-separation ratio between adjacent R shears controls local σ1 rotation and the subsequent kinematic evolution of the Riedel zones"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2026jb033965",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Two Distinct Growth Styles of Riedel Shear Zones in Cratonic Strike‐Slip Fault System, Tarim Basin, NW China",
@@ -3676,7 +3793,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yaochen Yue, Filipe Terra‐Nova, Hagay Amit, Victor Marum, Yuqi Wang, Yong Wei",
-        "keyPoints": [],
+        "keyPoints": ["A topology-based algorithm using saddle points subdivides the South Atlantic Anomaly into subregions associated with multiple local minima", "The South America minimum's area decreases while the Africa minimum's area increases; both drift westward, with South America moving four times faster", "Historical and archeomagnetic fields reveal earlier Pacific anomalies, recurrent expansion of the total anomaly region, and anticorrelated subregion-area changes"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2026jb033955",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Time Dependence of Multiple Geomagnetic Surface Intensity Minima",
@@ -3700,7 +3818,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Valeria Villa, Robert W. Clayton",
-        "keyPoints": [],
+        "keyPoints": ["Applying a gravity‐constrained receiver function technique to the Los Angeles Basin nodal array reveals a new depth map, with a basin depth near 10 km", "The Moho discontinuity has been uplifted by up to 45% relative to its initial pre‐stretching depth", "Crustal thickness decreases from a maximum of 26 km to an average of 14 km within the central block, corresponding to ∼46% thinning"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026jb033837",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Three‐Dimensional Structure of the Los Angeles Basin and Its Underlying Moho",
@@ -3726,7 +3845,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Adrea Williams, Douglas A. Wiens, Farzaneh Aziz Zanjani, Eric A. Bergman, S. Shawn Wei",
-        "keyPoints": [],
+        "keyPoints": ["Relative relocation and focal-mechanism clustering identify dense seismic planes representing fault or shear zones in two regions of the deep Tonga slab", "The northern fault zone is narrower than approximately 3 km and follows the inferred upper slab boundary", "The fault zones likely result from recurrent thermal-shear runaway as the active Tonga slab moves downward relative to stagnant slab material"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033217",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Imaging Active Fault Zones in the Deep Tonga Slab",
@@ -3750,7 +3870,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jacopo Natale, Stefano Vitale",
-        "keyPoints": [],
+        "keyPoints": ["Campi Flegrei records approximately 190 m of permanent uplift over the past 10.5 kyr in a 9-km-wide bell-shaped pattern centered on Pozzuoli", "Incremental magma emplacement at 3–4 km depth in a stacked-sill configuration best explains the long-lived resurgent dome", "Since resurgence began, shallow intruded magma volume has been about three times the erupted volume, while uplift and eruptions track magma transfer and vent migration"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033576",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Reappraisal of Holocene Caldera Resurgence at Campi Flegrei (Southern Italy)",
@@ -3774,7 +3895,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yeonjin Choi, Young Keun Jin, Michael Riedel, Jong Kuk Hong, Mathieu J. Duchesne, Sung‐Ryul Shin, Wookeen Chung, Seung‐Goo Kang",
-        "keyPoints": [],
+        "keyPoints": ["High-amplitude reverse-polarity BSRs mark a gas-hydrate stability zone covering approximately 406 km2 in the Mackenzie Trough", "Velocity and effective-medium modeling indicates hydrate saturations of 12–67% and free-gas saturations up to 9%, corresponding to 0.17–0.23 Gt of methane", "A 3D heat-flow model reveals localized disequilibrium where western BSRs are 40–60 m deeper than the modeled stability-zone base"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2026jb034470",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Seismic Characteristics of the Gas Hydrate System in the Mackenzie Trough of the Canadian Beaufort Sea, Arctic Ocean",
@@ -3858,7 +3980,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "C. Chalumeau, A. Rietbrock",
-        "keyPoints": [],
+        "keyPoints": ["AI phase picking, a 3D velocity model, and double-difference relocation produce a well-constrained catalog of 146,950 events after the 2010 Mw 8.8 Maule earthquake", "Deep interface seismicity separates into 15–40 km and 40–55 km depth groups, with the deeper group concentrated in a roughly 1.6-km-thick zone", "Dip-aligned 100-m-to-kilometer-scale streaks may reflect afterslip or blocks smeared along the subduction interface"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb032839",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "New 2010 Maule Aftershock Catalog Reveals Structure of the Deep Subduction Interface",
@@ -4054,7 +4177,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Ammu Sanjayan, Thanh‐Son Phạm, Hrvoje Tkalčić",
-        "keyPoints": [],
+        "keyPoints": ["Combining P- and S-wave coda autocorrelation adds 28 reliable Antarctic estimates and nearly doubles the mapped sites to 61", "East Antarctica has ratios near 2.0, whereas central West Antarctica reaches 2.1–2.2 and coastal areas are lower", "Elevated ratios are consistent with reduced lower-ice shear velocity caused by anisotropy, partial melt, or interstitial water associated with higher geothermal flux"],
+        "keyPointsSource": "publisher-abstract-reconstruction",
         "link": "https://doi.org/10.1029/2025jb033259",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Teleseismic S‐Wave Coda Autocorrelation and vp/vs Distribution Over the Antarctic Ice Sheet",
@@ -5070,7 +5194,12 @@ const reports = [
         "doi": "10.1029/2026gl124981",
         "interestTags": [],
         "authors": "Terry Zixu Liu, Vassilis Angelopoulos, Hui Zhang, Ying‐Dong Jia, Siqi Zhao",
-        "keyPoints": [],
+        "keyPoints": [
+          "We evaluate the performance of an analytical foreshock transient model by comparing its predictions with ground-based wave power",
+          "We find correlations up to 0.55–0.6 between model-predicted foreshock ion-driven current density and ground-based Pc3 pulsation wave power",
+          "The correlation has a magnetic local time-latitude dependence, related to azimuthal and radial propagation in the magnetosphere"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl124981",
         "journal": "Geophysical Research Letters",
         "topic": "Statistical Evaluation of a Foreshock Transient Model Using Ground‐Based ULF Wave Observations",
@@ -6966,7 +7095,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yunfeng Tian, Jing Liu‐Zeng, Wanpeng Feng, Xingping Hu, Yi Luo, Yingshun Hu, Wenliang Jiang",
-        "keyPoints": [],
+        "keyPoints": [
+          "The central section of the Yarlung Zangbo suture (YZS) experienced aseismic slip after the 2015 Mw 7.8 Gorkha (Nepal) earthquake",
+          "This motion is primarily characterized by dextral slip at a rate of ∼3 mm/yr and is likely triggered by the Gorkha event",
+          "The strike-slip motion on the YZS triggered by large Himalayan earthquakes likely accommodates partial elastic shear strain in southern Tibet"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl119611",
         "journal": "Geophysical Research Letters",
         "topic": "Transient Creep on the Yarlung Zangbo Suture in Southern Tibet Triggered by the 2015 Gorkha (Nepal) Earthquake",
@@ -6989,7 +7123,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Teng Wang, Yanan Zhou, Ruiyang Chai, Xin Cheng, Hanning Wu",
-        "keyPoints": [],
+        "keyPoints": [
+          "The Olongbuluke Block was located at ∼27.5°S during ca. 477–469 Ma",
+          "The Olongbuluke Block rifted southward from North China prior to the Late Cambrian",
+          "The Olongbuluke Block rotated ∼120°–130° counterclockwise relative to the North China Block after Middle Ordovician"
+        ],
+        "keyPointsSource": "catalog-transcription",
         "link": "https://doi.org/10.1029/2025gl119963",
         "journal": "Geophysical Research Letters",
         "topic": "Paleomagnetic Constraints on the Separation of the Olongbuluke Block From the North China Block During the Late",
@@ -7014,7 +7153,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Weifan Lu, Nikolai M. Shapiro, Jannes Münchmeyer",
-        "keyPoints": [],
+        "keyPoints": [
+          "We constructed an enhanced earthquake catalog of ∼11,000 events over 11 months for the Klyuchevskoy Volcanic Group using machine learning",
+          "Enhanced catalog delineates distinct pathways linking the deep magma storage area with active volcanoes, dominated by long-period events",
+          "Frequency index analysis and clustering show long-period earthquakes depart from the Gutenberg–Richter law, implying fluid-pressure sources"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl123629",
         "journal": "Geophysical Research Letters",
         "topic": "Magma Pathways Beneath the Klyuchevskoy Volcanic Group, Kamchatka, Revealed by a Machine‐Learning‐Based Earthquake",
@@ -7038,7 +7182,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hanqing Zhao, Shihong Zhang, Jikai Ding, Qiang Ren, Haiyan Li, Weiwei Bian, Tianshui Yang, Huaichun Wu",
-        "keyPoints": [],
+        "keyPoints": [
+          "A refined 1130–1070 Ma paleosecular variation compilation improves constraints on Mesoproterozoic field morphology",
+          "Model G fitting indicates that the ca. 1100 Ma field was broadly compatible with geocentric axial dipole geometry",
+          "Sparse high‐paleolatitude data prevent a robust test of latitude‐dependent field structure during the ca. 1100 Ma single‐polarity interval"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122864",
         "journal": "Geophysical Research Letters",
         "topic": "Paleosecular Variation Constraints on Geomagnetic Field Morphology at ca. 1100 Ma",
@@ -7063,7 +7212,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Keisuke Yoshida",
-        "keyPoints": [],
+        "keyPoints": [
+          "Foreshocks expanded at an accelerating rate along the margins of the Mw 6.8 locked patch",
+          "The aftershock zone expanded as far as ∼75 km, extending well beyond the inferred mainshock rupture area within 0.5 days",
+          "Interplay between aseismic slip and seismic rupture characterized the Mw 6.8 sequence"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121704",
         "journal": "Geophysical Research Letters",
         "topic": "Evolution of Coupled Seismic‐Aseismic Slip During the 2025 Mw 6.8 Sanriku‐Oki, Japan, Megathrust Sequence",
@@ -7086,7 +7240,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Xuan Zhao, Yi Wang, Jia Yi, Qiwen Zhu, Li Zhao",
-        "keyPoints": [],
+        "keyPoints": [
+          "A multi‐parameter model (Vp,Vs, rho) of the upper‐mantle beneath the North China has been derived through Teleseismic Full‐Waveform Inversion (TeleFWI) of P‐wave and its coda",
+          "TeleFWI with long coda can enhance depth penetration, improve spatial resolution, and maintain robust performance with limited seismic data",
+          "Multiple upwelling channels for thermal materials are observed beneath Datong Volcano, relating to significant lithosphere destroy of North China Craton"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120963",
         "journal": "Geophysical Research Letters",
         "topic": "High‐Resolution Tomography for the Upper‐Mantle Structure in North China by Full‐Waveform Inversion of Teleseismic P",
@@ -7112,7 +7271,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chien‐Cheng Hung, André R. Niemeijer",
-        "keyPoints": [],
+        "keyPoints": [
+          "Thermal pressurization is effective in fluid‐saturated sandstone‐derived fault gouges at intermediate‐velocity (0.05 m/s) conditions",
+          "Fluids with high pressurization factors and low hydraulic diffusivity do not necessarily produce greater TP‐induced weakening",
+          "Considering permeability changes improves model predictions of stress drop and temperature rise during seismic slip"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123009",
         "journal": "Geophysical Research Letters",
         "topic": "Effects of Pore Fluid Properties on Dynamic Slip in Sandstone‐Derived Fault Gouges From the Groningen Gas Reservoir",
@@ -17137,7 +17301,8 @@ const reports = [
         "doi": "10.1029/2025jb032075",
         "interestTags": [],
         "authors": "L. Tang, J. Wang, L. Nie, B. Cui, H. Zhu, M. Ge, H. Schuh",
-        "keyPoints": [],
+        "keyPoints": ["Undifferenced integer ambiguity resolution (UD IAR) outperforms legacy double-differenced (DD) IAR despite their theoretical equivalence", "UD IAR enables more rigorous quality control and stronger geometry constraints, which are difficult to achieve with DD IAR", "Satellite orbits, Earth rotation parameters, station and geocenter coordinates all benefit from UD IAR"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032075",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Undifferenced Integer Ambiguity Resolution in GNSS Network Solutions",
@@ -17723,7 +17888,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Liangyu Zhang, Xiaobo Tian, Jia‐Min Wang, Xiaofeng Liang",
-        "keyPoints": [],
+        "keyPoints": [
+          "Crustal structure beneath the Himalaya orogen is imaged by Pn‐wave receiver functions using Hi‐CLIMB data",
+          "A wedge‐shaped low‐velocity zone above the subducting Indian crust indicates a hot Himalayan crust by radiogenic heating",
+          "A gradually thinning Indian crust implies that the top part of it has been stripped off and contributes to building the Himalayan orogen"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122042",
         "journal": "Geophysical Research Letters",
         "topic": "Thermal Structure Beneath the Himalayan Orogen Revealed by Pn‐Wave Receiver Function Imaging",
@@ -17746,7 +17916,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Shun Yang, Yumei He, Mingming Jiang, Xiaofeng Liang, Jien Zhang, Chit Thet Mon, Yuan Ling, Guangbing Hou, Myo Thant, Kyaing Sein",
-        "keyPoints": [],
+        "keyPoints": [
+          "We obtain a well‐resolved image of the upper mantle structure beneath the Indo–Myanmar subduction zone using the new seismic data",
+          "Seismic tomography reveals two opposing‐dip high‐velocity structures beneath the Indo–Myanmar subduction zone",
+          "Their geometry likely documents southward‐shallowing slab tearing induced by oblique subduction"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl123151",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Evidence for Slab Tearing Beneath the Indo‐Myanmar Subduction Zone",
@@ -17769,7 +17944,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "A. Jegen, D. Lange, A. Dannowski, M. Engels, H. Kopp, U. Barckhausen, I. Grevemeyer",
-        "keyPoints": [],
+        "keyPoints": [
+          "We present a local seismicity catalog from the Rodriguez Triple Junction, a type locality for Ridge‐Ridge‐Ridge triple junctions",
+          "Asymmetric distribution of seismicity shows a snapshot of the Central Indian Ridge's current migration toward the southeast",
+          "Close to the triple junction, ridges migrate through successive plate relocation of the ridge axis, transferring crust between plates"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120251",
         "journal": "Geophysical Research Letters",
         "topic": "Ridge Migration and Plate Boundary Readjustments at the Rodriguez Triple Junction",
@@ -17838,7 +18018,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yiming Bai, Xiaohui Yuan, Frederik Tilmann, Bernd Schurr, Yinshuang Ai, Yumei He, Shengji Wei, Guangbing Hou, Myo Thant, Kyaing Sein, Oo Than, Mingming Jiang, Ping Tong",
-        "keyPoints": [],
+        "keyPoints": [
+          "The Indo‐Burma subduction zone LAB is imaged by S and SKS receiver functions; the latter improves imaging of steep slab interfaces",
+          "The LAB is overall shallow (∼70 km depth) and characterized by a sharp velocity gradient, indicating the presence of <5% partial melt",
+          "The Indian plate is east‐subducting with a ∼20◦ dipping angle at ∼70–140 km depths beneath the Indo‐Burma Ranges"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl121401",
         "journal": "Geophysical Research Letters",
         "topic": "Lithosphere‐Asthenosphere Interactions Across the Indo‐Burma Subduction Zone From Sp Receiver Functions",
@@ -17861,7 +18046,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Wanlong Xu, Maodu Yan, Mathew Domeier, Chong Guan, Qiang Fu, Liang Yu, Zhichao Niu, Miaomiao Shen, Bingshuai Li, Dawen Zhang, Zunbo Xu, Yuwei Zhang",
-        "keyPoints": [],
+        "keyPoints": [
+          "Paleomagnetic data from the Eocene red beds in Baizha yield a robust mean direction of Ds =51.6◦, Is = +33.3◦ (k=28.2, α95=7.6◦)",
+          "Baizha underwent a ∼40◦ clockwise rotation since the late Eocene, driven by regional oroclinal bending and local strike‐slip faulting",
+          "Since early Miocene, local rotations in southeastern Tibetan Plateau are driven by pincer‐like convergence of Chuandian and Burma terranes"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122579",
         "journal": "Geophysical Research Letters",
         "topic": "Paleomagnetic Evidence of Internal Rotation in the Eastern Qiangtang and Its Relation to Distributed Strike‐Slip",
@@ -17962,7 +18152,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xiaoran Fan, Guohong Zhang, Yosuke Aoki, Xinjian Shan",
-        "keyPoints": [],
+        "keyPoints": [
+          "InSAR reveals pre‐seismic uplift near hydraulic‐fracturing platforms before the Luxian earthquake",
+          "Poroelastic modeling shows hydraulic fracturing loaded the shallow fault but weakly affected the basement fault",
+          "Structural and optimal‐slip analyses suggest hydraulic fracturing may have facilitated shallow rupture in a tectonic earthquake"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120854",
         "journal": "Geophysical Research Letters",
         "topic": "The Effect of Hydraulic Fracturing on the 2021 Ms 6.0 Luxian Earthquake as Revealed by Deformation and Numerical",
@@ -17986,7 +18181,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Grace Ertel, Sophie Coulson, Christopher G. Piecuch, Matthew Hoffman",
-        "keyPoints": [],
+        "keyPoints": [
+          "Water mass redistribution due to ocean dynamics lead to gravitational, rotational, and deformational (GRD) effects that alter sea level",
+          "Water mass redistribution and its GRD effects disproportionately impact coasts, but commonly used projections do not include GRD effects",
+          "Such GRD effects lower regional sea level by up to ∼1 cm in areas of mass loss or raise it by up to ∼5 cm in areas of mass gain by 2100"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122243",
         "journal": "Geophysical Research Letters",
         "topic": "Crustal Deformation and Gravitational Effects From Dynamic Ocean Mass Redistribution Impact Projected Sea‐Level Change",
@@ -18010,7 +18210,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Mohammadreza Jamalreyhani, Fenglin Niu, Simone Cesca, Eric Bergman",
-        "keyPoints": [],
+        "keyPoints": [
+          "The Mw 7.0 Hubbard Glacier earthquake had a highly complex, unilateral rupture, and reveals the presence of the Connector fault",
+          "Stepovers and restraining bends control rupture termination and aftershock mechanisms on segmented faults",
+          "Seismological analysis of regional and teleseismic data helps to reconstruct fault geometry in ice‐covered regions"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122036",
         "journal": "Geophysical Research Letters",
         "topic": "Complex Shallow Unilateral Rupture of the 2025 M w 7.0 Hubbard Glacier Earthquake Terminated by a Restraining Bend on",
@@ -24008,7 +24213,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Hwaju Lee, YoungHee Kim, Maximiliano J. Bezada, Hyunwoo Lee",
-        "keyPoints": [],
+        "keyPoints": [
+          "High resolution seismic imaging reveals a clear east–west contrast in upper mantle structure",
+          "Low velocity anomalies in the east are partly explained by the influence of mantle anisotropy",
+          "Vertically elongated high velocity structures in the west suggest ongoing lithospheric modification"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121809",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Imaging Reveals Ongoing Modification of Craton Margins in Northeast Asia",
@@ -24032,7 +24242,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "A. Bellas‐Manley, K. Kang, T. W. Becker, R. S. Nerem",
-        "keyPoints": [],
+        "keyPoints": [
+          "Considering 3D‐viscosity in models of glacial isostatic adjustment (GIA) reconciles a persistent discrepancy in mantle viscosity inferred from GIA and mantle convection",
+          "Models of GIA with 3D‐viscosity can accommodate an upper/lower mantle viscosity contrast consistent with mantle convection models (Δη∼30)",
+          "A GIA model with 3D‐viscosity and Δη∼30 significantly improves the fit to a range of observational constraints compared to previous models"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120160",
         "journal": "Geophysical Research Letters",
         "topic": "3D Variations in Viscosity Reconcile the Strength of the Lower Mantle Inferred From Glacial Isostatic Adjustment and",
@@ -24055,7 +24270,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Junpeng Li, Zhe Jia",
-        "keyPoints": [],
+        "keyPoints": [
+          "The 2025 Mw 8.8 event exhibits multi‐stage propagation characterized by 7 subevents with heterogeneous energy release and slip distribution",
+          "Tsunami‐informed inversion identifies a major southern asperity concentrated in a deeper patch within a decades‐long low seismicity area",
+          "The depth‐complementary relationship of the 2025 and the shallower 1952 events resolves the slip budget paradox implied by rapid recurrence"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121923",
         "journal": "Geophysical Research Letters",
         "topic": "The 2025 Mw 8.8 Kamchatka Megathrust",
@@ -24075,7 +24295,12 @@ const reports = [
         "doi": "10.1029/2025gl118106",
         "interestTags": [],
         "authors": "K. Aizawa, N. Matsushima, Y. Matsunaga",
-        "keyPoints": [],
+        "keyPoints": [
+          "Temporal changes in magnetotelluric response functions were observed between pre‐eruption and post‐eruption surveys at multiple sites",
+          "Changes in resistivity structure were inferred within the shallow hydrothermal system",
+          "Magnetotellurics is useful for investigating the mechanisms and impacts of phreatic eruptions on hydrothermal systems"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl118106",
         "journal": "Geophysical Research Letters",
         "topic": "Temporal Change in Resistivity Structure Before and After the 2018 Small Phreatic Eruption Iwo‐Yama Volcano, Kirishima",
@@ -24099,7 +24324,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "G. M. Bocchini, D. Essing, I. Nikolopoulou, A. Dielforder, M. P. Roth, A. Serpetsidaki, E. Sokos, C. P. Evangelidis, R. M. Harrington",
-        "keyPoints": [],
+        "keyPoints": [
+          "Aftershock and focal mechanism distribution suggest an intraslab origin for the 2024 M5.9 Strofades earthquake sequence",
+          "Focal mechanism P‐axes align with slab‐depth contours and are nearly perpendicular to the plate convergence direction",
+          "A decoupled stress regime between the upper and lower plates is consistent with a weak megathrust interface"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122817",
         "journal": "Geophysical Research Letters",
         "topic": "Stress Field and Megathrust Strength in the Western Hellenic Subduction System",
@@ -24124,7 +24354,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ping He, Timothy J. Craig, Yangmao Wen, Huihui Weng, Kefeng He, Caijun Xu",
-        "keyPoints": [],
+        "keyPoints": [
+          "InSAR and teleseismic waveforms reveal the spatial and temporal evolution of the mainshock and three aftershocks",
+          "The rupture involved a multi‐stage shallow sequence on unmapped, high‐dip faults, with a blind mainshock and surface‐reaching segments",
+          "Time‐series InSAR shows ∼2 mm/yr pre‐event uplift in the epicentral area, suggesting preparatory deformation prior to the earthquake"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121737",
         "journal": "Geophysical Research Letters",
         "topic": "Multi‐Stage Shallow Rupture and Pre‐Event Shallow Deformation During the 2025 Mw 5.9 Asadabad Earthquake (Afghanistan)",
@@ -24148,7 +24383,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hui Liu, Min Liu, Yen Joe Tan",
-        "keyPoints": [],
+        "keyPoints": [
+          "Foreshock productivity of Mendocino oceanic transform fault (OTF) earthquakes is significantly lower than continental strike‐slip earthquakes",
+          "No clear evidence of aseismic‐nucleation‐related seismicity preceding large Mendocino OTF earthquakes",
+          "Elevated foreshock activity is not a general characteristic of OTFs despite prevalent aseismic slip"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121743",
         "journal": "Geophysical Research Letters",
         "topic": "Large Earthquakes Along the Mendocino Oceanic Transform Fault Hardly Have Any Foreshocks",
@@ -24172,7 +24412,12 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Yuqi Zhu, Zhouchuan Huang, Frederik Tilmann, Kuan‐Yu Ke, Xinglu Wang, Cong Ji",
-        "keyPoints": [],
+        "keyPoints": [
+          "Joint inversion of receiver functions and Rayleigh and Love waves constrains radial anisotropy and shear wave velocity in the TLFZ",
+          "Lithospheric destruction in eastern China significantly reshapes lower crustal architecture",
+          "Mafic intrusions may act as asperities that concentrate stress and promote earthquake nucleation"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120482",
         "journal": "Geophysical Research Letters",
         "topic": "Crustal Responses to the Destruction of Continental Lithosphere",
@@ -24196,7 +24441,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yang Xiao, Jingqi Wang, Yijun Zhang, Wenting Zhang, Jiangcun Zhou, Heping Sun, Yabo Zhao, Anas Osman, Rumeng Guo",
-        "keyPoints": [],
+        "keyPoints": [
+          "Interplay between the interseismic, coseismic, and early postseismic slip associated with the Kamchatka earthquake is revealed",
+          "Cascading triggering between foreshock, mainshock, and aftershock is observed",
+          "Coseismic rupture and afterslip induce extensional strains at nearby volcanoes, potentially promoting magma ascent"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl121473",
         "journal": "Geophysical Research Letters",
         "topic": "Interseismic, Coseismic, and Early Postseismic Slip Associated With the 2025 Mw 8.8 Kamchatka Earthquake",
@@ -28021,7 +28271,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kelin Wang, Yajing Liu, Tianhaozhe Sun",
-        "keyPoints": [],
+        "keyPoints": [
+          "Stress leakage due to interseismic elastic off‐fault deformation around locked zones causes slow creep in their stress shadows",
+          "Shallow creep and slow earthquakes in the stress shadow of locked zones reflect either prolonged afterslip or a leaky shadow",
+          "Abundance of shallow slow earthquakes at Nankai indicates both mechanisms; their rarity at Cascadia indicates very small shadow zones"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120927",
         "journal": "Geophysical Research Letters",
         "topic": "Shallow Creep in the Leaky Stress Shadow of Locked Zones of Subduction Megathrust",
@@ -28045,7 +28300,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xinxing Chen, Haichao Chen, Fenglin Niu, Xiaobo Meng",
-        "keyPoints": [],
+        "keyPoints": [
+          "Dense seismic observations resolve millisecond‐scale rupture complexity within an induced microearthquake",
+          "The rupture of the Mw 1.6 microearthquake consists of two subevents, resulting in apparent rupture directivity",
+          "Spatial variations in fault stress likely promote the dynamic triggering of subevents and cascading rupture behavior"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117977",
         "journal": "Geophysical Research Letters",
         "topic": "Asperity‐Driven Cascading Rupture of a Mw 1.6 Induced Microearthquake",
@@ -28068,7 +28328,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Matt J. Ikari, Alexander Roesner",
-        "keyPoints": [],
+        "keyPoints": [
+          "Friction experiments from Roesner et al. (2022, https://doi.org/10.1186/s40623‐022‐01728‐w) on a Nankai megasplay sample are reanalyzed with 1‐ and 2‐state variable friction laws",
+          "Velocity‐weakening friction data at low stress are clearly better fit with 2 state variables",
+          "Velocity weakening is caused by a mechanism active at low stress, due to high porosity, high relative stiffness, and localized deformation"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl121839",
         "journal": "Geophysical Research Letters",
         "topic": "On the Application of 1 Versus 2 State Variable Rate‐and‐State Friction Laws",
@@ -28088,7 +28353,12 @@ const reports = [
         "doi": "10.1029/2025gl121559",
         "interestTags": [],
         "authors": "Carlos A. M. Chaves, Felipe P. Corral, Jeroen Ritsema",
-        "keyPoints": [],
+        "keyPoints": [
+          "Ray‐theoretical traveltime corrections cause artificial undulations in mantle transition zone images due to unmodeled diffraction effects",
+          "Tomographic model uncertainty in traveltime corrections results in large uncertainties in transition zone boundary topography",
+          "Receiver function analysis must account for mantle velocity structure uncertainties to avoid erroneous geophysical interpretations"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl121559",
         "journal": "Geophysical Research Letters",
         "topic": "Impact of Mantle Velocity Uncertainty on Receiver‐Function Imaging of the Transition Zone",
@@ -28110,7 +28380,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "So Ozawa",
-        "keyPoints": [],
+        "keyPoints": [
+          "Earthquake sequence simulations show that the GR law results from the fault length distribution",
+          "Both partial and multi‐fault ruptures are produced by the interaction between faults",
+          "Aftershocks are much more common than foreshocks in our model"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120375",
         "journal": "Geophysical Research Letters",
         "topic": "Partial Ruptures, Cascading Multi‐Fault Ruptures, and Aftershocks in 2D Random Fault Network",
@@ -28135,7 +28410,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chuanming Liu, Vera Schulte‐Pelkum, Thorsten W. Becker, Frederik Link, Lili Feng",
-        "keyPoints": [],
+        "keyPoints": [
+          "A new azimuthally anisotropic model of Anatolia is constructed using surface waves, shear wave splitting, and receiver functions",
+          "Crustal anisotropy near major transform faults reflects transtension, while deeper anisotropy reflects asthenospheric convection",
+          "Layered anisotropy records recent crustal strain, inherited lithospheric fabrics, and ongoing slab‐influenced mantle flow"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120326",
         "journal": "Geophysical Research Letters",
         "topic": "Layered Seismic Anisotropy and Tectonics of the Anatolian Plate",
@@ -28160,7 +28440,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yuta Ito, Tomoaki Nishikawa, Yoshihiro Ito, Shukei Ohyanagi, Hiroyuki Noda",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismicity characteristics are compared across three depth‐dependent interplate slip regimes in the northern Japan Trench subduction zone",
+          "The zone characterized by frequent slow earthquake activity show the highest aftershock productivity",
+          "The rupture arrest probability is calculated, suggesting the existence of a characteristic rupture size in the stable creeping zone"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120861",
         "journal": "Geophysical Research Letters",
         "topic": "Comparative Analysis of Seismicity Across Three Depth‐Dependent Slip Regimes in the Japan Trench Subduction Zone",
@@ -28183,7 +28468,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Shunsuke Takemura, Suguru Yabe",
-        "keyPoints": [],
+        "keyPoints": [
+          "Characteristics of energy rate functions of shallow tremors exhibit size‐dependent features",
+          "The distributions of shallow and deep tremors differ in the moment‐duration space",
+          "Temperature and pressure control rupture behaviors of slow earthquakes"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119695",
         "journal": "Geophysical Research Letters",
         "topic": "Characteristics of Seismic Energy Rate Functions of Shallow Tremors",
@@ -28206,7 +28496,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yifan Zhu, Chao An, Han Yue",
-        "keyPoints": [],
+        "keyPoints": [
+          "Coseismic slip distribution of the 2025 Kamchatka earthquake is resolved by tsunami and GNSS data",
+          "Large slip of about 13 m extended up to the trench",
+          "Tsunami waveform similarity suggests a repeating trench‐normal pattern of the 1952 slip"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120533",
         "journal": "Geophysical Research Letters",
         "topic": "Trench‐Breaching Rupture of the 2025 M w 8.8 Kamchatka Earthquake and How It Repeats the 1952 Event",
@@ -28229,7 +28524,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yanlan Hu, Xin Cui, Zefeng Li",
-        "keyPoints": [],
+        "keyPoints": [
+          "We investigate early aftershock behaviors by partitioning aftershocks onto 15 branching faults in the 2019 Ridgecrest sequence",
+          "Mainshock‐induced Coulomb stress is associated with aftershock occurrence during the first ∼3 days, and the relationship weakens afterward",
+          "Aftershock b values tend to be higher in regions of negative Coulomb stress changes on many faults"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122144",
         "journal": "Geophysical Research Letters",
         "topic": "Mainshock‐Induced Stress Changes Modulate Initial Aftershocks on Complex Branching Faults of the 2019 Ridgecrest",
@@ -28253,7 +28553,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Nazia Hassan, Christian Sippl",
-        "keyPoints": [],
+        "keyPoints": [
+          "Local earthquake tomography images high Vp/Vs in the upper and low Vp/Vs in the lower plane of seismicity in the shallow slab",
+          "Downdip of ∼85 km depth, high Vp/Vs ratios are observed to extend ∼30 km deep into the slab, likely showcasing the presence of fluids there",
+          "Downdip change of fluid signature accompanied by transition from low to high seismicity rates and oceanic crust eclogitization completion"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120940",
         "journal": "Geophysical Research Letters",
         "topic": "Slab Dehydration Observed Down to Lower Seismicity Plane Depths in the Northern Chile Subduction Zone",
@@ -28277,7 +28582,12 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "G. M. Adinolfi, F. Guiñez‐Rivas, J. Campos, R. De Matteis",
-        "keyPoints": [],
+        "keyPoints": [
+          "We apply focal mechanism tomography to investigate crustal fluid overpressure beneath active faults",
+          "We study how fluid pressure, fault geometry, and the stress field interact to control earthquake nucleation",
+          "We investigate how crustal fluids promote seismic swarms and how fault zone permeability variations affect fluid migration and rupture"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl119469",
         "journal": "Geophysical Research Letters",
         "topic": "The Role of Fluids in Fault Mechanics",
@@ -28301,7 +28611,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yu‐Pin Lin, Shu‐Huei Hung, Tai‐Lin Tseng, Pei‐Ying Patty Lin, Eh Tan, Ying‐Nien Chen",
-        "keyPoints": [],
+        "keyPoints": [
+          "Sharp attenuation (Q) contrasts delineate major active faults, marking juxtaposition of distinct crustal lithologies",
+          "Low Q and Q_P/Q_S zones beneath the southern Central Range coincide with tectonic tremor, indicating a fluid‐rich, ductile lower crust",
+          "A ∼15° north‐tilted low Q_P Luzon forearc beneath eastern offshore Taiwan reflects its evolution during oblique plate convergence"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl121583",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Attenuation Reveals Fault and Forearc Structure Across the Subduction‐Collision Transition in Southern Taiwan",
@@ -28327,7 +28642,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Guanru He, Zheming Shi, Zhiyu Qi, Shaojie Lv, Peng Ye, Guangcai Wang",
-        "keyPoints": [],
+        "keyPoints": [
+          "We investigate the impact of the 2011 Mw 9.0 Tohoku earthquake on a deep well‐aquifer system in Beijing",
+          "The earthquake enhanced hydraulic connectivity accompanied by reduced storage capacity",
+          "Compaction from volumetric strain and fracturing from shear strain within the deep rock matrix is the mechanism"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl122462",
         "journal": "Geophysical Research Letters",
         "topic": "Permanent Hydraulic and Poroelastic Property Changes in a Deep Aquifer Triggered by the Distant Tohoku Earthquake",
@@ -28353,7 +28673,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Carlos Peña, Leoncio Cabrera, Jesús Muñoz‐Montecinos, Sergio Ruiz, Oliver Heidbach",
-        "keyPoints": [],
+        "keyPoints": [
+          "Pore‐pressure changes during slow slip can produce 1–10 MPa stress changes, about two orders of magnitude higher than elastic stresses",
+          "Foreshocks, repeaters, and the mainshock localize in regions of pore‐pressure increase",
+          "Pore‐pressure changes is a potential candidate to efficiently trigger foreshock seismicity in subduction zones"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121225",
         "journal": "Geophysical Research Letters",
         "topic": "Hydraulic Control of the Foreshocks and Mainshock of the 2017 Valparaíso, Chile, Earthquake",
@@ -28375,7 +28700,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "P. Saha, M. Murakami, N. Miyajima",
-        "keyPoints": [],
+        "keyPoints": [
+          "We have performed shear‐wave velocity (VS) measurements on (Fe3+,Al)‐bearing bridgmanites under whole lower‐mantle pressure conditions",
+          "A ∼1.6%–2.2% VS reduction in (Fe3+, Al)‐bearing bridgmanite than MgSiO3 suggests a lower mantle dominated by ferric‐iron‐rich bridgmanite",
+          "The lower mantle is significantly enriched in silica, exhibiting an Mg/Si ratio close to unity"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118109",
         "journal": "Geophysical Research Letters",
         "topic": "Earth's Lower Mantle Predominated by Ferric Iron‐Rich Bridgmanite Inferred From High Pressure Elasticity Measurements",
@@ -28398,7 +28728,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Rui Wu, Hongpu Kang, Fuqiang Gao, Xiangyuan Peng, Shuangyong Dong, Chenxi Zhao, Bing Qiuyi Li, Kerry Leith, Qinghua Lei, Gennady Y. Gor, Paul A. Selvadurai, Xiaoping Jia",
-        "keyPoints": [],
+        "keyPoints": [
+          "Laboratory measurements track vapor adsorption zone preceding wetting front, where elastic softening occurs",
+          "Micromechanical model relates adsorption‐induced elastic softening to volume expansion of rocks",
+          "Moisture dynamics drives a continuous transition from adsorption‐induced softening to saturation‐induced stiffening"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120445",
         "journal": "Geophysical Research Letters",
         "topic": "Adsorption Preceding Wetting Front Controls Seismic Velocity",
@@ -28421,7 +28756,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Sean Kuanhsiang Chen, Wei Peng, Yung‐Tsai Lai, J. Bruce H. Shyu, Yih‐Min Wu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Slow slip events can trigger larger earthquakes in a rapidly recurrent earthquake swarm under plate subduction to collision",
+          "Static stress transfer occurs primarily during the initial phase of slow slips, as tiny stress variations are closely tracked",
+          "Dynamic interactions between static stress transfer and elevated fluid pressure influence earthquake size distribution"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl121835",
         "journal": "Geophysical Research Letters",
         "topic": "Stress Transfer From Slow Slip Events to Earthquake Swarms as a Cycle in the Southernmost Ryukyu Subduction Zone",
@@ -28446,7 +28786,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "F. Rappisi, T. J. Craig, S. Rost",
-        "keyPoints": [],
+        "keyPoints": [
+          "Remote seismological observations reveal slow slip potential in subduction zones",
+          "Megathrust reflectors and fluid‐driven processes correlate with slow slip events",
+          "Proposed seismic method extends the study of inaccessible offshore subduction interfaces"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2026gl121813",
         "journal": "Geophysical Research Letters",
         "topic": "The Detection of Transient Subduction Zone Interface Properties Using Teleseismic Data",
@@ -28469,7 +28814,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Wang Xinghao, Feng Liu, Rui Su, Zhihui Wang, Lihua Fang, Lianqing Zhou, Lei Bai, Wanli Ouyang",
-        "keyPoints": [],
+        "keyPoints": [
+          "We introduce a novel cross‐modal transfer method linking seismic waveforms and powerful language models to reduce large‐scale pretraining",
+          "We develop SeisMoLLM by adapting a pretrained large language model for seismic monitoring, enabling a unified framework for multiple tasks",
+          "SeisMoLLM outperforms leading methods in performance and generalization, and offers low training cost and fast inference for real‐world use"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118505",
         "journal": "Geophysical Research Letters",
         "topic": "SeisMoLLM",
@@ -28493,7 +28843,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hui Huang, Jessica C. Hawthorne",
-        "keyPoints": [],
+        "keyPoints": [
+          "We develop a coherence‐based power metric to detect and estimate the power of clustered foreshocks along the San Jacinto fault zone",
+          "We find that 19 M≥2.5 events are preceded by 5 to 20‐s‐long foreshock sequences, dominantly along the base of the seismogenic zone",
+          "Clustered foreshocks show a moment‐rate power buildup, which might reflect accelerating aseismic slip or a growing cascade of ruptures"
+        ],
+        "keyPointsSource": "author-manuscript",
         "link": "https://doi.org/10.1029/2025gl120398",
         "journal": "Geophysical Research Letters",
         "topic": "19 Clustered Foreshock Sequences Along the San Jacinto Fault Zone",
@@ -28518,7 +28873,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Wenbin Xu, Kai Sun, Qijie Wang, Guojie Meng, Lei Xie, Ali Özkan",
-        "keyPoints": [],
+        "keyPoints": [
+          "Geodetic-geologic inconsistency in slip partitioning between main and secondary strands of the EAFZ was largely reconciled",
+          "Stress heterogeneity facilitated rupture propagation in individual events while segregating the doublet",
+          "Lithospheric heterogeneity likely governs regional strain partitioning and strain-axis rotation, enabling the Türkiye earthquake doublet"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119507",
         "journal": "Geophysical Research Letters",
         "topic": "Fault Kinematic Controls on the Spatio‐Temporal Proximity of the 2023 Mw 7.8‐7.7 Türkiye Earthquakes",
@@ -28541,7 +28901,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "K. Aizawa, T. Koyama, H. Hase, M. Uyeshima, H. Sumino",
-        "keyPoints": [],
+        "keyPoints": [
+          "Integrated SP, MT, and helium isotope data reveal magma and volatile pathways when combined with geodetic results",
+          "Magma and volatiles ascend along a edge of crystal‐mush zone, with shallow volatiles diverted laterally by groundwater flow",
+          "Geodetic pressure sources indicate transient magma pockets forming along the edges of a long‐lived crystal‐mush zone"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120131",
         "journal": "Geophysical Research Letters",
         "topic": "Magma and Volatile Pathways Beneath Sakurajima Volcano From Self‐Potential, Helium Isotopes, and Broadband",
@@ -28641,7 +29006,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhifeng Wang, Dun Wang, Zhifan Wan, Dongdong Tian, Yuyang Peng",
-        "keyPoints": [],
+        "keyPoints": [
+          "A new physically interpretable method is developed to decompose moment tensors into two double‐couple subevents",
+          "The first subevent is constrained by P‐wave first‐motion data, and the second is derived through moment tensor conservation",
+          "Applications to global Mw ≥ 7.5 earthquakes with high non‐double‐couple components reveal consistent and interpretable rupture complexities"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121541",
         "journal": "Geophysical Research Letters",
         "topic": "Decomposing Earthquake Moment Tensors Using P‐Wave First Motion",
@@ -28663,7 +29033,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "B. Martínez Montesinos, L. Mingari, E. Caruso, M. Poret, N. Mari, A. Folch, D. Tajè, A. Costa",
-        "keyPoints": [],
+        "keyPoints": [
+          "Ensemble-based data assimilation techniques are used to infer Eruption Source Parameters (ESPs) from tephra deposits",
+          "More robust ESPs estimations are derived from tephra ground loading and particle grain-size data analyses",
+          "Potential for automated implementation in volcanic hazard assessment is discussed (e.g., by exploiting disdrometer networks)"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117584",
         "journal": "Geophysical Research Letters",
         "topic": "Application of Data Assimilation Methods to Reconstruct the 3–5 December 2015 Etna Eruption",
@@ -28685,7 +29060,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Théo Perrot, Freysteinn Sigmundsson, Charles Dapogny",
-        "keyPoints": [],
+        "keyPoints": [
+          "We invert for the shape of a magma domain by fitting the output of a Finite Element model to the measured displacement of the Earth's crust",
+          "A modern shape optimization framework is used, which alleviates the need for an a priori parametrization of the magma domain",
+          "The method is appraised on a synthetic example and it is applied on the real scenario of the 2022 inflation at Svartsengi, Iceland"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120764",
         "journal": "Geophysical Research Letters",
         "topic": "A Shape Optimization Approach for Inferring Sources of Volcano Ground Deformation",
@@ -28707,7 +29087,11 @@ const reports = [
           "Seismology"
         ],
         "authors": "P. Corrado, M. Taroni, L. Cordrie, R. Basili, W. Marzocchi, J. Selva",
-        "keyPoints": [],
+        "keyPoints": [
+          "The b‐value increases with the increase of the heat flow",
+          "The correlation between b‐value and heat flow is generally consistent across tectonic environments and the fault kinematics"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120494",
         "journal": "Geophysical Research Letters",
         "topic": "Crustal Heat Flow Drives the Earthquake Magnitude Distribution",
@@ -28729,7 +29113,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Saeed Mhanna, Landon J. S. Halloran, Yves Tille, Ahmed Haj Asaad, Francois Zwahlen, Philip Brunner",
-        "keyPoints": [],
+        "keyPoints": [
+          "War-driven cropland abandonment in Syria caused a large-scale ‘reverse pump test,’ revealing widespread groundwater recovery",
+          "Interferometric Synthetic Aperture Radar shows episodic land uplift up to 4 cm/yr linked to cropland abandonment in wet years",
+          "Persistent pumping areas still subside, warning of future groundwater stress"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120021",
         "journal": "Geophysical Research Letters",
         "topic": "Rapid Land Surface Uplift and Groundwater Recovery Observed During the Syrian War",
@@ -28752,7 +29141,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Emiko Sugimura‐Komabayashi, Samuel Thompson, Tetsuya Komabayashi, Damien Freitas, Mark Robertson, Nico Giordano, Anna Pakhomova, Hanns‐Peter Liermann",
-        "keyPoints": [],
+        "keyPoints": [
+          "The density of sulfur-bearing solid iron was examined up to 200 gigapascals",
+          "Sulfur moderately reduces the density of iron which explains the heavy inner core compared to the outer core",
+          "A sulfur-silicon-oxygen-bearing outer core and sulfur-silicon-bearing inner core support equilibrium core formation scenarios"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121618",
         "journal": "Geophysical Research Letters",
         "topic": "Sulfur‐Bearing hcp Iron for Earth's Inner Core",
@@ -28772,7 +29166,12 @@ const reports = [
         "doi": "10.1029/2025gl120357",
         "interestTags": [],
         "authors": "Yang Liu, Nicolas Coltice, Laetitia Le Pourhiet, Ziyin Wu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Plateau width and thickness strongly control trench retreat and trench shape",
+          "Rheological strength, not buoyancy, drives transient trench curvature and healing",
+          "Strong plateaus like Ogasawara can delay trench retreat and influence global plate motion"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120357",
         "journal": "Geophysical Research Letters",
         "topic": "Regional‐to‐Global Tectonic and Trench‐Morphology Effects of Oceanic Plateau Subduction",
@@ -28796,7 +29195,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lintong Jiang, Shihuai Zhang, Xiaying Li",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismic clustering reveals five fluid chambers related to complex swarm behaviors on the westernmost Gofar transform fault in 2008",
+          "A hydro-mechanical fault model reproduces swarm patterns via compaction-dilatancy cycles, stress transfer, and rate-and-state friction",
+          "Swarm pattern transitions highlight the role of coupled hydro-mechanical processes in modulating slip modes across fault systems"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119319",
         "journal": "Geophysical Research Letters",
         "topic": "Hydro‐Mechanical Controls on Swarm Recurrence on the Westernmost Gofar Transform Fault, East Pacific Rise",
@@ -28819,7 +29223,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ji Zhang, Aitaro Kato, Wei Wang, Miao Zhang",
-        "keyPoints": [],
+        "keyPoints": [
+          "Single station analysis is used to evaluate the foreshock sequences of the 2025 Mw 8.8 Kamchatka earthquake",
+          "Foreshock migrated directionally toward the mainshock hypocenter in multiple stages",
+          "The Mw 8.8 Kamchatka mainshock was likely triggered by migrating foreshocks at the complex slab junction"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120956",
         "journal": "Geophysical Research Letters",
         "topic": "Foreshock Migration Preceding the 2025 Mw 8.8 Kamchatka Earthquake",
@@ -30099,7 +30508,8 @@ const reports = [
         "doi": "10.1029/2025jb033171",
         "interestTags": [],
         "authors": "J. R. Atkins, C. Martin, S. Cottaar",
-        "keyPoints": [],
+        "keyPoints": ["Most of the core‐mantle boundary lacks evidence for ultralow velocity zone presence from Sdiff", "Ultralow velocity zones seen with Sdiff lie preferentially along large low‐velocity province edges and under surface hotspots", "Six ultralow velocity zones account for 99% of regions of positive detections"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033171",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Global Presence and Absence of Ultra‐Low Velocity Zones as Seen by Sdiff Postcursors",
@@ -30119,7 +30529,8 @@ const reports = [
         "doi": "10.1029/2025jb033568",
         "interestTags": [],
         "authors": "Lior Bar‐Sovik, Ron Shaar, Agnès Genevey, Yves Gallet, Yoav Vaknin, Yuval Goren",
-        "keyPoints": [],
+        "keyPoints": ["30 pottery vessels from six clay types were produced using traditional techniques and fired in two kilns in controlled conditions", "Thellier‐IZZI and Triaxe archaeointensity methods successfully reconstructed the ambient geomagnetic field intensity", "At least three samples should be averaged to ensure reliable and accurate archaeointensity determination at the 95% confidence level"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033568",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Testing the Accuracy of Paleointensity Estimates Using Experimental Pottery Assemblages",
@@ -30141,7 +30552,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Tianze Liu, Chao Liang, John M. Aiken, Wenbo Wu, Robert Sohn",
-        "keyPoints": [],
+        "keyPoints": ["A harmonic tremor in the 25–191 Hz frequency band persisted for nine months at the Oman Drilling Project Multi‐Borehole Observatory", "The tremor characteristics are inconsistent with known anthropogenic sources", "Gas migration in the subsurface fracture network is a plausible source mechanism, with important implications"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033691",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Enigmatic Harmonic Tremor in the Samail Ophiolite, Oman",
@@ -30163,7 +30575,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Charlotte Trubowitz, Motohiko Murakami, Federico Munch, Alexander Grayver, Christian Liebske, Amir Khan, Nobuyoshi Miyajima, Pinku Saha, Yoshiyuki Okuda, Georg Spiekermann, Luiz Grafulha Morales",
-        "keyPoints": [],
+        "keyPoints": ["The electrical conductivity of pyrolite was measured up to 80 GPa and 2,300 K in a laser-heated diamond anvil cell using impedance spectroscopy", "An updated radial electrical conductivity model of the Earth was constructed based on new geomagnetic data from the ESA Swarm mission", "The electrical conductivity of pyrolite increases monotonically with pressure and can explain the geophysical observations"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032837",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Electrical Conductivity of the Lower Mantle From High‐Pressure/High‐Temperature Measurements of Pyrolite and Ten",
@@ -30186,7 +30599,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Enrique M. del Castillo, Paul Segall",
-        "keyPoints": [],
+        "keyPoints": ["Meshfree simulations of the Kīlauea caldera collapse show a critical collapse pressure consistent with estimates from geodetic observations", "Displacement-driven trapdoor-type simulations offer at best a rough approximation of the pressure-driven collapse mechanism", "Non-negligible inelastic deformation occurs within the subsiding caldera block slightly prior to and during the collapse"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032775",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Large Deformation, Pressure‐Driven Mechanistic Modeling of the 2018 Caldera Collapse at Kīlauea Volcano, HI",
@@ -30208,7 +30622,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Shengzhe Zhao, Jikun Feng, Huajian Yao, Xuan Yang, Jingxi Wang",
-        "keyPoints": [],
+        "keyPoints": ["An improved two-station surface wave method extends the usable frequency range and enhances the stability of dispersion measurements", "Using the improved method, a lithospheric shear-wave velocity model of the Chinese mainland is constructed", "Consistency of the velocity model, geodetic data, and seismicity sheds new light on the lithospheric evolution of mainland China"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032985",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "An Improved Two‐Station Surface Wave Method and Its Application in Lithospheric Tomography Beneath the Chinese Mainland",
@@ -30231,7 +30646,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "J. W. L. Afonso, R. M. Rocha, D. R. Franco, N. B. Dos Santos, C. G. Leandro, P. Franceschinis, A. E. Rapalini, M. J. Arrouy, L. E. Gómez‐Peral, D. G. Poiré, S. Caetano‐Filho, H. D. Brito, R. I. F. Trindade",
-        "keyPoints": [],
+        "keyPoints": ["Orbital forcing drives rhythmic sedimentation in the Avellaneda Formation", "Floating astronomical tuning constrains the depositional duration of the Avellaneda Formation to approximately 850–1,000 kyr", "Geomagnetic reversal rates of 7–11 per Myr indicate a hyperactive field at ∼570 Ma"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033554",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "High Geomagnetic Reversal Frequency During the Middle to Late Ediacaran (∼570 Ma) Constrained by Integrated Magneto‐",
@@ -30256,7 +30672,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jing He, Qingju Wu, Eric Sandvol, Mijian Xu",
-        "keyPoints": [],
+        "keyPoints": ["An azimuthal anisotropic Lg-wave attenuation model is developed for the crust of the eastern Tibet Plateau", "Low intrinsic attenuation and strong crustal rheology are revealed by high isotropic Q along the eastern margin of the Tibet Plateau", "The α–β quartz phase transition enhances crustal attenuation due to partial melting, resulting in low isotropic Q east of the Xiaojiang Fault"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032944",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Restricted Crustal Extrusion in Eastern Tibet Plateau",
@@ -30279,7 +30696,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ye Yuan, Yuhan Li, Yongjian Yao, Minghui Zhao, Jiazheng Zhang, Enyuan He, Lianjun Li",
-        "keyPoints": [],
+        "keyPoints": ["Variable Vp/Vs ratios reveal heterogeneous crustal accretion across the Southwest Sub‐Basin of the South China Sea", "The observed crustal structure indicates changes in magma supply and mantle upwelling along the slow‐spreading ridge", "Differences in crustal composition and thickness record variable seafloor spreading processes"],
         "link": "https://doi.org/10.1029/2025jb033112",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Variable Oceanic Crust Accretion at a Slow‐Spreading Ridge",
@@ -30303,7 +30720,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jonatan Glehman, Yehuda Bock, Barry Hirshorn, Allen Nance, Jonathan R. Weiss, Stuart Weinstein, Dorian Golriz",
-        "keyPoints": [],
+        "keyPoints": ["Rapid magnitude estimates are obtained by combining seismic and geodetic observations in real time", "Seismogeodesy reduces the time delay of local early warning magnitude estimates", "The method provides accurate magnitude estimates for large earthquakes before conventional seismic estimates saturate"],
         "link": "https://doi.org/10.1029/2025jb033222",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Rapid Earthquake Magnitude Estimation for Local Early Warning Systems Using Seismogeodesy",
@@ -30328,7 +30745,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lintong Jiang, Shihuai Zhang",
-        "keyPoints": [],
+        "keyPoints": ["A micromechanical model unifies rock strength over strain rates by integrating rate‐and‐state friction on microcracks with inertial effect", "Rock strength smoothly spans three regimes across strain rates: healing, frictional strengthening, and inertia‐driven enhancement", "The model bridges classical strength criteria and links crustal strength to earthquake patterns across strain rates and stress levels"],
         "link": "https://doi.org/10.1029/2025jb033680",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Unified Micromechanical Model for Brittle Failure From Slow Creep to Dynamic Rupture",
@@ -30351,7 +30768,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Eduardo Arzabala, Cynthia Ebinger, Finnigan Illsley‐Kemp, Aude Lavayssière, Derek Keir",
-        "keyPoints": [],
+        "keyPoints": ["Active and frozen upper mantle intrusions create differential stresses of 1–10 MPa", "Numerical models match local rotations of mantle fracture orientations", "Upper mantle intrusion zones are weak zones that localize strain"],
         "link": "https://doi.org/10.1029/2025jb033104",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Testing Models for Upper Mantle Earthquakes in the Tanganyika‐Rukwa Rift, Africa",
@@ -30376,7 +30793,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Pauline Meyer, François Jouanne, Marie‐Pierre Doin, Owais Ahmed, Adnan Alam Awan, Naveed Munawar, Ghulam Akbar",
-        "keyPoints": [],
+        "keyPoints": ["The Nanga Parbat-Haramosh massif is dominated by uplift induced by ductile crustal flow", "GNSS and InSAR data revealed an east–west asymmetry of the massif deformation inducing a west tilted antiformal crustal diapir", "The surficial part of the massif is seismically active with normal faults in extrados positions accommodating local extension"],
         "link": "https://doi.org/10.1029/2025jb032286",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Surface Deformation of the Nanga Parbat Crustal Diapir in the Northwestern Himalaya Imaged With GNSS and InSAR",
@@ -30400,7 +30817,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kai Sun, Wenbin Xu, Qijie Wang, Lei Xie, Guojie Meng, Lijia He",
-        "keyPoints": [],
+        "keyPoints": ["We develop a total variation regularization optimized block model for Turkey using dense Global Navigation Satellite System data", "We describe the heterogeneous slip partitioning and deformation mechanisms driven by inter and intra-plate interactions across Turkey", "We quantify the on-fault and off-fault moment accumulation rates across Turkey"],
         "link": "https://doi.org/10.1029/2025jb031692",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Present‐Day Kinematics and Seismic Hazards in Turkey",
@@ -30424,7 +30841,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Chunjie Zhang, Hikaru Iwamori",
-        "keyPoints": [],
+        "keyPoints": ["A hybrid probabilistic inversion framework is developed for joint estimation of discrete and continuous subsurface parameters", "The method preserves competing interpretations without early classification, enabling uncertainty quantification with high computational efficiency", "Although developed for rock–geofluid inversion, the framework applies to mixed discrete–continuous inverse problems in multi‐physics settings"],
         "link": "https://doi.org/10.1029/2025jb032854",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Hybrid Probabilistic Framework for Mixed Discrete–Continuous Subsurface Parameter Estimation From Multi‐Physics",
@@ -30447,7 +30864,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xingpeng Dong, Yun Chen, Dinghui Yang, Mengxue Liu",
-        "keyPoints": [],
+        "keyPoints": ["High‐resolution seismic imaging reveals a distinct high‐velocity Indian slab beneath southern Tibet", "Observed seismic velocity contrasts are consistent with tearing of the Indian slab and localized mantle upwelling", "Indian slab tearing beneath southern Tibet may promote surface rifting and associated major normal‐faulting earthquakes"],
         "link": "https://doi.org/10.1029/2025jb033588",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The 2025 Mw 7.1 Dingri Earthquake, Southern Tibet",
@@ -30471,7 +30888,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "P. Calvín, E. Izquierdo‐Llavall, P. Sierra‐Campos, E. Beamud, M. J. Dekkers, R. Egli, A. Rodríguez‐Pintó, J. C. Larrasoaña, E. L. Pueyo",
-        "keyPoints": [],
+        "keyPoints": ["Two secondary magnetization components are identified in the Jaca‐Pamplona foreland basin (Spain), both residing in magnetite", "This prolonged burial‐related remagnetization encompasses multiple polarity chrons, calling for a cautious application of the reversals test", "Paleodip analysis shows the importance of inherited basement motion in explaining the stratal dip evolution in this southern Pyrenees basin"],
         "link": "https://doi.org/10.1029/2025jb033544",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Kinematics of Burial Remagnetizations in Fold‐and‐Thrust Belts",
@@ -30494,7 +30911,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "V. Mura, J. Browning, G. Arancibia, D. Healy, N. Farrell, N. Bigaroni, C. Pineda, D. Morata, J. Mecklenburgh",
-        "keyPoints": [],
+        "keyPoints": ["Monitoring of Vp changes in geothermal reservoir host analogs at elevated pressure", "Rock microstructure controls geothermal reservoir rock response to temperature and pressure, influencing pore closure under crustal conditions", "Preexisting porosity and thermal microcrack re‐arrangement processes are lithology dependent"],
         "link": "https://doi.org/10.1029/2025jb033327",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Microstructural Controls on Geothermal Reservoir Host Rock Responses to Elevated Pressures and Temperatures",
@@ -30517,7 +30934,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xinyu Li, Lijun Liu, Zebin Cao, Yanchong Li",
-        "keyPoints": [],
+        "keyPoints": ["A new global mantle convection model using ASPECT to reproduce Earth‐like subduction with data assimilation and nonlinear rheology", "A weak subduction channel promotes natural‐looking slab evolution and mantle dynamics during data assimilation", "Results match seismic observations better than previous CitcomS studies using the same approach"],
         "link": "https://doi.org/10.1029/2025jb032510",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Four‐Dimensional Multiscale Global Subduction Models With Data Assimilation and Realistic Rheology",
@@ -30542,7 +30959,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chen Yang, Yunfeng Chen, Xiaoling Meng, Bo Yang, Yanxin Wang, Zhanjie Shi, Jiangdong Qin, Binbin Mi, Qiang Zhang, Xijing Guo",
-        "keyPoints": [],
+        "keyPoints": ["Seismic imaging reveals distinct velocity variations in the upper crust of the Bayan Obo region", "Fault bend may serve as an inherited structure that is prone to developing complex fault system", "The fault system may have provided fluid migration pathways for mineralization"],
         "link": "https://doi.org/10.1029/2025jb033432",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Dense Array Imaging of the Upper Crust at Bayan Obo Region",
@@ -30566,7 +30983,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "W.‐H. Wu, W. Feng, R. Gomila, T. Tesei, A. K. Mortensen, G. Di Toro",
-        "keyPoints": [],
+        "keyPoints": ["The physical state of water may alter the seismic cycle in high-temperature geothermal systems", "Chlorite-altered basaltic gouges show the largest frictional strength and stress drops in vapor water", "The boiling zone in the Krafla hydrothermal reservoir is prone to earthquakes"],
         "link": "https://doi.org/10.1029/2025jb032343",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Effect of Temperature and Physical State of Water on the Frictional Properties of Chlorite‐Altered Basaltic Gouges",
@@ -30591,7 +31008,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Junichi Nakajima, Kazuki Miyazaki, Nobuaki Suenaga, Shintaro Azuma, Shoichi Yoshioka",
-        "keyPoints": [],
+        "keyPoints": ["An earthquake swarm occurs in a confined area significantly below the seismogenic zone", "The total distance of small‐scale zigzag hypocenter migrations is ∼160 km for ∼180 days", "A model that heat influx and dehydration cause the sustained hypocenter migrations is proposed"],
         "link": "https://doi.org/10.1029/2025jb032955",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Prolonged Hypocenter Migration in a Lower‐Crustal Earthquake Swarm in Japan",
@@ -30613,7 +31030,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Sebastien Pilet, Jules Reymond, Laetitia Rochat, Rosa Anna Corsaro, Massimo Chiaradia, Luca Caricchi, Othmar Müntener",
-        "keyPoints": [],
+        "keyPoints": ["Alkaline magmas erupted at Mount Etna may originate from the extraction of pre‐existing melts stored within the Low Velocity Zone", "Alkaline melt–peridotite reactions may explain the eruption of the initial small volumes of tholeiites observed at Mount Etna", "The formation of the Hyblean Plateau lavas may be associated with processes similar to petit‐spot magmatism related to plate flexure"],
         "link": "https://doi.org/10.1029/2025jb032785",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Mount Etna as a Leaking Pipe of Magmas From the Low Velocity Zone",
@@ -30636,7 +31053,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Rodrigo Flores‐Allende, Léonard Seydoux, Éric Beaucé, Luis Fabian Bonilla, Philippe Gueguen, Claudio Satriano",
-        "keyPoints": [],
+        "keyPoints": ["We build a dense catalog of 537,387 aftershocks of the 2010 Mw 8.8 Maule earthquake, achieving a completeness magnitude of about Mw 1.8", "Automated detection and relocation yield consistent magnitudes and improved locations across variable network coverage", "Spatial b‐values vary along strike, consistent with a weaker, fluid‐rich northern plate interface and a stronger southern megathrust segment"],
         "link": "https://doi.org/10.1029/2026jb034262",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Fine‐Scale Segmentation and Spatiotemporal Variability of the 2010 M w 8.8 Maule Aftershock Sequence Revealed by a",
@@ -30659,7 +31076,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Christine A. Powell, Charles A. Langston, Mitchell M. Withers, Holly Withers",
-        "keyPoints": [],
+        "keyPoints": ["The Reelfoot axial intrusion exerts a strong influence on hypocenter locations", "The presence of elevated fluid pressure is suggested along most of the Reelfoot fault", "A segment with sparse seismicity on the Northern Reelfoot fault may be locked"],
         "link": "https://doi.org/10.1029/2025jb033515",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Detailed P‐ and S‐Wave Velocity Models and Fault Structure for the New Madrid Seismic Zone",
@@ -30683,7 +31100,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yurong Riley Zhang, S. Shawn Wei, Joseph S. Byrnes, Dongdong Tian, Fan Wang, Maximiliano Bezada",
-        "keyPoints": [],
+        "keyPoints": ["We measure t∗with independently constrained earthquake corner frequency to minimize tradeoffs between source and path terms", "We develop a 3D transdimensional Bayesian Markov Chain Monte Carlo method for body wave attenuation tomography", "We quantify temperature and melt porosity beneath back‐arc spreading centers based on attenuation, velocity, and rock physics models"],
         "link": "https://doi.org/10.1029/2025jb032176",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "3D P‐Wave Attenuation Tomography of the Tonga‐Lau Subduction System With Improved Earthquake Source Parameters and a",
@@ -30708,7 +31125,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Shijie Hao, Jing Chen, Mijian Xu, Dayong Yu, Jingyun Xie, Ping Tong",
-        "keyPoints": [],
+        "keyPoints": ["An anisotropic eikonal equation is proposed to model the traveltimes of surface waves in undulated, heterogeneous, and anisotropic media", "A tomography method based on the anisotropic eikonal equation is developed to directly determine shear wave velocity and anisotropy", "Low shear wave velocity and NW‐oriented fast directions point to a potential hidden fault beneath the urban area of Huidong, China"],
         "link": "https://doi.org/10.1029/2025jb033164",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Topography‐Incorporated Adjoint‐State Surface Wave Traveltime Tomography for Azimuthally Anisotropic Media",
@@ -30731,7 +31148,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Nicolás Hernández‐Soto, Christian Sippl, Matthew Miller, Dietrich Lange, Frederik Tilmann, Diego González‐Vidal, Juan Carlos Baez, Anne Socquet, Marcos Moreno",
-        "keyPoints": [],
+        "keyPoints": ["High‐resolution tomography reveals elevated VP/VS ratios possibly linked to dehydration processes within the subducting Nazca Plate", "Double seismic zone, intermediate‐depth seismicity and VP/VS anomalies around Copiapó Ridge suggest deeper slab hydration there", "VP/VS variations correlate with major crustal faults and mining zones linked to structural heterogeneity"],
         "link": "https://doi.org/10.1029/2025jb032183",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Structure of the North‐Central Chile Subduction Zone From Local Earthquake Tomography",
@@ -30756,7 +31173,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. J. Bezada, Z. Zhu, H. Ford, J. S. Byrnes",
-        "keyPoints": [],
+        "keyPoints": ["The keel of the Wyoming Craton is imaged as high‐velocity anomalies that are highly consistent with other geophysical imaging", "The cratonic keel can be subdivided into four distinct blocks", "Magmatism and deformation are associated with block boundaries"],
         "link": "https://doi.org/10.1029/2025jb032409",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Structure of the Mantle Keel of the Wyoming Craton and Its Relationship to Intracratonic Deformation and Magmatism",
@@ -30782,7 +31199,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Micaela Mercuri, John W. Rudnicki",
-        "keyPoints": [],
+        "keyPoints": ["Depending on the period of pore pressure oscillation peaks in slip velocity can align with peaks or troughs of pore pressure oscillations", "When variation of rate and state parameters with velocity and effective normal stress is included in the simulations, calculations are consistent with observations", "Peaks in slip velocity increase with the amplitude of pore pressure oscillation"],
         "link": "https://doi.org/10.1029/2025jb032436",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Effects of Oscillating Pore Pressure of Fluid Injection on Fault Slip Described by Rate and State Friction",
@@ -30805,7 +31222,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Siyuan Yang, Yan Hu, Jian Lin",
-        "keyPoints": [],
+        "keyPoints": ["Both viscoelastic relaxation and afterslip together control the postseismic crustal deformation following the 2007 Bengkulu earthquake", "The model with a cold forearc mantle and a heterogeneous afterslip distribution better explains the GPS observations", "Distribution of Coulomb stress shows that the 2007 earthquake may play an important role in triggering subsequent events"],
         "link": "https://doi.org/10.1029/2025jb032637",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Rheological Properties and Induced‐Coulomb Stress in the Southern Sumatra Subduction Zone",
@@ -30831,7 +31248,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hari Ram Thapa, Supriyo Mitra, Abdelkrim Aoudia, Gordana Vlahovic, Keith Priestley, Sunil Kumar Wanchoo",
-        "keyPoints": [],
+        "keyPoints": ["Key subsurface interfaces, including sediment-basement, MHT, and Moho, are mapped using teleseismic P-wave coda autocorrelation", "A 3–5 km thick low-velocity zone is detected beneath the MHT under the Higher Himalaya", "Ramp–flat–ramp geometry of the Main Himalayan Thrust may promote strain buildup and limit surface rupture in large blind earthquakes"],
         "link": "https://doi.org/10.1029/2025jb032764",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Autocorrelation‐Based Imaging of Crustal Discontinuities Including the Main Himalayan Thrust and Vp/Vs Ratio in the",
@@ -30855,7 +31272,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "J. Weiss, D. Marsan, P. Thiraux",
-        "keyPoints": [],
+        "keyPoints": ["Faults dynamics is modeled from a spring‐slider model combining elastic stress transfer and reaction rate theory applied to static friction", "This introduces temperature effects on friction in a physical way", "This reproduces many aspects of earthquakes interactions including the Omori and productivity laws and time asymmetry of the seismic cycle"],
         "link": "https://doi.org/10.1029/2025jb032266",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Thermally Activated Static Friction Can Explain Earthquake Interactions",
@@ -30879,7 +31296,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "T. Finley, E. Nissen, L. J. Leonard, J. F. Cassidy, V. Prush, B. Miller",
-        "keyPoints": [],
+        "keyPoints": ["3.6 km-long fault scarp identified cross-cutting Holocene paraglacial fan along Southern Rocky Mountain Trench", "Normal kinematics inferred from electrical resistivity tomography may be related to gravitational collapse of the Canadian Cordillera", "Possible decrease in slip rate from >1 mm/yr to <1 mm/yr through the Holocene may be due to modulation by glacial isostatic adjustment"],
         "link": "https://doi.org/10.1029/2025jb032339",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Holocene Normal Faulting in the Southern Rocky Mountain Trench; Orogenic Collapse Modulated by Glacial Unloading?",
@@ -30904,7 +31321,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Masaki Orimo, Keisuke Yoshida, Toru Matsuzawa, Akira Hasegawa, Mare Yamamoto",
-        "keyPoints": [],
+        "keyPoints": ["We estimated the scaled energies of 10,353 foreshocks and aftershocks of the 2016 Kumamoto earthquake sequence", "The scaled energy rapidly decreased before the mainshock and increased immediately after the largest foreshock and the mainshock", "The decrease may result from fluid migration, whereas the increase may be related to stress‐concentration or an increased loading rate"],
         "link": "https://doi.org/10.1029/2025jb032201",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Different Radiation Characteristics Between Foreshocks and Aftershocks of the 2016 Mw7.0 Kumamoto Earthquake in Kyushu",
@@ -30927,7 +31344,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Subham Bose, Mohmad M. Thakur, Ghassan Shahin, Katherine Shanks, Amlan Das, Jun‐Sang Park, Peter Kenesei, Hemant Sharma, Ryan C. Hurley",
-        "keyPoints": [],
+        "keyPoints": ["In situ X‐ray tomography (XRT) and diffraction microscopy were used to map stress and strain fields in uniaxially and triaxially loaded sandstone", "XRT and diffraction revealed spatiotemporal localization and persistence of strain and intra‐granular stress preceding failure", "Both uniaxially‐ and triaxially‐compressed samples had a majority of grains with at least one tensile principal stress component"],
         "link": "https://doi.org/10.1029/2025jb033263",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Stress and Strain Heterogeneity and Persistence in Uniaxially‐ and Triaxially‐Loaded Sandstone",
@@ -30950,7 +31367,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jeremy Maurer, Andreas Eckert, Qiaoqi Sun, Jonathan Obrist‐Farner",
-        "keyPoints": [],
+        "keyPoints": ["The North America—Caribbean—Cocos plates do not form a triple junction", "Strain rates in Guatemala indicate earthquake potential on major and minor faults", "Modeling shows that accounting for minor faults and bulk crustal strain harmonizes geologic and geodetic slip rate estimates"],
         "link": "https://doi.org/10.1029/2025jb032397",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Deformation and Earthquake Potential on the North America–Caribbean–Cocos Plate Boundary System in Guatemala",
@@ -30975,7 +31392,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Sylvain Michel, Oona Scotti, Sebastien Hok, Harsha S. Bhat, Navid Kheirdast, Pierre Romanet, Michelle Almakari, Jinhui Cheng",
-        "keyPoints": [],
+        "keyPoints": ["Development of a rate‐and‐state based criterion to compute probabilities of ruptures jumping from one fault to another", "Application of the criterion in seismic cycle simulations accurately predicts jumps while Coulomb stress criterion is insufficient", "The maximum jump distance predicted by the criterion increases non‐linearly with decreasing normal stress (i.e., depth)"],
         "link": "https://doi.org/10.1029/2025jb031449",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Rate‐and‐State Friction Based Criterion for the Probability of Earthquake Fault Jumps",
@@ -30999,7 +31416,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Dip Ghosh, Joyjeet Sen, Nibir Mandal",
-        "keyPoints": [],
+        "keyPoints": ["The repositioning of mantle plumes by preexisting rifts resets the spatial correlation between large igneous provinces and the plume", "Small plume‐rift distances or high plate‐pull velocity conditions redirect a large portion of plume materials toward the pre‐existing rift", "The Réunion plume, which is responsible for the Deccan volcanism, was significantly affected by preexisting rifts in the Indian craton"],
         "link": "https://doi.org/10.1029/2025jb033633",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Rift‐Induced Repositioning of Mantle Plumes Beneath the Indian Lithosphere",
@@ -31021,7 +31438,7 @@ const reports = [
         "doi": "10.1029/2025jb031725",
         "interestTags": [],
         "authors": "Gelson F. Souza‐Junior, Leonardo Uieda, Ricardo I. F. Trindade, Roger R. Fu, Ualisson D. Bellon, Yago M. Castro",
-        "keyPoints": [],
+        "keyPoints": ["Magnetic microscopy enables high spatial resolution and sensitivity at the microscale, allowing for more detailed paleomagnetic studies", "Nonlinear inversion and iterative dipole removal yield better directions and increased source recovery", "The proposed method detects weaker sources in synthetic data and achieves a 3° misfit in natural remanent magnetization retrieval for real basaltic samples"],
         "link": "https://doi.org/10.1029/2025jb031725",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Robust Directional Analysis of Magnetic Microscopy Images Using Non‐Linear Inversion and Iterative Euler Deconvolution",
@@ -31042,7 +31459,7 @@ const reports = [
         "doi": "10.1029/2025jb031768",
         "interestTags": [],
         "authors": "Juliette Girard, Guillaume St‐Onge, Christof Pearce, France Lagroix, Marit‐Solveig Seidenkrantz, Katrine Juul Andresen, Jean‐Carlos Montero‐Serrano, Pierre Francus",
-        "keyPoints": [],
+        "keyPoints": ["Northeastern Greenland relative paleointensity variations are similar to global radiocarbon production rates", "At times of high intensity, geomagnetic flux lobes could influence virtual geomagnetic pole migrations", "Northern Hemisphere millennial‐scale flux lobe geometry variations influence High Arctic paleosecular variations for the last 5 kyr"],
         "link": "https://doi.org/10.1029/2025jb031768",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Northeastern Greenland Paleomagnetic Records Indicate the Influence of Geomagnetic Flux Lobe Intensity on Virtual",
@@ -31064,7 +31481,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Tongwei Qin, Youyuan Zhang, Shanshan Jia, Laiyu Lu",
-        "keyPoints": [],
+        "keyPoints": ["Modified beamforming of multi‐component ambient noise enables estimation of multimode dispersion curves and Rayleigh wave ellipticity", "Beamforming of multi‐component noise cross‐correlation for finite stations yields a cosine‐modulated sinc function", "Both prograde and retrograde particle motion in the fundamental mode Rayleigh wave are observed for the field data"],
         "link": "https://doi.org/10.1029/2025jb033434",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Measurement of Phase Velocity and Ellipticity of Multi‐Mode Surface Waves by Beamforming Multi‐Component Ambient",
@@ -31088,7 +31505,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Peter Bird, Jon Bryan May, Michele M. C. Carafa",
-        "keyPoints": [],
+        "keyPoints": ["The global dynamic model of neotectonics presented by Bird et al. (2008, https://doi.org/10.1029/2007jb005460) is improved with new software, new data sets, and greatly expanded computational experiments", "The new preferred model includes a diorite continental crust, a peridotite upper mantle, friction of 0.85 in plate interiors, but very low effective friction on plate boundaries", "Plate motion is driven by a combination of lithostatic pressures, forward net slab pull, and forward basal tractions on large slabless plates"],
         "link": "https://doi.org/10.1029/2025jb032949",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Fault Friction, Plate Rheology, and Mantle Torques From a Global Dynamic Model of Neotectonics",
@@ -31359,7 +31776,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "A. Bakulin, A. Titova, I. Silvestrov, J. Badger",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seabed stiffness controls distributed acoustic sensing (DAS) amplitudes in a frequency and wave-type dependent manner",
+          "Ocean waves, Scholte waves, and teleseismic energy share the same low-wavenumber amplitude pattern along the cable",
+          "Real data show sub-wavelength amplitude modulation of >60 km Rayleigh waves, consistent with energy-flux theory, resolved using DAS"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121434",
         "journal": "Geophysical Research Letters",
         "topic": "Sub‐Wavelength Seabed Stiffness Control of Seismic Amplitude Modulation in Seafloor DAS",
@@ -31375,14 +31797,19 @@ const reports = [
         ]
       },
       {
-        "title": "Teleseismic Radial Anisotropy Reveals a Sill‐Dominated Magma Reservoir Beneath the Valles Caldera, New Mexico",
+        "title": "Teleseismic Radial Anisotropy Reveals a Sill-Dominated Magma Reservoir Beneath the Valles Caldera, New Mexico",
         "doi": "10.1029/2025gl120000",
         "interestTags": [
           "Seismology",
           "Crustal Deformation"
         ],
         "authors": "Gaoshan Guo, Haiqiang Lan, Tao Xu, Qinya Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Teleseismic anisotropic tomography using an eikonal solver and adjoint method images the Valles Caldera (VC) magmatic system",
+          "A pronounced low P wave velocity anomaly confirms the presence of a crustal magma chamber beneath the VC",
+          "Strong P wave radial anisotropy within the magma chamber reveals a layered sill complex related to magma accumulation"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120000",
         "journal": "Geophysical Research Letters",
         "topic": "Teleseismic Radial Anisotropy Reveals a Sill‐Dominated Magma Reservoir Beneath the Valles Caldera, New Mexico",
@@ -31407,7 +31834,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "C. Montuori, S. Monna, F. Frugoni, C. Piromallo, M. De Caro, A. Giuntini, A. Argnani",
-        "keyPoints": [],
+        "keyPoints": [
+          "Joint inversion of P-S receiver functions maps the Moho, the LAB, and the base of a sub-lithospheric low-velocity layer (LVL) in the Calabrian Arc",
+          "Lateral variations in the depth of a LVL highlight clear differences between stable and subduction-affected mantle",
+          "High-resolution imaging shows lithospheric tears bounding the Ionian slab, constraining interaction between subducting and overriding plates"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120347",
         "journal": "Geophysical Research Letters",
         "topic": "New Constraints on the Calabrian Arc (Central Mediterranean) Geodynamics",
@@ -31432,7 +31864,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Md Shumon Mia, Mohamed Abdelmeguid, Ahmed Elbanna",
-        "keyPoints": [],
+        "keyPoints": [
+          "The simulation of induced seismicity in fault network shows spatial temporal clustering",
+          "Fault interactions modulate the individual fault response in the network compared to isolated response",
+          "The distributed seismicity tends to localize on the primary fault with increasing confining stress"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119960",
         "journal": "Geophysical Research Letters",
         "topic": "Injection Induced Seismicity in Complex Fault Zone Architecture",
@@ -31456,7 +31893,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kodai Sagae, Masayuki Kano, Suguru Yabe, Takahiko Uchide",
-        "keyPoints": [],
+        "keyPoints": [
+          "The newly deployed offshore network N-net has enabled continuous shallow tremor monitoring in Hyuga-nada, Nankai Trough, Japan",
+          "Major tremor episodes began after the August 2024 M w 7.0 earthquake and before the January 2025 M w 6.7 event",
+          "Shallow tremor distribution is strongly correlated with pore-fluid distribution along the subducting plate boundary"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl121198",
         "journal": "Geophysical Research Letters",
         "topic": "Detection of Shallow Tectonic Tremors in Hyuga‐nada, Nankai Trough, Using the Newly Established N‐Net OBS Network",
@@ -31481,7 +31923,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jianlong Chen, Peizhen Zhang, Xin Qiao, Zicheng Huang, Lejun Lu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Independent Component Analysis-enhanced Small Baseline Subset-InSAR significantly improves postseismic deformation timing resolution for the 2023 Turkey earthquake doublet",
+          "Spatial complementarity exists between coseismic slip and afterslip partitioning fault motion",
+          "Quantification of fault friction (a-b) across the Turkey earthquake doublet provides constraints on slip partitioning and seismic hazard"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119502",
         "journal": "Geophysical Research Letters",
         "topic": "Frictional Heterogeneity Governs Slip Partitioning and Seismic Hazard in the 2023 Turkey Earthquake Doublet",
@@ -31504,7 +31951,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Jinwu Li, Sin‐Mei Wu, Pilar Sánchez‐Pastor, Laura Ermert, Anne Obermann",
-        "keyPoints": [],
+        "keyPoints": [
+          "Teleseismic body waves generated by storms are observed in seismic noise correlations in Southwest China",
+          "Storm-generated body waves show a strong seasonal variation reflecting global ocean wave activity",
+          "Cross-talk artifacts from the storm-driven body waves are observed which can affect seismic noise imaging and monitoring applications"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119188",
         "journal": "Geophysical Research Letters",
         "topic": "Distant Storms Can Affect Seismic Noise Crustal Monitoring",
@@ -31527,7 +31979,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Quanshu Zhao, Guoyan Jiang, Yingwen Zhao, Xiaoping Hu, Lei Yang, Lingling Ye, Haipeng Luo, Caijun Xu",
-        "keyPoints": [],
+        "keyPoints": [
+          "The 2025 Myanmar earthquake ruptured bilaterally, propagating northward at subshear speed and southward at supershear speed",
+          "The Myanmar earthquake generated an exceptionally long, 472 km surface rupture, characterized by an extreme length-to-width ratio of 42",
+          "The simple fault geometry and well-connected asperities likely facilitated the elongated rupture and southward supershear propagation"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118510",
         "journal": "Geophysical Research Letters",
         "topic": "Exceptionally Elongated Strike‐Slip Rupture Caused by the 2025 M W 7.8 Myanmar Earthquake",
@@ -31631,7 +32088,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yifan Zhu, Shingo Watada, Chao An, Masumi Yamada, Tomokazu Kobayashi, Karyono Karyono, Arif Aditiya, Iyan E. Mulia",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seawater reaction forces contribute significantly to seismic wave generation",
+          "Landslide alone does not account for observed long-period seismic signals",
+          "A combined landslide-seawater model better matches recorded seismic waveforms"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119807",
         "journal": "Geophysical Research Letters",
         "topic": "Long‐Period Seismic Waves From Seawater Disturbances During the 2018 Anak Krakatau Volcanic Island Collapse",
@@ -31654,7 +32116,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "G. Ponce, A. Meltzer, A. Wickham‐Piotrowski, S. Beck, M. Ruiz, S. Hernández, M. Segovia",
-        "keyPoints": [],
+        "keyPoints": [
+          "A subducted seamount beneath coastal Ecuador is observed at 20-25 km depth, with a thickness of 14 km and ~37x34 km in lateral extent",
+          "The seamount aligns with a zone of low-coupling and persistent seismicity along its flanks",
+          "The structure exhibits dual mechanical behavior, initiating megathrust rupture on its updip flank and arresting rupture near its crest"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119106",
         "journal": "Geophysical Research Letters",
         "topic": "Dual Role of a Subducted Seamount in Megathrust Rupture Initiation and Rupture Barrier",
@@ -31676,7 +32143,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Sungho Lee, Chang Soo Cho, YoungHee Kim, Youngsang Kwon, Eunseo Choi",
-        "keyPoints": [],
+        "keyPoints": [
+          "Upper-mantle buoyancy and weak subduction zones explain Korea's intraplate earthquakes, while lithospheric variations alone fall short",
+          "The subducted Pacific slab in the mantle transition zone is essential for generating the observed east–west compressive stress",
+          "The east–west stress pattern emerges without far-field compression, driven by upper-mantle heterogeneity and weak plate boundaries"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119915",
         "journal": "Geophysical Research Letters",
         "topic": "Upper Mantle Heterogeneity and Weak Subduction Boundaries Control Crustal Stress in the Korean Peninsula",
@@ -31699,7 +32171,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. Kerr, D. A. Young, S. Yan, C. Pierce",
-        "keyPoints": [],
+        "keyPoints": [
+          "Radar specularity content reveals a sharp transition between wet and frozen basal conditions in the South Pole Basin",
+          "No existing geophysical GHF model reproduced these observed basal conditions significantly better than a uniform map",
+          "An MCMC ensemble tuned to radar constraints requires a geothermal gradient aligned with the Inner–Outer South Pole Basin boundary"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120928",
         "journal": "Geophysical Research Letters",
         "topic": "Radar Specularity Content Indicates a Strong Geothermal Heat Flow Gradient in Antarctica's South Pole Basin",
@@ -31719,7 +32196,12 @@ const reports = [
         "doi": "10.1029/2025gl119568",
         "interestTags": [],
         "authors": "Bin Zhao, Takashi Yoshino, Qi Chen, Tony Yu, Dongzhou Zhang, Bin Chen, Yanbin Wang",
-        "keyPoints": [],
+        "keyPoints": [
+          "Electrical conductivity (EC) of amorphous and liquid CaCO3 has been studied up to 15 GPa and 2,100 K",
+          "Amorphization of CaCO3 does not enhance the ionic diffusivity. EC of amorphous CaCO3 is comparable to that of hydrous minerals",
+          "Amorphization of CaCO3 is an unlikely mechanism to explain the EC anomalies in the upper mantle"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119568",
         "journal": "Geophysical Research Letters",
         "topic": "Electrical Conductivity of Amorphous and Molten CaCO 3 at High Pressures and Its Implications for Mantle Conductivity",
@@ -31742,7 +32224,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Tianyu Cui, Wei Wang, John E. Vidale, Hao Zhang, Hao Luo, Yinshuang Ai",
-        "keyPoints": [],
+        "keyPoints": [
+          "We analyze multidecadal waveform similarities of PcP, ScP, and ScS phases from global repeating earthquakes",
+          "Most cases show no detectable changes, suggesting the CMB structure is seismically stable across the study region on decadal timescales",
+          "One very suggestive waveform discrepancy beneath Siberia is caused by a local earthquake"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119930",
         "journal": "Geophysical Research Letters",
         "topic": "Decadal Stability of Multi‐Scale Core‐Mantle Boundary in Core‐Reflections of Repeating Earthquakes",
@@ -31765,7 +32252,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "L. De Barros, D. Marsan",
-        "keyPoints": [],
+        "keyPoints": [
+          "Relationships between cumulative and maximum seismic moment are revisited",
+          "We used them to explore the growth of seismic moment with injected volume on a compilation of induced sequences",
+          "Observations and theory show a b-value dependency of the moment-volume relations, but not on the event number-volume"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117164",
         "journal": "Geophysical Research Letters",
         "topic": "Theoretical Maximum and Cumulative Seismic Moment Relationships Confirm that Injection Volume Controls the Occurrence",
@@ -31789,7 +32281,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Joaquin Julve, Åke Fagereng, Giovanni Toffol, Kohtaro Ujiie",
-        "keyPoints": [],
+        "keyPoints": [
+          "Poroelastic finite element models are applied to predict the effect of splay fault permeability on long-term stress and deformation patterns",
+          "Impermeable splay faults trap footwall fluids and encourage footwall dilatancy; permeable splay faults channel fluids and enhance time-integrated fluid flow in the wedge",
+          "Permeable splay faults maintain megathrust overpressures and enhance creep, whereas megathrust seismicity is promoted by impermeable splays"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120143",
         "journal": "Geophysical Research Letters",
         "topic": "Splay Fault Permeability Governs Fluid–Structure Interaction in Accretionary Wedges",
@@ -31813,7 +32310,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Daniel Ortega‐Arroyo, Matěj Peč",
-        "keyPoints": [],
+        "keyPoints": [
+          "Extreme comminution affects the temperature at which faults can dynamically weaken",
+          "We quantitatively demonstrate that extreme grain size reduction substantially lowers the melting temperature of nanocrystalline fault rocks",
+          "Weaker minerals may selectively break down during frictional melting due to both preferential comminution and their lower melting points"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118696",
         "journal": "Geophysical Research Letters",
         "topic": "Size‐Dependent Melting Behavior of Ultrafine Fault Rocks",
@@ -31838,7 +32340,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "X. Rui, E. O. Lindsey",
-        "keyPoints": [],
+        "keyPoints": [
+          "A viscoelastic model best explains the GNSS data, matching observed slip rates and locking depths on the Zemuhe and Daliangshan faults",
+          "Unlike more mature strike-slip faults around the world, the lower crust beneath these two faults does not effectively localize strain",
+          "The use of purely elastic models in fault zones that lack a mature, localized shear zone can lead to biased results"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120975",
         "journal": "Geophysical Research Letters",
         "topic": "Distributed Lower‐Crustal Flow Beneath the Central Xianshuihe–Xiaojiang Fault System",
@@ -31862,7 +32369,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Karen Lythgoe, Ben Farrar, Jack‐Andrew Smith, Andrew Curtis, John Townend, Calum J. Chamberlain, Emily Warren‐Smith, Jennifer Jenkins",
-        "keyPoints": [],
+        "keyPoints": [
+          "Crustal structure at a segment boundary of the Alpine Fault imaged using receiver functions from a temporary array",
+          "Distinct crustal structure imaged on either side of the Alpine Fault in its southern Central Section",
+          "The subvertical South-Westland section likely continues past the segment boundary and possibly overlaps the SE-dipping Central section"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120231",
         "journal": "Geophysical Research Letters",
         "topic": "Distinct Crustal Structure Across the Alpine Fault, New Zealand",
@@ -34131,7 +34643,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Richard Asirifi, Xiaowei Chen, Ahmad Mohammadi, Nori Nakata, Pranshu Ratre",
-        "keyPoints": [],
+        "keyPoints": ["Activation of a complex network of natural pre‐existing and hydraulic fractures during and after stimulation", "Higher b‐values near the wellbore, lower values at the edges of the seismicity cloud, and spatially variable values in between", "Fractures that are less optimally oriented in the stress field require a higher excess pore pressure for activation"],
         "link": "https://doi.org/10.1029/2025jb033044",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Sequential Fracture Activation and Stress Evolution During EGS Stimulation at Utah FORGE Revealed by Waveform",
@@ -34155,7 +34667,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chenglin Gong, Yijie Zhu, Shiwen Xie, Daoyao Ge, Ronald J. Steel, Victorien Paumard, Beichen Chen, Dongwei Li",
-        "keyPoints": [],
+        "keyPoints": ["Wholesale retreat of the continental shelf, shelf-edge and slope is recognized in the northern South China Sea for the first time", "Wholesale retreat of an entire margin is ascribed to rapid tectonic subsidence induced by elimination of South China Sea mantle upwelling", "Wholesale retreat of an entire margin marks the termination of South China Sea mantle upwelling at ca. 24.80 Ma"],
         "link": "https://doi.org/10.1029/2026jb033889",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Wholesale Retreat of the Continental Shelf, Shelf‐Edge and Slope",
@@ -34179,7 +34691,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Nicolas D. DeSalvio, Wenyuan Fan, Andrew J. Barbour, Jeanne L. Hardebeck",
-        "keyPoints": [],
+        "keyPoints": ["We identify 2,045 compact seismicity bursts throughout southern California", "On average the seismicity bursts have lower b‐values, lower stress drops, and exhibit different stress ratios from regional seismicity", "The seismicity bursts are likely driven by transient fault‐zone processes, which occur frequently and evolve over time"],
         "link": "https://doi.org/10.1029/2025jb032917",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Compact Seismicity Bursts Have Different Characteristics From Regional Seismicity",
@@ -34199,7 +34711,7 @@ const reports = [
         "doi": "10.1029/2025jb033092",
         "interestTags": [],
         "authors": "Jiawei Li, Qing Liang, Yadan Mao, Chao Chen, Huilin Wang",
-        "keyPoints": [],
+        "keyPoints": ["2D thermo‐mechanical simulations unravel subduction modes of extinct mid‐ocean ridges", "Young ridge cooling ages and high continental trenchward velocities promote shallow slab angles, thereby suppressing mantle melting", "Thermo‐mechanical modeling deciphers magmatic cessation‐resurgence mechanisms across southern, central, and northern Sumatra"],
         "link": "https://doi.org/10.1029/2025jb033092",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Variation of the Cenozoic Magmatic Activity Across the Sumatra Region Caused by Wharton Fossil Ridge Subduction",
@@ -34220,7 +34732,7 @@ const reports = [
         "doi": "10.1029/2025jb033004",
         "interestTags": [],
         "authors": "Jeffrey D. Hyman, Tomasz Szawełło, Peter K. Kang, Piotr Szymczak",
-        "keyPoints": [],
+        "keyPoints": ["Reactive flow in 3D fracture networks simulated using a graph‐based model with kinetic dissolution rates", "Three distinct dissolution and channelization regimes identified as a function of the Damköhler number", "Interplay between initial fracture geometry and dissolution‐driven changes controls flow pathways, tracer breakthrough behavior, and longitudinal dispersivity"],
         "link": "https://doi.org/10.1029/2025jb033004",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Effects of Dissolution Regimes on Flow Channelization and Solute Transport in 3D Fracture Networks",
@@ -34243,7 +34755,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "D. Walwer, P. Lundgren",
-        "keyPoints": [],
+        "keyPoints": [
+          "The inter‐eruptive deformation pattern at Sierra Negra features inflation with alternating decay and increase in strain rate",
+          "Dynamic magma models with a reservoir in a damaging crust simulate the observed inflation transients without ad‐hoc change in magma influx",
+          "Assuming that earthquakes are damaging events, the simulated damage evolution accounts for the seismicity pattern observed at Sierra Negra"
+        ],
         "link": "https://doi.org/10.1029/2025jb032925",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Dynamic Models of Magma Storage Within a Damaging, Strain‐Softening Crust and Their Application to Sierra‐Negra's",
@@ -34267,7 +34783,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "B. Sadler, P. Persaud, J. Pulliam, E. Sandvol, J. Gaherty, M. S. Steckler, S. H. Akhter",
-        "keyPoints": [],
+        "keyPoints": ["Thickness, Vp and Vp/Vs, of the major sedimentary units and crystalline crust are estimated from receiver functions and autocorrelograms", "The Bengal Basin reaches depths of 16 km with several sedimentary units resolvable in the receiver functions", "The crystalline crust in our study area is likely extended continental crust, which may have been altered during the basin's creation"],
         "link": "https://doi.org/10.1029/2025jb031292",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Nature of the Crust in the Superdeep Bengal Basin Using Teleseismic P Waves",
@@ -34290,7 +34806,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Jan Premus, Jean Paul Ampuero",
-        "keyPoints": [],
+        "keyPoints": ["We develop a 2‐stage Bayesian dynamic source inversion using Wasserstein Generative Adversarial Networks to approximate the posterior of stage 1 as a prior for stage 2", "Thorough synthetic tests demonstrate better performance of the 2‐stage dynamic inversion compared to the single‐stage Parallel Tempering MCMC approach", "We discuss the correlations between dynamic parameters resulting from inversions"],
         "link": "https://doi.org/10.1029/2025jb033232",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Dynamic Earthquake Source Inversion With Generative Adversarial Network Priors",
@@ -34313,7 +34829,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Joshua M. R. Muir, Qianxi Chen, Feiwu Zhang",
-        "keyPoints": [],
+        "keyPoints": ["Ab initio simulations predict elastic changes from davemaoite dissolving into bridgmanite at high temperature", "Thermodynamic modeling shows that excess heat (∼300 K) can force perovskite phase mixing in pyrolite but not basalt", "Perovskite phase mixing likely occurs in a pyrolitic lower mantle and can produce the seismic signals of LLSVPs"],
         "link": "https://doi.org/10.1029/2025jb033647",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Thermal Origin of LLSVP Seismic Signals? Consequences of Perovskite Phase Mixing in the Deep Lower Mantle",
@@ -34337,7 +34853,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lei Liu, Zhangjun Li, Yang Wang, Yiduo Liu, Yujiang Li, Qin Zhao, Guoqing Zhang, Jinjiang Zhang, Lingyun Ji",
-        "keyPoints": [],
+        "keyPoints": ["Global Navigation Satellite Systems (GNSS) measurements characterize clockwise rotation, horizontal extension/contraction and vertical uplift in the southeastern Tibetan Plateau", "A rheologically heterogeneous model can explain the 3D GNSS observations, particularly vertical velocities", "A rheologically weak lower crust complements existing models in explaining crustal deformation in the southeastern Tibetan Plateau"],
         "link": "https://doi.org/10.1029/2025jb031640",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Contribution of the Rheologically Weak Lower Crust to Contemporary Crustal Motions in the Southeastern Tibetan Plateau",
@@ -34361,7 +34877,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Saike Deng, Bin Cheng, Yunpeng Dong, Zhao Yang, Dapeng Zhao",
-        "keyPoints": [],
+        "keyPoints": ["Crust-mantle decoupling beneath the Western Qinling likely arises from ductile shear in the mid-lower crust", "Major fault structures may significantly control lithospheric deformation", "Northeastward expansion of the Tibetan Plateau likely evolved from lateral extrusion to vertically coherent deformation"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032623",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Lithospheric Deformation of the Western Qinling Revealed by Shear‐Wave Splitting",
@@ -34383,7 +34900,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "P. Javaheri, J. P. Lowman",
-        "keyPoints": [],
+        "keyPoints": ["We present a method for identifying plates from properties of the output fields of both mantle convection models and geophysical data sets", "The Random Walker algorithm provides a probability array that can be used to assess confidence in plate assignment and surface rigidity", "Once candidate plates are identified, their motion can be analyzed by Euler vector determination that allows for rigidity verification"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032259",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Random Walker Algorithm for Plate Boundary Detection in Spherical Mantle Convection Models and Global Geophysical",
@@ -34406,7 +34924,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "P. Vitouš, M. S. Petronis, M. S. Foucher, F. Tomek",
-        "keyPoints": [],
+        "keyPoints": ["Time‐calibrated Carboniferous volcanism captures geomagnetic field behavior during peak post‐collisional Variscan magmatic activity", "Altenberg–Teplice Caldera preserves primary magnetizations consistent with Carboniferous expected field as well as geomagnetic excursions", "Paleomagnetic data reveal distinct field states across closely timed volcanic and intrusive phases"],
         "link": "https://doi.org/10.1029/2025jb031983",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Late Carboniferous Geomagnetic Field Events Recorded in Post‐Collisional Altenberg–Teplice Caldera, Variscan Belt",
@@ -34432,7 +34950,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Donglin Wu, Chunyan Qu, Dezheng Zhao, Han Chen, Yilin Rong, Xiaoyi Wang, Xinjian Shan",
-        "keyPoints": [],
+        "keyPoints": ["We obtain a large‐scale, high‐resolution 3D velocity and horizontal strain rate fields over the Qilian‐Haiyuan fault system", "We present the slip rate, creep rate, and locking depth of primary and secondary faults from 2D kinematic models", "We suggest the temporal decay of creep rates on the Laohushan segment, likely modulated by nearby earthquakes"],
         "link": "https://doi.org/10.1029/2024jb030647",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Large‐Scale Deformation, Strain Characteristics, and Locking Distribution of the Qilian‐Haiyuan Fault System",
@@ -34455,7 +34973,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xi He, Lian‐Feng Zhao, Xiao‐Bi Xie, Ruo‐Jie Li, Tong Lu, Zhen‐Xing Yao",
-        "keyPoints": [],
+        "keyPoints": ["A high‐resolution broadband crustal attenuation model is obtained for the SE Tibetan Plateau based on high‐density ChinArray Lg‐wave data", "Frequency‐dependent Lg attenuation suggests that brittle and viscous deformation occur in the mid‐to‐upper and lower crust, respectively", "The crustal flow corridors are partially interconnected but not truncated in the core region of the Emeishan Large Igneous Province"],
         "link": "https://doi.org/10.1029/2025jb032994",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Hindered but Not Halted Crustal Flow",
@@ -34477,7 +34995,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Changqing Sun, Jianshe Lei, Jing He, Dapeng Zhao, Longchun Qian",
-        "keyPoints": [],
+        "keyPoints": ["A thinned mantle transition zone (MTZ) is revealed with the addition of data recorded at dense HAVESArray stations", "An upwelling hot material zone is detected beneath the northeastern Leizhou Peninsula", "Two northeastward and eastward horizontal flows with thinned MTZ are inferred from the MTZ topography and seismic tomography"],
         "link": "https://doi.org/10.1029/2025jb031903",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Mantle Transition Zone Beneath Hainan Island and Its Surrounding Areas Revealed by Receiver Function Analysis",
@@ -34499,7 +35017,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yongjie Chen, Zhuo Xiao, Yuanyuan V. Fu, Min Xu",
-        "keyPoints": [],
+        "keyPoints": ["We present a multi‐branch deep learning model trained on 2,870 events for three‐class seismic classification in the mainland of China", "Interpretability analysis examines feature attribution patterns across event types, source depths, and epicentral distances using multiple explainable methods", "Earthquakes are classified based on high‐frequency body wave features, while explosions and collapses emphasize S‐wave coda"],
         "link": "https://doi.org/10.1029/2025jb032752",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Classification of Seismic Events in the Mainland of China Based on Spectrograms and Model Interpretability",
@@ -34519,7 +35037,7 @@ const reports = [
         "doi": "10.1029/2025jb032478",
         "interestTags": [],
         "authors": "Victor J. O. Marum, Filipe Terra‐Nova, Gelvam A. Hartmann, Erwan Thébault, Plinio Jaqueto, Wilbor Poletti, Ricardo I. F. Trindade",
-        "keyPoints": [],
+        "keyPoints": ["Database with 1,938 South American geomagnetic intensity records, standardized metadata, hierarchy, and statistical parameters", "Regional intensity curves may indicate early geomagnetic field weakening in South America, not observed by global models", "Specimen‐level modeling enhances temporal resolution of regional curves and reveals features not captured by higher recording‐level modeling"],
         "link": "https://doi.org/10.1029/2025jb032478",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Archeointensity Database and Geomagnetic Field Reference Curves for South America Over the Past 5 Millennia",
@@ -34543,7 +35061,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "N. A. Collins‐Craft, I. Stefanou, J. Sulem, I. Einav",
-        "keyPoints": [],
+        "keyPoints": ["A new model accounts for the coevolution of the grain size distribution and porosity in crushable granular media subject to shearing", "Linear stability analysis and the finite element method are used to study the localization width of the model at depth", "Orders‐of‐magnitude decrease in permeability is predicted to occur inside the fault core, but permeability can increase outside it"],
         "link": "https://doi.org/10.1029/2025jb033062",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Influence of Grain Crushing and Pore Collapse on the Formation of Faults",
@@ -34566,7 +35084,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Dong Yan, You Tian, Cai Liu, Xiaodong Song",
-        "keyPoints": [],
+        "keyPoints": ["A middle‐crustal fluid‐rich zone is revealed from high‐resolution seismic array imaging", "The seismicity is predominantly governed by an interconnected conjugate fault system", "Fluid‐induced fault reactivation mechanism could account for rupture"],
         "link": "https://doi.org/10.1029/2025jb032942",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Seismicity and Detailed Fault Zone Structure Beneath Haicheng Seismic Zone, NE China",
@@ -34591,7 +35109,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Shohei Minato, Ranajit Ghose, Tsutomu Kiguchi",
-        "keyPoints": [],
+        "keyPoints": ["We develop a new semi‐analytical approach to predict fluid pressure in a borehole embedded in poroelastic media for an incident plane P wave", "We derive analytical solutions and verify them against finite‐difference Biot‐poroelasticity simulations", "We quantify tube‐wave generation from elastic contrasts, porous flow, and borehole‐radius changes to aid borehole data interpretation"],
         "link": "https://doi.org/10.1029/2025jb032363",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "A Semi‐Analytical Approach to Model Borehole Tube Waves for Interpretation of Downhole Seismic Data in Fault Zones",
@@ -34615,7 +35133,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ben Latimer, William McCarthy, Tobias Mattsson, John Reavy",
-        "keyPoints": [],
+        "keyPoints": ["Magnetic fabrics are more easily overprinted by hydrothermal alterations than previously thought", "Reliable petrofabric measurement hinges on the systematic characterization of alteration type and intensity", "A workflow for quantitatively characterizing alteration and distinguishing magmatic, tectonic and hydrothermal petrofabrics is put forward"],
         "link": "https://doi.org/10.1029/2025jb033102",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Significance of Magnetic Fabrics Preserved in Hydrothermally Altered Rocks",
@@ -34640,7 +35158,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kosuke Yabe, Yasuko Takei, Riku Sugimoto",
-        "keyPoints": [],
+        "keyPoints": ["Polycrystalline sample was deformed successively by diffusion and dislocation creep while continuously monitoring anelasticity", "Modulus reduction during dislocation creep did not occur, showing that dislocations had little effect on anelasticity", "A preliminary model connecting dislocation creep and dislocation‐induced anelasticity is presented in a quantitative and testable form"],
         "link": "https://doi.org/10.1029/2025jb032220",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Effect of Dislocations on Polycrystal Anelasticity Inferred From In Situ Forced Oscillation Test",
@@ -34662,7 +35180,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lonnie J. Hufford, Leif Tokle, Whitney M. Behr, Luiz F. G. Morales, Claudio Madonna",
-        "keyPoints": [],
+        "keyPoints": ["General shear Griggs experiments on glaucophane aggregates define dislocation creep (n ≈ 3) and high-stress glide (n ≈ 13–19)", "Flow laws and mechanism maps predict diffusion or dislocation creep in steady subduction; glide activates only at ≳10³ MPa", "Geologic extrapolations place blueschist viscosity between quartz-rich sediments and eclogitized crust"],
         "link": "https://doi.org/10.1029/2025jb033622",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Blueschist Dislocation Creep and Glide in Subduction Systems",
@@ -34685,7 +35203,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "L. Mantiloni, J. Hickey, R. Alshembari",
-        "keyPoints": [],
+        "keyPoints": ["We perform Finite‐Element numerical models of magma supply into magma‐mush reservoirs, modeled as poroelastic domains, including gravity", "We analyze stress and strain rate patterns during and after magma supply, discussing where and when mush or crust failure is more likely", "Failure‐likely regions change and migrate over time, while mush and melt properties have a large control on stress and strain magnitudes"],
         "link": "https://doi.org/10.1029/2025jb032951",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Stress and Strain in Magma‐Mush Reservoirs",
@@ -34710,7 +35228,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yu‐Han Wang, Elías Rafn Heimisson",
-        "keyPoints": [],
+        "keyPoints": ["We present a novel hybrid SBI‐FD framework coupling poroelastic bulk deformation with fault gouge processes", "Poroelastic bulk properties substantially influence the migration of shear localization during dynamic rupture", "An undrained bulk approximation is adequate for the rapid rupture studied"],
         "link": "https://doi.org/10.1029/2025jb032291",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Poroelastic Bulk Controls on Shear Localization in Fault Gouge During Earthquake Rupture",
@@ -34733,7 +35251,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Hsiao‐Fan Lin, Thibault Candela, Jean‐Paul Ampuero",
-        "keyPoints": [],
+        "keyPoints": ["We develop a simple reference model that highlights the effect of fault roughness on the migration of injection‐induced seismicity", "Seismicity front often migrates more slowly than pressure front and depends strongly on fault roughness and initial stress environment", "Back‐fronts occur because earthquake stress drops push the fault farther from criticality near the injector"],
         "link": "https://doi.org/10.1029/2025jb033454",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Fault Roughness Controls Seismicity Front Migration During Fluid Injection",
@@ -34757,7 +35275,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lei Sun, Xiaohua Xu, Paul Mann, Jean‐Claude Hippolyte",
-        "keyPoints": [],
+        "keyPoints": ["Finite fault models using satellite radar interferometry data indicate that the Mw 6.4 Puerto Rico earthquake occurred on a N‐dipping fault", "Focal mechanism solutions of earthquakes show three trends of strike‐slip faults including two parallel WNW‐ESE left‐lateral faults", "The parallel strike‐slip faults bound a left‐stepping pull‐apart basin which localizes the most concentrated area of the sequence"],
         "link": "https://doi.org/10.1029/2025jb032952",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Fault Kinematics of the 2019–2026 Puerto Rico Earthquake Sequence",
@@ -34779,7 +35297,7 @@ const reports = [
         "doi": "10.1029/2025jb031951",
         "interestTags": [],
         "authors": "Xiaowei Chen, Huapei Wang, Chen Wen, Robert S. Coe, Dennis V. Kent",
-        "keyPoints": [],
+        "keyPoints": ["A 1915 Mount Lassen dacitic lava contains micron-sized titanomagnetites carrying pristine thermal remanence, possibly corresponding to single-vortex domain states", "Accurate paleointensities are retrieved from this non-ideal lava sample using the Repeated Thellier-series Experiment (RESET) method", "We demonstrate that the RESET method is a reliable paleointensity experiment technique for prevalent igneous rocks dominated by non-single-domain ferromagnetic remanence carriers"],
         "link": "https://doi.org/10.1029/2025jb031951",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Accurate Geomagnetic Paleointensities Retrieved by the RESET Method From a 1915 Mount Lassen Dacitic Lava Dominated by",
@@ -34801,7 +35319,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Juliette Vicente, Stuart Mead",
-        "keyPoints": [],
+        "keyPoints": ["Flow dynamics of the 2012 Te Maari laterally confined debris avalanche is modeled using the depth-averaged, multiphase model D-Claw", "Contrasting sets of initial parameters produce similar mobility outcomes, highlighting compensating mechanisms within the flow", "Permeability strongly controls runout, particularly through its interaction with compressibility and dilatancy"],
         "link": "https://doi.org/10.1029/2025jb033661",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Modeling the Impact of Initiation Parameters on the Dynamics of the 2012 Te Maari Laterally Confined Debris Avalanche",
@@ -34824,7 +35342,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Michelle Bensing, Sergio Vinciguerra, Giuseppe Puglisi, Luca De Siena",
-        "keyPoints": [],
+        "keyPoints": ["3D thermomechanical modeling discriminates the rheological structure of Mt. Etna's spreading flank", "Instantaneous modeling explains deformation caused by gravitational spreading across a full volcanic cycle", "The supercritical fluids located below Valle del Bove play a significant role in modeling the horizontal deformation of the flank"],
         "link": "https://doi.org/10.1029/2025jb033560",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Modeling the Deformation Response to Mt. Etna Sliding Flank",
@@ -34848,7 +35366,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Peng Yang, Shaowen Liu",
-        "keyPoints": [],
+        "keyPoints": ["A new petrological‐geophysical numerical model reveals the architecture of the continental lithosphere in Northeast China", "Subduction‐induced distinct crustal composition and rheology explain the contrasting seismicity pattern in Northeast China", "The North‐South Gravity Lineament may mark a tectonic boundary associated with the stagnation and dehydration of the subducted Pacific slab"],
         "link": "https://doi.org/10.1029/2024jb031051",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Contrasting Crustal Rheology and Seismicity in Northeast China",
@@ -34873,7 +35391,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zeyu Lu, Feng Hu",
-        "keyPoints": [],
+        "keyPoints": ["We construct a pull‐apart basin model constrained by compiled natural basin observations", "Deep pull‐apart basin greatly increases rupture jumping capability across fault step‐over", "Different modes of average rupture velocity on the secondary fault are noticed, correlated with the source time function patterns"],
         "link": "https://doi.org/10.1029/2025jb032114",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Enhanced Earthquake Rupture Jumping Distance Across Step‐Overs With Pull‐Apart Basin",
@@ -34894,7 +35412,7 @@ const reports = [
         "doi": "10.1029/2025jb033188",
         "interestTags": [],
         "authors": "Daniel Carbajal‐Martínez, Christoph Wanner, Loïc Peiffer, Larryn W. Diamond",
-        "keyPoints": [],
+        "keyPoints": ["Mountain catchments feed water to regional‐scale faults, enabling topography to drive geothermal circulation toward coastal hot springs", "Dense seawater acts as an offshore hydraulic barrier, focusing geothermal discharge at the shoreline", "The size and temperature of coastal thermal areas are mainly controlled by fault permeability, basement topography and coastal sediment cover"],
         "link": "https://doi.org/10.1029/2025jb033188",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Behavior of Coastal Amagmatic Geothermal Systems",
@@ -34916,7 +35434,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "D. Granieri, M. Cerminara, F. Mazzarini, R. Novellino, M. Trolese, E. Dallara, M. Lelli",
-        "keyPoints": [],
+        "keyPoints": ["Soil CO₂ flux and temperature data reveal links between surface degassing, thermal anomalies, and fault‐related permeability at Le Biancane", "Heat from vapor condensation, gas chemistry, and soil gradients and temperature gave consistent results within the proposed energy framework", "Surface and subsurface observations offer a reliable basis to quantify energy in geothermal reservoirs and at the soil‐atmosphere interface"],
         "link": "https://doi.org/10.1029/2025jb031961",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Quantifying Gas and Thermal Energy Emissions in an Active Geothermal Area",
@@ -34940,7 +35458,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Guilhem Mollon, Nathalie Casas, Marco Scuderi",
-        "keyPoints": [],
+        "keyPoints": ["We built a fault numerical model with a direct coupling between granular rheology of the gouge layer and elasticity of the loading system", "Spontaneous seismic events are well‐described by a slip‐weakening friction law, with a weakening rate that depends on the loading stiffness", "The loading stiffness affects the seismic cycles, by controlling the magnitude of mean and extreme events through power laws"],
         "link": "https://doi.org/10.1029/2025jb032076",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Influence of the Loading Stiffness on Sheared Granular Fault Gouge, and Applicability to Slip‐Weakening Theory",
@@ -34963,7 +35481,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yifang Chen, Jiuhui Chen, Yu Li, Panpan Zhao, Biao Guo, Shuncheng Li",
-        "keyPoints": [],
+        "keyPoints": ["A lithospheric velocity discontinuity structure is obtained for the northeastern Tibetan Plateau", "Localized crustal thickening occurred beneath the Qilian Shan", "Passive lithospheric underthrusting in the northeastern Tibetan Plateau results from the ongoing convergence of the Tibet and Asian Plates"],
         "link": "https://doi.org/10.1029/2025jb033455",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Limited Passive Lithospheric Underthrusting and Localized Crustal Thickening Beneath the Qilian Shan, Northeastern",
@@ -34987,7 +35505,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ishika Bhattacharya, Sudipta Sarkar, Utpal Singh, Suzanne Bull, Malcolm Arnot, Jhanvee Khanna",
-        "keyPoints": [],
+        "keyPoints": ["A lithospheric velocity discontinuity structure is obtained for the northeastern Tibetan Plateau", "Localized crustal thickening occurred beneath the Qilian Shan", "Passive lithospheric underthrusting in the northeastern Tibetan Plateau results from the ongoing convergence of the Tibet and Asian Plates"],
         "link": "https://doi.org/10.1029/2025jb031830",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "New Insights Into Basal Slip Processes and Kinematics of a Giant Pleistocene Submarine Mass Transport Complex, West of",
@@ -35190,7 +35708,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. E. M. Nurshal, J. Wang, P. Yu, T. Mittal, D. Elsworth",
-        "keyPoints": [],
+        "keyPoints": [
+          "We conduct fluid-induced fault reactivation experiments to investigate the physical processes using calibrated acoustic emission signals",
+          "Fault reactivation involves the activation of multiple small slip patches that collectively accumulate to more than 10 times the fault area",
+          "Cascade of reactivated patches covering the fault many times over suggests why permeability change scales with cumulative seismic moment"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117661",
         "journal": "Geophysical Research Letters",
         "topic": "Fault Slip and Fluid Flow",
@@ -35211,7 +35734,12 @@ const reports = [
         "doi": "10.1029/2025gl120557",
         "interestTags": [],
         "authors": "Yutaka Yoshimura, Masakazu Fujii, Hideitsu Hino, Shotaro Akaho, Satoshi Kuriki, Osamu Ishizuka, Toshitsugu Yamazaki, Hyeon‐Seon Ahn, Tesfaye Kidane, Yuhji Yamamoto, Yo‐ichiro Otofuji",
-        "keyPoints": [],
+        "keyPoints": [
+          "We modeled the geomagnetic reversal frequency using adaptive-bandwidth kernel density estimation and found several troughs",
+          "Recently discovered reversals at ∼31 Ma added to geomagnetic polarity time scale suppressed one trough around 32 Ma",
+          "We concluded that the troughs in geomagnetic reversal frequency indicate missing geomagnetic reversals"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120557",
         "journal": "Geophysical Research Letters",
         "topic": "Evidence for Missing Geomagnetic Reversals From Geomagnetic Reversal Frequency Model Using Adaptive Kernel Density",
@@ -35235,7 +35763,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "L. Winhausen, M. Ziegler, F. Amann",
-        "keyPoints": [],
+        "keyPoints": [
+          "Hydro-mechanical coupling of faulted Opalinus Clay from Mont Terri in triaxial shearing experiments",
+          "With increasing effective stress scaly clay transitions from dilative to constant volumetric shearing resulting in critical state conditions",
+          "De-cohesion and pronounced shear strength reduction due to reactivation of multiple tectonic micro shears"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120339",
         "journal": "Geophysical Research Letters",
         "topic": "How Fault Zone Fabric Controls the Hydro‐Mechanical Behavior and Evolution of Critical State Shearing in Clay Shale",
@@ -35259,7 +35792,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Weifan Lu, Satoshi Ide",
-        "keyPoints": [],
+        "keyPoints": [
+          "Based on 26 years of continuous seismic records, ∼83,000 tectonic tremors were identified in California",
+          "Several tremor clusters were newly identified in Mendocino Triple Junction and Big Bend segment of the San Andreas fault",
+          "Tremor events and earthquakes show complementary spatial distribution within the source area of the 1857 M7.9 Fort Tejon earthquake"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120742",
         "journal": "Geophysical Research Letters",
         "topic": "Spatiotemporal Characteristics of Tectonic Tremors in California",
@@ -35283,7 +35821,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yan Li, Pingchuan Tan, Shaowen Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "A new basin-wide crustal thickness framework for the Eurasian Basin is established by 3-D gravity modeling",
+          "Since ∼45 Ma, the Gakkel Ridge has shown magma-poor accretion in the west and magma-rich accretion in the east",
+          "Slower spreading in the east forms thicker crust, driven by mantle fertility, higher temperatures, and active upwelling"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119292",
         "journal": "Geophysical Research Letters",
         "topic": "Thick Crust at Earth's Slowest Spreading Ridge",
@@ -35306,7 +35849,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. Navarrete‐Reyes, F. Delgado, S. Ruiz, J. C. Báez, B. Potin, L. Cabrera, A. Alarcón",
-        "keyPoints": [],
+        "keyPoints": [
+          "A shallow (∼4 km depth) magma reservoir at Laguna del Maule has been inflating and driving surface uplift since 2007",
+          "Earthquakes cluster in regions of positive strain and show strike slip motion consistent with regional stress",
+          "Increased strain and seismicity after 2018 indicate renewed magma input without leading to eruption"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120184",
         "journal": "Geophysical Research Letters",
         "topic": "Long Unrest (2007–2025) at Laguna del Maule",
@@ -35331,7 +35879,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Sifang Chen, Sunyoung Park",
-        "keyPoints": [],
+        "keyPoints": [
+          "GNSS comparison of Mw 8.3 Okhotsk (∼598 km) and Illapel (∼22 km) events reveals distinct co-seismic displacement patterns at the surface",
+          "In a broad area (>4° from epicenter), the deep event produces comparable or larger co-seismic displacements than the shallow event",
+          "3D pattern of displacement field explains the phenomenon, underscoring the need to incorporate deep earthquakes into the geodetic framework"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119813",
         "journal": "Geophysical Research Letters",
         "topic": "Deep Earthquakes Can Generate Larger Co‐Seismic Displacements Than Shallow Events",
@@ -35353,7 +35906,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Franck Latallerie, Paula Koelemeijer, Andrew Walker, Alessia Maggi, Sophie Lambotte, Christophe Zaroli",
-        "keyPoints": [],
+        "keyPoints": [
+          "We present SS3DPacific: a new VSV model of the Pacific ocean with 3D resolution and uncertainty",
+          "We show that interpretations of oceanic lithosphere cooling are strongly biased by vertical resolution smearing",
+          "An anomalous band-pattern aligned with fracture zones points to lateral complexities in the cooling of the oceanic lithosphere"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119309",
         "journal": "Geophysical Research Letters",
         "topic": "New Insights Into the Cooling of the Oceanic Lithosphere From Surface‐Wave Tomographic Inferences",
@@ -35376,7 +35934,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yuan Wang, Zhonglan Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Buoyant subcontinental lithosphere can inhibit asthenosphere upwelling and decompression melting, delaying magmatism",
+          "A weak mid-lithospheric discontinuity lengthens magmatic lag by ∼15 Myr and widens the continent-ocean transition by >200 km",
+          "Inherited lithospheric mantle heterogeneity controls melt starvation, mantle exhumation, and rifted-margin architecture"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118597",
         "journal": "Geophysical Research Letters",
         "topic": "Lithospheric Mantle Heterogeneity Drives Delayed Magmatism and Wide Continent‐Ocean Transitions in Rifted Margins",
@@ -35401,7 +35964,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yanbin He, J. Germán Rubino, Jianping Liao, Guangui Zou, Tailang Zhao, Bin Li, Hui Li, Jinghuai Gao, Guiwen Xu, Klaus Holliger",
-        "keyPoints": [],
+        "keyPoints": [
+          "Connected fluid-filled fractures reduce seismic wave speed much more than unconnected fractures",
+          "Wave-induced fluid pressure exchange between connected fractures explains the observed velocity reduction",
+          "Experiments with 3D-printed fractured samples validate seismic detection of fracture connectivity"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119174",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Waves Do Sense Fracture Connectivity",
@@ -35425,7 +35993,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "C. Rattanavetchasit, H.‐H. Huang, H. Sone, Y.‐M. Wu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismic velocity changes (dv/v) from ambient noise interferometry show frequency-dependent responses to groundwater level fluctuations",
+          "dv/v above 1 Hz is governed by water saturation and pore pressure change, whereas dv/v below 1 Hz is dominated by mechanical loading",
+          "Modeling effective stress, rather than pore pressure change, enables a more accurate interpretation of dv/v patterns"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118568",
         "journal": "Geophysical Research Letters",
         "topic": "Frequency‐Dependent Seismic Velocity Variations Reveal Layered Aquifer Behavior Under Groundwater Fluctuations",
@@ -35448,7 +36021,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Liang Gao, Xinwei Hu, Mengwei Zhang, Xiaoqian Guo, Junling Pei, Zhenyu Yang, Yue Zhao",
-        "keyPoints": [],
+        "keyPoints": [
+          "We obtained new paleomagnetic and chronological data from the Antarctic Peninsula and the South Shetland Islands",
+          "Oroclinal bending in the northern Antarctic Peninsula and the Fuegian Andes both occurred at ∼100–90 Ma",
+          "The bending event created a tectonic weak zone, thereby facilitating the opening of the Drake Passage"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120389",
         "journal": "Geophysical Research Letters",
         "topic": "New Cretaceous Paleomagnetic and Geochronologic Data From the Antarctic Peninsula",
@@ -35473,7 +36051,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hidenobu Takahashi, Yasuhira Aoyagi, Keisuke Yoshida, Haruo Kimura, Eiji Kurashimo, Shinichi Sakai",
-        "keyPoints": [],
+        "keyPoints": [
+          "We constructed a machine-learning-based high-resolution aftershock catalog for the 2024 Noto earthquake using temporary observations",
+          "We identified multiple planar structures that likely correspond to the active faults ruptured during the Mw 7.5 earthquake",
+          "Successive ruptures occurred on two subparallel, adjacent planes in the vicinity of the mainshock hypocenter"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118413",
         "journal": "Geophysical Research Letters",
         "topic": "High‐Precision Aftershock Distribution Highlights the Complex Fault Geometry of the 2024 M w 7.5 Noto Peninsula",
@@ -35582,7 +36165,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Giuseppe Costantino, Mathilde Radiguet, Zaccaria El Yousfi, Anne Socquet",
-        "keyPoints": [],
+        "keyPoints": [
+          "We invert for 15 years of slow slip evolution on the Cascadia subduction megathrust with unprecedented temporal resolution",
+          "Slow slip scaling laws are strongly influenced by the detection threshold used to define the slow slip events",
+          "Slow slip as a continuum: events nucleate as 2D cracks, coalesce into larger ones, and propagate laterally due to geometrical constraints"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117446",
         "journal": "Geophysical Research Letters",
         "topic": "A Continuum of Slow Slip Events in the Cascadia Subduction Zone Illuminated by High‐Resolution Deep‐Learning Denoising",
@@ -35606,7 +36194,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lijia He, Rino Salman, Bryan Marfito, Guangcai Feng, Hongbo Jiang, Wenxin Wang, Zhiqiang Xiong, Kai Sun, Yuedong Wang, Sang‐Ho Yun",
-        "keyPoints": [],
+        "keyPoints": [
+          "We estimate the fault geometry and coseismic slip of the 2025 Myanmar earthquake using multi-source satellite observations",
+          "The 2025 rupture propagated along a nine-segment, ∼500-km-long fault with peak slip of ∼6 m and negligible shallow slip deficit",
+          "Coulomb pre-stress shadows and geometric barriers likely inhibited further southward rupture into the Bago segment"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120587",
         "journal": "Geophysical Research Letters",
         "topic": "Coulomb Pre‐Stress Changes Modulate Coseismic Rupture Kinematics of the 2025 Mw7.7 Myanmar Earthquake Revealed by Space",
@@ -35631,7 +36224,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhi Geng, Lei Wang, Quansheng Liu, Junpeng Wang, Pengliang Yu, Yuan Zhou, Youqi Huang, Yongshui Kang, Bin Liu, Derek Elsworth",
-        "keyPoints": [],
+        "keyPoints": [
+          "Injection strategies regulate the cadence of slip events rather than the total seismic moment",
+          "Cycled injection triggers frequent and smaller events, reducing maximum moment magnitude and deformation energy of individual events",
+          "Injection–extraction cycles reduce pore pressure, partition successive slip events, and suppress delayed seismicity"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119289",
         "journal": "Geophysical Research Letters",
         "topic": "Cycled Fluid Injection Limits Maximum Earthquake Size by Controlling the Cadence of Seismic Moment Release",
@@ -35654,7 +36252,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Weifan Lu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Deep low-frequency earthquakes migrated upward along a volcanic conduit, suggesting fluid or magma ascent triggering brittle failure",
+          "Anti-repeating earthquake pairs reveal small-scale stress heterogeneity on adjacent fault patches in the lower crust"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119316",
         "journal": "Geophysical Research Letters",
         "topic": "Migration of Multimodal Deep Crustal Earthquake Swarm Beneath the Abu Volcano Group, Japan",
@@ -35678,7 +36280,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Quanxing Luo, Guihua Chen, Xinjian Shan, Chenglong Li, Chuanyou Li",
-        "keyPoints": [],
+        "keyPoints": [
+          "We mapped a ∼420 km surface rupture and measured 540 dextral offsets using high-resolution satellite imagery",
+          "The rupture consists of two sections separated by a low-slip zone that aligns with the epicenter and an unmapped stepover",
+          "The rupture propagated bilaterally and extended beyond the known seismic gap, revealing contrasting recurrence cycles"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118096",
         "journal": "Geophysical Research Letters",
         "topic": "High‐Resolution Satellite Imagery Mapping of the Surface Rupture and Slip Distribution of the Sagaing Fault in the 28",
@@ -35702,7 +36309,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Mingming Jiang, Chit Thet Mon, Shun Yang, Yumei He, Yue Zhu, Changfeng Ren, Myo Thant, Yinshuang Ai, Yuan Ling, Guangbing Hou, Yun Wen, Kyaing Sein",
-        "keyPoints": [],
+        "keyPoints": [
+          "We detect and relocate 1,819 local shallow earthquakes and derive 93 focal mechanisms in central and southern Myanmar with new seismic data",
+          "Abrupt along-strike north-south changes of shallow seismicity and deformation partitioning are observed across ∼20°N",
+          "The Sagaing Fault exhibits an east-dipping angle of ∼73° in the north and becomes vertical at ∼20.5°N and remains southward"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118176",
         "journal": "Geophysical Research Letters",
         "topic": "Abrupt Along‐Strike Change of Shallow Seismicity in Central and Southern Myanmar",
@@ -35725,7 +36337,12 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ming Luo, Jie Chen, Zhijun Gong, Lewis A. Owen, Huili Yang, Xiaohong Jiang, Jinhui Yin, Wei Xu, Hua Wang",
-        "keyPoints": [],
+        "keyPoints": [
+          "Rock surface luminescence dating reveals a previously undocumented surface rupture on the western Huashan Fault",
+          "The 1556 Huaxian earthquake ruptured the western Huashan fault section, extending the total rupture length to ∼150 km",
+          "Bedrock fault-scarp evidence supports a magnitude of approximately M8.3 and should complement sedimentary displacement records"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119878",
         "journal": "Geophysical Research Letters",
         "topic": "A New Surface Rupture of the 1556 Huaxian M ∼ 8.5 Earthquake Revealed by Rock Surface Luminescence Dating of a Bedrock",
@@ -35748,7 +36365,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Jinyun Xie, Yinhe Luo, Yingjie Yang, Ping Tong, Yanan Xie",
-        "keyPoints": [],
+        "keyPoints": [
+          "Near-shore ocean wave activity is a direct energy source for Moho-reflected SmS phases in ambient noise",
+          "Moho topography, surface relief, and shallow geological layers redirect wave energy and enhance SmS recovery",
+          "Ambient-noise SmS phases provide a complement to earthquake-based imaging of crustal structure"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117720",
         "journal": "Geophysical Research Letters",
         "topic": "On the Construction of Moho Reflected Shear Wave Phases From Ambient Noise",
@@ -35770,7 +36392,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "Hanlin Liu, Qingju Wu, Maximiliano Bezada, Shunping Pei, Joseph S. Byrnes, Wei Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Teleseismic P-wave attenuation reveals an elevated-temperature asthenosphere beneath the Jingpohu volcano",
+          "The enriched lithospheric mantle underwent partial melting and fed DM–EM1 mixing-type magmatism",
+          "High asthenospheric temperature, rather than only decompression, promotes melting beneath eastern NE China"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118788",
         "journal": "Geophysical Research Letters",
         "topic": "Elevated Asthenospheric Temperature Driving the Partial Melting of Enriched Lithospheric Mantle Feeding the DM‐EM1",
@@ -35795,7 +36422,12 @@ const reports = [
           "Seismology"
         ],
         "authors": "H. Schwarze, R. Madariaga, S. Ruiz",
-        "keyPoints": [],
+        "keyPoints": [
+          "P-wave reverberations of Chilean earthquakes are generated in the trench, independently of the proximity of the rupture to it",
+          "Most large Chilean subduction earthquakes produce P-wave reverberations",
+          "The P-wave reverberation content depends on the distance of the source to the trench, the closer it is, the larger the amplitude of reverberation"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117113",
         "journal": "Geophysical Research Letters",
         "topic": "P ‐Wave Reverberations in the Water Column of the Chilean Subduction Trench",
@@ -37260,7 +37892,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. Galárraga, L. Scholtès, B. Chevalier, N. Aisyah, K. Kelfoun",
-        "keyPoints": [],
+        "keyPoints": ["Discrete element models are utilized to assess the stability of Merapi's flanks", "The inelastic deformation of Merapi's NW flank during the 2020 eruption was caused by magma pressurization and reached a stable state", "Our study suggests that a 500 m deep portion of Merapi's flank was mobilized during the crisis"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032728",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Insights Into the 2020 Instability Crisis of Merapi Through Numerical Modeling",
@@ -37282,7 +37915,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhehan Liu, Hao Dong, Sheng Jin, Wenbo Wei, Gaofeng Ye, Letian Zhang",
-        "keyPoints": [],
+        "keyPoints": ["A two‐layered electrical anisotropy in the crust was revealed using magnetotelluric data from the central‐southern Tibetan Plateau", "The anisotropic conduction model suggests electrical anisotropy is explained by the alignment of fractures/microcracks and melt pockets", "The middle and upper crust undergo near‐brittle deformation, while the lower crust experiences ductile deformation"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2024jb030594",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Stress and Deformation Characteristics of the Central‐Southern Tibetan Crust",
@@ -37305,7 +37939,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Wyn Williams, Adrian R. Muxworthy, Ualisson Donardelli Bellon, Lesleis Nagy, Alison A. Cowan, Miguel A. Valdez‐Grijalva, Andrew P. Roberts",
-        "keyPoints": [],
+        "keyPoints": ["Pyrrhotite particles with diameters between 20 and 2,000 nm are reliable recorders of magnetic fields", "Néel lines are observed within domain walls in pyrrhotite particles; no vortex behavior is observed", "Sub‐micron pyrrhotite particles have uniaxial single‐domain magnetic behavior"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb031684",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Micromagnetic Constraints on the Grain Size Dependence and Magnetic Stability of Sub‐Micron Monoclinic Pyrrhotite (Fe 7",
@@ -37326,7 +37961,8 @@ const reports = [
         "doi": "10.1029/2025jb032901",
         "interestTags": [],
         "authors": "Jun Ren, Manuele Faccenda, Xin Zhong, Matthieu E. Galvez, Jianfeng Yang, Nicolas Riel",
-        "keyPoints": [],
+        "keyPoints": ["Forearc mantle serpentinization is spatially heterogeneous", "Open‐system accumulation of major elements primarily occurs at lithological boundaries", "Fluid‐mediated mass transport is at least 2 orders of magnitude less efficient than advective transport of solid materials"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032901",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Chemical‐Thermomechanical Modeling of Open‐System Mass Transfer",
@@ -37349,7 +37985,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Shubham K. Rajewar, Vineet K. Gahalaut, Roland Bürgmann, N. Puviarasan, K. C. Sai Krishnan, Harsh Bhu, Ritesh Purohit, P. N. S. Roy, Bastein Dore, Rajeev K. Yadav, Saroj K. Mondal, Joshi K. Catherine, Aditya Mohanty, A. Ajeesha, M. S. Naidu, V. Rajeshwara Rao",
-        "keyPoints": [],
+        "keyPoints": ["GNSS measurements indicate slightly higher internal deformation in the northern part (∼2 mm/a) than the southern part (<1 mm/a) of the Indian plate", "The northwestern Indian plate moves slower by ∼2 mm/yr, causing compression across the Kachchh failed rift and more earthquakes", "GNSS sites in the north, where groundwater depletion is reported, show uplift of up to ∼4 mm/year"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb032730",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Present‐Day Tectonic and Non‐Tectonic Crustal Deformation of and Around the Indian Plate From GNSS and GRACE",
@@ -37373,7 +38010,11 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yuhang Dai, Catherine Rychert, Nicholas Harmon",
-        "keyPoints": [],
+        "keyPoints": [
+          "The mantle transition zone is thick near subduction zones over wide zones and thin beneath oceans, with no focused thinning beneath hotspots",
+          "Thicknesses agree with seismological thermal expectations in 83% of bins; yet, the 410 and 660 are only negatively related in 21%–31% of bins",
+          "Spatial correlation between the 660 and tectonics is suggestive of broad-scale convection, whereas more nuanced flow at 410 is implied"
+        ],
         "link": "https://doi.org/10.1029/2025jb032278",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Global Imaging of the Mantle Transition Zone Using SS Precursors Shows Lower Mantle Convection Patterns that are",
@@ -37397,7 +38038,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Alexander Koptev, Alessio Lavecchia, Sierd Cloetingh, Michaël Pons, Enrico Marzotto, Sascha Brune, István Kovács, Magdala Tesauro, Fred Beekman, Qin Wang, Stephan V. Sobolev, Claudio Faccenna, Laurent Jolivet",
-        "keyPoints": [],
+        "keyPoints": ["Continental rifting and break-up driven only by mantle plumes (purely active scenario) is systematically investigated with numerical models", "Fast break-up only occurs when the elevated buoyancy of the thermochemical plume is combined with a relatively warm overlying lithosphere", "Since purely active break-up requires specific conditions, the dispersal of Pangea likely occurred under the influence of far-field forces"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033048",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Numerical Modeling of Purely Active (Plume‐Produced) Continental Rifting and Break‐Up",
@@ -37421,7 +38063,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jose‐Luis Torres, Svetlana Byrdina, Gonzalo Romero‐Beltran, Stéphane Garambois, Volker Rath, Yanet Antayhua, Marco Rivera, Alain Burgisser, Roger Machacca, Marco Milla, Hernando Tavera, Philip Hering",
-        "keyPoints": [],
+        "keyPoints": ["First comprehensive magnetotelluric survey of the high-risk Sabancaya volcano provides new insights on key internal structures", "A conceptual model for the plumbing system is derived from a 3D resistivity model, petrophysical constraints, and seismicity distribution", "The magma reservoir is imaged beneath the center of large-scale deformation, laterally offset from the currently erupting Sabancaya volcano"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb031803",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Magma Storage Below Sabancaya Volcano (Southern Peru) Imaged by Broadband Magnetotellurics",
@@ -37445,7 +38088,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "A. M. Mere, N. C. Barth, D. Seward, D. McPhillips",
-        "keyPoints": [],
+        "keyPoints": ["We present the first quantitative model of 3D plate boundary structure and late Cenozoic dip‐slip kinematics in southwest New Zealand", "Along‐strike transition from oblique continental collision to subduction occurs via partitioning of strike‐slip and convergent deformation", "Our work supports inference of an earthquake‐arresting bend or step‐over between the central and southern sections of the Alpine Fault"],
         "link": "https://doi.org/10.1029/2025jb032213",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "From Collision to Subduction",
@@ -37469,7 +38112,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "F. D. Munch, J. Kemper, A. Khan, G. Helffrich, D. Giardini",
-        "keyPoints": [],
+        "keyPoints": ["We analyzed a large set of recent normal‐mode, astronomic‐geodetic and tidal response data for Earth's anelastic radial seismic structure", "We considered both physically and polynomially parameterized approaches to model Earth's seismic structure", "We find significant deviations from the preliminary reference Earth model, including a denser outermost core, with possible consequences for its composition"],
         "link": "https://doi.org/10.1029/2024jb030971",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Self‐Consistent Models of Earth's Mantle and Core From Long‐Period Seismic and Tidal Constraints",
@@ -37490,7 +38133,11 @@ const reports = [
         "doi": "10.1029/2025jb032061",
         "interestTags": [],
         "authors": "Jiabo Liu, Norbert R. Nowaczyk, Yuhao Huang, Xin Luo, Huapei Wang, Fei Han, Yiming Ma, Qingsong Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "Magnetite inclusions are widespread in site Ocean Drilling Program (ODP) 1233 cores between 65 and 40 ka",
+          "A log-transformed RPI normalization method based on magnetic mineralogy is developed for site ODP 1233",
+          "Low paleointensities observed at site ODP 1233 during a high dipole moment period (58–47 ka) is analogous to the present-day South Atlantic Anomaly"
+        ],
         "link": "https://doi.org/10.1029/2025jb032061",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Paleosecular Variations in the South Atlantic Anomaly Region Over 65–40 ka — Revisiting Site ODP 1233",
@@ -37510,7 +38157,7 @@ const reports = [
         "doi": "10.1029/2025jb032670",
         "interestTags": [],
         "authors": "M. A. Schanner, R. Meyer, L. V. de Groot",
-        "keyPoints": [],
+        "keyPoints": ["A new method for paleosecular variation curve construction is presented", "Global magnetic field models can be used as a prior in regions of sparse data coverage", "Complex age distributions, due to archeological and radiocarbon dating, are reflected in the posterior ensemble"],
         "link": "https://doi.org/10.1029/2025jb032670",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Bayesian Inference of Local Paleosecular Variation From Sparse Paleomagnetic Data",
@@ -37532,7 +38179,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Gustavo Bejar, Gregory P. Waite, Rudiger Escobar‐Wolf, Snehamoy Chatterjee, Ashley Bosa, Amilcar Roca, Jeffrey B. Johnson, Jerry Mock, Armando Pineda",
-        "keyPoints": [],
+        "keyPoints": ["Seismic characteristics of lahars on Volcán de Fuego are relatively stable over years making them suitable for machine learning applications", "A KNN‐based lahar detector shows promising performance by using seismic signal attributes that change their behavior when flows are active", "This standalone detection method does not require verification across multiple stations and takes advantage of existing instrumentation"],
         "link": "https://doi.org/10.1029/2025jb032019",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Seismic Characterization of Lahars on Volcán de Fuego Toward the Development of a Machine Learning‐Based Detection",
@@ -37554,7 +38201,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "Austin Arias, Lisa Eberhard, Andreas Beinlich, Timm John, Alissa Kotowski, Oliver Plümper",
-        "keyPoints": [],
+        "keyPoints": ["We apply generative AI to model the statistical geometry of vein network structures, capturing their spatial distribution and connectivity", "Brucite and magnetite distribution controls dehydration vein network architecture in serpentinite", "Localized porosity in serpentinite dehydration vein networks enhances bulk rock permeability compared to homogeneous porosity distributions"],
         "link": "https://doi.org/10.1029/2025jb032776",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Quantifying Vein Network Permeability in Dehydrated Serpentinites Using Thermodynamics and Generative AI",
@@ -37576,7 +38223,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Shengxuan Tang, Keda Cai, Kai Wang, Hao Zhou",
-        "keyPoints": [],
+        "keyPoints": ["Weak layers of intra‐oceanic arcs (IOAs) crucially affect their accretion amount to the continent", "IOAs with deep‐crustal weak layers induce accretion efficiencies as high as ∼76.4% when slab break‐off took place concurrently", "Accretion of the Paleozoic IOAs may have contributed to the continental crustal growth of the Central Asian Orogenic Belt"],
         "link": "https://doi.org/10.1029/2025jb033391",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Quantifying Accretion of Intra‐Oceanic Arcs to Continent",
@@ -37599,7 +38246,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Quan Zhang, Pascal Audet, Martha Savage, Rupert Sutherland, Tim Stern",
-        "keyPoints": [],
+        "keyPoints": ["The MTZ depth variations beneath New Zealand reflect thermal and compositional anomalies related to arc volcanism and subduction processes", "Analysis of P‐wave receiver functions reveals thinning of the mantle transition zone beneath central North Island", "Hot upwelling underneath Northland and the Great South Basin has been revealed, aligning with previous geological observations"],
         "link": "https://doi.org/10.1029/2025jb033040",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Mantle Transition Zone Topography in New Zealand From Teleseismic P‐Wave Receiver Functions",
@@ -37623,7 +38270,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Henrique Berger Roisenberg, Lapo Boschi, Fabio Cammarano",
-        "keyPoints": [],
+        "keyPoints": ["Constraints on average Vs and Vp/Vs of the crust help to infer the thermochemical structure of the greater Alpine region", "Cold, silica‐rich Variscan crust contrasts with warmer and less‐felsic Alpine‐Apennine crust, reflecting distinct tectonic histories", "Comparing modeled and observed velocities highlights systematic biases, requiring corrections to infer crustal properties"],
         "link": "https://doi.org/10.1029/2025jb033617",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Thermal and Compositional Characterization of the Greater Alpine Crust Using Seismic Observables",
@@ -37646,7 +38293,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Roberto Masis, Paul Karabinos, Maureen D. Long, John W. F. Waldron, James Bourke",
-        "keyPoints": [],
+        "keyPoints": ["Seismic arrays across Ireland and Britain enable the comparison of structure of this region with New England in the northeastern U.S", "Laurentian crust in Ireland and Britain is significantly thinner than Laurentian crust in New England", "Comparisons suggest that Mesozoic rifting had a role in producing the difference in Laurentian thickness on both sides of the Atlantic"],
         "link": "https://doi.org/10.1029/2025jb031184",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Crustal Structure of Laurentia and Peri‐Gondwanan Terranes Beneath Ireland and Britain and Comparison With Eastern",
@@ -37671,7 +38318,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kaushik Sarker, Chris Cramer",
-        "keyPoints": [],
+        "keyPoints": ["Intraplate seismicity mechanism of the New Madrid Seismic Zone Axial Fault is poorly understood", "Magnetotelluric 2D resistivity profiles have been developed in the study region", "The distribution of seismicity and its relation with the resistivity structure have been studied in this paper"],
         "link": "https://doi.org/10.1029/2024jb030583",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "2D Broadband Magnetotelluric Study of the Axial Fault Region of the New Madrid Seismic Zone",
@@ -37696,7 +38343,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "C. Magee, S. K. Ebmeier, J. Hickey",
-        "keyPoints": [],
+        "keyPoints": ["Seismic reflection data can image ancient intrusions, forced folds, and surface deformation in 3D", "We use volcano deformation models to estimate sources from surface uplift above a seismically imaged laccolith", "We compare modeled and observed sources, showing models simulate reasonably well the source lateral position but not its depth"],
         "link": "https://doi.org/10.1029/2025jb032007",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Testing Volcano Deformation Models Against 3D Seismic Reflection Imagery of Ancient Intrusions",
@@ -37720,7 +38367,7 @@ const reports = [
           "Fault Damage Zone"
         ],
         "authors": "F. Paglialunga, J. P. Ampuero, F. Passelègue",
-        "keyPoints": [],
+        "keyPoints": ["Lab experiments demonstrate that stress heterogeneity strongly influences rupture dynamics, often leading to delayed triggering phenomena", "Five rupture–barrier interaction mechanisms identified: arrest and deceleration, static and dynamic triggering, barrier‐induced supershear transition", "The specific interaction mechanism depends on the relative strength of the stress heterogeneity along the fault"],
         "link": "https://doi.org/10.1029/2025jb032879",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Stress Barriers and Their Impact on Rupture Propagation",
@@ -37743,7 +38390,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Eva Vernet, Manuel Calvo‐Rathert, Ángel Carrancho, Yuhji Yamamoto, Lidia Rodríguez‐Méndez, Josep M. Parés, Vicente Soler",
-        "keyPoints": [],
+        "keyPoints": ["New paleomagnetic data from La Palma lava flows (1–56) ka with paleointensity multimethod approach: Thellier‐type and Shaw‐type", "Rock magnetism links maghemitization as main cause of viscous remanences, reduced through LTD pretreatment applied to Thellier‐Coe", "Paleointensity results reveal distinct geomagnetic features: the Levantine high (3 ka) and a relative paleointensity minimum (∼27 ka)"],
         "link": "https://doi.org/10.1029/2025jb032659",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Reconstructing Late Pleistocene to Prehistorical Holocene Geomagnetic Field Variations From La Palma Lava Flows (Canary",
@@ -37766,7 +38413,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Andrea Fabbrizzi, Jillian M. Maloney, Boe Derosier, Bradley Keith",
-        "keyPoints": [],
+        "keyPoints": ["New high‐resolution geophysical data reveal repeated Quaternary submarine landslides in the Cortes Basin, likely triggered by earthquakes", "Most landslides coincide with sea‐level extremes, indicating a contributing glacio‐eustatic influence", "Slope failure history provides constraints on paleoseismicity and potential hazard to the Southern California coast"],
         "link": "https://doi.org/10.1029/2025jb032100",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Interplay Between Tectonics and Submarine Mass Transport Deposits in Cortes Basin",
@@ -37789,7 +38436,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Jonathan Wolf",
-        "keyPoints": [],
+        "keyPoints": ["Coherent large‐scale lowermost mantle anisotropy is observed beneath Alaska and interpreted using mineral physics constraints", "The direction of shear is oriented approximately North‐South (or South‐North)", "Results support the first‐order framework of flow directed away from mantle downwellings and toward low‐velocity anomalies"],
         "link": "https://doi.org/10.1029/2025jb033063",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Large‐Scale Flow Toward Low‐Velocity Anomalies Reconciles Seismic and Geodynamic Constraints in the Deepest Mantle",
@@ -37813,7 +38460,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Lauren J. Reeher, Seth Busetti, Amanda N. Hughes, George H. Davis",
-        "keyPoints": [],
+        "keyPoints": ["Two‐phase fracture history: Shear fractures (tectonic compression‐related) predate joints (salt dissolution/collapse‐related)", "Salt deformation under tectonic compression results in coexisting extensional and strike‐slip stress regimes in the adjacent rock mass", "Elastic dislocation modeling predicts the observed stress variability, substantiating its use for modeling stress adjacent to salt"],
         "link": "https://doi.org/10.1029/2024jb030829",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Stress and Rock Failure Near Salt Bodies",
@@ -37836,7 +38483,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Xiulei Zhang, Bo Chen, Russell N. Pysklywec, Ebru Şengül Uluocak, Jianxin Liu",
-        "keyPoints": [],
+        "keyPoints": ["Residual and dynamic topography in Eastern China are correlated at medium wavelength, both showing a low‐west and high‐east pattern", "Mantle convection may be an important driver of non‐isostatic topography, Cenozoic tectonic activity, and intraplate volcanism in Eastern China", "Small‐scale convection in the upper mantle is mainly induced by surrounding subduction systems"],
         "link": "https://doi.org/10.1029/2025jb032000",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Small‐ and Medium‐Wavelength Dynamic Topography and Active Mantle Flow in Eastern China",
@@ -37857,7 +38504,7 @@ const reports = [
         "doi": "10.1029/2025jb031395",
         "interestTags": [],
         "authors": "Ning‐Chen Sun, Jian‐Bo Zhou, Zhong‐Jie Xu, Simon A. Wilde, Wen‐Jiao Xiao, Zhuo Chen, Ri‐Hui Cheng, Gong‐Yu Li, Hong‐Yan Wang",
-        "keyPoints": [],
+        "keyPoints": ["Jiamusi Massif granites can be divided into three groups based on zirconium content, which helps reduce age bias caused by zircon fertility", "Main provenance of the Jiamusi Massif shifted from the eastern arc in the early Permian to the western collisional belt in the Late Triassic", "Eastern Eurasia was influenced by subduction of the Mongol‐Okhotsk Ocean in the Permian and by the Paleo‐Pacific Ocean in the Triassic"],
         "link": "https://doi.org/10.1029/2025jb031395",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Coupled Basin‐Mountain Data Record the Permian‐Triassic Tectonic Transition Along the Eastern Margin of Eurasia",
@@ -37879,7 +38526,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Mark Jefferd, Nicolas Brantut, Thomas M. Mitchell, Philip G. Meredith",
-        "keyPoints": [],
+        "keyPoints": ["The creep strain rate is an order of magnitude higher at 150°C compared to room temperature at a given stress", "An elevated temperature reduces the stress required for time‐dependent inelastic sandstone deformation", "The stress dependence on the creep strain rate is lowered at an elevated temperature of 150°C"],
         "link": "https://doi.org/10.1029/2025jb032433",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Influence of Elevated Temperature on Time‐Dependent Compaction Creep in Bleursville Sandstone",
@@ -37901,7 +38548,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Jianbo Guan, Feng Cheng, Jianghai Xia",
-        "keyPoints": [],
+        "keyPoints": ["A multi‐scale ambient noise imaging method is developed by integrating distributed acoustic sensing with adaptive Voronoi tessellation", "A refined seismic velocity model reveals multi‐scale unmapped fault zones and paleofairways across the northern shelf near Monterey Canyon", "New insights are provided into the multi‐phase evolution sequence of Monterey paleocanyon system"],
         "link": "https://doi.org/10.1029/2025jb032142",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Submarine Fiber‐Optic Sensing Reveals Monterey Paleocanyon Evolution With Multi‐Scale Ambient Noise Imaging",
@@ -37921,7 +38568,7 @@ const reports = [
         "doi": "10.1029/2025jb031837",
         "interestTags": [],
         "authors": "Ronghua Cui, Bernhard Steinberger, Jian Fang",
-        "keyPoints": [],
+        "keyPoints": ["Including chemical density anomalies in the lithosphere can lower the amplitude of dynamic topography and increase the fit with observations", "Downscaling lithospheric density anomalies can bring dynamic‐to‐residual topography amplitude ratio closer to 1 and increase correlation", "Differences among tomography models have a bigger effect on the modelled dynamic topography and geoid than other parameters in this study"],
         "link": "https://doi.org/10.1029/2025jb031837",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Modeling Geoid and Dynamic Topography From Tomography‐Based Thermo‐Chemical Mantle Convection",
@@ -38187,7 +38834,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "A. S. Yates, S. Heuninck, A. Barajas, H. Bektas, C. Caudron, S. De Angelis, L. Zuccarello",
-        "keyPoints": [],
+        "keyPoints": ["Stable spectral peaks in volcanic tremor undergo frequency changes proportional to seismic velocity changes", "Frequencies evolve in response to shear-wave velocity changes, with strong sensitivity to non-eruptive processes", "Near-surface resonance within low-velocity layers and/or structural heterogeneities explains the observations"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117819",
         "journal": "Geophysical Research Letters",
         "topic": "Tracking Subsurface Changes via Frequency Shifts in Volcanic Tremor Spectral Lines",
@@ -38211,7 +38859,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Eugenio Mandler, Lucia Zaccarelli, Massimo Nespoli, Maria Elina Belardinelli, Francesco Pintori, Enrico Serpelloni, Adriano Gualandi, Lauro Chiaraluce",
-        "keyPoints": [],
+        "keyPoints": ["A dense near-fault seismo-geodetic network resolves faint signals from a low-energy Mw ≤ 4.5 swarm", "Crustal damage associated with the earthquakes indicates possible fluid effects enhancing damage", "Deformation and pore pressure between the two largest events agree with borehole strainmeter measurements"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl116436",
         "journal": "Geophysical Research Letters",
         "topic": "Seismic Velocity Variations, Ground Deformation and the Role of Fluids During a Low‐Energy Seismic Swarm",
@@ -38233,7 +38882,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yi Lin, Manuele Faccenda, Li Zhao",
-        "keyPoints": [],
+        "keyPoints": ["We derive a three-dimensional shear-wave azimuthal anisotropy structure beneath Alaska using full-wave SKS splitting-intensity tomography", "Sub-slab shear-wave anisotropy shifts from trench-normal to trench-parallel with depth, supporting retreating slab models", "Anisotropy weakens below ∼200 km, suggesting increased vertical olivine alignment due to slab steepening"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118409",
         "journal": "Geophysical Research Letters",
         "topic": "Full‐Wave SKS Splitting Intensity Tomography Suggests Depth‐Dependent Upper Mantle Fabrics and Anisotropy Beneath Alaska",
@@ -38256,7 +38906,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhenjiang Liu, Jyr‐Ching Hu, Zhenhong Li, Chuang Song, Yi Chen, Chen Yu, Jiatong Wang, Xuesong Zhang, Jianbing Peng",
-        "keyPoints": [],
+        "keyPoints": ["The 2025 Sagaing earthquake involved an unusually long (∼535 km) rupture with pronounced bilateral asymmetry in extent and speed", "Structural barriers and stress shadows from historical ruptures jointly controlled rupture termination", "Bimaterial contrast and heterogeneous stress-drop may drive bilateral rupture asymmetry and repeated supershear transitions"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119653",
         "journal": "Geophysical Research Letters",
         "topic": "Supershear Transitions and Bilateral Asymmetric Rupture of the 2025 Sagaing (Myanmar) Earthquake Revealed by Geodetic",
@@ -38279,7 +38930,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ruo‐Jie Li, Lian‐Feng Zhao, Xiao‐Bi Xie, Xi He, Zhen‐Xing Yao",
-        "keyPoints": [],
+        "keyPoints": ["A high-resolution broadband crustal Lg-wave attenuation structure is established in Northeastern Tibet", "Strong Lg attenuation indicates potential ductile crustal flow beneath the Songpan-Ganzi block and possible brittle Qilianshan shortening", "Multiple crustal deformation mechanisms may jointly control the tectonic evolution of the NE margin of the Tibetan Plateau"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118727",
         "journal": "Geophysical Research Letters",
         "topic": "Crustal Flow‐Driven Plateau Growth and Expansion Front in NE Tibet",
@@ -38299,7 +38951,8 @@ const reports = [
         "doi": "10.1029/2025gl117878",
         "interestTags": [],
         "authors": "Zhongshan Shen, Youwei Li, Liang Yi, Huafeng Qin, Jian Wang, Yibing Li, Hai Cheng",
-        "keyPoints": [],
+        "keyPoints": ["In situ magnetic scanning at 0.1-mm resolution identifies eight reversed intervals in a 89–123 ka stalagmite record", "Two independent measurements consistently resolve the fine structure of the Blake geomagnetic excursion", "The interval comprises Blake, post-Blake, and Skalamaelifell phases with four, two, and two reversed intervals"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117878",
         "journal": "Geophysical Research Letters",
         "topic": "Decadal‐Scale In Situ Scanning of a Stalagmite From Southwest China Reveals Blake Geomagnetic Excursion Structure",
@@ -38321,7 +38974,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Chunrui Li, Haibing Li, Marie‐Luce Chevalier, Jiawei Pan, Fucai Liu",
-        "keyPoints": [],
+        "keyPoints": ["Lake regression causes crustal rebound that enhances fault slip in southern Tibet", "Nam Co Lake unloading produced rebound up to 23% of total fault displacement near Damxung since ∼116 ka", "Lake-induced rebound contributes to fault reactivation and promotes rift asymmetry in the Yadong–Gulu Rift"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120955",
         "journal": "Geophysical Research Letters",
         "topic": "Lake Unloading Drives Fault Slip and Rift Asymmetry in Southern Tibet",
@@ -38345,7 +38999,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Qili Andy Dai, Haiying Gao, Sahria Nayon, Zane Michael Cleghorn, Cong Li",
-        "keyPoints": [],
+        "keyPoints": ["Receiver function analysis reveals two low-velocity, anisotropic layers in the crust beneath Mt. Wrangell, southcentral Alaska", "The low-velocity layers indicate magma reservoirs, with the deeper one being larger and containing more melt than the shallower one", "Our findings suggest a long-lived, multi-layered magmatic system within the crust beneath arc volcanoes"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117016",
         "journal": "Geophysical Research Letters",
         "topic": "Seismological Evidence of Multiple Crustal Magma Reservoirs Beneath Mt. Wrangell in Southcentral Alaska",
@@ -38368,7 +39023,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Francisco Delgado",
-        "keyPoints": [],
+        "keyPoints": ["InSAR measured ∼72 cm of uplift at Aniakchak Crater in less than seven months during 2022–2023", "The uplift is best explained by a shallow point-pressure source and an abnormally large magma flux", "The short-lived injection pulse did not meet the duration and flux conditions generally associated with eruption triggering in subduction-zone calderas"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117786",
         "journal": "Geophysical Research Letters",
         "topic": "Abnormally Large Magma Flux Does Not Lead to Eruption in Subduction Zone Calderas",
@@ -38393,7 +39049,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yingxin Yu, Xinyue Zhang, Dongzhou Zhang, Luo Li, Zhu Mao, Ningyu Sun, Denglei Wang, Jing Li, Chaoshuai Zhao, Cheng Qian, Yingzhan Wei, Xinyang Li, Yuzhu Wang, Takayuki Ishii",
-        "keyPoints": [],
+        "keyPoints": ["Single-crystal elasticity of Ti-bearing davemaoite is measured at high pressure and temperature conditions", "Subducted oceanic crust with varying Ti content generates 1.7%–6.8% Vs reductions at the bottom mantle transition zone", "Ti controls davemaoite elasticity and phase stability and influences seismic responses in the deep mantle"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118147",
         "journal": "Geophysical Research Letters",
         "topic": "Davemaoite Elasticity Reveals Slab‐Induced Heterogeneity in the Mantle Transition Zone",
@@ -38464,7 +39121,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Sean J. Hutchings, Keith D. Koper, Guanning Pang",
-        "keyPoints": [],
+        "keyPoints": ["We identify 25 nominally lower-crustal and upper-mantle earthquakes in southwestern Alberta", "Seventeen earthquakes locate ∼8–16 km below the Moho and define a steeply west-dipping, Moho-crossing normal fault", "The shear zone may reflect mantle flow interacting with the western edge of North American cratonic lithosphere"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl117818",
         "journal": "Geophysical Research Letters",
         "topic": "A Seismically Active Shear Zone in the Uppermost Mantle Beneath the Canadian Rockies",
@@ -38487,7 +39145,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Lei Qin, Hongrui Qiu, Hongfeng Yang, Fenglin Niu, Nori Nakata, Xiong Xiong",
-        "keyPoints": [],
+        "keyPoints": ["We build a high-resolution shallow velocity model above blind faults by combining surface wave tomography with three-station interferometry", "Bi-material interfaces can be identified by teleseismic S-wave delay times after correcting for travel times in the shallow velocity model", "We demonstrate this workflow using dense array data from the Chenghai Fault, Yunnan, China"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118287",
         "journal": "Geophysical Research Letters",
         "topic": "Revealing Blind Faults Through High‐Resolution Imaging of Shallow Structures",
@@ -38510,7 +39169,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "D. Murekezi, A. Newman, C. Wauthier, C. J. Ebinger, P. Lundgren, J. Gonzalez Santana, T. Niyitegeka, G. Nyandwi, T. Habiyakare, J. Uwiduhaye",
-        "keyPoints": [],
+        "keyPoints": ["Joint inversion of InSAR and GNSS data reveals a ∼25 km-long dike intrusion during the May 2021 Nyiragongo eruption, with ∼10 m peak opening and ∼180 Mm³ magma volume", "The intrusion was structurally controlled, aligning with rift-parallel normal faults and correlating with observed ground fissures and earthquake hypocenters", "Shallow dike opening and persistent deformation highlight ongoing stress redistribution and the need for enhanced geodetic monitoring in the Kivu Rift"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl116073",
         "journal": "Geophysical Research Letters",
         "topic": "Characterization of Crustal Deformation During the May 2021 Nyiragongo Eruption Using InSAR and GNSS Data",
@@ -38534,7 +39194,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Kaixin Wu, Xiaodong Song, Yi Yang",
-        "keyPoints": [],
+        "keyPoints": ["Event-based analysis of long-term earthquake sequences improves temporal coverage for estimating inner-core differential rotation", "The inner core rotated faster than the mantle by about 0.10°/yr from the early 1980s and decelerated to a near-zero rate around 2000", "The results support a multidecadal inner-core oscillation model but not shorter-term oscillations or bursts"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119295",
         "journal": "Geophysical Research Letters",
         "topic": "Pattern of Inner‐Core Differential Rotation From Long‐Term Earthquake Sequences and USArray Network",
@@ -38556,7 +39217,8 @@ const reports = [
           "Seismology"
         ],
         "authors": "Wenhan Sun, Yu Jeffrey Gu, Yajing Liu, Tianyang Li, Ruijia Wang, Jingchuan Wang, Rebecca Harrington, Marco Roth, Ryan Schultz, Guangyu Xu, Guoyan Jiang",
-        "keyPoints": [],
+        "keyPoints": ["The 2022–2023 Peace River seismicity likely reflects a rupture cascade initiated by wastewater disposal and sustained by fault interaction", "Fluids injected into the reef formation nucleated an ML 5.6 event in late 2022; this mainshock triggered two ML 4.8+ events in early 2023", "Regional geologic framework governs connectivity between disposal sites and fault zones, as well as the triggered rupture process"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl118405",
         "journal": "Geophysical Research Letters",
         "topic": "Rupture Cascade Initiated by Wastewater Disposal",
@@ -38578,7 +39240,8 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Anne Bécel, Tanner Acquisto, Satish C. Singh, Hélène Carton",
-        "keyPoints": [],
+        "keyPoints": ["We report high-resolution P- and S-wave velocity models of mature upper oceanic crust from traveltime tomography of streamer data", "We relate heterogeneous velocities in Layer 2B to widespread intraplate deformation occurring in the Wharton Basin", "We interpret the more uniform and higher Poisson's ratio in uppermost oceanic crust to opening of cracks in outer rise region"],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119788",
         "journal": "Geophysical Research Letters",
         "topic": "Deformation of the Upper Oceanic Crust in the Outer Rise of the Sumatra Subduction Zone",
@@ -40235,7 +40898,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Amy Gilligan, David G. Cornwell, Nicholas Rawlinson, Felix Tongkul, Simone Pilia, Tim Greenfield, Conor A. Bacon",
-        "keyPoints": [],
+        "keyPoints": ["A new Vs model for northern Borneo is obtained from P‐receiver functions jointly inverted with a global surface wave model", "Crustal thickness is found to vary from 24 km beneath central northern Borneo, to 60 km beneath the Crocker Range", "We image Dangerous Grounds crustal material under thrust beneath western Sabah following subduction and collision"],
         "link": "https://doi.org/10.1029/2025jb031499",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Evidence of Subduction, Collision, and Extension in Northern Borneo",
@@ -40258,7 +40921,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yilin Feng, Yinshuang Ai, Luca De Siena, Yumei He, Mingming Jiang, Chit Thet Mon, Lian‐Feng Zhao, Yiming Bai, Guangbing Hou, Yuan Ling, Simona Gabrielli, Ferdinando Napolitano, Myo Thant, Kyaing Sein",
-        "keyPoints": [],
+        "keyPoints": ["A new 3D attenuation model is obtained for the crustal and uppermost mantle in the Indo‐Burma subduction zone", "High attenuation is observed in the Central Myanmar Basin and the mid‐lower crust beneath the Indo‐Burma Ranges", "Asthenospheric upwelling triggered by the Indian plate retreat/tearing may heat the cold lithospheric mantle and feed the Monywa volcano"],
         "link": "https://doi.org/10.1029/2025jb032147",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Seismic Attenuation Tomography in Central Myanmar and Its Implications on Continental Subduction and Arc Magmatism",
@@ -40283,7 +40946,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Yi Zhang, Shida Sun, Walter D. Mooney, Yixian Xu",
-        "keyPoints": [],
+        "keyPoints": ["The lithospheric magnetic field is modeled over the full spectrum of wavelengths", "The newly calculated Vertical Integrated Susceptibility (VIS) model significantly refines the underlying petrological model", "Distinct characteristics of the lithospheric induced magnetization have been identified and analyzed for different crustal types and basement ages"],
         "link": "https://doi.org/10.1029/2025jb032111",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Lithospheric Magnetization Derived From Petrological and Satellite Constraints",
@@ -40304,7 +40967,7 @@ const reports = [
         "doi": "10.1029/2025jb032555",
         "interestTags": [],
         "authors": "Sheng‐Hua Zhou, Qiao Shu, Sally A. Gibson, Hong‐Fu Zhang, Jing‐Jing Zhu, Hélène Legros, D. Graham Pearson",
-        "keyPoints": [],
+        "keyPoints": ["Lashaine in the Proterozoic Mozambique belt is underlain by typical cratonic mantle", "The lithospheric mantle beneath Lashaine records a major Mesoproterozoic metasomatic event", "The Mesoproterozic metasomatic event has a clear link to the Kibaran event along the western margin of the Tanzanian craton"],
         "link": "https://doi.org/10.1029/2025jb032555",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "East Meets West",
@@ -40327,7 +40990,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Alissa J. Kotowski, Caroline E. Seyler, James D. Kirkpatrick, Douwe J. J. van Hinsbergen",
-        "keyPoints": [],
+        "keyPoints": ["Metamorphic soles record forced convergence (high‐temperature [HT] sole) and a transition to self‐sustaining subduction (low‐temperature [LT] sole)", "Cooling causes mineral‐mechanical changes from Hbl (±Cpx, Grt) dislocation creep to Hbl‐Plg (±Ep) fluid‐aided, grain size‐sensitive flow", "Flow stress increased but viscosity decreased at the HT‐LT sole transition, which may drive strain localization and sudden slab collapse"],
         "link": "https://doi.org/10.1029/2025jb032212",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Cooling‐Induced Rheological Weakening Along the Nascent Plate Interface—A Mechanism for Catastrophic Subduction",
@@ -40350,7 +41013,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Kh. Meliksetian, L. Sargsyan, I. Koulakov, N. Toghramadjian, N. Belovezhets, Y. Berezhnev, G. Navasardyan, E. Grigoryan, A. Vasilevsky, E. Sahakyan",
-        "keyPoints": [],
+        "keyPoints": ["We present the first 3D shear‐velocity model of the crust beneath Armenia using ambient noise tomography", "A deep low‐velocity zone aligns with over 500 volcanic cones, suggesting the presence of partial melts and fluid‐rich zones in the crust", "At 40 km depth, a high‐velocity zone appears, presumably due to mantle upwelling and crustal thinning"],
         "link": "https://doi.org/10.1029/2025jb032349",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Deep Sources of Recent Volcanism in Armenia Inferred From Ambient Noise Tomography",
@@ -40373,7 +41036,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Bin Zhao, Jintao Zhu, Qi Chen, Takashi Yoshino",
-        "keyPoints": [],
+        "keyPoints": ["The electrical conductivity of carbonatite melts has been determined experimentally at 13 and 20 GPa", "Pressure has an overall negative effect on the electrical conductivity from 3 to 20 GPa, but the effect is undermined above 10 GPa", "Electrical conductivity in the lower transition zone requires a much larger melt fraction compared to 400 km‐depth"],
         "link": "https://doi.org/10.1029/2025jb033390",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Electrical Conductivity of Carbonatite Melts to 20 GPa",
@@ -40398,7 +41061,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Amy Woodward, Ian D. Bastow, Rebecca Bell, Laura Wallace, Katrina Jacobs, Stuart Henrys, Bill Fry, Thomas A. J. Merry, Victoria Lane, Laurene Ville, Phoebe Houldsworth‐Bianek, Luke Broadley",
-        "keyPoints": [],
+        "keyPoints": ["Dense onshore seismic and geodetic data resolve two Hikurangi SSEs, including an unusually deep 15–30 km event", "Normal fault networks, developed due to a rough, seamount‐rich subduction plate interface, form fluid pathways from slab mantle to surface", "Down‐dip limit of SSEs is where surface seeps and normal‐faulting ends: rough plate interface controls forearc dewatering and SSE genesis"],
         "link": "https://doi.org/10.1029/2025jb032916",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Seismological Characterization of Northern Hikurangi Margin Slow Slip Regions Associated With Normal Faults, Seamounts",
@@ -40422,7 +41085,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Debao Liang, Qingbao Duan, Jianye Chen, Jinyu Chen",
-        "keyPoints": [],
+        "keyPoints": ["Experiments on transport properties of mylonitized cataclasite‐ and pseudotachylyte‐bearing faults at the base of the seismogenic zone", "Mylonitized cataclasites and pseudotachylytes show the lowest permeability (10⁻²²–10⁻²¹ m²) while mylonites reach up to 10⁻¹⁹ m²", "Mylonites exhibit up to two orders of magnitude permeability anisotropy parallel and normal to foliation"],
         "link": "https://doi.org/10.1029/2025jb031958",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Permeability Architecture at the Base of the Seismogenic Zone",
@@ -40445,7 +41108,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Bowen Liu, Cunbao Li, Shixin Zhang, Jianjun Hu, Jie Liu, Biao Li, Heping Xie",
-        "keyPoints": [],
+        "keyPoints": ["The microscale mode II fracture process of granite is first investigated by micro‐shear tests with real‐time scanning electron microscopy", "Thermal cycling weakened macroscopic shear strength mainly by inducing thermal cracks, rather than degrading microscale mineral strength", "Mineral interfaces and interface orientations govern multiple shear fracture modes, revealing stress‐ and energy‐dominated failure regimes"],
         "link": "https://doi.org/10.1029/2025jb033304",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "In Situ Microscale Shear Failure Mechanism in Hot Dry Rock Under Thermal Cycling",
@@ -40468,7 +41131,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "J. Pablo Canales, Lucky Moffat, Kebabonye Laletsang, Daniel Lizarralde, Steven Harder, Galen Kaip, Estella A. Atekwana, Motsoptse P. Modisi",
-        "keyPoints": [],
+        "keyPoints": ["New wide‐angle seismic tomography model highlights the P‐wave crustal and upper mantle structure in north‐western Botswana", "The Okavango Rift Zone is developing in a ∼130‐km‐wide region of the Damara Belt characterized by more than 7 km of crustal thinning", "Low crustal Vp beneath the Okavango Rift Zone suggests damaging from rift‐related faulting and deformation and elevated temperatures"],
         "link": "https://doi.org/10.1029/2025jb032322",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Crustal Structure Across the Okavango Rift, Botswana",
@@ -40491,7 +41154,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Hélène Le Mével, Nathan L. Andersen, Annika E. Dechert, Josef Dufek",
-        "keyPoints": [],
+        "keyPoints": ["Field gravity data reveal three main low‐density bodies under the Three Sisters volcanic cluster", "Up to 5 cubic kilometers of hydrothermal fluids are present in reservoirs from 0 to 3 km depth", "A mostly solidified magma body with limited density contrast with the crust is inferred to supply heat and fluids to the hydrothermal system"],
         "link": "https://doi.org/10.1029/2025jb031886",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "The Magmatic‐Hydrothermal System of the Three Sisters Volcanic Cluster, Oregon, Imaged From Field Gravity Measurements",
@@ -40513,7 +41176,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Yuanyuan Ma, Jonathan Ajo‐Franklin, Michal Chamarczuk, Xiaoyu Zhu, Jeremy Patterson, Ismael Vera Rodriguez, David Podrasky, Thomas Coleman, Carlos Maldaner, Aleta Finnila",
-        "keyPoints": [],
+        "keyPoints": ["Distributed Acoustic Sensing microseismic reflection imaging enables high‐resolution characterization of the geothermal reservoir structure at the Utah FORGE site", "New subsurface features are revealed beyond the limits of surface arrays, including internal geologic interfaces and natural fractures", "Time‐lapse fracture imaging and integration analysis provide new insights into fracture evolution and fluid interactions"],
         "link": "https://doi.org/10.1029/2025jb032603",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Geothermal Reservoir Characterization at Utah FORGE Using DAS Microseismic Imaging",
@@ -40537,7 +41200,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Seiya Yano, Satoshi Ide, Shunichi Nomura",
-        "keyPoints": [],
+        "keyPoints": ["Over 50% of deep tectonic tremors along the Nankai Trough can be explained by spatial interactions", "Estimated parameters provide new quantitative framework for characterizing plate boundary heterogeneity", "Activity anomalies with two distinct timescales are detected, with shorter ones partially correlating with short‐term slow slip events"],
         "link": "https://doi.org/10.1029/2025jb032806",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Spatial Interactions Govern Tectonic Tremor Activities in the Nankai Trough",
@@ -40562,7 +41225,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Ruei‐Jiun Hung, Matthew Weingarten, Shuo Ma, Steven M. Day",
-        "keyPoints": [],
+        "keyPoints": ["Inelastic dilation causes amplified near‐fault pore pressure declines, explaining large drawdowns better than poroelastic models", "A dynamic rupture model with inelastic dilatancy generates enhanced fault zone permeability distributed asymmetrically across the fault", "Coseismic fault zone depressurization draws groundwater inflow back into the fault zone during the postseismic phase"],
         "link": "https://doi.org/10.1029/2025jb031896",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Inelastic Dilatancy as a Mechanism for Coseismic Fluid Depressurization of a Shallow Fault Zone",
@@ -40586,7 +41249,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Joel D. Simon, Frederik J. Simons, Jessica C. E. Irving, Wenbo Wu, Masayuki Obayashi, Yong Yu, Yongshun John Chen, Hiroko Sugioka, Yann Hello",
-        "keyPoints": [],
+        "keyPoints": ["Understanding ocean‐scale T‐wave variability will aid source characterization, magnitude, and yield estimation, and inform sensor siting", "T waves from the Hunga Tonga‐Hunga Ha'apai eruption recorded on Mobile Earthquake Recorder in Marine Areas by Independent Divers and International Monitoring System hydrophones are modified by ocean floor roughness", "We quantify bathymetric interactions of the hydroacoustic T waves within the Fresnel zone at the modal depth along their propagation paths"],
         "link": "https://doi.org/10.1029/2025jb032996",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Hydroacoustic Observations of the 15 January 2022 Hunga Tonga‐Hunga Ha'apai Eruption",
@@ -40609,7 +41272,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "M. T. Page, E. H. Field",
-        "keyPoints": [],
+        "keyPoints": ["Among the ways a fault can accommodate its slip rate through earthquakes, the Gutenberg‐Richter distribution is entropically favored"],
         "link": "https://doi.org/10.1029/2025jb032719",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "An Entropic Explanation for Gutenberg‐Richter Scaling",
@@ -40631,7 +41294,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "I. Fomin, J. C. Afonso, A. Gorbatov, F. Salajegheh, R. Dave, F. A. Darbyshire, S. M. Hansen, B. Hejrani, M. W. Haynes, K. Czarnota",
-        "keyPoints": [],
+        "keyPoints": ["A new multi‐algorithm implementation of Multi‐observable Thermochemical Tomography (MTT) in spherical coordinates", "MTT can accurately retrieve thermochemical anomalies in the lithosphere relevant to energy and mineral exploration", "New thermochemical models of the Superior Craton and the North Australian Craton with unprecedented resolution"],
         "link": "https://doi.org/10.1029/2025jb031939",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Multi‐Observable Thermochemical Tomography",
@@ -40654,7 +41317,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Tianjue Li, Jing Chen, Xu Yang, Ping Tong",
-        "keyPoints": [],
+        "keyPoints": ["Depth phase sP waves are identified in local and regional seismic records", "Earthquake location is conducted within a Bayesian inversion framework, and location uncertainty is assessed simultaneously", "A thick seismogenic zone northwest of the Mw 7.1 mainshock area is observed, which indicates the potential of M5.5+ earthquake"],
         "link": "https://doi.org/10.1029/2025jb032083",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Leveraging Local Depth Phases for Improved Hypocenter Analysis and Discovery of a Thick Seismogenic Zone in Ridgecrest",
@@ -40674,7 +41337,7 @@ const reports = [
         "doi": "10.1029/2025jb032799",
         "interestTags": [],
         "authors": "Yingying Li, Bernhard Steinberger, Sascha Brune, Eline Le Breton, Anne Glerum, Michaël Pons",
-        "keyPoints": [],
+        "keyPoints": ["Slabs can trigger secondary plumes from the base of the transition zone, where lower‐mantle plumes stall", "Slab geometry, and the temperature and heating duration of the 670‐km thermal boundary layer control plume morphology and strength", "Secondary plumes triggered by slabs might explain the formation of intraplate volcanism in the Eifel, Massif Central and Hainan"],
         "link": "https://doi.org/10.1029/2025jb032799",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Intraplate Volcanism Driven by Slab‐Plume Interaction",
@@ -40697,7 +41360,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Mengfan Jiang, Xuewei Bao, Tao Wang, Yingkai Wu, Kecheng Zhou, Xuejing Li",
-        "keyPoints": [],
+        "keyPoints": ["A new high‐resolution 3D lithospheric shear‐wave velocity model of central Mongolia is constructed", "Strong lithospheric heterogeneity coincides with the spatial distribution of Cenozoic intraplate basaltic volcanism", "Small‐scale convection likely occurred beneath central Mongolia due to lithospheric thickness undulation and mantle upwelling"],
         "link": "https://doi.org/10.1029/2025jb031727",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Inherited Lithospheric Structure Controls Cenozoic Intraplate Basaltic Volcanism in Central Mongolia Due To Mantle",
@@ -40719,7 +41382,7 @@ const reports = [
         "doi": "10.1029/2025jb033124",
         "interestTags": [],
         "authors": "K. E. Bristol, C. J. Sprain, T. Mittal, A. Monteiro, R. Duraiswami, M. M. Tremblay, M. Mijjum",
-        "keyPoints": [],
+        "keyPoints": ["Paleointensity data from the Deccan Traps indicate a weaker, less variable geomagnetic field after the Cretaceous Normal Superchron", "These data support the hypothesis that polarity reversal frequency may be more closely linked to intensity range than absolute strength", "Comparing multiple selection criteria sets helps identify the most appropriate filters for a study, rather than relying on a fixed set"],
         "link": "https://doi.org/10.1029/2025jb033124",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Geomagnetic Variability in a Post‐Superchron Geodynamo",
@@ -40741,7 +41404,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Zhichen Wang, Sascha Brune, Derek Neuharth, Anne C. Glerum, Delphine Rouby, Naiara Fernandez, Xuesong Ding",
-        "keyPoints": [],
+        "keyPoints": ["We present cross‐scale numerical models resolving rifted margin formation at 100‐km scale and salt structures at scales of less than hundred meters", "The variability of salt structures and minibasins is intimately tied to the volume and mobility of the salt layer", "Salt translation rate changes drastically through time–it increases rapidly to peak speed and gradually declines as the salt layer thins"],
         "link": "https://doi.org/10.1029/2025jb032143",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Dynamic Controls on Salt Structures and Translation Velocity at Continental Rifted Margins",
@@ -40763,7 +41426,7 @@ const reports = [
           "Crustal Deformation"
         ],
         "authors": "Joao Jr. J. Castelo, Thorkild M. Rasmussen, Maxim Smirnov, Salvador Mondlane, Daud Liace Jamal",
-        "keyPoints": [],
+        "keyPoints": ["We created the first regional scale conductivity model, derived from magnetotelluric data of the Archean Manica greenstone belt in western Mozambique", "A presence of mid‐crustal conductor at a depth of 10 km was identified in the central part of Manica greenstone belt", "Sub‐vertical narrow elongated conductive structures connect the mid‐crustal conductor to the near‐surface structures"],
         "link": "https://doi.org/10.1029/2025jb031671",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Regional Three‐Dimensional Magnetotelluric Electrical Resistivity Model of the Manica Greenstone Belt, Western",
@@ -40785,7 +41448,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Fansheng Xiong, Jing Ba, José M. Carcione, Zhijian Fang",
-        "keyPoints": [],
+        "keyPoints": ["We propose a machine learning (ML) approach to establish simplified dynamic equations describing wave propagation in sandstone reservoirs", "The new poroelasticity theory is based on a simplification of the Biot-Rayleigh equations", "The local-flow term, which is responsible for wave attenuation, and some elastic constants and other factors are obtained from data and ML"],
         "link": "https://doi.org/10.1029/2025jb032558",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Modeling and Inversion for Wave Propagation in Tight Sandstone Reservoirs Using Machine Learning",
@@ -40807,7 +41470,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Ivan Koulakov, Luca D’Auria, Jesús M. Ibáñez",
-        "keyPoints": [],
+        "keyPoints": ["Repeated seismic tomography uses earthquake body waves to image subsurface changes, using paired data sets with similar ray paths", "The repeated tomography reveals a magma conduit formed during the eruption, ascending through a rigid layer at 5–8 km depth", "We identified a deep magma storage below 8 km and a shallow fluid‐rich zone above 3 km that remained nearly unchanged during the eruption"],
         "link": "https://doi.org/10.1029/2025jb031599",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Imaging of Magma Intrusion Below La Palma During a Strong Effusive Eruption in 2021 Inferred From Repeated Seismic",
@@ -40831,7 +41494,7 @@ const reports = [
           "Seismology"
         ],
         "authors": "Xinyu Tan, Semechah K. Y. Lui",
-        "keyPoints": [],
+        "keyPoints": ["Induced and tectonic earthquakes share similar nucleation processes which depend on the fault's frictional properties", "Depending on the nucleation regime, hydraulic diffusivity and injection rate can have contrasting effects on nucleation length", "In the no‐healing nucleation regime, high injection rates can reduce the nucleation length, thereby increasing seismic risk"],
         "link": "https://doi.org/10.1029/2025jb031893",
         "journal": "Journal of Geophysical Research: Solid Earth",
         "topic": "Fluid‐Induced Earthquake Nucleation on Aging Rate‐and‐State Faults",
