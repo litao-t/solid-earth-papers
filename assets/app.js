@@ -131,8 +131,33 @@ function renderScientificPowers(value) {
     .replace(/\b(km|cm|mm|µm|um|m)\s+([23])\b/g, "$1<sup>$2</sup>");
 }
 
+function renderInlineLatex(value) {
+  const symbols = { epsilon: "ε", phi: "φ", delta: "δ", mu: "μ", sim: "∼", times: "×" };
+  return String(value ?? "")
+    // These publisher extracts contain split delimiters and a duplicated formula fallback.
+    .replace(/\$\s+\$(?=[{\\])/g, () => "$$")
+    .replace(/M g Z n 2\$text\{MgZn\}\{2\}\$/g, "MgZn<sub>2</sub>")
+    .replace(/\${1,2}([^$]+)\${1,2}/g, (_, formula) => formula
+      .replace(/\\(epsilon|phi|delta|mu|sim|times)\b\s*/g, (_, name) => symbols[name])
+      .replace(/\\(?:text|mathrm)\{([^{}]*)\}/g, "$1")
+      .replace(/\{\\it\s+([^{}]*)\}/g, "<i>$1</i>")
+      .replace(/\\rm\s+/g, "")
+      .replace(/([_^])\s*(?:\{([^{}]*)\}|([A-Za-z0-9]))/g, (_, operator, group, single) => {
+        const tag = operator === "_" ? "sub" : "sup";
+        return `<${tag}>${group ?? single}</${tag}>`;
+      })
+      .replace(/[{}]/g, "")
+      .trim())
+    .replace(/([_^])\{([A-Za-z0-9+−-]+)\}/g, (_, operator, content) => {
+      const tag = operator === "_" ? "sub" : "sup";
+      return `<${tag}>${content}</${tag}>`;
+    })
+    .replace(/\bQ_([PS])\b/g, "Q<sub>$1</sub>")
+    .replace(/\bMs_(20)\b/g, "Ms<sub>$1</sub>");
+}
+
 function renderScientificText(value) {
-  const safeMarkup = escapeHtml(value)
+  const safeMarkup = escapeHtml(renderInlineLatex(value))
     .replace(/&lt;(\/?)(sub|sup|i|em)&gt;/gi, "<$1$2>")
     .replace(/&lt;\/?scp&gt;/gi, "")
     .replace(/\s+(?=<(?:sub|sup)>)/gi, "");
