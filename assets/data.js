@@ -1207,7 +1207,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120115",
         "authors": "Chenguang Sun, Lijing Yao",
         "abstract": "Quantifying H2O–CO2 solubility and speciation in compositionally varied magmatic liquids is essential for interpreting melt-inclusion geobarometry and building realistic models of volatile degassing and isotopic fractionation in evolving magmatic systems. Yet most existing formulations remain fragmented across compositions and pressure–temperature conditions and rarely constrain solubility and speciation jointly. We present a unified H2O–CO2 solubility–speciation model for fluid-saturated melts that explicitly incorporates molecular and ionic species dissolved in the melt. The model is calibrated using first-order thermodynamic principles and a joint inversion of solubility and speciation data compiled from 2090 experiments. The compilation spans melt types from carbonatites to pure silica liquids with 0–100 wt% SiO2, temperature of 660–1924 °C, pressures of 1 bar–6 GPa, and variable fluid compositions. Over this broad pressure–temperature–composition coverage, our calibration yields simple formulations that achieve higher predictive accuracy than previous models. We implement the model in the M2Fluid program with a graphical user interface to compute solubilities, isobars, isopleths, open- and closed-system degassing pathways, and fluid-saturation pressures. Applied to melt inclusions (natrocarbonatites to rhyolites) from 18 volcanoes across the East African Rift System, M2Fluid yields saturation pressures consistent with independent geophysical constraints on magma storage depths. The results further reveal that early-stage rifts host deeper, distributed reservoirs, mature rifts feature shallower, focused bodies, and triple junctions consistently host shallow, focused melt lenses. These patterns indicate strong coupling between magmatism and rift evolution, underscoring the role of magma storage and degassing in continental rift dynamics.",
-        "keyPoints": [],
+        "keyPoints": [
+          "A unified thermodynamic model calibrated to 2,090 experiments jointly predicts H2O–CO2 solubility and speciation across broad melt compositions, pressures, and temperatures with improved accuracy.",
+          "Application across the East African Rift reveals systematic evolution from deep distributed reservoirs to shallow focused melt bodies, linking storage architecture to rift maturity."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120115",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1225,7 +1229,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120109",
         "authors": "Fubing He, Yubin Cui, Ruijie Li, Kai Wang, Wenzhi Niu, Xiaoyong Liu, Mengmeng Cao, Xinhe Lv, Yueze Zhang, Lingyan Bai, Jing Liu, Xiwei Xu",
         "abstract": "Isolating primary paleoclimate signals from the overprinting effects of sediment recycling and hydrodynamic sorting remains a persistent challenge in continental source-to-sink studies, particularly within tectonically active, carbonate-rich basins. In such setting, traditional weathering indices often yield ambiguous results due to the complex interplay of these processes. To overcome this, we present a continuous, high-resolution ∼ 3.3-Myr geochemical and sedimentological record from the Beijing Sag, North China Plain. We developed and validated two proxies, the Decalcified Weathering Intensity (DWI) and the Hydro-Energy Sorting Index (HESI), to decouple intrinsic silicate weathering trends from carbonate dilution and physical fractionation. Coupling these indices with multivariate statistics reveals a distinct two-stage evolutionary framework. Initially, a major provenance shift at ∼ 2.5 Ma marks the transition from localized tectonic unroofing to the establishment of the integrated Paleo-Bai River system, which homogenized the catchment-wide sediment flux. Subsequently, following the Mid-Pleistocene Transition (∼ 1.2 Ma), sedimentary dynamics fundamentally shifted; physical transport energy replaced chemical weathering as the primary control on geochemical variability. Notably, our results demonstrate that the persistently high chemical maturity observed during Quaternary glacial cycles does not reflect intensified contemporaneous weathering, neither in the source area nor via post-depositional pedogenesis. Instead, it represents an inherited signals derived from the hydrodynamic sorting of pre-weathered loess and recycled sediments. These findings challenge conventional interpretations of weathering records in transport-dominated icehouse regimes, emphasizing the critical role of drainage integration and hydrodynamics in modulating source-to-sink environmental signals propagation.",
-        "keyPoints": [],
+        "keyPoints": [
+          "New weathering and sorting indices resolve a 2.5 Ma drainage-integration shift and show that transport energy overtook chemical weathering as the main geochemical control after about 1.2 Ma.",
+          "High Quaternary chemical maturity mainly records sorting of pre-weathered and recycled sediment, challenging direct paleoclimate interpretations of conventional weathering indices."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120109",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geologic Carbon Cycling",
@@ -1242,7 +1250,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120097",
         "authors": "Tyson M. Smith, Sean P. Gaynor, Brenhin C. Keller, Magdalena E. Curry, Blair Schoene, Tom J. Lapen",
         "abstract": "Characterizing tectonic subsidence rates within depositional sequences provides direct insight into the driving mechanism(s) of accommodation in a basin. However, the temporal resolution of this record is often stymied by a lack of high-precision and high-resolution ages, which enable a more complete description of basin subsidence drivers. We explore the effect of high-precision and high-resolution ages in modeling accommodation for the Miocene La Jencia Basin of the central Rio Grande rift (RGR) and interpret driving mechanism behavior from these models (e.g., lithospheric thinning). We present a new geochronologic dataset of both laser ablation-inductively coupled plasma mass spectrometry (LA-ICPMS) and chemical abrasion-isotope dilution-thermal ionization mass spectrometry (CA-ID-TIMS) data and use these ages in Bayesian accommodation modeling. Models constrained by high-precision and high-accuracy TIMS ages yield peak tectonic subsidence rates exceeding 220 m/Myr, and an average Miocene subsidence of ∼120 m/Myr. While timing and magnitude vary, all models suggest two pulses of rapid Miocene tectonic subsidence, which we interpret to reflect basin-bounding fault movement. Prior to peak subsidence, there was an initial period of fault linkage and organization that occurred over <1–3 Myr that produced the basin-bounding La Jencia-Cerro Colorado fault zone. A comparison of published tectonic subsidence rates to those modeled here shows that while tectonic subsidence during continental rifting is highly variable, the La Jencia Basin rates appear relatively high. However, the significant difference between peak and average La Jencia Basin rates modeled here highlights the potential for underestimation of many records of tectonic subsidence due to a lack of high-precision and high-resolution age constraints. Furthermore, age data and modeling results presented here document fault movement and consequent rates of tectonic subsidence that lower-resolution data would not, providing a high-fidelity case study of continental rift basin development.",
-        "keyPoints": [],
+        "keyPoints": [
+          "High-precision geochronology and Bayesian accommodation models resolve two Miocene subsidence pulses in the La Jencia Basin, with peak rates above 220 m/Myr after rapid fault linkage.",
+          "The large gap between peak and average rates demonstrates that low-resolution ages can substantially underestimate tectonic subsidence and obscure rift-basin development."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120097",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Tectonics & Geodynamics",
@@ -1260,7 +1272,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120074",
         "authors": "Y. Yuan, J.K. Magali, X. Deng, F. Rochira, X. Jiang, C. Thomas",
         "abstract": "The 1000-km discontinuity of Earth has drawn considerable interest as a possible viscosity or compositional boundary that influences the overall pattern of mantle convection. Seismic studies have reported mid-mantle reflectors across a broad depth range (approx. 700–1300 km) with highly variable amplitudes and polarities, obscuring the existence of a distinct 1000-km discontinuity and appearing inconsistent with tomographic evidence for slab stagnation and plume deflection at comparable depths. Here, using a global analysis of SS precursors and 3-D waveform simulations, we re-evaluate the seismic evidence for mid-mantle reflectors. We find that many previously reported reflections may be contaminated by PPS and PPPS phases that leak onto the transverse component. After strict phase discrimination, only 60 reliable mid-mantle reflectors remain out of 366 candidates, clustering at two depths: 700–850 km linked to the accumulation of subducted or recycled basaltic materials, and ∼1000 km associated with viscosity contrasts and slab-induced deformation. These results challenge the view that mid-mantle reflectivity is globally pervasive and demonstrate instead that such features form locally where the 660-km transition and ∼1000-km rheological boundary impede vertical mantle flow. Our findings provide a clearer picture of mantle layering and highlight the importance of rigorous phase separation when imaging Earth’s deep interior.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Global SS-precursor analysis and 3-D simulations reduce 366 proposed mid-mantle reflectors to 60 reliable features clustered at 700–850 km and near 1,000 km depth.",
+          "Mid-mantle reflectivity is therefore localized where compositional accumulation and rheological boundaries impede flow, rather than being a globally pervasive discontinuity."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120074",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismic Imaging & Inversion",
@@ -1277,7 +1293,12 @@ const reports = [
         "title": "Ultrahigh-pressure acoustic velocities of ferric-iron-rich pyrolite glass: implications for ferric-rich silicate melts in the deep terrestrial interior",
         "doi": "10.1016/j.epsl.2026.120122",
         "authors": "Pinku Saha, Motohiko Murakami, Paolo A. Sossi, Shinji Kitao, Makoto Seto, Takaya Mitsui, Pierre Lefebvre, Julien Allaz",
-        "keyPoints": [],
+        "abstract": "Iron-rich silicate melts are thought to be stable at the present-day core-mantle boundaries of terrestrial planets and during the early stages of their formation. However, their physical properties under pressure remain elusive. In order to better understand the structural behaviors of silicate melts at ultra-high pressure, we report in-situ high-pressure acoustic velocity and Raman spectroscopic measurements of synthetic ferric-iron-rich pyrolite glass (Fe3+/∑Fe ∼0.61) up to a pressure of ∼150 GPa as an analogue of silicate melts. Two nearly plateau regions on the transverse acoustic (TA) velocity (VS) evolution with pressure are observed in the pressure range 60–80 GPa, and 95–110 GPa, respectively. In the first pressure range a color change from faint orangish to deep orangish hue are attributed to the iron spin transition at Fe3+ site, while second pressure range could be related to the onset of Si-O coordination number (CN) change. The VS values observed in this study are lower than those of ferrous (Fe2+) iron-bearing pyrolite and Fe2+-rich basaltic glass up to 80 GPa, but become comparable to basaltic glass in the 80 to 100 GPa range, while remaining lower than Fe2+-bearing pyrolite glass. The VS values of the Fe3+-rich glass exceed both Fe2+-rich glasses around 125(±5) GPa, suggesting that the presence of ferric iron in pyrolite glass could enhance its elastic stiffness above this pressure following the Si-O CN changes, which could possibly facilitate densification under ultra-high pressure. Consequently, Fe3+-rich silicate liquids may be negatively buoyant with respect to surrounding mantle, allowing for their long-term preservation in the deep interiors of terrestrial planets.",
+        "keyPoints": [
+          "Acoustic and Raman measurements of ferric-rich pyrolite glass to about 150 GPa identify spin and Si–O coordination transitions and pressure-dependent elastic stiffening above roughly 125 GPa.",
+          "The enhanced high-pressure stiffness may make ferric-rich silicate liquids negatively buoyant and favor their long-term preservation in deep planetary interiors."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120122",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Mineral & Rock Physics",
@@ -1305,7 +1326,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120161",
         "authors": "Xiaowen Liu, Russell N. Pysklywec, Oğuz Hakan Göğüş, Ebru Şengül Uluocak",
         "abstract": "The Aegean and Western Anatolian region has experienced active tectonics over the last ∼40 Myr, including lithospheric extension, migrating arc volcanism, and microplate rotation, primarily driven by subduction. Recent seismic and geological data have revealed a major tear between the subducted Aegean and Cyprus slabs that initiated ∼15 Ma. Here, we show that rapid mantle injection through this slab breach produced a transient pulse of surface uplift above the tear using 3D numerical modeling with analyses of geological and geophysical data. Toroidal flow and mantle upwelling through the breach also enhances lithospheric extension, and heating of the lithosphere sufficient to induce partial melting. This dynamic process accounts for a short-lived but widespread uplift phase recorded in the western Taurides and Aegean, as well as changes in extension direction, from NE-SW in Anatolia to N-S near the Aegean trench, and migrating volcanism. Our findings reveal how slab tearing and the consequent mantle injection flow can drive rapid and transient surface expressions in an active plate boundary system, offering an explanation for tectonic, magmatic, and uplift across the region.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Three-dimensional models and observations show that mantle injection through the Aegean–Cyprus slab tear generated transient uplift, enhanced extension, lithospheric heating, and partial melting.",
+          "Slab-tear-driven toroidal flow offers a unified explanation for the region's short-lived uplift, changing extension direction, and migrating volcanism."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120161",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1323,7 +1348,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120189",
         "authors": "Josephine K. Joergensen, Maria Seton, R. Dietmar Müller",
         "abstract": "Chaotic spreading episodes create complex seafloor features, such as oblique tectonic fabric and pseudofaults, that challenge the assumptions of classic plate tectonic theory. Such episodes are often linked to major plate reorganizations, yet their detailed evolution and implications remain poorly constrained. Here we present geophysical evidence for a previously undocumented chaotic spreading event (44–28 Ma) and the formation of a new microplate, the Viru Microplate, at the Pacific-Farallon plate boundary in the eastern Pacific. By integrating high-resolution gravity data from the recent Surface Water Ocean Topography (SWOT) mission with new multibeam bathymetry collected during a 2024 R/V Kilo Moana voyage, we resolve a sequence of ridge propagation events, ridge jumps, and microplate formation that accompanied this chaotic episode. The spatial and temporal synchronism of these features with major reorganizations of the Pacific and Farallon plates suggests that global-scale plate stress field changes directly modulated divergent boundary behavior. Our findings demonstrate that global plate reorganizations can drive local-scale ridge complexity and microplate formation far from the triggering sites, providing diagnostic markers for regional and global tectonic change.",
-        "keyPoints": [],
+        "keyPoints": [
+          "SWOT gravity and new bathymetry reconstruct ridge propagation, jumps, and formation of the Viru Microplate during chaotic Pacific–Farallon spreading from 44 to 28 Ma.",
+          "The timing shows that global plate reorganizations can generate local ridge complexity and microplates far from the original tectonic trigger."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120189",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Tectonics & Geodynamics",
@@ -1340,7 +1369,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120175",
         "authors": "Frankie L. Haywood, Fabian B. Wadsworth, Madeleine C.S. Humphreys, Dave McGarvie, Richard J. Brown, Alexander A. Iveson, Leon Bowen, Annabelle Foster",
         "abstract": "Caldera subsidence is accommodated by the eruption of large volumes of fragmented magma removed from the crust, commonly transported along caldera ring-faults or between foundering crustal blocks. The largest types of silicic caldera-forming eruptions have not been witnessed, and so the fragmental magma flux and associated caldera subsidence rates are poorly constrained. Based on the presence of aphanitic fault-filling rocks in some calderas, caldera fault slip rates have been inferred to be sufficiently high to cause frictional melting, leading to a ‘super-fault’ model for caldera slip. We revisit this model at the classic Glencoe caldera volcano locality, and find textural evidence that the caldera fault fill may instead be the sintered remnants of the fragmented eruptive products, and that frictional melting may not be required. We support this with geochemical mass balance calculations that lead us to conclude that (1) the fault fill is a sintered remnant associated with the eruption, (2) partially resorbed quartz grains in the glassy groundmass could originate from the country rock quartz and quartzite lithics that resorb when incorporated into quartz-undersaturated sintered mass, and (3) that the late-stage fault-intrusions represent the squeeze-up of the mush from which the eruptive melts are derived. In the context of caldera-forming eruptions, our model is consistent with the proposal that caldera faults may be active throughout much of a sustained, relatively long-lived eruption, rather than moving only rapidly and briefly.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Textures and geochemical mass balance at Glencoe indicate that glassy caldera fault fill is sintered fragmented eruptive material rather than frictional melt from exceptionally rapid slip.",
+          "Caldera ring faults may remain active through sustained eruptions, removing the need for brief catastrophic super-fault motion to form the observed rocks."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120175",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1358,7 +1391,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120061",
         "authors": "Zihua Niu, Maximilian Kruse, Linus Seelinger, Nico Schliwa, Heiner Igel, Alice-Agnes Gabriel",
         "abstract": "We present a multilevel Bayesian inversion to quantify uncertainties and correlations among on- and off-fault dynamic rupture parameters for the 2019 M w 7.1 Ridgecrest earthquake. Our realistic rupture models incorporate strong velocity-weakening rate-and-state friction and off-fault plasticity. We invert for four parameters capturing along-strike variability in on-fault friction and off-fault plasticity. The inversion is constrained by multidisciplinary surface deformation data, including fault-parallel offsets from satellite imagery, high-rate GNSS time series, and static GNSS displacements, and is enabled by more than four million CPU hours of 3D dynamic rupture simulations. We find a strong correlation between on-fault frictional weakening and off-fault plasticity: increased inelastic deformation can compensate for more prominent velocity-weakening friction in the northwestern part of the fault. The preferred dynamic rupture models reduce velocity weakening from northwest to southeast along the main fault. This improves the fit with observed fault-parallel surface offsets, consistent with along-strike variations in fault maturity. The inversion favors low off-fault plastic cohesion, which improves the fit to observed surface offsets and is consistent with shallow damage zones imaged geophysically. We infer a shallow slip deficit (SSD) of 13.1% with a standard deviation of 5.1%. Notably, 55% of the models fall within the 8–32% SSD range estimated from previous kinematic inversions, implying that co-seismic off-fault inelasticity is crucial to explain the observed SSD. Our results demonstrate the feasibility of integrating 3D dynamic rupture simulations with multilevel Bayesian inversion to constrain nonlinear dynamic rupture processes and off-fault properties, toward probabilistic, physics-based earthquake source characterization and uncertainty quantification grounded in observational constraints.",
-        "keyPoints": [],
+        "keyPoints": [
+          "A multilevel Bayesian inversion of 3-D rupture simulations finds coupled tradeoffs between fault weakening and off-fault plasticity and estimates a 13.1% shallow slip deficit for the Ridgecrest earthquake.",
+          "The results show that off-fault inelastic deformation is needed to explain observed surface slip and enable probabilistic, physics-based earthquake-source characterization."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120061",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismology & Earthquake Processes",
@@ -1376,7 +1413,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120181",
         "authors": "Yangfan Deng, Özcan Özyıldırım, Xin Li, Zhou Zhang, Ahmet Yildiz, Ümit Avşar, Metin Bağci, Gokhan Karcioglu, Deniz Varilsüha, Zhigang Peng, Eric Sandvol",
         "abstract": "Large continental earthquakes occur at major crustal fault zones that mark the boundaries of major tectonic plates or blocks. However, the role of lithospheric structures on the nucleation and rupture process of large seismic events remains poorly understood. Here, we integrate newly acquired seismic and magnetotelluric data to delineate the key lithospheric interfaces and resistivity anomalies along the rupture zones of the 2023 Kahramanmaraş earthquake doublet in southeastern Türkiye. Our results reveal contrasting structures beneath the two events. The first earthquake occurred within a high-resistivity domain featuring a sharp and shallow Moho discontinuity and a shallow Lithosphere–asthenosphere boundary (LAB) in the Arabian plate. In contrast, the second event originated near a resistivity boundary coinciding with a wider and deeper Moho, and deeper LAB in the Anatolian block. Both mainshock ruptures and aftershocks occurred in regions with relatively high resistivity compared with surrounding areas. We also identify several lithospheric-scale conductors that are likely indicative of fluid migration pathways. These observations demonstrate how structural heterogeneity controls stress accumulation and fluid distribution and then contribute to large continental earthquake sequences.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismic and magnetotelluric data reveal contrasting Moho, LAB, and resistivity structures beneath the two 2023 Türkiye earthquakes, with both ruptures concentrated in relatively resistive domains.",
+          "Lithospheric heterogeneity and conductive fluid pathways jointly influence stress accumulation, fluid distribution, and large continental earthquake sequences."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120181",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Earthquake Rupture & Seismicity",
@@ -1395,7 +1436,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120183",
         "authors": "Didi Wu, David Chew, Christopher L. Kirkland, Kerry Gallagher, Stijn Glorie, Kerstin Drost, Veronica Peverelli, Paul C. Guyett",
         "abstract": "The tectonothermal histories of basement gneiss terranes are challenging to determine, particularly in orthogneisses dominated by high-variance metamorphic assemblages that are unsuitable for thermobarometry or dating metamorphism. Apatite is a widespread accessory mineral in crystalline rocks, and apatite U–Pb and Lu–Hf closure temperatures (350–570 °C and 660–730 °C) correspond to middle-lower crustal depths. This apatite thermochronology case study investigates the thermal history of the Paleoproterozoic Rhinns Complex, a key fragment of NE Laurentian basement linking the Paleoproterozoic mobile belts of Greenland and Scandinavia. The Rhinns Complex lies immediately north of the Grenville Front in NW Ireland. Orthogneiss protoliths were emplaced at 1.78 Ga (zircon U–Pb) and underwent high-grade metamorphism at 1.73 Ga (apatite Lu–Hf). Laser–ablation U–Pb depth profiling was undertaken on primary igneous apatite with simultaneous acquisition of trace elements to identify recrystallized crystals or subdomains. Inverse modelling of U–Pb depth-profiles (constrained by zircon and epidote U–Pb, apatite Lu–Hf, and biotite Rb–Sr dates) yields a continuous deep-time thermal history, revealing rapid post-emplacement cooling and reheating to 450 °C at 1.4 Ga during the Pinwarian Orogeny, followed by exhumation. The 1.4–1.1 Ga thermal history (either isothermal holding at 375 °C or cooling and reheating) is attributed to far–field Grenville tectonism and subsequent exhumation – detected here in the Rhinns Complex for the first time. Our study highlights the power of high-resolution apatite U–Pb depth profiling to resolve deep-time crustal tectonothermal histories, especially “hidden” thermal events not captured by conventional methods.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Multi-method apatite thermochronology and depth-profile inversion resolve rapid Paleoproterozoic cooling, reheating near 1.4 Ga, and a later Grenville-related thermal history in the Rhinns Complex.",
+          "High-resolution apatite U–Pb profiles can recover hidden deep-time tectonothermal events that conventional dating misses in difficult basement terranes."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120183",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Tectonics & Geodynamics",
@@ -1412,7 +1457,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120158",
         "authors": "Giovanni Toffol, Åke Fagereng, Joaquin Julve Lillo, Duncan D. Muir, Kohtaro Ujiie",
         "abstract": "Coseismic frictional melting is inefficient when thermal pressurization is the dominant dynamic weakening mechanism. Yet, pseudotachylytes (quenched coseismic frictional melt) are found along some exhumed fluid-rich faults, implying that melting occurred despite the fault being wet. To solve this conundrum, we studied a pseudotachylyte-bearing thrust hosted in cherts from the Jurassic accretionary complex in central Japan. The pseudotachylyte has sharp margins, except embayments into thermally eroded wall-rock chlorite and brecciated wall-rock cherts, and contains thermally eroded quartz clasts, providing evidence for a melt origin. Microstructural observations of co- to postseismic goethite cements, however, provide evidence of pressurized aqueous fluids along the fault, that led to localised precipitation in extensional breccia domains along and immediately around the fault. We suggest that the extraction of fluids into damaged wall rocks led to a fluid pressure drop and consequent fault restrengthening, leading to more efficient frictional heating and pseudotachylyte production. Numerical simulations of coseismic stress evolution involving thermal pressurization support a model where wall-rock permeability has a dominant effect on dynamic weakening along slip zones of sub-cm thickness. We use the microstructural record to estimate that ∼ 2 MJ/m 2 and ∼ 5 MJ/m 2 of energy is consumed on-fault as heat during thermal pressurisation and frictional heating, respectively. This two-stage, serial dynamic weakening process implies that dilatant hardening may limit slip on faults in wet rocks, unless sufficient elastic strain energy is available to overcome hardening and activate melt lubrication as an additional weakening process after the initial thermal pressurisation.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Fault microstructures and simulations indicate that fluid escape into damaged wall rock lowered pressure, restrengthened a wet fault, and enabled frictional melting after initial thermal pressurization.",
+          "Wall-rock permeability and dilatant hardening can limit wet-fault slip unless enough elastic energy remains to activate melt lubrication."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120158",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Mineral & Rock Physics",
@@ -1429,7 +1478,12 @@ const reports = [
         "title": "Effects of slab folding on magma production in the Sumatra subduction zone",
         "doi": "10.1016/j.epsl.2026.120121",
         "authors": "Yongliang Bai, Jiahao Tian, Yuanpeng Liu, Dongdong Dong, Shiguo Wu, Sanzhong Li, Xuan Mu",
-        "keyPoints": [],
+        "abstract": "The deformation of the subducting slab within the transition zone leads to the formation of slab folding structures, which play a significant role in subduction zone dynamics and island-arc magmatism. However, the impact of slab folding on island-arc magmatism remains poorly understood. The Sumatra subduction zone offers an ideal setting to investigate this relationship. Constrained by seismic tomography and zircon U-Pb age-derived magmatic activity intensity, we reproduced two key features of the Sumatra subduction zone via data-assimilated numerical simulations: (1) progressive slab folding geometries, and (2) temporal variations in magma production rates (MPR). Our results indicate that slab folding primarily influences magma production by modulating the subduction rate within the potential melting depth region, resulting in periodic variations in island-arc magmatic activity.",
+        "keyPoints": [
+          "Data-assimilated simulations reproduce Sumatra slab-fold growth and temporal magma-production changes, showing that folding modulates the slab's speed through the melting-depth interval.",
+          "Slab folding can therefore impose periodic variations on island-arc magmatism through changes in subduction rate."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120121",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1446,7 +1500,12 @@ const reports = [
         "title": "Evaluating the dipolarity of the mid-Proterozoic geomagnetic field",
         "doi": "10.1016/j.epsl.2026.120172",
         "authors": "Zheng Gong, David A.D. Evans, Sten-Åke Elming, Yong-Xiang Li",
-        "keyPoints": [],
+        "abstract": "The mid-Proterozoic geomagnetic field has been hypothesized to contain significant non-dipolar components, but constraints on field dipolarity are limited by scarce paleomagnetic observations and a lack of quantitative approaches. To overcome these difficulties, we acquired new paleomagnetic data from ∼1.46 Ga magmatic units in Baltica. Utilizing a geologically constrained plate reconstruction, we compared newly updated apparent polar wander paths for Baltica and Laurentia between ∼1.78 and ∼1.26 Ga. We found that incorporating ∼20–25% axial octupole can significantly reduce the arc distance between the paired poles at ∼1.46 Ga and yield a tighter and more circular clustering of virtual geomagnetic poles. Additionally, an increase in the Model G a parameter from ∼1.4 to ∼1.1 Ga coincides with a decline in dipole dominance and field strength, implying that the axial quadrupole could be an important factor in controlling paleo-field intensity. These results provide quantitative support for a more complex mid-Proterozoic geomagnetic field structure than the dipolar model that is commonly assumed.",
+        "keyPoints": [
+          "New Baltica paleomagnetic data and plate reconstructions show that adding about 20–25% axial octupole improves 1.46 Ga pole agreement, while quadrupole changes track declining field strength.",
+          "The results quantitatively support a more complex, less dipole-dominated mid-Proterozoic geomagnetic field than commonly assumed."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120172",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geomagnetism & Paleomagnetism",
@@ -1462,7 +1521,12 @@ const reports = [
         "title": "Fractures regulate coupled dissolution-precipitation dynamics: Regime map, optimal fracture conductance, and clogging",
         "doi": "10.1016/j.epsl.2026.120163",
         "authors": "Agnieszka Budek, Piotr Szymczak, Peter K. Kang",
-        "keyPoints": [],
+        "abstract": "The interplay between dissolution and precipitation reactions critically governs the long-term evolution of geologic media, yet the role of fractures in shaping these dynamics remains poorly understood. Here we employ a pore-network modeling framework that explicitly represents both matrix pores and a through-going fracture to investigate coupled dissolution-precipitation processes. We show that fractures fundamentally alter system behavior, for example, by promoting extensive precipitation through side-branching instabilities. A comprehensive parametric study reveals three distinct regimes–passivation, side branching, and uniform replacement–emerging as functions of the Damköhler number and the Fogler number. Importantly, we identify an optimal fracture-to-matrix conductance ratio that maximizes secondary mineral deposition, whereas either absent or overly dominant fractures suppress precipitation. We also demonstrate that fractures can mitigate system clogging by redistributing precipitation away from the primary flow path into side branches. Under both constant flow and constant pressure inlet conditions, fractures reduce the likelihood of clogging by altering flow and reactive pathways. These results underscore the pivotal role of fractures in governing feedbacks among flow, transport, and reactions, with direct implications for geological processes such as diagenesis, ore formation, and carbon mineralization.",
+        "keyPoints": [
+          "Pore-network models identify passivation, side-branching, and uniform-replacement regimes and an intermediate fracture conductance that maximizes secondary mineral precipitation.",
+          "Fractures can reduce clogging by diverting precipitation from main flow paths, clarifying reactive-transport feedbacks relevant to diagenesis, ore formation, and carbon mineralization."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120163",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Crustal Fluids & Porous Media",
@@ -1478,7 +1542,12 @@ const reports = [
         "title": "Geomorphic imprint of an Early Pleistocene uplift phase of the Andean forearc and its underlying mechanisms",
         "doi": "10.1016/j.epsl.2026.120155",
         "authors": "Conrado Gianni, Paolo Ballato, Taylor Schildgen, Guido Gianni, Hella Wittmann, Daniel Melnick, Claudio Faccenna",
-        "keyPoints": [],
+        "abstract": "The Central Andes forearc preserves extensive low-relief marine and continental landforms that record long-term margin uplift, yet the timing and driving mechanisms of this deformation remain debated. Here we present eleven new in situ ¹⁰Be exposure ages from high fluvial terraces and four ages from a lower terrace, combined with geomorphic analyses across eight adjacent catchments (29.5–32.5°S), to reassess the chronology and tectonic significance of the degradational surfaces (pediplains). Exposure ages indicate that the high terrace was abandoned between ∼1 and 2 Ma (Early Pleistocene), while a lower terrace records a subsequent incision phase at ∼0.4–0.8 Ma. Morphometric analysis reveals a systematic upstream-decreasing pediplain relief pattern that terminates within the surface projection of the 50–55 km slab-depth contour, a region coincident with the downdip limit of megathrust Domain–C and deep coseismic deformation. In peninsular settings, notably the Altos de Talinay, this long-wavelength signal is overprinted by short-wavelength uplift likely related to localized underplating. Integrating our findings into a regional perspective, we identify a continuous Early Pleistocene uplift phase spanning a large segment of the Andean margin, from 16° to 42°S. This orogen-scale emergence implies a subtle but widespread change in subduction dynamics during the last ∼2 Myr.",
+        "keyPoints": [
+          "Cosmogenic exposure ages and catchment morphology date widespread Andean forearc uplift to 1–2 Ma, followed by later incision, with localized short-wavelength underplating signals.",
+          "The continuous orogen-scale uplift phase implies a subtle but widespread change in subduction dynamics during the past two million years."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120155",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Surface Processes & Geohazards",
@@ -1495,7 +1564,12 @@ const reports = [
         "title": "Gravity and seismic constraints on plate flexure and mantle rheology along the whole Louisville Ridge",
         "doi": "10.1016/j.epsl.2026.120171",
         "authors": "Chong Xu, Anthony Brian Watts",
-        "keyPoints": [],
+        "abstract": "Louisville Ridge in the southwest Pacific Ocean is a ∼4300-km-long chain of submarine volcanoes generated at a hotspot presently located between the Heezen and Tula Fracture Zones. Plate kinematic studies indicate that the Louisville Ridge and Hawaiian-Emperor seamount chain (HESC) share similar smooth trends and bend ages (∼47 Ma), implying rigid plate behavior of the Pacific plate as a whole. However, previous studies of elastic thickness Te, a proxy for the rigidity, yield variable results for the ridge. Here we use seismic refraction data acquired along a ‘dip’ and ‘strike’ line north of the bend, together with ∼1900 estimates of Te derived from gravity data, to show that Te is low (6–10 km) at the northern end of the ridge and then increases to ∼26 km near the main bend (∼169.05°W, 37.65°S). These observations are consistent with the hypothesis that Te is dependent on age, and hence thermal and mechanical structure of the Pacific plate, at the time of volcano loading. However, the isotherm that controls Te (∼282 °C) is lower than at both the HESC (∼350 °C) and the bend-fault region of the proximal Tonga-Kermadec trench – outer rise system (342±35 °C). We examine here the implications of a weak zone within an otherwise rigid Pacific plate for models of brittle and ductile flow at lithospheric conditions based on extrapolations of data from experimental rock mechanics and for subduction initiation models where large downward flexures of oceanic and mantle crust may extend some thousands of km from a trench almost to a ridge.",
+        "keyPoints": [
+          "Seismic and roughly 1,900 gravity estimates show Louisville Ridge elastic thickness rising from 6–10 km at its northern end to about 26 km near the bend as loading-age lithosphere changes.",
+          "The unusually low controlling isotherm identifies a weak zone within the Pacific plate with implications for lithospheric flow and subduction-initiation models."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120171",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geodesy & Crustal Deformation",
@@ -1515,7 +1589,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120174",
         "authors": "Romain Sauvalle, Manuel Moreira, Bruno Scaillet, Nathalie Feuillet, Camille Gasser, Stephan J. Jorry",
         "abstract": "The origin of intraplate magmatism remains a subject of active debate. Recent volcanic activity offshore Mayotte, the easternmost volcanic island of the Comoros archipelago, has reignited extensive scientific investigations aimed at better understanding the geodynamic context of the region. Two main hypotheses are generally invoked to explain the observed volcanic activity: one involves a mantle plume, while the other attributes the magmatism primarily to tectonic processes, possibly linked to the offshore prolongation of the East African Rift System. However, both models present limitations. Noble gases are powerful tracers for distinguishing between these scenarios, as mantle plumes typically exhibit distinct isotopic signatures. We conducted step-crushing analyses on pristine glassy samples from the most recent (2018–2021) submarine volcanic edifice of Mayotte named Fani Maoré. The noble gas isotopic systematics of the Fani Maoré lavas are strikingly similar to a MORB-like mantle, casting doubt on a significant chemical contribution from a mantle plume. Instead, we favor a tectonically triggered, shallow origin, for the magmatism in the Comoros. Initiation of rifting in the region, coupled with edge-driven convection at the base of the lithosphere, can induce low-degree partial melting in the upper mantle without the thermal contribution of a mantle plume. The Comorian lithosphere is old and metasomatized, potentially hosting fertile heterogeneities. Preferential melting of these heterogeneities can explain the non-MORB-like lithophile isotopes while preserving MORB-like noble gas signatures. This mechanism provides a coherent explanation for intraplate magmatism in the region and could be applicable to other oceanic intraplate magmatic provinces.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Noble-gas isotopes from 2018–2021 Fani Maoré glasses resemble MORB mantle and provide no evidence for a substantial mantle-plume chemical contribution.",
+          "Rifting, edge-driven convection, and preferential melting of fertile lithospheric heterogeneities offer a coherent shallow tectonic origin for Comoros intraplate volcanism."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120174",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1534,7 +1612,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120182",
         "authors": "Yan Li, Wei Hu, Yi Ge, Heng Liang, Mauri McSaveney",
         "abstract": "The 1991 Touzhai catastrophic rock avalanche, merely moderate in scale (∼9 million cubic meters), exhibited extraordinary hypermobility, flowing rapidly across a disproportionately long distance of over 3 kilometers and causing 216 fatalities. The hypermobility of this event, like other large-scale rock avalanches, remains a long-standing enigma. Specifically, it is challenging to explain how such a rock mass can travel at high speeds over long distances along a valley with an average gradient (∼14.7°) far gentler than the material’s friction angle (∼37°). Herein, we conducted high-velocity rotary-shear experiments to simulate the shear behavior of the Touzhai rock avalanche. Tests were performed on source basalt samples under representative normal stresses and a wide range of shear velocities. With increasing shear velocity, the friction coefficient drops from approximately 0.75 to 0.20. This distinct high-velocity weakening closely parallels the comminution dynamics of the basalt grains. Crucially, we suggest that the fragmentation potential (influenced by its intrinsic mineralogy, and extrinsic weathering and moisture conditions) substantially influences this weakening process. Based on the Weibull particle breakage theory, we quantified how the material state determines the grain crushing potential. Our results reveal that a fragile material state, characterized by heterogeneous microscale flaws and wetting-induced strength degradation, accelerates the transition to low-friction flow. With experimental results and mechanistic insights, we successfully reproduced the hypermobility of the Touzhai rock avalanche via numerical simulation, offering a physics-based framework for understanding the widely observed hypermobility of mega-landslides.",
-        "keyPoints": [],
+        "keyPoints": [
+          "High-speed shear experiments reproduce a friction drop from about 0.75 to 0.20 as wet, flaw-rich Touzhai basalt undergoes extensive grain fragmentation.",
+          "Fragmentation-controlled weakening provides a physics-based explanation for the exceptional mobility of the Touzhai avalanche and other large rockslides."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120182",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Surface Processes & Geohazards",
@@ -1552,7 +1634,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120178",
         "authors": "Junjie Hao, Yuqi Huang, Ying Liu, Max Moorkamp, Haijiang Zhang",
         "abstract": "The southeastern margin of the Tibetan Plateau, situated at the tectonic intersection of the oblique collision between the Indian and Eurasian plates, exhibits prominent features of crustal shortening, lateral block extrusion, and partial melting associated with Cenozoic intracontinental deformation. It constitutes a key area for studying the formation and evolution of the Tethys tectonic belt, providing crucial constraints on the uplift and growth of the plateau. Although there are many seismic velocity models with variable resolutions for the region, the effective integration between seismic velocity models and geological interpretations remains limited, hindering a more complete understanding of lithospheric structure and tectonic evolution. To address this issue, we developed a new body-wave travel time tomography method constrained by the variation of information, which enhances the correlation among different velocity properties. By applying this method to the southeastern margin of the Tibetan Plateau, we obtained intrinsically consistent Vp, Vs, and Vp/Vs models with a lateral resolution of 0.2°. Compared with previous studies, our results exhibit significantly improved correlation between Vp and Vp/Vs models. To further interpret the velocity models, we applied the feature-weighted clustering algorithm to identify physically coherent domains. Based on the clustering results, we can divide the lithosphere of the region into distinct geological domains, which is helpful for constructing the tectonic framework of the southeastern Tibetan Plateau. Overall, this new tomography method, combined with the clustering analysis, establishes a geological modeling framework that can bridge the gap between seismic velocity models and geological models.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Information-variation-constrained travel-time tomography produces internally consistent Vp, Vs, and Vp/Vs models at 0.2° resolution and clustering identifies coherent lithospheric domains in southeastern Tibet.",
+          "Combining correlated seismic properties with feature-weighted clustering bridges velocity inversion and explicit geological modeling of plateau structure."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120178",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismic Imaging & Inversion",
@@ -1571,7 +1657,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120197",
         "authors": "Zhaode Yuan, Gang Hu, Tao Li, Zhigang Li, Jintang Qin, Yashi Sui, Feng Yin, Jingxing Yu",
         "abstract": "Unveiling the earthquake recurrence behavior of active faults and their controlling factors, as well as the potential maximum earthquake sizes that have occurred along these faults, is essential for regional seismic hazard assessment and disaster mitigation. One effective approach to achieve this is to obtain long-term seismic records and compare paleoseismic data from various sites along the fault. In this study, we excavated a 13.5-m-deep trench at the Wuzunxiao site on the Altyn Tagh fault (ATF) and identified thirteen paleoearthquakes over the past 8500 years. The average recurrence interval (RI) of these events is 601± 529 yr with a coefficient of variation (COV) of 0.90, indicating a weak quasi-periodic (irregular) recurrence. Comparison of our paleoseismic data at the Wuzunxiao site with other records along the central ATF indicates that up to 17–36% of the seismic events are shared with the adjacent Xorkoli section, breaching the Pingding Shan geometric barrier. This probability is comparable to the passing probability estimated by a logistic model constructed from fine-scale historical surface rupture maps. The irregular recurrence behavior of paleoearthquakes in the Wuzunxiao section, as well as the alternating occurrence of multi-section joint ruptures and single-section ruptures revealed by paleoseismic data comparisons, is likely controlled by the Pingding Shan earthquake gate.",
-        "keyPoints": [],
+        "keyPoints": [
+          "A deep trench records 13 Altyn Tagh earthquakes over 8,500 years with a 601 ± 529 year mean interval and irregular recurrence; 17–36% also ruptured the adjacent section.",
+          "The Pingding Shan geometric gate likely controls alternation between single-section and multi-section ruptures, informing long-term seismic-hazard assessment."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120197",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismology & Earthquake Processes",
@@ -1589,7 +1679,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120188",
         "authors": "Graeme Eagles",
         "abstract": "Cenozoic plate divergence across the West Antarctic Rift System, important for understanding the role of Pacific plate motion in generating the prominent ∼47 Ma bend in the Hawaii–Emperor seamount chain, is inferred and calculated using model estimates of relative motions between the plates of eastern and western Antarctica and their neighbours. Problematically, basin-fill and melt products that might confirm inferred pre-bend divergence are unknown, whilst calculations of post-bend motion have come to infer much of the rift system in the deep Antarctic interior was a collision zone. This work presents updated plate kinematic models based on improved satellite altimeter data that combine, within estimated confidence and at high temporal resolution, to replicate the extent of subglacial extensional rift basins in West Antarctica and the mid-Eocene (∼45 Ma) maximum ages of Cenozoic magmatic rocks associated with them. Consistent with the absence of older rift-related rocks, the new models do not recapitulate their predecessors’ inferences of a Paleocene onset or phase of intra-Antarctic divergence, but may instead offer a context to diverse lines of evidence for pre-Eocene plate convergence within Zealandia. Without Paleocene divergence in Antarctica, absolute motion of the Pacific plate can be expected to have changed little at the time of the Hawaii–Emperor bend, as implied by the uneventful Pacific–Antarctic relative motion path derived from the new models. Future work on the causes of the bend should therefore focus on processes responsible for migration of the Hawaii hotspot relative to the Pacific mantle.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Updated plate reconstructions reproduce West Antarctic rift basins and Eocene magmatism without requiring Paleocene intra-Antarctic divergence or a Pacific-motion change at the Hawaii–Emperor bend.",
+          "The bend's origin should therefore be sought primarily in migration of the Hawaiian hotspot relative to the Pacific mantle rather than Antarctic plate divergence."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120188",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1606,7 +1700,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120168",
         "authors": "Alice Girani, Sylvain Petitgirard, Sergey Yaroslavtsev, Georgios Aprilis, James Badro, Antoine Bézos, Hugh St. C. O’Neill, Paolo A. Sossi",
         "abstract": "The Earth’s mantle has elevated Fe 3 + relative to those of other rocky bodies, a property thought to reflect the disproportionation of ferrous iron into its metallic and ferric counterparts during core formation at elevated pressures. However, whether more massive planets (‘super-Earths’) become increasingly oxidised is poorly known for lack of constraints on the oxidation- and electronic state of iron at extreme pressures. We present in-situ energy-domain synchrotron Mössbauer spectra of 57 Fe-enriched peridotitic- and basaltic glasses at 298 K compressed from 1 bar to 174 GPa in a diamond anvil cell. Three glasses were synthesised with different Fe 3 + /[Fe 3 + + Fe 2 + ] ratios; 0.02 ± 0.02 (Fe 2 + -basaltic, peridotitic) and 1.00 ± 0.02 (Fe 3 + -basaltic), respectively, as determined by colourimetry. While the spectrum of pure Fe 3 + -basaltic glass shows minimal changes in its hyperfine parameters up to 174 GPa, the spectra of Fe 2 + -peridotitic and basaltic glasses are fit by two doublets, D 1 and D 2 . At 1 bar, their relative intensities are ∼ 92 % and ∼ 8 %, respectively, but the integral area ratio, D 2 /(D 1 + D 2 ), reaches 0.65 by 172 GPa. Because this transition is reversible with pressure and no metallic iron is detected, the D 2 feature is ascribed to Fe 2 + in its low spin (LS) state, whereas D 1 is consistent with Fe 2 + high spin (HS). The Fe 3 + /[Fe 3 + +Fe 2 + ] of planetary mantles at constant relative f O 2 increases to a maximum near ∼ 40 GPa, before decreasing at higher pressures due to the stabilisation of Fe LS 2 + . This peak coincides with estimated core-mantle equilibrium on Earth, implying that its uniquely oxidised mantle and habitable state may result from core formation within a Goldilocks pressure range. Secondary atmospheres are predicted to transition from H 2 -rich for Moon-sized bodies, to CO-rich for Earth-like planets and H 2 - and CH 4 -bearing around super-Earths and sub-Neptunes.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Mössbauer spectra to 174 GPa show reversible stabilization of low-spin Fe2+, causing predicted mantle ferric-iron fractions to peak near 40 GPa and decline at higher pressure.",
+          "Earth's core-formation pressure may occupy a narrow oxidation optimum, whereas larger planets retain more reduced mantles with different secondary atmospheres."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120168",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Deep Earth Structure & Dynamics",
@@ -1623,7 +1721,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120114",
         "authors": "Grant A. Block, Mousumi Roy, Brandon Schmandt",
         "abstract": "We present evidence from GNSS timeseries for decadal-scale cycles of spatially anticorrelated vertical motions at the Yellowstone Volcanic Field (YVF). Regions within the present-day caldera are nearly 180 ∘ out-of-phase with a station group located within ≈ 30 km outside the caldera rim, with repeating cycles of uplift and subsidence during 2000–2025. The duration of each cycle decreases over the observation period. We present geodynamic models demonstrating that YVF surface motions are consistent with a regionally-extensive weaker-than-ambient “compliant region” (CR) in the crust, approximately coincident with a low V s anomaly surrounding the present-day Yellowstone caldera. Decadal-scale anticorrelated motions evident in smoothed GNSS timeseries are consistent with both the presence of the CR and pressurization within a sill-like sub-caldera magma reservoir. This is a tabular source located at ≈ 4 km depth beneath the Sour Creek and Mallard Lake resurgent domes, within the previously-imaged lowest V s region and coincident with a recently-imaged high seismic reflectivity feature. Intra-caldera motions are strongly controlled by this upper source. A second source in the lower crust ( ≈ 24 km depth), below and offset from the upper source toward the northwest, is required to explain the amplitude of anticorrelated motions outside the caldera. Assuming a pressurization history derived from averaged caldera-floor motions, we explore a range of viscoelastic rheological parameters for the CR and demonstrate that it provides crucial context for interpreting long-term, regional deformation at YVF and likely also at other long-lived magmatic centers.",
-        "keyPoints": [],
+        "keyPoints": [
+          "GNSS observations and geodynamic models reproduce Yellowstone's anticorrelated decadal motions with a weak crustal region pressurized by shallow and lower-crustal magma sources.",
+          "Regional crustal compliance is essential for interpreting long-term deformation at Yellowstone and may also govern motions at other long-lived magmatic centers."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120114",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1641,7 +1743,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120117",
         "authors": "Zhihua Xiong, Noriko T. Kita, Michael C. Jollands, James A. Van Orman",
         "abstract": "Diffusion is an important high-temperature isotope fractionation process in Earth and planetary interiors, but there are few constraints on the magnitude of the diffusional isotope effect or its dependence on ionic parameters. Here, we present the first experimental investigation on the mass dependence of Cr isotope diffusion in olivine, and how it varies with Cr valence state. Diffusion experiments performed on forsterite over a wide range of oxygen fugacity conditions were analyzed using high-precision second ion mass spectrometry (SIMS) to obtain profiles of total Cr concentration and Cr isotope ratios (δ 53/52 Cr). Our results demonstrate that the dependence of Cr diffusion on isotope mass is large and that it varies with valence state. Where the ratio of isotope diffusion coefficients depends inversely on their mass ratio raised to the power β, we find that β increases linearly with the proportion of Cr 3+ . Based on this dependence, we obtain β values of 0.315 ± 0.003 for Cr 3+ and 0.114 ± 0.008 for Cr 2+ . Using the experimentally derived β values, we modeled diffusion-limited Cr isotope exchange between olivine and spinel during subsolidus cooling. In slowly cooled cumulate and ophiolite samples, olivine is often isotopically heavier than spinel, opposite to the sense of equilibrium fractionation. We show that partial diffusional re-equilibration during cooling, with Cr diffusing from olivine to spinel, can partially account for these disequilibrium signatures.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Diffusion experiments show a strong valence-dependent chromium isotope effect in olivine, with mass-dependence factors of 0.315 for Cr3+ and 0.114 for Cr2+.",
+          "Partial diffusive re-equilibration during cooling can explain why natural olivine is often isotopically heavier than spinel, opposite to equilibrium predictions."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120117",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geochronology & Isotope Geochemistry",
@@ -1657,7 +1763,12 @@ const reports = [
         "title": "Metasomatic fluids from subducted oceanic crust: Evidence from isotopic composition of potassium in Sierra Leone diamonds",
         "doi": "10.1016/j.epsl.2026.120124",
         "authors": "Oded Elazar, Yaakov Weiss, Lauren Tafla, Peng Ni, Steven B. Shirey",
-        "keyPoints": [],
+        "abstract": "Deep-seated fluids are critical evidence of mass transfer in Earth’s mantle and play a key role in diamond formation. However, how such fluids derive their volatiles from recycled surficial components remains unclear. High-density diamond-forming fluids (HDFs), enriched in K2O, offer an exceptional opportunity to investigate surface material recycling into the mantle because they are protected from extensive reactions with magmas by the host diamond. Here, we present new stable potassium isotope measurements of HDFs trapped within diamonds from the Koidu mine in Sierra Leone. The diamonds trap silicic to low-Mg carbonatitic HDFs that are genetically linked to the partial melting of volatile-bearing eclogites. The morphology of HDF-bearing diamonds, coupled with their nitrogen aggregation state and major element variability, suggests episodic growth history. The HDFs trapped within the diamonds are characterized by relatively low and uniform δ41K values of -0.89 ± 0.22‰ (2SD, n = 8), showing no correlation with HDF chemistry. Their δ41K values are significantly lower than oceanic basalts sourced from the convecting mantle or the kimberlite host of the diamonds. Rather, they are most consistent with an altered oceanic crust that underwent dehydration before being incorporated into the subcontinental lithospheric mantle (SCLM) during the Proterozoic or possibly the Archean. We propose that the eclogitic source rocks underwent low-degree melting shortly before kimberlite emplacement, with K-rich omphacite influencing both the major element and stable isotope compositions of the HDFs. Our results on HDFs show that non-traditional isotopes, such as K, provide new details about how eclogites can introduce and transfer fluids to the SCLM.",
+        "keyPoints": [
+          "Potassium isotopes in diamond-hosted fluids identify low-degree melting of dehydrated altered oceanic crust incorporated into Sierra Leone's lithospheric mantle.",
+          "The results demonstrate that non-traditional isotopes can trace how recycled eclogite transfers volatile-rich fluids into subcontinental lithosphere."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120124",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geochronology & Isotope Geochemistry",
@@ -1675,7 +1786,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120125",
         "authors": "I. Genot, P. Cartigny, M.D. Kurz",
         "abstract": "Whether high 3 He/ 4 He ratios in some ocean island basalts (OIB) reflect the remnant of an undegassed reservoir or the core interaction with the deep mantle is still debated. In this study, we bring additional constraints on the S origin in the high 3 He/ 4 He reservoir. We investigated submarine basaltic glasses from Fernandina volcano, Galápagos Archipelago, and from the Galápagos Spreading Center (GSC) to estimate the S-isotopic composition of the primitive mantle (high 3 He/ 4 He reservoir). We specifically extracted dissolved sulfide and sulfate, whose S-isotopic compositions reveal that these species are not in isotopic equilibrium within the glasses, producing higher δ 34 S bulk values than expected, even though bulk and sulfide ∆ 33 S remain quite similar. Sulfate S-isotope analysis thus becomes essential. Fernandina OIB and GSC MORB show δ 34 S ∼ 0 ± 0.5‰ and ∆ 33 S ∼ 0.015 ± 0.005‰ (1σ), higher than the depleted MORB mantle. After excluding samples significantly affected by S degassing and assimilation of altered oceanic crust, we propose that this 33 S and 34 S-enrichment relative to MORB in the Fernandina mantle source could result from a mixing between an ambient upper mantle (depleted mantle ± 33 S- 34 S-enriched recycled components), represented by the GSC composition, and a primitive mantle (high 3 He/ 4 He reservoir) having δ 34 S and ∆ 33 S of ∼ 0‰. This “chondritic” S-isotopic composition, in the trend of Iceland OIB, could thus reflect either the remnant of an undegassed reservoir assuming a negligible S-isotopic fractionation during core segregation, or the influence of the core (δ 34 S ∼ 0‰) on the mantle S budget.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Species-specific sulfur isotope analyses of Galápagos glasses yield near-chondritic δ34S and Δ33S estimates for the high-3He/4He mantle reservoir after screening degassing and assimilation.",
+          "The composition constrains primitive deep-mantle sulfur but remains consistent with either an undegassed reservoir or core influence."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120125",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1693,7 +1808,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120156",
         "authors": "Paolo Personnettaz, David Cébron, Nathanaël Schaeffer, Renaud Deguen, Mioara Mandea",
         "abstract": "Large earthquakes can trigger translational oscillations of Earth’s inner core (Slichter modes), yet their damping remains uncertain. Using simulations, we quantify viscous and Ohmic dissipation in the fluid outer core. Earth’s rotation splits the motion into one polar and two equatorial modes. We explore all three and derive scaling laws for the quality factor for each dissipation mechanism. Considering various dissipation regimes (diffusive, skin-layer, and Alfvén-wave radiation), we derive scaling laws that capture the damping of translational oscillations across planetary interiors. Viscous effects are negligible, confined to a thin layer at the inner core boundary. Ohmic dissipation dominates, with decay times of 4–16 years. Equatorial modes damp at least twice as fast as the polar mode. Our results suggest that Slichter modes can persist for years. Their continued non-detection is therefore more likely to reflect weak excitation or observational limitations than rapid damping.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Simulations show that Ohmic rather than viscous dissipation controls inner-core translational oscillations, with 4–16 year decay times and equatorial modes damping at least twice as fast as the polar mode.",
+          "Because Slichter modes should persist for years, their non-detection more likely reflects weak excitation or observational limits than rapid damping."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120156",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Deep Earth Structure & Dynamics",
@@ -1709,7 +1828,12 @@ const reports = [
         "title": "On the mechanism of sill emplacement in sedimented rift environments: Petrophysical properties constraints from the Guaymas Basin, Gulf of California",
         "doi": "10.1016/j.epsl.2026.120187",
         "authors": "Karina Fuentes-Bustillos, Raquel Negrete-Aranda, Juan Contreras, Florian Neumann, Ismael Yarbuh, Manet E. Peña-Salinas",
-        "keyPoints": [],
+        "abstract": "Understanding sill emplacement is key to interpreting magmatic plumbing systems and their thermal impact on sedimentary basins. Conventional models commonly emphasize mechanical contrasts, diagenetic barriers, or buoyancy forces as the primary controls on magma propagation, yet their roles in shallow, unconsolidated, water-rich sediments remain debated. We investigate sill emplacement in the active rift setting of the Guaymas Basin, Gulf of California, focusing on the Ringvent intrusion and comparing sill-affected and unaffected sites drilled during IODP Expedition 385. We integrate wireline logs, laboratory measurements, and core descriptions to characterize density, porosity, P-wave velocity, shear strength, compressibility, and opal transitions within the surrounding sediments. Our results reveal compaction-driven increases in density and strength, accompanied by decreasing porosity with depth. However, the Ringvent sill intrudes a distinct siliceous claystone interval characterized by high porosity, low yield strength, reduced seismic velocities, and ductile behavior that deviates from the regional compaction trend. This weak, porous, water-saturated horizon is embedded within a mechanically heterogeneous sedimentary column that promotes distributed deformation and inhibits vertical magma propagation. Contrary to conventional assumptions, sill emplacement in the Guaymas Basin is not controlled primarily by sharp lithological interfaces or diagenetic barriers. Instead, our observations indicate that lateral sill propagation was facilitated by finite-strain rheology, thermo-hydraulic weakening, temperature-driven softening, and pore-fluid pressurization within the host sediments. Because the measured petrophysical properties reflect present-day conditions after burial and thermal overprinting, syn-emplacement sediments were likely even weaker and more favorable for distributed deformation than observed today. These findings highlight the importance of rheological heterogeneity in controlling sill emplacement in soft, fluid-rich sediments and provide a framework for understanding magma emplacement in young sedimented rift basins, where weak, ductile horizons may localize magma intrusion and shape crustal architecture.",
+        "keyPoints": [
+          "Petrophysical data show that the Guaymas Ringvent sill occupies a weak, porous, water-rich claystone horizon and propagated laterally through finite-strain and thermo-hydraulic weakening.",
+          "Rheological heterogeneity, rather than sharp lithologic or diagenetic boundaries, can localize magma within soft sediments of young rift basins."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120187",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1727,7 +1851,12 @@ const reports = [
         "title": "Rare earth element partitioning in Hadean zircons establishes granitic magma source",
         "doi": "10.1016/j.epsl.2026.120136",
         "authors": "Xinyu Zou, Yong Zhao, Xiaocai Shan, Jilian Jiang, Ross N. Mitchell, Yi Zou, Hao Wang, Wei Yang, Zhuosen Yao, Kezhang Qin, Xian-Hua Li",
-        "keyPoints": [],
+        "abstract": "Deciphering the composition and evolution of Earth’s earliest continental crust commonly relies on reconstructing parental-melt rare earth element (REE) signatures from Hadean zircons. This approach is highly sensitive to zircon–melt REE partition coefficients (DREE). However, published zircon DREE values span orders of magnitude, leading to divergent and sometimes contradictory inferences about early crustal compositions. A major cause of this inconsistency is the lack of rigorous criteria for assessing the reliability of natural zircon DREE. Here, we compile a global dataset of natural zircon/bulk-rock pairs and adopt the lattice-strain-based δ K deviation index of Zou et al. (2019) to screen for robust DREE. Using the screened dataset, we establish recommended DREE envelopes for high-SiO2 and low-SiO2 natural systems. We evaluate recommended high-SiO2 envelope with DREE estimated from different zircon generations within the Acasta Gneiss Complex. The earliest igneous zircon population yields DREE values that fall largely within this envelope, supporting its applicability to ancient felsic zircon-forming systems. Finally, we apply the recommended high-SiO2 DREE envelope to reconstruct parental-melt REE patterns for detrital zircons from Jack Hills, Green Sandstone Bed, and Singhbhum Craton. The resulting REE signatures are most consistent with incompatible-element-enriched granitoid compositions than with TTG, Acasta-like, or Icelandic analogues. This integrated mineral-physics and big-data workflow reduces longstanding uncertainty in zircon DREE selection and provides a broadly applicable strategy for constraining plausible partition coefficients across mineral–magma systems.",
+        "keyPoints": [
+          "A lattice-strain-screened global dataset defines robust zircon–melt REE partitioning envelopes and reconstructs Hadean zircon parent melts as enriched granitoids rather than TTG-like compositions.",
+          "The workflow reduces uncertainty in early-crust reconstructions and provides a transferable method for selecting plausible mineral–magma partition coefficients."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120136",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1744,7 +1873,12 @@ const reports = [
         "title": "Reconstructing long-term landscape evolution of an uplifting mountain using cosmogenic 10Be in a sediment source–sink system",
         "doi": "10.1016/j.epsl.2026.120157",
         "authors": "Yoshimasa Ota, Yuki Matsushi, Shigehiro Katoh, Hiroyuki Matsuzaki",
-        "keyPoints": [],
+        "abstract": "Transient channel–hillslope responses to tectonic uplift have been modeled theoretically but the reconstructed history of mountainous landscape evolution has rarely been validated using direct sedimentary archives. This study demonstrated initial validation of long-term landscape evolution in an uplifting mountain range using cosmogenic 10Be analysis of quartz in fluvial sediments from both sources and sink. We focused on the Rokko Mountains and the adjacent Osaka Bay sedimentary basin in central Japan, which developed during the late Quaternary. 10Be-derived erosion rates of modern catchments vary spatially over an order of magnitude (69–731 mm kyr−1), reflecting differences in topographic steepness. The drill core recovered from the sink records a clear temporal decrease in 10Be concentrations over the past 1 Myr, spanning a range comparable to the contemporary spatial variability. This pattern reflects transient geomorphic responses of the erosive catchment to accelerated base-level lowering. We combined channel incision and hillslope erosion models to simulate knickpoint migration and associated hillslope adjustment and calculate time series of 10Be abundance in the eroded debris, thereby establishing a quantitative source-to-sink linkage. The modeled temporal curves of 10Be concentrations yielded consistent profiles with the core archive, validating long-term landscape evolution with transient responses of channel–hillslope coupled systems to accelerated tectonic forcing.",
+        "keyPoints": [
+          "Cosmogenic 10Be records from modern catchments and a one-million-year basin core are reproduced by coupled channel-incision and hillslope-erosion models of accelerated base-level lowering.",
+          "The source-to-sink agreement directly validates long-term transient landscape adjustment to tectonic forcing using a sedimentary archive."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120157",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Surface Processes & Geohazards",
@@ -1762,7 +1896,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120185",
         "authors": "Liang Zhou, Hong-Yan Li, Bo Pan, Zhong-Hai Li, Yangfan Deng, Shui-Jiong Wang, Chun Yang, Yi-Gang Xu",
         "abstract": "Global seismic tomography reveals that many subducted slabs flatten and stagnate within the mantle transition zone (MTZ), particularly beneath the western Pacific, yet how this process influences mantle material redistribution and overlying intraplate volcanism remains a fundamental question. We address this issue using integrated 40 Ar/ 39 Ar geochronology, whole-rock and mineral chemistry, and Sr–Nd–Pb–Hf isotopic analyses of basalts from the Changbaishan volcanic field (NE China), a long-lived volcanic system situated above the stagnant Pacific slab. Our results document a systematic temporal evolution over ∼22 million years. The earliest low-Ti basalts (∼22.4 Ma; 1.1–1.3 wt.% TiO 2 ) display arc-like signatures, high olivine Ca/Al (5–45) and Mn/Fe (>1.7) ratios, and elevated oxygen fugacity (∼∆FMQ+2), indicating derivation from an oxidized, carbonated peridotitic source. Subsequent high-Ti (∼21.3 Ma; 2.4–2.8 wt.% TiO 2 ) and later shield-stage basalts (∼3–1 Ma) exhibit ocean island basalt-like affinities, low olivine Ca/Al (∼5) and Mn/Fe (<1.5), and were derived from a reduced (∼∆FMQ), pyroxenite-bearing mantle source. Isotopically, the earliest basalts record a stronger contribution from recently subducted components, whereas subsequent basalts show progressively greater involvement of an ancient, enriched mantle (EM-1) component. Together with regional isotopic comparisons of Mesozoic–Cenozoic basalts, these data indicate that EM-1-like signatures became prominent mainly after ∼22 Ma in NE China. By integrating these geochemical signatures with geophysical observations, numerical modeling, and plate reconstruction evidence, we propose that Pacific slab rollback and flattening since ∼22 Ma drove upwelling of MTZ material containing resident EM-1 components. Fluids from the stagnant slab and destabilized hydrous MTZ minerals reduced mantle density, enabling buoyant ascent and decompression melting that generated the voluminous shield-stage magmas. Our findings support a close genetic linkage among slab flattening, dynamic source contributions from the MTZ, and intraplate volcanism, highlighting the MTZ as a crucial geochemical reservoir that mediates material cycling between Earth’s shallow and deep mantle domains.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Twenty-two million years of Changbaishan geochemistry record a shift from oxidized slab-derived sources to reduced pyroxenitic mantle increasingly enriched in ancient EM-1 material.",
+          "Pacific slab rollback and flattening likely drove buoyant transition-zone upwelling, linking stagnant-slab processes, deep material recycling, and intraplate volcanism."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120185",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismic Imaging & Inversion",
@@ -1780,7 +1918,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120160",
         "authors": "Peirong Zhu, Wei Leng",
         "abstract": "Detrital zircons and large igneous provinces (LIPs) serve as primary proxies for crust production and plume activity, corresponding to arc and intraplate magmatism, respectively. The U-Pb age distribution of global detrital zircons and the temporal distribution of continental LIPs both exhibit long-term periodicities linked to supercontinent cycles. However, the mechanism driving such periodicity remains elusive. Here, using a 3-D global mantle thermochemical convection model with imposed plate motion velocity boundary conditions, we investigate the effects of supercontinent cycles on mantle convection structure and plume activity over the past 2000 Ma via a deep-origin plume detection scheme. Crucially, our results demonstrate that, mediated by the evolution of Large Low-Shear-Velocity Provinces (LLSVPs), supercontinent cycles strongly modulate mantle convection, driving periodic variations in mantle structure and plume activity on a ∼400 Myr timescale. This deep-mantle periodicity provides a unified origin mechanism for surface geological records: the high power of degree-2 mantle convection related to circum-supercontinent subduction correlates directly with detrital zircon age peaks, whereas higher-degree mantle structures and plume heat flux synchronize with the temporal distribution of LIPs.",
-        "keyPoints": [],
+        "keyPoints": [
+          "A 3-D mantle thermochemical model shows that supercontinent cycles reorganize LLSVPs and plume activity with an approximately 400-million-year periodicity.",
+          "The modeled deep-mantle cycle provides a common mechanism for detrital-zircon peaks associated with degree-2 convection and LIP timing associated with plume heat flux."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120160",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1799,7 +1941,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120113",
         "authors": "Saeed Mohanna, Lingsen Meng, Alessandro Vuan, Hongyu Yu",
         "abstract": "We investigated the interplay of seismic and aseismic processes during the 2024 M w 7.5 Noto Peninsula earthquake sequence. Comparing pore fluid pressure evolution from prior swarm activity with Coulomb stress perturbations from the 2023 M w 6.3 sequence, we find that high pore pressure likely played a more significant role in triggering the 2024 mainshock than elastic triggering. Using our template matching catalog for the 2024 sequence and existing slip models, we show that physical drivers vary spatially. To validate our interpretations, we modeled the temporal evolution of background seismicity rates in the 2020–2025 Japan Meteorological Agency catalog. Static stress changes from the mainshock contributed to early seismicity, with strong effects in the southwest. The southwest and central zones exhibit signs of migrating afterslip, while the northeastern seismicity is primarily driven by more localized afterslip. Using evidence of swarm cessation in the central zone, we found that the Noto Peninsula experienced poroelastic rebound effects after pressure release, consistent with a cyclical fault-valving mechanism.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Seismicity catalogs, slip models, and stress analysis indicate that high pore pressure was more important than elastic triggering for the 2024 Noto mainshock, while afterslip controls varied spatially afterward.",
+          "Swarm cessation and poroelastic rebound support a cyclical fault-valving mechanism linking aseismic pressure release to the earthquake sequence."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120113",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Earthquake Rupture & Seismicity",
@@ -1815,7 +1961,12 @@ const reports = [
         "title": "Taking the temperature of the Hawaiian plume using multiple geochemical approaches: Evidence for secular heating from 47 Ma to present",
         "doi": "10.1016/j.epsl.2026.120055",
         "authors": "Michael O. Garcia, Keith D. Putirka, Jonathan P. Tree, Brian R. Jicha",
-        "keyPoints": [],
+        "abstract": "Volcanoes along the Northwest Hawaiian Ridge (NWHR) provide a superb venue for testing hypotheses that might explain the large observed fluctuations in the Hawaiian plume magmatic flux. Four testable causes for magmatic output variation were considered: Changes in lithosphere thickness, source composition (fertility), Pacific plate propagation rate and plume temperature. The source composition and plate thickness were nearly constant for most of the NWHR history. Plate velocity increased at ∼25 Ma from 57 to 87 km/Myrs, but no correlation was found with volcano volume. Plume temperature variations are evaluated here using multiple geochemical approaches to estimate mantle potential temperature (Tp) to within 40 °C. Olivine basalts from 14 NWHR, Mauna Loa and Mauna Kea volcanoes were studied. New volume estimates for all NWHR volcanoes and new 40Ar/39Ar ages for three volcanoes are presented. These results allow us to evaluate the possible relationships between volcano volume and age with Tp. Our calculations show that only the largest volcanoes (>70 × 103 km3) are associated with high Tp (≥1600 °C). Hawaiian plume temperature apparently increased ∼250 °C since 47 Ma, contrary to the conventional notion of a mantle plume cooling over its lifespan. In addition, two major surges in magma flux occurred: One at ∼14–20 Ma (centered at Pūhāhonu, the largest Hawaiian volcano) and at 0–6 Ma (the Hawaiian Islands). The Pūhāhonu surge probably caused its prolonged shield stage (>1.8 Myrs). The overall heating of the Hawaiian mantle plume is possibly related to drifting of thermochemical domains in the lowermost mantle.",
+        "keyPoints": [
+          "Geochemical thermometry across the Hawaiian chain indicates that plume temperature rose by about 250 °C since 47 Ma and peaked during two major magma-flux surges.",
+          "The secular heating and flux history favor changing deep thermochemical domains over plume cooling, plate speed, lithospheric thickness, or source fertility as the main control."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120055",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Volcanology & Magmatism",
@@ -1833,7 +1984,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120098",
         "authors": "A. Vega-Ruiz, V. Delgado, S. Racano, R Clementucci, V. Veliz-Borel, M. Espinoza, A. Encinas, D. Melnick, R. Larregla, C. Asenjo, P. Zambrano",
         "abstract": "The landscape evolution of forearc ranges along sediment-rich convergent margins, such as the Patagonian Coastal Range, is strongly influenced by deep-seated accretionary processes. The Nahuelbuta Range is the fastest uplifting and exhuming sector of the Northern Patagonian margin. Thermochronology and stratigraphic markers suggest an uplift onset across a 100-km-wide zone between ∼6 Ma and ∼2 Ma. However, uplift mechanisms remain debated, and rates are constrained only for the last ∼0.30 Myr, given by emerged marine terraces. Furthermore, dense vegetation and weathering have hindered fault mapping, limiting the understanding of the Nahuelbuta Range tectonic uplift history. We combined new surface geomorphic mapping, morphometric drainage analysis, and river-inversion modeling to explore the tectonic and climatic influences on the landscape evolution of the Nahuelbuta Range. We identify a low-relief relic landscape atop the Range, now warped and dissected by fluvial incision and faults. High morphometric anomalies and microseismicity align with trench-perpendicular faults, suggesting ongoing north-south shortening. River-inversion modeling shows uplift and topographic rejuvenation of the Range between 3 Ma and 2.5 Ma, followed by two later discrete uplift episodes. These uplift transients correlate with Late Pliocene to Pleistocene glacial expansion and the following travel time along the subduction channel of delivered sediments. The location and scale of uplift transients match predictions for those of tectonic underplating. We propose that glacially-driven tectonic underplating drives the oscillatory Quaternary uplift of the Nahuelbuta Range, while ongoing north-south shortening enhances trench-perpendicular fault reactivation. Seismic imaging of the sediment-rich subduction channel and microseismicity patterns supports this interpretation. ▪ Mapping and river modeling reveal a warped, low-relief relic surface atop the Nahuelbuta Range, abandoned between 3 Ma and 2.5 Ma, indicating the onset of rapid uplift. ▪ Drainage anomalies and microseismicity align with WSW- and ENE-trending inferred reverse faults, suggesting ongoing trench-parallel shortening. ▪ The timing of the three modeled long-wavelength uplift pulses correlates with Late Cenozoic glacial expansions. ▪ The scale and duration of uplift align with cycles of tectonic underplating, suggesting a combined role of glacially modulated basal accretion and trench-parallel shortening.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Geomorphic mapping and river inversion identify rapid Nahuelbuta uplift beginning 3–2.5 Ma followed by two pulses associated with underplating and ongoing north–south shortening.",
+          "The timing and scale suggest that glacially modulated basal accretion drove oscillatory Quaternary forearc uplift while reactivating trench-perpendicular faults."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120098",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismic Imaging & Inversion",
@@ -1851,7 +2006,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120154",
         "authors": "Patrick Bianchi, Paul Antony Selvadurai, Antonio Felipe Salazar Vásquez, Claudio Madonna, Stefan Wiemer",
         "abstract": "We investigate how fluid pre-conditioning (FP) influences the reactivation and nucleation behavior of a critically stressed laboratory fault during fluid pressurization. Six reactivation experiments were performed on a saw-cut cylindrical sample of Rotondo granite confined at 20 MPa. Fault-parallel and axial deformation were monitored using distributed strain sensing (DSS) with optical fibers, complemented by active and passive measurements from sixteen piezoelectric transducers to track P-wave velocity variations associated with fluid migration and to detect acoustic emissions. FP substantially modifies fault reactivation behavior. Pre-conditioned tests exhibit a smoother and more spatially distributed reduction in effective normal stress at the onset of rapid pressurization, consistent with a relatively drained response at the fault scale. During the rapid pressurization ramp, FP tests show a subtle directional dependence in accelerated deformation, with slip preferentially developing where effective stress is reduced more strongly. This behavior is consistent with preferential fluid pathways inferred from ultrasonic velocity variations measured in separate fault-flooding characterization experiments. In contrast, non-pre-conditioned rapid pressurization is more consistent with a relatively locally undrained response, in which stronger effective-stress gradients preserve shear-resistance heterogeneity and promote slip barriers, foreshock activity, and more complex nucleation dynamics. These observations demonstrate that injection-driven reactivation is governed not only by pore-pressure magnitude but by the spatiotemporal distribution of permeability and effective stress established before and during rapid pressurization. Our results provide experimental constraints for models coupling pressurization regime, permeability heterogeneity, and rupture nucleation, with implications for safer geoenergy operations.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Laboratory fault experiments show that fluid pre-conditioning creates distributed permeability and effective-stress reduction, producing smoother reactivation than rapid pressurization of an unconditioned fault.",
+          "Injection-induced nucleation depends on the prior spatial distribution of permeability and stress, providing constraints for safer geoenergy pressurization models."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120154",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Earthquake Rupture & Seismicity",
@@ -1868,7 +2027,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120184",
         "authors": "Toru Nakajima, Shigeru Sueoka, Shoma Fukuda, Georgina E. King, Takahiro Tagami",
         "abstract": "Recent advancements in “ultra-low temperature” thermochronology have enabled exploration of the thermal evolution of the upper ∼2 km of the crust, with monazite fission-track (MFT) thermochronology emerging as a promising approach. However, the thermal sensitivity of MFT has mainly been verified through laboratory experiments, without considering geological timescales (10 6 –10 8 years). In this study, we investigated the thermal sensitivity of MFT over geological timescales by analyzing the crustal depth profile of the MFT length from a well-documented thermally stable crustal environment at the German Continental Deep Drilling Program (the KTB). The mean MFT length of the KTB core shows a gradual decrease from the shallow part (9.56 μm at 10 m depth) to the deep part (5.50 μm at 2725 m depth). This result suggests that the MFTs have been annealed depending on the holding temperature of each sample between 25 and 100 Myr. The MFT length profile observed in the KTB suggests that the partial annealing zone of the MFT system is approximately from ≤30 °C up to ∼80 °C over geological timescales. The results of this study support the suggestion of previous research that MFT can be employed as an ultra-low temperature thermochronometric method. On the other hand, the temperature range of the partial annealing zone is likely to be narrower than predicted from extrapolation of short-term annealing experiments using artificial semi-tracks by previous research. The existing annealing models should be reviewed using short-term annealing data using confined tracks and long-term natural annealing data, including the results of this study.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Monazite fission-track lengths decrease systematically down the KTB borehole, defining a geological-timescale partial annealing zone from at most 30 °C to roughly 80 °C.",
+          "The natural profile supports ultra-low-temperature thermochronology but indicates that existing short-term experimental annealing models need revision."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120184",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Geochronology & Isotope Geochemistry",
@@ -1885,7 +2048,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120169",
         "authors": "Jérôme Dyment, Florent Szitkar, Fei Zhou, Javier Escartin, Nicolas Chamot-Rooke, Yujin Choi, Masako Tominaga, Alexandre Janin, Cédric Bulois",
         "abstract": "The magnetic signature of Oceanic Core Complexes (OCCs) remains elusive. Only a few magnetic surveys exist, and their interpretation is complex due to the multiple rock types, insufficient coverage and resolution, and magmatic processes subsequently modified by tectonic deformation. For some of the best studied OCCs along the Mid-Atlantic Ridge at 13°N, this is further complicated by the fact that N-S trending magnetized features near the magnetic Equator generate low amplitude anomalies. We present two magnetic data sets to unravel the deep structure of the OCCs and their magmatic variability. The first case, from the high-resolution bathymetric and magnetic surveys of the MAR 13°N OCCs, reveals magnetized bodies within the OCC domal structure, interpreted here as gabbro bodies and truncated dykes. The second case is from sea-surface magnetic anomalies collected over large OCCs of the Carlsberg Ridge that unambiguously record geomagnetic reversals, pointing instead to a continuous gabbro layer and truncated dykes as the most likely source of magnetization. Our results underline the major role of gabbro bodies and truncated dykes, cooled in the neovolcanic zone and carried off-axis as the footwall progressively exhumes, in shaping the magnetic anomalies observed above OCCs, and the variability in the emplacement of these bodies among different detachment systems.",
-        "keyPoints": [],
+        "keyPoints": [
+          "High-resolution magnetic surveys identify gabbro bodies and truncated dykes within Mid-Atlantic oceanic core complexes, while Carlsberg Ridge data favor a continuous gabbro layer plus truncated dykes.",
+          "Off-axis transport of variably emplaced gabbro and dykes explains diverse core-complex magnetic anomalies and improves interpretation of detachment systems."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120169",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1902,7 +2069,12 @@ const reports = [
         "title": "The petrological evolution of Earth’s solidifying magma ocean from experimental melting phase relations",
         "doi": "10.1016/j.epsl.2026.120159",
         "authors": "Héloïse Gendre, James Badro, Charles-Édouard Boukaré, Sebastian Cozma, Cécile Hébert, Pau Toruella, Duncan T.L. Alexander, Nicolas Wehr, Stephan Borensztajn",
-        "keyPoints": [],
+        "abstract": "Understanding the crystallisation of silicate melts at lower mantle conditions is essential for constraining the petrological and chemical evolution of planetary magma oceans. In this study, we investigated the solidification of a pyrolitic melt through fractional crystallisation experiments in the laser-heated diamond anvil cell coupled with thermodynamic modelling. Fifteen experiments were conducted to establish the melting phase diagrams of pyrolite at four lower mantle pressures (53, 87, 107, 133 GPa). The data were then used to fit the parameters of a self-consistent thermodynamic model in the FeO-MgO-SiO2 ternary, which was then applied to calculate the crystallisation sequences of a pyrolitic melt as it solidifies in the deep mantle down to the core-mantle boundary. We confirmed that bridgmanite is the first mineral to crystallise (liquidus phase) in a pyrolitic magma ocean in this entire pressure range, followed by ferropericlase and, in the final stage of crystallisation, calcium silicate perovskite. Our results reveal a strong enrichment of the residual melt in iron oxide, which grows with pressure showing that FeO becomes increasingly incompatible (with depth) in lower mantle phases. The resulting dense, iron-rich melts provide a petrological basis for their accumulation at the base of the mantle, giving rise to a basal magma ocean in the final stages of magma ocean solidification.",
+        "keyPoints": [
+          "High-pressure melting experiments and thermodynamic modeling show that bridgmanite crystallizes first throughout the lower mantle, followed by ferropericlase and calcium silicate perovskite.",
+          "Increasing iron enrichment of residual melt with depth provides a petrological mechanism for forming a dense basal magma ocean late in Earth's solidification."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120159",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1919,7 +2091,12 @@ const reports = [
         "title": "The role of plate tectonic-like behaviour in the long-term climate evolution of Earth",
         "doi": "10.1016/j.epsl.2026.120193",
         "authors": "Takashi Nakagawa",
-        "keyPoints": [],
+        "abstract": "This study investigates the long-term evolution of Earth’s climate by coupling a simplified atmosphere–ocean model with a carbon cycle that includes the deep interior (deep carbon cycle). Unlike previous studies that relied on parameterised thermal histories, carbon release fluxes here are computed using fully dynamic mantle convection simulations, encompassing mid-ocean ridges, hotspots and subduction-related arc volcanism. Two tectonic regimes are examined: a mobile-lid mode representing plate tectonics and a stagnant-lid mode lacking plate motion. Results indicate that the mobile-lid regime sustains a stable, temperate climate over billions of years by maintaining continuous CO₂ outgassing from the deep mantle. In contrast, the stagnant-lid regime fails to offset the faint young Sun, leaving the planet in a globally frozen state despite increasing insolation. Continental silicate weathering emerges as the dominant carbon sink. These findings highlight the critical role of plate tectonic-like processes in sustaining Earth’s long-term climate stability and habitability and underscore the need for better constraints on deep carbon cycling and its coupling with atmosphere–ocean evolution, given the simplifications and limitations of current models.",
+        "keyPoints": [
+          "Coupled climate, carbon-cycle, and mantle-convection models keep mobile-lid planets temperate through sustained deep CO2 outgassing, while stagnant-lid planets remain globally frozen under a faint young Sun.",
+          "Plate-tectonic-like recycling is therefore central to billion-year climate stability and habitability, although deep-carbon-cycle constraints remain limited."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120193",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Tectonics & Geodynamics",
@@ -1935,7 +2112,12 @@ const reports = [
         "title": "The temporal redox and volatile evolution of magmas that formed a supergiant porphyry copper deposit",
         "doi": "10.1016/j.epsl.2026.120139",
         "authors": "S. Tassara, A. Inostroza, A. Olivares, D. Hernández-Uribe, M. Reich, F. Barra, R. Romero, J.J. Ague, D. Tardani, C. de los Santos Valderrama",
-        "keyPoints": [],
+        "abstract": "To investigate the redox and volatile evolution of arc magmas linked to supergiant porphyry copper deposits (PCDs), we study zircon and their apatite inclusions from the Miocene–Pliocene intrusive rocks in the Central Chilean Andes, including the El Teniente supergiant PCD. Our dataset includes 149 zircon–apatite inclusion pairs covering ∼200 km along the arc bracketing El Teniente and capturing ∼20 Myr of arc evolution leading to its formation. We show that magmatic volatile contents increased progressively during arc maturation, culminating in the generation of volatile-rich magmatic precursors to the El Teniente PCD (∼7.7 ± 1.0 wt.% H2O, ∼4000 ± 700 ppm Cl, up to ∼1750 ppm S). Despite their elevated volatile contents, these precursor magmas were only moderately oxidized relative to earlier barren arc magmas. The strongly oxidized conditions associated with ore formation (up to ∼ΔFMQ +3) developed during progressive open-system degassing, accompanied by declining melt Cl and S contents. At El Teniente, ore formation occurred within a narrow window during this redox-volatile evolution in which oxidation was sufficient to destabilize magmatic sulfides while volatile contents remained high enough to sustain extensive fluid exsolution and efficient Cu transfer. Magmas that were either less oxidized and volatile-rich, or strongly oxidized but volatile-depleted, did not produce significant mineralization.",
+        "keyPoints": [
+          "Zircon–apatite pairs record progressive volatile enrichment before El Teniente mineralization, followed by strong oxidation during open-system degassing and declining chlorine and sulfur.",
+          "Supergiant copper mineralization required a narrow overlap of sufficient oxidation to destabilize sulfides and enough remaining volatiles to exsolve fluid and transfer copper."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120139",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Magmatism & Volcanic Processes",
@@ -1952,7 +2134,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120096",
         "authors": "Dru-Ann Harris, Karl A. Lang, Duna C. Roda-Boluda, Marcus Kurth",
         "abstract": "The erosion of mountain landscapes is the greatest source of terrestrial sediment to ocean basins and a critical part of the global carbon cycle regulating Earth’s climate over geological timescales. Pleistocene expansion of mountain glaciers is argued to have accelerated bedrock erosion and increased the terrestrial sediment flux from mountain landscapes. However, the mechanisms by which landscapes adjust to glacial advance and retreat are complex, and the role of glacial erosion remains disputed. Here we present a novel detrital application of zircon fission-track thermochronology and Raman spectroscopy of carbonaceous material (RSCM) to trace the source of sediment exiting a glaciated landscape. We focus on five glaciated catchments in the Southern Alps of Aotearoa New Zealand, suited for studying glacial erosion due to a well-constrained lithology and metamorphic facies, documented glaciation history, and predictable patterns of thermochronological cooling ages. For each catchment, we compare detrital observations with predictions from seven provenance models reflecting different contributions from hillslope, fluvial, and glacial erosion. Our results indicate that sediment samples are not primarily derived from glaciated areas, but instead reflect broader sourcing across the catchment area, with a provenance bias toward mass wasting in the steepest terrain. Although we observe a weak relationship between glacial provenance and ice coverage, our observations are most consistent with a landscape that is approaching, or has reached, a topographic steady state in which long-term erosion rates are approximately uniform across the catchment – a remarkably rapid transition since deglaciation of the landscape 11.7 ka.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Detrital zircon fission tracks and carbonaceous-material Raman data show that sediment from five glaciated Southern Alps catchments is broadly sourced and biased toward mass wasting in steep terrain.",
+          "The provenance record supports rapid approach to catchment-wide erosional steady state since deglaciation, rather than dominant sediment production from glaciated areas."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120096",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Surface Processes & Geohazards",
@@ -1969,7 +2155,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120166",
         "authors": "Yaxuan Liu, Yan Lü, Lijun Liu",
         "abstract": "The Eastern Mediterranean–Anatolian region hosts active subduction, continental collision, and widespread volcanism, yet the uppermost mantle structure underlying these processes remains insufficiently resolved. Here we present a new high-resolution Pn velocity and anisotropy model derived from 919,542 arrival times recorded between 1964 and 2021 (ISC-EHB catalog). We adopt a multiscale nonuniform grid tomography that adapts grid size to local ray density, enhancing resolution in densely sampled areas while maintaining stability elsewhere. Our model illuminates how subduction, slab fragmentation, and continental collision collectively shape uppermost mantle deformation across the region. Along the Hellenic Subduction Zone, fast Pn anisotropy directions rotate progressively from NE–SW in the central Aegean to trench-parallel near the trench, recording the increasing dominance of subduction-driven mantle flow over overriding-plate extension. This trench-parallel pattern is disrupted near Crete, delineating along-strike subduction segmentation and possible toroidal flow at the eastern slab edge. Where subduction has ceased, pronounced low Pn velocities beneath the Central Anatolian Volcanic Province support significant lithospheric thinning and asthenospheric upwelling. These low-velocity anomalies are laterally bounded by the Central Anatolian Fault Zone and Tuz Gölü Fault, suggesting that pre-existing lithospheric structures strongly modulate the geometry of mantle upwelling. Farther east, pervasive low velocities and complex anisotropy patterns indicate strong lithosphere–asthenosphere decoupling and mantle upwelling, consistent with dynamic support of the Eastern Anatolian Plateau. Together, these observations provide an integrated view of how the transition from active subduction to slab breakoff and continental collision governs uppermost mantle flow and volcanism across the Eastern Mediterranean–Anatolian system.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Adaptive-grid tomography of 919,542 arrivals resolves rotating mantle anisotropy, Hellenic slab segmentation, and low-velocity upwelling beneath central and eastern Anatolia.",
+          "The integrated model shows how transitions from active subduction through slab breakoff to collision govern uppermost-mantle flow and volcanism across the region."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120166",
         "journal": "Earth and Planetary Science Letters",
         "topic": "Seismic Imaging & Inversion",
@@ -3376,7 +3566,11 @@ const reports = [
         "doi": "10.1038/s41467-026-76624-y",
         "authors": "Mujin Lee, Sota Takagi, Minsu Jang, Gunhee Lee, Hyunseung Lee, Naoko Takahashi, Jinhyuk Choi, Yongmoon Lee, Donghoon Seoung, Chaewon Park, Kohei Miyanishi, Toshinori Yabuuchi, Norimasa Ozaki, Tatiana Pikuz, Hirotaka Nakamura, Alexis Amouretti, Yingwei Fei, Sally J. Tracy, Huijeong Hwang, Donghoon Kim",
         "abstract": "Perovskite-structured silicates are key minerals of Earth’s lower mantle and have also been identified in shocked meteorites as the (Mg,Fe)SiO3-perovskite phase, bridgmanite. In contrast, CaSiO3-perovskite (davemaoite) has never been found in meteorites and is known only from rare inclusions in deep-mantle diamonds. This contrast highlights a fundamental gap: while natural samples provide indirect evidence for silicate perovskites under shock conditions, laboratory dynamic compression experiments have yet to directly capture perovskite transitions in either MgSiO3 or CaSiO3, likely due to kinetic limitations imposed by nanosecond timescales. Here we present the in situ, atomic-scale observations of CaSiO3-perovskite formation under dynamic compression. Using nanosecond laser-driven shocks and ultrafast X-ray diffraction (XRD) at SACLA, we tracked the transformation of CaSiO3 from low-pressure phases to an amorphous state, and ultimately to davemaoite above ~91(10) GPa, suggesting a disorder–order transformation pathway toward reconstructive crystallization on nanosecond timescales. Upon release, davemaoite undergoes amorphization via a transient low-symmetry phase. These observations provide direct structural evidence for silicate perovskite formation under dynamic loading, resolving a long-standing experimental problem and establishing dynamic compression as an effective route to probe deep-mantle minerals relevant to Earth and Ca-rich exoplanet interiors.",
-        "keyPoints": [],
+        "keyPoints": [
+          "Nanosecond laser shocks and ultrafast X-ray diffraction directly observe CaSiO3 transforming through an amorphous state into davemaoite above about 91 GPa, followed by amorphization on release.",
+          "The disorder–order pathway resolves a long-standing kinetic problem and establishes dynamic compression as a route to study deep-mantle and Ca-rich exoplanet minerals."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-76624-y",
         "journal": "Nature Communications",
         "topic": "Deep Earth Structure & Dynamics",
@@ -5010,7 +5204,11 @@ const reports = [
         "doi": "10.1109/tgrs.2026.3729078",
         "authors": "Rowan Biessel, Rowena B. Lohman, Simon Zwieback",
         "abstract": "Non-zero InSAR closure phases are often attributed to changes in soil or vegetation moisture, but can also be caused by any process that leads to asymmetric interferometric phase distributions in the multilook window. We examine the extent to which heterogeneity in ground motion at the multilook scale may contribute to spatially and temporally systematic non-zero closure phase histories. We use a high-resolution 87-day L-band UAVSAR interferogram over a disturbed permafrost environment in Alaska (the Anaktuvuk River fire scar) to elucidate the differential motion contribution to closure phases. The UAVSAR data have sufficient spatial resolution to capture local heterogeneity consistent with the degradation of ice wedges. We then use these UAVSAR data to simulate multilooked, coarser-resolution C-band data for comparison with Sentinel-1 observations. In regions where the pattern of ice wedge degradation is visible in the UAVSAR data, predicted and observed phase misclosure agree well (R2 = 0.36), but are multilook scale-dependent. Despite the coarse resolution of Sentinel-1, displacement heterogeneity at meter scales still manifests as observable closure phases. Synthetic experiments of differential motion at two comparable resolutions corroborate the agreement between Sentinel-1 and UAVSAR. These findings suggest that closure signatures in rapidly thawing permafrost regions should be interpreted carefully when considering closure-based corrections for permittivity errors and biases. On the other hand, differential motion signatures may present novel opportunities for studying ice-wedge dynamics using spaceborne radar.",
-        "keyPoints": [],
+        "keyPoints": [
+          "High-resolution UAVSAR observations and synthetic multilooking show that meter-scale heterogeneous permafrost displacement produces systematic closure phases observable by coarser Sentinel-1 data.",
+          "Closure-based moisture corrections must account for differential motion, while the same signatures may enable spaceborne monitoring of ice-wedge degradation."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3729078",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "topic": "Surface Processes & Geohazards",
