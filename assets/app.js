@@ -519,7 +519,6 @@ function getArticleSearchText(article) {
   return normalize([
     article.title,
     article.authors,
-    article.topic,
     article.region,
     article.method,
     article.reportJournal,
