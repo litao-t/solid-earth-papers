@@ -635,8 +635,8 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
   const sourceLabel = "AI-generated Key Points";
   const tags = [
     showJournal ? `<span class="article-tag journal">${escapeHtml(getJournalAbbreviation(article.reportJournal))}</span>` : "",
-    article.topic ? `<span class="article-tag topic">${escapeHtml(article.topic)}</span>` : "",
-    article.region ? `<span class="article-tag">${escapeHtml(article.region)}</span>` : ""
+    article.region ? `<span class="article-tag region">${escapeHtml(article.region)}</span>` : "",
+    (article.researchAreas || []).map((slug) => `<span class="article-tag research-area" title="Research areas">${escapeHtml(researchAreaLabels.get(slug) || slug)}</span>`).join("")
   ].join("");
   const keyPoints = (article.keyPoints || []).length
     ? `<ul class="key-points ${sourceClass}">${article.keyPoints.map((point) => `<li>${renderScientificText(point)}</li>`).join("")}</ul>`

@@ -943,7 +943,7 @@ a {
   font: 600 12px/1.2 var(--utility);
 }
 
-.article-tag.topic {
+.article-tag.region {
   background: var(--signal-soft);
   color: var(--signal);
 }
