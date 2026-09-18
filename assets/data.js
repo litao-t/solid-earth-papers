@@ -198,6 +198,12 @@ const reports = [
         "title": "Seismic Impedance Inversion Using Preconditioned Bi-Directional Deconvolution and Its Application to the Deepwater Field",
         "doi": "10.1109/tgrs.2026.3732373",
         "authors": "Linlin Wang, Yi Shen, Weiting Peng, Jinbo Chen",
+        "abstract": "Conventional convolution-based seismic impedance inversion usually requires prior wavelet information from well-log data or assumes a zero- or minimum-phase seismic wavelet. These requirements limit its applicability when well-log data are unavailable or when the seismic wavelet exhibits mixed-phase characteristics. To address these limitations, we propose a seismic-data-driven impedance inversion method based on preconditioned bi-directional deconvolution. Our proposed method uses bi-directional deconvolution to estimate the seismic wavelet directly from seismic data by decomposing it into minimum-and maximum-phase components, which enables mixed-phase wavelet estimation without the need for zero- or minimum-phase assumptions in previous approaches. The bi-directional deconvolution further incorporates a hybrid norm to promote sparse and spiky reflectivity, which is consistent with the blocky nature of impedance. Using the estimated wavelet, we formulate an objective function that combines a data-fitting term linking impedance to seismic data with regularization on the impedance. We introduce depth-varying total variation regularization to enhance impedance blockiness while adaptively weakening the constraint at greater depths, where seismic amplitudes and data reliability decrease. We further use a 2D Gaussian smoothing-based low-frequency constraint to recover missing low-frequency components by matching the smoothed impedance to a constructed background model. During optimization, we adopt a preconditioning scheme to accelerate convergence. Under relatively homogeneous geological conditions, the impedance model generally varies smoothly along stratigraphic layers. Therefore, we employ a local dip filter as the preconditioning operator to guide model updates along the local structural direction and thereby enhance the lateral continuity of the inverted impedance. Synthetic experiments on a dipping-layer model under noise-free, random-noise, and migration-swing conditions show that the proposed method recovers blocky impedance, preserves lateral continuity, and remains robust to noise and coherent artifacts. The Marmousi experiment further demonstrates its stability and applicability in complex geological settings with faults and intricate structures. Application to deepwater field data produces impedance results consistent with well-log measurements and previously published inversion results, confirming the method’s reliability and practical applicability.",
+        "keyPoints": [
+          "Preconditioned bidirectional deconvolution estimates mixed-phase wavelets directly from seismic data and reconstructs blocky impedance with lateral continuity in synthetic tests.",
+          "Deepwater field inversion agrees with well logs and published results, supporting impedance estimation without well-log-derived wavelets or zero- or minimum-phase assumptions."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3732373",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -223,6 +229,12 @@ const reports = [
         "title": "Refining Atmospheric Delay for Oblique Spaceborne LiDAR: A 3D Ray-Tracing Perspective on Horizontal Inhomogeneity",
         "doi": "10.1109/tgrs.2026.3732075",
         "authors": "Zhiyu Zhang, Yang Jiang, Xinyuan Liu, Yu Wu, Shanjie Li, Mingyu Shi, Junwu Tang, Songhua Wu",
+        "abstract": "Atmospheric delay constitutes a primary source of ranging uncertainty in spaceborne laser altimetry, particularly for oceanic light detection and ranging (LiDAR) missions requiring large off-nadir incidence angles to mitigate saturation caused by specular reflection. Traditional correction models, typically limited to 2-D vertical profiles at the nadir point, may not adequately account for the substantial horizontal displacement—often reaching up to 100 km—that a laser pulse undergoes during oblique propagation. To address this methodological gap, we present a 3-D ray-tracing framework designed to evaluate the impact of horizontal atmospheric inhomogeneity on ranging precision. While existing 2-D models assume atmospheric uniformity relative to the nadir point, our 3-D approach permits an assessment of the atmospheric refractive index along the actual spatial trajectory. Analysis based on current meteorological data suggests that while horizontal variations currently contribute to discrepancies at the centimeter scale, this framework provides a necessary diagnostic tool for ensuring geodetic rigor in future spaceborne LiDAR missions with oblique incidence. Validation against ICESat-2 observational data, integrated with ERA5 reanalysis, demonstrates that the model maintains a mean absolute error (MAE) and root-mean-square error (RMSE) below 1.5 cm under near-zenith (<1.5°) conditions. Furthermore, we derive a parametric mapping function (MF) that offers a computationally efficient alternative to the 3-D model. Global assessment demonstrates that this function maintains subcentimeter precision (RMSE <0.94 cm) across incidence angles from 0° to 20°. These findings offer a supportive methodological foundation and a refined theoretical basis for future spaceborne altimetry systems.",
+        "keyPoints": [
+          "3-D ray tracing quantifies centimeter-scale atmospheric-delay differences caused by horizontal inhomogeneity in oblique spaceborne LiDAR; near-zenith validation gives MAE and RMSE below 1.5 cm.",
+          "A computationally efficient mapping function approximates the 3-D model with RMSE below 0.94 cm over incidence angles of 0–20°, supporting atmospheric corrections for future oblique altimetry."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3732075",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -239,6 +251,12 @@ const reports = [
         "title": "Three-Dimensional Imaging Method for Directional Borehole Radar Combining Migration and Radon Transform",
         "doi": "10.1109/tgrs.2026.3732088",
         "authors": "Jianfu Ni, Sixin Liu, Xue Han, Sen Tian, Qiancheng Zhao, Mingqi Hu, Jiedong Jin, Qi Lu",
+        "abstract": "In engineering investigation and energy exploration, accurately characterizing the spatial distribution of geological bodies is essential for ensuring construction safety and efficient resource utilization. As an important branch of borehole radar, directional borehole radar (DBR) enables 3-D reconstruction of geological targets under single-borehole conditions. However, existing 3-D imaging algorithms for DBR are mainly designed for simple targets, and their performance remains limited in complex environments, which restricts further development and application of this technology. To address this issue, we propose a 3-D imaging method that combines migration and the Radon transform and introduces the concept of transform-domain direction of arrival (DOA) estimation. The method first applies migration to separate overlapping diffraction waves and then employs the Radon transform to further process residual overlapping wavefields. Subsequently, the DOA estimation is performed: point targets such as cavities are processed in the migration domain, while planar targets such as fractures and faults are processed in the Radon domain, thereby obtaining accurate azimuth information and achieving 3-D reconstruction under complex multitarget conditions. Numerical simulations and field data demonstrate that the proposed method improves DOA estimation accuracy, enhances multitarget imaging performance, and strengthens the capability of DBR in complex subsurface environments, providing a powerful tool for high-resolution geophysical exploration.",
+        "keyPoints": [
+          "A directional borehole-radar method combines migration and the Radon transform to separate overlapping wavefields and estimate target azimuths in the appropriate transform domain.",
+          "Numerical and field tests improve direction-of-arrival estimates and 3-D imaging of multiple targets, extending single-borehole characterization to complex subsurface settings."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3732088",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -255,6 +273,12 @@ const reports = [
         "title": "A Novel quasi-P- and quasi-SV-wave Decoupled Acoustic-Elastic Coupled Equations in VTI Media",
         "doi": "10.1109/tgrs.2026.3732123",
         "authors": "Jiarong Xie, Bingshou He, Huixing Zhang",
+        "abstract": "Accurate separation of quasi-compressional (qP)- and quasi-shear (qSV)-waves in anisotropic media remains challenging because wave propagation and polarization directions are generally not aligned. To address this issue, we develop qP- and qSV-wave decoupled acoustic–elastic coupled equations (DAECEs) for vertically transversely isotropic (VTI) media, enabling direct spatial domain decoupling of vector wavefields through numerical solutions. Starting from the elastic wave equations in VTI media, polarization analysis is employed to derive model-weighting parameters that jointly incorporate anisotropic properties and wave propagation directions. These parameters are used to construct first-order velocity decoupled equations (FOVDEs), which are subsequently coupled with acoustic–elastic coupled equations (AECEs) to establish the qP- and qSV-wave DAECEs. To determine the propagation directions required for wavefield decoupling, a two-step strategy is proposed. Initial qP- and qSV-wavefields are first obtained using simplified first decoupled equations (FDEs) independent of propagation directions. Optical-flow vectors derived from these wavefields are then used to estimate group angles, from which phase angles and propagation directions are determined through an inverse-function approach. The estimated propagation directions are subsequently incorporated into the DAECEs to achieve adaptive secondary decoupling. Numerical solution schemes and stability conditions are derived and implemented using a staggered-grid finite-difference method. Numerical experiments on homogeneous, layered, and complex VTI models demonstrate that the proposed equations accurately simulate wave propagation in seabed fluid–solid coupled media and yield high-fidelity qP- and qSV-vector wavefields from multicomponent seismic data. The proposed framework provides a basis for anisotropic wavefield separation and ocean-bottom seismic imaging.",
+        "keyPoints": [
+          "Coupled acoustic–elastic equations use anisotropy-dependent weighting and optical-flow-derived propagation directions to adaptively decouple qP and qSV vector wavefields in VTI media.",
+          "Tests on homogeneous, layered and complex models recover high-fidelity separated wavefields and simulate seabed fluid–solid coupling, supporting anisotropic ocean-bottom seismic imaging."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3732123",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -281,6 +305,12 @@ const reports = [
         "title": "MCCT: A multidimensional geomorphic change detection strategy for complex terrain areas using satellite remote sensing data",
         "doi": "10.1109/tgrs.2026.3731569",
         "authors": "Yafei Zhang, Pengfei Li, Liuru Hu, Jinfei Hu, Hooman Latifi, Bingzhe Tang, Lu Yan, Pan Zhang",
+        "abstract": "Accurate monitoring of soil erosion over large areas with complex terrain has been facing challenges, which primarily stem from an insufficient capacity of existing satellite remote sensing techniques for monitoring multidimensional geomorphic change in complex terrains. In this study, a framework combining synthetic aperture radar (SAR) and optical satellite imagery was proposed to overcome the above challenges. A multi-modal high-resolution satellite image registration method was proposed to mitigate the geometric distortions of high-resolution optical images induced by terrain undulations within small areas in the complex terrain. The registered optical images were employed to derive horizontal geomorphic changes using the optical pixel offset tracking method, while the surface displacement projected onto the radar line-of-sight (LOS) was retrieved using multi-temporal interferometric SAR (MT-InSAR). The quantification of soil erosion / deposition was then achieved through integrating horizontal geomorphic changes with InSAR-derived LOS deformation using a weighted least-squares inversion, while the corresponding uncertainty was quantified using the covariance matrix. The proposed image registration method was evaluated using registration errors and deformation uncertainty on stable areas, while the detected soil erosion and deposition were verified based on erosion pin measurements, laser scanning, and manually digitized terrain feature line change directions. Results showed that the proposed registration method achieved a sub-pixel registration accuracy, with an RMSE < 5 cm. The derived erosion and deposition were generally comparable with the results obtained by laser scanning and erosion pin monitoring (R2>0.6, p<0.01, NSE>0.5), with an RMSE of 3.28 cm according to erosion pin measurements. Additionally, the migration of terrain feature lines was found to be generally opposite to the direction of surface horizontal deformation, particularly pronounced at gully heads. This further demonstrated the feasibility of our monitoring results. Overall, this study provided a promising framework for soil erosion monitoring over complex terrain areas based on satellite remote sensing, while further work is still required to improve the accuracy of the method, particularly to improve the capacity of InSAR for monitoring large and rapid changes.",
+        "keyPoints": [
+          "MCCT combines optical pixel-offset tracking and multitemporal InSAR through weighted least squares to estimate multidimensional erosion and deposition, achieving 3.28 cm RMSE against erosion pins.",
+          "Validation with laser scanning and erosion pins supports satellite monitoring in complex terrain, although large and rapid changes remain limited by InSAR capability."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3731569",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -297,6 +327,12 @@ const reports = [
         "title": "Improved Angular-Domain Reflection-Only Soil Permittivity Extraction Method Using Spectral Free-Space Measurements",
         "doi": "10.1109/tgrs.2026.3731616",
         "authors": "Ugur C. Hasar, Husain Ali, Yunus Kaya",
+        "abstract": "An extraction method is devised for accurate relative permittivity εr of soil samples using angular-domain reflection-only spectral free-space measurements. Different from the angular-domain extraction method which uses an error model considering the return loss function Hi(ω) and the product of transmitting and receiving transfer functions Ht(ω) and Hr(ω), the proposed error model considers not only Hi(ω) and Ht(ω)Hr(ω) but also the feedback loss transfer function Hf (ω). In addition, the proposed method generalizes the normal-incidence extraction method using Ht(ω), Hr(ω), and Hf (ω) to any oblique incidence. An improvement in εr determination by considering the Hf (ω) term in our angular-domain extraction algorithm is shown by a numerical analysis and free-space measurements of two soil samples. It is also validated by measurements that relative errors in εr determination decrease if Hf (ω) term is considered in the extraction procedure. The proposed extraction method was also tested for a combination of different incidence angles and for an inaccurate sample thickness.",
+        "keyPoints": [
+          "An angular-domain soil-permittivity extraction method adds feedback loss to the error model for reflection-only spectral free-space measurements and accommodates oblique incidence.",
+          "Numerical analysis and measurements of two soils show reduced relative permittivity errors when feedback loss is included; tests also examine different incidence-angle combinations and inaccurate sample thickness."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3731616",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "",
@@ -2508,7 +2544,11 @@ const reports = [
         "title": "3-D Joint Inversion of Gravity and Magnetotelluric Data Based on Gaussian Mixture Model Clustering Constraints",
         "doi": "10.1109/tgrs.2026.3729271",
         "authors": "Haijun Xie, Miao Peng, Jingyu Gao, Handong Tan",
-        "keyPoints": [],
+        "keyPoints": [
+          "A fixed-prior Gaussian mixture model constrains joint gravity–magnetotelluric inversion using petrophysical classes; four synthetic tests improve consistency between recovered density and resistivity structures.",
+          "Estimating prior covariances with Ledoit–Wolf shrinkage reduces trial-and-error inversions and improves target recovery relative to single-method inversions under the prescribed petrophysical priors."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3729271",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Laboratory / method-focused",
@@ -2527,7 +2567,11 @@ const reports = [
         "title": "Image-domain Deep-learning LSRTM With Multi-Scale Degradation Modulation and Forward Reconstruction Consistency",
         "doi": "10.1109/tgrs.2026.3729888",
         "authors": "Xinyi Gao, Qingchen Zhang, Wei Chen, Weijian Mao",
-        "keyPoints": [],
+        "keyPoints": [
+          "DL-ID-LSRTM conditions a multiscale inversion network on velocity and point-spread-function descriptors, with forward reconstruction consistency to suppress nonphysical imaging artifacts.",
+          "Synthetic, out-of-distribution and marine field tests show better reflector continuity, deep-zone amplitudes and reduced smearing than RTM, U-Net image-domain LSRTM and limited-iteration data-domain LSRTM."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3729888",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Not region-specific",
@@ -2544,7 +2588,11 @@ const reports = [
         "title": "A Highly Efficient Relaxed-Courant Modified FDTD(2,4) Scheme for Ground- and Lunar-Penetrating Radar Modeling and Reverse Time Migration",
         "doi": "10.1109/tgrs.2026.3730105",
         "authors": "Jing Niu, Lei Kuang, Qing Huo Liu",
-        "keyPoints": [],
+        "keyPoints": [
+          "The RM24 finite-difference scheme combines optimized correction terms with a relaxed Courant condition, enabling larger time steps and coarser grids while limiting numerical dispersion.",
+          "Numerical tests achieve up to two orders of magnitude faster radar simulation and reverse time migration at comparable accuracy; lunar radar imaging reconstructs regolith profiles with lower time and memory costs."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3730105",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Laboratory / method-focused",
@@ -6565,7 +6613,12 @@ const reports = [
         "title": "Learning-Driven Optimization Framework for Viscoacoustic Full-Waveform Inversion",
         "doi": "10.1109/tgrs.2026.3728102",
         "authors": "Ning Li, Ying Shi, Liwei Song",
-        "keyPoints": [],
+        "abstract": "Full waveform inversion (FWI) is a high-resolution imaging technique that reconstructs subsurface medium parameters by fully exploiting seismic wavefield information and has significant applications in physical parameter inversion. However, in viscoacoustic media, multiparameter FWI suffers from strong coupling between velocity and the quality factor (Q), while the sensitivity of seismic data to Q is relatively weak. These issues often lead to severe parameter crosstalk, reduced convergence stability, and limited inversion accuracy. To address these challenges, we propose a convolutional implicit regularization-based Q full waveform inversion method (CIR-QFWI). In this approach, an unsupervised convolutional neural network driven by the deep image prior (DIP) is embedded into the FWI iterative framework. The inherent prior imposed by the network architecture acts as an implicit regularization, guiding the velocity and Q models toward geologically plausible structures and effectively mitigating parameter coupling and inversion artifacts. Meanwhile, to avoid the complexity of gradient derivation and implementation associated with the conventional adjoint-state method in viscoacoustic multiparameter inversion, we develop a unified gradient computation framework based on automatic differentiation. By leveraging computational graphs and the chain rule, gradients are obtained automatically, significantly simplifying the implementation. To further alleviate the high memory consumption of AD in long time-step wavefield propagation, a checkpointing strategy is introduced to balance computational efficiency and memory usage. Numerical experiments demonstrate that, compared with conventional FWI methods, the proposed CIR-QFWI achieves higher-resolution reconstructions of both velocity and Q models, validating its effectiveness and potential for multiparameter inversion in viscoacoustic media.",
+        "keyPoints": [
+          "CIR-QFWI embeds an unsupervised convolutional deep image prior in viscoacoustic inversion to reduce velocity–Q coupling and artifacts; numerical tests yield higher-resolution reconstructions than conventional FWI.",
+          "Automatic differentiation simplifies multiparameter gradient computation, while checkpointing balances memory use and computational efficiency during long wavefield simulations."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3728102",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Laboratory / method-focused",
@@ -6582,7 +6635,11 @@ const reports = [
         "title": "3D Inversion of Airborne Electromagnetic Data Based on Adaptive Octree Meshes",
         "doi": "10.1109/tgrs.2026.3728648",
         "authors": "Jianfu Ni, Xue Han, Changchun Yin, Xinru Guo, Bo Zhang, Luyuan Wang, Vikas Chand Baranwal",
-        "keyPoints": [],
+        "keyPoints": [
+          "Adaptive octree meshes and vector finite-element modeling improve 3-D airborne electromagnetic inversion, recovering anomaly geometry and structural boundaries with lower computational cost in synthetic tests.",
+          "Application to airborne electromagnetic data from northern Norway resolves conductive structures consistent with prior geology, supporting efficient subsurface imaging in large-scale surveys."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3728648",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Laboratory / method-focused",
@@ -6598,7 +6655,12 @@ const reports = [
         "title": "A Two-Stage Robust Underwater Gravimetry Method Based on Position Observations",
         "doi": "10.1109/tgrs.2026.3728673",
         "authors": "Yunyun Xie, Zhiming Xiong, Kaixin Luo, Juliang Cao, Ruihang Yu, Shaokun Cai",
-        "keyPoints": [],
+        "abstract": "Accurate underwater gravity measurements are essential for revealing marine geological structures and resource distributions. Most existing methods primarily rely on the strapdown inertial navigation system (SINS) as the core component, heavily depending on underwater sensors such as depth gauges (DG) and ultra-short baseline (USBL) systems. However, USBL data are susceptible to interference, which degrades the accuracy of gravity determination. To address these challenges, we propose a two-stage robust underwater gravimetry method based on positional observations, which deeply integrates data cleaning with gravity solution to jointly suppress USBL outliers and improve the accuracy of gravimetry. In the data cleaning stage, a trend-residual decomposition smoothing (T-RDS) method is used to preprocess USBL horizontal position data, effectively suppressing outlier interference through trend fitting and adaptive residual correction. In the gravity solution stage, a robust forward-backward filtering (RF-BF) algorithm is further introduced to fuse the preprocessed horizontal positions, DG depth observations, and SINS data. The RF-BF method incorporates a robust mechanism based on standardized residuals into forward filtering to dynamically mitigate observation anomalies, and is then followed by backward smoothing to achieve optimal state estimation. Validation using sea trial data demonstrates that the proposed method improves the repeat-line internal accuracy from 0.756 mGal to 0.683 mGal under the original favorable sea-trial conditions. To further test robustness, representative USBL anomalies, including impulsive jumps, sustained offsets, and data losses, are injected into the measured USBL data. Under this anomalous condition, the proposed method improves the internal accuracy from 1.002 mGal to 0.687 mGal, corresponding to a 31.4% improvement over the Hampel+KF baseline. These results show that the proposed approach mitigates unstable USBL observations and provides more reliable underwater gravity measurements under both normal and disturbed observation conditions.",
+        "keyPoints": [
+          "Trend–residual cleaning and robust forward–backward filtering combine USBL positions, depth and inertial data; sea trials improve repeat-line internal accuracy from 0.756 to 0.683 mGal.",
+          "With injected USBL jumps, offsets and data losses, internal accuracy improves from 1.002 to 0.687 mGal versus Hampel+KF, a 31.4% improvement supporting gravimetry under disturbed observations."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3728673",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "Laboratory / method-focused",
