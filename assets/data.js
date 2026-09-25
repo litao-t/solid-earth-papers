@@ -1207,6 +1207,227 @@ const reports = [
           "geodesy-crustal-deformation",
           "earth-interior-rock-physics"
         ]
+      },
+      {
+        "title": "Rodingite‐Derived Melt as a Recipe for Ultra‐Calcic Magmas",
+        "doi": "10.1029/2025gl120999",
+        "authors": "Mingdi Gao, Yu Wang, Shi‐Dong Guan, Yi‐Xiang Chen, Chao‐Yang Guo, Yi‐Gang Xu",
+        "abstract": "Rodingite is a high‐CaO rock formed by Ca‐rich fluid metasomatism on mafic protoliths. It typically occurs within serpentinite and represents an often‐overlooked constituent of the altered oceanic lithosphere that may be subducted into the mantle. However, the fate of rodingite in the mantle and its role in magma genesis remain poorly constrained. Here we present experimental results on the partial melting of rodingite and subsequent melt–peridotite reaction at 1–3 GPa, 1050–1400°C. Rodingite‐derived melts are characterized by low SiO 2 (43.5–45.2 wt%), high CaO (>∼30 wt%) and high CaO/Al 2 O 3 ratios (up to 4.3). Reaction of these melts with mantle peridotite produces mafic melts with elevated SiO 2 contents (45.7–49.1 wt%) and high CaO/Al 2 O 3 ratios (1.1–2.2). These reacted melts closely resemble silica‐saturated, ultra‐calcic mafic magmas in arcs, back‐arcs, mid‐ocean ridges and ocean islands, suggesting that rodingite‐derived melts contribute a distinctive Ca‐rich chemical signature to mantle sources tapped by diverse tectonic settings.",
+        "keyPoints": [
+          "Subducted rodingite is a minor but underestimated mafic component in the ultramafic mantle",
+          "Partial melting experiments on rodingite produce extremely calcium-rich melts",
+          "Reaction experiments on rodingite-derived melt and peridotite explain the genesis of silica-saturated, ultra-calcic magmas"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2025gl120999",
+        "journal": "Geophysical Research Letters",
+        "method": "High-pressure melting experiments",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120999",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Net Groundwater Recharge in California Occurs Primarily During Above‐Average Snowpack Years",
+        "doi": "10.1029/2026gl122396",
+        "authors": "John T. Reager, Noah P. Molotch, James S. Famiglietti",
+        "abstract": "In a new application of GRACE and GRACE‐FO satellite observations, we estimate basin‐scale net groundwater recharge rates for the combined Sacramento, San Joaquin, and Tulare basins encompassing California's Central Valley aquifer. Net recharge is calculated as the temporal derivative of groundwater storage anomalies and compared with precipitation and snow water equivalent over a fixed study area. Net positive recharge is rare, occurring in only six water years since 2004, and is consistently associated with years of above‐average Sierra Nevada snowpack. Across the observational record, net positive recharge is observed only in years when snow water equivalent exceeds approximately 21 km 3 (17 MAF; ∼121% of the 20‐year mean value), with the largest recharge event coinciding with the exceptionally wet winter of water year 2023. These results suggest that above‐average snowpack conditions, rather than rainfall alone, are an important enabling condition for basin‐scale groundwater recharge under a warming climate.",
+        "keyPoints": [
+          "GRACE and GRACE-FO observations reveal rare basin-scale net groundwater recharge events in California",
+          "Net positive recharge years are strongly associated with above-average snowpack years",
+          "WY2023 demonstrates that future warming may reduce the likelihood of recharge-capable years"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl122396",
+        "journal": "Geophysical Research Letters",
+        "region": "California Central Valley",
+        "method": "GRACE/GRACE-FO satellite gravimetry",
+        "onlineDate": "2026-09-17",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122396",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Quantifying the Role of 3D Fault Geometry Complexities on Slow and Fast Earthquakes",
+        "doi": "10.1029/2026gl122531",
+        "authors": "J. Cheng, H. S. Bhat, M. Almakari, B. Lecampion, P. Dubernet",
+        "abstract": "Traditional models of slow slip events (SSEs) oversimplify fault geometry, although imaging shows subduction faults are segmented and complex. We examine how fault interactions control slip behavior using 3D quasi‐dynamic simulations of two parallel faults with uniform rate‐weakening friction accelerated by hierarchical matrices. Four regimes emerge—periodic earthquakes, coexisting SSEs and earthquakes, only SSEs, and complex sequences—whereas a single planar fault with the same friction produces only earthquakes. We quantify interaction using the maximum Coulomb stress induced by a unit stress drop on a neighboring fault. This interaction metric depends on geometry, allowing extension to arbitrary fault systems. SSEs occur at intermediate interaction strengths. Low interaction strengths produce periodic earthquakes, whereas high interaction strengths generate complex earthquake sequences with irregular recurrence and variable magnitudes. Simulations reproduce moment–duration scaling and show sensitivity to detection thresholds. These results demonstrate that geometric complexity alone generates both slow and fast earthquakes through evolving traction heterogeneity.",
+        "keyPoints": [
+          "3D simulations show fault interactions generate slow slip events (SSEs) and complex sequences; a planar fault with identical friction produces only earthquakes",
+          "Fault interaction strength measures neighboring fault interaction through stress transfer and controls SSE occurrence and proportion",
+          "Observed SSE moment-duration scaling depends on the slip-rate detection threshold, suggesting instrumental sensitivity affects observations"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl122531",
+        "journal": "Geophysical Research Letters",
+        "method": "3D quasi-dynamic fault simulations",
+        "onlineDate": "2026-09-14",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122531",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Along‐Strike Coupling Heterogeneity in Cascadia's Slow‐Slip Zone Constrained by GNSS and Reduced‐Order Rate‐And‐State Friction Modeling",
+        "doi": "10.1029/2026gl122833",
+        "authors": "Yohai Magen, Alice‐Agnes Gabriel, Dave A. May",
+        "abstract": "Slow slip events (SSEs) in the Cascadia subduction zone exhibit along‐strike segmentation, where the central segment has longer recurrence intervals but smaller moments. We quantify the controls on this variability by combining geodetic inter‐SSE coupling inversion with Bayesian inference of a quasi‐dynamic rate‐and‐state friction SSE‐cycle model accelerated by reduced‐order modeling. Our simulations show that effective normal stress controls the SSE recurrence interval, while subduction coupling controls the SSE moment. Our inversion of inter‐SSE GNSS velocities yields comparable inter‐SSE coupling along strike (∼60%–70%), whereas long‐term coupling ranges from near zero in the south to ∼42% in central Cascadia. Transient SSEs recover the full slip deficit in the south but leave persistent deficits of ∼30% and ∼42% of plate convergence in the north and central segments. These results indicate that effective normal stress and inter‐SSE coupling provide a unified geodetic and physics‐based explanation for Cascadia SSE segmentation.",
+        "keyPoints": [
+          "Transient SSEs recover ∼36%, ∼18%, and ∼69% of plate convergence in northern, central, and southern Cascadia",
+          "Rate-and-state friction simulations show that effective normal stress controls SSE recurrence; inter-SSE coupling controls SSE moment",
+          "GNSS and rate-and-state Bayesian inversions reveal persistent inter-SSE slip-deficit, largest in central Cascadia"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl122833",
+        "journal": "Geophysical Research Letters",
+        "region": "Cascadia",
+        "method": "GNSS inversion; Bayesian rate-and-state modeling",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122833",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Segmented Moho Uplift and Implications for Magmatic Underplating Beneath the Datong Basin",
+        "doi": "10.1029/2026gl123061",
+        "authors": "Chunlong Li, Huai Zhang, Yu Jeffrey Gu, Yicun Guo, Pei He, Guangyao Yin, Yaolin Shi",
+        "abstract": "Understanding how the deep crust responds to coupled tectonic and magmatic processes is essential for deciphering intracontinental rifting. We apply high‐resolution passive‐source reverse time migration to teleseismic P‐wave receiver functions recorded by a dense seismic array to image the Moho beneath the Datong Basin. Our observations reveal a segmented Moho interface with localized crustal thinning (to 38–39 km), relative to a regional average of ∼40.5 km. Statistical analyses show that intraplate seismicity clusters where the lateral gradient of Moho depth is steep (0.15, a dip of ∼8.5) along the southwestern basin‐bounding normal faults, indicating mechanical coupling between upper‐crustal faulting and localized lower‐crustal deformation. Moho conversion amplitudes are enhanced in the northeastern volcanic area, which are associated with overlying lower‐crustal low‐ anomalies in connection with magmatic underplating. Horizontal extension accommodated by high‐angle normal faulting and magmatic modification therefore dominate the Moho evolution in different segments of the rift.",
+        "keyPoints": [
+          "High-resolution passive-source reverse time migration reveals segmented Moho uplift and localized crustal thinning beneath the Datong Basin",
+          "Seismicity clusters at steep Moho gradients, suggesting mechanical coupling between upper-crustal faulting and lower-crustal deformation",
+          "Enhanced Moho conversions beneath surface volcanism correlate with lower-crustal low-Vs anomalies, suggesting magmatic underplating"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123061",
+        "journal": "Geophysical Research Letters",
+        "region": "Datong Basin, China",
+        "method": "Receiver functions; passive-source reverse time migration",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123061",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Generation and Preservation of Submarine Terraces: Insights From Records Imprinted on the Topography of Dokdo Volcano",
+        "doi": "10.1029/2026gl123771",
+        "authors": "Duhwan Keum, Chang Hwan Kim, Luca C. Malatesta, Wonsuck Kim",
+        "abstract": "Marine terraces archive sea‐level and tectonic history, yet their relationship to individual highstands remains contentious. While most studies focus on subaerial terraces in uplifting settings, submerged terraces in subsiding settings are less explored. We develop a 1‐D wave‐erosion model and apply it to Dokdo — a subsiding volcanic island in the East Sea (a semi‐enclosed marginal sea bordered by Russia, Korea, and Japan) — using high‐resolution bathymetry to evaluate terrace generation and preservation. Our model captures the primary depths of the observed terrace record, comprising only six features out of ∼35 sea‐level stillstands over the past 600 ky. In a subsiding setting, lowstand terraces show higher preservation potential, yet many are reorganized through reoccupation, merging, and splitting during transgressions, rendering formation age non‐monotonic with water depth. These findings underscore that terrace records on volcanic islands are not simple chronometers, but emergent products of complex morphodynamic interactions between subsidence and sea‐level.",
+        "keyPoints": [
+          "Only 6 of ∼35 sea-level stillstands leave recognizable terraces in the model result, and formation age is non-monotonic with depth",
+          "Overprinting and fragmentation mean terrace elevation cannot be directly linked to past sea-level events",
+          "In subsiding settings, lowstand platforms can be preserved submerged below the wave base before subsequent sea-level cycles erase them"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123771",
+        "journal": "Geophysical Research Letters",
+        "region": "Dokdo, East Sea",
+        "method": "Bathymetry; wave-erosion modeling",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123771",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "From Core to Field: Pattern Selection in Dissolving Fractures",
+        "doi": "10.1029/2026gl123899",
+        "authors": "Kai Li, Ran Hu, Tomasz Szawełło, Zhibing Yang, Yi‐Feng Chen, Piotr Szymczak, Chuang‐Bing Zhou",
+        "abstract": "Chemical erosion governs the evolution of fractures across Earth systems, which manifests in three distinct dissolution patterns. However, how the boundaries between these regimes depend on system scale remains an open question, and no predictive theory has successfully linked laboratory observations to field‐scale behaviors. Here we integrate experiments, simulations, and linear stability analysis to show that fracture‐dissolution patterns across almost three orders of magnitude in length collapse onto a universal phase diagram defined by two dimensionless parameters, one of which explicitly incorporates fracture length. We derive analytical thresholds for transitions between compact, wormholing, and uniform dissolution and validate them against data with fracture length ranging from 0.1 to 30 m. We demonstrate that the optimal injection rate for maximizing permeability enhancement scales linearly with fracture length, enabling direct extrapolation from core‐flood experiments to field conditions. These findings provide a quantitative basis for upscaling dissolution dynamics in fractured geologic media.",
+        "keyPoints": [
+          "Dissolution patterns from core to field are governed by two dimensionless parameters, one of which explicitly includes fracture length",
+          "Linear stability analysis yields predictive criteria for pattern transitions across scales, validated by experiments and simulations",
+          "The optimal injection rate scales linearly with fracture length, enabling core-to-field extrapolation"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123899",
+        "journal": "Geophysical Research Letters",
+        "method": "Experiments; numerical simulations; linear stability analysis",
+        "onlineDate": "2026-09-15",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123899",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "New Constraints on the Onset of Antarctic Glaciation From Combined Radiogenic Hafnium and Neodymium Isotopes",
+        "doi": "10.1029/2026gl124081",
+        "authors": "Keehwan Lee, Franco Marcantonio, Michael Bizimis, Howie D. Scher, Brian W. Romans, Lucien Nana Yobo",
+        "abstract": "The drawdown of atmospheric CO 2 likely triggered Antarctic glaciation during the Eocene‐Oligocene Transition (34 Ma). Accurately constraining this shift from “greenhouse” to an “icehouse” climate is essential for understanding global carbon cycle dynamics. However, conventional proxies often lack the sensitivity to capture the earliest, localized phases of continental ice‐sheet development. In this study, we combined radiogenic hafnium and neodymium isotopes on marine sediments from Ocean Drilling Program Site 689D to track changes in silicate weathering regimes and isolate the enhanced physical weathering signal uniquely associated with glacial grinding. By analyzing the detrital sortable silt fraction, we identified the onset of major Antarctic glaciation between 34.06 and 34.13 Ma. Additionally, our data reveal two distinct precursor glacial events occurring earlier, at approximately 34.19 and 34.41 Ma. These findings provide a more refined chronological framework for one of Earth's most significant climate shifts.",
+        "keyPoints": [
+          "Transient glacial events can be tracked using Hf isotopes in the sortable silt fraction",
+          "Two precursor glacial events (34.19 and 34.41 Ma) were discovered, which predate the Eocene-Oligocene Transition (34.00 Ma)",
+          "Climate change during glaciation was a gradual shift rather than an abrupt transition"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124081",
+        "journal": "Geophysical Research Letters",
+        "region": "Antarctica, ODP Site 689D",
+        "method": "Hafnium and neodymium isotope analysis",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124081",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Shallow Landslides Align With Atmospheric Rivers in Coastal Steeplands",
+        "doi": "10.1029/2026gl124294",
+        "authors": "Joshua J. Roering, Eliza R. Lawrence, Ries Plescher, Maryn A. Sanders, Deanna Nash, Annette I. Patton, Adelaide Johnson, Aaron Jacobs, Nicolas W. Mathews, Lia Salomon, Stephen McKay, Wolfgang Schwanghart, William Struble, Quinn Aboudara",
+        "abstract": "Rapid, shallow landslides in coastal mountains are triggered by extreme precipitation, shaping topography and impacting human settlements. Using an inventory of >700 landslides mapped from satellite imagery (2009–2024) and an atmospheric river database (1981–2019), this study documents linkages between climatic drivers and the topographic context of landslides on Prince of Wales Island, Southeast Alaska. We observe a strong correlation between landslide occurrence and extreme atmospheric rivers during the autumn months. Notably, landslide initiation zones exhibit a strong directional bias toward the southwest‐to‐southeast, coinciding with the trajectory of landfalling extreme atmospheric rivers. Our frequency ratio analysis demonstrates that landslides are overrepresented on the windward aspect of steep (>35°) slopes at mid‐slope positions which enables us to map relative landslide susceptibility. Potential mechanisms include orographic forcing, wind‐driven precipitation, and forest canopy disturbance. These findings provide a framework for quantifying how slide‐prone landscapes co‐evolve with preferential climate forcing to inform hazard assessment.",
+        "keyPoints": [
+          "Shallow landslides on Prince of Wales Island, SE Alaska, predominantly occur August to December, coincident with extreme atmospheric rivers",
+          "The orientation of landslides in this post-glacial, coastal steepland landscape coincides with the trajectory of extreme atmospheric rivers",
+          "Landslide susceptible terrain, as defined by aspect, slope, and slope position, accounts for >95% of mapped slides and <20% of study area"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124294",
+        "journal": "Geophysical Research Letters",
+        "region": "Prince of Wales Island, Alaska",
+        "method": "Satellite landslide mapping; frequency-ratio analysis",
+        "onlineDate": "2026-09-16",
+        "volume": "53",
+        "issueNumber": "18",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124294",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
       }
     ]
   },
@@ -7198,7 +7419,9 @@ const reports = [
         "authors": "Henrik Grob, Micheal Riedel, Sebastian Krastel, Jonas Preine, Mathieu J. Duchesne, Young Keun Jin, Jong Kuk Hong",
         "abstract": "Abstract The widespread presence of submarine permafrost in the southern Canadian Beaufort Sea provides necessary stability conditions for gas hydrates on the shallow shelf. However, the submarine permafrost is still relatively underexplored. Representing mostly relict terrestrial permafrost, submarine permafrost was formed by subaerial exposure to ∼−20°C in the Pliocene and Pleistocene. With the end of the last glaciation, the former terrestrial permafrost became inundated as a result of a marine transgression that caused a significant change in thermal conditions. The submarine permafrost is still responding to this thermal change and continues to degrade. The degradation of permafrost can cause greenhouse gas emissions having an important impact on the global climate. In this study, we use marine multichannel seismic data to calculate the base of permafrost using the seismically detected base of the gas hydrate stability zone. From the depth of the base of the gas hydrate stability zone, we estimate the theoretical gas hydrate dissociation temperature, which allows us to calculate the depth of the remotely inaccessible thermal base of permafrost (0°C isotherm). This calculated base of permafrost correlates with the lower boundary of a diffuse zone of high diffraction strength in seismic data indicating the presence of ice‐bearing permafrost. Our study provides a new approach to access the current depth and extent of submarine permafrost on the outermost Canadian Beaufort Shelf and indicates less thawing of permafrost than previously thought.",
         "keyPoints": [
-          "Thermal base of submarine permafrost is calculated from the base of the gas hydrate stability zone in the southern Canadian Beaufort Sea"
+          "Thermal base of submarine permafrost is calculated from the base of the gas hydrate stability zone in the southern Canadian Beaufort Sea",
+          "Calculated base of permafrost correlates with the lower limit of a zone of high diffraction strength, indicating ice-bearing permafrost",
+          "New approach to access the current depth and extent of submarine permafrost indicating less thawing of permafrost than previously thought"
         ],
         "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025jb033245",
