@@ -3054,8 +3054,15 @@ const reports = [
         "doi": "10.1029/2025gl120999",
         "authors": "Mingdi Gao, Yu Wang, Shi‐Dong Guan, Yi‐Xiang Chen, Chao‐Yang Guo, Yi‐Gang Xu",
         "abstract": "Rodingite is a high‐CaO rock formed by Ca‐rich fluid metasomatism on mafic protoliths. It typically occurs within serpentinite and represents an often‐overlooked constituent of the altered oceanic lithosphere that may be subducted into the mantle. However, the fate of rodingite in the mantle and its role in magma genesis remain poorly constrained. Here we present experimental results on the partial melting of rodingite and subsequent melt–peridotite reaction at 1–3 GPa, 1050–1400°C. Rodingite‐derived melts are characterized by low SiO 2 (43.5–45.2 wt%), high CaO (>∼30 wt%) and high CaO/Al 2 O 3 ratios (up to 4.3). Reaction of these melts with mantle peridotite produces mafic melts with elevated SiO 2 contents (45.7–49.1 wt%) and high CaO/Al 2 O 3 ratios (1.1–2.2). These reacted melts closely resemble silica‐saturated, ultra‐calcic mafic magmas in arcs, back‐arcs, mid‐ocean ridges and ocean islands, suggesting that rodingite‐derived melts contribute a distinctive Ca‐rich chemical signature to mantle sources tapped by diverse tectonic settings.",
+        "keyPoints": [
+          "Subducted rodingite is a minor but underestimated mafic component in the ultramafic mantle",
+          "Partial melting experiments on rodingite produce extremely calcium-rich melts",
+          "Reaction experiments on rodingite-derived melt and peridotite explain the genesis of silica-saturated, ultra-calcic magmas"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl120999",
         "journal": "Geophysical Research Letters",
+        "region": "Global / laboratory analog",
         "method": "High-pressure melting experiments",
         "onlineDate": "2026-09-16",
         "volume": "53",
@@ -3072,6 +3079,12 @@ const reports = [
         "doi": "10.1029/2026gl122396",
         "authors": "John T. Reager, Noah P. Molotch, James S. Famiglietti",
         "abstract": "In a new application of GRACE and GRACE‐FO satellite observations, we estimate basin‐scale net groundwater recharge rates for the combined Sacramento, San Joaquin, and Tulare basins encompassing California's Central Valley aquifer. Net recharge is calculated as the temporal derivative of groundwater storage anomalies and compared with precipitation and snow water equivalent over a fixed study area. Net positive recharge is rare, occurring in only six water years since 2004, and is consistently associated with years of above‐average Sierra Nevada snowpack. Across the observational record, net positive recharge is observed only in years when snow water equivalent exceeds approximately 21 km 3 (17 MAF; ∼121% of the 20‐year mean value), with the largest recharge event coinciding with the exceptionally wet winter of water year 2023. These results suggest that above‐average snowpack conditions, rather than rainfall alone, are an important enabling condition for basin‐scale groundwater recharge under a warming climate.",
+        "keyPoints": [
+          "GRACE and GRACE-FO observations reveal rare basin-scale net groundwater recharge events in California",
+          "Net positive recharge years are strongly associated with above-average snowpack years",
+          "WY2023 demonstrates that future warming may reduce the likelihood of recharge-capable years"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122396",
         "journal": "Geophysical Research Letters",
         "region": "California Central Valley",
@@ -3091,8 +3104,15 @@ const reports = [
         "doi": "10.1029/2026gl122531",
         "authors": "J. Cheng, H. S. Bhat, M. Almakari, B. Lecampion, P. Dubernet",
         "abstract": "Traditional models of slow slip events (SSEs) oversimplify fault geometry, although imaging shows subduction faults are segmented and complex. We examine how fault interactions control slip behavior using 3D quasi‐dynamic simulations of two parallel faults with uniform rate‐weakening friction accelerated by hierarchical matrices. Four regimes emerge—periodic earthquakes, coexisting SSEs and earthquakes, only SSEs, and complex sequences—whereas a single planar fault with the same friction produces only earthquakes. We quantify interaction using the maximum Coulomb stress induced by a unit stress drop on a neighboring fault. This interaction metric depends on geometry, allowing extension to arbitrary fault systems. SSEs occur at intermediate interaction strengths. Low interaction strengths produce periodic earthquakes, whereas high interaction strengths generate complex earthquake sequences with irregular recurrence and variable magnitudes. Simulations reproduce moment–duration scaling and show sensitivity to detection thresholds. These results demonstrate that geometric complexity alone generates both slow and fast earthquakes through evolving traction heterogeneity.",
+        "keyPoints": [
+          "3D simulations show fault interactions generate slow slip events (SSEs) and complex sequences; a planar fault with identical friction produces only earthquakes",
+          "Fault interaction strength measures neighboring fault interaction through stress transfer and controls SSE occurrence and proportion",
+          "Observed SSE moment-duration scaling depends on the slip-rate detection threshold, suggesting instrumental sensitivity affects observations"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122531",
         "journal": "Geophysical Research Letters",
+        "region": "Global / method-focused",
         "method": "3D quasi-dynamic fault simulations",
         "onlineDate": "2026-09-14",
         "volume": "53",
@@ -3109,6 +3129,12 @@ const reports = [
         "doi": "10.1029/2026gl122833",
         "authors": "Yohai Magen, Alice‐Agnes Gabriel, Dave A. May",
         "abstract": "Slow slip events (SSEs) in the Cascadia subduction zone exhibit along‐strike segmentation, where the central segment has longer recurrence intervals but smaller moments. We quantify the controls on this variability by combining geodetic inter‐SSE coupling inversion with Bayesian inference of a quasi‐dynamic rate‐and‐state friction SSE‐cycle model accelerated by reduced‐order modeling. Our simulations show that effective normal stress controls the SSE recurrence interval, while subduction coupling controls the SSE moment. Our inversion of inter‐SSE GNSS velocities yields comparable inter‐SSE coupling along strike (∼60%–70%), whereas long‐term coupling ranges from near zero in the south to ∼42% in central Cascadia. Transient SSEs recover the full slip deficit in the south but leave persistent deficits of ∼30% and ∼42% of plate convergence in the north and central segments. These results indicate that effective normal stress and inter‐SSE coupling provide a unified geodetic and physics‐based explanation for Cascadia SSE segmentation.",
+        "keyPoints": [
+          "Transient SSEs recover ∼36%, ∼18%, and ∼69% of plate convergence in northern, central, and southern Cascadia",
+          "Rate-and-state friction simulations show that effective normal stress controls SSE recurrence; inter-SSE coupling controls SSE moment",
+          "GNSS and rate-and-state Bayesian inversions reveal persistent inter-SSE slip-deficit, largest in central Cascadia"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl122833",
         "journal": "Geophysical Research Letters",
         "region": "Cascadia",
@@ -3128,6 +3154,12 @@ const reports = [
         "doi": "10.1029/2026gl123061",
         "authors": "Chunlong Li, Huai Zhang, Yu Jeffrey Gu, Yicun Guo, Pei He, Guangyao Yin, Yaolin Shi",
         "abstract": "Understanding how the deep crust responds to coupled tectonic and magmatic processes is essential for deciphering intracontinental rifting. We apply high‐resolution passive‐source reverse time migration to teleseismic P‐wave receiver functions recorded by a dense seismic array to image the Moho beneath the Datong Basin. Our observations reveal a segmented Moho interface with localized crustal thinning (to 38–39 km), relative to a regional average of ∼40.5 km. Statistical analyses show that intraplate seismicity clusters where the lateral gradient of Moho depth is steep (0.15, a dip of ∼8.5) along the southwestern basin‐bounding normal faults, indicating mechanical coupling between upper‐crustal faulting and localized lower‐crustal deformation. Moho conversion amplitudes are enhanced in the northeastern volcanic area, which are associated with overlying lower‐crustal low‐ anomalies in connection with magmatic underplating. Horizontal extension accommodated by high‐angle normal faulting and magmatic modification therefore dominate the Moho evolution in different segments of the rift.",
+        "keyPoints": [
+          "High-resolution passive-source reverse time migration reveals segmented Moho uplift and localized crustal thinning beneath the Datong Basin",
+          "Seismicity clusters at steep Moho gradients, suggesting mechanical coupling between upper-crustal faulting and lower-crustal deformation",
+          "Enhanced Moho conversions beneath surface volcanism correlate with lower-crustal low-Vs anomalies, suggesting magmatic underplating"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123061",
         "journal": "Geophysical Research Letters",
         "region": "Datong Basin, China",
@@ -3148,6 +3180,12 @@ const reports = [
         "doi": "10.1029/2026gl123771",
         "authors": "Duhwan Keum, Chang Hwan Kim, Luca C. Malatesta, Wonsuck Kim",
         "abstract": "Marine terraces archive sea‐level and tectonic history, yet their relationship to individual highstands remains contentious. While most studies focus on subaerial terraces in uplifting settings, submerged terraces in subsiding settings are less explored. We develop a 1‐D wave‐erosion model and apply it to Dokdo — a subsiding volcanic island in the East Sea (a semi‐enclosed marginal sea bordered by Russia, Korea, and Japan) — using high‐resolution bathymetry to evaluate terrace generation and preservation. Our model captures the primary depths of the observed terrace record, comprising only six features out of ∼35 sea‐level stillstands over the past 600 ky. In a subsiding setting, lowstand terraces show higher preservation potential, yet many are reorganized through reoccupation, merging, and splitting during transgressions, rendering formation age non‐monotonic with water depth. These findings underscore that terrace records on volcanic islands are not simple chronometers, but emergent products of complex morphodynamic interactions between subsidence and sea‐level.",
+        "keyPoints": [
+          "Only 6 of ∼35 sea-level stillstands leave recognizable terraces in the model result, and formation age is non-monotonic with depth",
+          "Overprinting and fragmentation mean terrace elevation cannot be directly linked to past sea-level events",
+          "In subsiding settings, lowstand platforms can be preserved submerged below the wave base before subsequent sea-level cycles erase them"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123771",
         "journal": "Geophysical Research Letters",
         "region": "Dokdo, East Sea",
@@ -3167,8 +3205,15 @@ const reports = [
         "doi": "10.1029/2026gl123899",
         "authors": "Kai Li, Ran Hu, Tomasz Szawełło, Zhibing Yang, Yi‐Feng Chen, Piotr Szymczak, Chuang‐Bing Zhou",
         "abstract": "Chemical erosion governs the evolution of fractures across Earth systems, which manifests in three distinct dissolution patterns. However, how the boundaries between these regimes depend on system scale remains an open question, and no predictive theory has successfully linked laboratory observations to field‐scale behaviors. Here we integrate experiments, simulations, and linear stability analysis to show that fracture‐dissolution patterns across almost three orders of magnitude in length collapse onto a universal phase diagram defined by two dimensionless parameters, one of which explicitly incorporates fracture length. We derive analytical thresholds for transitions between compact, wormholing, and uniform dissolution and validate them against data with fracture length ranging from 0.1 to 30 m. We demonstrate that the optimal injection rate for maximizing permeability enhancement scales linearly with fracture length, enabling direct extrapolation from core‐flood experiments to field conditions. These findings provide a quantitative basis for upscaling dissolution dynamics in fractured geologic media.",
+        "keyPoints": [
+          "Dissolution patterns from core to field are governed by two dimensionless parameters, one of which explicitly includes fracture length",
+          "Linear stability analysis yields predictive criteria for pattern transitions across scales, validated by experiments and simulations",
+          "The optimal injection rate scales linearly with fracture length, enabling core-to-field extrapolation"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123899",
         "journal": "Geophysical Research Letters",
+        "region": "Global / laboratory-to-field scale",
         "method": "Experiments; numerical simulations; linear stability analysis",
         "onlineDate": "2026-09-15",
         "volume": "53",
@@ -3185,6 +3230,12 @@ const reports = [
         "doi": "10.1029/2026gl124081",
         "authors": "Keehwan Lee, Franco Marcantonio, Michael Bizimis, Howie D. Scher, Brian W. Romans, Lucien Nana Yobo",
         "abstract": "The drawdown of atmospheric CO 2 likely triggered Antarctic glaciation during the Eocene‐Oligocene Transition (34 Ma). Accurately constraining this shift from “greenhouse” to an “icehouse” climate is essential for understanding global carbon cycle dynamics. However, conventional proxies often lack the sensitivity to capture the earliest, localized phases of continental ice‐sheet development. In this study, we combined radiogenic hafnium and neodymium isotopes on marine sediments from Ocean Drilling Program Site 689D to track changes in silicate weathering regimes and isolate the enhanced physical weathering signal uniquely associated with glacial grinding. By analyzing the detrital sortable silt fraction, we identified the onset of major Antarctic glaciation between 34.06 and 34.13 Ma. Additionally, our data reveal two distinct precursor glacial events occurring earlier, at approximately 34.19 and 34.41 Ma. These findings provide a more refined chronological framework for one of Earth's most significant climate shifts.",
+        "keyPoints": [
+          "Transient glacial events can be tracked using Hf isotopes in the sortable silt fraction",
+          "Two precursor glacial events (34.19 and 34.41 Ma) were discovered, which predate the Eocene-Oligocene Transition (34.00 Ma)",
+          "Climate change during glaciation was a gradual shift rather than an abrupt transition"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124081",
         "journal": "Geophysical Research Letters",
         "region": "Antarctica, ODP Site 689D",
@@ -3203,6 +3254,12 @@ const reports = [
         "doi": "10.1029/2026gl124294",
         "authors": "Joshua J. Roering, Eliza R. Lawrence, Ries Plescher, Maryn A. Sanders, Deanna Nash, Annette I. Patton, Adelaide Johnson, Aaron Jacobs, Nicolas W. Mathews, Lia Salomon, Stephen McKay, Wolfgang Schwanghart, William Struble, Quinn Aboudara",
         "abstract": "Rapid, shallow landslides in coastal mountains are triggered by extreme precipitation, shaping topography and impacting human settlements. Using an inventory of >700 landslides mapped from satellite imagery (2009–2024) and an atmospheric river database (1981–2019), this study documents linkages between climatic drivers and the topographic context of landslides on Prince of Wales Island, Southeast Alaska. We observe a strong correlation between landslide occurrence and extreme atmospheric rivers during the autumn months. Notably, landslide initiation zones exhibit a strong directional bias toward the southwest‐to‐southeast, coinciding with the trajectory of landfalling extreme atmospheric rivers. Our frequency ratio analysis demonstrates that landslides are overrepresented on the windward aspect of steep (>35°) slopes at mid‐slope positions which enables us to map relative landslide susceptibility. Potential mechanisms include orographic forcing, wind‐driven precipitation, and forest canopy disturbance. These findings provide a framework for quantifying how slide‐prone landscapes co‐evolve with preferential climate forcing to inform hazard assessment.",
+        "keyPoints": [
+          "Shallow landslides on Prince of Wales Island, SE Alaska, predominantly occur August to December, coincident with extreme atmospheric rivers",
+          "The orientation of landslides in this post-glacial, coastal steepland landscape coincides with the trajectory of extreme atmospheric rivers",
+          "Landslide susceptible terrain, as defined by aspect, slope, and slope position, accounts for >95% of mapped slides and <20% of study area"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124294",
         "journal": "Geophysical Research Letters",
         "region": "Prince of Wales Island, Alaska",
@@ -3221,9 +3278,15 @@ const reports = [
         "doi": "10.1029/2026gl123200",
         "authors": "Qianxi Chen, Feiwu Zhang, Joshua M. R. Muir",
         "abstract": "The crystal structure of Earth's inner core (IC) remains debated, with the free energy difference between hexagonal close‐packed (hcp) and body‐centered cubic (bcc) iron under IC conditions being very small. We use ab initio and machine learning force field molecular dynamics simulations to show that hydrogen can strongly influence the phase stability of inner‐core iron. At 330 GPa and 6,000 K, ∼1.4 at.% hydrogen is sufficient to overcome the small free‐energy difference between pure iron phases and favor bcc phase stability. At geochemically plausible IC H contents of 0–11.3 at.%, hcp, bcc or mixed phases can be stable, with bcc phases dominant above 2.78 at.% hydrogen. Depth‐dependent phase transitions across 330–360 GPa can arise from variations in hydrogen content and temperature, suggesting that these two factors are important controls on Fe–H phase stability and may provide a possible mechanism for interpreting the IC's complex seismic features.",
+        "keyPoints": [
+          "Ab initio and machine learning force field molecular dynamics simulations are used to study the role of hydrogen in iron phase stability",
+          "H is a key light element governing iron phase stability, with its superionicity inducing dominant vibrational entropy effects in bcc iron",
+          "H content and temperature can be important for inner‐core structure, leading to depth dependent phase transitions at plausible H abundances"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123200",
         "journal": "Geophysical Research Letters",
-        "region": "",
+        "region": "Earth's inner core",
         "method": "ab initio and machine-learning molecular dynamics",
         "onlineDate": "2026-09-22",
         "volume": "53",
@@ -3239,9 +3302,15 @@ const reports = [
         "doi": "10.1029/2026gl123511",
         "authors": "Junpeng Wang, Muhammad Edo Nurshal, Pengliang Yu, Zhi Geng, Matthew Roseboom, Tushar Mittal, Derek Elsworth",
         "abstract": "Crustal permeability can be created through microearthquakes as observed at field and laboratory scales. The respective roles of seismic and aseismic slip in governing permeability evolution remain ill‐constrained. Here, we present observations of controlled pore pressure stepping experiments designed to distinguish the separate influences of seismic and aseismic slip on permeability evolution. We show that permeability first decreases with slip before subsequently increasing then finishing with a net increase in permeability. This behavior tracks with the net increases in seismic moment throughout the reactivation as a fraction of the overall combined (seismic plus aseismic) moment. We observe that the aseismic moment can account for ∼90% of the total moment. We develop a mechanistic model to recreate these non‐monotonic observations, incorporating shear dilation modulated by fracture compactions. Our results demonstrate that aseismic slip exerts an indispensable control on crustal permeability evolution, providing new constraints on fluid–fault interactions in the crust.",
+        "keyPoints": [
+          "Aseismic slip dominates early fault reactivation and drives permeability reduction through asperity compaction",
+          "Permeability evolution reflects the competition between aseismic compaction and seismic dilation during fault slip",
+          "A proposed mechanistic model links permeability evolution to competing seismic and aseismic slip"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl123511",
         "journal": "Geophysical Research Letters",
-        "region": "",
+        "region": "Laboratory / crustal fault analog",
         "method": "pore-pressure stepping experiments and mechanistic permeability modeling",
         "onlineDate": "2026-09-22",
         "volume": "53",
@@ -3258,6 +3327,12 @@ const reports = [
         "doi": "10.1029/2026gl124103",
         "authors": "J. M. Young, J. van der Sluijs, S. V. Kokelj, S. Gruber, T. Herring, A. C. A. Rudy, A. Alvarez, D. Froese",
         "abstract": "Warming permafrost is destabilizing landscapes, intensifying thaw‐driven mass wasting and giving rise to novel landslide forms. We characterize two recent (2017 and 2018), deep‐seated translational failures that we term Permafrost Detachment Slides (PDSs), which rapidly translocated 4.5 and 18 × 10 6 m 3 of frozen material into downstream environments. The PDS failure mechanism involves bottom‐up thaw, initiating gradual movement of the entire permafrost layer, producing distinct failure styles and deposits. Initial movement results in extensional cracks that increase water infiltration, accelerating thaw at depth and slope failure. We have identified hundreds of similar landslides in relatively thin (<40 m) and warm (>−1°C) permafrost of the Mackenzie Valley, NWT. Thermal modeling indicates fire‐induced effects can cause thawing at the permafrost base over decadal timescales. Though PDSs occur rapidly, their effects persist, as thermokarst processes alter ice‐rich scarps and deposits, mobilizing sediments, solutes, and carbon into downstream environments.",
+        "keyPoints": [
+          "PDSs fail through bottom-up thaw and detach the entire permafrost profile, fundamentally different from top-down thaw-driven mass wasting",
+          "Climate warming and wildfire drive heat to the permafrost base over decades, triggering failures orders of magnitude larger than thaw slumps",
+          "Hundreds of similar deep-seated permafrost landslides have been documented in warm and thin permafrost of the NWT, signaling growing hazards"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124103",
         "journal": "Geophysical Research Letters",
         "region": "Mackenzie Valley, Northwest Territories",
@@ -3276,6 +3351,12 @@ const reports = [
         "doi": "10.1029/2026gl124584",
         "authors": "Cheng‐Hua Tsai, Luc Illien, Li‐Wei Chen, Ci‐Jian Yang",
         "abstract": "Near‐surface groundwater dynamics (NSGD) regulate water residence time and downstream water resources in mountain watersheds, yet whether a single extreme rainfall event can reorganize near‐surface storage remains unclear. Here, we examine typhoon‐driven NSGD using ambient seismic noise from four stations, together with hydrological and meteorological records. Single‐station cross‐component correlations and the stretching method were applied to estimate seismic velocity changes ( dυ / υ ) at 4–8 Hz. Following the typhoon, has spatial variability, ranging from ∼10 days upstream to at least 3 months downstream. We attribute this delayed recovery to thicker colluvium and fractured bedrock that enhance subsurface water retention. Concurrent decreases in dυ / υ and increases in groundwater levels indicate transient vertical coupling between shallow and deeper systems. Continued post‐typhoon dυ / υ decreases suggest delayed lateral inflow from upstream, whereas later low‐intensity rainfall responses indicate subsequent decoupling. Our results show that a single typhoon prolonged watershed scale NSGD with insight for water residence time in mountainous regions.",
+        "keyPoints": [
+          "Ambient‐noise velocity changes reveal post‐typhoon near‐surface groundwater recovery from days upstream to months downstream",
+          "The prolonged downstream velocity decrease indicates hydrologic memory controlled by colluvial storage and fractured bedrock",
+          "Co‐variations between seismic velocity and groundwater level suggest transient shallow–deep groundwater coupling after extreme rainfall"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124584",
         "journal": "Geophysical Research Letters",
         "region": "mountain watershed",
@@ -3294,6 +3375,12 @@ const reports = [
         "doi": "10.1029/2026gl124881",
         "authors": "Nicolas Paris, Florent Gimbert, Philippe Roux, Stephen J. Livingstone, Siobhan F. Killingbeck, Andrew J. Sole, Samuel H. Doyle, Jonathan D. Hawkins, Matthew W. Peacey, Adam D. Booth",
         "abstract": "Glacier bed topography is crucial for modeling ice mass loss. However, heavily crevassed regions are challenging to survey using conventional methods, leading to data gaps. We establish a passive seismic approach exploiting naturally occurring crevassing events recorded with a dense seismic array to image the ice–bed interface without spatial interpolation. Using P‐wave reflections from shallow events detected by matched field processing, we derive a two‐dimensional ice‐thickness map with ∼15 m vertical resolution in a crevasse field on Isunnguata Sermia, West Greenland. Our measurements are consistent with ground‐penetrating radar ice thickness picks and extend coverage to previously inaccessible areas. The resolved bed shows a ∼100 m deep overdeepening along ice flow, poorly resolved in large‐scale bed elevation products, co‐located with a previously inferred active subglacial lake. This method provides a robust, logistically simpler tool than more conventional radar and active seismic surveys for high‐resolution bed imaging in dynamically active glacier regions.",
+        "keyPoints": [
+          "We establish a new method for dense array passive seismic reflection imaging of glacier beds using surface icequakes",
+          "We retrieve a 2D ice thickness map involving no spatial interpolation and yielding vertical resolution similar to active seismic surveys",
+          "We image an overdeepening likely favoring subglacial lake formation, consistent with prior surface elevation change observations"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl124881",
         "journal": "Geophysical Research Letters",
         "region": "Isunnguata Sermia, West Greenland",
@@ -3312,6 +3399,12 @@ const reports = [
         "doi": "10.1029/2026gl125250",
         "authors": "Zhantao Feng, Niels Meijer, Weilin Zhang, Guillaume Dupont‐Nivet, Wanlong Xu, Tao Zhang, Jinbo Zan, Yibo Yang, Xiaomin Fang",
         "abstract": "Intracontinental deformation records how early Eocene India–Asia collisional stress propagated into continental interiors. How rapidly compression reached the far field, and whether coeval Paleo‐Pacific slab dynamics contributed, remain debated. The Longzhong Basin, ∼1,900 km north of the collisional zone, provides a key test. Yet its early tectonic regime is contested because direct strain records are scarce. Here, we applied anisotropy of magnetic susceptibility, corrected using vertical‐axis rotation, to Cretaceous–early Eocene strata of the Xining and Linxia sub‐basins. Cretaceous fabrics define broadly E–W K1 orientations with ambiguous kinematic significance, whereas early Eocene fabrics consistently record layer‐parallel shortening. This contrast indicates that collisional compression reached the northeastern Tibetan Plateau within a few million years of collision onset. By the early Eocene, India‐Asia convergence, rather than Paleo‐Pacific rollback, dominated deformation in the Longzhong region, implying efficient stress transfer through mechanically coupled Tibetan terranes.",
+        "keyPoints": [
+          "Rotation‐corrected magnetic fabrics record an E‐W Cretaceous strain axis that followed by early Eocene SW‐NE shortening in the basin",
+          "Compressional stress from the India‐Asia collision reached ∼1,900 km into northeastern Tibet within a few million years of collision onset",
+          "By the early Eocene, collision‐related compression, not Paleo‐Pacific rollback, dominated deformation in the Longzhong Basin region"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl125250",
         "journal": "Geophysical Research Letters",
         "region": "northeastern Tibetan Plateau",
@@ -3330,9 +3423,15 @@ const reports = [
         "doi": "10.1029/2026gl125871",
         "authors": "Ioan V. Sanislav, Avish Kumar, Mabrouk Sami",
         "abstract": "Ductile shear zones act as transient pathways for crustal fluids, yet the conditions under which their connected porosity becomes sufficient to conduct are not well constrained. We present a porosity balance in which connected porosity evolves under three competing processes: creation by creep cavitation, creation by metamorphic reaction, and thermally activated closure. The model is constrained by existing experimental data, and permeability is linked to porosity through a percolation law with a sharp threshold. Within this constrained model, creep cavitation alone produces a steady‐state porosity orders of magnitude below the threshold at natural strain rates. A net reaction‐driven porosity source resolves this gap, and the critical net porosity‐production rate required to reach the threshold is geologically reasonable. Ductile shear‐zone permeability is therefore likely transient and reaction‐gated, with deformation alone unable to sustain connectivity at natural rates.",
+        "keyPoints": [
+          "A porosity‐balance model predicts a sharp permeability switch when connected porosity exceeds a percolation threshold",
+          "Using experimental constraints, creep cavitation alone falls orders of magnitude below this threshold at natural shear‐zone strain rates",
+          "A net reaction‐driven porosity source can close the gap, making ductile shear‐zone permeability transient and reaction‐gated"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2026gl125871",
         "journal": "Geophysical Research Letters",
-        "region": "",
+        "region": "Ductile crustal shear zones",
         "method": "porosity-balance and percolation modeling of ductile shear zones",
         "onlineDate": "2026-09-22",
         "volume": "53",
