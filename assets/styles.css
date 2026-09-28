@@ -1121,6 +1121,20 @@ a {
   color: var(--signal);
 }
 
+.archive-item[aria-current="page"] {
+  padding-inline: 18px;
+  background: var(--signal-soft);
+  box-shadow: inset 4px 0 0 var(--signal);
+}
+
+.archive-item[aria-current="page"] h3 {
+  font-weight: 750;
+}
+
+.archive-item[aria-current="page"] > span {
+  color: var(--signal);
+}
+
 .archive-item h3 {
   margin: 0;
   font-size: 16px;

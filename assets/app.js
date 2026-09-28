@@ -804,22 +804,23 @@ function findGroupForBatch(batch) {
   return batch ? journalGroups.find((group) => group.name === batch.journal) || null : null;
 }
 
-function renderArchive(group, currentBatch) {
-  const archive = group.batches.filter((batch) => batch.id !== currentBatch.id);
-  el.archiveSummary.textContent = archive.length
-    ? `${archive.length} other update${archive.length === 1 ? "" : "s"}`
-    : "No other updates recorded";
-  el.archiveList.innerHTML = archive.length
-    ? archive.map((batch) => `
-      <a class="archive-item" href="#report=${encodeURIComponent(batch.id)}" data-route="#report=${escapeHtml(batch.id)}">
+function renderArchive(group, currentBatch, isJournalLanding) {
+  el.archiveSummary.textContent = `${group.batches.length} recorded update${group.batches.length === 1 ? "" : "s"} · viewing ${currentBatch.displayLabel}`;
+  el.archiveList.innerHTML = group.batches.map((batch) => {
+    const isCurrent = batch.id === currentBatch.id;
+    const route = isCurrent && isJournalLanding
+      ? `#journal=${encodeURIComponent(group.slug)}`
+      : `#report=${encodeURIComponent(batch.id)}`;
+    return `
+      <a class="archive-item" href="${route}" data-route="${escapeHtml(route)}"${isCurrent ? ' aria-current="page"' : ""}>
         <div>
           <h3>${escapeHtml(batch.displayLabel)}</h3>
           <p>${escapeHtml(formatDate(batch.publicationDate))} · ${batch.articles.length} article${batch.articles.length === 1 ? "" : "s"}</p>
         </div>
-        <span>Open update →</span>
+        <span>${isCurrent ? "Viewing now" : "Open update →"}</span>
       </a>
-    `).join("")
-    : `<div class="empty-state">This journal has one recorded update so far.</div>`;
+    `;
+  }).join("");
 }
 
 function renderDetail(group, batch, isJournalLanding) {
@@ -865,7 +866,7 @@ function renderDetail(group, batch, isJournalLanding) {
       { showSourceBadge: sourceKinds.size > 1 }
     )).join("")
     : `<div class="empty-state">No articles in this update match every selected research area. Clear or remove a filter to see more.</div>`;
-  renderArchive(group, batch);
+  renderArchive(group, batch, isJournalLanding);
   document.title = `${isJournalLanding ? displayName : batch.displayLabel} | Solid Earth Observatory`;
 }
 
