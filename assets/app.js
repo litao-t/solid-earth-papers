@@ -502,13 +502,6 @@ function writeSearchState({ historyMode = "replace", hash = window.location.hash
   window.history[`${historyMode}State`](null, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
-function getLatestDate() {
-  return allBatches
-    .flatMap((batch) => [batch.date, batch.sortDate, batch.publicationDate, batch.issueDate].filter(Boolean))
-    .sort()
-    .at(-1) || "";
-}
-
 function getArticleSearchText(article) {
   return normalize([
     article.title,
@@ -573,11 +566,10 @@ function getIssuePage(batch) {
 }
 
 function renderUtility() {
-  const latestDate = getLatestDate();
   el.heroJournalCount.textContent = journalGroups.length;
   el.heroArticleCount.textContent = allArticles.length;
   el.heroEarliestDate.textContent = formatDate(SEARCH_DATE_MIN);
-  el.heroLatestDate.textContent = latestDate ? formatDate(latestDate) : "—";
+  el.heroLatestDate.textContent = formatDate(SEARCH_DATE_MAX);
 }
 
 function renderJournalDirectory() {
