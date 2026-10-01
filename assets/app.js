@@ -5,15 +5,6 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 const researchAreaSlugs = new Set(researchAreaDefinitions.map((area) => area.slug));
 const researchAreaLabels = new Map(researchAreaDefinitions.map((area) => [area.slug, area.label]));
 
-const publicationModes = {
-  "Communications Earth & Environment": "month",
-  "Geophysical Journal International": "month",
-  "Nature Geoscience": "month",
-  "Nature Communications": "month",
-  "Seismological Research Letters": "month",
-  "Earth and Planetary Science Letters": "volume"
-};
-
 const journalDisplayNames = {
   "IEEE Transactions on Geoscience and Remote Sensing": "IEEE TGRS",
   "Proceedings of the National Academy of Sciences of the United States of America": "PNAS"
@@ -293,7 +284,10 @@ function getPublicationLabel(batch) {
 
   if (mode === "issue" && hasIssue) return issue;
   if (mode === "volume" && volumeMatch) return volumeMatch[0].replace(/^volume/i, "Volume");
-  return formatMonthYear(batch.issueDate || batch.date);
+  const fallbackDate = formatMonthYear(batch.issueDate || batch.date);
+  if (mode === "issue") return fallbackDate ? `Issue metadata pending — ${fallbackDate}` : "Issue metadata pending";
+  if (mode === "volume") return fallbackDate ? `Volume metadata pending — ${fallbackDate}` : "Volume metadata pending";
+  return fallbackDate;
 }
 
 function makeBatch(report, journal, articles, suffix = "", publicationLabel = "") {
