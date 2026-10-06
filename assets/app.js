@@ -72,7 +72,13 @@ const el = {
   detailSourceNote: document.querySelector("#detail-source-note"),
   detailArticles: document.querySelector("#detail-articles"),
   archiveSummary: document.querySelector("#archive-summary"),
-  archiveList: document.querySelector("#archive-list")
+  archiveList: document.querySelector("#archive-list"),
+  abstractDialog: document.querySelector("#abstract-dialog"),
+  abstractTitle: document.querySelector("#abstract-title"),
+  abstractBody: document.querySelector("#abstract-body"),
+  abstractClose: document.querySelector("#abstract-close"),
+  abstractCopy: document.querySelector("#abstract-copy"),
+  abstractCopyStatus: document.querySelector("#abstract-copy-status")
 };
 
 function normalize(value) {
@@ -410,6 +416,12 @@ const allArticles = allBatches.flatMap((batch) =>
   }))
 );
 
+function getAbstractKey(article) {
+  return JSON.stringify([article.reportId, article.doi || article.link || article.title]);
+}
+
+const articlesByAbstractKey = new Map(allArticles.map((article) => [getAbstractKey(article), article]));
+
 function getArticleDate(article) {
   const candidates = [article.publicationDate, article.onlineDate, article.reportDate, article.issueDate];
   return candidates.map((value) => normalizeArticleDate(value)).find(Boolean)
@@ -631,7 +643,8 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
     article.doi ? `DOI: ${escapeHtml(article.doi)}` : ""
   ].filter(Boolean);
   const actions = [
-    pdfHref ? `<a href="${pdfHref}" target="_blank" rel="noreferrer">Open PDF <span aria-hidden="true">↓</span></a>` : ""
+    pdfHref ? `<a href="${pdfHref}" target="_blank" rel="noreferrer">Open PDF <span aria-hidden="true">↓</span></a>` : "",
+    article.abstract ? `<button type="button" data-abstract="${escapeHtml(getAbstractKey(article))}" aria-haspopup="dialog" aria-controls="abstract-dialog">Abstract <span aria-hidden="true">↗</span></button>` : ""
   ].join("");
   const shouldShowSourceBadge = showSourceBadge && article.keyPointsSource === "ai-generated";
   const topline = `${tags}${shouldShowSourceBadge ? `<span class="source-badge ${sourceClass}">${sourceLabel}</span>` : ""}`;
@@ -648,6 +661,28 @@ function renderArticleCard(article, { showJournal = false, showSourceBadge = tru
       ${actions ? `<div class="article-actions">${actions}</div>` : ""}
     </article>
   `;
+}
+
+function openAbstractDialog(trigger) {
+  const article = articlesByAbstractKey.get(trigger.dataset.abstract);
+  trigger.focus({ preventScroll: true });
+  el.abstractTitle.innerHTML = renderScientificText(article.title);
+  el.abstractBody.innerHTML = article.abstract.trim().split("\n").map(renderScientificText).join("\n");
+  el.abstractCopy.textContent = "Copy abstract";
+  el.abstractCopyStatus.textContent = "";
+  el.abstractDialog.showModal();
+  el.abstractBody.parentElement.scrollTop = 0;
+  document.body.classList.add("abstract-open");
+}
+
+async function copyAbstract() {
+  try {
+    await navigator.clipboard.writeText(el.abstractBody.innerText);
+    el.abstractCopy.textContent = "Copied!";
+    el.abstractCopyStatus.textContent = "Abstract copied to clipboard.";
+  } catch {
+    el.abstractCopyStatus.textContent = "Copy failed. Select the abstract text and copy it manually.";
+  }
 }
 
 function getDateRangeTicks() {
@@ -848,7 +883,7 @@ function renderDetail(group, batch, isJournalLanding) {
 
   el.detailArticles.innerHTML = visibleArticles.length
     ? visibleArticles.map((article) => renderArticleCard(
-      { ...article, reportJournal: group.name, reportIssue: batch.displayLabel },
+      { ...article, reportId: batch.id, reportJournal: group.name, reportIssue: batch.displayLabel },
       { showSourceBadge: sourceKinds.size > 1 }
     )).join("")
     : `<div class="empty-state">No articles in this update match every selected research area. Clear or remove a filter to see more.</div>`;
@@ -902,6 +937,7 @@ function scrollForRoute(route, shouldScroll) {
 }
 
 function renderRoute({ shouldScroll = true } = {}) {
+  if (el.abstractDialog.open) el.abstractDialog.close();
   const route = parseRoute();
   if (route.type !== "search") {
     const cleanUrl = new URL(window.location.href);
@@ -997,6 +1033,12 @@ function toggleArea(slug) {
 }
 
 document.addEventListener("click", (event) => {
+  const abstractButton = event.target.closest("button[data-abstract]");
+  if (abstractButton) {
+    openAbstractDialog(abstractButton);
+    return;
+  }
+
   const routeLink = event.target.closest("a[data-route]");
   if (routeLink && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
     const href = routeLink.getAttribute("href");
@@ -1023,6 +1065,20 @@ document.addEventListener("click", (event) => {
     writeSearchState({ historyMode: "push", hash: "#search" });
     renderRoute();
   }
+});
+
+el.abstractClose.addEventListener("click", () => el.abstractDialog.close());
+el.abstractCopy.addEventListener("click", copyAbstract);
+el.abstractDialog.addEventListener("click", (event) => {
+  if (event.target !== el.abstractDialog) return;
+  const bounds = el.abstractDialog.getBoundingClientRect();
+  if (event.clientX < bounds.left || event.clientX > bounds.right
+    || event.clientY < bounds.top || event.clientY > bounds.bottom) {
+    el.abstractDialog.close();
+  }
+});
+el.abstractDialog.addEventListener("close", () => {
+  document.body.classList.remove("abstract-open");
 });
 
 el.searchInput.addEventListener("input", (event) => {

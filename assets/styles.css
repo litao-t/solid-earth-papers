@@ -1029,22 +1029,135 @@ a {
   align-content: start;
 }
 
-.article-actions a {
+.article-actions a,
+.article-actions button {
   display: flex;
   min-height: 38px;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   padding: 0 10px;
+  border: 0;
   border-bottom: 2px solid var(--basalt);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
   font: 650 12px/1 var(--utility);
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.article-actions a:hover {
+.article-actions a:hover,
+.article-actions button:hover {
   border-color: var(--fault);
   color: var(--fault);
+}
+
+body.abstract-open {
+  overflow: hidden;
+}
+
+.abstract-dialog {
+  width: min(640px, calc(100% - 32px));
+  max-height: 85vh;
+  max-height: 85dvh;
+  padding: 0;
+  border: 1px solid var(--line-dark);
+  background: var(--paper);
+  color: var(--basalt);
+  box-shadow: 0 24px 80px rgba(23, 35, 31, 0.22);
+  overflow: hidden;
+}
+
+.abstract-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.abstract-dialog::backdrop {
+  background: rgba(23, 35, 31, 0.45);
+}
+
+.abstract-dialog-header,
+.abstract-dialog-footer {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+}
+
+.abstract-dialog-header {
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.abstract-dialog-header h2 {
+  margin: 0;
+  color: var(--signal);
+  font: 700 13px/1.4 var(--utility);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.abstract-close {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--basalt);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.abstract-close:hover {
+  border-color: var(--fault);
+  color: var(--fault);
+}
+
+.abstract-dialog-content {
+  min-height: 0;
+  padding: 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  overflow-wrap: anywhere;
+}
+
+.abstract-dialog-content:focus-visible {
+  outline-offset: -3px;
+}
+
+.abstract-dialog-content h3 {
+  margin: 0 0 18px;
+  font: 650 20px/1.4 var(--display);
+}
+
+.abstract-body {
+  color: var(--graphite);
+  font-size: 15px;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  user-select: text;
+}
+
+.abstract-dialog-footer {
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+}
+
+.abstract-copy-status {
+  flex: 1 1 180px;
+  margin: 0;
+  color: var(--graphite);
+  font: 500 12px/1.5 var(--utility);
+}
+
+.abstract-copy-status:empty {
+  display: none;
 }
 
 .empty-state {

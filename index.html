@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A focused literature monitor for Solid Earth research across leading journals." />
     <title>Solid Earth Literature Observatory</title>
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css?v=20261005a" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -182,7 +182,22 @@
       </footer>
     </div>
 
+    <dialog id="abstract-dialog" class="abstract-dialog" aria-labelledby="abstract-heading">
+      <header class="abstract-dialog-header">
+        <h2 id="abstract-heading">Abstract</h2>
+        <button id="abstract-close" class="abstract-close" type="button" aria-label="Close abstract" autofocus>×</button>
+      </header>
+      <div class="abstract-dialog-content" tabindex="0" role="region" aria-labelledby="abstract-title">
+        <h3 id="abstract-title"></h3>
+        <div id="abstract-body" class="abstract-body"></div>
+      </div>
+      <footer class="abstract-dialog-footer">
+        <button id="abstract-copy" class="action action-primary" type="button">Copy abstract</button>
+        <p id="abstract-copy-status" class="abstract-copy-status" role="status"></p>
+      </footer>
+    </dialog>
+
     <script src="assets/data.js?v=20261001c"></script>
-    <script src="assets/app.js?v=20261001c"></script>
+    <script src="assets/app.js?v=20261005a"></script>
   </body>
 </html>
