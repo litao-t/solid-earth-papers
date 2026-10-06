@@ -1256,6 +1256,8 @@ const reports = [
         "region": "Groundwater systems / field-scale remediation",
         "method": "Nanoscale zero-valent iron mineralization and permeable reactive barriers",
         "onlineDate": "2026-09-05",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77247-z.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -1298,6 +1300,8 @@ const reports = [
         "region": "Emeishan large igneous province",
         "method": "Geochronology, paleomagnetism and single-crystal paleointensity",
         "onlineDate": "2026-09-08",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77506-z.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics",
           "earth-interior-rock-physics"
@@ -1318,6 +1322,8 @@ const reports = [
         "region": "Global",
         "method": "Earth-system modelling with carbon-isotope and atmospheric CO2 data assimilation",
         "onlineDate": "2026-09-18",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77747-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -1337,6 +1343,8 @@ const reports = [
         "region": "Global / deep Earth",
         "method": "chromium-isotope geochemistry",
         "onlineDate": "2026-09-23",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77742-3.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -1380,6 +1388,8 @@ const reports = [
         "region": "western Panama and southwest Japan",
         "method": "boron-isotope and melt-inclusion geochemistry",
         "onlineDate": "2026-09-24",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-78096-6.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "volcanology-magmatism-geothermal"
@@ -2946,6 +2956,8 @@ const reports = [
         "region": "Global",
         "method": "Integrated carbon-loss modeling",
         "onlineDate": "2026-09-03",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04012-x.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -2965,6 +2977,8 @@ const reports = [
         "region": "Mariposa Grove, Yosemite National Park, USA",
         "method": "Elastic full-waveform inversion and geostatistical rock physics",
         "onlineDate": "2026-09-05",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04034-5.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics",
           "earth-interior-rock-physics"
@@ -3009,6 +3023,8 @@ const reports = [
         "region": "Apennines–Tyrrhenian system, Italy",
         "method": "Integrated geodetic, seismic and geological analysis",
         "onlineDate": "2026-09-07",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04021-w.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "geodesy-crustal-deformation",
@@ -3030,6 +3046,8 @@ const reports = [
         "region": "Central Asia",
         "method": "Coupled geodynamic and landscape-evolution simulations",
         "onlineDate": "2026-09-07",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04030-9.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -3096,6 +3114,8 @@ const reports = [
         "region": "Northeast Japan and global earthquake swarms",
         "method": "Seismicity-area and cumulative-moment scaling analysis",
         "onlineDate": "2026-09-10",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04043-4.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -3116,6 +3136,8 @@ const reports = [
         "region": "Central Calabria, Italy",
         "method": "Microstructural, geochemical and mass-balance analysis",
         "onlineDate": "2026-09-10",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04048-z.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal",
           "earth-interior-rock-physics"
@@ -3136,6 +3158,8 @@ const reports = [
         "region": "Chinese Loess Plateau",
         "method": "Loess-paleosol geochemical reconstruction; silicate-weathering carbon budget",
         "onlineDate": "2026-09-12",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04058-x.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -3179,6 +3203,8 @@ const reports = [
         "region": "Colorado River headwaters, USA",
         "method": "Soil-moisture, groundwater and streamflow time-series analysis",
         "onlineDate": "2026-09-14",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04045-2.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -3198,6 +3224,8 @@ const reports = [
         "region": "Oceanic upper mantle / ophiolites",
         "method": "Monte Carlo Potts modeling and experimental calibration",
         "onlineDate": "2026-09-16",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04015-8.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal",
           "earth-interior-rock-physics"
@@ -3241,6 +3269,8 @@ const reports = [
         "region": "Bohai Economic Rim, China",
         "method": "Integrated subsidence, sea-level and demographic projections",
         "onlineDate": "2026-09-17",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04068-9.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -3284,6 +3314,8 @@ const reports = [
         "region": "southern Africa",
         "method": "regolith geochemistry, mineralogy, and (U–Th)/He geochronology",
         "onlineDate": "2026-09-19",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04066-x.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -3327,6 +3359,8 @@ const reports = [
         "region": "United States coasts",
         "method": "land-subsidence hazard characterization",
         "onlineDate": "2026-09-22",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04065-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -3358,6 +3392,8 @@ const reports = [
         "onlineDate": "2026-09-17",
         "volume": "393",
         "issueNumber": "6817",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.adx5917",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -5871,6 +5907,8 @@ const reports = [
         "onlineDate": "2026-08-27",
         "volume": "393",
         "issueNumber": "6814",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aed9893",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -5900,6 +5938,8 @@ const reports = [
         "region": "Western Mediterranean",
         "method": "Observational data analysis",
         "onlineDate": "2026-08-27",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03994-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -5919,6 +5959,8 @@ const reports = [
         "region": "Mexico",
         "method": "Observational data analysis",
         "onlineDate": "2026-08-29",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03940-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -5938,6 +5980,8 @@ const reports = [
         "region": "Sumatra, Indonesia",
         "method": "Numerical modeling",
         "onlineDate": "2026-08-29",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03951-9.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -5958,6 +6002,8 @@ const reports = [
         "region": "Cascadia subduction zone",
         "method": "High-pressure experiments",
         "onlineDate": "2026-08-29",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03979-x.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -5978,6 +6024,8 @@ const reports = [
         "region": "United States",
         "method": "Observational data analysis",
         "onlineDate": "2026-08-31",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03988-w.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -5997,6 +6045,8 @@ const reports = [
         "region": "Mexico",
         "method": "Laboratory measurements",
         "onlineDate": "2026-08-31",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04005-w.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -6234,6 +6284,8 @@ const reports = [
         "region": "Central and southwestern Greece",
         "method": "Densified GNSS velocity field; slip-rate, strain-localization, and interseismic-loading analysis",
         "onlineDate": "2026-06-12",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/247/1/ggag229/68519982/ggag229.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -7301,6 +7353,8 @@ const reports = [
         "region": "California",
         "method": "prospective decadal observations in California",
         "onlineDate": "2026-08-06",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76243-7.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -7320,6 +7374,8 @@ const reports = [
         "region": "Study region described in the verified source",
         "method": "We develop a quantitative ash capture model based on textural complexities within the veneers, anda material and textural complexitiesrgue that hybrid activity is common to",
         "onlineDate": "2026-08-08",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76464-w.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -7339,6 +7395,8 @@ const reports = [
         "region": "orogenic duration reveals alternating tectonic regimes",
         "method": "Through in-situ garnet Lu–Hf and monazite microdomain U–Pb geochronology, here we constrain a 220 Myr hot collisional orogen during Columbia assembly, significantly longer than",
         "onlineDate": "2026-08-11",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76530-3.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -7358,6 +7416,8 @@ const reports = [
         "region": "Earth’s lower mantle",
         "method": "Analysis described in the verified title and abstract",
         "onlineDate": "2026-08-12",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76621-1.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -7377,6 +7437,8 @@ const reports = [
         "region": "Earth’s ambient lower mantle",
         "method": "Here we combine Brillouin spectroscopy with resistively heated diamond anvil cell experiments to measure the sound velocities of CaSiO₃ davemaoite up to 80 GPa and 973 K",
         "onlineDate": "2026-08-15",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76943-0.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -7396,6 +7458,8 @@ const reports = [
         "region": "Study region described in the verified source",
         "method": "Here we present a method for following changes in stored energy through a balance between the energy supplied by the pressure source and lost by seismicity",
         "onlineDate": "2026-08-24",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77001-5.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "volcanology-magmatism-geothermal"
@@ -7416,6 +7480,8 @@ const reports = [
         "region": "Laboratory / method-focused",
         "method": "Laboratory measurements",
         "onlineDate": "2026-08-27",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76624-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -7911,6 +7977,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Real-Time Microseismic Event Location with Latent Diffusion Models",
         "onlineDate": "2026-08-03",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11638240",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -7931,6 +7999,8 @@ const reports = [
         "method": "Optimal selection of common-reference interferometric subsets for topographic-delay correction",
         "onlineDate": "2026-08-04",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11641632",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -7972,6 +8042,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Eigenvector-Rectified Analytic Directional Structure Tensor for Seismic Data Discontinuity Detection",
         "onlineDate": "2026-08-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11643272",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -7991,6 +8063,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "A Multi-Modal Seismic Attenuation Compensation Based on Shallow-Dominant Attenuation Collaborative Mapping",
         "onlineDate": "2026-08-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11643893",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -8010,6 +8084,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Dual-branch seismic inversion via learnable time-to-depth mapping for structurally guided detail recovery",
         "onlineDate": "2026-08-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11643884",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -8075,6 +8151,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Three-Dimensional Transient Electromagnetic Modeling Using Rational Chebyshev Approximation",
         "onlineDate": "2026-08-07",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11644748",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -8093,6 +8171,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "TEC Taylor expansion, matched-filter analysis, simulation, and real-data validation",
         "onlineDate": "2026-08-07",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11644755",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "geomagnetism-em-applied-geophysics"
@@ -8135,6 +8215,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "An ω-k Migration Algorithm for Pseudo-Random-Coded Ground Penetrating Radar Considering Signal Nonlinear Phase and Bandwidth Properties",
         "onlineDate": "2026-08-11",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11646849",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -8153,6 +8235,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Physics Prior Constrained ResUNet-BiMamba Network for Pre-stack AVO Inversion",
         "onlineDate": "2026-08-12",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11653431",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -8172,6 +8256,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Enhancing Electrical Resistivity Tomography Detection of Landslide Structures through Multi-Source Geological Constraints",
         "onlineDate": "2026-08-12",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11653443",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -8190,6 +8276,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Efficient Three-Dimensional Electroseismic Modeling Based on CNCSU-FDTD and Wavefield Decomposition",
         "onlineDate": "2026-08-13",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11655345",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -8209,6 +8297,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "A Solid Seismic Wavefield Simulation Method Based on the Elastic Multiple-relaxation-time Lattice Boltzmann Model",
         "onlineDate": "2026-08-14",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11655926",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -8228,6 +8318,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "Exploring Feasibility of Using Electromagnetic Fields Excited by Overhead AC Transmission Lines to Recover Underground Structures: Insights from Forward Modeling",
         "onlineDate": "2026-08-14",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11655912",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -8268,6 +8360,8 @@ const reports = [
         "region": "Global / method-focused",
         "method": "An effective 3D inversion algorithm for semi-airborne transient electromagnetic simulation using the Gauss-Newton method based on multi-GPU parallelism",
         "onlineDate": "2026-08-18",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11658745",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -9856,6 +9950,8 @@ const reports = [
         "onlineDate": "2026-07-21",
         "volume": "123",
         "issueNumber": "30",
+        "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2604621123",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -10866,6 +10962,8 @@ const reports = [
         "region": "Global mantle",
         "method": "High-resolution mantle circulation models constrained by dynamic topography, geoid, and seismic heterogeneity",
         "onlineDate": "2026-06-12",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/246/3/ggag227/68518382/ggag227.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -10909,6 +11007,8 @@ const reports = [
         "region": "Numerical experiment",
         "method": "Rate-and-state spring-slider modeling with gouge dilatancy, compaction, and fluid pore-pressure effects",
         "onlineDate": "2026-06-13",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/246/3/ggag212/68521331/ggag212.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -12112,6 +12212,8 @@ const reports = [
         "onlineDate": "2026-07-06",
         "volume": "123",
         "issueNumber": "28",
+        "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2602650123",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation"
@@ -12296,6 +12398,8 @@ const reports = [
         "method": "Seismic Impedance Inversion via Physics-Driven Learned Primal-Dual Deep Unrolling With Total Variation",
         "onlineDate": "2026-07-02",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11593871",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12316,6 +12420,8 @@ const reports = [
         "method": "Unsupervised Attenuation of Aliased Ground Roll in Undersampled 3-D Land Seismic Data",
         "onlineDate": "2026-07-06",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11595834",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12336,6 +12442,8 @@ const reports = [
         "method": "Physics-Informed CNN–LSTM Framework for Electromagnetic Inverse Scattering in Multilayer Soil With Surface Roughness",
         "onlineDate": "2026-07-06",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11595860",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -12355,6 +12463,8 @@ const reports = [
         "method": "SFDDPM: Signal-Fitting Diffusion Model for Prestack Seismic Denoising With Total Variation Constraint",
         "onlineDate": "2026-07-07",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11598910",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12375,6 +12485,8 @@ const reports = [
         "method": "Multi-squint sub-aperture InSAR inversion",
         "onlineDate": "2026-07-08",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11599652",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "geomagnetism-em-applied-geophysics"
@@ -12440,6 +12552,8 @@ const reports = [
         "method": "Along-Track Dual-Satellite D-InSAR for Multidimensional Deformation and Troposphere Joint Measurement: Configuration Optimization and Performance Analysis",
         "onlineDate": "2026-07-09",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11602086",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -12459,6 +12573,8 @@ const reports = [
         "method": "An Advection-Equation-Based Topography-Dependent First-Arrival Adjoint Tomography: Methodology and Application",
         "onlineDate": "2026-07-14",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11609295",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12479,6 +12595,8 @@ const reports = [
         "method": "Hybrid Mesh Finite-Element Method for Marine CSEM Modeling With Octree Framework",
         "onlineDate": "2026-07-15",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11611256",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -12498,6 +12616,8 @@ const reports = [
         "method": "Integrating Physical Information Constraints for Magnetotelluric Data-Driven Inversion",
         "onlineDate": "2026-07-16",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11612915",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -12517,6 +12637,8 @@ const reports = [
         "method": "Efficient PS Wavefield Separation for Anisotropic VTI and TTI Media in the Spatial Domain",
         "onlineDate": "2026-07-16",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11612920",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12537,6 +12659,8 @@ const reports = [
         "method": "Q -Compensated Robust Blind Acoustic Impedance Inversion With Structural Guidance",
         "onlineDate": "2026-07-16",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11612839",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12580,6 +12704,8 @@ const reports = [
         "method": "Multidirectional Wavefield-Decomposition Elastic Reverse-Time Migration With Dip-Guided Imaging Conditions",
         "onlineDate": "2026-07-20",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11614576",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12600,6 +12726,8 @@ const reports = [
         "method": "Phase Gradient Rate-Constrained SHP Selection for Distributed Scatterer InSAR: Integrating Deformation Boundary Detection With Amplitude Statistical Testing",
         "onlineDate": "2026-07-21",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11616570",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -12619,6 +12747,8 @@ const reports = [
         "method": "Physics-Driven Resolution Refinement for Electrical Resistivity Tomography Using Multiarray Learning and Vision Mamba",
         "onlineDate": "2026-07-21",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11616565",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -12638,6 +12768,8 @@ const reports = [
         "method": "A Reliable Multisource Dynamically Regularized Elastic Wavefield Reconstruction Inversion for Microseismic Data",
         "onlineDate": "2026-07-22",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11618549",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12658,6 +12790,8 @@ const reports = [
         "method": "Adaptive Wavelet Scattering With SegFormer for Seismic Facies Segmentation",
         "onlineDate": "2026-07-22",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11618540",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12678,6 +12812,8 @@ const reports = [
         "method": "Bayesian Full Waveform Inversion With Learned Prior Using Deep Convolutional Autoencoder",
         "onlineDate": "2026-07-24",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11623319",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12698,6 +12834,8 @@ const reports = [
         "method": "Physics-Guided Deep Regression for High-Precision Seismic First-Arrival Picking",
         "onlineDate": "2026-07-24",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11623278",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12718,6 +12856,8 @@ const reports = [
         "method": "Seismic Acoustic Impedance Inversion Framework Based on Conditional Latent Generative Diffusion Model",
         "onlineDate": "2026-07-27",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11625946",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12738,6 +12878,8 @@ const reports = [
         "method": "Jointed AVO Inversion Method Using Seismic Velocity and Acceleration Signals",
         "onlineDate": "2026-07-27",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11625955",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -12780,6 +12922,8 @@ const reports = [
         "method": "Volcanic SO 2 Monitoring From Space Using SAM2 Foundation Model",
         "onlineDate": "2026-07-29",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11627959",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -12823,6 +12967,8 @@ const reports = [
         "method": "Physics-Consistent GPR Inversion via Feature-Enhanced Forward Module and Envelope Data",
         "onlineDate": "2026-07-30",
         "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11631738",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -12872,6 +13018,8 @@ const reports = [
         "region": "Global / laboratory analog",
         "method": "Olivine-antigorite friction experiments and cross-study synthesis",
         "onlineDate": "2026-07-08",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03777-5.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -12913,6 +13061,8 @@ const reports = [
         "region": "Laguna del Maule, Chile",
         "method": "Seismic imaging and seismicity analysis of crustal magma pathways",
         "onlineDate": "2026-07-24",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-03863-8.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "volcanology-magmatism-geothermal"
@@ -13637,6 +13787,8 @@ const reports = [
         "region": "Mendocino Triple Junction, California",
         "method": "Fifteen-year seismicity analysis; seismic-noise beamforming; ocean-wave forcing comparison",
         "onlineDate": "2026-06-10",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/97/4/2388/7940417/srl-2025447.1.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -13656,6 +13808,8 @@ const reports = [
         "region": "Villa Santa Lucía, Patagonia, Chile",
         "method": "Regional seismic observations; flow numerical modeling; meteorological triggering analysis",
         "onlineDate": "2026-06-10",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/97/4/2274/7940424/srl-2026020.1.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -14434,6 +14588,8 @@ const reports = [
         "onlineDate": "2026-06-26",
         "volume": "131",
         "issueNumber": "7",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033449",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "earth-interior-rock-physics"
@@ -14508,6 +14664,8 @@ const reports = [
         "onlineDate": "2026-06-27",
         "volume": "131",
         "issueNumber": "7",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034548",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -15718,6 +15876,8 @@ const reports = [
         "onlineDate": "2026-06-12",
         "volume": "53",
         "issueNumber": "12",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121543",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -15822,6 +15982,8 @@ const reports = [
         "onlineDate": "2026-06-18",
         "volume": "392",
         "issueNumber": "6804",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aec4190",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -15853,6 +16015,8 @@ const reports = [
         "onlineDate": "2026-05-28",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121692",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "geomagnetism-em-applied-geophysics"
@@ -15875,6 +16039,8 @@ const reports = [
         "onlineDate": "2026-05-30",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL119670",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -15896,6 +16062,8 @@ const reports = [
         "onlineDate": "2026-05-30",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121011",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -15917,6 +16085,8 @@ const reports = [
         "onlineDate": "2026-05-30",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121927",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -16014,6 +16184,8 @@ const reports = [
         "onlineDate": "2026-06-06",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121685",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -16037,6 +16209,8 @@ const reports = [
         "onlineDate": "2026-06-06",
         "volume": "53",
         "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122361",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -16581,6 +16755,8 @@ const reports = [
         "region": "Method-focused",
         "method": "Density Peak Clustering and principal component analysis of earthquake catalogues",
         "onlineDate": "2026-06-10",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/246/2/ggag221/68506997/ggag221.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -16646,6 +16822,8 @@ const reports = [
         "region": "Delaware Basin, west Texas and southeast New Mexico",
         "method": "In-situ hydraulic diffusivity measurements; pore-pressure and poroelastic Coulomb stress modeling",
         "onlineDate": "2026-06-11",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/246/2/ggag226/68513388/ggag226.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -16665,6 +16843,8 @@ const reports = [
         "region": "Oceanic wavefields",
         "method": "Spectral-element simulation of coupled seismic, ocean acoustic, and tsunami waves with bathymetry effects",
         "onlineDate": "2026-06-12",
+        "pdfLink": "https://academic.oup.com/gji/article-pdf/246/2/ggag228/68518378/ggag228.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation"
@@ -16921,6 +17101,8 @@ const reports = [
         "region": "Oklahoma and Kansas",
         "method": "Stress-evolution modeling of induced earthquake sequences on individual activated faults",
         "onlineDate": "2026-06-10",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260077/7940396/srl-2026077.1.pdf",
+        "pdfLinkSource": "crossref",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -17352,6 +17534,8 @@ const reports = [
         "onlineDate": "2026-05-26",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034131",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -17374,6 +17558,8 @@ const reports = [
         "onlineDate": "2026-05-28",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032124",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17396,6 +17582,8 @@ const reports = [
         "onlineDate": "2026-05-28",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033131",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -17417,6 +17605,8 @@ const reports = [
         "onlineDate": "2026-05-28",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033732",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17439,6 +17629,8 @@ const reports = [
         "onlineDate": "2026-05-28",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034056",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -17460,6 +17652,8 @@ const reports = [
         "onlineDate": "2026-05-29",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033580",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17482,6 +17676,8 @@ const reports = [
         "onlineDate": "2026-05-30",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032374",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -17504,6 +17700,8 @@ const reports = [
         "onlineDate": "2026-06-01",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033046",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -17525,6 +17723,8 @@ const reports = [
         "onlineDate": "2026-06-01",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033339",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17547,6 +17747,8 @@ const reports = [
         "onlineDate": "2026-06-02",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031448",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17569,6 +17771,8 @@ const reports = [
         "onlineDate": "2026-06-02",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032881",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17591,6 +17795,8 @@ const reports = [
         "onlineDate": "2026-06-02",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032882",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -17612,6 +17818,8 @@ const reports = [
         "onlineDate": "2026-06-02",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034195",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17634,6 +17842,8 @@ const reports = [
         "onlineDate": "2026-06-03",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032982",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -17657,6 +17867,8 @@ const reports = [
         "onlineDate": "2026-06-03",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033213",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17679,6 +17891,8 @@ const reports = [
         "onlineDate": "2026-06-04",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033029",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17701,6 +17915,8 @@ const reports = [
         "onlineDate": "2026-06-04",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033875",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics",
@@ -17724,6 +17940,8 @@ const reports = [
         "onlineDate": "2026-06-06",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031925",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation",
@@ -17748,6 +17966,8 @@ const reports = [
         "onlineDate": "2026-06-08",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033711",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -17770,6 +17990,8 @@ const reports = [
         "onlineDate": "2026-06-10",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032405",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17792,6 +18014,8 @@ const reports = [
         "onlineDate": "2026-06-11",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032615",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "volcanology-magmatism-geothermal",
@@ -17815,6 +18039,8 @@ const reports = [
         "onlineDate": "2026-06-11",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032629",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -17837,6 +18063,8 @@ const reports = [
         "onlineDate": "2026-06-11",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033481",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -17858,6 +18086,8 @@ const reports = [
         "onlineDate": "2026-06-13",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033770",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -17880,6 +18110,8 @@ const reports = [
         "onlineDate": "2026-06-15",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033337",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation",
@@ -17903,6 +18135,8 @@ const reports = [
         "onlineDate": "2026-06-15",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033790",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "geomagnetism-em-applied-geophysics"
@@ -17925,6 +18159,8 @@ const reports = [
         "onlineDate": "2026-06-16",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034558",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -17947,6 +18183,8 @@ const reports = [
         "onlineDate": "2026-06-17",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033516",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics",
@@ -17970,6 +18208,8 @@ const reports = [
         "onlineDate": "2026-06-17",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033719",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -17991,6 +18231,8 @@ const reports = [
         "onlineDate": "2026-06-20",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033540",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18013,6 +18255,8 @@ const reports = [
         "onlineDate": "2026-06-22",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031561",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18035,6 +18279,8 @@ const reports = [
         "onlineDate": "2026-06-22",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033805",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "volcanology-magmatism-geothermal"
@@ -18057,6 +18303,8 @@ const reports = [
         "onlineDate": "2026-06-23",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032180",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18079,6 +18327,8 @@ const reports = [
         "onlineDate": "2026-06-24",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034353",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18101,6 +18351,8 @@ const reports = [
         "onlineDate": "2026-06-25",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033780",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18123,6 +18375,8 @@ const reports = [
         "onlineDate": "2026-06-25",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033905",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -18144,6 +18398,8 @@ const reports = [
         "onlineDate": "2026-06-25",
         "volume": "131",
         "issueNumber": "6",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034398",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal",
           "geomagnetism-em-applied-geophysics"
@@ -18834,6 +19090,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL119426",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -18855,6 +19113,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120090",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "geomagnetism-em-applied-geophysics"
@@ -18877,6 +19137,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121007",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -18899,6 +19161,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122235",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -18922,6 +19186,8 @@ const reports = [
         "onlineDate": "2026-05-14",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122566",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "volcanology-magmatism-geothermal",
@@ -18945,6 +19211,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121175",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
@@ -18967,6 +19235,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122058",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation",
@@ -18991,6 +19261,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122469",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "tectonics-geodynamics"
@@ -19013,6 +19285,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122613",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation",
@@ -19036,6 +19310,8 @@ const reports = [
         "onlineDate": "2026-05-20",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122541",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -19057,6 +19333,8 @@ const reports = [
         "onlineDate": "2026-05-21",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120883",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -19078,6 +19356,8 @@ const reports = [
         "onlineDate": "2026-05-24",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL118610",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -19100,6 +19380,8 @@ const reports = [
         "onlineDate": "2026-05-24",
         "volume": "53",
         "issueNumber": "10",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121287",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -20911,6 +21193,8 @@ const reports = [
         "onlineDate": "2026-04-28",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031584",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -20934,6 +21218,8 @@ const reports = [
         "onlineDate": "2026-04-29",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032802",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -20956,6 +21242,8 @@ const reports = [
         "onlineDate": "2026-04-29",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033550",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal",
           "geomagnetism-em-applied-geophysics"
@@ -20978,6 +21266,8 @@ const reports = [
         "onlineDate": "2026-04-30",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031904",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21000,6 +21290,8 @@ const reports = [
         "onlineDate": "2026-04-30",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032004",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -21022,6 +21314,8 @@ const reports = [
         "onlineDate": "2026-04-30",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032494",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21043,6 +21337,8 @@ const reports = [
         "onlineDate": "2026-04-30",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032915",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21065,6 +21361,8 @@ const reports = [
         "onlineDate": "2026-04-30",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033202",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21087,6 +21385,8 @@ const reports = [
         "onlineDate": "2026-05-01",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033858",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21108,6 +21408,8 @@ const reports = [
         "onlineDate": "2026-05-02",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032104",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21130,6 +21432,8 @@ const reports = [
         "onlineDate": "2026-05-03",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033842",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "geomagnetism-em-applied-geophysics"
@@ -21152,6 +21456,8 @@ const reports = [
         "onlineDate": "2026-05-04",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032163",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "geomagnetism-em-applied-geophysics"
@@ -21174,6 +21480,8 @@ const reports = [
         "onlineDate": "2026-05-04",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034210",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -21197,6 +21505,8 @@ const reports = [
         "onlineDate": "2026-05-05",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB031818",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -21219,6 +21529,8 @@ const reports = [
         "onlineDate": "2026-05-05",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032527",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "geomagnetism-em-applied-geophysics"
@@ -21241,6 +21553,8 @@ const reports = [
         "onlineDate": "2026-05-06",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033132",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "geomagnetism-em-applied-geophysics"
@@ -21263,6 +21577,8 @@ const reports = [
         "onlineDate": "2026-05-06",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033940",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -21284,6 +21600,8 @@ const reports = [
         "onlineDate": "2026-05-06",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033972",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21305,6 +21623,8 @@ const reports = [
         "onlineDate": "2026-05-08",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033043",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -21326,6 +21646,8 @@ const reports = [
         "onlineDate": "2026-05-09",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032568",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -21347,6 +21669,8 @@ const reports = [
         "onlineDate": "2026-05-09",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032571",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -21368,6 +21692,8 @@ const reports = [
         "onlineDate": "2026-05-09",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033147",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21390,6 +21716,8 @@ const reports = [
         "onlineDate": "2026-05-10",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032054",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "geomagnetism-em-applied-geophysics"
@@ -21412,6 +21740,8 @@ const reports = [
         "onlineDate": "2026-05-10",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032718",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "tectonics-geodynamics"
@@ -21434,6 +21764,8 @@ const reports = [
         "onlineDate": "2026-05-11",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033286",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -21455,6 +21787,8 @@ const reports = [
         "onlineDate": "2026-05-11",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033439",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -21477,6 +21811,8 @@ const reports = [
         "onlineDate": "2026-05-11",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033890",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21498,6 +21834,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032962",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21520,6 +21858,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033003",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21542,6 +21882,8 @@ const reports = [
         "onlineDate": "2026-05-12",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033158",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "volcanology-magmatism-geothermal"
@@ -21564,6 +21906,8 @@ const reports = [
         "onlineDate": "2026-05-13",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032164",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -21585,6 +21929,8 @@ const reports = [
         "onlineDate": "2026-05-13",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033357",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21607,6 +21953,8 @@ const reports = [
         "onlineDate": "2026-05-13",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033379",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -21630,6 +21978,8 @@ const reports = [
         "onlineDate": "2026-05-13",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033646",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21651,6 +22001,8 @@ const reports = [
         "onlineDate": "2026-05-14",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033855",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21672,6 +22024,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032273",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21694,6 +22048,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032493",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics",
@@ -21717,6 +22073,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032532",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21739,6 +22097,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033024",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21760,6 +22120,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033169",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "volcanology-magmatism-geothermal"
@@ -21782,6 +22144,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033295",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21803,6 +22167,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033960",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -21824,6 +22190,8 @@ const reports = [
         "onlineDate": "2026-05-15",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033994",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21845,6 +22213,8 @@ const reports = [
         "onlineDate": "2026-05-16",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032062",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -21867,6 +22237,8 @@ const reports = [
         "onlineDate": "2026-05-16",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032848",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation"
         ]
@@ -21888,6 +22260,8 @@ const reports = [
         "onlineDate": "2026-05-16",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033231",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21909,6 +22283,8 @@ const reports = [
         "onlineDate": "2026-05-16",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034011",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -21930,6 +22306,8 @@ const reports = [
         "onlineDate": "2026-05-17",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032621",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -21952,6 +22330,8 @@ const reports = [
         "onlineDate": "2026-05-17",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032684",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -21974,6 +22354,8 @@ const reports = [
         "onlineDate": "2026-05-18",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033255",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -21996,6 +22378,8 @@ const reports = [
         "onlineDate": "2026-05-18",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033375",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -22017,6 +22401,8 @@ const reports = [
         "onlineDate": "2026-05-19",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033143",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "geodesy-crustal-deformation"
@@ -22039,6 +22425,8 @@ const reports = [
         "onlineDate": "2026-05-19",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033754",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics",
           "volcanology-magmatism-geothermal"
@@ -22061,6 +22449,8 @@ const reports = [
         "onlineDate": "2026-05-20",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033241",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -22083,6 +22473,8 @@ const reports = [
         "onlineDate": "2026-05-21",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033425",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -22104,6 +22496,8 @@ const reports = [
         "onlineDate": "2026-05-22",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032987",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -22126,6 +22520,8 @@ const reports = [
         "onlineDate": "2026-05-22",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033329",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -22147,6 +22543,8 @@ const reports = [
         "onlineDate": "2026-05-23",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032065",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "geodesy-crustal-deformation",
           "earth-interior-rock-physics"
@@ -22169,6 +22567,8 @@ const reports = [
         "onlineDate": "2026-05-23",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033631",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "geomagnetism-em-applied-geophysics"
@@ -22191,6 +22591,8 @@ const reports = [
         "onlineDate": "2026-05-25",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032539",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -22213,6 +22615,8 @@ const reports = [
         "onlineDate": "2026-05-25",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032813",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "volcanology-magmatism-geothermal"
@@ -22235,6 +22639,8 @@ const reports = [
         "onlineDate": "2026-05-25",
         "volume": "131",
         "issueNumber": "5",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB032981",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -23304,6 +23710,8 @@ const reports = [
         "onlineDate": "2026-04-09",
         "volume": "392",
         "issueNumber": "6794",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.ady2027",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "volcanology-magmatism-geothermal"
@@ -23326,6 +23734,8 @@ const reports = [
         "onlineDate": "2026-04-09",
         "volume": "392",
         "issueNumber": "6794",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aeg3511",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "volcanology-magmatism-geothermal"
         ]
@@ -25916,6 +26326,8 @@ const reports = [
         "onlineDate": "2026-03-26",
         "volume": "391",
         "issueNumber": "6792",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aeb8634",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -29662,6 +30074,8 @@ const reports = [
         "onlineDate": "2026-02-19",
         "volume": "391",
         "issueNumber": "6787",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aeb8232",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes"
         ]
@@ -32079,6 +32493,8 @@ const reports = [
         "onlineDate": "2026-01-29",
         "volume": "391",
         "issueNumber": "6784",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.ady0234",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
@@ -32367,6 +32783,8 @@ const reports = [
         "onlineDate": "2026-01-22",
         "volume": "391",
         "issueNumber": "6783",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.adz0072",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -34064,6 +34482,8 @@ const reports = [
         "region": "Mariana Trench",
         "method": "3D thermo-mechanical geodynamic modeling",
         "onlineDate": "2026-07-02",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-75061-1.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -34082,6 +34502,8 @@ const reports = [
         "region": "Mantle transition zone",
         "method": "High-pressure, high-temperature mineral experiments",
         "onlineDate": "2026-07-03",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-74842-y.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -34101,6 +34523,8 @@ const reports = [
         "region": "Huayingshan Fault, southwestern China",
         "method": "3D magnetotelluric imaging and geodynamic simulation",
         "onlineDate": "2026-07-04",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-75203-5.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "geomagnetism-em-applied-geophysics"
@@ -34142,6 +34566,8 @@ const reports = [
         "region": "Earth's outer core",
         "method": "Shock-compression X-ray diffraction of iron-oxide melts",
         "onlineDate": "2026-07-10",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-75204-4.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
@@ -34160,6 +34586,8 @@ const reports = [
         "region": "Earth's upper mantle",
         "method": "Seismic-velocity modeling of sediment–basalt–pyrolite assemblages",
         "onlineDate": "2026-07-14",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-75572-x.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
@@ -34179,6 +34607,8 @@ const reports = [
         "region": "Tian Shan",
         "method": "Sentinel-1 deformation mapping and shear-zone kinematic interpretation",
         "onlineDate": "2026-07-22",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-74965-2.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics"
         ]
@@ -34197,6 +34627,8 @@ const reports = [
         "region": "Cold subduction zones",
         "method": "High-pressure synchrotron XRD and ultrasonic velocity experiments",
         "onlineDate": "2026-07-24",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-75935-4.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "tectonics-geodynamics",
           "earth-interior-rock-physics"
@@ -34216,6 +34648,8 @@ const reports = [
         "region": "Gorda slab, northern California",
         "method": "Fiber-optic DAS imaging of converted phases from intraslab earthquakes",
         "onlineDate": "2026-07-25",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-76002-8.pdf",
+        "pdfLinkSource": "publisher-pattern",
         "researchAreas": [
           "seismology-earthquakes",
           "tectonics-geodynamics"
