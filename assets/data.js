@@ -53,7 +53,7 @@ const publicationModes = {
 const reports = [
   {
     "id": "geophysical-research-letters-53-20",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "journal": "Geophysical Research Letters",
     "issue": "Volume 53, Issue 20",
     "issueDate": "2026-10-28",
@@ -525,761 +525,323 @@ const reports = [
           "seismology-earthquakes",
           "volcanology-magmatism-geothermal"
         ]
-      }
-    ]
-  },
-  {
-    "id": "nature-communications-2026-10",
-    "date": "2026-10-19",
-    "journal": "Nature Communications",
-    "issue": "October 2026",
-    "issueDate": "2026-10-17",
-    "source": "",
-    "articles": [
-      {
-        "title": "Mid-mantle discontinuities beneath subduction zones linked to depth-dependent deformation of bridgmanite",
-        "doi": "10.1038/s41467-026-78212-6",
-        "authors": "John Keith Magali, Sébastien Merkel, Angelo Pisconti, Jeffrey Gay, James Wookey, Christine Thomas",
-        "abstract": "Bridgmanite, the main mineralogical phase in the Earth’s lower mantle, is intrinsically anisotropic and may therefore generate seismic anisotropy in actively-deforming regions, particularly subduction zones. The bulk of the lower mantle is widely regarded as well-mixed but recent seismic observations suggest structures at mid-mantle depths whose origin remains unclear. Here, we propose a mechanism that could generate seismic discontinuities beneath subduction zones with depth distributions consistent with some of the observed mid-mantle reflectors. By coupling thermo-mechanical subduction models with pressure-dependent fabric calculations, we show that gradual slip transitions in bridgmanite with depth can manifest anisotropic discontinuities near 1000 km, which can deepen depending on the extent of accumulated deformation. This discontinuity is most pronounced in regions of strong slab-driven flow as revealed by its reflection coefficients, the strength of which varies with distance and azimuth. While our models predict ~ 1.5% contrast in fast versus slow shear wave velocities in terms of radial anisotropy, our full waveform simulations show that the discontinuity is detectable with array seismological methods. These results suggest that mid-mantle reflectors near subduction zones may be strain-induced, providing an additional mechanism that links mantle flow, mineral physics, and seismic observations.",
-        "keyPoints": [
-          "Coupled subduction and fabric models show that depth-dependent bridgmanite slip transitions can produce anisotropic discontinuities near 1000 km, deepening with accumulated deformation.",
-          "Predicted reflectors are strongest in slab-driven flow and detectable in waveform simulations, linking some mid-mantle discontinuities to strain rather than requiring compositional layering."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78212-6",
-        "journal": "Nature Communications",
-        "region": "Subduction zones; lower mantle",
-        "method": "Thermomechanical subduction modeling; crystallographic fabric calculations; full-waveform simulation",
-        "onlineDate": "2026-10-05",
-        "volume": "17",
-        "pdfLink": "https://www.nature.com/articles/s41467-026-78212-6.pdf",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "tectonics-geodynamics"
-        ]
       },
       {
-        "title": "Tracing missing copper: ultrapotassic rocks record isotopic evidence of crustal Cu depletion",
-        "doi": "10.1038/s41467-026-78549-y",
-        "authors": "Chen-Hao Luo, Wenli Liang, Rui Wang, Oliver Nebel, Yun Zhao",
-        "abstract": "Post-subduction reactivation of metasomatized lithospheric mantle generates high-K shoshonitic magmas in the continental crust and has been suggested to be potentially associated with porphyry Cu mineralization, yet its role in the continental crustal Cu budget remains ambiguous. Here, we use Cu isotope analyses and geochemical modeling of Cenozoic ultrapotassic rocks from southern Tibet to show that variations in Th/La record a transition from mantle partial melting to magmatic differentiation, during which Cu behavior was controlled by sulfide retention in the source and fluid activity, respectively. During partial lithospheric mantle melting, residual solid sulfide phases retain Cu in the mantle source, generating Cu-depleted melts with slightly heavier δ⁶⁵Cu and potentially contributing to the Cu depletion of continental crust. Subsequently, exsolved fluids preferentially scavenge isotopically heavy Cu, causing both Cu contents and δ⁶⁵Cu values to decrease in the residual magmas. The Cu isotopic evolution of these ultrapotassic magmas differs from that of ore-bearing porphyries in the belt, potentially reflecting differences in magma source or evolutionary history.",
+        "title": "Decadal Creep Acceleration on the Northern Japan Trench Driven by Erosion of Heterogeneously Locked Asperities",
+        "doi": "10.1029/2026gl125713",
+        "authors": "Kaj M. Johnson, Eric D. Burton",
+        "abstract": "Geodetic and seismic observations before the 2011 M w 9.0 Tohoku‐oki earthquake indicate decadal‐scale acceleration of aseismic slip along the northern Japan Trench, but the mechanism remains debated. We show that this transient can be explained by creep‐front propagation that progressively erodes heterogeneously locked asperities. We invert GNSS velocity fields from 1998 to 2009 using a mechanically motivated model in which locked regions are confined to historical rupture areas while their effective sizes and process‐zone stressing rates evolve. The models fit both velocity fields and predict slip accelerations consistent with repeating‐earthquake estimates. Inferred asperities occupied about 66% of their corresponding rupture areas in 1998 and about 37% in 2009, indicating substantial expansion of aseismic creep over the decade before rupture. The inferred shrinkage rates are consistent with fracture‐mechanics predictions for plausible coseismic stress drops. These results suggest that megathrust locking can evolve substantially over decadal timescales.",
         "keyPoints": [
-          "Cu isotopes and geochemical modeling of Tibetan ultrapotassic rocks distinguish source sulfide retention during mantle melting from fluid-controlled Cu loss during differentiation.",
-          "The results link Cu-poor melts to continental crustal depletion and show isotope evolution distinct from ore-bearing porphyries in the same belt."
+          "Heterogeneous locking and creep front propagation can explain pre‐Tohoku acceleration of aseismic slip",
+          "Locked asperities shrank on average from 66 percent to 37 percent of rupture areas between 1998 and 2009",
+          "Megathrust locking can evolve over decades rather than remain fixed throughout the earthquake cycle"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78549-y",
-        "journal": "Nature Communications",
-        "region": "Global ultrapotassic magmatic systems",
-        "method": "Tracing missing copper: ultrapotassic rocks record isotopic evidence of crustal Cu depletion",
-        "onlineDate": "2026-10-12",
-        "researchAreas": [
-          "volcanology-magmatism-geothermal",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "On predictability of slip, rupture geometry, and speed of the 2025 M7.8 Mandalay, Myanmar, earthquake",
-        "doi": "10.1038/s41467-026-77203-x",
-        "authors": "Thomas Ulrich, Xiaoyu Zou, Mathilde Marchandon, Nico Schliwa, Fengzhou Tan, Alice-Agnes Gabriel, Wenyuan Fan, Peter Shearer, Myo Thant, Tha Zin Htet Tin, Eric O. Lindsey, Yuri Fialko",
-        "abstract": "The 2025 M 7.8 Mandalay earthquake ruptured ~480 km of the Sagaing Fault, producing one of the longest strike-slip events documented and impacting a vulnerable region. Here we combine remote sensing observations and numerical modeling to show that the subsurface fault geometry and slip distribution could be anticipated from pre-event observations. Along-strike variations in coseismic and interseismic deformation reveal a helix-shaped fault geometry. The average coseismic slip equals or exceeds the interseismic slip deficit, consistent with a minimally slip-predictable model. We generate an ensemble of 3D dynamic rupture models, constrained by the best-fit static slip model, then discriminate among them using independent space-geodetic, seismic, and near-field video observations. The preferred scenario begins bilaterally, then transitions to unilateral southward supershear propagation at depth, while shallow rupture remains subshear. These dynamics are shaped by localized stress heterogeneity and low fracture energy, characteristic of a structurally mature fault zone. Our approach can inform rupture scenarios in understudied regions.",
-        "keyPoints": [
-          "Remote sensing and 3D rupture models link the 2025 Mandalay earthquake to a helix-shaped fault and southward supershear propagation at depth.",
-          "Pre-event deformation constrains fault geometry and slip, offering a way to develop rupture scenarios in poorly studied regions."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-77203-x",
-        "journal": "Nature Communications",
-        "region": "Sagaing Fault, Myanmar",
-        "method": "Remote sensing; geodetic inversion; 3D dynamic rupture modeling",
-        "onlineDate": "2026-10-14",
-        "volume": "17",
-        "pdfLink": "https://www.nature.com/articles/s41467-026-77203-x.pdf",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125713",
+        "journal": "Geophysical Research Letters",
+        "region": "Northern Japan Trench",
+        "method": "GNSS inversion; mechanical creep-front modeling",
+        "onlineDate": "2026-10-19",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125713",
         "pdfLinkSource": "collector",
         "researchAreas": [
           "seismology-earthquakes",
-          "geodesy-crustal-deformation"
+          "geodesy-crustal-deformation",
+          "tectonics-geodynamics"
         ]
       },
       {
-        "title": "Surface carbonation governs olivine reactivity for rapid CO2 mineralization",
-        "doi": "10.1038/s41467-026-78548-z",
-        "authors": "Zihua Shao, Yunfeng Liang, Gyuhwan Jo, Keisuke Nakamura, Takeshi Tsuji",
-        "abstract": "Ultramafic rocks are a global resource with vast potential for permanent CO 2 mineralization. However, the origin of the striking reactivity difference between Ca- and Mg-bearing olivine remains poorly understood. Here we show that this difference arises not merely from the type of cation, but more fundamentally from how these cations modulate the oxygen reactivity. Nonbridging oxygens serve as the oxygen source for CO 2 surface reactions, which in Ca-olivine reduce the Ca 2+ dissolution barrier by 60% and accelerate ion release by six orders of magnitude. The calculated apparent dissolution rate constants reproduce the experimentally observed complete conversion of Ca-olivine within hours under 1 atm CO 2 . This multiscale framework reveals how surface reactions govern silicate carbonation and provides a predictive basis for modeling and engineering large-scale CO 2 mineralization in both synthetic materials and basaltic reservoirs.",
+        "title": "How Microporosity Shapes Carbonate Hydraulic Behavior: A Digital Rock Physics Perspective",
+        "doi": "10.1029/2026gl126174",
+        "authors": "Qiuheng Xie, Lijun Liu, Haosen Zhang, Vahid Niasar, Senyou An",
+        "abstract": "Carbonate hydraulic behavior emerges from flow through pore structures spanning resolvable macropores and sub‐resolution microporous regions, yet the effects of microporosity level and heterogeneity remain poorly understood. We develop and validate a CUDA‐accelerated lattice Boltzmann model that unifies pore‐resolved and continuum flow. Simulations show that low‐velocity microporous regions substantially contribute to bulk flow by activating connections between macropores. Across three carbonate samples, permeability increases nonlinearly with microporosity, with reference permeabilities spanning over two orders of magnitude. Moreover, at fixed bulk porosity, amplifying the observed phase‐wise contrast increases permeability, while spatial permutation controls reveal a dominant contribution from the original spatial organization. Three‐dimensional spatial and pressure‐gradient analyses further indicate that high‐microporosity phases preferentially adjacent to macropores become increasingly conductive as heterogeneity increases, reducing local flow resistance. These results show how naturally organized microporosity controls hydraulic behavior and bulk permeability in multiscale geological porous media.",
         "keyPoints": [
-          "Multiscale modeling links olivine carbonation to oxygen reactivity; CO2 surface reactions lower the Ca2+ dissolution barrier by 60%.",
-          "The framework explains rapid Ca-olivine conversion and provides a basis for predicting mineral carbonation in materials and basaltic reservoirs."
+          "Near‐stagnant microporous flow substantially contributes to permeability by connecting weakly communicating macropores",
+          "Increasing microporosity produces a nonlinear permeability response by expanding connected multiscale flow pathways",
+          "At fixed bulk porosity, amplifying the observed phase‐wise microporosity contrast strengthens hydraulic coupling between macropore domains"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78548-z",
-        "journal": "Nature Communications",
-        "region": "Laboratory; basaltic reservoirs",
-        "method": "Multiscale modeling of surface reactions and dissolution kinetics",
-        "onlineDate": "2026-10-14",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Human-enhanced tsunami hazard in large lakes",
-        "doi": "10.1038/s41467-026-78272-8",
-        "authors": "Muhammad Naveed Zafar, Pierre Sabatier, Denys Dutykh, William Rapuc, Raphaël Paris, Andrea Piccin, Pascal Vuillemin, Flavio S. Anselmetti",
-        "abstract": "Worldwide, human-induced erosion enhances sediment delivery to lake deltas, increasing their susceptibility to collapse. In Lake Iseo, northern Italy, two millennia of intensified land use tripled sediment flux, oversteepening the delta and preconditioning it for failure. Here we show from geological records and numerical simulations that earthquakes in 1117 CE (Mw 6.5) and 1222 CE (Mw 6.0) triggered major subaqueous delta collapses, generating massive tsunamis with maximum run-ups of ~50 m and ~13 m, respectively. Historical accounts from the Vatican Library and archeological evidence support these reconstructions. Since the last collapse, eight centuries of human-induced erosion have rebuilt the delta, leaving shoreline populations highly vulnerable to future earthquake-triggered failures. A global lake synthesis showed that human-driven erosion has reached its highest levels since the Industrial Era, progressively overloading deltas worldwide; thus, similar catastrophic failures may become more likely in the future. These findings reveal a persistent, human-amplified mechanism of lacustrine tsunami generation and intensity with major implications for hazard assessment.",
-        "keyPoints": [
-          "Geological records and simulations reconstruct earthquake-triggered delta collapses in Lake Iseo, with tsunami run-ups near 50 m in 1117 and 13 m in 1222.",
-          "Long-term human-driven erosion overloads lake deltas, creating a persistent mechanism that amplifies earthquake-triggered tsunami hazards."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78272-8",
-        "journal": "Nature Communications",
-        "region": "Lake Iseo, northern Italy",
-        "method": "Geological records; numerical tsunami simulations; historical and archaeological evidence",
-        "onlineDate": "2026-10-15",
-        "volume": "17",
-        "pdfLink": "https://www.nature.com/articles/s41467-026-78272-8.pdf",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126174",
+        "journal": "Geophysical Research Letters",
+        "region": "",
+        "method": "Digital rock physics; lattice Boltzmann flow simulation",
+        "onlineDate": "2026-10-19",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126174",
         "pdfLinkSource": "collector",
         "researchAreas": [
-          "geomagnetism-em-applied-geophysics",
-          "seismology-earthquakes"
-        ]
-      },
-      {
-        "title": "Inherited lithospheric weakness enabled rapid stress transmission across Tibet",
-        "doi": "10.1038/s41467-026-78650-2",
-        "authors": "Zhaotong Sun, Giulio Viola, Leonardo Del Sole, Jing Liu-Zeng, Yong Zheng, Xuwen Shen, Wenxin Wang, Fengzhen Cui, Lingsen Zeng",
-        "abstract": "The rate and efficiency of stress transmission across continental interiors during collision remain poorly constrained. The >1600-km-long Altyn Tagh Fault, bounding the northern Tibetan Plateau, offers a key test of stress propagation models. Here, we integrate multiscale structural analysis with K–Ar dating of synkinematic illite to date its faulting history. The data document episodic faulting spanning >110 million years, including an ~115 Ma event marking a lithospheric weakness zone predating Cenozoic collision, and an Early Eocene faulting age (~56 Ma), which is nearly synchronous with India–Asia collision onset, implying rapid far-field stress transmission across distances exceeding 1500 km within 10 million years of collision initiation. Reactivation at ~26 Ma, ~2.7 Ma and ~0.6 Ma reflects localization during plateau growth. These results show that inherited lithospheric structures enable efficient, long-distance stress transmission and remain persistent deformation loci, indicating that continental interiors respond to plate-boundary forcing faster than slow, progressive propagation models predict.",
-        "keyPoints": [
-          "Structural analysis and K–Ar illite dating record over 110 million years of Altyn Tagh Fault activity, including early Eocene reactivation near collision onset.",
-          "Inherited lithospheric weaknesses enabled stress transmission over 1500 km within 10 million years, challenging slow progressive propagation models."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78650-2",
-        "journal": "Nature Communications",
-        "region": "Altyn Tagh Fault, Tibetan Plateau",
-        "method": "Structural analysis; K–Ar illite dating",
-        "onlineDate": "2026-10-15",
-        "researchAreas": [
-          "tectonics-geodynamics"
-        ]
-      },
-      {
-        "title": "Archean subduction-derived noble gases in the lithospheric mantle beneath the São Francisco Craton",
-        "doi": "10.1038/s41467-026-78667-7",
-        "authors": "Luisa Gomes Braga, Tiago Jalowitzki, Hirochika Sumino, Reinhardt Adolfo Fuck, Eduardo Balbinot, Fernanda Gervasoni, Marina Marques Dalla Costa, Roberto Ventura Santos",
-        "abstract": "While mid-ocean ridge basalts (MORB) and ocean island basalts (OIB) are well characterized in terms of helium, neon, argon, and xenon isotopes, the continental lithosphere, especially cratonic domains and subduction settings, remain poorly constrained. Here, we report noble gas (He, Ne, Ar, Kr, and Xe) isotope ratios in peridotite, pyroxenite, and eclogite xenoliths from the SW margin of the São Francisco Craton, Brazil. Helium isotopes reveal a strong radiogenic component, while neon shows MORB-like and nucleogenic signatures. This divergence indicates the recycling of subduction-derived materials within the stratified cratonic mantle (2.0–5.5 GPa). Xenon reveals a cratonic lithosphere where air and fissiogenic (crustal) components variably mix with a MORB source. The recycling of ancient hydrated oceanic crust and overlying sediments, characterized by high (U+Th)/(^{3}He, ^{22}Ne, ^{132}Xe) ratios, is associated with a complex and long-lived subduction system established along the SW margin of the São Francisco Craton since the Archean.",
-        "keyPoints": [
-          "Noble-gas isotope measurements in São Francisco mantle xenoliths reveal radiogenic, nucleogenic and MORB-like components across the stratified lithosphere.",
-          "The signatures link recycled hydrated oceanic crust and sediments to a long-lived subduction system along the craton margin since the Archean."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78667-7",
-        "journal": "Nature Communications",
-        "region": "São Francisco Craton",
-        "method": "Noble-gas geochemistry",
-        "onlineDate": "2026-10-15",
-        "researchAreas": [
           "earth-interior-rock-physics",
-          "tectonics-geodynamics"
-        ]
-      },
-      {
-        "title": "From fragmentation to fault zone architecture as a structural framework for fault weakening",
-        "doi": "10.1038/s41467-026-78254-w",
-        "authors": "Nathalie Casas, Guilhem Mollon, Marco Maria Scuderi",
-        "abstract": "Earthquake nucleation is governed by the evolution of fault zone structure, yet the physical mechanisms linking grain-scale processes to macroscopic weakening remain elusive. Here we use discrete element simulations of quartz-rich gouge in which angular grains fragment dynamically, revealing a robust strain–damage law in which damage accumulates as grains are consumed. Grain size dictates the geometry and timing of localization, while fragmentation enhances compaction and promotes the emergence of a dominant Principal Slip Zone (PSZ). As comminution approaches a saturation state (i.e. minimum grain size), localization can migrate to competing bands, providing a mechanical explanation for overprinted shear fabrics in experiments and natural faults. By linking fragmentation, porosity evolution, and the resulting shear localization, our results provide a local fragmentation state variable for constitutive laws that couple grain-size evolution to fault weakening and the conditions for earthquake nucleation.",
-        "keyPoints": [
-          "Discrete-element simulations of fragmenting quartz gouge link grain consumption to damage, compaction and the development of a principal slip zone.",
-          "Saturation of comminution can shift localization between bands, providing a state variable for constitutive models of fault weakening and earthquake nucleation."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78254-w",
-        "journal": "Nature Communications",
-        "region": "Laboratory-scale fault gouge model",
-        "method": "Discrete element simulations; dynamic grain fragmentation",
-        "onlineDate": "2026-10-16",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "seismology-earthquakes"
-        ]
-      },
-      {
-        "title": "Permeability heterogeneity controls fluid migration and microseismicity evolution in The Geysers geothermal field, California",
-        "doi": "10.1038/s41467-026-78210-8",
-        "authors": "Lei Li, Xiaobao Zeng, Ian W. McBrearty, Xin Cui, Xing Tan, Shujuan Mao, Gregory C. Beroza, Jingqiang Tan, Jianxin Liu, Paul Segall, William L. Ellsworth",
-        "abstract": "Fracture networks directly govern the efficiency of geothermal energy extraction and play a critical role in fluid migration and microearthquake generation. Using deep learning and Markov clustering, we build a high-resolution microseismic catalog covering the past decade for The Geysers geothermal field, California. Our observations reveal distinctive clustering patterns and inferred fracture systems tightly correlated with injection operations. Source mechanism analyses and pore pressure simulations indicate that the inferred connected fracture network provides pathways for rapid and directional pore pressure diffusion, highlighting that heterogeneous permeability controls the localized migration of fluids and the associated microseismic response. Our study highlights the importance of continuous and integrated seismic monitoring for ensuring the sustainability of long-term reservoir development and exploitation.",
-        "keyPoints": [
-          "Deep-learning detection and Markov clustering resolve a decade of microseismicity at The Geysers, revealing fracture networks linked to injection operations.",
-          "Source mechanisms and pressure simulations show heterogeneous permeability channels rapid fluid migration, supporting integrated monitoring of geothermal reservoirs."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s41467-026-78210-8",
-        "journal": "Nature Communications",
-        "region": "The Geysers, California",
-        "method": "Deep-learning microseismic detection; Markov clustering; source-mechanism analysis; pore-pressure simulations",
-        "onlineDate": "2026-10-17",
-        "researchAreas": [
-          "volcanology-magmatism-geothermal",
-          "seismology-earthquakes",
-          "earth-interior-rock-physics"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "communications-earth-environment-2026-10",
-    "date": "2026-10-19",
-    "journal": "Communications Earth & Environment",
-    "issue": "October 2026",
-    "issueDate": "2026-10-17",
-    "source": "",
-    "articles": [
-      {
-        "title": "Coupled Sb-Hg isotopes reveal mixed basement and deeply recycled mantle-related metal sources for the South China antimony belt",
-        "doi": "10.1038/s43247-026-04108-4",
-        "authors": "Degao Zhai, Gang Zhao, Anthony E. Williams-Jones, Runsheng Yin, Ryan Mathur, Manuel Keith, Qingfei Wang, Jiajun Liu, Di Chen, Jian-Feng Gao, Junwei Xu",
-        "abstract": "Understanding the sources of metals in hydrothermal ore systems is fundamental for improving exploration models. However, direct tracers of metal sources remain limited, especially for large, low-temperature deposits. Here we apply coupled antimony (Sb) and mercury (Hg) isotope analyses to Sb deposits from South China, the World’s largest antimony metallogenic province. The dataset reveals substantial variability in δ123Sb (−0.64 to +0.69‰), δ202Hg (−1.86 to +2.08‰), and Δ199Hg (−0.20 to +0.14‰). These data support a model involving two metal sources, namely a deep, recycled mantle-related reservoir and Precambrian basement metamorphic rocks. Our results demonstrate that coupled Sb and Hg isotopes provide a potentially powerful tool with which to identify the metal sources for Sb ore deposits, and that their application may help refine models for these deposits globally and help decode the dynamic interplay between Earth’s interior and crustal metal cycling. Coupled Sb-Hg isotope signatures from the South China antimony belt reveal that ore metals were sourced from both Precambrian basement rocks and a deep recycled mantle reservoir, demonstrating the utility of coupled Sb-Hg isotopes for tracing metal provenance, according to coupled Sb and Hg isotope analyses.",
-        "keyPoints": [
-          "Sb and Hg isotope variability supports mixed metal contributions from Precambrian basement and a deeply recycled mantle-related reservoir.",
-          "Coupled isotope tracers can distinguish metal sources and connect hydrothermal ore formation to deep recycling and crustal metal transfer."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04108-4",
-        "journal": "Communications Earth & Environment",
-        "region": "South China antimony belt",
-        "method": "Coupled Sb–Hg isotope analysis",
-        "onlineDate": "2026-10-02",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Long-term, national-scale records of landslide persistence and dynamic hazard in a mountain landscape",
-        "doi": "10.1038/s43247-026-04109-3",
-        "authors": "Erin L. Harvey, Nick J. Rosser, Mark E. Kincey, Alexander L. Densmore, Tzu-Hsin Karen Chen, Megh Raj Dhital, Karen C. Seto, Gopi K. Basyal, Tom R. Robinson, Ram Shrestha, Katie J. Oven, Katherine Arrell",
-        "abstract": "As mountain populations grow and exposure to hazard increases, understanding the dynamic hazard posed by landslides is essential. However, our ability to constrain landslide hazard is limited by relatively few good-quality datasets that are often collected across small geographical areas. These datasets typically focus on specific triggering events, such as earthquakes or rainstorms, further complicating assessments of landslide hazard through time. To better capture landslide hazard through space and time, long-term datasets over large extents are needed. Here, we analyse a 22-year record of landslide occurrence to decipher the dynamic nature of the hazard posed by landslides in Nepal. We find that recurrent or persistent landslides dominate national-scale patterns of landsliding, accounting for c. 80% of all visible landslides at any given point in time. Of new landslide areas, only half occurred in locations >30 m away from other landslides. These findings emphasise the importance of also considering pre-existing landslides when assessing hazard. Individual triggering events, including both earthquakes and rainfall, leave a distinctive footprint visible at the national scale in metrics such as landslide density, persistence, and recurrence. Such metrics add significant value to multi-temporal landslide inventories and provide a basis for mitigation efforts, particularly where resources are limited.",
-        "keyPoints": [
-          "A 22-year national inventory shows persistent or recurrent landslides account for about 80% of visible landslides in Nepal.",
-          "Only half of new landslide area occurs more than 30 m from previous landslides, supporting hazard assessments that explicitly include persistent and recurrent failures."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04109-3",
-        "journal": "Communications Earth & Environment",
-        "region": "Nepal",
-        "method": "Multitemporal landslide inventory analysis",
-        "onlineDate": "2026-10-03",
-        "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
       },
       {
-        "title": "Baseflow dominates river flow during droughts across the global streamflow network",
-        "doi": "10.1038/s43247-026-04107-5",
-        "authors": "Muhammad Abrar Faiz, Liangliang Zhang, Dong Liu, Qiang Fu, Mo Li, Yongqiang Zhang, Ning Ma, Xiaochen Qi, Tianxiao Li, Song Cui, Faisal Baig, Farah Naz, Trinh Thi Viet Ha",
-        "abstract": "Hydrological droughts occur when rainfall shortages reduce water storage in catchments, leading to delayed and prolonged low-flow conditions. How strongly baseflow supports river flow during droughts and whether this buffering remains stable under climate warming remain uncertain across regions. Using global streamflow gauge observations, terrestrial water storage information, and CMIP6 simulations, we quantified the drought-sustained fraction (DSF), representing the fraction of drought-period streamflow contributed by baseflow, and the additive baseflow buffering index (BBI), which measures the departure from the climatological baseflow index (BFI). Under severe meteorological drought, 74.2% of stations showed a positive BBI, indicating stronger relative baseflow dominance, whereas 12.7% showed little change and 13.1% showed a decline in the baseflow fraction. BBI increased with low-flow severity and streamflow deficit, while baseflow retention declined, indicating that quickflow generally decreased more rapidly than baseflow. Present-day flow partitioning also constrained future slow-flow behavior, underscoring the importance of storage-release processes in sustaining river flow during drought. Baseflow contributions to river flow increase during drought relative to baseline conditions, highlighting the increasing importance of groundwater-supported flow as drought severity intensifies, according to a study that combines global streamflow records, satellite observations, and CMIP6 simulations.",
+        "title": "Revealing the Hydrothermal System of La Soufrière Volcano (Guadeloupe) Through Nodal Ambient Noise Tomography",
+        "doi": "10.1029/2026gl121695",
+        "authors": "Elliot Amir Jiwani‐Brown, Iván Cabrera‐Pérez, Laurie Mischler, Douglas Stumpp, Geneviève Savard, Catherine Truffert, Alberto Rosselli, Federico Fischanger, Filippo Barsuglia, Matteo Lupi",
+        "abstract": "La Soufri'ere de Guadeloupe is an active volcano of the Lesser Antilles Volcanic Arc. Its last eruption halted in 1977, yet hydrothermal activity has increased over recent years, raising summit instability hazards. The link between hydrothermal fluids and detachment landslide surfaces is well established and exacerbated by inflation, pressurization, and fluid flow lubrication. Nodal Ambient Noise Tomography offers the resolution and penetration needed to investigate such features in 3D. In 2023, we deployed 39 nodal geophones that recorded for about 1 month. The resulting 3D S‐wave velocity model resolves a central low‐velocity conduit, possible flank detachment planes, and subsurface structures of the shallow volcanic cone. Our results highlight the complex interaction between fluid transport (meteoric and magmatic) and tectono‐magmatic drivers. This provides the first high‐resolution 3D seismic imaging for slope stability assessment in volcanic environments. Understanding detachment zone geometry and distribution contributes to hazard risk assessment and mitigation.",
         "keyPoints": [
-          "Across global gauges, 74.2% show increased relative baseflow contribution during severe meteorological drought even as retained baseflow declines.",
-          "Faster quickflow loss makes groundwater-supported flow increasingly important during drought, emphasizing storage-release processes in low-flow resilience."
+          "Nodal Ambient Noise Tomography provides high‐resolution image of La Soufrière volcano and shows multiple low‐velocity zones",
+          "The study identifies a central sub‐vertical structure and low‐velocity zones along the flanks, attributed to rising hydrothermal fluids",
+          "The results suggest that hydrothermal pressurization affects structural discontinuities that increase the hazard of partial flank collapse"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04107-5",
-        "journal": "Communications Earth & Environment",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl121695",
+        "journal": "Geophysical Research Letters",
+        "region": "La Soufrière, Guadeloupe",
+        "method": "Nodal ambient-noise tomography",
+        "onlineDate": "2026-10-21",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121695",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Acoustic‐Seismic Coupling Signals From Aircraft Reveal Firn‐Ice Transition and Near‐Surface Elastic Structure of Antarctic Ice",
+        "doi": "10.1029/2026gl123670",
+        "authors": "Yibo Wang, Tao Wang, Yikang Zheng, Kai Lu, Yi Yao, Junhao Hu",
+        "abstract": "Predicting the response of Antarctic ice to climate change requires detailed knowledge of its shallow structure, but direct measurements are challenging. Traditional seismic surveys are logistically demanding, and surface remote sensing provides limited information about subsurface layers. Here, we introduce uncontacted airborne seismology, a method that uses aircraft‐generated sounds and their conversion into seismic waves at the ice surface to probe the ice interior. Using a 36‐node seismic array during airborne passes, we captured multiple types of seismic waves and analyzed their propagation to extract dispersion patterns. Joint inversion of these observations reconstructs the elastic properties and porosity of the upper ∼100 m. This approach offers a rapid, scalable framework for mapping near‐surface ice structure and establishes a benchmark for future aerial or robotic exploration of polar regions, opening new possibilities for large‐scale, noninvasive monitoring of ice sheet dynamics.",
+        "keyPoints": [
+          "Opportunistic aircraft noise generates reproducible, multimode seismic waves in Antarctic ice via acoustic‐to‐seismic coupling",
+          "Passive interferometry of airborne signals resolves shallow elastic structure",
+          "This noninvasive paradigm enables scalable, continuous monitoring of polar near‐surface dynamics without active ground sources"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123670",
+        "journal": "Geophysical Research Letters",
+        "region": "Antarctica",
+        "method": "Airborne acoustic-seismic coupling; dispersion inversion",
+        "onlineDate": "2026-10-22",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123670",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Rapid Infiltration Signatures From Global Infiltration Observations",
+        "doi": "10.1029/2026gl125267",
+        "authors": "Dantong Lin, Yukai Fu, Wenju Zhao, Baoqing Zhang",
+        "abstract": "Rapid infiltration influences rainfall partitioning, subsurface water movement, and freshwater availability, yet its large‐scale spatial organization remains poorly constrained by limited observations and the lack of scalable approaches for synthesizing infiltration measurements. Here, we identify rapid infiltration signatures from a global database using a dual‐mechanism modeling framework. Rapid infiltration signatures occurred in 26.6% of 4,992 valid curves. Occurrence varied among measurement methods, while rapid and non‐rapid signatures frequently coexisted within closely matched local contexts. At identical recorded locations, 74.7% of qualifying groups contained both rapid and non‐rapid signatures; for rapid‐classified curves, the fitted rapid component accounted for a median 41.2% of cumulative infiltration. Across 83 sites, rapid‐signature odds decreased by approximately 26% per 10° increase in absolute latitude. These findings provide a large‐scale observational basis for investigating rapid infiltration and highlight the importance of measurement context and independent physical evidence for improving its representation in hydrological and Earth system models.",
+        "keyPoints": [
+          "Global infiltration data reveal rapid infiltration signatures in 26.6% of valid curves",
+          "Rapid‐signature occurrence varies among measurement methods, while rapid and non‐rapid signatures coexist locally",
+          "Rapid infiltration signatures generally become less frequent with increasing absolute latitude"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125267",
+        "journal": "Geophysical Research Letters",
         "region": "Global",
-        "method": "Streamflow, water-storage and climate-model analysis",
-        "onlineDate": "2026-10-05",
+        "method": "Infiltration measurements; dual-mechanism modeling",
+        "onlineDate": "2026-10-22",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125267",
+        "pdfLinkSource": "collector",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
       },
       {
-        "title": "Onset of zircon decomposition during saprolitic weathering",
-        "doi": "10.1038/s43247-026-04140-4",
-        "authors": "Martin Yan Hei Li, Mei-Fu Zhou",
-        "abstract": "Zircon is conventionally considered as refractory in supergene environments, enabling the preservation of geochemical records for tracing various Earth’s processes and the use of the zircon structure as a nuclear waste form. However, how refractory zircon is during weathering, especially when crystalline and in an early stage of weathering, is unknown. In this study, we demonstrate that crystalline zircon would start to weather during an early-stage saprolitic weathering. Nano-scale examination reveals that weathering of zircon proceeds through dissolution of primary, crystalline zircon and precipitation of secondary, amorphous zircon. Non-formula elements, like U, Th and heavy rare earth elements, are uptake and structurally incorporated in this process. Thereby, metamictisation of the zircon would accelerate and eventually promote the dissolution of zircon. In supergene environments, zircon would steadily weather, calling for further evaluation on the geological and environmental applications of zircon.",
+        "title": "Cessation of Nearby Low‐Frequency Earthquake Activity Following the December 2024 <i>M</i> <sub> <i>w</i> </sub> 7.0 Mendocino Earthquake: The Likely Role of Pore Pressure Reductions",
+        "doi": "10.1029/2026gl126322",
+        "authors": "David R. Shelly, Kathryn Z. Materna",
+        "abstract": "Earthquakes affect surrounding fault systems through multiple mechanisms. Here, we examine a rare cessation of activity in 27 families of low‐frequency earthquakes (LFEs) that likely reflect fault creep at the southern edge of Cascadia subduction, near the Mendocino triple junction. These sources usually exhibit nearly daily activity but were shut off for ∼7–25 days following the December 2024 moment magnitude ( M w ) 7.0 Mendocino fault earthquake. Based on modeling, we infer that this cessation was not caused by induced shear stress, which was slightly encouraging of slip, but rather by combined clamping normal stress and reduced pore pressure. This mechanism, which isn't captured in the common effective friction simplification, may have strengthened the fault and inhibited creep, without requiring fluid outflow. Observed variations in LFE cessation times are not predicted by modeled stress changes alone and may instead reflect differing source dimensions or subtle variations in LFE fault geometry.",
         "keyPoints": [
-          "Nano-scale observations show that crystalline zircon begins weathering during early saprolite formation through primary-zircon dissolution and secondary amorphous-zircon precipitation.",
-          "Incorporation of U, Th and heavy rare earth elements promotes metamictisation and dissolution, requiring renewed evaluation of zircon-based geological and environmental applications."
+          "Low‐frequency earthquake (LFE) activity shut off for 7–25 days following the 2024 M<sub>w</sub> 7.0 Mendocino fault earthquake",
+          "Based on modeling, cessation of activity was likely caused by increased normal stress and pore pressure reduction in the LFE source region",
+          "Variation in cessation time among LFE families may be influenced by minor variations in LFE host fault geometry"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04140-4",
-        "journal": "Communications Earth & Environment",
-        "region": "Saprolitic weathering profiles / laboratory microscopy",
-        "method": "Onset of zircon decomposition during saprolitic weathering",
-        "onlineDate": "2026-10-10",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126322",
+        "journal": "Geophysical Research Letters",
+        "region": "Mendocino and southern Cascadia, USA",
+        "method": "Low-frequency earthquake analysis; stress and pore-pressure modeling",
+        "onlineDate": "2026-10-22",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126322",
+        "pdfLinkSource": "collector",
         "researchAreas": [
+          "seismology-earthquakes",
           "earth-interior-rock-physics"
         ]
       },
       {
-        "title": "Physics-informed deep learning links geodetic data and fault friction",
-        "doi": "10.1038/s43247-026-04138-y",
-        "authors": "Rikuto Fukushima, Masayuki Kano, Kazuro Hirahara, Makiko Ohtani",
-        "abstract": "Fault slip modeling, based on laboratory-derived friction laws, has significantly enhanced our understanding of fault mechanics. Agreement between model predictions and observations supports the hypothesis that observed slip diversity, including fast earthquakes and slow transient slips (Slow Slip Events; SSEs), originates from frictional heterogeneity. However, quantitative assessments of frictional heterogeneity from geodetic observations while fully incorporating fault mechanics are lacking due to the difficulties of high-dimensional optimization. In this study, we aim to address this gap using Physics-Informed Neural Networks (PINNs) to link frictional heterogeneity with geodetic observations. PINNs employ a neural network to represent the spatially variable frictional properties, making their estimation feasible. Targeting the 2010 Bungo SSE in southwest Japan, our estimation reveals heterogeneous friction coinciding with localized SSE nucleation in southwest Shikoku, and subsequent westward propagation. The calculated fault slip of SSE successfully reproduces the spatio-temporal pattern of observed surface displacements. This PINN-based inversion provides a mechanically consistent fault slip model validated through quantitative comparison with observations. Furthermore, we forecast the future fault slip evolution, demonstrating the importance of assimilating observations spanning multiple SSE cycles. Our results demonstrate the potential of PINN for advancing understanding of fault mechanics and enabling physics-based fault slip forecasting.",
+        "title": "Peak Ground Velocity Constrains the Scaling and Variability of Seismic Radiated Energy",
+        "doi": "10.1029/2026gl124692",
+        "authors": "S. Shimmoto, F. Cotton",
+        "abstract": "Seismic radiated energy is fundamental to earthquake physics, yet its scaling remains debated. Two conflicting views—magnitude‐invariant apparent stress and systematically increasing apparent stress—have persisted partly because source spectral estimates are poorly constrained. Poorly constrained source spectra also create a long‐standing problem for seismic hazard assessment: many estimates imply ground‐motion variability substantially larger than observed. We show that addressing this inconsistency for peak ground velocity (PGV) yields an independent constraint on radiated‐energy scaling. For crustal earthquakes in Japan ( M w 3.4–7.5), apparent stress increases with magnitude for small‐to‐moderate earthquakes but becomes nearly constant above M w 5–6, reconciling the previously conflicting views. Our source spectral estimates reproduce both the scaling and variability of observed PGV, supporting the inferred apparent‐stress scaling. Regional comparisons further support a similar scaling transition. This transition may reflect enhanced dynamic weakening due to thermal pressurization. PGV consistency provides a stringent quality‐control criterion for radiated‐energy estimates.",
         "keyPoints": [
-          "Physics-informed neural networks infer heterogeneous fault friction for the 2010 Bungo slow slip event and reproduce observed surface-displacement patterns.",
-          "Mechanically consistent inversion links geodesy to fault properties; forecasting tests highlight the value of observations spanning multiple slow-slip cycles."
+          "Apparent stress increases with magnitude up to magnitude 5–6 and becomes nearly magnitude independent for larger magnitudes",
+          "Source spectra reproduce the scaling and variability of peak ground velocity (PGV), supporting the inferred apparent‐stress scaling",
+          "Imposing consistency between peak ground velocity and source spectra provides a quality‐control criterion for radiated‐energy estimates"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04138-y",
-        "journal": "Communications Earth & Environment",
-        "region": "Global / method-focused",
-        "method": "Physics-informed deep learning links geodetic data and fault friction",
-        "onlineDate": "2026-10-12",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124692",
+        "journal": "Geophysical Research Letters",
+        "region": "Japan",
+        "method": "Peak-ground-velocity constraints; source spectral analysis",
+        "onlineDate": "2026-10-23",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124692",
+        "pdfLinkSource": "collector",
         "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Subsurface Deformation and Recovery From the Ridgecrest Mw 7.1 Earthquake Revealed by <i>P</i> ‐Wave Velocity Time‐Lapse Tomography",
+        "doi": "10.1029/2025gl121233",
+        "authors": "Yuanlong Li, Shunping Pei, Chunmei Ren, Yifang Cheng",
+        "abstract": "We investigate co‐ and post‐seismic P ‐wave velocity ( V p ) changes following the July 2019 Mw 7.1 Ridgecrest strike‐slip earthquake using time‐lapse tomography from 50,345 P ‐wave arrivals (2011–2024). Co‐seismically, V p changes correspond to the volumetric strain change lobes of the earthquake, increasing in compressional zones and decreasing in tensional zones. Post‐seismically, V p changes exhibit a reverse pattern, suggesting ongoing subsurface recovery. Notably, the Coso volcanic field, although distal to the rupture, shows significant co‐seismic velocity reduction and rapid post‐seismic recovery, likely indicating fluid migration or poroelastic effects. These results reveal the complex mechanical and hydrological responses to co‐seismic stress changes and provide important insights into post‐seismic healing processes. Our findings offer robust seismic evidence for the response of material properties to crustal deformation, contributing to improved understanding of structure changes in the earthquake process.",
+        "keyPoints": [
+          "Time‐lapse tomography reveals co‐ and post‐seismic V<sub>p</sub> changes associated with the 2019 Ridgecrest Mw 7.1 earthquake",
+          "Velocity reductions and increases align with static stress‐induced dilatational and compressional lobes, supporting a strike‐slip mechanism",
+          "The velocity changes of distal volcanic zone suggest deep fluid migration or poroelastic effects"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2025gl121233",
+        "journal": "Geophysical Research Letters",
+        "region": "Ridgecrest and Coso, California, USA",
+        "method": "P-wave time-lapse tomography",
+        "onlineDate": "2026-10-24",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121233",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
           "geodesy-crustal-deformation",
           "earth-interior-rock-physics"
         ]
       },
       {
-        "title": "Geochemical clustering reveals cryptic eruptions and tephra correlations from Antarctic fumarolic ice-cave archives",
-        "doi": "10.1038/s43247-026-04105-7",
-        "authors": "Paola Del Carlo, Giulia Fisauli, Alessandro Musu, Alessio Di Roberto, Giuseppe Re, Gaetano Giudice, Mónica Ágreda-López, Maurizio Petrelli",
-        "abstract": "Volcanic deposits preserved within Antarctic fumarolic ice caves provide rare access to sub-ice eruptive records hidden beneath the ice cap. Here we present the first integrated textural, petrological, and geochemical characterisation of 21 tephra samples from three summit ice caves at Mount Melbourne (Northern Victoria Land, Antarctica). Major and trace-element glass compositions, combined with published datasets, were analysed using multivariate statistical workflows. Dimensionality reduction and clustering identified a distinct compositional group with no known equivalent in the existing Mount Melbourne record, suggesting that at least one previously unrecognised Holocene eruption occurred within the investigated Fumarolic Ice Caves. Correspondence between Fumarolic Ice Cave deposits and volcanic signatures in marine sediment, englacial sequences, and other proximal-distal records refined Mount Melbourne’s eruptive history and strengthened tephra correlations across archives. More broadly, sub-ice tephra archives can reveal hidden eruptive histories relevant to volcanic hazard assessment in polar regions.",
+        "title": "Dune Crestline Mapping With Deep Learning Reveals Large‐Scale Dune Patterns in NW China",
+        "doi": "10.1029/2026gl122012",
+        "authors": "Peng Liang, Shurui Gu, Xinming Du, Hangyi Zhao, Haixia Gu, Kailun Pan, Xiaoping Yang",
+        "abstract": "Dune crestlines encode sediment transport dynamics and atmospheric forcing, yet their large‐scale quantification has been constrained by labor‐intensive mapping or limited resolution. Here we develop an attention‐augmented U‐Net model to automatically extract crestlines from ∼1 m resolution satellite imagery. Trained on 17,798 manually annotated crestlines, the model maps over 4 million crest features across the Badain Jaran and Tengger Deserts, yielding an unprecedented high‐resolution data set of dune‐field organization. Integrating ERA5‐Land wind reanalysis and Copernicus digital elevation model‐derived equivalent sand thickness, we quantify spatial variations in crest orientation, spacing, sinuosity, and hierarchy with respect to boundary conditions. Crest orientations largely agree with predictions from the bed‐instability mode under sand‐covered conditions, while deviations near upwind margins and transport corridors indicate elongation‐mode preference under sand‐starved bed. A downwind reduction in orientation dispersion and sinuosity reveals system‐scale reorganization driven by directional filtering through a narrow transport corridor, highlighting coupled wind‐sediment controls on self‐organized dune fields.",
         "keyPoints": [
-          "Geochemical clustering of 21 tephra samples from Mount Melbourne ice caves identifies a group suggesting a previously unrecognized Holocene eruption.",
-          "Sub-ice tephra archives refine eruption histories and cross-archive correlations, informing volcanic hazard assessment in polar regions."
+          "We develop an automated framework to extract and validate millions of dune crestlines from high‐resolution satellite imagery",
+          "Analysis of over 4 million crestlines enables quantitative assessment of dune‐field organization at unprecedented spatial scales",
+          "Large‐scale crestline statistics provide a new observational basis to test competing dune growth theories in natural dune fields"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04105-7",
-        "journal": "Communications Earth & Environment",
-        "region": "Mount Melbourne, Antarctica",
-        "method": "Tephra petrography; glass geochemistry; multivariate clustering",
-        "onlineDate": "2026-10-14",
-        "volume": "7",
-        "pdfLink": "https://www.nature.com/articles/s43247-026-04105-7.pdf",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl122012",
+        "journal": "Geophysical Research Letters",
+        "region": "Badain Jaran and Tengger Deserts, northwestern China",
+        "method": "Deep-learning satellite crestline mapping; wind and sediment-thickness analysis",
+        "onlineDate": "2026-10-24",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122012",
         "pdfLinkSource": "collector",
         "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Enhanced Melt Supply Promotes Near‐Symmetric Oceanic Crustal Accretion at the Ultraslow Eastern Gakkel Ridge",
+        "doi": "10.1029/2026gl124470",
+        "authors": "Chaojin Huang, Pingchuan Tan, Chunyang Wang, Fei Wang, Weiqi Zhang",
+        "abstract": "Variations in melt supply can shift slow and ultraslow ridges between magmatic and tectonic accretion modes, but whether this effect persists at Earth's slowest‐spreading ridge remains unclear. The eastern Gakkel Ridge provides a critical test because it spreads at only ∼6–10 mm/yr yet shows anomalously strong magmatism. We reconstruct sediment thickness and residual basement across the Eurasian Basin using seismic constraints and time‐dependent sedimentation models for the poorly constrained eastern Nansen Basin. Most of the western Eurasian Basin shows deep residual basement and variable flank asymmetry, consistent with magma‐poor ultraslow accretion. Eastward, residual basement becomes progressively shallower and more symmetric. In the eastern Nansen Basin, shallow residual basement persists even under maximum sedimentation, indicating sustained crustal thickening on both conjugate flanks since ∼45 Ma. These results show that enhanced melt supply can shift oceanic crustal accretion toward a near‐symmetric, magma‐dominated mode even at Earth's slowest‐spreading ridge.",
+        "keyPoints": [
+          "Updated sediment thickness and residual basement depth constraints across the Eurasian Basin",
+          "Eastern Gakkel Ridge exhibits near‐symmetric oceanic crustal accretion despite ultraslow spreading",
+          "Enhanced melt supply can promote near‐symmetric oceanic crustal accretion even at Earth's slowest‐spreading ridge"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124470",
+        "journal": "Geophysical Research Letters",
+        "region": "Eastern Gakkel Ridge, Arctic Ocean",
+        "method": "Seismic constraints; sedimentation and residual-basement modeling",
+        "onlineDate": "2026-10-24",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124470",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
           "volcanology-magmatism-geothermal"
         ]
       },
       {
-        "title": "Global ice loss drives source-independent amplification of sea-level rise at Pacific and Indian Ocean Small Island Developing States",
-        "doi": "10.1038/s43247-026-04132-4",
-        "authors": "Robert S. Powell, Gabriel Cederberg, Sönke Dangendorf, Erica Lucas, Xiyuan Bao, Jessica R. Creveling, Julius Oelsmann, Stephen R. J. Tsuji, Leonard Tsuji, Jerry X. Mitrovica",
-        "abstract": "We quantify the spatial pattern (“fingerprint”) of sea-level rise caused by mass loss from the Greenland and Antarctic ice sheets and from glaciers worldwide through 2100. Using ensembles of ice-sheet and glacier mass-balance projections and gravitational, rotational, and deformational sea-level modeling, we calculate normalized sea-level fingerprints and their impacts on Small Island Developing States. We show that Small Island Developing States in the Pacific and Indian Oceans are located within persistent sea-level-rise hotspots where the ice-melt contribution to local sea-level rise systematically exceeds the global mean by up to ~ 24%. This amplification emerges regardless of whether meltwater originates from Greenland, Antarctica, or the global glacier system. We identify a source-independent and geographically systematic amplification of sea-level rise affecting some of the world’s most climate-vulnerable nations .",
+        "title": "Multi‐Scale Growth of an Mw 7.0 Earthquake via Hierarchical Cascading Rupture From an Mw 3.8 Repeating Event",
+        "doi": "10.1029/2026gl125835",
+        "authors": "Keisuke Yoshida, Satoshi Ide, Yihe Huang",
+        "abstract": "To understand what governs earthquake size, we investigated the 2021 Mw 7.0 Japan Trench earthquake, which began near a nest of repeating earthquakes. High‐precision hypocenter relocation and P‐waveform correlation show that the mainshock initiated nearly identically to Mw 3.8 repeaters. Waveform deconvolution reveals that, after breaking the Mw 3.8 patch within 0.1 s, the mainshock rupture cascaded through Mw 5–6 patches within 2 s and into the main slip area at 3–6 s. Four preceding Mw 5.1–6.1 events, some with higher initial moment rates, did not rupture this main area, likely because the locked region remained too far from failure. Their repeated occurrence may reflect progressive unlocking of this region. In 2021, a start nearly identical to Mw 3.8 repeaters cascaded hierarchically into an Mw 7.0 rupture, suggesting that earthquake size depends less on how rupture begins than on whether surrounding locked regions are ready to fail.",
         "keyPoints": [
-          "Gravitational, rotational and deformational modeling finds ice-melt-driven sea-level rise up to about 24% above the global mean at Pacific and Indian Ocean island states.",
-          "The amplification persists across Greenland, Antarctic and glacier melt sources, identifying geographically consistent exposure to ice-loss-driven sea-level rise."
+          "We identified nearly identical rupture initiation for an Mw 7.0 earthquake and an Mw 3.8 repeating earthquake",
+          "The Mw 7.0 rupture began in an Mw 3.8‐scale area, grew through Mw 5–6 regions within 2 s, and reached the main‐slip area at 3–6 s",
+          "Final magnitude is governed by rupture arrest, which depends on whether larger‐scale locked regions are ready to fail"
         ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04132-4",
-        "journal": "Communications Earth & Environment",
-        "region": "Pacific and Indian Ocean Small Island Developing States",
-        "method": "Gravitational, rotational and deformational sea-level modeling",
-        "onlineDate": "2026-10-14",
-        "researchAreas": [
-          "geodesy-crustal-deformation"
-        ]
-      },
-      {
-        "title": "Abrupt permafrost thaw overwhelms vegetation-driven erosion reduction in sediment export on the Tibetan Plateau",
-        "doi": "10.1038/s43247-026-04125-3",
-        "authors": "Jiapei Ma, Genxu Wang, Chunlin Song, Jinlong Li, Linmao Guo, Kai Li, Peng Huang, Haoyu Wang, Wendong Kang, Zhao Deng, Shouqin Sun",
-        "abstract": "Vegetation greening and abrupt permafrost thaw are reshaping sediment dynamics across the Tibetan Plateau, yet their relative effects on sediment delivery remain poorly quantified. Here we show that retrogressive thaw slumps are disproportionately important sediment sources, with erosion rates two to three orders of magnitude above undisturbed landscapes and source-to-channel connectivity generally exceeding 60%. Combining multi-decadal satellite observations, high-resolution topographic differencing and cold-region hydrological modelling, we quantify the competing effects of thaw-slump sediment supply and greening-induced erosion reduction. During 2000–2022, thaw slumps delivered more than four times as much non-ice sediment to channels as was reduced by greening, compensating for declining glacier-derived sediment and contributing to increased downstream suspended sediment export. Across permafrost regions, approximately 1.2‰ thaw-slump coverage represents an upper-bound threshold above which thaw-slump sediment delivery exceeds greening-induced sediment reduction. These results show that spatially limited abrupt thaw can outweigh widespread vegetation recovery in regulating sediment delivery from warming permafrost landscapes.",
-        "keyPoints": [
-          "Satellite observations, topographic differencing and modeling show thaw slumps supplied over four times the sediment reduction from greening during 2000–2022.",
-          "Small areas of abrupt thaw can dominate Tibetan sediment delivery because rapid erosion and strong channel connectivity outweigh widespread vegetation recovery."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04125-3",
-        "journal": "Communications Earth & Environment",
-        "region": "Tibetan Plateau",
-        "method": "Satellite time series; topographic differencing; cold-region hydrological modeling",
-        "onlineDate": "2026-10-16",
-        "volume": "7",
-        "pdfLink": "https://www.nature.com/articles/s43247-026-04125-3.pdf",
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125835",
+        "journal": "Geophysical Research Letters",
+        "region": "Japan Trench",
+        "method": "Hypocenter relocation; waveform correlation and deconvolution",
+        "onlineDate": "2026-10-24",
+        "volume": "53",
+        "issueNumber": "20",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125835",
         "pdfLinkSource": "collector",
         "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Subglacial landforms as proxy for offshore freshened groundwater in formerly glaciated margins",
-        "doi": "10.1038/s43247-026-04149-9",
-        "authors": "Arne Lohrberg, Amir Haroon, Nils Moosdorf, Henrik Grob, Emma Hadré, Carolin Wallmeier, Anna Eliana Pastoressa, Aaron Micallef, Sebastian Krastel",
-        "abstract": "Offshore freshened groundwater (OFG) is a significant yet underexplored component of the global water cycle, and its spatial distribution, particularly its links to past glacial processes, remains poorly constrained. The southeastern North Sea, characterized by extensive tunnel valley networks, provides an ideal setting to test how Pleistocene meltwater shaped offshore groundwater systems. Using newly acquired time-domain controlled-source electromagnetic data integrated with high-resolution seismic reflection surveys, we present a resistivity-based mapping of OFG in this region. The models reveal a laterally continuous OFG body with resistivities of 8–14 Ω·m, extending across multiple stratigraphic units and well beyond individual subglacial landforms. This configuration is best explained by subglacial meltwater flushing of sediment porewaters during Pleistocene glaciations. Subsequent preservation was aided by density contrasts that limit vertical mixing and by fine-grained glaciomarine deposits sealing the system from above. The connection between resistivity anomalies and mapped subglacial landforms shows that the latter can serve as predictive proxies for OFG occurrence. These findings shift the perspective from OFG as isolated anomalies to regionally extensive systems linked to glacial processes, establishing subglacial landforms as a testable screening proxy for locating OFG in formerly glaciated margins worldwide.",
-        "keyPoints": [
-          "Electromagnetic and seismic surveys reveal a laterally continuous offshore freshened groundwater body across southeastern North Sea stratigraphic units.",
-          "Links between resistivity anomalies and subglacial landforms support using glacial geomorphology to locate extensive offshore groundwater systems."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1038/s43247-026-04149-9",
-        "journal": "Communications Earth & Environment",
-        "region": "Southeastern North Sea",
-        "method": "Time-domain controlled-source electromagnetics; seismic reflection",
-        "onlineDate": "2026-10-17",
-        "volume": "7",
-        "pdfLink": "https://www.nature.com/articles/s43247-026-04149-9.pdf",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
+          "seismology-earthquakes"
         ]
       }
     ]
   },
   {
-    "id": "geophysical-research-letters-53-19",
-    "date": "2026-10-08",
-    "journal": "Geophysical Research Letters",
-    "issue": "Volume 53, Issue 19",
-    "issueDate": "2026-10-16",
+    "id": "proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america-123-43",
+    "date": "2026-10-26",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issue": "Volume 123, Issue 43",
+    "issueDate": "2026-10-27",
     "source": "",
     "articles": [
       {
-        "title": "Onset of Thrusting at ca. 23 Ma in East Kunlun Mountains, Northern Tibet, Recorded by Syntectonic Strata",
-        "doi": "10.1029/2026gl123551",
-        "authors": "Leyi Li, Hong Chang, Balázs Bradák, Xiaoke Qiang",
-        "abstract": "The timing of Cenozoic deformation in the East Kunlun Mountains, northern Tibet, is crucial for understanding plateau growth but remains disputed due to the scarcity of direct chronological constraints on specific tectonic structures. Here, we present a high‐density‐sampling magnetostratigraphic record from the Xiaohongshan section, interior of the East Kunlun Mountains, where growth strata directly constrain syndepositional thrust activity. Correlation with the geomagnetic polarity timescale, supported by ostracod biostratigraphy, dates the section to 25.7–17.5 Ma and places the onset of growth strata at ca. 23 Ma, marking the initiation of major thrust faulting. We propose that this thrust deformation was triggered by the northward flow of weakened lower crustal material from the Hoh Xil Basin, which was obstructed by the rigid lithospheric keel of the Qaidam Basin, leading to upper crustal shortening and surface uplift. Our results provide a direct temporal link between deep lithospheric processes and surface tectonics in northern Tibet.",
+        "title": "Geography of groundwater use and depletion in internationally shared aquifers",
+        "doi": "10.1073/pnas.2619357123",
+        "authors": "Marc F. Müller, Kyle F. Davis, Julie Faure, Davide Danilo Chiarelli, Fengwei Hung",
+        "abstract": "Transboundary aquifers (TBAs) underlie 35% of global groundwater-irrigated cropland, yet few are covered by formal cooperative arrangements. Whether this limited cooperation is consequential depends in part on where groundwater is used within shared aquifers, because pumping far from international borders may generate little cross-border impact. Combining ∼ 116,000 well observations with global irrigation data across all 426 known TBAs, we assess how groundwater use and depletion differ from comparable domestic systems and how they are distributed relative to international borders. While we find no evidence of greater average depletion in TBAs, depletion is more strongly concentrated toward international borders in shared aquifers and varies substantially across systems. Irrigation is also more intensive and concentrated toward borders in shared aquifers, although much of this pattern is attenuated after accounting for border rivers. Groundwater-supplied irrigation remains more border-proximate after accounting for these rivers. A dyad-level typology distinguishes shared systems according to where groundwater demand is concentrated, linking their potential for cross-border interaction to different management options. These findings suggest that transboundary groundwater governance should be organized around the geography of groundwater use and potential cross-border interactions rather than treating shared aquifers as uniform governance units.",
         "keyPoints": [
-          "The first high‐density early Miocene magnetostratigraphy is presented from the East Kunlun Mountains",
-          "Growth strata initiation at ca. 23 Ma reveals the onset of thrusting",
-          "The thrusting is triggered by lower crustal flow obstruction and injection"
+          "Analysis of about 116,000 wells across 426 shared aquifers finds no greater average depletion than in comparable domestic aquifers, but stronger concentration of depletion near international borders.",
+          "Border-proximate groundwater demand varies across shared aquifers, supporting governance tailored to the geography of use and potential cross-border interactions."
         ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl123551",
-        "journal": "Geophysical Research Letters",
-        "region": "East Kunlun Mountains, northern Tibet",
-        "method": "Magnetostratigraphy; growth-strata analysis",
-        "onlineDate": "2026-09-29",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123551",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "tectonics-geodynamics",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Different Orbital Controls on Detrital Magnetic Components in the Ninety‐East Ridge Since the Late Pleistocene",
-        "doi": "10.1029/2026gl124113",
-        "authors": "Yulong Guan, Zhaoxia Jiang, Sanzhong Li, Juan C. Larrasoaña, Liang Chen, Liang Zhou, Zhengxin Yin",
-        "abstract": "Magnetic minerals preserved in marginal‐sea sediments can serve as distinct fingerprints for unraveling paleoenvironmental evolution. However, the forcing mechanisms that govern the transport and accumulation of individual magnetic minerals at orbital timescales remain poorly constrained. Hence, we present a systematic environmental magnetic analysis performed to isolate the relative abundances of detrital magnetite and hematite in core CJ04‐59 from the Ninety‐east Ridge. The detrital magnetite varies mainly with precession cycles, while the detrital hematite responds more clearly to obliquity cycles. Detrital magnetite is preferentially formed in water‐logged fluvial floodplains subjected to Indian summer monsoon precipitation variations, whereas detrital hematite is preferentially formed in the arid interior of Asia and subsequently transported by winter monsoon in response to obliquity‐driven meridional insolation contrasts. Therefore, isolation of different magnetic signals can help to better understand the independent mechanism governing these marginal seas in the recent past.",
-        "keyPoints": [
-          "Detrital magnetite and hematite abundance are mainly controlled by precession (∼23 kyr) and obliquity (∼41 kyr) cycles, respectively",
-          "Detrital magnetite is mainly formed pedogenically in water‐logged fluvial floodplains affected by ISM precipitation",
-          "Detrital hematite is preferentially formed in the arid interior of Asia influenced by obliquity‐driven meridional insolation contrast"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124113",
-        "journal": "Geophysical Research Letters",
-        "region": "Ninety-east Ridge",
-        "method": "Environmental magnetic analysis",
-        "onlineDate": "2026-09-29",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124113",
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1073/pnas.2619357123",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "region": "Global: 426 internationally shared aquifers",
+        "method": "Spatial analysis of approximately 116,000 well observations and global irrigation data",
+        "onlineDate": "2026-10-19",
+        "volume": "123",
+        "issueNumber": "43",
+        "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2619357123",
         "pdfLinkSource": "collector",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Dead Sea Warming and the Origin of Salt Giants",
-        "doi": "10.1029/2026gl124167",
-        "authors": "E. Guillerm, T. K. Lowenstein, V. Gardien, F. Bärenbold, D. Bouffard, A. Brauer, F. Caupin",
-        "abstract": "Episodically in Earth's history, marine basins became hydrologically restricted, forming “salt giants,” yet the mechanisms driving their formation remain debated. The modern Dead Sea, undergoing restriction from anthropogenic inflow diversion, shows rapid lake‐level decline and salt precipitation. We present a physical model coupling energy and mass fluxes in hypersaline waterbodies. The model reproduces the observed ∼3°C Dead Sea water‐column warming since 1979. By 2100, the Dead Sea will drop ∼85 m, and warm by ∼5°C–∼8°C depending on global CO 2 emissions. A fully restricted eastern Mediterranean under modern climate conditions would undergo 20°C warming and 2.5 km drawdown within a few millennia. Once isolated, large basins enter a positive feedback loop between warming and water loss that drives precipitation of halite and potash salts without requiring hot, arid climates. Because paleobrine warming tracks brine shrinkage, vertical paleotemperature trends in evaporites may record drawdown rather than paleoclimate.",
-        "keyPoints": [
-          "Physical model combining heat and mass transfers in hypersaline waterbodies",
-          "The model predicts extreme warming and shrinkage of the Dead Sea and of a fully restricted eastern Mediterranean Sea",
-          "Positive feedback loop between warming and water loss allows precipitation of halite and potash salts under non‐extreme climates"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124167",
-        "journal": "Geophysical Research Letters",
-        "region": "Dead Sea; eastern Mediterranean",
-        "method": "Coupled energy and mass flux modeling",
-        "onlineDate": "2026-09-29",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124167",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "In Situ Observation of Pressure‐Enhanced Hydrous–Anhydrous Solid Solution in Lower‐Mantle SiO <sub>2</sub> –AlOOH Phases",
-        "doi": "10.1029/2026gl124407",
-        "authors": "M. Nishi, K. Takahashi, H. Dekura, K. Kawano, H. Koike, K. Nakamura, T. Kondo, H. Kuwahara, S. Kakizawa, N. Tsujino, Y. Higo",
-        "abstract": "Water plays a critical role in Earth's mantle dynamics and evolution, yet lower‐mantle storage mechanisms remain debated. δ‐AlOOH and SiO 2 phases have been independently proposed as high‐pressure water hosts. Here, we conducted in situ synchrotron X‐ray diffraction experiments with a multi‐anvil apparatus and sintered diamond anvils to investigate phase relations in the SiO 2 –AlOOH system up to 45 GPa and high temperatures. We found that SiO 2 and δ‐AlOOH form extensive, stable CaCl 2 ‐type solid solutions across a broad compositional range under lower‐mantle conditions. The solid‐solution extent increases strongly with pressure, indicating enhanced H 2 O storage in dense SiO 2 ‐rich phases and stabilization of SiO 2 ‐enriched AlOOH‐rich hydrous phases at greater depths. These results suggest that water released from less favorable peridotitic hosts during lower‐mantle transport can be redistributed into subducted crustal lithologies, where pressure‐stabilized complementary CaCl 2 ‐type phases serve as water hosts.",
-        "keyPoints": [
-          "SiO 2 and AlOOH form extensive CaCl 2 ‐type solid solutions under lower mantle conditions",
-          "Pressure strongly enhances mutual solid solution between SiO 2 and AlOOH",
-          "Water may redistribute from peridotite into subducted mafic and silica‐rich lithologies"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124407",
-        "journal": "Geophysical Research Letters",
-        "region": "Global / deep Earth",
-        "method": "High-pressure synchrotron X-ray diffraction",
-        "onlineDate": "2026-09-29",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124407",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Quantifying Dead‐End Impacts on Radon Signals in Fractured Rocks",
-        "doi": "10.1029/2026gl124574",
-        "authors": "Fu‐Shuo Gan, Jia‐Qing Zhou, Yi‐Feng Chen, Rong Mao, Xin Luo, Zhibing Yang, Ran Hu",
-        "abstract": "Understanding radon transport in fractured rock is fundamental for interpreting geochemical signals associated with subsurface deformation and fluid transport. The role of dead‐end fractures (DEFs), one key geometric feature of fractured rocks, remains poorly understood. Using conceptual fracture‐system models consisting of a through‐going main fracture and distributed DEFs, and explicitly coupling α ‐recoil release, diffusion, advection, and decay loss, we quantify a two‐stage radon breakthrough behavior: an early advection‐dominated stage along the main fracture followed by diffusive contributions from DEFs. Across cases with different DEF characteristics, the equilibrium radon activity displays a logistic constitutive relation with the flushing index Zh (the ratio of advective removal rate to radon decay rate), whose constitutive parameters are quantitatively characterized by DEF number and length. Furthermore, the maximum effective tracing length for DEFs, l max , was identified and quantitatively characterized. This study advances our mechanistic understanding of radon nuclide transport in fractured rocks.",
-        "keyPoints": [
-          "Dead‐end fractures trigger two‐stage radon breakthrough, with an advection‐dominated phase followed by a diffusion‐dominated tail",
-          "Constitutive relationship between radon equilibrium signal and flushing rate is confirmed and calibrated considering dead‐end systems",
-          "Quantitative formulas are proposed that link dead‐end properties to radon signals and their tracing range"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124574",
-        "journal": "Geophysical Research Letters",
-        "region": "Global / method-focused",
-        "method": "Coupled fracture-system radon transport modeling",
-        "onlineDate": "2026-09-29",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124574",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Shallow Poroelastic Hydrothermal Deformation at Changbaishan Volcano Before the 2020 Unrest Revealed by Sentinel‐1 InSAR Time Series",
-        "doi": "10.1029/2025gl120991",
-        "authors": "Xingjun Luo, Wenbin Xu, Nicolas Oestreicher, Joël Ruch",
-        "abstract": "Ground deformation of dormant volcanoes provides critical insights into subsurface processes and potential hazards. Here we present Sentinel‐1 Interferometric Synthetic Aperture Radar (InSAR) time series (2015–2020) for Changbaishan volcano, the largest intraplate volcanic system in East Asia. We detect persistent subsidence of up to 3.5 mm/yr on the eastern flank of the summit prior to minor unrest in December 2020. Geodetic inversion locates the deformation source within a shallow hydrothermal system 2.7 ± 0.3 km beneath the summit. Constrained by independent CO 2 ‐flux estimates, poroelastic models reproduce the observed deformation and indicate sustained discharge of an H 2 O–CO 2 mixture with vapor–liquid separation occurring above the hydrothermal system. We infer that long‐lived, mixture‐driven poroelastic compaction might have dominated the background deformation during the observed period. These findings underscore the need to integrate geodetic and geochemical observations to improve hazard assessments of future unrest at Changbaishan and analogous volcanic systems.",
-        "keyPoints": [
-          "Sentinel‐1 InSAR reveals persistent summit‐flank subsidence of up to 3.5 mm/yr from 2015 to 2020",
-          "A shallow CO 2 ‐rich hydrothermal system at ∼2.7 km depth explains the localized, linear subsidence",
-          "Poroelastic compaction driven by H 2 O–CO 2 discharge governs long‐term deformation at Changbaishan"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2025gl120991",
-        "journal": "Geophysical Research Letters",
-        "region": "Changbaishan volcano",
-        "method": "Sentinel-1 InSAR; geodetic inversion; poroelastic modeling",
-        "onlineDate": "2026-10-01",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120991",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation",
-          "volcanology-magmatism-geothermal"
-        ]
-      },
-      {
-        "title": "Volatile Conduits Beneath Vulcano Island (Italy) Revealed by High‐Resolution Nodal Local Earthquake Tomography During Volcanic Unrest",
-        "doi": "10.1029/2026gl121686",
-        "authors": "Iván Cabrera‐Pérez, Douglas Sami Stumpp, Sofía Castro, Michaïl Henry, Tullio Ricci, Alessandra Sciarra, Matteo Lupi",
-        "abstract": "Understanding shallow magmatic and hydrothermal systems at active volcanoes is essential for interpreting unrest and forecasting eruptions. We present the first high‐resolution three‐dimensional , , and models of Vulcano Island, Aeolian Islands, Italy, derived from a dense nodal seismic network. During 1 month of acquisition in 2021, coinciding with volcanic unrest, we detected and picked 1749 local earthquakes. Tomographic results reveal pronounced velocity anomalies, including high Vp / Vs ratios beneath Lipari and Vulcano, compatible with fluid‐rich zones, and low Vp / Vs anomalies compatible with gas‐ or vapor‐dominated reservoirs within the shallow magmatic–hydrothermal system. A deeper low anomaly coincides with hypocentral depths of very‐long‐period seismic events, suggesting a genetic relationship between fluid accumulation, pressure buildup, and very‐long period seismicity. These results significantly improve travel‐time tomography resolution and provide new insights into the geometry, fluid distribution, and structural controls of Vulcano's upper plumbing system, with important implications for volcanic monitoring and planning strategies.",
-        "keyPoints": [
-          "First nodal 3D high‐resolution , , and models of Vulcano Island reveal the geometry of its shallow magmatic–hydrothermal system",
-          "High and low Vp / Vs zones coincide with possible liquid‐rich and gas/vapor‐dominated reservoirs tied to degassing and seismicity",
-          "Deeper low anomaly aligns with very‐long period earthquakes, linking fluid buildup, pressure increase, and long‐period seismicity"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl121686",
-        "journal": "Geophysical Research Letters",
-        "region": "Vulcano Island, Italy",
-        "method": "Nodal seismic array; local earthquake tomography",
-        "onlineDate": "2026-10-01",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121686",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "volcanology-magmatism-geothermal",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Magnetic Imaging of the Effect of Stress on the Remanent Magnetization of Basalt",
-        "doi": "10.1029/2025gl121480",
-        "authors": "A. R. Muxworthy, M. E. Kosters, B. M. de Groot, T. M. Mitchell, A. R. Thomson, B. Kugabalan, L. Qi, L. V. de Groot",
-        "abstract": "Differential compressional stresses (<100 MPa) that do not result in permanent deformation have traditionally been considered insufficient to modify paleomagnetic signals; however, recent numerical predictions have challenged this assumption. Using quantum diamond microscopy, we experimentally determined the effects of low differential stresses on the remanent magnetization of columnar basalt samples from Seljadalur, Iceland. We show that although individual magnetic dipoles rotate by up to 40°, the bulk magnetization direction remains largely unchanged. These rotations reflect opposing single‐domain–like and single‐vortex–like behaviors that cancel directionally; however, the bulk magnetization intensity decreases. This behavior is consistent with micromagnetic model predictions for mixed–domain‐state samples. Given that differential stresses 1 GPa are common in undeformed rocks distal to earthquake rupture zones and impact craters, it is essential to account for stress effects when interpreting paleomagnetic data from geological materials.",
-        "keyPoints": [
-          "Magnetic mapping confirms numerical predictions that magnetic moments can rotate under pressures <100 MPa",
-          "Low stresses cause a net decrease in magnetic intensity, leading to underestimates of true paleointensity",
-          "Low stresses near earthquakes or impacts can distort magnetic signals, so stress must be accounted for in paleomagnetic interpretation"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2025gl121480",
-        "journal": "Geophysical Research Letters",
-        "region": "Seljadalur, Iceland",
-        "method": "Quantum diamond microscopy; stress experiments",
-        "onlineDate": "2026-10-03",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121480",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Rare Synchronization Among Recurring Earthquakes",
-        "doi": "10.1029/2026gl123394",
-        "authors": "Kélian Dascher‐Cousineau, Roland Bürgmann, Alba M. Rodriguez Padilla, Rishav Mallick, Taka’Aki Taira",
-        "abstract": "Earthquakes are notoriously irregular, yet occasionally neighboring faults rupture in close succession, repeatedly, as if synchronized. Over successive cycles, differences in recurrence intervals, overall irregularity and external stressors should all drive neighboring faults out of phase. We propose that synchronization emerges only when fault interaction is phase dependent and exceeds the accumulated misalignment. The competing effects are quantifiable from the geometry of neighboring faults, yielding a conditional existence prediction for synchronization that we test first against simulations and then observations. Among repeating earthquake families in the central San Andreas Fault, the overall prevalence of synchronized pairs decays rapidly with increasing separation, tracking their stress transfer. Among neighboring megathrust segments in the 1000‐year historical record for Japan, the same threshold identifies segments in Nankai and Hokkaido as uniquely poised for synchronization. This work offers a mechanistic basis for earthquake synchronization and, more broadly, shows how interaction shapes earthquake recurrence.",
-        "keyPoints": [
-          "Rare earthquake synchronization emerges at all scales through repeated stress interaction",
-          "Fault interaction must exceed the misalignment that otherwise accumulates over an earthquake cycle",
-          "Fault interaction can play a central role in shaping the regularity or irregularity of earthquake recurrence"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl123394",
-        "journal": "Geophysical Research Letters",
-        "region": "San Andreas Fault; Japan",
-        "method": "Fault-interaction modeling; repeating earthquake analysis",
-        "onlineDate": "2026-10-03",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123394",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "seismology-earthquakes"
-        ]
-      },
-      {
-        "title": "Tracing Mantle Upwellings Beneath Changbaishan/Mount Paektu: New Insights From Transition Zone Discontinuity Structure",
-        "doi": "10.1029/2026gl125307",
-        "authors": "Cunrui Han, Weiqian Yu, James O. S. Hammond, David P. Dobson, He Tan, You Tian, Wei Wei",
-        "abstract": "Intraplate volcanism in Northeast Asia, located in a distant back‐arc setting, challenges conventional models of mantle convection and volatile cycling. Using receiver function data from over 300 broadband stations, we image the mantle transition zone (MTZ) beneath the Changbaishan/Paektu volcano. Our results show a modest 410‐km depression consistent with melt accumulation caused by slab dehydration and/or a hydrous MTZ, and a depressed 660‐km discontinuity linked to slab stagnation. Notably, lateral variations in the morphology of negative phases above the 410‐km discontinuity may reflect localized variations in upwelling rate and are associated with lateral heterogeneity of the underlying slab and localized uplift of the 660‐km discontinuity, suggesting focused upwelling through a potential slab lens/gap. These observations suggest that MTZ dehydration primarily drives regional intraplate magmatism, with potential lower‐mantle return flow locally enhancing this process, highlighting the critical role of the MTZ in controlling volatile transfer in deep subduction systems.",
-        "keyPoints": [
-          "Dense stations and 3‐D common conversion point migration enable high‐resolution imaging of mantle transition zone topography and Pacific slab geometry beneath Changbaishan",
-          "Widespread negative phases above the 410‐km discontinuity may represent variable melt accumulation and show upwelling dynamics",
-          "Localized slab lens/gaps and slab‐derived hydrous upwelling may enhance magma ascent, which is deflected by large‐scale mantle flow"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl125307",
-        "journal": "Geophysical Research Letters",
-        "region": "Changbaishan/Mount Paektu",
-        "method": "Receiver-function imaging",
-        "onlineDate": "2026-10-04",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125307",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "tectonics-geodynamics",
-          "volcanology-magmatism-geothermal"
-        ]
-      },
-      {
-        "title": "State of Stress in Subduction Zone Forearcs: Influence of the Mantle Wedge Corner and Serpentinization",
-        "doi": "10.1029/2026gl124209",
-        "authors": "Viven Sharma, Ikuko Wada",
-        "abstract": "We investigate the role of the elasticity and density of the forearc mantle wedge corner on the stress distribution in the forearc region of subduction zones, using numerical quasi‐2D lithospheric deformation models for the Cascadia, Nankai, NE Japan, and Costa Rica subduction zones. We incorporate the forearc mantle wedge corner as an elastic domain within the overriding lithosphere with physical properties that reflect reported degrees of serpentinization. In the models, we also incorporate reported values of effective friction coefficient ( μ ) and the downdip extent of frictional coupling (DoC) for the four subduction systems. Our models predict horizontal deviatoric tension in the wedge and the overriding crust in Cascadia and Nankai due to the buoyancy and elasticity of the wedge corner and relatively low DoC and μ . In NE Japan and Costa Rica, the plate coupling force dominates over the effect of the mantle wedge corner, resulting in horizontal deviatoric compression.",
-        "keyPoints": [
-          "Elasticity and density of the forearc mantle wedge corner as part of the overriding lithosphere impact the forearc stress distribution",
-          "The buoyancy and elasticity of serpentinized mantle wedge corners promote horizontal deviatoric tension above the wedge corner",
-          "The effect of a serpentinized wedge corner is minor under strong plate coupling forces, which generate horizontal deviatoric compression"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124209",
-        "journal": "Geophysical Research Letters",
-        "region": "Cascadia; Nankai; NE Japan; Costa Rica",
-        "method": "Quasi-2D lithospheric deformation modeling",
-        "onlineDate": "2026-10-06",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124209",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "tectonics-geodynamics",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Quantifying the Effects of Nickel on Earth’s Inner‐Core Nucleation",
-        "doi": "10.1029/2026gl124720",
-        "authors": "Jiahui Zhai, Liangrui Wei, Chen Gao, Yang Sun",
-        "abstract": "The formation of Earth’s solid inner core marks a major transition in the thermal and chemical evolution of the deep Earth, yet its origin remains paradoxical, as initial nucleation appears to require unrealistically large undercooling in the outer core. Here, we use atomistic simulations to quantify how Ni affects this process under inner‐core conditions. While Fe–Ni alloys preserve strong thermodynamic competition between the hcp and bcc phases, the bcc phase consistently forms smaller critical nuclei and has lower nucleation barriers than hcp. Increasing Ni content in the melts further lowers the nucleation barrier and shortens the nucleation waiting time. Local chemical fluctuations also strongly affect the macroscopic nucleation rate. Combining these effects, bcc nucleation in Fe 80 Ni 20 reaches about 250 K of undercooling, approaching geophysical constraints. We demonstrate that Ni enrichment, bcc nucleation, and chemical heterogeneity substantially narrow the inner‐core nucleation paradox.",
-        "keyPoints": [
-          "Nickel‐enriched liquid can significantly reduce the undercooling required for inner‐core formation",
-          "The body‐centered cubic structure nucleates more easily than stable hexagonal close‐packed Fe–Ni under core conditions",
-          "Chemical variations in the liquid core are key to reducing the undercooling needed to start inner‐core growth"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl124720",
-        "journal": "Geophysical Research Letters",
-        "region": "Global / deep Earth",
-        "method": "Atomistic simulations",
-        "onlineDate": "2026-10-06",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124720",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Preservation of Isolated Vesicles in Submarine Pumice and Implications for Submarine Slope Stability",
-        "doi": "10.1029/2026gl125622",
-        "authors": "M. Manga",
-        "abstract": "Pumice clasts from submarine eruptions contain abundant isolated vesicles that are completely encased in glass. As erupted clasts cool, gas inside isolated vesicles contracts, leading to low pressures inside those vesicles. Despite low pressures, isolated vesicles can be preserved in submarine pumice deposits to water depths of approximately 1–2 km because the compressive strength of glass exceeds the stresses created by the pressure difference between the inside of gas‐filled vesicles and the ambient pressure. If pumice rafts require abundant isolated vesicles, vents at greater depths are unlikely to form pumice rafts. Fracturing the glass enclosing isolated vesicles during shearing or slope failure would release low pressure vapor, lowering pore pressure and increasing effective stress in the sediment. Pumice‐rich deposits may thus strengthen during shear, making them more gravitationally and seismically stable than other submarine sediments.",
-        "keyPoints": [
-          "Isolated gas‐filled vesicles are preserved in submarine pumice",
-          "The glass encasing isolated vesicles can rupture if the pumice is deep enough below the water surface",
-          "Releasing gas from isolated vesicles will strengthen submarine volcanic sediment"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl125622",
-        "journal": "Geophysical Research Letters",
-        "region": "Global / laboratory analog",
-        "method": "Pumice vesicle mechanics",
-        "onlineDate": "2026-10-06",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125622",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "volcanology-magmatism-geothermal",
-          "earth-interior-rock-physics",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "An Innovative Approach for Estimating Coseismic Surface Uplifts Using Ionospheric Observations From Remote GNSS Stations: First Application for the 2025 Myanmar Earthquake",
-        "doi": "10.1029/2026gl122530",
-        "authors": "Mala S. Bagiya, Shubham K. Rajewar, Kosuke Heki, Vineet K. Gahalaut, Neeraj Gurjar, A. P. Dimri",
-        "abstract": "The M w 7.7 Myanmar earthquake on 28 March 2025 ruptured ∼480 km of the Sagaing Fault. Its fault slip distribution remains poorly constrained by three‐dimensional surface displacement data due to sparse GNSS‐coverage near the fault. Satellite‐based synthetic aperture radars capture meters of right‐lateral displacements but isolating vertical crustal movements from these measurements is challenging. We present a new way to map vertical displacements distributed along the fault using ionospheric total electron contents (TEC) variability measured by GNSS stations located >300 km away from the epicenter along the India‐Myanmar border. We identified three distinct peaks in the TEC time‐series. The arrival times and amplitudes of these peaks are used to determine the positions and relative strengths of three acoustic wave sources. These results are compared with slip distribution inferred from seismological observations. The study demonstrates the capability of this innovative‐approach to constrain coseismic uplifts indirectly using ionospheric data at remote GNSS stations.",
-        "keyPoints": [
-          "The 28 March 2025 Myanmar earthquake suffers from the lack of nearby GNSS stations to directly measure 3D displacement field",
-          "TEC data from GNSS stations along the India-Myanmar border are used to locate three peaks of coseismic uplifts along the long fault",
-          "This study demonstrates the potential of an innovative application of the GNSS-TEC technique"
-        ],
-        "keyPointsSource": "official-publisher",
-        "link": "https://doi.org/10.1029/2026gl122530",
-        "journal": "Geophysical Research Letters",
-        "region": "Myanmar",
-        "method": "GNSS ionospheric TEC; acoustic-source inversion",
-        "onlineDate": "2026-10-07",
-        "volume": "53",
-        "issueNumber": "19",
-        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122530",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation",
-          "seismology-earthquakes"
         ]
       }
     ]
   },
   {
     "id": "geophysical-journal-international-2026-10",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "journal": "Geophysical Journal International",
     "issue": "October 2026",
-    "issueDate": "2026-10-16",
+    "issueDate": "2026-10-24",
     "source": "",
     "articles": [
       {
@@ -2209,15 +1771,257 @@ const reports = [
           "earth-interior-rock-physics",
           "seismology-earthquakes"
         ]
+      },
+      {
+        "title": "OWL: Open Wave Library for seismic wave modeling and full-waveform inversion in acoustic and elastic media",
+        "doi": "10.1093/gji/ggag450",
+        "authors": "Kai Gao, Jackson W Saftner, Ting Chen, Ryan T Modrak",
+        "abstract": "Seismic wave modeling and full-waveform inversion (FWI) are important tools for investigating subsurface structures and properties. Open-source seismic modeling and inversion tools enable researchers to test new methods, reproduce published results, and use waveform data to characterize the subsurface. However, building flexible FWI workflows still requires substantial effort to integrate wave solvers, misfit functions, and inversion algorithms. We introduce the Open Wave Library (OWL), an open-source framework that integrates these capabilities for local- to exploration-scale modeling and FWI. We implement high-order finite-difference solvers for 2D and 3D isotropic acoustic, isotropic elastic, and general anisotropic elastic media. We combine curvilinear meshes and local refinement to represent topographic elastic free surfaces, and use complex-frequency-shifted multi-axial perfectly matched layers to support stable simulations in strongly anisotropic media. For FWI, we implement conventional waveform, correlation, and adaptive waveform misfits to accommodate different waveform characteristics and degrees of cycle skipping. We also develop two objectives based on generalized dynamic time warping: one penalizes the estimated time shifts, while the other measures amplitude differences after warping. We regularize the time-shift estimates and use a common warping function across components for multi-component data. We compute adjoint-state gradients using source wavefields reconstructed from stored boundary values. We accelerate modeling and inversion through shot-level parallelism, distributed-memory domain decomposition for 3D models, and OpenMP shared-memory parallelism. We assess solver accuracy and numerical consistency through unit tests and comparisons with spectral-element solutions. Through sensitivity-kernel studies and synthetic and field data examples, we demonstrate the complementary behavior of the misfit functions and the applicability of OWL to heterogeneous, anisotropic, and topographic models. OWL assumes negligible Earth curvature and is not intended for regional- or global-scale simulations. Our current implementation runs on central processing units (CPUs); support for heterogeneous computing architectures, viscoelasticity, and coupled acoustic–elastic media remains for future development. With OWL, we provide an extensible platform for methodological research and reproducible seismic modeling and inversion.",
+        "keyPoints": [
+          "OWL integrates high-order acoustic and elastic finite-difference solvers with multiple full-waveform inversion objectives, tested using synthetic and field data.",
+          "Support for anisotropy, topography and parallel computing provides an extensible platform for reproducible local- to exploration-scale seismic research."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag450",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Finite-difference seismic modeling; full-waveform inversion",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag450/72116898/ggag450.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "CURIE: A continental-scale probabilistic magnetotelluric reference model of USArray data for the contiguous United States",
+        "doi": "10.1093/gji/ggag451",
+        "authors": "Sihong Wu, Jiajia Sun, Dikun Yang, Jiefu Chen",
+        "abstract": "Magnetotellurics (MT) provides critical constraints on Earth’s electrical conductivity structure and thereby illuminates lithosphere and mantle processes. The EarthScope USArray MT program provides a unique opportunity to investigate large-scale tectonic and compositional variations across the contiguous United States (U.S.). However, uniform MT interpretation is hindered by data quality and the computational and initialization demands of 3D inversion. To provide a physically consistent and uncertainty-aware continental-scale baseline, we develop CURIE (continental U.S. 1D resistivity inference ensemble), comprising two complementary probabilistic reference model ensembles obtained by independently inverting the Zxy and Zyx components from 1773 MT stations using unsupervised, physics-driven normalizing flows. For each station and mode, CURIE provides posterior resistivity distributions, uncertainty estimates, and predicted MT responses. We assess the 1D assumption using filtered data misfit, mode differences, and phase tensor skew and ellipticity. Most stations yield filtered misfits below 4, indicating that 1D models reproduce the dominant responses. Low phase-tensor skew and ellipticity broadly coincide with low-misfit regions across the Interior Plains and the Intermontane Plateaus, whereas elevated indicators and misfits along tectonic and continental margins identify areas where 1D interpretation requires greater caution. At shallow depths, CURIE recovers resistivity patterns associated with major geological provinces; at mid- to lower-lithospheric depths, it resolves the broad contrast between the tectonically active western U.S. and the stable eastern craton. Differences between the Zxy and Zyx results along the Pacific and Gulf coasts, and in Florida further reflect orthogonal sensitivities to conductivity gradients and indicate 3D structural orientations, with some near-coast misfits influenced by the coast effect. The resulting dataset provides a continent-wide probabilistic reference that offers a first-order view of the U.S. electrical structure while supporting data quality assessment, identification of potential 3D effects, and development of initial or reference models for future 3D inversion and geodynamic interpretation.",
+        "keyPoints": [
+          "Probabilistic inversions of 1,773 USArray magnetotelluric stations recover broad lithospheric resistivity contrasts between the active western United States and stable eastern craton.",
+          "Mode differences, misfits and phase-tensor diagnostics identify limits of one-dimensional interpretation and provide uncertainty-aware starting models for future three-dimensional inversion."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag451",
+        "journal": "Geophysical Journal International",
+        "region": "Contiguous United States",
+        "method": "Magnetotelluric inversion; physics-driven normalizing flows",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag451/72114440/ggag451.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "The dynamic response of polycrystalline MgO to cyclic loading at seismic frequencies and high pressures",
+        "doi": "10.1093/gji/ggag453",
+        "authors": "Johannes Buchen, Biao Wang, Niccolò Satta, Viktoria Trautner, Giacomo Criniti, Alba San José Méndez, Hanns-Peter Liermann, Hauke Marquardt",
+        "abstract": "The propagation of seismic waves through the Earth’s mantle is controlled by the dynamic response of the mantle to oscillating stresses and strains. This dynamic response arises from the elastic, anelastic, and plastic properties of the minerals and rocks in the mantle and can vary with the amplitude and frequency of strain oscillations. Previous experiments at pressures of the lower mantle have either determined the elastic properties of minerals and mineral aggregates at much higher frequencies than those of seismic waves or have focussed on their plastic deformation under static stresses. Here, we present cyclic loading experiments that probe the dynamic response of magnesium oxide (MgO) powder at pressures of the lower mantle and at frequencies that extend into the range of seismic frequencies. MgO powder was compressed in a diamond anvil cell and subjected to loading cycles generated by a piezoelectric actuator. During loading cycles with varying strain amplitudes and frequencies between 10 and 100 millihertz, we collected X-ray diffraction patterns in radial diffraction geometry and at a rate of one pattern per second. We analysed the resulting time series of diffraction patterns by extracting lattice spacings from the reflections 200 and 220 of MgO to derive volume strains and differential lattice strains from both reflections. While the oscillating components of volume strains reflect the isotropic compressibility of MgO, the oscillating differential lattice strains reveal a more complex response to cyclic loading that varies with the amplitude of strain oscillations. For larger strain amplitudes, we resolve phase shifts between the oscillating differential lattice strains of both reflections that indicate significant dissipation of strain energy by anisotropic plastic or anelastic deformation. At the smallest amplitudes of strain oscillations, the dynamic response of the textured MgO powder is described by almost uniform oscillating lattice strains consistent with elastic isostrain and minor dissipation. By following our experimental procedure, future cyclic loading experiments may characterise the dynamic response of polycrystalline materials at high pressures and quantify how dissipation of strain energy affects the seismic properties of materials in the Earth’s mantle.",
+        "keyPoints": [
+          "Cyclic diamond-anvil loading and X-ray diffraction reveal amplitude-dependent MgO lattice response at lower-mantle pressures and frequencies of 10–100 mHz.",
+          "Larger strain amplitudes produce phase shifts consistent with anisotropic dissipation, while the smallest amplitudes approach elastic isostrain behavior, informing mantle seismic-property experiments."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag453",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Diamond-anvil cyclic loading; time-resolved X-ray diffraction",
+        "onlineDate": "2026-10-21",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag453/72259395/ggag453.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Inverting ground displacement to resolve traction changes on fractures in a 3D heterogeneous crust",
+        "doi": "10.1093/gji/ggag452",
+        "authors": "Farshid Dabaghi, Valérie Cayol, Oliver Bodart",
+        "abstract": "Over the past few decades, InSAR and GNSS have significantly improved the monitoring of volcanic and tectonic processes by providing frequent, high-resolution measurements over large areas. To track magma transport and better understand the seismic cycle, these data are typically analyzed using kinematic solutions that model fractures as dislocations within an elastic, homogeneous half-space. Such simplifying assumptions can lead to inaccuracies when estimating the location and strength of subsurface sources. To address these limitations and determine more physically meaningful quantities - such as stress vectors rather than dislocations - we propose a new method for inferring variable pressure or traction changes on fractures, through the inversion of noisy InSAR or GNSS ground displacement data. These fractures may represent faults or magma intrusions embedded in a three-dimensional, heterogeneous crust with prominent topography. Our approach is based on a fictitious domain method inspired by the extended finite element method (XFEM), which is particularly well-suited for modeling fractures that need not conform to volume meshes. The inversion framework minimizes a cost function comprising the misfit between modeled and observed displacements, along with two regularization terms applied to both the tractions and their gradients. We present an inversion algorithm based on the forward and adjoint problem. The method is reformulated for InSAR data, which is challenging due to missing data, measurement noise, and the projection of displacements into Earth-satellite line-of-sight (LOS) directions, resulting in an incomplete displacement field. A corresponding adaptation for GNSS data is also introduced. Synthetic tests demonstrate the effectiveness and robustness of the method even with a single LOS observation, or in the presence of spatial gaps and noise, as well as with few GNSS data. They show that, neglecting heterogeneities in the inversion may bias the distribution of pressure and their amplitude. Regularization parameters are determined using either L-curve analysis or a compromise function, both providing reliable results. We confirm that log-log L-curves, and not lin-lin L-curves, are required for appropriate regularization selection. As source depth or noise levels increase, the method favors stronger regularization, yielding smoother solutions. We apply the method to the May 2016 intrusion and eruption at Piton de la Fournaise, where InSAR and GNSS data are available for the beginning and end of the intrusion and eruption. Using a homogeneous elastic medium, the results agree well with those from a previous boundary element study, that assumed a homogeneous medium and pressurization over a circular portion of a dike. Inversion results for a heterogeneous elastic medium show greater complexity in the pressure distribution within the dike, but remain consistent with our previous findings. Furthermore, by inverting traction changes rather than pressure changes, we identify a shear displacement at depth–interpreted as a flank slip occurring simultaneously with the magma intrusion.",
+        "keyPoints": [
+          "A fictitious-domain inversion of InSAR and GNSS data retrieves fracture traction in heterogeneous crust; the Piton de la Fournaise application reveals complex dike pressure and inferred deep flank slip.",
+          "Synthetic tests show that ignoring crustal heterogeneity can bias inferred pressure distributions and amplitudes, motivating physically constrained interpretation of volcanic deformation."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag452",
+        "journal": "Geophysical Journal International",
+        "region": "Piton de la Fournaise, Réunion",
+        "method": "InSAR and GNSS inversion; fictitious-domain finite elements",
+        "onlineDate": "2026-10-22",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag452/72372844/ggag452.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Spherical-wave seismic inversion for petrophysical properties in fluid-saturated porous media",
+        "doi": "10.1093/gji/ggag454",
+        "authors": "Guangsen Cheng, Jie Liang, Zhaoyun Zong, Xingyao Yin, Liang Chen, Yong Yuan, Di Luo, Dachao Qi",
+        "abstract": "Analytical expressions for the reflection and transmission coefficients of a spherical fast compressional wave (fast P-wave or P1-wave) incident on an interface within fluid-saturated porous media are derived. These coefficients exhibit explicit dependence on frequency, propagation depth, incidence angle, and the material properties of porous rocks. A comparison of the amplitudes and phases of the spherical reflected P1-waves at oil-water and gas-oil interfaces reveals significant differences in wave characteristics between these two interfacial environments. Moreover, notable distinctions are observed between the reflection behaviors of spherical and plane P1-waves. We further derive an approximate spherical P1-wave reflection coefficient ($R_{{\\rm{p}}1}^{{\\rm{Sph}}}$) and the corresponding spherical P1-wave elastic impedance ($Z_{{\\rm{p}}1}^{{\\rm{Sph}}}$), both expressed as functions of the bulk modulus of the solid grain (Ks), bulk modulus of the pore fluid (Kfl), density of the solid grain (ρs), density of the pore fluid (ρfl), shear modulus of the solid grain (μs), and porosity ($\\phi $). Using the approximate $R_{{\\rm{p}}1}^{{\\rm{Sph}}}$ and $Z_{{\\rm{p}}1}^{{\\rm{Sph}}}$, a spherical-wave inversion approach in fluid-saturated porous media is established to estimate Ks, Kfl, ρs, ρfl, μs, and $\\phi $ from seismic data with different incidence angles and frequency components. The feasibility and robustness of the proposed inversion approach are verified using synthetic data with added Gaussian random noise. Finally, the approach is applied to field data acquired over a hydrocarbon reservoir. The inversion results show good agreement with filtered well-log data.",
+        "keyPoints": [
+          "Spherical-wave reflection coefficients enable inversion of mineral, fluid and porosity parameters; synthetic tests and reservoir data show agreement with filtered well logs.",
+          "Accounting for frequency, depth and spherical-wave effects provides a route to estimating porous-rock properties beyond plane-wave reflection assumptions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag454",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Spherical-wave seismic inversion",
+        "onlineDate": "2026-10-22",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag454/72350741/ggag454.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "How to quantify discrepancies between arbitrary polarization states ? Unifying geometrical insight and full-waveform inversion of polarization observables",
+        "doi": "10.1093/gji/ggag455",
+        "authors": "R Valensi, R Brossier, F Bretaudeau",
+        "abstract": "Polarization observables have long been used to infer properties of the Earth, but the geophysical literature has not explicitly addressed the problem of a general metric for comparing arbitrary polarization states (independently of specific application contexts). To address this question, we first introduce a geometrical representation of polarization based on the Poincaré sphere. This framework allows us to derive a novel polarization discrepancy criterion, defined as the geodesic length between two polarization states represented on the Poincaré sphere. We establish, both analytically and geometrically, the relationship between this intrinsic metric and the main classes of polarization metrics (based on polarization angles, ratios and cross-products). Then, we examine the advantages and limitations of various polarization-based misfit functions from both fundamental and geophysical perspectives. On the fundamental side, we theoretically compare the different misfit functions in light of a few qualitative criteria. From a geophysical perspective, we extend the conventional multicomponent FWI method for inverting the discussed polarization-based criteria. With a simple numerical experiment, we show that misfit functions based on intrinsic and extrinsic distances (PoincarÃ© and normalised cross-product misfit functions, respectively) produce superior inversion results compared to all other polarization-based misfit functions. More generally, inverting polarization observables with a suitable metric can be beneficial for a wide range of geophysical problems, from source estimation to the quantitative imaging of Earth properties based on different types of physical fields (such as seismic or electromagnetic waves).",
+        "keyPoints": [
+          "A Poincaré-sphere geodesic metric quantifies arbitrary polarization differences; numerical inversion favors this metric and normalized cross-product misfits over other tested polarization measures.",
+          "Choosing a geometrically appropriate polarization metric can improve full-waveform inversion for source estimation and quantitative imaging of Earth properties."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag455",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Polarization metrics; full-waveform inversion",
+        "onlineDate": "2026-10-22",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag455/72372869/ggag455.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Kirchhoff migration of the shallow crustal discontinuities using local earthquake synthetic records in the Campi Flegrei Volcano, South Italy",
+        "doi": "10.1093/gji/ggag456",
+        "authors": "Xiawan Zhou, Sahar Nazeri, Toktam Zand, Andrea Sollai, Jean Virieux, Aldo Zollo",
+        "abstract": "Understanding the complex subsurface structures of volcanic regions is crucial for hazard assessment and resource management. Traditional active seismic studies are normally limited for the exploration of shallower crustal structures using low-energy sources located at the Earth surface. While, using earthquake data, the deep seismic interfaces of the crustal structure can be imaged with high-energy and in-depth located sources. Here we propose a data simulating-processing-migration workflow for imaging the subsurface shallow crustal structure by earthquake synthetic signals. As a reference test-site for our study we used the Campi Flegrei caldera internal structure. Thanks to accurate earthquake locations now available in this area, we treat passive data like active data and employ advanced seismic imaging methods. For methodological assessment and improvement, we simulate 400 micro-earthquakes randomly distributed between 1 and 3 km depth in a vertically layered velocity structure and recorded by 13 stations. Exploiting the cylindrical symmetry of the vertically layered velocity model, we construct representative 2D seismic sections by sorting synthetic source–receiver records as a function of source–receiver distance. This provides a controlled framework for identifying the different seismic phases and relating them to their corresponding reflecting interfaces prior to migration. Finally, we apply a modified Kirchhoff migration technique combining the Shifted Total Variation regularization (STV) and Principal Component Analysis (PCA) to reconstruct images of subsurface structures. This workflow suppresses migration artifacts, enhances coherent events, and extracts structural features that remain stable under model perturbations and noise contamination. The resulting images reliably recover major subsurface interfaces and provide a coherent and robust characterization of the subsurface structure.",
+        "keyPoints": [
+          "A workflow using 400 synthetic microearthquakes and 13 stations combines Kirchhoff migration, shifted total-variation regularization and PCA to recover shallow volcanic interfaces.",
+          "Tests based on Campi Flegrei show suppression of migration artifacts and structural stability under model perturbations and noise, supporting further passive-source imaging development."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag456",
+        "journal": "Geophysical Journal International",
+        "region": "Campi Flegrei, southern Italy",
+        "method": "Synthetic local-earthquake records; Kirchhoff migration",
+        "onlineDate": "2026-10-22",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag456/72372850/ggag456.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Dip-aligned structural constraints for suppression of partially coherent seismic noise using self-supervised learning",
+        "doi": "10.1093/gji/ggag441",
+        "authors": "Ji Li, Dawei Liu",
+        "abstract": "Partially coherent noise, including swell and scattered noise, remains difficult to suppress because its spatial correlation and structural similarity to reflection events reduce the effectiveness of methods that assume random, incoherent, or stationary noise. This problem is particularly challenging for self-supervised blind-spot denoising, where correlated noise can violate the independence assumptions used to separate signal from noise. We propose a structure-aware self-supervised denoising method based on the hypothesis that reflection signal and partially coherent noise can be better separated by enforcing directional consistency with local geological structure. The key component is a dip-aligned second-order directional regularization term that penalizes curvature transverse to locally estimated reflector dips while preserving continuity along structural trends. This constraint acts as a seismic structural prior and is combined with a self-attention-enhanced struct blindspot network, which captures long-range dependencies across traces and improves the representation of spatially extended noise. To reduce dependence on a fixed dip estimate, the dip field is updated from intermediate denoised results during training, allowing the structural constraint to become progressively more reliable as the signal-to-noise ratio improves. Synthetic and field examples show that the proposed method attenuates partially coherent noise while preserving reflector continuity and reducing signal leakage. Comparisons with conventional filtering methods and existing self-supervised approaches demonstrate improved noise suppression and structural preservation, particularly when noise exhibits spatial correlation. The results suggest that dip-aligned directional regularization provides a physically interpretable and effective constraint for self-supervised seismic denoising.",
+        "keyPoints": [
+          "Dip-aligned regularization and a self-attention blind-spot network suppress partially coherent seismic noise while preserving reflector continuity in synthetic and field examples.",
+          "Updating reflector dips during training improves structural constraints, offering a physically interpretable way to reduce signal leakage in self-supervised seismic denoising."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag441",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Structure-aware self-supervised seismic denoising",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag441/72447232/ggag441.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Palaeomagnetic Secular Variation of Early Miocene Volcanics from the Rhön (Germany)",
+        "doi": "10.1093/gji/ggag458",
+        "authors": "Y Chi, A Sahroni, S Hahn, F Lhuillier",
+        "abstract": "Approximated by a geocentric axial dipole oscillating between two states of polarity, the main geomagnetic field experiences directional fluctuations during stable periods termed palaeosecular variation (PSV). How the changes in reversal frequency correlate with the vigour of PSV over geological timescales remains an open question. To better constrain this relationship during the Cainozoic, we sampled 107 palaeomagnetic sites (1,206 oriented cores) from the Rhön volcanic field emplaced ∼18–20 Ma in Central Germany. We successfully interpreted 97 site-mean palaeodirections, leading to a collection of 80 independent geomagnetic snapshots after combining directionally correlated sites. This collection passes the reversal test but exhibits a large proportion of outlying or extreme directions, the origin of which remains uncertain and cannot be explained by the magnetic mineralogy of the remanence carriers. In particular, 25 of the 80 records yield virtual geomagnetic poles (VGPs) outside a fixed 40○ cutoff, yielding a VGP scatter $S_\\mathrm{B}=23.3^{\\circ }\\, |^{26.2^{\\circ }}_{20.6^{\\circ }}$ (N = 55). By contrast, the adaptive VGP cutoff with A = 71.1○ is ineffective to remove extreme directions, yielding $S_\\mathrm{B}=36.7^{\\circ }\\, |^{41.1^{\\circ }}_{32.6^{\\circ }}$ (N = 79) statistically indistinguishable from $S_\\mathrm{B}=37.5^{\\circ }\\, |^{42.1^{\\circ }}_{33.3^{\\circ }}$ (N = 80) without VGP cutoff. When the collections from the Rhön and the neighbouring ∼15–18 Ma Vogelsberg volcanic field are combined, the fixed and adaptive cutoffs yield more consistent estimates of SB, ranging from $20.2^{\\circ }\\, |^{21.7^{\\circ }}_{18.8^{\\circ }}$ (N = 169) for a fixed 40○ cutoff to $20.9^{\\circ }\\, |^{22.5^{\\circ }}_{19.4^{\\circ }}$ (N = 173) for an adaptive VGP cutoff. This suggests that datasets of 100–200 independent directions should be favoured for PSV studies. Finally, focussing on a compilation of SB estimates at 40○–50○ magnetic palaeolatitude over the past 150 Myr, we confirm that no robust relationship can be established between SB and reversal frequency, irrespective of the employed filters.",
+        "keyPoints": [
+          "Rhön palaeomagnetic sampling yields 80 independent Early Miocene field directions, with extreme directions making secular-variation estimates sensitive to the chosen cutoff.",
+          "Combining Rhön and Vogelsberg records stabilizes scatter estimates; a broader compilation finds no robust link between palaeosecular variation and reversal frequency."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag458",
+        "journal": "Geophysical Journal International",
+        "region": "Rhön and Vogelsberg, Germany",
+        "method": "Palaeomagnetic sampling; palaeosecular variation analysis",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag458/72447255/ggag458.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "QR-Based Coherence Analysis for Seismic Signal Detection in Dense Arrays",
+        "doi": "10.1093/gji/ggag459",
+        "authors": "Abdul Hafiz S Issah, Eileen R Martin, Luis Tenorio",
+        "abstract": "Emerging sensing technologies across the physical sciences and engineering, including arrays of many sensors, have revolutionized the ability to collect high-resolution, large-scale datasets continuously. Although these advances have opened up new possibilities for scientific discovery, public data archives of some communities struggle to accommodate the sheer volume of larger datasets, and research teams face growing difficulties in efficiently exploring, transferring, visualizing, and interpreting the data at scale. These challenges are particularly pressing in the geophysics and seismology communities, which have encountered data that are several orders of magnitude larger in recent years. Array coherence, which relies on the similarity between sensor pairs within an array to analyze coherent signals, is effective in enhancing the detection of weak or emergent signals in noisy environments. In this study, we show how array coherence can be leveraged to effectively manage a surplus of data and serve as a robust method for signal detection and identification of regions of interest for further analysis. We present a novel algorithm that employs a QR decomposition to efficiently approximate array coherence and enhance the time resolution of detected signals, providing more precise signal detection. We demonstrate the utility and efficiency of this algorithm on data from a continuously recording, dense seismic array, allowing us to identify candidate seismic events and reduce the amount of data that require further transfer and analysis.",
+        "keyPoints": [
+          "QR decomposition efficiently approximates dense-array coherence and improves the time resolution of candidate seismic-event detection in continuous recordings.",
+          "Coherence-based selection identifies intervals worth further analysis, reducing the volume of dense seismic data requiring transfer and detailed processing."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag459",
+        "journal": "Geophysical Journal International",
+        "region": "",
+        "method": "Dense-array coherence; QR decomposition",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag459/72447235/ggag459.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Assessing small-scale surface deformation zones using GNSS-based imaging: a case-study for Europe",
+        "doi": "10.1093/gji/ggag461",
+        "authors": "B Männel, C Kreemer, G Cheng",
+        "abstract": "Dense GNSS station networks and highly accurate 3D velocities offer the potential to image small-scale surface deformation fields. The robustness and sensitivity of the applied algorithm are essential for the reliable detection of local and potentially small, horizontal, or vertical deformation. We present the new Robust 3D Imaging (R3DI) approach, which relies on a multivariate median estimate of the horizontal strain rate and local rotation and utilizes an increasing number of stations until the results are significant at the 2σ level. This approach allows for a robust estimate, while the spatial resolution achieved depends solely on the density of the station network and the local deformation rate. Checkerboard tests with synthetic velocities based on a regular deformation pattern in Europe confirmed the robust recovery of extension and contraction cells. Velocities predicted from the recovery show a median difference of 0.04 mm yr−1 (length similarity of 74.9 %) compared to the inputs. R3DI can also estimate vertical land motion at the same spatial resolution as used in the strain rate estimation. A recovery of the robustly imaged deformation in Europe reveals, for example, the large-scale GIA-related extension of +12 nstrain yr−1 in the area of maximum uplift rates in Scandinavia, as well as small-scale contractions of −134 nstrain yr−1 above the Groningen gas field. The gridded velocity field, determined from the velocity gradient tensor, indicates that R3DI is capable of automatically determining plate boundaries if a sufficient station network is provided. The gridded velocity field is compared against the recently published EuVeM2022 and shows mean horizontal velocity differences of 1.1 mm yr−1 over entire Europe or 0.4 mm yr−1 for the stable part of Europe.",
+        "keyPoints": [
+          "Robust 3D Imaging uses GNSS velocities to recover European strain and land motion, including Scandinavian extension and localized contraction above the Groningen gas field.",
+          "Adaptive station selection and robust estimation link spatial resolution to station density and deformation strength, supporting detection of both broad and local crustal deformation."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag461",
+        "journal": "Geophysical Journal International",
+        "region": "Europe",
+        "method": "GNSS velocities; robust three-dimensional strain imaging",
+        "onlineDate": "2026-10-24",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag461/72481639/ggag461.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "tectonics-geodynamics"
+        ]
       }
     ]
   },
   {
     "id": "seismological-research-letters-2026-10",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "journal": "Seismological Research Letters",
     "issue": "October 2026",
-    "issueDate": "2026-10-15",
+    "issueDate": "2026-10-23",
     "source": "",
     "articles": [
       {
@@ -2502,48 +2306,125 @@ const reports = [
           "seismology-earthquakes",
           "geodesy-crustal-deformation"
         ]
-      }
-    ]
-  },
-  {
-    "id": "science-394-6821",
-    "date": "2026-10-19",
-    "journal": "Science",
-    "issue": "Volume 394, Issue 6821",
-    "issueDate": "2026-10-15",
-    "source": "",
-    "articles": [
+      },
       {
-        "title": "Empirical constraints on ice cliff calving",
-        "doi": "10.1126/science.aee0658",
-        "authors": "Caroline Needell, Catherine C. Walker, Jeremy N. Bassis",
-        "abstract": "When calving cliffs at the margins of Earth’s ice sheets exceed a critical height, runaway retreat may be initiated in a process called the marine ice cliff instability. However, sufficiently tall ice cliffs have rarely been observed. To address this gap, we measured the characteristics of 15,330 ice cliffs across Earth’s ice sheet margins using laser altimetry. We show that cliff height is highly correlated with mélange thickness, water depth, and crevassing. We found that tall cliffs calve more rapidly than parameterizations assume, but dynamic thinning and retreat into regions with low ice thickness gradients prevent runaway retreat. These observations suggest that model projections may underestimate subannual rates of cliff calving, but that the potential for instability will depend sensitively on additional quantities, not cliff height alone.",
+        "title": "Tibetan Plateau-Scale Kinematics Revealed in a Single Event: The Mw 7.1 7 January 2025 Tingri Earthquake",
+        "doi": "10.1785/0220250454",
+        "authors": "Catherine Hanagan, Jessica Thompson Jobe, Harriet Yin, Alex Hatem, Nadine Reitman, Richard Briggs, Emerson Lynch",
+        "abstract": "The 7 January 2025 Mw 7.1 Tingri earthquake ruptured the southern Xainza–Dinggye rift in the Tibetan Plateau, ∼200 km north of the Himalayan frontal thrust system. This rift lies in a network of discrete normal and strike-slip faults that accommodate gravitational collapse and lateral extrusion of the Plateau with overall India–Eurasia convergence. Subpixel image correlation and coseismically shifted digital elevation model differencing of high-resolution (∼0.5 m) satellite optical imagery reveal the full 3D coseismic displacement field of the earthquake. Rupture occurred on two west-dipping faults: the Lagoi fault in the north, cutting through mountainous terrain at relatively high elevation (∼5500 m) within granitic–gneissic rocks, and the Dingmu Co fault in the south, bounding a lower elevation (∼4200 m) basin within Tethyan metasedimentary rocks. Northern deformation consists of coherent, block-like oblique hanging wall subsidence with left-lateral slip (>2 m). Southern deformation is more distributed, with comparable magnitudes of subsidence and northwestward translation accommodated along a series of hanging wall faults. Footwall rebound is minimal and occurs over shorter distances than observed in the long-term landscape record. Between these domains, a ∼5–10 km wide east–west transition zone absorbs diffuse north–south contraction (∼1 m) and right-lateral motion (∼1.5 m), above a concave-up along-strike curved fault imaged by aftershocks that may direct slip toward its deepest center. Collectively, these observations indicate the control of topographic stresses, lithology, fault geometry, and a weak lower crust in partitioning discrete and diffuse deformation during a single earthquake, reproducing Plateau-wide kinematic patterns typically inferred from geodetic and geomorphic observations over much longer timescales.",
         "keyPoints": [
-          "Laser altimetry of 15,330 ice cliffs links height to mélange thickness, water depth and crevassing, with tall cliffs calving faster than parameterizations assume.",
-          "Dynamic thinning and low ice-thickness gradients limit runaway retreat, showing that cliff height alone cannot determine marine ice-cliff instability."
+          "Optical image correlation and DEM differencing resolve contrasting block-like and distributed deformation during the 2025 Tingri earthquake, with a diffuse transition between two fault domains.",
+          "The observations link strain partitioning to topography, lithology, fault geometry and weak lower crust, reproducing Plateau-scale kinematic patterns within one earthquake."
         ],
         "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1126/science.aee0658",
-        "journal": "Science",
-        "region": "Earth ice-sheet margins",
-        "method": "Laser altimetry; ice-cliff calving observations",
-        "onlineDate": "2026-10-15",
-        "volume": "394",
-        "issueNumber": "6821",
-        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aee0658",
+        "link": "https://doi.org/10.1785/0220250454",
+        "journal": "Seismological Research Letters",
+        "region": "Tingri, Tibetan Plateau",
+        "method": "Optical image correlation; coseismic DEM differencing",
+        "onlineDate": "2026-10-21",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250454/8424458/srl-2025454.1.pdf",
         "pdfLinkSource": "collector",
         "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Estimating the Ice Thickness and Water Depth of a Frozen Lake Using Flexural Waves Recorded by Distributed Acoustic Sensing",
+        "doi": "10.1785/0220260029",
+        "authors": "Eduardo Valero Cano, Ludovic Moreau, Felix Strobel, Gregor Hillers",
+        "abstract": "Characterizing the physical properties of frozen lakes, such as ice thickness and water depth, is essential for diverse applications, including ice safety assessment and climate change monitoring. Typically, these properties are measured through labor-intensive field surveys, limiting their spatial and temporal coverage. Alternatively, frozen lake environments can be investigated using seismology. Seismic waves propagating on floating ice travel at velocities that depend on physical properties of the ice–water system, including the elastic properties and thickness of the ice and the water depth. Because seismic waves are frequently generated and can propagate through entire lake systems, they have greater spatiotemporal coverage than field measurements. In this study, we investigate the use of wind-generated flexural waves recorded by a distributed acoustic sensing (DAS) system to infer ice thickness and water depth along a 1000 m fiber-optic cable installed on Lake Pääjärvi, southern Finland. We detect flexural waves in the 0.01–0.5 Hz frequency band, measure their phase-velocity dispersion curves, estimate ice thickness and water depth along four cable intervals, and compare the estimates with field measurements and the lake bathymetry. The ice-thickness estimates are comparable to field measurements, with differences ranging from 2% to 34%, whereas the water-depth estimates underestimate bathymetry values by 22%–60% while resolving the increasing water-depth trend along the cable. We find that water-depth estimates tend to become less robust as the water depth increases because the measured dispersion curves lack sufficiently low wavenumbers to resolve the water column. We illustrate that flexural waves can refract toward the shore as they approach shallow water. This effect must be considered when estimating true phase velocities from apparent velocities measured along the cable to avoid bias in the estimated ice thickness and water depth. Our results demonstrate the potential of DAS to leverage ambient signals for monitoring frozen lakes.",
+        "keyPoints": [
+          "DAS flexural-wave dispersion along a 1-km cable estimates Lake Pääjärvi ice thickness within 2–34% of field values, while water depths are underestimated by 22–60%.",
+          "Limited low-wavenumber coverage and shoreward refraction constrain depth recovery and can bias inferred properties, defining practical limits for ambient-signal lake monitoring."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260029",
+        "journal": "Seismological Research Letters",
+        "region": "Lake Pääjärvi, Finland",
+        "method": "Distributed acoustic sensing; flexural-wave dispersion inversion",
+        "onlineDate": "2026-10-21",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260029/8424486/srl-2026029.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Spatiotemporal Characterization of the Shallow Subsurface Using Dense-Array Ambient Noise Tomography at Cape Modern, Utah",
+        "doi": "10.1785/0220260076",
+        "authors": "Li-Wei Chen, Florian Soom, Nori Nakata",
+        "abstract": "We deployed 500 seismic nodes across 257 locations at Cape Modern, Utah, over several months to characterize temporal velocity variations in the shallow subsurface using ambient-noise tomography. Because of the nature of ambient noise and minor changes in the sensor locations, the available ray paths were modified during the acquisition. A Voronoi tessellation-based path resampling strategy mitigated azimuthal bias from heterogeneous station distributions, achieving quasi-uniform ray-path coverage. Spatial mapping of velocity changes reveals lateral heterogeneity in the evolution of relative velocity change (dv/v), with velocity perturbations varying across the study domain and spatial patterns reflecting underlying variations in material properties and subsurface structure. Analysis of continuous data systematically reveals dv/v decreases followed by gradual recovery, with frequency dependence (0.5–1.2 s) indicating a shallow subsurface origin. Integration with environmental monitoring identified thermoelastic forcing as the dominant mechanism, with calculated velocity change variation matching observations (0.6% for 25°C seasonal variation). The 90–100-day delay between air temperature and velocity response aligns with thermal diffusion timescales. At shorter periods (0.5–0.8 s), high-velocity regions showed rapid recovery (60–95 days), whereas low-velocity zones exhibited extended recovery (90–130 days), reflecting thermal conductivity differences. The absence of systematic correlation at longer periods (0.8–1.2 s) indicates thermal decoupling of deeper intervals. This study demonstrates the monitoring capability of a dense array for spatially resolving heterogeneous subsurface thermoelastic responses.",
+        "keyPoints": [
+          "Dense-array ambient-noise tomography at Cape Modern resolves heterogeneous shallow velocity reductions and recovery, with thermoelastic forcing matching observed seasonal variations.",
+          "Spatial differences in recovery and a 90–100-day temperature lag reveal how subsurface structure and thermal properties govern near-surface seismic response."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260076",
+        "journal": "Seismological Research Letters",
+        "region": "Cape Modern, Utah, USA",
+        "method": "Dense-array ambient-noise tomography",
+        "onlineDate": "2026-10-21",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260076/8424473/srl-2026076.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Bayesian Co- and Postseismic Slip Model of the 2023 Mw 7.8 and 7.7 Türkiye–Syria Earthquake Doublet from Geodetic Data",
+        "doi": "10.1785/0220260122",
+        "authors": "Leonid Pereiaslov, Théa Ragon, Yuan-Kai Liu, Mary Grace Bato, Marin Govorcin, Eric Fielding, Mark Simons",
+        "abstract": "On 6 February 2023, an earthquake doublet occurred in the East Anatolian fault zone (EAFZ), producing significant surface displacements and causing extensive damage in Türkiye and Syria. The EAFZ is known to be spatially complex, with multiple segments, fault stepovers, and fault-bend structures. How such fault complexities modulate the co- and postseismic distribution of fault slip remains an important question. We use Sentinel-1 and Advanced Land Observation Satellite-2 Synthetic Aperture Radar-derived pixel offset measurements and Global Navigation Satellite Systems (GNSS) static offsets for the two events to constrain the distribution of coseismic slip along both strands of the EAFZ. We constrain the postseismic slip distribution using Sentinel-1 interferograms and GNSS time series. We adopt a Bayesian framework to explore the solution space, relying solely on physically justifiable prior information without employing artificial regularization. We account for both observational errors and epistemic uncertainties due to imperfect knowledge of the regional elastic structure and orientation of the fault plane. We find that elastic afterslip mostly surrounds the areas of coseismic rupture. However, the geodetic data sets that span the postseismic period cannot be explained solely by elastic afterslip. We also confirm the potential seismic gap on the boundary between the Erkenek and Pütürge faults, across which neither coseismic nor postseismic slip occurs in the periods considered here.",
+        "keyPoints": [
+          "Bayesian inversion of SAR and GNSS data finds afterslip mostly surrounding coseismic rupture during the 2023 Türkiye–Syria doublet, but elastic afterslip alone cannot explain postseismic deformation.",
+          "Neither co- nor postseismic slip bridges the Erkenek–Pütürge boundary during the studied periods, supporting a potential seismic gap despite adjacent fault activity."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260122",
+        "journal": "Seismological Research Letters",
+        "region": "East Anatolian fault zone, Türkiye and Syria",
+        "method": "Bayesian slip inversion; SAR offsets, InSAR and GNSS",
+        "onlineDate": "2026-10-21",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260122/8424466/srl-2026122.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "A Low-Cost Tool for Communicating the Time-Critical Feasibility of Near-Field Tsunami Evacuation: A Proof of Concept in Viña del Mar, Chile",
+        "doi": "10.1785/0220260245",
+        "authors": "Alejandra Gubler, Matías Carvajal",
+        "abstract": "Near-field tsunamis can leave coastal communities with only minutes to reach safe areas, so how quickly people begin moving after the earthquake shaking is critical to evacuation success. Static evacuation maps do not represent this time dependence, whereas more complex evacuation models can be data-intensive, costly, or difficult to scale. We introduce a simple, low-cost tool that combines Global Positioning System (GPS) tracks recorded with mobile applications during evacuation drills with tsunami inundation modeling. As a proof of concept, we apply the tool in Viña del Mar (central Chile), where a large tsunami is expected and evacuation is particularly challenging because of the long distances required to reach safe areas. We analyzed 119 GPS trajectories collected during drills between 2022 and 2026 and compared them with simulated inundation for a plausible subduction earthquake scenario. For illustration, each trajectory was evaluated under three departure times measured from the earthquake origin time: 0 min (T0), 8 min (T8), and 12 min (T12). T0 represents immediate evacuation, T8 departure when a warning is issued, and T12 departure when the tsunami is already reaching the coast. A trajectory was considered feasible if the participant completed the evacuation before being reached by the simulated inundation. Of the 119 trajectories, 100 were feasible under T0, 49 under T8, and only 3 under T12, showing how strongly evacuation success depends on when people begin moving. Most trajectories followed 13 main evacuation corridors. Feasibility varied sharply among corridors, even between neighboring routes within the same departure scenario. By overlaying the trajectories on the advancing inundation, the approach produces intuitive videos that make the consequences of delayed departure visible to residents, authorities, and decision-makers. Inexpensive and easily replicable, the method complements detailed evacuation modeling and may be particularly useful in tsunami-prone communities with limited resources, supporting evacuation awareness, preparedness, and risk communication.",
+        "keyPoints": [
+          "GPS drill tracks combined with tsunami inundation modeling show 100 of 119 Viña del Mar evacuations feasible with immediate departure, versus 49 after 8 minutes and 3 after 12 minutes.",
+          "Strong differences among departure times and nearby corridors show how inexpensive trajectory visualizations can communicate local evacuation constraints and support tsunami preparedness."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260245",
+        "journal": "Seismological Research Letters",
+        "region": "Viña del Mar, Chile",
+        "method": "GPS evacuation trajectories; tsunami inundation modeling",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260245/8426356/srl-2026245.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
         ]
       }
     ]
   },
   {
     "id": "ieee-transactions-on-geoscience-and-remote-sensing-2026-10",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "journal": "IEEE Transactions on Geoscience and Remote Sensing",
     "issue": "October 2026",
-    "issueDate": "2026-10-15",
+    "issueDate": "2026-10-23",
     "source": "",
     "articles": [
       {
@@ -2794,6 +2675,7 @@ const reports = [
         "region": "Land-seismic terrain / method-focused",
         "method": "Terrain-aware sparse source sampling and vibroseis route optimization",
         "onlineDate": "2026-10-12",
+        "volume": "64",
         "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733926",
         "pdfLinkSource": "collector",
         "researchAreas": [
@@ -2838,6 +2720,7 @@ const reports = [
         "region": "Mediterranean Sea nearshore waters",
         "method": "Spectral case-based satellite bathymetry retrieval",
         "onlineDate": "2026-10-13",
+        "volume": "64",
         "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733573",
         "pdfLinkSource": "collector",
         "researchAreas": [
@@ -2892,6 +2775,12 @@ const reports = [
         "title": "Diff-SpaFormer: Efficient Seismic Data Interpolation via Diffusion-Enhanced Sparse Attention Transformer",
         "doi": "10.1109/tgrs.2026.3743478",
         "authors": "Xiaoli Wei, Chunxia Zhang, Baisong Jiang, Anxiang Di, Deng Xiong, Changpeng Wang, Jiangshe Zhang, Mingming Gong",
+        "abstract": "Seismic data interpolation is a critical preprocessing step for improving seismic imaging quality and remains a focus of academic innovation. To address the computational inefficiencies caused by extensive iterative resampling in current plug-and-play diffusion interpolation methods, we propose the diffusion-enhanced sparse attention transformer (Diff- SpaFormer), a novel deep learning framework. Our model integrates transformer architectures and diffusion models via a Seismic Prior Extraction Network (SPEN), which serves as a bridge module. Full-layer sparse multi-head attention and feed-forward propagation capture global information distributions, while the diffusion model provides robust prior guidance. To mitigate the computational burden of high-dimensional representations, self-attention is computed along the channel rather than the spatial dimension. We show that using negative squared Euclidean distance to compute sparse affinity matrices better suits seismic data modeling, enabling broader contribution from amplitude feature nodes. An adaptive ReLU function further discards low or irrelevant self-attention values. We conduct training within a single-stage optimization framework, requiring only a few reverse diffusion sampling steps during inference. Extensive experiments demonstrate improved interpolation fidelity and computational efficiency for both random and continuous missing data, offering a new paradigm for high-efficiency seismic data reconstruction under complex geological conditions. Furthermore, experiments on field data under local strong noise, low signal-to-noise ratio, and severe interference conditions further validate the robustness and generalization capability.",
+        "keyPoints": [
+          "Diff-SpaFormer combines sparse channel attention with diffusion-derived seismic priors to improve interpolation fidelity and efficiency for random and continuous missing traces.",
+          "Field-data tests under strong noise and interference support robust reconstruction, while few reverse diffusion steps reduce the computational burden of seismic preprocessing."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3743478",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "method-focused",
@@ -2908,6 +2797,12 @@ const reports = [
         "title": "Three-Dimensional Anisotropic Magnetotelluric Inversion with Cross-Gradient and Anisotropic Constraints on Principal-Axis Resistivities",
         "doi": "10.1109/tgrs.2026.3743624",
         "authors": "Shengtao Wang, Changhong Lin, Jiantao Ni, Depeng Zhu, Dongyue Xin",
+        "abstract": "Magnetotellurics (MT) is widely used for imaging subsurface electrical structures. Because geological formations commonly exhibit electrical anisotropy, arbitrary anisotropic MT inversion is important for reliable subsurface characterization. However, compared with isotropic inversion, it involves more model parameters, resulting in stronger non-uniqueness and reduced inversion stability. To mitigate these challenges, a three-dimensional arbitrary anisotropic MT inversion method based on the nonlinear conjugate gradient (NLCG) algorithm is developed with principal-axis cross-gradient and anisotropy constraints. The principal-axis cross-gradient constraint promotes structural consistency among the principal-axis resistivity components, whereas the anisotropy constraint regulates their relative magnitudes, providing complementary structural and parameter regularization. The approach is evaluated using synthetic models with increasing structural complexity. Results show that smoothness regularization alone may lead to spurious anomalies and structural distortions. The anisotropy constraint can improve the recovery of principal resistivities and anisotropic parameters in some cases, but its effect depends on model characteristics and geological complexity. In contrast, the principal-axis cross-gradient constraint more consistently improves spatial structural consistency and suppresses structural distortions and spurious anomalies. Joint application of both constraints generally yields more reasonable target geometries, boundary continuity, and parameter distributions, with improved recovery of horizontal rotation angles in several tested cases. These results demonstrate that the joint constraints provide complementary structural and parametric regularization, helping to mitigate the effects of non-uniqueness and improve the reconstruction of complex anisotropic structures.",
+        "keyPoints": [
+          "Three-dimensional anisotropic magnetotelluric inversion combines principal-axis cross-gradient and anisotropy constraints to reduce structural distortions and spurious anomalies in synthetic models.",
+          "Joint constraints provide complementary structural and parameter regularization, improving target geometry and boundary continuity while mitigating inversion non-uniqueness."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3743624",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "method-focused",
@@ -2924,6 +2819,12 @@ const reports = [
         "title": "Traveltime tomography on triangular meshes via automatic differentiation and a GPU Jacobi forward solver",
         "doi": "10.1109/tgrs.2026.3743647",
         "authors": "Xin Chen, Tianze Zhang, Wenyuan Liao, Danping Cao",
+        "abstract": "In seismic wave propagation modeling and inversion, the choice of mesh is critical for both computational accuracy and efficiency. Compared with structured rectangular grids, unstructured triangular meshes offer greater flexibility in accommodating complex geological structures and rugged topography, while enabling finer discretization and more accurate geometric representation. Despite these advantages, tomography studies on triangular meshes remain limited because their high irregularity makes traditional gradient computation approaches, such as the adjoint-state method, mathematically complex and difficult to implement. To address this challenge, we introduce automatic differentiation (AD), which provides accurate and efficient gradient computation on unstructured meshes, thereby enabling traveltime tomography on triangular meshes. The AD method constructs the computational graph during forward modeling, stores the necessary intermediate variables, and applies the chain rule to compute gradients automatically during backpropagation. Because this process is built directly upon the forward modeling, the overall efficiency of AD strongly depends on the performance of the forward solver. To this end, we develop a GPU-oriented traveltime forward modeling algorithm based on Jacobi iterations, whose efficiency makes AD-based tomography practically feasible. We validate the effectiveness of the proposed framework through numerical experiments under irregular topographic conditions. The framework provides a feasible and robust approach for velocity modeling and tomography in geologically complex environments.",
+        "keyPoints": [
+          "Automatic differentiation enables traveltime tomography on triangular meshes, using a GPU Jacobi forward solver to make gradient-based inversion computationally feasible.",
+          "Numerical experiments with irregular topography support velocity reconstruction in complex environments, exploiting unstructured meshes to represent geological geometry."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3743647",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "region": "method-focused",
@@ -2934,15 +2835,359 @@ const reports = [
         "researchAreas": [
           "earth-interior-rock-physics"
         ]
+      },
+      {
+        "title": "DBRAMamba: A Gradually Refined Mamba Network Developed for Damaged Building Remote Sensing Assessment From Coarse to Fine After the Earthquake",
+        "doi": "10.1109/tgrs.2026.3743623",
+        "authors": "Yuanhao Wang, Shumin Wang, Ziying Gu, Kunyang Yang, Yitong Wang, Kangsan Yu, Aixia Dou, Zongxu Pan, Wei Ke, Xiangkun Kong, Xuehua Zhang, A Duo",
+        "abstract": "Remote sensing-based assessment of earthquake-induced building damage using pre- and post-event bi-temporal imagery is essential for rapidly determining the spatial distribution and severity of damage after destructive earthquakes. However, reliable assessment remains challenging because cross-temporal imaging differences may generate pseudo-changes, damaged buildings often exhibit fragmented and ambiguous boundaries, and different damage levels are characterized by irregular and highly variable spatial morphologies. To address these challenges, we propose DBRAMamba, a disaster-oriented semantic change detection framework that performs post-earthquake building damage assessment in a coarse-to-fine manner. A Siamese VMamba backbone is employed to extract hierarchical bi-temporal representations. In the change decoder, a Global-Local Contrastive Module (GLCM) combines local temporal contrast with long-range structural context to enhance damage-related changes while suppressing irrelevant cross-temporal differences, and an Edge-Guided Module (EGM) introduces structure-aware boundary information to refine damaged-building localization. In the semantic decoder, a Deformable Edge Refinement Module (DERM) adaptively models irregular damage morphology and refines structural boundaries for damage-level discrimination. Experiments on the Dingri earthquake dataset show that DBRAMamba achieves F^{cd}_{1}, F^{clf}_{1} and F^{o}_{1} scores of 73.99%, 68.80%, and 70.36%, respectively, obtaining the best damage-classification and overall performance among the evaluated semantic change detection methods while maintaining competitive localization accuracy. Cross-scene experiments on the Jishishan earthquake dataset further demonstrate robust transfer performance, where DBRAMamba achieves the highest F^{cd}_{1}, Kappa, and F^{o}_{1}. Under the conventional xBD building damage assessment setting, the adapted DBRAMamba (BDA) also achieves the highest F^{clf}_{1} and F^{o}_{1} among the evaluated CNN-, Transformer-, and Mamba-based approaches. Additional analyses of low-damage regions, non-seismic changes, and regional damage statistics further demonstrate the potential of DBRAMamba for rapid post-earthquake damaged-building mapping and disaster-response-oriented assessment.",
+        "keyPoints": [
+          "DBRAMamba combines temporal contrast and edge-guided refinement to map earthquake-damaged buildings, achieving 70.36% overall F1 on the Dingri dataset.",
+          "Cross-scene Jishishan and xBD tests support transferability for rapid damage assessment, while boundary refinement helps distinguish irregular damage patterns."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743623",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Dingri; Jishishan",
+        "method": "Bi-temporal remote sensing; Mamba semantic change detection",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739538",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "NPMAG: Normalized Polarization Magnetic Amplitude Gradient Operator for High-Resolution Induced Polarization Imaging Overcoming High-Resistivity Layer",
+        "doi": "10.1109/tgrs.2026.3743874",
+        "authors": "Linhan Cheng, Lihan Sun, Yuanrui Zhou, Quan Xu, Yanzhang Wang",
+        "abstract": "Grounded-electrode spectral induced polarization (SIP) measurements can become difficult beneath resistive cover when unfavorable source grounding and receiver-electrode coupling limit current injection or potential-measurement quality. The grounded-source magnetic induced polarization (MIP) configuration considered here avoids receiver-electrode coupling but still requires adequate source grounding and sufficient transmitted current. Specifically, the ultra-weak secondary magnetic fields are easily masked by background noise, and the inherent volume-smoothing effect of magnetic fields severely blurs anomaly boundaries. To address these challenges, we propose the normalized polarization magnetic amplitude gradient (NPMAG) operator, implemented using unshielded and ultra-high-sensitivity spin-exchange relaxation-free (SERF) quantum magnetometers. This method integrates vector signals with dynamic primary-field weighting to compensate for geometric decay. Numerical simulations spanning four orders of magnitude in cover conductivity show that, under prescribed-current conditions, NPMAG maintains a spatial convergence index above 63% while the modeled electric-potential-difference response broadens markedly. The operator also suppresses off-target responses associated with non-polarizable conductors. Field measurements using a grounded dipole and an unshielded SERF sensor show a focused NPMAG response within the independently constrained ore-body interval and reduced off-target responses associated with a non-polarizable mining goaf.",
+        "keyPoints": [
+          "The NPMAG operator combines vector magnetic signals and dynamic primary-field weighting to sharpen induced-polarization anomalies beneath resistive cover under prescribed-current conditions.",
+          "Synthetic and field tests show focused ore-body responses and reduced off-target anomalies from non-polarizable conductors, while adequate source grounding remains necessary."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743874",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Magnetic induced polarization; SERF quantum magnetometry",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739553",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Sensing Accuracy Optimization for Multi-UAV SAR Interferometry with Data Offloading",
+        "doi": "10.1109/tgrs.2026.3744734",
+        "authors": "Mohamed-Amine Lahmeri, Pouya Fakharizadeh, Víctor Mustieles-Pérez, Martin Vossiek, Gerhard Krieger, Robert Schober",
+        "abstract": "The integration of unmanned aerial vehicles (UAVs) with radar imaging sensors has revolutionized the monitoring of dynamic and local Earth surface processes by enabling high-resolution and cost-effective remote sensing. This paper investigates the optimization of the sensing accuracy of a UAV swarm deployed to perform multi-baseline interferometric synthetic aperture radar (InSAR) sensing. In conventional single-baseline InSAR systems, only one synthetic aperture radar (SAR) antenna pair acquires two SAR images from two distinct angles to generate a digital elevation model (DEM) of the target area. However, multi-baseline InSAR extends this concept by aggregating multiple acquisitions from different angles, thus, significantly enhancing the vertical accuracy of the DEM. The heavy computations required for this process are performed on the ground and, therefore, the radar data is transmitted in real time to a ground station (GS) via a frequency-division multiple access (FDMA) air-to-ground backhaul link. This work focuses on improving the sensing precision by minimizing the height error of the averaged DEM while simultaneously ensuring sensing and communication quality-of-service (QoS). To this end, the UAV formation, velocity, and communication power allocation are jointly optimized using evolutionary algorithms (EAs). Our approach is benchmarked against established optimization methods, including genetic algorithms (GAs), simulated annealing (SA), and deep reinforcement learning (DRL) techniques. Numerical results show that the proposed solution outperforms these baseline schemes and achieves sub-decimeter vertical accuracy in several scenarios. These findings underline the potential of coordinated UAV swarms for delivering high-precision and real-time Earth observations through radar interferometry.",
+        "keyPoints": [
+          "Joint optimization of UAV formation, velocity and communication power reduces multi-baseline InSAR elevation errors while satisfying sensing and data-offloading constraints.",
+          "Numerical tests achieve sub-decimeter vertical accuracy in several scenarios, supporting coordinated UAV swarms for precise local surface-height observations."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744734",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Multi-UAV InSAR; evolutionary optimization",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741316",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Robust Expectation–Maximization for Covariance Estimation in SIRV Models with Missing Data: Application to InSAR Time Series",
+        "doi": "10.1109/tgrs.2026.3744827",
+        "authors": "M. Cherifi, M. N. El Korso, A. Hippert-Ferrer, Y. Yan",
+        "abstract": "This paper presents a robust Expectation-Maximization framework for covariance estimation in Scale-Invariant Random Vector (SIRV) models with missing data under ignorable missingness mechanisms. By adopting an inverse-gamma prior on the scale variables, the resulting observation model leads to a complex multivariate Student-t distribution and allows closed-form E-step and M-step updates. The proposed algorithm incorporates numerical robustness techniques such as computation reuse for common observation patterns, regularized matrix inversions, and explicit enforcement of Hermitian positive semidefinite structure. Experiments on synthetic data and Sentinel-1 interferograms show effective missing value reconstruction and denoising performance under both MCAR and MNAR scenarios.",
+        "keyPoints": [
+          "A robust expectation–maximization framework estimates covariance and reconstructs missing observations in scale-invariant random-vector models using a complex Student-t formulation.",
+          "Synthetic and Sentinel-1 interferogram experiments show effective missing-value reconstruction and denoising, supporting InSAR time-series processing under incomplete observations."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744827",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Robust expectation–maximization; InSAR covariance estimation",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741298",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Least-Squares Migration for Shallow Water Ocean-Bottom-Node Data",
+        "doi": "10.1109/tgrs.2026.3744879",
+        "authors": "Jianhua Wang, Yubo Yue, Cong Deng, Xianwei Gao, Yandong Wang",
+        "abstract": "In ocean-bottom-node (OBN) data processing, down-going waves are generally employed by mirror migration to compensate for the limited near-seabed illumination of up-going waves. However, for the shallow water OBN data, the efficacy of down-going wave imaging is severely diminished, as the proximity of the virtual mirror receivers to the seabed limits the expansion of the illumination aperture. Data-domain least-squares migration (LSM) is an effective technique to address imaging challenges associated with sparse data acquisition, however its intensive computational overhead severely limits its practical application. In this paper, we present an efficient image-domain LSM suitable for imaging shallow water OBN data. By using an efficient ray-based computation method to generate the pre-stack point-spread-functions (PSFs), we formulate an image-domain LSM to iteratively solve for the pre-stack angle/offset-domain reflectivity model. Leveraging the fact that the interval velocity model is commonly accurate enough to generate well-flattened common-image-gathers (CIGs) during depth migration stage, we incorporate a shaping regularization along the angle/offset direction into the framework of LSM to enhance both event continuity and amplitude fidelity of the resultant LSM CIGs. Meanwhile, we employ the migration image as a curvelet-domain structural guide filter to constrain the misfit gradients to attenuate swing noise across each CIG panel, thereby achieving enhanced shallow structural imaging. Numerical tests on synthetic and field datasets demonstrate that the proposed method can effectively suppress swing noise and acquisition footprints associated with sparse OBN data, and generate superior imaging results with enhanced signal-to-noise ratio (SNR) and amplitude fidelity.",
+        "keyPoints": [
+          "Image-domain least-squares migration uses ray-based point-spread functions, angle/offset regularization and curvelet guidance to improve shallow-water ocean-bottom-node imaging.",
+          "Synthetic and field tests suppress swing noise and acquisition footprints while improving shallow-structure imaging, signal-to-noise ratio and amplitude fidelity."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744879",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Image-domain least-squares seismic migration; ocean-bottom nodes",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741331",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "ResNet-Based 15-Arcsec Bathymetric Prediction in the Northwest Pacific Using SWOT-Derived Gravity Data and Multibeam Observations",
+        "doi": "10.1109/tgrs.2026.3745627",
+        "authors": "Dechao An, Wei Feng, Zeyuan Zhang, Baoyu Zhang, Mingzhi Sun, Meng Yang, Min Zhong",
+        "abstract": "To fully exploit the constraining capability of high‑accuracy multibeam echo sounding (MBES) data for bathymetric modeling, this study proposes a deep residual network (ResNet)-based framework for direct bathymetric prediction on a 15-arcsec grid. The framework integrates multisource gravity features derived from the Surface Water and Ocean Topography (SWOT) mission, including gravity anomaly, vertical gravity gradient, and deflection of the vertical, while using MBES data as supervisory information to construct bathymetric models for local regions in the northwestern Pacific Ocean. A ResNet architecture with three stages and six residual blocks is adopted to learn the nonlinear relationship between gravity-field information and bathymetry at wavelengths shorter than 160 km, while the SYSU_Topo model is incorporated to provide the long-wavelength background component. Results show that the proposed framework better resolves fine-scale bathymetric features and fills data-void regions, substantially mitigating the blurring effect in areas lacking shipborne survey tracks. Evaluation on the independent test set shows that the ResNet model achieves an RMSE of 70.13 m and a relative accuracy of 0.83% in Area B (163°E–169°E, 16°N–22°N). In Area C (130°E–140°E, 5°N–15°N), it improves accuracy by approximately 17% relative to GEBCO_2025 and topo_27.1, and outperforms SDUST2023BCO, BATHY-FE, and SYSU_Topo. Cross-region tests show more stable performance for the selected ResNet–feature combination, while Gaussian distance-weight encoding reduces transfer errors and systematic biases relative to absolute coordinates. Overall, the proposed method improves the short- and medium-wavelength bathymetric representation of SYSU_Topo and provides a promising pathway for refining global seafloor topography.",
+        "keyPoints": [
+          "A ResNet integrates SWOT-derived gravity features and multibeam observations to predict 15-arcsec bathymetry, reaching 70.13 m RMSE in an independent northwestern Pacific test area.",
+          "The model resolves finer seafloor features and fills survey gaps; coordinate encoding improves transfer, supporting refinement of short- and medium-wavelength bathymetry."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3745627",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Northwestern Pacific Ocean",
+        "method": "SWOT gravity; multibeam bathymetry; residual neural network",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11745458",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-communications-2026-10",
+    "date": "2026-10-26",
+    "journal": "Nature Communications",
+    "issue": "October 2026",
+    "issueDate": "2026-10-22",
+    "source": "",
+    "articles": [
+      {
+        "title": "Mid-mantle discontinuities beneath subduction zones linked to depth-dependent deformation of bridgmanite",
+        "doi": "10.1038/s41467-026-78212-6",
+        "authors": "John Keith Magali, Sébastien Merkel, Angelo Pisconti, Jeffrey Gay, James Wookey, Christine Thomas",
+        "abstract": "Bridgmanite, the main mineralogical phase in the Earth’s lower mantle, is intrinsically anisotropic and may therefore generate seismic anisotropy in actively-deforming regions, particularly subduction zones. The bulk of the lower mantle is widely regarded as well-mixed but recent seismic observations suggest structures at mid-mantle depths whose origin remains unclear. Here, we propose a mechanism that could generate seismic discontinuities beneath subduction zones with depth distributions consistent with some of the observed mid-mantle reflectors. By coupling thermo-mechanical subduction models with pressure-dependent fabric calculations, we show that gradual slip transitions in bridgmanite with depth can manifest anisotropic discontinuities near 1000 km, which can deepen depending on the extent of accumulated deformation. This discontinuity is most pronounced in regions of strong slab-driven flow as revealed by its reflection coefficients, the strength of which varies with distance and azimuth. While our models predict ~ 1.5% contrast in fast versus slow shear wave velocities in terms of radial anisotropy, our full waveform simulations show that the discontinuity is detectable with array seismological methods. These results suggest that mid-mantle reflectors near subduction zones may be strain-induced, providing an additional mechanism that links mantle flow, mineral physics, and seismic observations.",
+        "keyPoints": [
+          "Coupled subduction and fabric models show that depth-dependent bridgmanite slip transitions can produce anisotropic discontinuities near 1000 km, deepening with accumulated deformation.",
+          "Predicted reflectors are strongest in slab-driven flow and detectable in waveform simulations, linking some mid-mantle discontinuities to strain rather than requiring compositional layering."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78212-6",
+        "journal": "Nature Communications",
+        "region": "Subduction zones; lower mantle",
+        "method": "Thermomechanical subduction modeling; crystallographic fabric calculations; full-waveform simulation",
+        "onlineDate": "2026-10-05",
+        "volume": "17",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-78212-6.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Tracing missing copper: ultrapotassic rocks record isotopic evidence of crustal Cu depletion",
+        "doi": "10.1038/s41467-026-78549-y",
+        "authors": "Chen-Hao Luo, Wenli Liang, Rui Wang, Oliver Nebel, Yun Zhao",
+        "abstract": "Post-subduction reactivation of metasomatized lithospheric mantle generates high-K shoshonitic magmas in the continental crust and has been suggested to be potentially associated with porphyry Cu mineralization, yet its role in the continental crustal Cu budget remains ambiguous. Here, we use Cu isotope analyses and geochemical modeling of Cenozoic ultrapotassic rocks from southern Tibet to show that variations in Th/La record a transition from mantle partial melting to magmatic differentiation, during which Cu behavior was controlled by sulfide retention in the source and fluid activity, respectively. During partial lithospheric mantle melting, residual solid sulfide phases retain Cu in the mantle source, generating Cu-depleted melts with slightly heavier δ⁶⁵Cu and potentially contributing to the Cu depletion of continental crust. Subsequently, exsolved fluids preferentially scavenge isotopically heavy Cu, causing both Cu contents and δ⁶⁵Cu values to decrease in the residual magmas. The Cu isotopic evolution of these ultrapotassic magmas differs from that of ore-bearing porphyries in the belt, potentially reflecting differences in magma source or evolutionary history.",
+        "keyPoints": [
+          "Cu isotopes and geochemical modeling of Tibetan ultrapotassic rocks distinguish source sulfide retention during mantle melting from fluid-controlled Cu loss during differentiation.",
+          "The results link Cu-poor melts to continental crustal depletion and show isotope evolution distinct from ore-bearing porphyries in the same belt."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78549-y",
+        "journal": "Nature Communications",
+        "region": "Global ultrapotassic magmatic systems",
+        "method": "Tracing missing copper: ultrapotassic rocks record isotopic evidence of crustal Cu depletion",
+        "onlineDate": "2026-10-12",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "On predictability of slip, rupture geometry, and speed of the 2025 M7.8 Mandalay, Myanmar, earthquake",
+        "doi": "10.1038/s41467-026-77203-x",
+        "authors": "Thomas Ulrich, Xiaoyu Zou, Mathilde Marchandon, Nico Schliwa, Fengzhou Tan, Alice-Agnes Gabriel, Wenyuan Fan, Peter Shearer, Myo Thant, Tha Zin Htet Tin, Eric O. Lindsey, Yuri Fialko",
+        "abstract": "The 2025 M 7.8 Mandalay earthquake ruptured ~480 km of the Sagaing Fault, producing one of the longest strike-slip events documented and impacting a vulnerable region. Here we combine remote sensing observations and numerical modeling to show that the subsurface fault geometry and slip distribution could be anticipated from pre-event observations. Along-strike variations in coseismic and interseismic deformation reveal a helix-shaped fault geometry. The average coseismic slip equals or exceeds the interseismic slip deficit, consistent with a minimally slip-predictable model. We generate an ensemble of 3D dynamic rupture models, constrained by the best-fit static slip model, then discriminate among them using independent space-geodetic, seismic, and near-field video observations. The preferred scenario begins bilaterally, then transitions to unilateral southward supershear propagation at depth, while shallow rupture remains subshear. These dynamics are shaped by localized stress heterogeneity and low fracture energy, characteristic of a structurally mature fault zone. Our approach can inform rupture scenarios in understudied regions.",
+        "keyPoints": [
+          "Remote sensing and 3D rupture models link the 2025 Mandalay earthquake to a helix-shaped fault and southward supershear propagation at depth.",
+          "Pre-event deformation constrains fault geometry and slip, offering a way to develop rupture scenarios in poorly studied regions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-77203-x",
+        "journal": "Nature Communications",
+        "region": "Sagaing Fault, Myanmar",
+        "method": "Remote sensing; geodetic inversion; 3D dynamic rupture modeling",
+        "onlineDate": "2026-10-14",
+        "volume": "17",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-77203-x.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Surface carbonation governs olivine reactivity for rapid CO2 mineralization",
+        "doi": "10.1038/s41467-026-78548-z",
+        "authors": "Zihua Shao, Yunfeng Liang, Gyuhwan Jo, Keisuke Nakamura, Takeshi Tsuji",
+        "abstract": "Ultramafic rocks are a global resource with vast potential for permanent CO 2 mineralization. However, the origin of the striking reactivity difference between Ca- and Mg-bearing olivine remains poorly understood. Here we show that this difference arises not merely from the type of cation, but more fundamentally from how these cations modulate the oxygen reactivity. Nonbridging oxygens serve as the oxygen source for CO 2 surface reactions, which in Ca-olivine reduce the Ca 2+ dissolution barrier by 60% and accelerate ion release by six orders of magnitude. The calculated apparent dissolution rate constants reproduce the experimentally observed complete conversion of Ca-olivine within hours under 1 atm CO 2 . This multiscale framework reveals how surface reactions govern silicate carbonation and provides a predictive basis for modeling and engineering large-scale CO 2 mineralization in both synthetic materials and basaltic reservoirs.",
+        "keyPoints": [
+          "Multiscale modeling links olivine carbonation to oxygen reactivity; CO2 surface reactions lower the Ca2+ dissolution barrier by 60%.",
+          "The framework explains rapid Ca-olivine conversion and provides a basis for predicting mineral carbonation in materials and basaltic reservoirs."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78548-z",
+        "journal": "Nature Communications",
+        "region": "Laboratory; basaltic reservoirs",
+        "method": "Multiscale modeling of surface reactions and dissolution kinetics",
+        "onlineDate": "2026-10-14",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Human-enhanced tsunami hazard in large lakes",
+        "doi": "10.1038/s41467-026-78272-8",
+        "authors": "Muhammad Naveed Zafar, Pierre Sabatier, Denys Dutykh, William Rapuc, Raphaël Paris, Andrea Piccin, Pascal Vuillemin, Flavio S. Anselmetti",
+        "abstract": "Worldwide, human-induced erosion enhances sediment delivery to lake deltas, increasing their susceptibility to collapse. In Lake Iseo, northern Italy, two millennia of intensified land use tripled sediment flux, oversteepening the delta and preconditioning it for failure. Here we show from geological records and numerical simulations that earthquakes in 1117 CE (Mw 6.5) and 1222 CE (Mw 6.0) triggered major subaqueous delta collapses, generating massive tsunamis with maximum run-ups of ~50 m and ~13 m, respectively. Historical accounts from the Vatican Library and archeological evidence support these reconstructions. Since the last collapse, eight centuries of human-induced erosion have rebuilt the delta, leaving shoreline populations highly vulnerable to future earthquake-triggered failures. A global lake synthesis showed that human-driven erosion has reached its highest levels since the Industrial Era, progressively overloading deltas worldwide; thus, similar catastrophic failures may become more likely in the future. These findings reveal a persistent, human-amplified mechanism of lacustrine tsunami generation and intensity with major implications for hazard assessment.",
+        "keyPoints": [
+          "Geological records and simulations reconstruct earthquake-triggered delta collapses in Lake Iseo, with tsunami run-ups near 50 m in 1117 and 13 m in 1222.",
+          "Long-term human-driven erosion overloads lake deltas, creating a persistent mechanism that amplifies earthquake-triggered tsunami hazards."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78272-8",
+        "journal": "Nature Communications",
+        "region": "Lake Iseo, northern Italy",
+        "method": "Geological records; numerical tsunami simulations; historical and archaeological evidence",
+        "onlineDate": "2026-10-15",
+        "volume": "17",
+        "pdfLink": "https://www.nature.com/articles/s41467-026-78272-8.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Inherited lithospheric weakness enabled rapid stress transmission across Tibet",
+        "doi": "10.1038/s41467-026-78650-2",
+        "authors": "Zhaotong Sun, Giulio Viola, Leonardo Del Sole, Jing Liu-Zeng, Yong Zheng, Xuwen Shen, Wenxin Wang, Fengzhen Cui, Lingsen Zeng",
+        "abstract": "The rate and efficiency of stress transmission across continental interiors during collision remain poorly constrained. The >1600-km-long Altyn Tagh Fault, bounding the northern Tibetan Plateau, offers a key test of stress propagation models. Here, we integrate multiscale structural analysis with K–Ar dating of synkinematic illite to date its faulting history. The data document episodic faulting spanning >110 million years, including an ~115 Ma event marking a lithospheric weakness zone predating Cenozoic collision, and an Early Eocene faulting age (~56 Ma), which is nearly synchronous with India–Asia collision onset, implying rapid far-field stress transmission across distances exceeding 1500 km within 10 million years of collision initiation. Reactivation at ~26 Ma, ~2.7 Ma and ~0.6 Ma reflects localization during plateau growth. These results show that inherited lithospheric structures enable efficient, long-distance stress transmission and remain persistent deformation loci, indicating that continental interiors respond to plate-boundary forcing faster than slow, progressive propagation models predict.",
+        "keyPoints": [
+          "Structural analysis and K–Ar illite dating record over 110 million years of Altyn Tagh Fault activity, including early Eocene reactivation near collision onset.",
+          "Inherited lithospheric weaknesses enabled stress transmission over 1500 km within 10 million years, challenging slow progressive propagation models."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78650-2",
+        "journal": "Nature Communications",
+        "region": "Altyn Tagh Fault, Tibetan Plateau",
+        "method": "Structural analysis; K–Ar illite dating",
+        "onlineDate": "2026-10-15",
+        "researchAreas": [
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Archean subduction-derived noble gases in the lithospheric mantle beneath the São Francisco Craton",
+        "doi": "10.1038/s41467-026-78667-7",
+        "authors": "Luisa Gomes Braga, Tiago Jalowitzki, Hirochika Sumino, Reinhardt Adolfo Fuck, Eduardo Balbinot, Fernanda Gervasoni, Marina Marques Dalla Costa, Roberto Ventura Santos",
+        "abstract": "While mid-ocean ridge basalts (MORB) and ocean island basalts (OIB) are well characterized in terms of helium, neon, argon, and xenon isotopes, the continental lithosphere, especially cratonic domains and subduction settings, remain poorly constrained. Here, we report noble gas (He, Ne, Ar, Kr, and Xe) isotope ratios in peridotite, pyroxenite, and eclogite xenoliths from the SW margin of the São Francisco Craton, Brazil. Helium isotopes reveal a strong radiogenic component, while neon shows MORB-like and nucleogenic signatures. This divergence indicates the recycling of subduction-derived materials within the stratified cratonic mantle (2.0–5.5 GPa). Xenon reveals a cratonic lithosphere where air and fissiogenic (crustal) components variably mix with a MORB source. The recycling of ancient hydrated oceanic crust and overlying sediments, characterized by high (U+Th)/(^{3}He, ^{22}Ne, ^{132}Xe) ratios, is associated with a complex and long-lived subduction system established along the SW margin of the São Francisco Craton since the Archean.",
+        "keyPoints": [
+          "Noble-gas isotope measurements in São Francisco mantle xenoliths reveal radiogenic, nucleogenic and MORB-like components across the stratified lithosphere.",
+          "The signatures link recycled hydrated oceanic crust and sediments to a long-lived subduction system along the craton margin since the Archean."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78667-7",
+        "journal": "Nature Communications",
+        "region": "São Francisco Craton",
+        "method": "Noble-gas geochemistry",
+        "onlineDate": "2026-10-15",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "From fragmentation to fault zone architecture as a structural framework for fault weakening",
+        "doi": "10.1038/s41467-026-78254-w",
+        "authors": "Nathalie Casas, Guilhem Mollon, Marco Maria Scuderi",
+        "abstract": "Earthquake nucleation is governed by the evolution of fault zone structure, yet the physical mechanisms linking grain-scale processes to macroscopic weakening remain elusive. Here we use discrete element simulations of quartz-rich gouge in which angular grains fragment dynamically, revealing a robust strain–damage law in which damage accumulates as grains are consumed. Grain size dictates the geometry and timing of localization, while fragmentation enhances compaction and promotes the emergence of a dominant Principal Slip Zone (PSZ). As comminution approaches a saturation state (i.e. minimum grain size), localization can migrate to competing bands, providing a mechanical explanation for overprinted shear fabrics in experiments and natural faults. By linking fragmentation, porosity evolution, and the resulting shear localization, our results provide a local fragmentation state variable for constitutive laws that couple grain-size evolution to fault weakening and the conditions for earthquake nucleation.",
+        "keyPoints": [
+          "Discrete-element simulations of fragmenting quartz gouge link grain consumption to damage, compaction and the development of a principal slip zone.",
+          "Saturation of comminution can shift localization between bands, providing a state variable for constitutive models of fault weakening and earthquake nucleation."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78254-w",
+        "journal": "Nature Communications",
+        "region": "Laboratory-scale fault gouge model",
+        "method": "Discrete element simulations; dynamic grain fragmentation",
+        "onlineDate": "2026-10-16",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Permeability heterogeneity controls fluid migration and microseismicity evolution in The Geysers geothermal field, California",
+        "doi": "10.1038/s41467-026-78210-8",
+        "authors": "Lei Li, Xiaobao Zeng, Ian W. McBrearty, Xin Cui, Xing Tan, Shujuan Mao, Gregory C. Beroza, Jingqiang Tan, Jianxin Liu, Paul Segall, William L. Ellsworth",
+        "abstract": "Fracture networks directly govern the efficiency of geothermal energy extraction and play a critical role in fluid migration and microearthquake generation. Using deep learning and Markov clustering, we build a high-resolution microseismic catalog covering the past decade for The Geysers geothermal field, California. Our observations reveal distinctive clustering patterns and inferred fracture systems tightly correlated with injection operations. Source mechanism analyses and pore pressure simulations indicate that the inferred connected fracture network provides pathways for rapid and directional pore pressure diffusion, highlighting that heterogeneous permeability controls the localized migration of fluids and the associated microseismic response. Our study highlights the importance of continuous and integrated seismic monitoring for ensuring the sustainability of long-term reservoir development and exploitation.",
+        "keyPoints": [
+          "Deep-learning detection and Markov clustering resolve a decade of microseismicity at The Geysers, revealing fracture networks linked to injection operations.",
+          "Source mechanisms and pressure simulations show heterogeneous permeability channels rapid fluid migration, supporting integrated monitoring of geothermal reservoirs."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78210-8",
+        "journal": "Nature Communications",
+        "region": "The Geysers, California",
+        "method": "Deep-learning microseismic detection; Markov clustering; source-mechanism analysis; pore-pressure simulations",
+        "onlineDate": "2026-10-17",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Water in kimberlitic olivine provides insights into kimberlite ascent and diamond transport",
+        "doi": "10.1038/s41467-026-78870-6",
+        "authors": "Soumendu Sarkar, Rondi M. Davies, Qiwei Zhang, Luísa D. V. Carvalho, Thomas Stachel, D. Graham Pearson",
+        "abstract": "Kimberlites are volatile-rich magmas that transport diamonds from the deep lithosphere to the surface, yet the exact processes controlling their variable diamond abundances remain debated. Compiled dataset of water contents in mantle olivine shows that kimberlites containing water-rich (>40 wt. ppm) olivine exhibit higher diamond grades. Diffusion modeling coupled with estimates of the ascent velocities of olivine xenocrysts indicate that preserved water in the cores of olivine crystals reflects variable magma ascent rates. High water contents are indicative of rapid ascent that not only limits hydrogen loss but also leads to enhanced diamond transport. Conversely, slower ascent promotes olivine dehydration and reduction in diamond-carrying capacity. The link between olivine water content and diamond grade highlights that ascent rate is a key factor in controlling the varied diamond abundance in kimberlites. Water in olivine thus provides an additional, complementary, and cost-effective proxy for estimating kimberlite ascent and diamond-carrying efficiency.",
+        "keyPoints": [
+          "Olivine water contents and diffusion modeling link rapid kimberlite ascent to water retention and higher diamond grades; water-rich olivine exceeds 40 wt. ppm in higher-grade kimberlites.",
+          "Water retained in olivine provides a complementary proxy for kimberlite ascent rate and diamond-carrying efficiency, linking transport dynamics to diamond abundance."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-78870-6",
+        "journal": "Nature Communications",
+        "region": "",
+        "method": "Olivine water-content synthesis; diffusion modeling; ascent-velocity estimation",
+        "onlineDate": "2026-10-22",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
       }
     ]
   },
   {
     "id": "nature-geoscience-2026-10",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "journal": "Nature Geoscience",
     "issue": "October 2026",
-    "issueDate": "2026-10-14",
+    "issueDate": "2026-10-20",
     "source": "",
     "articles": [
       {
@@ -2987,6 +3232,609 @@ const reports = [
         "researchAreas": [
           "earth-interior-rock-physics",
           "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Antarctic marine-based ice destabilized when warming outpaces solid-Earth feedbacks",
+        "doi": "10.1038/s41561-026-02117-8",
+        "authors": "Jan Swierczek-Jereczek, Javier Blasco, Alexander Robinson, Jorge Alvarez-Solas, Marisa Montoya",
+        "abstract": "The Antarctic Ice Sheet is expected to be the largest contributor to sea-level rise over the coming centuries. Previous equilibrium ice-sheet simulations have suggested that this is due to crossing a bifurcation point associated with marine ice-sheet instability. Here we investigate whether sectors vulnerable to this instability can undergo rate-induced tipping, whereby rapid forcing and slow bedrock uplift trigger self-sustained retreat before the bifurcation point is reached. We test this with an ice-sheet model coupled to a glacial isostatic adjustment model, sampling the uncertainty in mantle viscosity. We find that slow bedrock adjustment weakens the stabilizing effect of glacial isostatic adjustment, allowing grounding lines to reach retrograde bed slopes more readily and triggering self-sustained retreat below the bifurcation threshold. Although the West Antarctic Ice Sheet is subject to a bifurcation, it is unlikely to experience rate-induced tipping because of the low mantle viscosity beneath the region. In contrast, the Recovery and Aurora subglacial basins are likely to undergo such a transition even under warming rates lower than those observed today. Depending on mantle viscosity, this mechanism can reduce the critical global mean temperature anomaly by up to 0.5 K, with important implications for the long-term evolution of the Earth system.",
+        "keyPoints": [
+          "Coupled ice-sheet and glacial isostatic adjustment models show that slow bedrock uplift can permit rate-induced retreat before the equilibrium instability threshold is reached.",
+          "Mantle-viscosity-dependent feedbacks can lower the critical warming threshold by up to 0.5 K, with Recovery and Aurora basins more susceptible than low-viscosity West Antarctica."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41561-026-02117-8",
+        "journal": "Nature Geoscience",
+        "region": "Antarctica; Recovery and Aurora subglacial basins",
+        "method": "Coupled ice-sheet and glacial isostatic adjustment modeling",
+        "onlineDate": "2026-10-20",
+        "pdfLink": "https://www.nature.com/articles/s41561-026-02117-8.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "tectonics-geodynamics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "communications-earth-environment-2026-10",
+    "date": "2026-10-19",
+    "journal": "Communications Earth & Environment",
+    "issue": "October 2026",
+    "issueDate": "2026-10-17",
+    "source": "",
+    "articles": [
+      {
+        "title": "Coupled Sb-Hg isotopes reveal mixed basement and deeply recycled mantle-related metal sources for the South China antimony belt",
+        "doi": "10.1038/s43247-026-04108-4",
+        "authors": "Degao Zhai, Gang Zhao, Anthony E. Williams-Jones, Runsheng Yin, Ryan Mathur, Manuel Keith, Qingfei Wang, Jiajun Liu, Di Chen, Jian-Feng Gao, Junwei Xu",
+        "abstract": "Understanding the sources of metals in hydrothermal ore systems is fundamental for improving exploration models. However, direct tracers of metal sources remain limited, especially for large, low-temperature deposits. Here we apply coupled antimony (Sb) and mercury (Hg) isotope analyses to Sb deposits from South China, the World’s largest antimony metallogenic province. The dataset reveals substantial variability in δ123Sb (−0.64 to +0.69‰), δ202Hg (−1.86 to +2.08‰), and Δ199Hg (−0.20 to +0.14‰). These data support a model involving two metal sources, namely a deep, recycled mantle-related reservoir and Precambrian basement metamorphic rocks. Our results demonstrate that coupled Sb and Hg isotopes provide a potentially powerful tool with which to identify the metal sources for Sb ore deposits, and that their application may help refine models for these deposits globally and help decode the dynamic interplay between Earth’s interior and crustal metal cycling. Coupled Sb-Hg isotope signatures from the South China antimony belt reveal that ore metals were sourced from both Precambrian basement rocks and a deep recycled mantle reservoir, demonstrating the utility of coupled Sb-Hg isotopes for tracing metal provenance, according to coupled Sb and Hg isotope analyses.",
+        "keyPoints": [
+          "Sb and Hg isotope variability supports mixed metal contributions from Precambrian basement and a deeply recycled mantle-related reservoir.",
+          "Coupled isotope tracers can distinguish metal sources and connect hydrothermal ore formation to deep recycling and crustal metal transfer."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04108-4",
+        "journal": "Communications Earth & Environment",
+        "region": "South China antimony belt",
+        "method": "Coupled Sb–Hg isotope analysis",
+        "onlineDate": "2026-10-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Long-term, national-scale records of landslide persistence and dynamic hazard in a mountain landscape",
+        "doi": "10.1038/s43247-026-04109-3",
+        "authors": "Erin L. Harvey, Nick J. Rosser, Mark E. Kincey, Alexander L. Densmore, Tzu-Hsin Karen Chen, Megh Raj Dhital, Karen C. Seto, Gopi K. Basyal, Tom R. Robinson, Ram Shrestha, Katie J. Oven, Katherine Arrell",
+        "abstract": "As mountain populations grow and exposure to hazard increases, understanding the dynamic hazard posed by landslides is essential. However, our ability to constrain landslide hazard is limited by relatively few good-quality datasets that are often collected across small geographical areas. These datasets typically focus on specific triggering events, such as earthquakes or rainstorms, further complicating assessments of landslide hazard through time. To better capture landslide hazard through space and time, long-term datasets over large extents are needed. Here, we analyse a 22-year record of landslide occurrence to decipher the dynamic nature of the hazard posed by landslides in Nepal. We find that recurrent or persistent landslides dominate national-scale patterns of landsliding, accounting for c. 80% of all visible landslides at any given point in time. Of new landslide areas, only half occurred in locations >30 m away from other landslides. These findings emphasise the importance of also considering pre-existing landslides when assessing hazard. Individual triggering events, including both earthquakes and rainfall, leave a distinctive footprint visible at the national scale in metrics such as landslide density, persistence, and recurrence. Such metrics add significant value to multi-temporal landslide inventories and provide a basis for mitigation efforts, particularly where resources are limited.",
+        "keyPoints": [
+          "A 22-year national inventory shows persistent or recurrent landslides account for about 80% of visible landslides in Nepal.",
+          "Only half of new landslide area occurs more than 30 m from previous landslides, supporting hazard assessments that explicitly include persistent and recurrent failures."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04109-3",
+        "journal": "Communications Earth & Environment",
+        "region": "Nepal",
+        "method": "Multitemporal landslide inventory analysis",
+        "onlineDate": "2026-10-03",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Baseflow dominates river flow during droughts across the global streamflow network",
+        "doi": "10.1038/s43247-026-04107-5",
+        "authors": "Muhammad Abrar Faiz, Liangliang Zhang, Dong Liu, Qiang Fu, Mo Li, Yongqiang Zhang, Ning Ma, Xiaochen Qi, Tianxiao Li, Song Cui, Faisal Baig, Farah Naz, Trinh Thi Viet Ha",
+        "abstract": "Hydrological droughts occur when rainfall shortages reduce water storage in catchments, leading to delayed and prolonged low-flow conditions. How strongly baseflow supports river flow during droughts and whether this buffering remains stable under climate warming remain uncertain across regions. Using global streamflow gauge observations, terrestrial water storage information, and CMIP6 simulations, we quantified the drought-sustained fraction (DSF), representing the fraction of drought-period streamflow contributed by baseflow, and the additive baseflow buffering index (BBI), which measures the departure from the climatological baseflow index (BFI). Under severe meteorological drought, 74.2% of stations showed a positive BBI, indicating stronger relative baseflow dominance, whereas 12.7% showed little change and 13.1% showed a decline in the baseflow fraction. BBI increased with low-flow severity and streamflow deficit, while baseflow retention declined, indicating that quickflow generally decreased more rapidly than baseflow. Present-day flow partitioning also constrained future slow-flow behavior, underscoring the importance of storage-release processes in sustaining river flow during drought. Baseflow contributions to river flow increase during drought relative to baseline conditions, highlighting the increasing importance of groundwater-supported flow as drought severity intensifies, according to a study that combines global streamflow records, satellite observations, and CMIP6 simulations.",
+        "keyPoints": [
+          "Across global gauges, 74.2% show increased relative baseflow contribution during severe meteorological drought even as retained baseflow declines.",
+          "Faster quickflow loss makes groundwater-supported flow increasingly important during drought, emphasizing storage-release processes in low-flow resilience."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04107-5",
+        "journal": "Communications Earth & Environment",
+        "region": "Global",
+        "method": "Streamflow, water-storage and climate-model analysis",
+        "onlineDate": "2026-10-05",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Onset of zircon decomposition during saprolitic weathering",
+        "doi": "10.1038/s43247-026-04140-4",
+        "authors": "Martin Yan Hei Li, Mei-Fu Zhou",
+        "abstract": "Zircon is conventionally considered as refractory in supergene environments, enabling the preservation of geochemical records for tracing various Earth’s processes and the use of the zircon structure as a nuclear waste form. However, how refractory zircon is during weathering, especially when crystalline and in an early stage of weathering, is unknown. In this study, we demonstrate that crystalline zircon would start to weather during an early-stage saprolitic weathering. Nano-scale examination reveals that weathering of zircon proceeds through dissolution of primary, crystalline zircon and precipitation of secondary, amorphous zircon. Non-formula elements, like U, Th and heavy rare earth elements, are uptake and structurally incorporated in this process. Thereby, metamictisation of the zircon would accelerate and eventually promote the dissolution of zircon. In supergene environments, zircon would steadily weather, calling for further evaluation on the geological and environmental applications of zircon.",
+        "keyPoints": [
+          "Nano-scale observations show that crystalline zircon begins weathering during early saprolite formation through primary-zircon dissolution and secondary amorphous-zircon precipitation.",
+          "Incorporation of U, Th and heavy rare earth elements promotes metamictisation and dissolution, requiring renewed evaluation of zircon-based geological and environmental applications."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04140-4",
+        "journal": "Communications Earth & Environment",
+        "region": "Saprolitic weathering profiles / laboratory microscopy",
+        "method": "Onset of zircon decomposition during saprolitic weathering",
+        "onlineDate": "2026-10-10",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Physics-informed deep learning links geodetic data and fault friction",
+        "doi": "10.1038/s43247-026-04138-y",
+        "authors": "Rikuto Fukushima, Masayuki Kano, Kazuro Hirahara, Makiko Ohtani",
+        "abstract": "Fault slip modeling, based on laboratory-derived friction laws, has significantly enhanced our understanding of fault mechanics. Agreement between model predictions and observations supports the hypothesis that observed slip diversity, including fast earthquakes and slow transient slips (Slow Slip Events; SSEs), originates from frictional heterogeneity. However, quantitative assessments of frictional heterogeneity from geodetic observations while fully incorporating fault mechanics are lacking due to the difficulties of high-dimensional optimization. In this study, we aim to address this gap using Physics-Informed Neural Networks (PINNs) to link frictional heterogeneity with geodetic observations. PINNs employ a neural network to represent the spatially variable frictional properties, making their estimation feasible. Targeting the 2010 Bungo SSE in southwest Japan, our estimation reveals heterogeneous friction coinciding with localized SSE nucleation in southwest Shikoku, and subsequent westward propagation. The calculated fault slip of SSE successfully reproduces the spatio-temporal pattern of observed surface displacements. This PINN-based inversion provides a mechanically consistent fault slip model validated through quantitative comparison with observations. Furthermore, we forecast the future fault slip evolution, demonstrating the importance of assimilating observations spanning multiple SSE cycles. Our results demonstrate the potential of PINN for advancing understanding of fault mechanics and enabling physics-based fault slip forecasting.",
+        "keyPoints": [
+          "Physics-informed neural networks infer heterogeneous fault friction for the 2010 Bungo slow slip event and reproduce observed surface-displacement patterns.",
+          "Mechanically consistent inversion links geodesy to fault properties; forecasting tests highlight the value of observations spanning multiple slow-slip cycles."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04138-y",
+        "journal": "Communications Earth & Environment",
+        "region": "Global / method-focused",
+        "method": "Physics-informed deep learning links geodetic data and fault friction",
+        "onlineDate": "2026-10-12",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Geochemical clustering reveals cryptic eruptions and tephra correlations from Antarctic fumarolic ice-cave archives",
+        "doi": "10.1038/s43247-026-04105-7",
+        "authors": "Paola Del Carlo, Giulia Fisauli, Alessandro Musu, Alessio Di Roberto, Giuseppe Re, Gaetano Giudice, Mónica Ágreda-López, Maurizio Petrelli",
+        "abstract": "Volcanic deposits preserved within Antarctic fumarolic ice caves provide rare access to sub-ice eruptive records hidden beneath the ice cap. Here we present the first integrated textural, petrological, and geochemical characterisation of 21 tephra samples from three summit ice caves at Mount Melbourne (Northern Victoria Land, Antarctica). Major and trace-element glass compositions, combined with published datasets, were analysed using multivariate statistical workflows. Dimensionality reduction and clustering identified a distinct compositional group with no known equivalent in the existing Mount Melbourne record, suggesting that at least one previously unrecognised Holocene eruption occurred within the investigated Fumarolic Ice Caves. Correspondence between Fumarolic Ice Cave deposits and volcanic signatures in marine sediment, englacial sequences, and other proximal-distal records refined Mount Melbourne’s eruptive history and strengthened tephra correlations across archives. More broadly, sub-ice tephra archives can reveal hidden eruptive histories relevant to volcanic hazard assessment in polar regions.",
+        "keyPoints": [
+          "Geochemical clustering of 21 tephra samples from Mount Melbourne ice caves identifies a group suggesting a previously unrecognized Holocene eruption.",
+          "Sub-ice tephra archives refine eruption histories and cross-archive correlations, informing volcanic hazard assessment in polar regions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04105-7",
+        "journal": "Communications Earth & Environment",
+        "region": "Mount Melbourne, Antarctica",
+        "method": "Tephra petrography; glass geochemistry; multivariate clustering",
+        "onlineDate": "2026-10-14",
+        "volume": "7",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04105-7.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Global ice loss drives source-independent amplification of sea-level rise at Pacific and Indian Ocean Small Island Developing States",
+        "doi": "10.1038/s43247-026-04132-4",
+        "authors": "Robert S. Powell, Gabriel Cederberg, Sönke Dangendorf, Erica Lucas, Xiyuan Bao, Jessica R. Creveling, Julius Oelsmann, Stephen R. J. Tsuji, Leonard Tsuji, Jerry X. Mitrovica",
+        "abstract": "We quantify the spatial pattern (“fingerprint”) of sea-level rise caused by mass loss from the Greenland and Antarctic ice sheets and from glaciers worldwide through 2100. Using ensembles of ice-sheet and glacier mass-balance projections and gravitational, rotational, and deformational sea-level modeling, we calculate normalized sea-level fingerprints and their impacts on Small Island Developing States. We show that Small Island Developing States in the Pacific and Indian Oceans are located within persistent sea-level-rise hotspots where the ice-melt contribution to local sea-level rise systematically exceeds the global mean by up to ~ 24%. This amplification emerges regardless of whether meltwater originates from Greenland, Antarctica, or the global glacier system. We identify a source-independent and geographically systematic amplification of sea-level rise affecting some of the world’s most climate-vulnerable nations .",
+        "keyPoints": [
+          "Gravitational, rotational and deformational modeling finds ice-melt-driven sea-level rise up to about 24% above the global mean at Pacific and Indian Ocean island states.",
+          "The amplification persists across Greenland, Antarctic and glacier melt sources, identifying geographically consistent exposure to ice-loss-driven sea-level rise."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04132-4",
+        "journal": "Communications Earth & Environment",
+        "region": "Pacific and Indian Ocean Small Island Developing States",
+        "method": "Gravitational, rotational and deformational sea-level modeling",
+        "onlineDate": "2026-10-14",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Abrupt permafrost thaw overwhelms vegetation-driven erosion reduction in sediment export on the Tibetan Plateau",
+        "doi": "10.1038/s43247-026-04125-3",
+        "authors": "Jiapei Ma, Genxu Wang, Chunlin Song, Jinlong Li, Linmao Guo, Kai Li, Peng Huang, Haoyu Wang, Wendong Kang, Zhao Deng, Shouqin Sun",
+        "abstract": "Vegetation greening and abrupt permafrost thaw are reshaping sediment dynamics across the Tibetan Plateau, yet their relative effects on sediment delivery remain poorly quantified. Here we show that retrogressive thaw slumps are disproportionately important sediment sources, with erosion rates two to three orders of magnitude above undisturbed landscapes and source-to-channel connectivity generally exceeding 60%. Combining multi-decadal satellite observations, high-resolution topographic differencing and cold-region hydrological modelling, we quantify the competing effects of thaw-slump sediment supply and greening-induced erosion reduction. During 2000–2022, thaw slumps delivered more than four times as much non-ice sediment to channels as was reduced by greening, compensating for declining glacier-derived sediment and contributing to increased downstream suspended sediment export. Across permafrost regions, approximately 1.2‰ thaw-slump coverage represents an upper-bound threshold above which thaw-slump sediment delivery exceeds greening-induced sediment reduction. These results show that spatially limited abrupt thaw can outweigh widespread vegetation recovery in regulating sediment delivery from warming permafrost landscapes.",
+        "keyPoints": [
+          "Satellite observations, topographic differencing and modeling show thaw slumps supplied over four times the sediment reduction from greening during 2000–2022.",
+          "Small areas of abrupt thaw can dominate Tibetan sediment delivery because rapid erosion and strong channel connectivity outweigh widespread vegetation recovery."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04125-3",
+        "journal": "Communications Earth & Environment",
+        "region": "Tibetan Plateau",
+        "method": "Satellite time series; topographic differencing; cold-region hydrological modeling",
+        "onlineDate": "2026-10-16",
+        "volume": "7",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04125-3.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Subglacial landforms as proxy for offshore freshened groundwater in formerly glaciated margins",
+        "doi": "10.1038/s43247-026-04149-9",
+        "authors": "Arne Lohrberg, Amir Haroon, Nils Moosdorf, Henrik Grob, Emma Hadré, Carolin Wallmeier, Anna Eliana Pastoressa, Aaron Micallef, Sebastian Krastel",
+        "abstract": "Offshore freshened groundwater (OFG) is a significant yet underexplored component of the global water cycle, and its spatial distribution, particularly its links to past glacial processes, remains poorly constrained. The southeastern North Sea, characterized by extensive tunnel valley networks, provides an ideal setting to test how Pleistocene meltwater shaped offshore groundwater systems. Using newly acquired time-domain controlled-source electromagnetic data integrated with high-resolution seismic reflection surveys, we present a resistivity-based mapping of OFG in this region. The models reveal a laterally continuous OFG body with resistivities of 8–14 Ω·m, extending across multiple stratigraphic units and well beyond individual subglacial landforms. This configuration is best explained by subglacial meltwater flushing of sediment porewaters during Pleistocene glaciations. Subsequent preservation was aided by density contrasts that limit vertical mixing and by fine-grained glaciomarine deposits sealing the system from above. The connection between resistivity anomalies and mapped subglacial landforms shows that the latter can serve as predictive proxies for OFG occurrence. These findings shift the perspective from OFG as isolated anomalies to regionally extensive systems linked to glacial processes, establishing subglacial landforms as a testable screening proxy for locating OFG in formerly glaciated margins worldwide.",
+        "keyPoints": [
+          "Electromagnetic and seismic surveys reveal a laterally continuous offshore freshened groundwater body across southeastern North Sea stratigraphic units.",
+          "Links between resistivity anomalies and subglacial landforms support using glacial geomorphology to locate extensive offshore groundwater systems."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04149-9",
+        "journal": "Communications Earth & Environment",
+        "region": "Southeastern North Sea",
+        "method": "Time-domain controlled-source electromagnetics; seismic reflection",
+        "onlineDate": "2026-10-17",
+        "volume": "7",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04149-9.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geophysical-research-letters-53-19",
+    "date": "2026-10-08",
+    "journal": "Geophysical Research Letters",
+    "issue": "Volume 53, Issue 19",
+    "issueDate": "2026-10-16",
+    "source": "",
+    "articles": [
+      {
+        "title": "Onset of Thrusting at ca. 23 Ma in East Kunlun Mountains, Northern Tibet, Recorded by Syntectonic Strata",
+        "doi": "10.1029/2026gl123551",
+        "authors": "Leyi Li, Hong Chang, Balázs Bradák, Xiaoke Qiang",
+        "abstract": "The timing of Cenozoic deformation in the East Kunlun Mountains, northern Tibet, is crucial for understanding plateau growth but remains disputed due to the scarcity of direct chronological constraints on specific tectonic structures. Here, we present a high‐density‐sampling magnetostratigraphic record from the Xiaohongshan section, interior of the East Kunlun Mountains, where growth strata directly constrain syndepositional thrust activity. Correlation with the geomagnetic polarity timescale, supported by ostracod biostratigraphy, dates the section to 25.7–17.5 Ma and places the onset of growth strata at ca. 23 Ma, marking the initiation of major thrust faulting. We propose that this thrust deformation was triggered by the northward flow of weakened lower crustal material from the Hoh Xil Basin, which was obstructed by the rigid lithospheric keel of the Qaidam Basin, leading to upper crustal shortening and surface uplift. Our results provide a direct temporal link between deep lithospheric processes and surface tectonics in northern Tibet.",
+        "keyPoints": [
+          "The first high‐density early Miocene magnetostratigraphy is presented from the East Kunlun Mountains",
+          "Growth strata initiation at ca. 23 Ma reveals the onset of thrusting",
+          "The thrusting is triggered by lower crustal flow obstruction and injection"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123551",
+        "journal": "Geophysical Research Letters",
+        "region": "East Kunlun Mountains, northern Tibet",
+        "method": "Magnetostratigraphy; growth-strata analysis",
+        "onlineDate": "2026-09-29",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123551",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Different Orbital Controls on Detrital Magnetic Components in the Ninety‐East Ridge Since the Late Pleistocene",
+        "doi": "10.1029/2026gl124113",
+        "authors": "Yulong Guan, Zhaoxia Jiang, Sanzhong Li, Juan C. Larrasoaña, Liang Chen, Liang Zhou, Zhengxin Yin",
+        "abstract": "Magnetic minerals preserved in marginal‐sea sediments can serve as distinct fingerprints for unraveling paleoenvironmental evolution. However, the forcing mechanisms that govern the transport and accumulation of individual magnetic minerals at orbital timescales remain poorly constrained. Hence, we present a systematic environmental magnetic analysis performed to isolate the relative abundances of detrital magnetite and hematite in core CJ04‐59 from the Ninety‐east Ridge. The detrital magnetite varies mainly with precession cycles, while the detrital hematite responds more clearly to obliquity cycles. Detrital magnetite is preferentially formed in water‐logged fluvial floodplains subjected to Indian summer monsoon precipitation variations, whereas detrital hematite is preferentially formed in the arid interior of Asia and subsequently transported by winter monsoon in response to obliquity‐driven meridional insolation contrasts. Therefore, isolation of different magnetic signals can help to better understand the independent mechanism governing these marginal seas in the recent past.",
+        "keyPoints": [
+          "Detrital magnetite and hematite abundance are mainly controlled by precession (∼23 kyr) and obliquity (∼41 kyr) cycles, respectively",
+          "Detrital magnetite is mainly formed pedogenically in water‐logged fluvial floodplains affected by ISM precipitation",
+          "Detrital hematite is preferentially formed in the arid interior of Asia influenced by obliquity‐driven meridional insolation contrast"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124113",
+        "journal": "Geophysical Research Letters",
+        "region": "Ninety-east Ridge",
+        "method": "Environmental magnetic analysis",
+        "onlineDate": "2026-09-29",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124113",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Dead Sea Warming and the Origin of Salt Giants",
+        "doi": "10.1029/2026gl124167",
+        "authors": "E. Guillerm, T. K. Lowenstein, V. Gardien, F. Bärenbold, D. Bouffard, A. Brauer, F. Caupin",
+        "abstract": "Episodically in Earth's history, marine basins became hydrologically restricted, forming “salt giants,” yet the mechanisms driving their formation remain debated. The modern Dead Sea, undergoing restriction from anthropogenic inflow diversion, shows rapid lake‐level decline and salt precipitation. We present a physical model coupling energy and mass fluxes in hypersaline waterbodies. The model reproduces the observed ∼3°C Dead Sea water‐column warming since 1979. By 2100, the Dead Sea will drop ∼85 m, and warm by ∼5°C–∼8°C depending on global CO 2 emissions. A fully restricted eastern Mediterranean under modern climate conditions would undergo 20°C warming and 2.5 km drawdown within a few millennia. Once isolated, large basins enter a positive feedback loop between warming and water loss that drives precipitation of halite and potash salts without requiring hot, arid climates. Because paleobrine warming tracks brine shrinkage, vertical paleotemperature trends in evaporites may record drawdown rather than paleoclimate.",
+        "keyPoints": [
+          "Physical model combining heat and mass transfers in hypersaline waterbodies",
+          "The model predicts extreme warming and shrinkage of the Dead Sea and of a fully restricted eastern Mediterranean Sea",
+          "Positive feedback loop between warming and water loss allows precipitation of halite and potash salts under non‐extreme climates"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124167",
+        "journal": "Geophysical Research Letters",
+        "region": "Dead Sea; eastern Mediterranean",
+        "method": "Coupled energy and mass flux modeling",
+        "onlineDate": "2026-09-29",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124167",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "In Situ Observation of Pressure‐Enhanced Hydrous–Anhydrous Solid Solution in Lower‐Mantle SiO <sub>2</sub> –AlOOH Phases",
+        "doi": "10.1029/2026gl124407",
+        "authors": "M. Nishi, K. Takahashi, H. Dekura, K. Kawano, H. Koike, K. Nakamura, T. Kondo, H. Kuwahara, S. Kakizawa, N. Tsujino, Y. Higo",
+        "abstract": "Water plays a critical role in Earth's mantle dynamics and evolution, yet lower‐mantle storage mechanisms remain debated. δ‐AlOOH and SiO 2 phases have been independently proposed as high‐pressure water hosts. Here, we conducted in situ synchrotron X‐ray diffraction experiments with a multi‐anvil apparatus and sintered diamond anvils to investigate phase relations in the SiO 2 –AlOOH system up to 45 GPa and high temperatures. We found that SiO 2 and δ‐AlOOH form extensive, stable CaCl 2 ‐type solid solutions across a broad compositional range under lower‐mantle conditions. The solid‐solution extent increases strongly with pressure, indicating enhanced H 2 O storage in dense SiO 2 ‐rich phases and stabilization of SiO 2 ‐enriched AlOOH‐rich hydrous phases at greater depths. These results suggest that water released from less favorable peridotitic hosts during lower‐mantle transport can be redistributed into subducted crustal lithologies, where pressure‐stabilized complementary CaCl 2 ‐type phases serve as water hosts.",
+        "keyPoints": [
+          "SiO 2 and AlOOH form extensive CaCl 2 ‐type solid solutions under lower mantle conditions",
+          "Pressure strongly enhances mutual solid solution between SiO 2 and AlOOH",
+          "Water may redistribute from peridotite into subducted mafic and silica‐rich lithologies"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124407",
+        "journal": "Geophysical Research Letters",
+        "region": "Global / deep Earth",
+        "method": "High-pressure synchrotron X-ray diffraction",
+        "onlineDate": "2026-09-29",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124407",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Quantifying Dead‐End Impacts on Radon Signals in Fractured Rocks",
+        "doi": "10.1029/2026gl124574",
+        "authors": "Fu‐Shuo Gan, Jia‐Qing Zhou, Yi‐Feng Chen, Rong Mao, Xin Luo, Zhibing Yang, Ran Hu",
+        "abstract": "Understanding radon transport in fractured rock is fundamental for interpreting geochemical signals associated with subsurface deformation and fluid transport. The role of dead‐end fractures (DEFs), one key geometric feature of fractured rocks, remains poorly understood. Using conceptual fracture‐system models consisting of a through‐going main fracture and distributed DEFs, and explicitly coupling α ‐recoil release, diffusion, advection, and decay loss, we quantify a two‐stage radon breakthrough behavior: an early advection‐dominated stage along the main fracture followed by diffusive contributions from DEFs. Across cases with different DEF characteristics, the equilibrium radon activity displays a logistic constitutive relation with the flushing index Zh (the ratio of advective removal rate to radon decay rate), whose constitutive parameters are quantitatively characterized by DEF number and length. Furthermore, the maximum effective tracing length for DEFs, l max , was identified and quantitatively characterized. This study advances our mechanistic understanding of radon nuclide transport in fractured rocks.",
+        "keyPoints": [
+          "Dead‐end fractures trigger two‐stage radon breakthrough, with an advection‐dominated phase followed by a diffusion‐dominated tail",
+          "Constitutive relationship between radon equilibrium signal and flushing rate is confirmed and calibrated considering dead‐end systems",
+          "Quantitative formulas are proposed that link dead‐end properties to radon signals and their tracing range"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124574",
+        "journal": "Geophysical Research Letters",
+        "region": "Global / method-focused",
+        "method": "Coupled fracture-system radon transport modeling",
+        "onlineDate": "2026-09-29",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124574",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Shallow Poroelastic Hydrothermal Deformation at Changbaishan Volcano Before the 2020 Unrest Revealed by Sentinel‐1 InSAR Time Series",
+        "doi": "10.1029/2025gl120991",
+        "authors": "Xingjun Luo, Wenbin Xu, Nicolas Oestreicher, Joël Ruch",
+        "abstract": "Ground deformation of dormant volcanoes provides critical insights into subsurface processes and potential hazards. Here we present Sentinel‐1 Interferometric Synthetic Aperture Radar (InSAR) time series (2015–2020) for Changbaishan volcano, the largest intraplate volcanic system in East Asia. We detect persistent subsidence of up to 3.5 mm/yr on the eastern flank of the summit prior to minor unrest in December 2020. Geodetic inversion locates the deformation source within a shallow hydrothermal system 2.7 ± 0.3 km beneath the summit. Constrained by independent CO 2 ‐flux estimates, poroelastic models reproduce the observed deformation and indicate sustained discharge of an H 2 O–CO 2 mixture with vapor–liquid separation occurring above the hydrothermal system. We infer that long‐lived, mixture‐driven poroelastic compaction might have dominated the background deformation during the observed period. These findings underscore the need to integrate geodetic and geochemical observations to improve hazard assessments of future unrest at Changbaishan and analogous volcanic systems.",
+        "keyPoints": [
+          "Sentinel‐1 InSAR reveals persistent summit‐flank subsidence of up to 3.5 mm/yr from 2015 to 2020",
+          "A shallow CO 2 ‐rich hydrothermal system at ∼2.7 km depth explains the localized, linear subsidence",
+          "Poroelastic compaction driven by H 2 O–CO 2 discharge governs long‐term deformation at Changbaishan"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2025gl120991",
+        "journal": "Geophysical Research Letters",
+        "region": "Changbaishan volcano",
+        "method": "Sentinel-1 InSAR; geodetic inversion; poroelastic modeling",
+        "onlineDate": "2026-10-01",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL120991",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Volatile Conduits Beneath Vulcano Island (Italy) Revealed by High‐Resolution Nodal Local Earthquake Tomography During Volcanic Unrest",
+        "doi": "10.1029/2026gl121686",
+        "authors": "Iván Cabrera‐Pérez, Douglas Sami Stumpp, Sofía Castro, Michaïl Henry, Tullio Ricci, Alessandra Sciarra, Matteo Lupi",
+        "abstract": "Understanding shallow magmatic and hydrothermal systems at active volcanoes is essential for interpreting unrest and forecasting eruptions. We present the first high‐resolution three‐dimensional , , and models of Vulcano Island, Aeolian Islands, Italy, derived from a dense nodal seismic network. During 1 month of acquisition in 2021, coinciding with volcanic unrest, we detected and picked 1749 local earthquakes. Tomographic results reveal pronounced velocity anomalies, including high Vp / Vs ratios beneath Lipari and Vulcano, compatible with fluid‐rich zones, and low Vp / Vs anomalies compatible with gas‐ or vapor‐dominated reservoirs within the shallow magmatic–hydrothermal system. A deeper low anomaly coincides with hypocentral depths of very‐long‐period seismic events, suggesting a genetic relationship between fluid accumulation, pressure buildup, and very‐long period seismicity. These results significantly improve travel‐time tomography resolution and provide new insights into the geometry, fluid distribution, and structural controls of Vulcano's upper plumbing system, with important implications for volcanic monitoring and planning strategies.",
+        "keyPoints": [
+          "First nodal 3D high‐resolution , , and models of Vulcano Island reveal the geometry of its shallow magmatic–hydrothermal system",
+          "High and low Vp / Vs zones coincide with possible liquid‐rich and gas/vapor‐dominated reservoirs tied to degassing and seismicity",
+          "Deeper low anomaly aligns with very‐long period earthquakes, linking fluid buildup, pressure increase, and long‐period seismicity"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl121686",
+        "journal": "Geophysical Research Letters",
+        "region": "Vulcano Island, Italy",
+        "method": "Nodal seismic array; local earthquake tomography",
+        "onlineDate": "2026-10-01",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL121686",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Magnetic Imaging of the Effect of Stress on the Remanent Magnetization of Basalt",
+        "doi": "10.1029/2025gl121480",
+        "authors": "A. R. Muxworthy, M. E. Kosters, B. M. de Groot, T. M. Mitchell, A. R. Thomson, B. Kugabalan, L. Qi, L. V. de Groot",
+        "abstract": "Differential compressional stresses (<100 MPa) that do not result in permanent deformation have traditionally been considered insufficient to modify paleomagnetic signals; however, recent numerical predictions have challenged this assumption. Using quantum diamond microscopy, we experimentally determined the effects of low differential stresses on the remanent magnetization of columnar basalt samples from Seljadalur, Iceland. We show that although individual magnetic dipoles rotate by up to 40°, the bulk magnetization direction remains largely unchanged. These rotations reflect opposing single‐domain–like and single‐vortex–like behaviors that cancel directionally; however, the bulk magnetization intensity decreases. This behavior is consistent with micromagnetic model predictions for mixed–domain‐state samples. Given that differential stresses 1 GPa are common in undeformed rocks distal to earthquake rupture zones and impact craters, it is essential to account for stress effects when interpreting paleomagnetic data from geological materials.",
+        "keyPoints": [
+          "Magnetic mapping confirms numerical predictions that magnetic moments can rotate under pressures <100 MPa",
+          "Low stresses cause a net decrease in magnetic intensity, leading to underestimates of true paleointensity",
+          "Low stresses near earthquakes or impacts can distort magnetic signals, so stress must be accounted for in paleomagnetic interpretation"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2025gl121480",
+        "journal": "Geophysical Research Letters",
+        "region": "Seljadalur, Iceland",
+        "method": "Quantum diamond microscopy; stress experiments",
+        "onlineDate": "2026-10-03",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL121480",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Rare Synchronization Among Recurring Earthquakes",
+        "doi": "10.1029/2026gl123394",
+        "authors": "Kélian Dascher‐Cousineau, Roland Bürgmann, Alba M. Rodriguez Padilla, Rishav Mallick, Taka’Aki Taira",
+        "abstract": "Earthquakes are notoriously irregular, yet occasionally neighboring faults rupture in close succession, repeatedly, as if synchronized. Over successive cycles, differences in recurrence intervals, overall irregularity and external stressors should all drive neighboring faults out of phase. We propose that synchronization emerges only when fault interaction is phase dependent and exceeds the accumulated misalignment. The competing effects are quantifiable from the geometry of neighboring faults, yielding a conditional existence prediction for synchronization that we test first against simulations and then observations. Among repeating earthquake families in the central San Andreas Fault, the overall prevalence of synchronized pairs decays rapidly with increasing separation, tracking their stress transfer. Among neighboring megathrust segments in the 1000‐year historical record for Japan, the same threshold identifies segments in Nankai and Hokkaido as uniquely poised for synchronization. This work offers a mechanistic basis for earthquake synchronization and, more broadly, shows how interaction shapes earthquake recurrence.",
+        "keyPoints": [
+          "Rare earthquake synchronization emerges at all scales through repeated stress interaction",
+          "Fault interaction must exceed the misalignment that otherwise accumulates over an earthquake cycle",
+          "Fault interaction can play a central role in shaping the regularity or irregularity of earthquake recurrence"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123394",
+        "journal": "Geophysical Research Letters",
+        "region": "San Andreas Fault; Japan",
+        "method": "Fault-interaction modeling; repeating earthquake analysis",
+        "onlineDate": "2026-10-03",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123394",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Tracing Mantle Upwellings Beneath Changbaishan/Mount Paektu: New Insights From Transition Zone Discontinuity Structure",
+        "doi": "10.1029/2026gl125307",
+        "authors": "Cunrui Han, Weiqian Yu, James O. S. Hammond, David P. Dobson, He Tan, You Tian, Wei Wei",
+        "abstract": "Intraplate volcanism in Northeast Asia, located in a distant back‐arc setting, challenges conventional models of mantle convection and volatile cycling. Using receiver function data from over 300 broadband stations, we image the mantle transition zone (MTZ) beneath the Changbaishan/Paektu volcano. Our results show a modest 410‐km depression consistent with melt accumulation caused by slab dehydration and/or a hydrous MTZ, and a depressed 660‐km discontinuity linked to slab stagnation. Notably, lateral variations in the morphology of negative phases above the 410‐km discontinuity may reflect localized variations in upwelling rate and are associated with lateral heterogeneity of the underlying slab and localized uplift of the 660‐km discontinuity, suggesting focused upwelling through a potential slab lens/gap. These observations suggest that MTZ dehydration primarily drives regional intraplate magmatism, with potential lower‐mantle return flow locally enhancing this process, highlighting the critical role of the MTZ in controlling volatile transfer in deep subduction systems.",
+        "keyPoints": [
+          "Dense stations and 3‐D common conversion point migration enable high‐resolution imaging of mantle transition zone topography and Pacific slab geometry beneath Changbaishan",
+          "Widespread negative phases above the 410‐km discontinuity may represent variable melt accumulation and show upwelling dynamics",
+          "Localized slab lens/gaps and slab‐derived hydrous upwelling may enhance magma ascent, which is deflected by large‐scale mantle flow"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125307",
+        "journal": "Geophysical Research Letters",
+        "region": "Changbaishan/Mount Paektu",
+        "method": "Receiver-function imaging",
+        "onlineDate": "2026-10-04",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125307",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "State of Stress in Subduction Zone Forearcs: Influence of the Mantle Wedge Corner and Serpentinization",
+        "doi": "10.1029/2026gl124209",
+        "authors": "Viven Sharma, Ikuko Wada",
+        "abstract": "We investigate the role of the elasticity and density of the forearc mantle wedge corner on the stress distribution in the forearc region of subduction zones, using numerical quasi‐2D lithospheric deformation models for the Cascadia, Nankai, NE Japan, and Costa Rica subduction zones. We incorporate the forearc mantle wedge corner as an elastic domain within the overriding lithosphere with physical properties that reflect reported degrees of serpentinization. In the models, we also incorporate reported values of effective friction coefficient ( μ ) and the downdip extent of frictional coupling (DoC) for the four subduction systems. Our models predict horizontal deviatoric tension in the wedge and the overriding crust in Cascadia and Nankai due to the buoyancy and elasticity of the wedge corner and relatively low DoC and μ . In NE Japan and Costa Rica, the plate coupling force dominates over the effect of the mantle wedge corner, resulting in horizontal deviatoric compression.",
+        "keyPoints": [
+          "Elasticity and density of the forearc mantle wedge corner as part of the overriding lithosphere impact the forearc stress distribution",
+          "The buoyancy and elasticity of serpentinized mantle wedge corners promote horizontal deviatoric tension above the wedge corner",
+          "The effect of a serpentinized wedge corner is minor under strong plate coupling forces, which generate horizontal deviatoric compression"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124209",
+        "journal": "Geophysical Research Letters",
+        "region": "Cascadia; Nankai; NE Japan; Costa Rica",
+        "method": "Quasi-2D lithospheric deformation modeling",
+        "onlineDate": "2026-10-06",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124209",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Quantifying the Effects of Nickel on Earth’s Inner‐Core Nucleation",
+        "doi": "10.1029/2026gl124720",
+        "authors": "Jiahui Zhai, Liangrui Wei, Chen Gao, Yang Sun",
+        "abstract": "The formation of Earth’s solid inner core marks a major transition in the thermal and chemical evolution of the deep Earth, yet its origin remains paradoxical, as initial nucleation appears to require unrealistically large undercooling in the outer core. Here, we use atomistic simulations to quantify how Ni affects this process under inner‐core conditions. While Fe–Ni alloys preserve strong thermodynamic competition between the hcp and bcc phases, the bcc phase consistently forms smaller critical nuclei and has lower nucleation barriers than hcp. Increasing Ni content in the melts further lowers the nucleation barrier and shortens the nucleation waiting time. Local chemical fluctuations also strongly affect the macroscopic nucleation rate. Combining these effects, bcc nucleation in Fe 80 Ni 20 reaches about 250 K of undercooling, approaching geophysical constraints. We demonstrate that Ni enrichment, bcc nucleation, and chemical heterogeneity substantially narrow the inner‐core nucleation paradox.",
+        "keyPoints": [
+          "Nickel‐enriched liquid can significantly reduce the undercooling required for inner‐core formation",
+          "The body‐centered cubic structure nucleates more easily than stable hexagonal close‐packed Fe–Ni under core conditions",
+          "Chemical variations in the liquid core are key to reducing the undercooling needed to start inner‐core growth"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124720",
+        "journal": "Geophysical Research Letters",
+        "region": "Global / deep Earth",
+        "method": "Atomistic simulations",
+        "onlineDate": "2026-10-06",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124720",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Preservation of Isolated Vesicles in Submarine Pumice and Implications for Submarine Slope Stability",
+        "doi": "10.1029/2026gl125622",
+        "authors": "M. Manga",
+        "abstract": "Pumice clasts from submarine eruptions contain abundant isolated vesicles that are completely encased in glass. As erupted clasts cool, gas inside isolated vesicles contracts, leading to low pressures inside those vesicles. Despite low pressures, isolated vesicles can be preserved in submarine pumice deposits to water depths of approximately 1–2 km because the compressive strength of glass exceeds the stresses created by the pressure difference between the inside of gas‐filled vesicles and the ambient pressure. If pumice rafts require abundant isolated vesicles, vents at greater depths are unlikely to form pumice rafts. Fracturing the glass enclosing isolated vesicles during shearing or slope failure would release low pressure vapor, lowering pore pressure and increasing effective stress in the sediment. Pumice‐rich deposits may thus strengthen during shear, making them more gravitationally and seismically stable than other submarine sediments.",
+        "keyPoints": [
+          "Isolated gas‐filled vesicles are preserved in submarine pumice",
+          "The glass encasing isolated vesicles can rupture if the pumice is deep enough below the water surface",
+          "Releasing gas from isolated vesicles will strengthen submarine volcanic sediment"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125622",
+        "journal": "Geophysical Research Letters",
+        "region": "Global / laboratory analog",
+        "method": "Pumice vesicle mechanics",
+        "onlineDate": "2026-10-06",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125622",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "An Innovative Approach for Estimating Coseismic Surface Uplifts Using Ionospheric Observations From Remote GNSS Stations: First Application for the 2025 Myanmar Earthquake",
+        "doi": "10.1029/2026gl122530",
+        "authors": "Mala S. Bagiya, Shubham K. Rajewar, Kosuke Heki, Vineet K. Gahalaut, Neeraj Gurjar, A. P. Dimri",
+        "abstract": "The M w 7.7 Myanmar earthquake on 28 March 2025 ruptured ∼480 km of the Sagaing Fault. Its fault slip distribution remains poorly constrained by three‐dimensional surface displacement data due to sparse GNSS‐coverage near the fault. Satellite‐based synthetic aperture radars capture meters of right‐lateral displacements but isolating vertical crustal movements from these measurements is challenging. We present a new way to map vertical displacements distributed along the fault using ionospheric total electron contents (TEC) variability measured by GNSS stations located >300 km away from the epicenter along the India‐Myanmar border. We identified three distinct peaks in the TEC time‐series. The arrival times and amplitudes of these peaks are used to determine the positions and relative strengths of three acoustic wave sources. These results are compared with slip distribution inferred from seismological observations. The study demonstrates the capability of this innovative‐approach to constrain coseismic uplifts indirectly using ionospheric data at remote GNSS stations.",
+        "keyPoints": [
+          "The 28 March 2025 Myanmar earthquake suffers from the lack of nearby GNSS stations to directly measure 3D displacement field",
+          "TEC data from GNSS stations along the India-Myanmar border are used to locate three peaks of coseismic uplifts along the long fault",
+          "This study demonstrates the potential of an innovative application of the GNSS-TEC technique"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl122530",
+        "journal": "Geophysical Research Letters",
+        "region": "Myanmar",
+        "method": "GNSS ionospheric TEC; acoustic-source inversion",
+        "onlineDate": "2026-10-07",
+        "volume": "53",
+        "issueNumber": "19",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL122530",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "seismology-earthquakes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science-394-6821",
+    "date": "2026-10-19",
+    "journal": "Science",
+    "issue": "Volume 394, Issue 6821",
+    "issueDate": "2026-10-15",
+    "source": "",
+    "articles": [
+      {
+        "title": "Empirical constraints on ice cliff calving",
+        "doi": "10.1126/science.aee0658",
+        "authors": "Caroline Needell, Catherine C. Walker, Jeremy N. Bassis",
+        "abstract": "When calving cliffs at the margins of Earth’s ice sheets exceed a critical height, runaway retreat may be initiated in a process called the marine ice cliff instability. However, sufficiently tall ice cliffs have rarely been observed. To address this gap, we measured the characteristics of 15,330 ice cliffs across Earth’s ice sheet margins using laser altimetry. We show that cliff height is highly correlated with mélange thickness, water depth, and crevassing. We found that tall cliffs calve more rapidly than parameterizations assume, but dynamic thinning and retreat into regions with low ice thickness gradients prevent runaway retreat. These observations suggest that model projections may underestimate subannual rates of cliff calving, but that the potential for instability will depend sensitively on additional quantities, not cliff height alone.",
+        "keyPoints": [
+          "Laser altimetry of 15,330 ice cliffs links height to mélange thickness, water depth and crevassing, with tall cliffs calving faster than parameterizations assume.",
+          "Dynamic thinning and low ice-thickness gradients limit runaway retreat, showing that cliff height alone cannot determine marine ice-cliff instability."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1126/science.aee0658",
+        "journal": "Science",
+        "region": "Earth ice-sheet margins",
+        "method": "Laser altimetry; ice-cliff calving observations",
+        "onlineDate": "2026-10-15",
+        "volume": "394",
+        "issueNumber": "6821",
+        "pdfLink": "https://www.science.org/doi/pdf/10.1126/science.aee0658",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
         ]
       }
     ]
