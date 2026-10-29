@@ -131,15 +131,13 @@ a {
 }
 
 .brand-mark {
-  position: relative;
-  display: grid;
+  display: block;
   flex: 0 0 auto;
   width: 38px;
   height: 38px;
-  place-items: center;
   border: 1px solid var(--basalt);
-  border-radius: 50%;
-  font: 650 12px/1 var(--utility);
+  border-radius: 7px;
+  object-fit: cover;
 }
 
 .brand-copy strong,
