@@ -53,7 +53,7 @@ const publicationModes = {
 const reports = [
   {
     "id": "geophysical-research-letters-53-21",
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "journal": "Geophysical Research Letters",
     "issue": "Volume 53, Issue 21",
     "issueDate": "2026-11-16",
@@ -183,12 +183,457 @@ const reports = [
           "seismology-earthquakes",
           "geomagnetism-em-applied-geophysics"
         ]
+      },
+      {
+        "title": "High Resolution Focal Mechanisms and Stress Field Orientation in Southern Italy From Short‐Term Dense Arrays",
+        "doi": "10.1029/2026gl123476",
+        "authors": "Francesco Scotto di Uccio, Patricia Martínez‐Garzón, Men‐Andrin Meier, Matteo Picozzi, Raffaella De Matteis, Gaetano Festa",
+        "abstract": "Understanding fault geometry and mechanics is key to interpreting the seismotectonic setting of a region. We analyze data from a 1-year dense seismic array deployment in Southern Italy to infer focal mechanisms and stress field from low-magnitude earthquakes using machine-learning techniques. We derive 289 focal mechanisms, including nearly all events with M_L > 1.3, yielding a data set comparable to that obtained from 6 years of conventional monitoring. The retrieved mechanisms are consistent with the orientation of the main tectonic structures, and the stress field, inverted from the principal fault planes, indicates a dominant normal faulting regime. We illustrate that dense monitoring enables investigation of spatio-temporal characteristics of the stress field, showing homogeneity at ∼20 km spatial scale and temporal stability of principal stress orientations. Furthermore, seasonal variations in the stress ratio are observed, that could be modulated by hydrological loading.",
+        "keyPoints": [
+          "Dense arrays and machine learning resolve fault geometry and stress field from small earthquakes, matching long-term monitoring results",
+          "The Southern Apennines show a predominant normal faulting stress regime that appears spatially homogeneous over length scales of ∼20–30 km",
+          "Relative stress magnitude shows a seasonal variation, correlating with variations of the hydrological discharge of a local karst system"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123476",
+        "journal": "Geophysical Research Letters",
+        "region": "Southern Apennines, Italy",
+        "method": "Dense seismic arrays; machine-learning focal mechanisms; stress inversion",
+        "onlineDate": "2026-11-01",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123476",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Reevaluating Large‐Scale Deformation Precursors of Great Subduction Earthquakes: Insights From Satellite Gravity and GNSS Data",
+        "doi": "10.1029/2026gl123947",
+        "authors": "Dhamsith Weerasinghe, Lei Wang, Roland Burgmann, Shahad Alojaiman",
+        "abstract": "Validating the controversial hypothesis that precursory gravity changes arise from sudden acceleration of subducting plates potentially triggering great earthquakes is of paramount importance. To rigorously evaluate proposed precursors for the 2011 Mw 9.0 Tohoku and 2010 Mw 8.8 Maule earthquakes, we develop a statistical framework that enables (a) robust assessment of their statistical significance, (b) characterization of temporal evolution, and (c) integrative analysis across multiple GRACE gravity solutions with differing error characteristics. Additionally, we test the precursor hypothesis using independent GNSS‐measured surface displacements within a physically consistent framework. Our results show no evidence supporting the proposed precursor in either alternative GRACE solutions or high‐precision GNSS observations. The anomalous gravity changes previously interpreted as earthquake precursors are indistinguishable from solution‐specific data errors or other non‐tectonic signals, lacking evidence for tectonic origin.",
+        "keyPoints": [
+          "We develop a method enabling rigorous assessment of precursors of two megathrust ruptures proposed by earlier satellite gravity studies",
+          "A comprehensive analysis of multiple satellite gravity solutions as well as GNSS data rejects the precursor hypothesis",
+          "Proposed precursors are indistinguishable from solution-specific artifacts or non-tectonic signals, lacking evidence for tectonic origin"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123947",
+        "journal": "Geophysical Research Letters",
+        "region": "Tohoku, Japan; Maule, Chile",
+        "method": "GRACE satellite gravity; GNSS; statistical precursor testing",
+        "onlineDate": "2026-11-01",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123947",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Experimental Evidence of Reaction‐Driven Fracturing and Ultramafic Rock Weakening Induced by CO <sub>2</sub> Mineralization",
+        "doi": "10.1029/2026gl124491",
+        "authors": "Clay E. Wood, D. Nicolas Espinoza, Nicola Tisato, Estibalitz Ukar",
+        "abstract": "Carbon sequestration in mafic and ultramafic rocks offers a pathway to mitigate CO₂ emissions, while mineralization could precondition rocks for critical mineral extraction. However, the reaction-driven fracturing processes that increase permeability and weaken rock remain underexplored. Here, we expose serpentinized dunite samples to CO₂-rich Mg(OH)_{2}-brine at 90°C and 3.5 MPa for up to 32 days, using X-ray computed tomography and digital volume correlation to quantify morphological evolution and 3D solid displacements. Results reveal tensile microfractures nucleating within 11 days, progressing to core disaggregation, with localized damage concentrated along pre-existing veins and flaw tips. Calculated crystallization pressures exceeding 100 MPa, together with fracture mechanics modeling, support magnesite formation within brucite-filled veins as the primary driver for reaction-driven fracturing. Raman spectroscopy and scanning electron microscopy help identify mineral changes. These insights into spatiotemporal dynamics of reaction-driven fracturing can inform strategies for CO₂ injection and mineralization in ultramafic formations.",
+        "keyPoints": [
+          "Ultramafic core plugs in carbonated Mg-rich brine at 90°C undergo systematic damage and disaggregation within 1 month",
+          "X-ray scans and digital volume correlation reveal significant mechanical damage along brucite veins after 11 days of soaking",
+          "Scanning electron microscopy and Raman spectroscopy show evidence of magnesite formation and induced fracture opening"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124491",
+        "journal": "Geophysical Research Letters",
+        "region": "Laboratory",
+        "method": "X-ray computed tomography; digital volume correlation; Raman spectroscopy; fracture mechanics",
+        "onlineDate": "2026-11-01",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124491",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Sparse‐Well Diffusion Reconstructions Enable Groundwater Transport Equation Recovery and Plume Refinement",
+        "doi": "10.1029/2026gl126144",
+        "authors": "Zhiyu Jiao, Guiyao Xiong, Cong Han, Hongxia Xu, Yinquan Meng, Jianfeng Wu, Yun Yang, Jinguo Wang, Jichun Wu, Xiaobin Zhu",
+        "abstract": "Groundwater contamination assessments based on sparse wells rarely provide continuous hydraulic head and contaminant concentration fields for plume interpretation. Visually plausible reconstructions may not retain the transport information needed for physical diagnosis. We develop a Sparse‐Well Diffusion‐SINDy Residual Refinement (SW‐DSRR) framework that couples diffusion reconstruction, Sparse Identification of Nonlinear Dynamics transport equation recovery and consistency assessment, and consistency‐guided plume refinement to test whether sparse‐well reconstructions preserve transport structure. This information is then used to reduce plume error. Tests cover normal and extreme well layouts under baseline, source/sink, and heterogeneous permeability conditions. Reconstructed fields retain dominant terms, generating parameter scales, and hidden contaminant source structure. Recovered equations reproduce observed‐well and full‐field evolution while preserving mass, centroid migration, and nonnegative concentrations. Relative to initial diffusion reconstructions, plume refinement reduces concentration errors. SW‐DSRR connects field reconstruction with equation‐level assessment and targeted plume correction that can support plume delineation, source assessment, and remediation planning.",
+        "keyPoints": [
+          "Sparse-Well Diffusion-SINDy Residual Refinement reconstructs full hydraulic head and contaminant fields from sparse wells while retaining transport structure",
+          "Sparse Identification of Nonlinear Dynamics (SINDy) recovers dominant transport terms, parameter scales, and hidden source structure from the reconstructed fields",
+          "Equation consistency diagnostics guide targeted correction of systematic plume reconstruction errors"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126144",
+        "journal": "Geophysical Research Letters",
+        "region": "Groundwater aquifers",
+        "method": "Diffusion reconstruction; sparse identification of nonlinear dynamics",
+        "onlineDate": "2026-11-02",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126144",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Detecting the Oceanic Moho Using Teleseismic P‐Wave Coda Autocorrelations of Ocean Bottom Seismograph Records",
+        "doi": "10.1029/2026gl123962",
+        "authors": "Guanghui Han, Chen Cai, Shaoping Lu, Shaozhe Dong, Jiandong Huang, Haixia Zhang, Run Jiang",
+        "abstract": "Although active‐source seismic methods can image the oceanic Mohorovičić discontinuity (Moho) at high resolution, their high cost motivates passive approaches using OBS, for which receiver functions (RF) are often complicated by instrument tilt, azimuthal misalignment, sedimentary layers, and water‐column reverberations. Here we apply teleseismic P‐wave coda autocorrelation to hydrophone data from OBS to image the oceanic Moho. Compared with vertical‐component data, hydrophone data provide a simpler interpretation because they avoid P‐to‐S conversions and are dominated by reflected and transmitted P‐wave energy. By analyzing autocorrelation results from 22 long‐period and 24 short‐period stations in the NoMelt experiment, we identify a Moho reflection with a TwTT of ∼2.56 s and resolve lateral variations in crustal TwTT that are smoothed out in the radially averaged representations of global velocity models. Combined with previous studies and model tests, this longer‐than‐expected crustal TwTT suggests that a crust‐mantle transition zone may exist beneath the NoMelt region.",
+        "keyPoints": [
+          "We develop a teleseismic P-wave coda autocorrelation method, and apply it to hydrophone data from ocean-bottom seismograph (OBS) stations",
+          "Autocorrelation of NoMelt long- and short-period OBS data identifies an oceanic-crust two-way travel time (TwTT) of ∼2.56 s",
+          "By time-depth conversion, we estimate crustal thickness and infer a crust-mantle transition zone beneath NoMelt"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl123962",
+        "journal": "Geophysical Research Letters",
+        "region": "NoMelt region, Pacific Ocean",
+        "method": "Ocean-bottom hydrophones; teleseismic coda autocorrelation",
+        "onlineDate": "2026-11-04",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL123962",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Shallow Slip Deficit: An Intrinsic Property of Continental Earthquakes, Slightly Enhanced by Fault Maturity",
+        "doi": "10.1029/2026gl125494",
+        "authors": "Isabelle Manighetti, Jean‐Paul Ampuero, Pierre Romanet, Sirine Gheddache, Antoine Mercier, Anne‐Claire Pfister, Yves Gaudemer",
+        "abstract": "A depletion of earthquake slip in the shallow crust (shallow coseismic slip deficit, or coseismic SSD) has been observed on <30, Mw ≥ 6 continental earthquakes, and attributed to the immaturity of the ruptured faults. We question the factors that contribute to the coseismic SSD. We built the largest earthquake source model database available to date, with 1078 models providing coseismic SSD estimates on 163 Mw ≥ 6, various slip mode, continental earthquakes worldwide since 1990. We also built a database providing their fault maturity parameters (initiation age, net displacement, length, slip rate). Our combined earthquake‐fault analysis reveals that coseismic SSD of continental earthquakes, whatever their slip mode, is primarily controlled by the relation between their magnitude and peak slip depth, and, to a much lesser extent, by the fault maturity. A model where earthquake slip produces zero stress drop on the shallow velocity strengthening fault section reproduces the data well.",
+        "keyPoints": [
+          "We estimate shallow slip deficit on 163 continental earthquakes (Mw ≥ 6), in 1078 source models, and quantify maturity of ruptured faults",
+          "Shallow coseismic slip deficit is primarily controlled by combined relation between earthquake magnitude and peak slip depth",
+          "Fault maturity weakly governs shallow coseismic slip deficit, in proportions much lower than suggested in earlier works"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125494",
+        "journal": "Geophysical Research Letters",
+        "region": "Global continental faults",
+        "method": "Earthquake source-model synthesis; fault maturity analysis",
+        "onlineDate": "2026-11-04",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125494",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Large‐Scale Coherent Southward Displacement of the Indochina Block: Constraints From New Late Cretaceous Paleomagnetic Studies",
+        "doi": "10.1029/2026gl125606",
+        "authors": "Jiahui Ma, Tianshui Yang, Jiacheng Liang, Weiwei Bian, Xiaolin Li, Xianwei Jiao, Hanqing Zhao, Jikai Ding, Huaichun Wu, Haiyan Li, Yiming Ma, Pan Zhao",
+        "abstract": "To better constrain the post‐collisional southward displacement of the Indochina Block (ICB) and the crustal deformation of the southeastern Tibetan Plateau, we present a reliable paleomagnetic study of Upper Cretaceous Nanxin Formation redbeds exposed in the Lanping area, at the northern edge of the Lanping‐Simao Terrane (LST). The tilt‐corrected site‐mean direction derived from 30 sites is D s = 39.3°, I s = 48.4° with α 95 = 4.3°, corresponding to a paleomagnetic pole at 55.3°N, 175.5°E with dp / dm = 3.7°/5.6° and a paleolatitude of 29.4°N ± 3.7°N for the sampling area (26.6°N, 99.4°E). This paleomagnetic data set passes both positive fold and reversal tests at 95% and 99% confidence levels. Comparison with the Late Cretaceous pole of the South China Block and the East Asia apparent polar wander path shows that the entire ICB underwent a coherent southward displacement of ∼900 km between the Late Cretaceous and Late Eocene.",
+        "keyPoints": [
+          "The Lanping area of the northern Lanping-Simao Terrane during Late Cretacous lay at 29.4°N ± 3.7°N",
+          "The entire Indochina Block underwent a coherent southward displacement of ∼900 km after the Late Cretaceous",
+          "This large-scale southward displacement most likely occurred between the Late Cretaceous and the Late Eocene"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125606",
+        "journal": "Geophysical Research Letters",
+        "region": "Indochina Block; Lanping-Simao Terrane",
+        "method": "Paleomagnetism; fold and reversal tests",
+        "onlineDate": "2026-11-04",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125606",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Calibrating the Geomorphic Clock: Remote Sensing of Sediment Storage and Transit Timescales in Alluvial River Corridors",
+        "doi": "10.1029/2026gl124018",
+        "authors": "Huck Rees, Vamsi Ganti, Evan Greenberg, Gen K. Li, Kelly K. Caylor",
+        "abstract": "Constraining sediment and organic carbon storage duration in river corridors is essential for understanding terrestrial carbon cycling and interpreting the sedimentary record. However, existing methods rely on geochemical dating or theoretical models tailored to idealized meandering rivers, limiting their broader application. Here, we present a remote sensing framework using four decades of Landsat imagery and an area‐based mobility metric to quantify decadal‐scale channel mobility across diverse river planforms. We extrapolate these observations to millennial‐scale sediment storage and transit times using a bounded random‐walk model informed by remotely derived channel‐belt widths. Modeled storage and transit times reproduce independent geochemical benchmarks within a factor of three across four morphologically diverse rivers. River planform and channel mobility timescales independently govern sediment transit: multithreaded reaches transmit stored sediment faster than meandering reaches, and slower floodplain reworking prolongs transit. Our results provide a scalable foundation for quantifying fluvial sediment and carbon dynamics globally.",
+        "keyPoints": [
+          "A remote sensing framework quantifies sediment storage and transit times across all river planforms",
+          "Modeled timescales agree with geochemical benchmarks within a factor of three",
+          "Planform and river mobility govern sediment transit; multithreaded rivers rework floodplains and move stored sediment faster"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124018",
+        "journal": "Geophysical Research Letters",
+        "region": "Alluvial river corridors",
+        "method": "Landsat channel mobility; bounded random-walk sediment model",
+        "onlineDate": "2026-11-05",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124018",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Variations in <i>dv</i> / <i>v</i> Susceptibility to Earthquake Shaking Along the Alaska Subduction Zone",
+        "doi": "10.1029/2026gl124549",
+        "authors": "Thomas J. Lee, Brandon Schmandt",
+        "abstract": "Earthquake‐triggered decreases in relative seismic velocity ( dv / v ) of the crust have been reported for many events, but regional variations in dv / v susceptibility to shaking are not well understood. Here, 14 Alaskan earthquakes with Mw 6.8–8.2 are consistently analyzed with single‐station coda‐wave interferometry. For peak ground velocities (PGV) >1 cm/s, significant dv/v drops are found for ∼40% of seismometers, with a moderate linear correlation coefficient of −0.3 between dv / v and PGV. Sites in the highest susceptibility decile, indicated by the largest dv / v drops per unit PGV, are all located near active volcanoes: Akutan, Makushin, Shishaldin, Pavlof, Katmai, and Augustine. Some Cook Inlet basin sites are among the largest decile of dv / v drops but have lower susceptibility due to amplified PGV. Frequency‐dependence of dv / v indicates concentration of velocity changes at <500 m depth, consistent with hydrothermal systems and weakly consolidated volcanic rocks influencing heterogeneous and high susceptibility near volcanoes.",
+        "keyPoints": [
+          "Southern Alaska coeismic dv/v drops are highly variable and most prominent along the volcanic arc and Cook Inlet basin",
+          "The highest susceptibility sites are found near several active volcanoes and often proximal to much lower susceptibility sites",
+          "Most dv/v changes likely originate <500 m deep, suggesting links to heterogeneous hydrothermal systems and volcanic deposits"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124549",
+        "journal": "Geophysical Research Letters",
+        "region": "Alaska subduction zone",
+        "method": "Coda-wave interferometry; ground-motion analysis",
+        "onlineDate": "2026-11-05",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124549",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Differentiated Rift Rupture and Apparent Northward Earthquake Ordering in Southern Tibet Revealed by the 2025 Mw 7.0 Dingri Earthquake and Its Preceding Events",
+        "doi": "10.1029/2026gl124957",
+        "authors": "Heng Luo, Liqing Jiao, Shuwen Dong",
+        "abstract": "North–south‐trending rifts in southern Tibet accommodate active east–west extension, but how normal‐faulting rupture varies with rift development remains unclear. Here we use Synthetic Aperture Radar observations to investigate the 2025 Mw 7.0 Dingri earthquake in the southern Xainza–Dinggye rift. Our rupture model shows that the 2025 earthquake ruptured multiple segments and likely triggered three meter‐scale slope failures within surface‐rupture gaps at the rift margin. Together with preceding Dingri events, our results reveal contrasting along‐rift coseismic rupture behavior: larger, shallower, and more complex slip in the higher‐elevation, narrower northern Dengmo Co rift, but smaller, deeper slip in the lower, wider southern half‐graben. Combined with other geodetically constrained normal‐faulting sequences across southern Tibet, these observations show an apparent northward ordering along certain rift segments. Our study provides new insight into the relationship between long‐term rift development and earthquake rupture behavior in the southern Tibetan rift system.",
+        "keyPoints": [
+          "The 2025 Mw 7.0 Dingri earthquake likely triggered three meter-scale slope failures within surface-rupture gaps",
+          "Along-rift contrasts in coseismic slip coincide with marked differences in rift morphology and development",
+          "Normal-faulting earthquake sequences show apparent northward ordering along southern Tibetan rifts"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124957",
+        "journal": "Geophysical Research Letters",
+        "region": "Southern Tibet; Xainza–Dinggye rift",
+        "method": "Synthetic aperture radar; coseismic rupture modeling",
+        "onlineDate": "2026-11-05",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124957",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "The Overlooked Role of Alongshore Beach Non‐Uniformity in Short‐Term Shoreline Variability",
+        "doi": "10.1029/2026gl126111",
+        "authors": "Xinyu Chen, Masayuki Banno, Georgios Azorakos, Bruno Castelle, Erwin W. J. Bergsma",
+        "abstract": "Long‐term beach monitoring and satellite‐derived shoreline products are typically validated, and shoreline models calibrated, along cross‐shore transects. Open sandy beaches, however, are rarely uniform alongshore, because crescentic megacusps migrate past fixed transects, and their effect on single‐transect records remains unquantified. We combine a 30‐year, daily‐to‐weekly single‐transect record with monthly surveys across 11 transects spanning 400 m at Hasaki Beach, Japan, and use the alongshore range of shoreline position as a proxy for megacusp magnitude. Between monthly surveys, 70%–76% of single‐transect observations lie within this range and cannot be distinguished from alongshore non‐uniformity at a single transect. The range shows no significant correlation with concurrent wave forcing, and the skill of wave‐driven equilibrium models declines as the range grows relative to the single‐transect variability. Densely spaced transects are therefore needed to isolate the forcing‐driven cross‐shore response from megacusp‐induced variability, in both in situ and satellite‐derived shoreline analyses.",
+        "keyPoints": [
+          "Between monthly surveys, 70 to 76 percent of single-transect observations lie within the concurrent alongshore range of shoreline position",
+          "Wave-driven equilibrium models lose skill as the alongshore range grows relative to single transect short-term variability",
+          "Densely spaced transect monitoring is needed to separate cross-shore shoreline change from alongshore non-uniformity"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126111",
+        "journal": "Geophysical Research Letters",
+        "region": "Hasaki Beach, Japan",
+        "method": "Long-term beach transect monitoring; shoreline modeling",
+        "onlineDate": "2026-11-05",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126111",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Historical Groundwater Memory Predicts Site‐Specific Persistence Horizons Across Germany",
+        "doi": "10.1029/2026gl127221",
+        "authors": "Funing Ma, Zhenxue Dai, Fangfei Cai",
+        "abstract": "Groundwater levels retain memory of antecedent hydrologic conditions, but whether this memory defines a persistent timescale of later groundwater behavior remains unclear. We analyzed weekly records from 3207 wells across Germany, estimating groundwater memory during 1991–2005 and persistence during 2013–2022. Historical autocorrelation‐implied timescales strongly predicted later persistence horizons (Spearman = 0.851; 95% confidence interval, 0.819–0.877), with a median absolute difference of 2 weeks. A well's own historical memory was much more closely related to later persistence than memory reassigned among hydrogeologically and spatially similar wells, indicating strong site specificity. Historical hydroclimatic–groundwater coupling was also associated with departures from the autocorrelation‐based expectation, and this relation persisted after removal of seasonal and trend components. These site‐specific timescales inform persistence‐based forecasting and provide a temporal perspective for groundwater resilience assessment and climate adaptation planning.",
+        "keyPoints": [
+          "Historical groundwater memory predicted later persistence horizons across 3207 wells in Germany",
+          "Later persistence was more strongly related to each well's own memory than to that of hydrogeologically similar nearby wells",
+          "Stronger historical hydroclimatic coupling was associated with shorter later persistence than expected from groundwater memory alone"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl127221",
+        "journal": "Geophysical Research Letters",
+        "region": "Germany",
+        "method": "Groundwater well time series; autocorrelation and persistence analysis",
+        "onlineDate": "2026-11-05",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL127221",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "High‐Resolution Discharge Inversion in a Small Alpine Watershed: Combining Monitoring Images and Triaxial Seismic Data",
+        "doi": "10.1029/2026gl124730",
+        "authors": "Shuang Liu, Kaiheng Hu, Pu Li, Hao Li",
+        "abstract": "In small alpine watersheds, abrupt rainfall‐ or meltwater‐driven runoff leads to dramatic variations in flow width over uneven channel beds, thereby complicating discharge monitoring. Using a typical watershed near the Yarlung Tsangpo Grand Canyon as the study area, we presented a workflow combining imagery and seismic data to estimate the instantaneous discharge with machine learning. Results show that image‐based flow width correction effectively improved discharge records to provide a better basis for modeling. For hourly instantaneous discharge estimation, the machine learning model achieved good performance, with mean coefficients of determination of 0.77 for the training, 0.68 for the validation, and 0.66 for the independent testing, and corresponding mean Kling–Gupta efficiency values of 0.83, 0.79, and 0.75, respectively. Using minute‐level seismic data, we further detected 179 suspected flood events between July and October 2025 and analyzed their hydrological characteristics. In general, this proposed framework could address the limitations of traditional monitoring approaches and support water resources management in similar small watersheds.",
+        "keyPoints": [
+          "Images and seismic signals were jointly used for discharge inversion in an alpine watershed",
+          "Machine learning captured the nonlinear vibration–discharge relationship",
+          "Minute-scale discharge inversion verified the feasibility of the proposed framework"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124730",
+        "journal": "Geophysical Research Letters",
+        "region": "Yarlung Tsangpo Grand Canyon, Tibet",
+        "method": "Triaxial seismic monitoring; image analysis; machine learning",
+        "onlineDate": "2026-11-06",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124730",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Transformational Faulting: The Case of Quartz‐Coesite",
+        "doi": "10.1029/2026gl124806",
+        "authors": "Giulia Mingardi, Julien Gasc, Robert Farla, Marie Baïsset, Mathieu Soret, Damien Deldicque, Philippe Yamato, Matteo Alvaro, Alexandre Schubnel",
+        "abstract": "Transformational faulting in olivine has been widely invoked as a possible triggering mechanism for deep‐focus earthquakes, yet its dynamics remain debated. It is unclear whether it requires the combined effects of heat release, volume change and mechanical strength contrast, or whether it can be triggered by any one of these alone. Here, we tested if transformational faulting can be caused solely by a large volume change, through deformation experiments on novaculite during the quartz‐coesite transition. Under sluggish reaction kinetics, acoustic emissions and microstructural observations indicate strain localization and fault plane formation. Under fast kinetics, deformation was distributed and associated with fewer, lower‐magnitude events. b ‐values of ∼1 and ∼3 reflect these two regimes. Our results provide the first evidence of transformational faulting during the quartz‐coesite transition, suggesting that volume change is the primary driver of brittle failure at high pressure, broadening the range of mineral transitions generating deep and intermediate‐depth earthquakes.",
+        "keyPoints": [
+          "High-pressure faulting occurs during the quartz-to-coesite transformation under high differential stress",
+          "Synchrotron X-ray diffraction combined with acoustic emissions reveals localized deformation due to the quartz-coesite phase transition",
+          "Negative volume change during phase transition is sufficient to trigger transformational faulting without significant latent heat release"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl124806",
+        "journal": "Geophysical Research Letters",
+        "region": "Laboratory",
+        "method": "High-pressure deformation; acoustic emissions; microstructural analysis",
+        "onlineDate": "2026-11-06",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL124806",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Desert Lakes Nasser–Toshka: A Novel Site for Satellite Gravimetry Validation",
+        "doi": "10.1029/2026gl125952",
+        "authors": "Hao‐si Li, Shuang Yi, Yun Xiao, Hao Zhou, Hussein A. Mohasseb, He Tang",
+        "abstract": "Validation results for mass estimates measured by GRACE (Gravity Recovery and Climate Experiment) and GRACE‐FO (GRACE Follow‐On) currently hold uncertainties exceeding 10 gigatons (Gt), due to errors in auxiliary models and leakage noise from surrounding hydrological signals. Here, we propose the Lakes Nasser–Toshka in the Sahara Desert as an easily accessible benchmark that could remarkably reduce the validation uncertainty to several gigatons. We evaluate the 2002–2025 GRACE(‐FO) line‐of‐sight gravity difference (LGD) record against water storage derived from satellite altimetry and optical imagery. The results show that the measurement uncertainties for GRACE KBR (K‐band Ranging), GRACE‐FO KBR and GRACE‐FO LRI (Laser Ranging Interferometer) are 7.76 Gt, 5.46 Gt and 4.35 Gt, respectively. The GRACE‐FO LRI LGD interquartile range (0.166–0.493 nm/s 2 ) establishes a performance benchmark for future LRI‐based missions. Lakes Nasser–Toshka offer a rare natural benchmark for in‐orbit commissioning and evaluating future satellite gravimetry missions.",
+        "keyPoints": [
+          "Optical imagery, altimeter, and satellite gravimetry jointly quantify 23 years (2002–2025) of storage variability in Lakes Nasser–Toshka",
+          "The Lakes Nasser–Toshka system can validate the accuracy of satellite gravimetry to a level of approximately 4 Gt or 1 μGal",
+          "The unique framework delivers a rapid practical validation pathway for future satellite gravimetric missions"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125952",
+        "journal": "Geophysical Research Letters",
+        "region": "Lakes Nasser–Toshka, Sahara Desert",
+        "method": "GRACE/GRACE-FO gravimetry; satellite altimetry; optical imagery",
+        "onlineDate": "2026-11-06",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125952",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Intrinsic Backflow in Heterogeneous Aquifer During Electrokinetic Remediation: A Challenge in Field‐Scale Application",
+        "doi": "10.1029/2026gl126019",
+        "authors": "Rong Mao, Michel C. Boufadel",
+        "abstract": "Electrokinetics is a remediation technology applying direct‐current voltage across soil to mobilize solutes. It induces electromigration whereby ions migrate toward electrodes of opposite charge, and electroosmosis whereby water flow is engendered because of surface charges in soils. As confirmed by various experiments, electroosmosis has the advantage of mobilizing non‐ionic solutes especially in low permeability clay. We argue herein that due to subsurface heterogeneity, the upscaling of electroosmosis may not be always achievable under normal conditions, mainly because of backflow in regions outside of clay. In this study, analytical solutions derived in periodic heterogeneous system demonstrate how nonuniform electroosmosis induces local hydraulic‐head gradient and backflow. Application in standard lognormal heterogeneity system produces limited backflow due to smoothly varying zeta potential, whereas discrete high absolute zeta potential lenses generate more extensive backflow. These findings highlight the importance of spatial organization (or lacunarity), especially lens size, spacing, for applications of field‐scale electrokinetic remediation.",
+        "keyPoints": [
+          "Zeta potential heterogeneity can limit electroosmotic upscaling by generating backflow in electrokinetic system",
+          "Nonuniform electroosmosis induces local hydraulic-head gradients that drive pore-water flow reversal",
+          "Backflow is controlled by electroosmotic contrast and spatial organization, or lacunarity, including lens size and spacing"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126019",
+        "journal": "Geophysical Research Letters",
+        "region": "Heterogeneous aquifers",
+        "method": "Analytical electroosmotic flow modeling",
+        "onlineDate": "2026-11-06",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126019",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Pore‐Scale Segregation and Enrichment of Polydisperse Colloids via Transverse Migration in Porous Media",
+        "doi": "10.1029/2026gl126367",
+        "authors": "Zirong Liu, Baonan He, Jiangtao He, Zhen Chen, Xiaojun Li, Jinpei Hu, Qiwen Xia, Yanjia Chu, Zhenjun Zhou",
+        "abstract": "Understanding transport of anomalous colloids and contaminants requires partition of polydisperse colloids at the pore scale. Using a high-resolution dual-mode microscopy system, we directly visualize cross-sectional concentration profiles. Furthermore, we identify a previously overlooked phenomenon: the occurrence of persistent transverse concentration heterogeneity and centerline enrichment above the injected concentration (C/C_{0} > 1) during transport. Observations at different spatial and temporal scales reveal transverse colloid migration during anomalous segregation and enrichment of colloids. These observations revealed that colloid transport results in the formation of distinct concentration-defined regions that cannot be inferred from conventional solute transport behavior. We establish a double-erf logarithmic-gradient criterion to delineate the main-flow and diffusion zones and quantify the main-flow ratio (β). This criterion defines transport zones directly from the observed concentration gradients, avoiding the nonuniqueness of conventional inversion-based two-zone models. Our results provide direct pore-scale evidence and a quantitative framework linking pore-scale transport structure to macroscopic behavior.",
+        "keyPoints": [
+          "Pronounced pore-scale segregation and enrichment of polydisperse colloids (C/C_{0} > 1) were observed during pore-channel transport",
+          "High-resolution observations revealed transverse colloid migration associated with development of concentration segregation and enrichment",
+          "A double-erf logarithmic-gradient criterion directly delineated diffusion and main-flow zones from observed concentration profiles"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl126367",
+        "journal": "Geophysical Research Letters",
+        "region": "Laboratory porous media",
+        "method": "Dual-mode microscopy; pore-scale transport analysis",
+        "onlineDate": "2026-11-06",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL126367",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Fluid‐Controlled Tidal Modulation of Aftershocks Following the 2022 M6.8 Luding Earthquake",
+        "doi": "10.1029/2026gl125440",
+        "authors": "Jinbo Zheng, Wei Wang, Aitaro Kato, Jinhai Zhang",
+        "abstract": "Aftershock sequences record how fault zones recover and weaken after earthquakes, but the roles of fluid migration and stress heterogeneity remain difficult to isolate. Earth tides impose predictable stress perturbations and thus provide a natural probe of faults near failure, although their signals are often obscured by aftershock clustering. Here we apply bootstrap‐based spatial spectral analysis to the 2022 M6.8 Luding earthquake sequence to resolve tidal sensitivity. We identify a systematic shift from a fluid‐rich region before the mainshock to the margins of the high‐slip zone, bypassing the rupture core. This pattern suggests coupled interaction between coseismic stress heterogeneity and postseismic fluid redistribution. Elevated pore pressure enhances sensitivity to weak tidal stress in high stress‐gradient regions, whereas permeability contrasts promote localized fluid accumulation and triggering. Our results show that tidal forcing can reveal where postseismic faults are closest to failure, offering an indirect window into fluid migration and fault‐zone weakening.",
+        "keyPoints": [
+          "Developed a bootstrap-based spatial spectral analysis to resolve spatiotemporal patterns of tidal sensitivity",
+          "Tide-sensitive seismicity shifted from a fluid-rich pre-mainshock region to the margins of the postseismic high-slip zone",
+          "Tidal sensitivity provides an indirect probe of postseismic fluid migration and fault-zone weakening after large earthquakes"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026gl125440",
+        "journal": "Geophysical Research Letters",
+        "region": "Luding, Sichuan, China",
+        "method": "Bootstrap spatial spectral analysis; tidal triggering",
+        "onlineDate": "2026-11-07",
+        "volume": "53",
+        "issueNumber": "21",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026GL125440",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
       }
     ]
   },
   {
     "id": "proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america-123-45",
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
     "issue": "Volume 123, Issue 45",
     "issueDate": "2026-11-10",
@@ -215,6 +660,905 @@ const reports = [
         "pdfLinkSource": "collector",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Geochemical signatures of magnetite are conserved in diverse populations of environmental magnetotactic bacteria",
+        "doi": "10.1073/pnas.2621335123",
+        "authors": "Vincent Busigny, Akanksha Praharaj, Matthieu Amor, François P. Mathon, Caroline L. Monteil, Nicolas Menguy, Karim Benzerara, Neha Mehta, Didier Jézéquel, Eric Viollier, Christopher T. Lefèvre",
+        "abstract": "Magnetotactic bacteria (MTB) synthesize intracellular magnetite nanoparticles in a genetically controlled manner. They may represent some of the earliest biomineralizing organisms on Earth, and a unique window into ancient life and the environments that hosted it. Yet, identification of their mineralogical remains in ancient rocks is highly challenging due to the lack of reliable and lasting proxies. Previous results obtained from laboratory cultures of single strains of MTB revealed trace element and Fe isotope patterns that are not shared by any other source of magnetite, which could be used as reliable proxies for the identification of ancient MTB. However, the environmental relevance of these previous findings for environmental and mixed population of MTB is unknown. We report the trace element and Fe isotope compositions of magnetite extracted from environmental MTB collected in the water column of Lake Pavin, France, and show that the most distinctive geochemical traits (enrichment in Mo, Se, Sn, and light Fe isotopes) of magnetite produced by MTB cultivated in the laboratory are conserved in environmental populations. They represent potential biological signatures that can be searched in ancient rocks and coupled with magnetic and mineralogical tracers to support the presence of MTB and reconstruct their emergence and evolution.",
+        "keyPoints": [
+          "Magnetite from environmental bacterial populations in Lake Pavin retains the Mo, Se and Sn enrichments and light iron isotope signatures previously found in laboratory cultures.",
+          "Conserved geochemical signatures can complement magnetic and mineralogical tracers when identifying biogenic magnetite in ancient rocks."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1073/pnas.2621335123",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "region": "Lake Pavin, France",
+        "method": "Trace element and iron isotope analysis of magnetite",
+        "onlineDate": "2026-11-03",
+        "volume": "123",
+        "issueNumber": "45",
+        "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2621335123",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Intermittent gas–liquid rearrangement controls the mixing of gases in porous media",
+        "doi": "10.1073/pnas.2612721123",
+        "authors": "Samuel J. Jackson, Sharon Ellman, Gülce Kalyoncu, Tanguy Le Borgne, Tom Bultreys",
+        "abstract": "Gas mixing in porous media governs important environmental and industrial applications in which multiple gas components share the available pore space with liquid water, simultaneously undergoing gas mixing and gas–liquid redistribution. Currently, this process is represented by macroscopic models that ignore pore scale dynamics. We demonstrate that this is not generally valid, and can lead to large errors in the mixing rate. We use 4D X-ray imaging to investigate nitrogen injection into a porous sandstone saturated with krypton and water, jointly imaging the gas mixture composition evolution and multiphase flow of gas and water. In contrast to the smooth, continuous representation of the conventional advection–diffusion model, our results show that gas mixing evolves through a sequence of distinct regimes controlled by gas connectivity. Initially, immiscible gas–water displacement generates gas composition variance as the different gases occupy neighboring pores separated by water. As gas connectivity increases, intermittent gas–liquid interfacial rearrangements rapidly connect regions of contrasting gas composition, driving a fast decay in composition variance. Once connectivity stabilizes, mixing is controlled by a confined diffusion process within the quasi-static gas network. At later times, further mixing is driven slowly by multicomponent Ostwald ripening, whereby trapped gas ganglia exchange solutes through the surrounding liquid phase. These findings provide insights into gas mixing in porous media, suggesting concepts for upscaling the role of pore scale multiphase flow in gas mixing in the subsurface.",
+        "keyPoints": [
+          "4D X-ray imaging of nitrogen injection into krypton- and water-saturated sandstone shows that gas mixing proceeds through regimes controlled by gas connectivity and interfacial rearrangement.",
+          "Intermittent rearrangements, confined diffusion and later Ostwald ripening challenge continuous advection–diffusion descriptions and inform upscaling of subsurface gas mixing."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1073/pnas.2612721123",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "region": "Laboratory; sandstone porous media",
+        "method": "4D X-ray imaging; multiphase flow experiments",
+        "onlineDate": "2026-11-05",
+        "volume": "123",
+        "issueNumber": "45",
+        "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2612721123",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "communications-earth-environment-2026-11",
+    "date": "2026-11-09",
+    "journal": "Communications Earth & Environment",
+    "issue": "November 2026",
+    "issueDate": "2026-11-07",
+    "source": "",
+    "articles": [
+      {
+        "title": "Transitional calcite-aragonite stacking as a signature of hexagonal aragonite in biogenic and inorganic deposits",
+        "doi": "10.1038/s43247-026-04166-8",
+        "authors": "Péter Németh, Attila Demény, Péter Pekker, Aleksander Rečnik, Vesna Ribić, Pavel N. Gavryushkin, Maksim Banaev, Marco Bruno, Christoph Spötl, Michael Pettauer, Martin Dietzel, Levente Illés, Mihály Pósfai",
+        "abstract": "Aragonite abundantly crystallizes in marine and continental environments and occurs ubiquitously in biominerals, despite being metastable under ambient conditions. To resolve this apparent contradiction, we studied the crystal structure of aragonite that grew on calcite of biogenic (Berger Károly cave; Hungary) and inorganic (Sonnenberg; Italy and Erzberg; Austria) origin, in a range of natural settings and temperatures. Electron microscopy measurements show (001) stacking faults (SFs) in the first-grown aragonite. Structural modeling combined with theory-based optimization suggests that the crystal structure of this new type of SF can be explained by the presence of (0001) calcite-like layers within aragonite. Abundant (0001) calcite twins occur in the last-grown calcite, and hexarag, the hypothetical hexagonal polymorph of aragonite, was identified across the calcite twin interfaces. Oxygen isotope data indicate that both the Berger-Károly and Sonnenberg samples formed under non-equilibrium conditions, whereas the Erzberg aragonite formed near equilibrium, possibly explaining the defect-free structure. The presence of (001) SFs and (0001) calcite twins testifies to the formation of transitional calcite-aragonite structures, suggests the occurrence of a hexarag precursor phase, and provides new insights into the long-debated mechanism of metastable aragonite formation in dynamically evolving (bio)geologic environments.",
+        "keyPoints": [
+          "Electron microscopy and structural modeling reveal calcite-like stacking layers in early aragonite and hexagonal aragonite across calcite twin interfaces in natural deposits.",
+          "Transitional calcite–aragonite structures support a precursor pathway for metastable aragonite formation under evolving geological conditions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04166-8",
+        "journal": "Communications Earth & Environment",
+        "region": "Berger Károly cave, Hungary; Sonnenberg, Italy; Erzberg, Austria",
+        "method": "Electron microscopy; structural modeling; oxygen isotope analysis",
+        "onlineDate": "2026-11-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Sedimentary controls on pyrite sulfur isotopes in euxinic settings",
+        "doi": "10.1038/s43247-026-04178-4",
+        "authors": "Virgil Pasquier, Itay Halevy, Johanna Marin-Carbonne, Clive Jones, Jennifer Houghton, Alexander V. Dubinin, Alexey Klyuvitkin, David A. Fike",
+        "abstract": "Pyrite is widely used to reconstruct ancient euxinic (anoxic and sulfidic) conditions, yet whether its sulfur isotope composition ( δ 34 S) preserves primary water-column signals remains debated. Here, we show combined bulk and microscale δ 34 S data from pyrite grains collected across the Black Sea water-column and deep-basin sediments. Water-column-derived pyrite consists exclusively of framboidal grains with narrow size and δ 34 S ranges, consistent with formation from local aqueous sulfide and minimal alteration during nucleation and settling. Upon sedimentation, however, these grains undergo progressive textural and isotopic modification. With increasing burial, framboids are supplemented by larger, more 34 S-enriched recrystallized grains formed during dissimilatory sulfate reduction in diffusion-limited sedimentary microenvironments. Only ≈17% of pyrite grains that match WC framboids in size, texture, and δ 34 S signature retain a water-column-consistent isotopic composition in the uppermost sediment, declining to ≤4% at depth. Sulfide profiles and gene abundances further indicate that most water-column sulfide diffuses upward from sediments. Consequently, δ 34 S records from black shales likely integrate complex diagenetic histories rather than reflect direct snapshots of WC chemistry.",
+        "keyPoints": [
+          "Bulk and microscale sulfur isotope data show that Black Sea pyrite undergoes progressive recrystallization and isotopic modification after deposition.",
+          "Only about 17% of matching grains retain water-column-consistent signatures in uppermost sediment, falling to 4% or less at depth; black shale records therefore integrate diagenetic histories."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04178-4",
+        "journal": "Communications Earth & Environment",
+        "region": "Black Sea",
+        "method": "Bulk and microscale sulfur isotope analysis; sediment mineralogy",
+        "onlineDate": "2026-11-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Reduced, fluorine-enriched mantle preconditions giant tin mineralization",
+        "doi": "10.1038/s43247-026-04199-z",
+        "authors": "Jinyu Yan, Xinghua Ma, Honghui Wang, Jingwen Mao, Guiqing Xie, Bernd Lehmann, Yue Yin",
+        "abstract": "Mantle redox conditions and halogen budgets influence crustal ore formation, yet mantle domains beneath intraplate magmatic provinces remain poorly understood. Here we combine zircon oxybarometry and apatite halogen data from 1,515 zircon and 309 apatite grains in Mesozoic mafic rocks across South China to investigate the underlying mantle. We identify a previously unrecognized domain that produced reduced, fluorine-enriched mafic magmas. This domain lies distal to the Paleo-Pacific subduction front and coincides with the world-class South China tin province, contrasting with the more oxidized, less fluorine-enriched magmas of the continental-margin arc. We attribute this signature to metasomatic enrichment involving phlogopite-bearing assemblages. Such a mantle reservoir may precondition tin-fertile transcrustal magmatic systems by stabilizing divalent tin, suppressing tetravalent tin incorporation into early titanium-bearing minerals, and promoting tin enrichment in highly differentiated, fluorine-rich melts. These findings highlight the redox and halogen architecture of the mantle as a key deep-seated control on continental-scale tin metallogeny.",
+        "keyPoints": [
+          "Zircon and apatite data from South China identify a reduced, fluorine-enriched mantle domain spatially associated with the giant tin province.",
+          "This mantle reservoir may favor tin-fertile transcrustal magmatic systems by stabilizing divalent tin and enhancing enrichment in differentiated fluorine-rich melts."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04199-z",
+        "journal": "Communications Earth & Environment",
+        "region": "South China",
+        "method": "Zircon oxybarometry; apatite halogen analysis",
+        "onlineDate": "2026-11-04",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Sustained crustal helium enrichment associated with postseismic viscoelastic relaxation following the 2025 Myanmar earthquake",
+        "doi": "10.1038/s43247-026-04099-2",
+        "authors": "Hongyi He, Zhi Chen, Yujiang Li, Zihan Gao, Zhaofei Liu, Zhikeng Huang, Ke Zhang, Ying Li, Qingyong Luo",
+        "abstract": "Earthquakes can alter fluid flow far from a rupture, but the processes that sustain such changes for months remain uncertain. Here we report a sustained increase in gas-phase helium concentration at a thermal spring on the Red River Fault, about 600 kilometres from the 2025 magnitude 7.7 Myanmar earthquake. Minute-scale monitoring recorded intermittent fluctuations before the earthquake and a progressive concentration increase afterwards. Groundwater level, rainfall, atmospheric pressure and conservative estimates of instrumental drift do not reproduce this evolution. He–Ne isotope measurements from a nearby spring indicate that the added helium was predominantly radiogenic and crustal, with no resolvable increase in mantle contribution. Regional seismicity and stress calculations are consistent with time-dependent postseismic Coulomb stress loading of the Red River Fault, involving positive shear and extensional normal-stress changes. In the model, time-dependent lower-crustal relaxation produces postseismic stress changes comparable to the coseismic change within about a decade. Together, these observations suggest that prolonged crustal deformation, potentially reinforced by local earthquakes, contributed to the sustained far-field helium-concentration anomaly.",
+        "keyPoints": [
+          "Monitoring at a spring about 600 km from the 2025 Myanmar earthquake records sustained helium enrichment; nearby He–Ne isotope data indicate a predominantly crustal source.",
+          "Stress modeling and regional seismicity support prolonged postseismic deformation as a contributor to the far-field helium anomaly, without a resolvable rise in mantle helium."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04099-2",
+        "journal": "Communications Earth & Environment",
+        "region": "Red River Fault; Myanmar",
+        "method": "Continuous helium monitoring; He–Ne isotopes; Coulomb stress modeling",
+        "onlineDate": "2026-11-05",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation",
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Rapid transient uplift driven by active slab tear, southern Calabria, Italy",
+        "doi": "10.1038/s43247-026-04207-2",
+        "authors": "Rebecca J. Dorsey, Nathan D. Brown, Sergio G. Longhitano, Marco Meschis, Domenico Chiarella, Charles P. Ogle",
+        "abstract": "Southern Italy preserves a well-studied record of deformation and uplift related to migrating oblique collision, trench retreat, and tearing of subducted ocean slabs. However, the surface expression of these processes is incompletely understood due to a lack of reliable ages for marine terraces > 200 m above sea level. Here we use luminescence methods to date marine terrace sands from 118 to 955 m elevation in southern Calabria and interpolate the results with surface mapping. Burial ages overlap across the full range of sampled elevations with a weighted mean of 118.8 ± 8.7 thousand years before present. Calculated uplift rates vary from < 1 to ~ 12 mm yr −1 and throw rates on active normal faults are 0.8–4.2 mm yr −1 . We infer that rapid uplift is an ongoing isostatic response to active tearing in the Ionian slab, consistent with recent geophysical observations and predictions of geodynamic models. These results are useful for assessment of geohazards in southern Calabria and northeast Sicily, one of the highest seismic risk areas in the Mediterranean region.",
+        "keyPoints": [
+          "Luminescence ages of marine terraces from 118 to 955 m elevation cluster near 118.8 ± 8.7 ka, implying uplift rates from less than 1 to about 12 mm per year in southern Calabria.",
+          "Rapid uplift is interpreted as an ongoing response to Ionian slab tearing, with implications for geohazard assessment in Calabria and northeast Sicily."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04207-2",
+        "journal": "Communications Earth & Environment",
+        "region": "Southern Calabria, Italy",
+        "method": "Luminescence dating; marine terrace mapping",
+        "onlineDate": "2026-11-06",
+        "volume": "7",
+        "pdfLink": "https://www.nature.com/articles/s43247-026-04207-2.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Late Quaternary drainage reorganization of the Sutlej River system at the Himalaya mountain-foreland transition",
+        "doi": "10.1038/s43247-026-04204-5",
+        "authors": "Vimal Singh, Sampat K. Tandon, Debojyoti Basu Roy, R. J. Singh, Parv Kasana, Kartika Goswami, Manoj K. Jaiswal, Sanjay Pandey, Gyanendra Rai, H. S. Saini, Arkaprabha Sarkar, Andrew Carter",
+        "abstract": "The relative influence of tectonics and climate on the long-term evolution of Himalayan river systems remains debated. We investigated the Sutlej River, a major snow-fed tributary of the Indus River at its exit from the Himalayan Front. Using an integrated dataset of geomorphic mapping, subsurface stratigraphy, and Optically Stimulated Luminescence geochronology, we identify a previously misidentified uplifted surface (the Ropar Surface), abandoned paleovalleys and fluvial terraces. Our results show that the Sutlej River on long-timescales occupied multiple flow strands, including a west and a south-flowing strand. This drainage configuration was forced by tectonic uplift along a transverse structural zone linking segments of the Main Frontal Thrust. Notably, this drainage reorganization occurred through river bifurcation and avulsion between >60 and 15 ka—significantly predating the mid-Holocene collapse of the Harappan Civilization. These findings indicate that abandonment of the paleo-Sutlej was a prolonged tectonically controlled process rather than a short-lived climate-driven event, thereby querying existing models of Himalayan river network reorganization in the mountain to foreland transition zone that emphasised climate driven processes.",
+        "keyPoints": [
+          "Geomorphic, stratigraphic and luminescence data indicate Sutlej drainage reorganization through bifurcation and avulsion between more than 60 and 15 ka.",
+          "Tectonic uplift along a transverse structural zone drove prolonged abandonment of the paleo-Sutlej, challenging interpretations of a short-lived climate-driven reorganization."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04204-5",
+        "journal": "Communications Earth & Environment",
+        "region": "Sutlej River; Himalayan Front",
+        "method": "Geomorphic mapping; subsurface stratigraphy; optically stimulated luminescence dating",
+        "onlineDate": "2026-11-07",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Radioactive fallout legacy of nuclear tests in soils of the Southern Hemisphere",
+        "doi": "10.1038/s43247-026-04218-z",
+        "authors": "Aydoğan Avcıoğlu, Gerald Dicen, Surya Gupta, Christine Alewell, Olivier Evrard, Pierre Sabatier, Hélène Angot, Rosalie Vandromme, Olivier Cerdan, Katrin Meusburger",
+        "abstract": "Fallout radionuclide (FRN) archived in soils are key tracers of soil redistribution, sediment dynamics, and associated carbon fluxes, yet their global application is limited by poorly constrained baselines in the Southern Hemisphere. Here, we present the first hemisphere-scale baseline and uncertainty maps of 137 Cs and 239+240 Pu soil inventories. Predictions exhibited lower spatial variability and relative uncertaintyfor 137 Cs across most landscapes, whereas 239+240 Pu showed greater spatial variability and larger relative uncertainty. The reconstructed inventories revealed strong latitudinal and topographic gradients, with the highest predicted fallout occurring in tropical and mountainous regions. We further show, under a standardized hypothetical 50% inventory-loss scenario, that uncertainty in low-inventory regions can propagate nonlinearly into soil erosion and carbon-budget estimates, producing carbon budget biases of up to 19.8 t C ha −1 . These findings provide a new benchmark for Southern Hemisphere fallout radionuclide applications and a scalable framework for integrating spatial uncertainty into sediment tracing, soil degradation assessment, and carbon cycle studies.",
+        "keyPoints": [
+          "Hemisphere-scale maps reconstruct caesium-137 and plutonium-239+240 soil inventories, revealing strong latitude and topography dependence and larger relative uncertainty for plutonium.",
+          "Under a hypothetical 50% inventory-loss scenario, propagated uncertainty can bias carbon budgets by up to 19.8 t C per hectare, supporting explicit uncertainty treatment in sediment tracing."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s43247-026-04218-z",
+        "journal": "Communications Earth & Environment",
+        "region": "Southern Hemisphere",
+        "method": "Fallout radionuclide inventory mapping; uncertainty propagation",
+        "onlineDate": "2026-11-07",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ieee-transactions-on-geoscience-and-remote-sensing-2026-11",
+    "date": "2026-11-09",
+    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+    "issue": "November 2026",
+    "issueDate": "2026-11-06",
+    "source": "",
+    "articles": [
+      {
+        "title": "Seismic Random Noise Suppression in Angle-Domain Gather Using Phase-Reconstructed Deconvolutive Adaptive S-Transform",
+        "doi": "10.1109/tgrs.2026.3749504",
+        "authors": "Xuefeng Wu, Huixing Zhang, Bingshou He",
+        "abstract": "Random noise is a kind of irregular interference that widely exists in seismic data, and suppressing random noise can effectively improve the data quality, which in turn improves the accuracy of subsequent data processing and interpretation. Usually, the random noise in angle domain gather is randomly distributed, while the effective signals have certain similarity. To address this characteristic, we propose an adaptive time-frequency filtering method based on the phase-reconstructed deconvolutive adaptive S-transform (PDAST). The method first applies Lucy-Richardson deconvolution to the adaptive fast sparse S-transform (AST) to enhance time-frequency resolution, yielding the deconvolutive adaptive S-transform (DAST). It then estimates the phase information via weighted least squares, resulting in a PDAST representation that combines high resolution with invertibility. Leveraging the similarity of effective signals in the angle-domain gather within the time-frequency domain, a two-dimensional time-frequency filter is constructed through multi-trace stacking and adaptive thresholding to effectively suppress random noise. Time-frequency analysis on synthetic signals shows that the proposed DAST and PDAST achieve good resolution and noise robustness, and the phase estimated by PDAST allows signal reconstruction with an error below 1%. Denoising tests on synthetic models further demonstrate that the method can effectively suppress both full-band and finite-band random noise while preserving the effective signals to the greatest extent. Finally, the method is applied to field angle-stacked data for noise suppression followed by Teager-Kaiser energy attribute extraction. The results confirm its strong applicability and practicality.",
+        "keyPoints": [
+          "Phase-reconstructed deconvolutive adaptive S-transform filtering suppresses random noise in angle-domain seismic gathers while preserving coherent signals.",
+          "Synthetic and field tests support improved seismic data quality; phase reconstruction produces signal reconstruction errors below 1%."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3749504",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Seismic denoising; adaptive S-transform",
+        "onlineDate": "2026-11-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Seismic Inversion Method Based on Anisotropic Spatial-Structure Kriging with Autocorrelation Parameters of Random Media",
+        "doi": "10.1109/tgrs.2026.3749631",
+        "authors": "Baoli Wang, Yongqiang Tan, Jianwu Sun, Guangzhi Zhang, Xingyao Yin",
+        "abstract": "Subsurface media generally exhibit heterogeneity and anisotropic characteristics. The assumption that the spatial structure of subsurface media is isotropic does not conform to the actual spatial structural features of subsurface media. Considering the varying trends of spatial data in different directions, this paper integrates random media theory with the simple Kriging method to establish an anisotropic spatial structure Kriging interpolation method based on statistical characteristic parameters. First, logging data and seismic data are utilized to estimate the statistical characteristic parameters, which are employed to calculate the spatial correlation lengths and covariance functions of the subsurface medium in various directions, thereby yielding Kriging interpolation results that better match the actual spatial structural characteristics of the subsurface medium. Furthermore, this paper incorporates the Kriging interpolation results into the inversion objective function based on Bayesian theory. By using the QA-MCMC inversion algorithm, perturbation updates are performed on the objective function to obtain inversion solutions that satisfy the posterior distribution. Through comparative experiments with the traditional Kriging interpolation method, model tests and real data applications demonstrate that the Kriging interpolation results obtained by the proposed method more closely conform to the actual anisotropic spatial structural characteristics of the subsurface medium. The inversion results exhibit clearer thin layers and better lateral continuity, further verifying the feasibility and practicality of the method presented in this paper.",
+        "keyPoints": [
+          "Anisotropic spatial-structure kriging constrained by random-media statistics improves seismic inversion with clearer thin layers and better lateral continuity.",
+          "Model and field tests show that direction-dependent covariance constraints better represent subsurface spatial structure than conventional kriging."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3749631",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Seismic inversion; anisotropic kriging",
+        "onlineDate": "2026-11-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Pre-stack Inverse <i>Q</i> Filtering Method Constrained by Reweighted L <sub>p</sub> -Norm Regularization",
+        "doi": "10.1109/tgrs.2026.3749633",
+        "authors": "Xin Huang, Dongyong Zhou, Linkun Shi, Xiaotao Wen, Bo Li",
+        "abstract": "Subsurface medium absorption causes seismic wave energy attenuation, waveform distortion, and bandwidth compression, which significantly degrade the resolution of seismic data. For pre-stack seismic data, stratigraphic absorption attenuation varies with wave propagation paths, further distorting AVA response characteristics, reducing the lateral continuity of gathers, and further impair high-accuracy prestack reservoir characterization. To address this issue, this paper proposes a novel pre-stack seismic inverseQfiltering method based on reweighted Lp-norm regularization. First, we derive the forward modeling formula of prestack gathers in attenuative media under the horizontally layered medium assumption. Second, attenuation compensation is formulated as an inverse problem, and the Lp-norm regularization term is reweighted simultaneously. Finally, the alternating direction method of multipliers (ADMM) is utilized to obtain the optimal solution to achieve attenuation compensation of prestack seismic data. Targeting the sparsity of reflection coefficients, the proposed method takes reflection coefficients as inversion compensation objectives. By combining a reweighting function with the Lp-norm sparsity constraint, a reweighting matrix is dynamically constructed during iterations to adaptively adjust the strength of sparsity regularization. This enables accurate capture of reflection features at stratigraphic interfaces and full exploitation of amplitude information carried by reflection coefficients, ultimately achieving high-precision seismic attenuation compensation. Numerical model tests and field applications demonstrate that, compared with post-stack compensation and conventional L1-norm constrained inverseQfiltering, the proposed method effectively corrects amplitude and phase distortions and accurately recovers the AVA characteristics of pre-stack gathers. It achieves superior overall accuracy and noise robustness, and can furnish reliable data support for high-precision pre-stack seismic inversion and reservoir prediction.",
+        "keyPoints": [
+          "Pre-stack inverse-Q filtering with reweighted Lp regularization corrects amplitude and phase distortion and recovers AVA characteristics in numerical and field tests.",
+          "Improved compensation accuracy and noise robustness support high-resolution pre-stack inversion and reservoir characterization."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3749633",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Inverse Q filtering; regularization",
+        "onlineDate": "2026-11-02",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Fully and Partially Coherent Scatterers Detection: Theoretical Analysis and Performance Comparison on Very High Resolution SAR Data",
+        "doi": "10.1109/tgrs.2026.3750404",
+        "authors": "Simona Verde, Cosmin Danisor, Gianfranco Fornaro, Antonio Pauciullo",
+        "abstract": "Persistent Scatterers (PS) and Distributed Scatterers (DS) detection is a key step in Multitemporal Differential Interferometric Synthetic Aperture Radar (MT-DInSAR) processing for the monitoring from the space of slow displacements of ground scatterers on the Earth. Available detection approaches - Generalized Likelihood Ratio Test (GLRT), Squeeze-SAR (SqueeSAR) and Component Analysis and Selection SAR (CAE-SAR) based detectors - were all designed assuming the absence of decorrelation, i.e. they implement a Fully-Coherent Detection (FCD) scheme. Starting from the theoretical analysis available in the literature, in this work we derive a Partially-Coherent Detection (PCD) scheme able to cope with single and (unfiltered and filtered) multilook data. We compare, under a fixed false alarm level, FCD and PCD schemes on both simulated and real data associated to a X-Band COSMO-SkyMed interferometric dataset. The work aims to provides for the first time evidences on experimental data of the effect of weighting of complex interferometric pairs in the process of PS and DS detection. Presented results show that, accounting for scattering coherence according to well-known, albeit basic angular and temporal decorrelation models, may lead to improvements in the detection of PS and DS, at both full and reduced resolution.",
+        "keyPoints": [
+          "Partially coherent scatterer detection accounts for angular and temporal decorrelation in multitemporal differential InSAR.",
+          "Simulations and COSMO-SkyMed data show improved persistent and distributed scatterer detection, supporting monitoring of slow ground displacement."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3750404",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "SAR coherent-scatterer detection",
+        "onlineDate": "2026-11-04",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Fast Asymptotic Modeling of Remote Acoustic Reflections From TTI Reflectors in VTI Boreholes: Monopole Excitation",
+        "doi": "10.1109/tgrs.2026.3750643",
+        "authors": "Tian Lin, Jiaqi Xu, Hengshan Hu",
+        "abstract": "Acoustic remote-reflection logging is widely used for characterizing geological structures surrounding boreholes, but in anisotropic formations, reflected-wave propagation exhibits strong directional dependence and mode-coupling effects, and conventional numerical simulations become computationally expensive for large-scale remote-detection problems. Existing asymptotic studies mainly focus on isotropic or simplified anisotropic models, leaving a gap in fast analytical methods for reflections from tilted transversely isotropic (TTI) interfaces received in vertically transversely isotropic (VTI) boreholes. To address this, a high-frequency asymptotic method based on generalized ray theory and the method of steepest descent (MSD) is developed for remote reflections in VTI boreholes. Under far-field conditions, borehole radiation, interface reflection, and reflected-wave reentry are asymptotically treated via successive MSD approximations. Generalized ray theory with Snell’s law determines the reflection path, yielding a compact frequency-domain formulation that requires only a single inverse Fourier transform to obtain transient responses. Finite-difference simulations validate the asymptotic solution at the waveform level for TTI formations, demonstrating good agreement in reflected-wave arrivals and waveform characteristics under representative anisotropic conditions. The method is applied to the Mesaverde Group and Green River Formation to analyze remote reflection responses in realistic sedimentary environments.",
+        "keyPoints": [
+          "A generalized-ray asymptotic method models remote acoustic reflections from tilted anisotropic interfaces in vertically anisotropic boreholes.",
+          "Agreement with finite-difference simulations supports fast characterization of formations surrounding boreholes, with applications to Mesaverde and Green River sedimentary settings."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3750643",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Mesaverde Group; Green River Formation",
+        "method": "Borehole acoustics; anisotropic wave modeling",
+        "onlineDate": "2026-11-05",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Multi-Parameter Seismic Petrophysical Inversion Constrained by Rock Physics Modeling in Tight Sandstone Gas Reservoirs",
+        "doi": "10.1109/tgrs.2026.3750947",
+        "authors": "Han Jin, Zhiqi Guo, Zhifang Yang, Danyu Zhao, Cai Liu",
+        "abstract": "Accurate estimation of petrophysical parameters is critical for characterizing tight sandstone gas reservoirs. However, the complex relationships between petrophysical attributes and frequency-dependent elastic behaviors pose considerable challenges to reliable seismic prediction. To tackle this problem, this study develops a rock-physics-constrained seismic petrophysical inversion framework for the quantitative estimation of multiple reservoir parameters. A key feature of the proposed method is the integration of a frequency-dependent rock physics model into the forward modeling operator of seismic inversion. This comprehensive model incorporates the effects of mineralogical composition, pore structure, and mixed fluid distribution, and computes low-frequency elastic properties to guarantee frequency consistency for seismic-band modeling. Additionally, a model-based workflow is adopted to estimate microcrack porosity and fluid-patch parameter from well log data. These calibrated parameters, together with well-log-derived clay content, porosity, gas saturation, and permeability, are utilized to build initial models via Kriging extrapolation for Bayesian stochastic nonlinear inversion. Synthetic tests under both noise-free and noisy scenarios verify that the proposed method can reliably estimate petrophysical parameters, with inverted results consistent with the true models. Field seismic data applications further demonstrate that the inverted results match well with logging measurements. Overall, the integration of frequency-dependent rock physics modeling and Bayesian stochastic nonlinear inversion enables robust and quantitative multi-parameter characterization of tight sandstone gas reservoirs.",
+        "keyPoints": [
+          "Frequency-dependent rock physics and Bayesian stochastic inversion jointly estimate multiple petrophysical parameters in tight sandstone gas reservoirs.",
+          "Synthetic and field tests recover parameters consistent with reference models and well logs, supporting quantitative reservoir characterization."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3750947",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Seismic petrophysical inversion; rock physics",
+        "onlineDate": "2026-11-06",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Land-Ocean Transfer Learning for Global 1 Arc-Second DEM Super-Resolution",
+        "doi": "10.1109/tgrs.2026.3751156",
+        "authors": "Chaofan Yang, Chenhao Wu, Mingjun Yang, Bo Zhang, Danfeng Hong, Meng Zhang, Qi Wang, Xiaomeng Huang, Chenhu Huang, Haifeng Zhang",
+        "abstract": "High-resolution global digital elevation models (DEMs) are essential for coastal and marine research, yet publicly available global bathymetric DEMs remain limited to 15 arc-second resolution. Producing a seamless 1 arc-second global DEM is challenging because high-resolution marine DEM data are scarce and LR-HR DEM pairs often come from different elevation products. Unlike prior DEM super-resolution studies focused on regional or synthetic-degradation settings, we formulate global land–ocean reconstruction as real cross-product super-resolution and propose GSDEM, integrating land–ocean transfer learning with a Swin Transformer backbone, SimpleGate-based feed-forward design, and cascaded ×3 followed by ×5 reconstruction. GSDEM is pretrained on large-scale terrestrial DEMs and fine-tuned on coastal and marine DEMs to transfer terrain knowledge from land to ocean. Compared with marine-only training, land–ocean transfer learning reduces mean RMSE, MAE, and Slope RMSE by 18%, 19%, and 20%, respectively. Across ten spatially independent test regions, GSDEM achieves the lowest RMSE in all cases. Compared with representative CNN-, GAN-, and Transformer-based learning baselines, GSDEM reduces average RMSE, MAE, and Slope RMSE by 9%, 11%, and 12%, respectively, improves PSNR by up to 2.9 dB, and increases mean SSIM to 0.9985. Applying GSDEM to GEBCO 2025 generates GLOD-1s, a seamless global 1 arc-second land–ocean DEM of about 2.4 TB. ICESat-2 ATL24 validation yields an overall RMSE of 2.75 m, and NCEI trackline-based checks support stable deep-ocean reconstruction. GLOD-1s provides a high-resolution elevation baseline for global coastal and marine applications.",
+        "keyPoints": [
+          "Land–ocean transfer learning generates a global 1 arc-second DEM from GEBCO 2025 and reduces elevation errors relative to marine-only training.",
+          "Independent test regions and ICESat-2 validation support improved coastal and marine terrain reconstruction, providing a high-resolution global elevation baseline."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3751156",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global land and ocean",
+        "method": "DEM super-resolution; transfer learning",
+        "onlineDate": "2026-11-06",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Time-Lapse Seismic Inversion Based on Ensemble Smoother with Multiple Data Assimilation and Probabilistic Pattern Transformation",
+        "doi": "10.1109/tgrs.2026.3751180",
+        "authors": "Bo Yu, Jialiang Xu, Songling Li, Yamei Cao, Shichao Wang, Bing Zhang",
+        "abstract": "Ensemble-based inversion integrates information on reservoir dynamics with time-lapse seismic data to quantify subsurface property changes, supporting reservoir monitoring and remaining oil prediction. However, the Gaussian prior representation commonly adopted in these frameworks may inadequately capture the non-Gaussian characteristics of reservoir-induced parameter changes, which can compromise inversion accuracy. To address this issue, a probabilistic pattern transformation approach is proposed and incorporated into a time-lapse seismic inversion framework based on the ensemble smoother with multiple data assimilation (ESMDA), yielding PT-ESMDA. Using time-lapse ESMDA (T-ESMDA) as its basic framework, PT-ESMDA estimates relative impedance differences from the baseline and monitor seismic datasets. The proposed transformation keeps the model parameters Gaussian-distributed during ensemble updating and restores their distribution to that constrained by well-log data or reservoir dynamics after assimilation. PT-ESMDA can effectively address the mismatch between the non-Gaussian distribution of parameter differences and the prior Gaussian assumption underlying the ensemble-based model updater, thereby improving the accuracy of ensemble-based inversion. Synthetic experiments and 3D field data tests demonstrate that PT-ESMDA provides inversion results that match reservoir dynamics better than those obtained using conventional T-ESMDA.",
+        "keyPoints": [
+          "Probabilistic pattern transformation improves ensemble-based time-lapse seismic inversion by reconciling non-Gaussian parameter changes with Gaussian assimilation updates.",
+          "Synthetic and 3D field tests better match reservoir dynamics than conventional ensemble smoothing, supporting monitoring of subsurface property changes."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3751180",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Time-lapse seismic inversion; ensemble smoothing",
+        "onlineDate": "2026-11-06",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "A Multi-track InSAR deformation field mosaicking algorithm incorporating external GNSS constraints and a robust Kalman filter for mining areas",
+        "doi": "10.1109/tgrs.2026.3751214",
+        "authors": "Shuangcheng Zhang, Jingtao Li, Ning Liu, Zhipeng Ren, Jinzhao Si, Fan Wen, Sijiezi Li, Shuai Gao",
+        "abstract": "Interferometric synthetic aperture radar (InSAR) enables precise deformation mapping and has been widely used in mining areas. However, its limited single-track/frame coverage necessitates multi-orbit/frame mosaicking, which introduces inconsistencies in reference frames, viewing geometries and noise. To address these issues, we have developed a multi-orbit deformation field mosaicking algorithm framework. This framework integrates coherence-weighted observations, external GNSS constraints and a robust Kalman filter. It is specifically designed to enhance robustness in regions characterised by large-gradient deformation and sparse GNSS coverage. Between March 2017 and December 2023, we processed 3,852 Sentinel-1 interferograms covering six frames over the northern Shaanxi mining area. The inter-frame relative observation equation was derived by averaging overlapping regions using coherence weighting. Time series data from GNSS stations were used as absolute constraints, and a leave-one-station-out cross-validation strategy was adopted. In each fold, two stations were used as constraints, while the remaining station was completely withheld for validation. The robust Kalman filter then estimated frame-wise systematic deviations, yielding a vertically unified deformation field with spatial continuity. Validation against nine overlapping zones and leave-one-station-out GNSS validation demonstrated that the proposed method reduces the root mean square error (RMSE) in overlapping areas by 30.7% and decreases the RMSE and mean absolute error (MAE) relative to GNSS measurements by 30% and 28% respectively. The 95% confidence intervals were obtained by bootstrap resampling. We further compared the Kalman filter with least-squares adjustment and analyzed the effect of orbital incidence-angle differences on multi-track InSAR, and we discuss the limitations of constant-bias correction. Results show that the Kalman filter preserves the absolute GNSS datum more effectively than least-squares adjustment and mitigates overlap inconsistencies, while pixel-wise incidence angles reduce geometry-induced discrepancies. These results confirm the suitability of the framework for large-scale, high-precision deformation monitoring and risk management in mining regions.",
+        "keyPoints": [
+          "GNSS-constrained robust Kalman filtering mosaics six InSAR frames over northern Shaanxi, reducing overlap RMSE by 30.7%.",
+          "Independent GNSS validation shows improved deformation accuracy and datum preservation, supporting large-scale monitoring of mining-induced ground motion."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3751214",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Northern Shaanxi, China",
+        "method": "InSAR; GNSS; robust Kalman filtering",
+        "onlineDate": "2026-11-06",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geophysical-journal-international-2026-11",
+    "date": "2026-11-09",
+    "journal": "Geophysical Journal International",
+    "issue": "November 2026",
+    "issueDate": "2026-11-06",
+    "source": "",
+    "articles": [
+      {
+        "title": "Left- and right-going wavefield separation of high-speed train seismic records using randomized Cadzow filtering",
+        "doi": "10.1093/gji/ggag475",
+        "authors": "Fan Yan, Xiaokai Wang, Wenchao Chen, Dawei Liu, Shengpei Xia, Jingrui Luo, Zhaodan Liu",
+        "abstract": "High-speed trains can serve as highly repeatable, low-cost seismic sources for subsurface imaging and monitoring along railway corridors. In viaduct settings, however, a passing train continuously excites multiple bridge piers, causing strong superposition of left- and right-going wavefields and severe crosstalk. As a result, train-passage records, despite their high signal-to-noise ratio, cannot be directly used. To address this limitation, we propose a wavefield-separation method based on randomized Cadzow filtering. The workflow integrates Radon-based apparent-velocity estimation, time flattening, local-block random permutation, and low-rank block Hankel reconstruction to separate left- and right-going wavefields in HST seismic data. Synthetic and field examples demonstrate that, compared with traditional methods, the proposed approach more effectively suppresses backward-propagating energy and wavefield crosstalk, while recovering unidirectional wavefields with improved continuity and greater amplitude and phase stability, leading to higher-quality virtual shot gathers and clearer dispersion images.",
+        "keyPoints": [
+          "Randomized Cadzow filtering separates opposing wavefields in high-speed-train seismic records and suppresses crosstalk in synthetic and field examples.",
+          "Improved wavefield continuity and amplitude-phase stability yield clearer virtual shot gathers and dispersion images."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag475",
+        "journal": "Geophysical Journal International",
+        "region": "method-focused",
+        "method": "Randomized Cadzow filtering",
+        "onlineDate": "2026-11-03",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag475/72894378/ggag475.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Reliability of Bootstrap-derived stress uncertainty bounds in focal mechanism inversion",
+        "doi": "10.1093/gji/ggag471",
+        "authors": "Zhenyue Li, Zewen Lang, Jichao Huang, Yongge Wan, Zhitong Jin, Xiangyun Guo",
+        "abstract": "Earthquake focal mechanisms provide important constraints on the crustal stress field. In stress inversion based on focal mechanism data, each mechanism contains two nodal planes, whereas the actual seismogenic fault plane is often difficult to identify. Consequently, Bootstrap resampling with random nodal plane selection is widely used to estimate uncertainties in stress inversion results. However, the reliability of these uncertainty bounds remains poorly understood. In this study, we evaluate the reliability of this approach using synthetic experiments and real fault-slip datasets. The results show that the reliability of Bootstrap-derived uncertainty bounds is jointly controlled by fault geometry and the true stress shape ratio (R). When seismogenic faults are distributed on both sides of the maximum compressive stress axis, the uncertainty bounds of principal stress orientations generally encompass the true solutions, whereas the uncertainty bounds of R may exhibit systematic biases depending on the true R value. By contrast, when faults occupy only one side of the fault space, the uncertainty bounds of both stress orientations and R may deviate from the true values. Further analysis indicates that this behavior reflects variations in the kinematic consistency between auxiliary-plane slip and the stress field under different R conditions, causing the influence of misselected nodal planes on inversion results to vary systematically. These findings highlight the importance of correctly identifying seismogenic fault planes and provide important implications for the interpretation of stress inversion uncertainties in practical applications.",
+        "keyPoints": [
+          "Synthetic and fault-slip tests show that bootstrap stress uncertainty depends jointly on fault geometry and the true stress shape ratio.",
+          "Random nodal-plane selection can yield biased uncertainty bounds, underscoring the importance of identifying seismogenic fault planes."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag471",
+        "journal": "Geophysical Journal International",
+        "region": "method-focused",
+        "method": "Bootstrap stress inversion; synthetic experiments",
+        "onlineDate": "2026-11-04",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag471/73016992/ggag471.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Sensitivity Kernels for Earthquake Coda-Correlation Wavefield Features and Applications to Global Seismology",
+        "doi": "10.1093/gji/ggag474",
+        "authors": "Zhi Wei, Sheng Wang, Thanh-Son Phạm, Hrvoje Tkalčić",
+        "abstract": "Seismic coda-correlation methods have revealed numerous body-wave-like features in globally stacked correlograms, offering new opportunities to constrain the structure of Earth’s deep interior. Unlike the common assumptions about the diffuse ambient noise field that enable reconstruction of surface waves, earthquake coda-correlation features arise from cross-terms in reverberating body waves of common slowness that share a subset of propagation legs. However, quantitative interpretation of these features for tomographic imaging has been hindered by the lack of distributed sensitivity kernels relating observed correlation signals to Earth heterogeneities. Here, we develop a forward modeling framework for the earthquake coda-correlation wavefield that bypasses conventional cross-correlation of late-coda waveforms. Our approach simulates correlation features directly by treating the time-reversed generating wavefield as a distributed source throughout Earth’s interior. The forward-modeled correlograms reproduce features obtained through conventional stacking with a significantly improved signal-to-noise ratio. Building on this framework, we derive finite-frequency traveltime banana-doughnut sensitivity kernels using adjoint methods, which quantify how correlation time measurements of correlation features depend on perturbations in P-wave velocity, S-wave velocity, and density. We compute sensitivity kernels for prominent correlation features (P*, ScS*, K*, and others) at station separations ranging from 30° to 180°. The kernels reveal extensive sampling of Earth’s mantle, outer core, and inner core, with spatial-sensitivity patterns fundamentally different from those of classical body-wave tomography. For antipodal station pairs, correlation features exhibit strong sensitivity throughout the deep interior, including regions poorly sampled by traditional seismic phases. Our results confirm that correlation features form through constructive interference of body-wave pairs with similar slowness, rather than representing Green’s functions between station pairs. This work establishes the theoretical foundation for coda-correlation tomography, enabling future three-dimensional imaging of Earth’s internal structure with unprecedented sampling of the deep interior. The sensitivity kernels provide a pathway to exploit the wealth of information contained in earthquake coda for high-resolution mantle and core tomography.",
+        "keyPoints": [
+          "Direct forward modeling and adjoint kernels quantify how earthquake coda correlations respond to velocity and density perturbations.",
+          "Correlation features sample the mantle and core differently from classical body waves, supporting future deep-Earth tomography."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag474",
+        "journal": "Geophysical Journal International",
+        "region": "Global",
+        "method": "Adjoint sensitivity kernels; coda correlation",
+        "onlineDate": "2026-11-04",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag474/73017009/ggag474.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Marine Gravity Field Refinement Using Iterative Frequency-Domain Combination",
+        "doi": "10.1093/gji/ggag480",
+        "authors": "Xiaodong Chen, Huizhong He",
+        "abstract": "High-accuracy marine gravity fields are essential for resolving fine-scale seafloor structures and supporting marine geophysical studies. However, the recovery of short-wavelength gravity signals from conventional satellite altimetry is limited by track spacing, measurement noise and filtering. The Surface Water and Ocean Topography (SWOT) mission provides dense wide-swath observations and improves the recovery of shorter-wavelength sea-surface slopes. Long-term multi-mission altimetry models, however, generally provide more stable gravity information at longer wavelengths. We therefore developed an iterative frequency-domain method that combines the medium- and long-wavelength component of DTU21 with the medium- and short-wavelength component of SWOT_04. A Gaussian low-pass filter and its complementary high-pass filter were used to combine the two models. Candidate cutoff wavelengths were tested at 1 km intervals. Quality-controlled National Centers for Environmental Information (NCEI) shipborne gravity observations were used only to select the cutoff wavelength. The minimum residual standard deviation (STD) of 4.25 mGal was obtained at 22 km. The final model was independently validated using Japan Agency for Marine-Earth Science and Technology (JAMSTEC) shipborne gravity data. The combined model achieved an STD of 3.83 mGal, compared with 4.11 mGal for SWOT_04 and 4.21 mGal for DTU21. This represents reductions of 6.8 per cent and 9.0 per cent, respectively. The combined model also had the lowest STD across all water-depth and distance-to-coast intervals. These results show that the proposed method combines the complementary spectral information of the two altimetry-derived gravity models and improves the accuracy of regional marine gravity fields.",
+        "keyPoints": [
+          "Frequency-domain combination of DTU21 and SWOT_04 gravity fields achieves a 3.83 mGal residual standard deviation against independent shipborne data.",
+          "Complementary wavelength information improves marine gravity accuracy relative to either input model across depth and coastal-distance intervals."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag480",
+        "journal": "Geophysical Journal International",
+        "region": "Marine",
+        "method": "Satellite altimetry; frequency-domain combination",
+        "onlineDate": "2026-11-05",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag480/73131078/ggag480.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "An Improved Iterative Gravity Inversion Method for Moho topography and Its Application to the South China Sea",
+        "doi": "10.1093/gji/ggag481",
+        "authors": "Hangtao Yu, Chuang Xu, Juntao Liang, Chunhong Wu",
+        "abstract": "Before inverting the Moho topography, the Parker-Oldenburg method requires the determination of appropriate inversion parameters, exponential term and low-pass filtering, in order to minimise the artificial smoothing introduced by these factors, which would suppress the genuine short-wavelength undulations of Moho topography. Previous research has tended to focus on addressing the individual impact of a single factor, whilst neglecting other factors. To address this, we proposed the PO-PSO method. This method builds upon the Parker-Oldenburg method, employing a particle swarm optimisation to determine the correction terms of Moho topography, thereby restoring the high-frequency features within the Moho topography. Synthetic tests show that, compared with the Parker-Oldenburg method, the Moho topography obtained by PO-PSO is closer to the synthetic model under both noise-free and noisy conditions, with an improvement in accuracy of 30∼32%. In practice, we utilised PO-PSO to invert the Moho topography of South China Sea. The results reveal that the Moho topography in the study area ranges from 4.59 to 27.85 km. When compared against multiple seismic profiles, the root mean square error of final model was 1.57 km. This represents an 11.8% improvement in accuracy compared to the initial model.",
+        "keyPoints": [
+          "Particle swarm optimization restores short-wavelength Moho structure in Parker–Oldenburg gravity inversion, improving synthetic accuracy by 30–32%.",
+          "The South China Sea model reaches 1.57 km RMS error against seismic profiles, an 11.8% improvement over the initial model."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag481",
+        "journal": "Geophysical Journal International",
+        "region": "South China Sea",
+        "method": "Gravity inversion; particle swarm optimization",
+        "onlineDate": "2026-11-06",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag481/73250936/ggag481.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Referential magnetohydrodynamics: Governing equations",
+        "doi": "10.1093/gji/ggag483",
+        "authors": "Matthew Maitra",
+        "abstract": "It is shown how the equations of magnetohydrodynamics within an aspherical body diffeomorphic to a ball may be posed with respect to a fixed spherical reference domain. Transforming the equations onto this computational domain produces what we term “referential” equations, which are more algebraically complicated than their physical cousins; on the other hand, the computational gain of this approach is to permit the use of powerful spectral representations of scalar fields on the unit ball, representations that are not readily available in aspherical geometries. The referential equations are derived and schematic discussion is given regarding aspects of their numerical solution. A numerical proof of concept then compares the proposed referential approach with body-fitted spectral-element calculations. For small and moderate departures from spherical symmetry the former is substantially cheaper at fixed accuracy, while its advantage diminishes as the deformation grows. The remaining numerical issues involved in extending this approach to full time-dependent MHD are then discussed.",
+        "keyPoints": [
+          "Mapping magnetohydrodynamic equations from aspherical bodies to a spherical reference domain enables efficient spectral representations.",
+          "Proof-of-concept calculations are cheaper at fixed accuracy for small to moderate shape departures, with diminishing gains at larger deformation."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag483",
+        "journal": "Geophysical Journal International",
+        "region": "method-focused",
+        "method": "Referential magnetohydrodynamic modeling",
+        "onlineDate": "2026-11-06",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag483/73264135/ggag483.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Memory-Efficient Deep-Learning-Matching Full Waveform Inversion for Field-Scale Datasets",
+        "doi": "10.1093/gji/ggag484",
+        "authors": "Sujith Swaminadhan, Sergey Fomel, Chao Li, Yangkang Chen",
+        "abstract": "Classical full waveform inversion (FWI) is sensitive to kinematic inaccuracies in the initial velocity model, converging to local minima due to cycle skipping when low-frequency data are absent. The recently developed deep-learning-matching FWI (DLM-FWI) framework mitigates this by dynamically bridging the phase gap between synthetic and observed data, utilizing a convolutional neural network (CNN) within the inversion loop as a robust kinematic preconditioner. However, because standard deep learning (DL) automatic differentiation (AD) engines scale poorly to large-scale wave equations, deploying DLM-FWI on practical field-scale data has been computationally prohibitive. To overcome this, we introduce a memory-efficient, hybrid computational workflow that interfaces the Flux machine-learning ecosystem with the Julia Devito Inversion framework (JUDI) finite-difference library. By decoupling the network’s AD graph from the physical solver and evaluating the chain rule strictly in the data domain, we avoid storing massive spatiotemporal wavefield histories. After verifying that this decoupled architecture maintains resilience to source-wavelet mismatch and ambient noise on the Marmousi2 synthetic model, we apply the workflow to the Mobil AVO Viking Graben Line 12 marine dataset to evaluate its practical scalability. Compared to classical L-BFGS FWI, the field-scale DLM-FWI results exhibit robust convergence, mitigation of shallow cycle-skipped artifacts, and geologically coherent structural continuity. This study addresses the gap between small-scale synthetic DL studies and field-scale 2D implementations, demonstrating that physics-guided matching strategies can be deployed in practice to improve FWI robustness on complex field datasets.",
+        "keyPoints": [
+          "Decoupling neural-network differentiation from the wave solver makes deep-learning-matching full waveform inversion memory-efficient at field scale.",
+          "Viking Graben results mitigate cycle-skipping artifacts and improve structural continuity, supporting practical deployment on complex seismic datasets."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag484",
+        "journal": "Geophysical Journal International",
+        "region": "Viking Graben",
+        "method": "Deep-learning-matching full waveform inversion",
+        "onlineDate": "2026-11-06",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag484/73264137/ggag484.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Regimes of rotating convection in an experimental model of the Earth’s tangent cylinder",
+        "doi": "10.1093/gji/ggag486",
+        "authors": "Rishav Agrawal, Martin Holdsworth, Alban Pothérat",
+        "abstract": "The flow in the liquid core of the Earth is controlled by the interplay between buoyancy and the Coriolis force due to planetary rotation. Fast rotation imposes the Taylor-Proudman Constraint (TPC) that opposes fluid motion across an imaginary cylindrical surface called the Tangent Cylinder (TC) obtained by extruding the equatorial perimeter of the solid inner core along the rotation direction, and up to the core-mantle boundary (CMB). Because this boundary is imaginary, however, mass and heat transfer through the TC, as well as the regimes of convection within the TC may differ from those inside a solid cylinder with well-defined boundary conditions. How to best model this peculiar boundary is to date unclear, and so is how its influence on the flow inside and outside the TC differs from that of canonical boundary conditions. This impedes our understanding of the flow in the polar regions of the core. To clarify this question, we mimic the TC geometry experimentally in the Little Earth Experiment 2 (LEE2), where the CMB is modelled as a cold, cylindrical vessel filled with water, with a hot cylinder inside it acting as the inner solid core. The vessel is filled with water so as to optically map the velocity field in regimes of supercriticality and rotational constraint consistent with those of the Earth (Rayleigh number up to $\\widetilde{R\\!a}=191$ times critical and ratio of inertial to Coriolis forces in the range 10−3 to 10−1). We find that although the regimes of convection within the TC broadly resemble those within a cylinder with solid impermeable insulating walls (CSIIW), the TC boundary introduces differences of particular significance in the context of the Earth’s core. The main new mechanism arises out of the baroclinicity near the cold lateral boundary of the vessel, which drives inertia at the outer boundary of the TC, as convection in the equatorial regions of the Earth’s core does. The baroclinicity just outside the TC suppresses the classical wall modes found in CSIIW and the inertia there causes an early breakdown of the TPC at the TC boundary. The breakdown appears locally at low supercriticality $\\widetilde{R\\!a}\\simeq 3$ and then over the entire TC surface at $\\widetilde{R\\!a}\\simeq 36$. The flow remains dominated by the Coriolis force even up to $\\widetilde{R\\!a}=191$, but inertia near the TC boundary drives a transition to geostrophic turbulence around $\\widetilde{R\\!a}\\simeq 36$. It also promotes the emergence of a few large structures, of similar topology to the flux patches observed in geomagnetic data. The heat flux escapes increasingly through the TC boundary as the TPC there becomes weaker. It eventually bypasses the axial heat flux and homogenises temperature laterally. This translates into a diffusivity-free scaling expressed in terms of the diffusivity-free counterparts of the Nusselt and flux-based Rayleigh numbers as $N\\!u^*\\sim (R\\!a_q^*)^{1/3}$, that is independent of rotation. Hence inertia driven by baroclinicity outside the TC provides a convenient route to geostrophic turbulence, which is otherwise difficult to reach in experiments. These results also highlight a process whereby the convection outside the TC may control turbulence inside it and bypass the axial heat transfer. We finally discuss how Earth’s conditions, especially its magnetic field may change how this process acts within the Earth’s core.",
+        "keyPoints": [
+          "Rotating tank experiments show that baroclinicity outside the tangent cylinder weakens its rotational constraint and promotes geostrophic turbulence.",
+          "Increasing lateral heat escape can bypass axial transport, suggesting that external convection helps control polar-core turbulence and heat transfer."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1093/gji/ggag486",
+        "journal": "Geophysical Journal International",
+        "region": "Laboratory; Earth core",
+        "method": "Rotating convection experiments",
+        "onlineDate": "2026-11-06",
+        "pdfLink": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggag486/73264160/ggag486.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seismological-research-letters-2026-11",
+    "date": "2026-11-09",
+    "journal": "Seismological Research Letters",
+    "issue": "November 2026",
+    "issueDate": "2026-11-05",
+    "source": "",
+    "articles": [
+      {
+        "title": "Teleseismic <i>P</i> -Wave Attenuation Along the East African Rift System: Strong Attenuation Within the Main Ethiopian Rift",
+        "doi": "10.1785/0220250304",
+        "authors": "Joseph S. Byrnes, Heather A. Ford, Gillian Haberli, Maryjo Brounce",
+        "abstract": "Remarkably strong anomalies in seismic properties of the mantle beneath the East African rift are plausibly explained by elevated mantle potential temperatures and/or the presence of partial melt. Previous studies have attributed strong attenuation to elevated temperatures that possibly extend as deep as the mantle transition zone. Although petrologic work clearly infers elevated temperatures, the ∼140°C anomaly is less than at many other hotspots. The anomalies in seismic velocity are stronger than can be explained by this modest excess in temperature, and hence additional mechanisms such as melt are often invoked. We measure the attenuation of a large dataset of teleseismic P phases stretching from the Arabian Platform to the Kaapvaal craton to constrain the nature of seismic anomalies beneath this plate boundary. Anomalies in attenuation are modest along our nearly 6000 km long profile, with the strong exception of the Main Ethiopian Rift (MER). We show that the anomalies in seismic velocity and attenuation beneath the Afar Depression and MER are jointly explained best by a relatively thin layer of high attenuation, akin to other regions of rifting, which we attribute to either “pre-melting” relaxation or an effect of an in situ melt phase. Because our data are path-integrated, thickness and QP trade off directly, and a thicker, more weakly attenuating region spread over hundreds of kilometers is an admissible end member. The opposite occurs further south—rifting occurs along the edges of the Tanzania craton and beneath Lake Malawi without strong attenuation, including beneath the Turkana Depression where the asthenosphere conditions must differ from the MER.",
+        "keyPoints": [
+          "Teleseismic measurements reveal exceptionally strong attenuation beneath the Main Ethiopian Rift along a nearly 6000 km profile.",
+          "Joint velocity and attenuation anomalies favor a thin high-attenuation layer linked to premelting relaxation or melt, although thickness–attenuation tradeoffs remain."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220250304",
+        "journal": "Seismological Research Letters",
+        "region": "East African Rift",
+        "method": "Teleseismic P-wave attenuation",
+        "onlineDate": "2026-11-02",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250304/8430752/srl-2025304.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Nonergodic Path Effects from 3D Ground-Motion Simulations of an <b>M</b> 8 Ryukyu Earthquake in Eastern Taiwan",
+        "doi": "10.1785/0220260149",
+        "authors": "Ming-Che Hsieh, Chih-Hsuan Sung, Yung-Ching Yang",
+        "abstract": "The Ryukyu subduction zone offshore eastern Taiwan possesses significant seismogenic potential, exemplified by the 1920 earthquake. However, the scarcity of near-field observations leaves the ground-motion characteristics of such mega-earthquakes poorly constrained, limiting the reliability of seismic hazard assessments. This study investigates long-period ground-motion characteristics of a potential M 8 Ryukyu earthquake using large-scale 3D ground-motion simulations. We simulated an M 8 scenario earthquake using characterized source models based on the “Recipe” procedure and conducted 3D finite-difference simulations for 192 source–velocity-model combinations, incorporating variations in hypocenter location, rupture velocity, asperity distribution, two tomographic velocity models, and topography. Varying the Gaussian source time function (STF) duration in postprocessing expands the dataset to 1728 scenarios. Synthetic waveforms were generated at 4950 virtual stations, producing more than 8.5 million synthetic ground-motion records, and analyzed using RotD50 spectral accelerations (SAs) at periods of 1.0, 3.0, and 5.0 s. Results indicate that rupture directivity and rupture velocity dominate the spatial variability of long-period ground motions, with parameter sensitivity exhibiting strong spatial nonuniformity across the study region. Calibration against the empirical CH20 ground-motion model (GMM) suggests Gaussian STFs of 2, 6, and 8 s provide the most consistent spectral representation for SA at 1.0, 3.0, and 5.0 s, respectively. The nonergodic path terms (δP2P) derived from two alternative velocity models, which capture the path effects of the deep 3D structure (VS≥2.4 km/s), reveal spatially consistent features, including a persistent amplification zone near Hualien linked to the Longitudinal Valley low-velocity structure, a deamplification belt along the Coastal Range and Central Range high-velocity material, and a frequency-dependent amplification in the Ilan Plain attributable to deeper crustal focusing or trapping rather than near-surface site effects. The workflow established here provides a transferable framework for refining GMMs and advancing nonergodic seismic hazard assessments in data-sparse subduction environments.",
+        "keyPoints": [
+          "Large-scale M 8 Ryukyu earthquake simulations show that rupture directivity and velocity dominate spatial variability in long-period shaking.",
+          "Persistent structural amplification and deamplification patterns support nonergodic hazard modeling in sparsely observed subduction environments."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260149",
+        "journal": "Seismological Research Letters",
+        "region": "Eastern Taiwan; Ryukyu subduction zone",
+        "method": "Three-dimensional ground-motion simulations",
+        "onlineDate": "2026-11-02",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260149/8430771/srl-2026149.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Strategies for Multiscale Seismic Monitoring in Alaska",
+        "doi": "10.1785/0220260199",
+        "authors": "Michael E. West, Derreck Gossett, Alexander Fozkos, Austin Holland, Sebin John, Ezgi Karasözen, Heather McFarlin, Nathaniel Murphy, Elisabeth Nadin, Sarah K. Noel",
+        "abstract": "Earthquake monitoring balances competing demands. Organizations must track small-scale seismicity visible on perhaps just a handful of sensors while assessing large earthquakes recorded globally. They must deliver authoritative information within seconds, while curating a research-grade catalog over decades. They need to remain operational precisely when communications, power, or cloud infrastructure may be degraded. These challenges are in tension and are particularly acute in Alaska. The region comprises 5%–10% of global seismicity. Station spacing varies by two orders of magnitude. Earthquake depths range from above sea level to below 200 km. A substantial fraction of seismicity occurs offshore and is essentially out of network. In late 2025, the Alaska Earthquake Center completed a ground-up rebuild of our acquisition, analysis, and product dissemination systems. We address the challenges above with a series of major design choices. Parallel on-premises and cloud-based deployments provide mostly independent paths for producing information. Detection algorithms are tuned to capture the full range of phase arrivals, whether they originate in our mission region or elsewhere in the world. Multiple association pipelines accommodate the wide range of station densities and tolerances for latent data. Together, they handle teleseismic earthquakes that spread arrivals across the region, routine in-state events, and in-state earthquakes large enough to benefit from using data from far outside our area of responsibility. Finally, we balance response time and event quality with a catalog workflow that allows the highest-quality real-time solutions to be published automatically, while lesser-quality events are held for review by the on-call seismologist, or for postprocessing during the final steps of catalog curation. Though our implementation is tailored to Alaska and remains a work in progress, our hope is that these strategies can help inform networks facing similar competing demands.",
+        "keyPoints": [
+          "The rebuilt Alaska monitoring system combines parallel local and cloud deployments with multiple association pipelines to handle contrasting station densities and earthquake scales.",
+          "Quality-dependent catalog release balances rapid automatic reporting with analyst review, offering strategies for networks facing competing operational demands."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260199",
+        "journal": "Seismological Research Letters",
+        "region": "Alaska",
+        "method": "Seismic network acquisition; phase association",
+        "onlineDate": "2026-11-02",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260199/8430739/srl-2026199.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Combining Seismic Scalograms and Phase Detection Probabilities to Improve Generalization of Deep Learning Classification of Local Explosions and Earthquakes",
+        "doi": "10.1785/0220260235",
+        "authors": "Chenglong Duan, Brandon Schmandt, Ross Maguire, Qingkai Kong",
+        "abstract": "Deep learning models can help mitigate the need for analyst intervention in seismic classification of local earthquake and explosion signals, but optimizing model performance across multiple localities is challenging. Here, we seek to advance multilocality classification through hyperparameter optimization, evaluation of training data selection, and incorporation of phase pick probabilities from a pre-existing deep learning model into the new source type classification models. One-branch and two-branch convolutional neural network model designs are tested with 16 local data sets, each containing earthquakes and shallow borehole explosions observed by the same receivers. The one-branch model uses a conventional input of time–frequency scalograms and the two-branch model adds vector inputs of P-wave and S-wave probabilities output from a pre-existing phase picking model, which are increasingly available in modern event detection workflows. Hyperparameters for the one- and two-branch models were optimized by a guided search algorithm. For in-distribution data tests spanning all 16 data sets, the two-branch model’s single-station balanced accuracy (95.7%) slightly outperforms the one-branch model (94.7%). In addition, the optimized two-branch model is simpler, with about half as many model parameters and faster convergence in training. Relative performance of the two-branch model increases for out-of-distribution tests (using a locality held out from training), with an average increase in single-station balanced accuracy from 84.4% to 87.6% across 16 held out localities. The two-branch model also substantially outperforms P/S amplitude ratio discrimination accuracy by 14% on average for out-of-distribution tests. The results suggest that the added context from phase detection probabilities, which are a common by-product of event catalog building, can provide an efficient means to improve generalization of event-type classification models when applied to new regions.",
+        "keyPoints": [
+          "Adding P- and S-phase probabilities to seismic scalograms improves held-out-locality earthquake–explosion classification accuracy from 84.4% to 87.6%.",
+          "The two-branch model uses fewer parameters and generalizes better, suggesting an efficient use of routine phase-picking outputs for event discrimination."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260235",
+        "journal": "Seismological Research Letters",
+        "region": "method-focused",
+        "method": "Convolutional neural networks; seismic scalograms",
+        "onlineDate": "2026-11-02",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260235/8430761/srl-2026235.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Scaling of Seismic Ground Motions Generated by Human Crowds",
+        "doi": "10.1785/0220260193",
+        "authors": "Asaf Inbal",
+        "abstract": "Human activities generate seismic ground motions that dominate the high-frequency (>1 Hz) seismic spectra in urban environments. Although vehicular and train traffic have been widely studied, the seismic signature of large pedestrian crowds remains less well quantified. Here, I analyze seismic recordings from dense urban networks in Japan and combine them with observations from outdoor gatherings in the United States and Israel to characterize crowd-generated seismic signals. Through clustering analysis of ground motions recorded by the dense Metropolitan Seismic Observation Network in the Tokyo metropolitan area, I identify distinct temporal and spatial patterns associated with vehicular traffic. I then examine 385 outdoor gatherings in the United States and 300 schools in Tokyo, together with observations from the 2021 Meron pilgrimage in Israel, a 100,000-person event that resulted in a deadly crowd crush. Crowd-generated seismic energy is strongest in the 1–2 Hz band, consistent with human walking frequencies. Distance-corrected seismic amplification factors scale approximately linearly with the logarithm of crowd size across five orders of magnitude but form two distinct populations: energetic outdoor protests produce larger distance-corrected amplification factors and stronger scaling than routine student activity in Tokyo schools, suggesting that crowd-generated seismic excitation depends on collective crowd behavior. This relationship provides a framework for using seismic observations to detect and characterize large human gatherings in urban environments.",
+        "keyPoints": [
+          "Seismic observations show crowd energy concentrated at 1–2 Hz and distance-corrected amplification scaling with the logarithm of crowd size.",
+          "Distinct scaling for protests and school activity indicates behavioral controls and supports seismic characterization of large gatherings."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260193",
+        "journal": "Seismological Research Letters",
+        "region": "Japan; United States; Israel",
+        "method": "Urban seismic networks; clustering",
+        "onlineDate": "2026-11-04",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260193/8433262/srl-2026193.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Seismic Evidence of the Transition from Debris Flow to Hyperconcentrated Flow at Mount Rainier, USA",
+        "doi": "10.1785/0220260021",
+        "authors": "Katherine M. Biegel, Elaine A. Collins, Kate E. Allstadt, Avery Conner, Amanda M. Thomas, Weston Thelen, Alexandra M. Iezzi, Scott Beason, Claire Todd",
+        "abstract": "Debris flows are a seasonal hazard in Tahoma Creek in Mount Rainier National Park, Washington, United States. We present seismic recordings spaced every 100–200 m along the path of a debris flow triggered by a glacial outburst on 15 August 2023. These recordings capture changes as the debris flow deposits ∼24,000 cubic meters of material along an ∼800 m stretch of channel, approximately 2.5 km from the glacial source. As the flow deposits material, the seismic signal onset shape associated with the debris flow snout recedes, resulting in an elongation of the delay between the signal onset and the peak amplitude from 100 to 300 s. In parallel, the peak frequency increases by more than 20 Hz, and energy below 20 Hz fades, indicating deposition of larger particles and changes in sediment concentration within the flow. We interpret these changes to correspond to the transition from debris flow to hyperconcentrated flow, a distinction based on sediment concentration by volume and on rheological criteria such as yield strength. We find that the frequency content of the seismic signal depends on grain size and sediment concentrations within the flow, among other factors, complicating the starting assumptions of many physical models of debris flows.",
+        "keyPoints": [
+          "Dense seismic recordings capture rising peak frequency and fading low-frequency energy as a Mount Rainier debris flow deposits sediment.",
+          "The signals indicate transition to hyperconcentrated flow and show that grain size and sediment concentration complicate seismic flow models."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260021",
+        "journal": "Seismological Research Letters",
+        "region": "Mount Rainier, USA",
+        "method": "Seismic monitoring of debris flows",
+        "onlineDate": "2026-11-05",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260021/8435001/srl-2026021.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Identify Potential Source Regions in the Nankai Trough Using Spatial Clustering Techniques",
+        "doi": "10.1785/0220260210",
+        "authors": "Chengjun Shen, Faqi Diao, Yuhao Xu, Zhigang Shao, Xiong Xiong",
+        "abstract": "Identification of potential source regions, pinpointing where large earthquakes are most likely to occur, is fundamental to seismic risk assessment. Previous results often suffer from significant uncertainties due to the limitations of individual observations. To address this issue, here we apply the self-organizing map method to the Nankai trough, which has been considered to have high-seismic potential. By integrating multisource observations (b value, slip-deficit rate [SDR], and cumulative slip deficit [CSD]), we cluster regions of low b value, high SDR, and large CSD to delineate potential source regions. We identify four potential earthquake sources along the Nankai trough. Among them, the Tokai segment shows the highest potential for generating earthquakes in the near future. Using pre-2011 observations, the identified source regions agree well with the rupture zone of the 2011 Mw 9.0 Tohoku-Oki earthquake, validating the reliability of this approach.",
+        "keyPoints": [
+          "Clustering b values, slip-deficit rates and cumulative slip deficits identifies four potential Nankai earthquake source regions, with Tokai showing the highest inferred potential.",
+          "Agreement with the 2011 Tohoku rupture zone using pre-event observations supports the combined-observation approach to source-region assessment."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1785/0220260210",
+        "journal": "Seismological Research Letters",
+        "region": "Nankai Trough, Japan",
+        "method": "Self-organizing maps; multisource clustering",
+        "onlineDate": "2026-11-05",
+        "pdfLink": "https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220260210/8434992/srl-2026210.1.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science-394-6824",
+    "date": "2026-11-09",
+    "journal": "Science",
+    "issue": "Volume 394, Issue 6824",
+    "issueDate": "2026-11-05",
+    "source": "",
+    "articles": [
+      {
+        "title": "Seafloor geodesy delineates fast megathrust relocking after the giant 2011 Tohoku earthquake",
+        "doi": "10.1126/science.aeg7301",
+        "authors": "Fumiaki Tomita, Tianhaozhe Sun, Motoyuki Kido, Takeshi Iinuma, Naoki Uchida, Yusaku Ohta, Ryota Hino, Jiangheng He, Kelin Wang",
+        "abstract": "How and when the subduction megathrust recovers its locking state after a great earthquake is important to understanding earthquake-cycle physics and future hazards. Here we report the delineation of the relocking process after the 2011 magnitude 9 Tohoku earthquake with 14 years of postseismic seafloor geodetic observations. These data, combined with onshore geodetic observations, analyses of repeating earthquakes, and numerical modeling, reveal how the recovery of locking is interrupted by afterslip on the megathrust and accompanied by stress relaxation in the viscoelastic upper mantle. The results indicate that the megathrust has already arrived at a locking state today similar to that before the earthquake despite the ongoing stress relaxation. The acquired knowledge aids understanding of megathrust earthquake cycles at other subduction zones.",
+        "keyPoints": [
+          "Fourteen years of seafloor geodesy, onshore observations and modeling reveal rapid megathrust relocking after the 2011 Tohoku earthquake, interrupted by afterslip.",
+          "The megathrust has returned to a locking state similar to its pre-earthquake state despite continuing mantle stress relaxation, refining constraints on subduction earthquake cycles."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1126/science.aeg7301",
+        "journal": "Science",
+        "region": "Tohoku subduction zone, Japan",
+        "method": "Seafloor and onshore geodesy; repeating earthquakes; numerical modeling",
+        "onlineDate": "2026-11-05",
+        "volume": "394",
+        "issueNumber": "6824",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "geodesy-crustal-deformation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-659-8139",
+    "date": "2026-11-09",
+    "journal": "Nature",
+    "issue": "Volume 659, Issue 8139",
+    "issueDate": "2026-11-05",
+    "source": "",
+    "articles": [
+      {
+        "title": "The deep Earth origin of the Great Unconformity",
+        "doi": "10.1038/s41586-026-11156-5",
+        "authors": "Santosh Dhungana, Nicolas Flament",
+        "abstract": "The Great Unconformity marks a globally extensive erosive surface linked to climatic shifts 1 and environmental transitions 2 that preceded the Cambrian explosion of life. The processes proposed to explain the formation of the Great Unconformity include glacial erosion during the Snowball Earth 1,3,4 , rifting and plume activity 5–7 , sea-level fall 8 and mantle-driven dynamic topography 6,9–11 . However, the dynamics of these processes have not been tested. Here we show that continental-scale uplift and subsidence associated with long-wavelength dynamic topography 12 due to mantle convection drove the formation and preservation of the Great Unconformity. Our models predict prolonged continental-scale Neoproterozoic uplift and long-term Phanerozoic subsidence for Laurentia, Baltica and North China. This vertical motion scenario is ideal for the formation and preservation of the Great Unconformity, which is a first-order surface expression of deep Earth processes. The predicted prolonged continental uplift throughout Cryogenian times would have resulted in marked erosion due to the action of glaciers 13 . The large area of Laurentia and limited deformation at its margins explain why the Great Unconformity is best preserved and documented there. Our models predict cycles of dynamic topography that are broadly reflected in preserved sediment volume across continents 1,14 , and open new avenues for understanding the environments of Cambrian animal diversification.",
+        "keyPoints": [
+          "Mantle-convection models predict prolonged Neoproterozoic uplift followed by Phanerozoic subsidence in Laurentia, Baltica and North China, favoring formation and preservation of the Great Unconformity.",
+          "Long-wavelength dynamic topography links deep Earth convection to continental erosion and sediment preservation, providing a framework for interpreting pre-Cambrian environmental change."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41586-026-11156-5",
+        "journal": "Nature",
+        "region": "Laurentia; Baltica; North China",
+        "method": "Mantle convection and dynamic topography modeling",
+        "onlineDate": "2026-11-04",
+        "volume": "659",
+        "issueNumber": "8139",
+        "pdfLink": "https://www.nature.com/articles/s41586-026-11156-5.pdf",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-geoscience-2026-11",
+    "date": "2026-11-09",
+    "journal": "Nature Geoscience",
+    "issue": "November 2026",
+    "issueDate": "2026-11-04",
+    "source": "",
+    "articles": [
+      {
+        "title": "Seismic evidence for double slab tears at the Neo-Tethyan subduction–collision transition",
+        "doi": "10.1038/s41561-026-02129-4",
+        "authors": "Haiqiang Lan, Gaoshan Guo, Ling Chen, Morteza Talebian, Lingkai Meng, Xiaofeng Liang, Bo Wan, Yang Chu, Yaguang Chen, Sebastien Chevrot, Jianfeng Yang, Frederic Mouthereau, Yifan Gao, Zimu Wu, Xu Wang, Naeim Mousavi, Jimin Sun",
+        "abstract": "The transition from oceanic subduction to continental collision is a key stage in the Wilson Cycle. Yet, key processes governing this transition remain unclear owing to sparse observations of structure at depth. One such process is detachment of the subducting slab, which influences both deformation and magmatism in the overriding plate. Here we present seismic tomographic images that we interpret as evidence for two slab tears beneath southeastern Iran, where the Neo-Tethys Ocean is closing. Specifically, we show that in the Makran subduction zone, the oceanic lithosphere has continuously subducted to depths of at least 450 km, whereas in the Zagros collision zone to the west, the continental lithosphere has subducted no deeper than 300 km, resulting in east–southward slab tearing and detachment. We further identify another slab tear that probably initiated at the junction between the Makran Trench and the transform boundary and has propagated southward as the continental plate advances northward. The coexistence of these two tearing modes provides a rare snapshot of the short-lived early transition from oceanic subduction to continental collision.",
+        "keyPoints": [
+          "Seismic tomography reveals two interpreted slab tears beneath southeastern Iran, where the Makran slab extends to at least 450 km and the Zagros slab reaches no deeper than 300 km.",
+          "Coexisting tearing modes record an early subduction-to-collision transition and help constrain how slab detachment affects overriding-plate deformation and magmatism."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41561-026-02129-4",
+        "journal": "Nature Geoscience",
+        "region": "Southeastern Iran; Makran; Zagros",
+        "method": "Seismic tomography",
+        "onlineDate": "2026-11-04",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "earth-interior-rock-physics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-communications-2026-11",
+    "date": "2026-11-09",
+    "journal": "Nature Communications",
+    "issue": "November 2026",
+    "issueDate": "2026-11-04",
+    "source": "",
+    "articles": [
+      {
+        "title": "Earthquake-driven influx of organic matter enhances authigenic carbonate formation in hadal trenches",
+        "doi": "10.1038/s41467-026-79086-4",
+        "authors": "Yongxin Liu, Liguo Niu, Mingzhi Liu, Renbiao Tao, Chenxin Jing, Joel Johnson, Li Xu, Yong Guan, Yubin Hu, Min Luo, Ken Ikehara, Michael Strasser, Rui Bao",
+        "abstract": "Shallow marine carbonates are recognized as key agents in deep carbon cycling. However, the formation and burial of carbonates below the carbonate compensation depth still remain poorly understood. Here, we investigate carbonates from the > 7000 m water-depth Japan Trench hadal zone and find widespread authigenic calcium carbonate buried in these ultra-deep sediments. Stable and radiocarbon isotope depletions in the authigenic carbonates indicate an organic carbon (OC) source, likely primarily delivered by deep-sea landslides. Isotopic modeling suggests that subduction of these OC-derived carbonates can impart negative δ 13 C signatures to fluids released in the NE Japan subduction zone. The OC-derived carbonate flux in the Japan Trench is estimated to reach ~ 28.6 Tg C Myr –1 . We propose that earthquake-driven organic matter influx into the hadal zone may have facilitated sustained carbonate production. Thus, OC-derived authigenic carbonates in hadal trenches represent an underappreciated carbon sink and a potential mechanism for transferring OC into the deep Earth.",
+        "keyPoints": [
+          "Isotopic analyses identify organic-carbon-derived authigenic carbonates below 7,000 m in the Japan Trench, with an estimated flux of about 28.6 Tg C per million years.",
+          "Earthquake-driven organic matter delivery may sustain carbonate formation in hadal sediments, providing a carbon sink and a pathway for carbon transfer into the deep Earth."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-79086-4",
+        "journal": "Nature Communications",
+        "region": "Japan Trench; northeast Japan",
+        "method": "Stable and radiocarbon isotope analysis; isotopic modeling",
+        "onlineDate": "2026-11-03",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Scale-dependent pathways of the graphite-to-diamond transition",
+        "doi": "10.1038/s41467-026-79277-z",
+        "authors": "Di Wang, Bo Zhao, Xiaoran Zhang, Hui Liang, Hao Chen, Bingchao Yang, Xiaobing Liu, Quan Li, Yanming Ma",
+        "abstract": "The transformation from graphite to diamond is a paradigmatic pressure-induced structural phase transition in solids with fundamental insights in condensed matter physics, geoscience, and materials science. However, the atomistic pathway remains a subject of longstanding debate due to the challenge in observing the ultrafast nucleation process. To overcome the limitations of traditional high-pressure and high-temperature (HPHT) experiments, which rely on post-mortem analyses that obscure early-stage dynamics, here we combine metadynamics simulations with HPHT synthesis using dimensionally distinct carbon precursors to elucidate the microscopic nucleation and growth mechanisms. Our simulations reveal scale-dependent transformation pathways in which fluctuations in interlayer bonding precede the formation of persistent sp 3 -bonded diamond-like nuclei. Experimentally, by exploiting the radial confinement of multi-walled carbon nanotubes to suppress growth kinetics, we successfully capture the elusive nucleation stage, identifying 2–6 nm diamond nuclei. Using highly oriented pyrolytic graphite, we demonstrate a temperature-driven shift from interlayer to intralayer growth, which subsequently governs the genesis of twin boundaries and hexagonal diamond lamellae during final grain coalescence. These findings not only reconcile disparate theoretical models regarding the kinetic pathway but also establish a robust, precursor-mediated framework for the microstructural design of high-performance diamond materials.",
+        "keyPoints": [
+          "Metadynamics and high-pressure synthesis reveal scale-dependent graphite-to-diamond pathways; confined carbon nanotubes preserve diamond nuclei only 2–6 nm across.",
+          "A temperature-driven shift between interlayer and intralayer growth explains twin boundaries and hexagonal diamond lamellae, reconciling competing transformation models."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-79277-z",
+        "journal": "Nature Communications",
+        "region": "Laboratory",
+        "method": "Metadynamics simulations; high-pressure high-temperature synthesis",
+        "onlineDate": "2026-11-03",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Pressure-driven regime shifts in graphitization rewrite carbon fate during metamorphism",
+        "doi": "10.1038/s41467-026-79246-6",
+        "authors": "Yuhui Wang, Suping Yao, Takashi Yoshino, Jian Cao, Xiaoling Wang, Xiang Qin, Yuqiu Yang, Ming Lei, Yang Liu, Chang Xu, Xi Zhang, Ning Zhu",
+        "abstract": "The fate of organic carbon at convergent margins depends in part on its transformation into relatively inert graphite, yet the influence of precursor composition remains poorly constrained. Here we show that two organic precursors, vitrinite and liptinite, follow distinct graphitization pathways under high-pressure and high-temperature conditions. Vitrinite undergoes progressive structural ordering, whereas liptinite transforms more slowly at intermediate pressures owing to inherited defects and inhibited structural coalescence. Although both precursors respond strongly to pressure, their chemistry governs transitions between the processes that ultimately limit transformation rates. In this work, we develop a precursor-specific kinetic framework that integrates graphitization along geological pressure-temperature histories. Applications to representative Alpine tectonic units indicate that graphitization can continue during post-peak decompression or reheating. Precursor-dependent path integration further influences the modeled partitioning between graphite-like carbon and low-order reactive carbon fluxes. These results highlight how precursor chemistry and geological history jointly control carbon ordering, retention potential, and flux partitioning at convergent margins.",
+        "keyPoints": [
+          "High-pressure and high-temperature experiments show distinct graphitization pathways for vitrinite and liptinite, with precursor chemistry controlling rate-limiting processes.",
+          "A precursor-specific kinetic framework predicts continued graphitization during decompression or reheating, linking geological history to carbon retention and flux partitioning."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-79246-6",
+        "journal": "Nature Communications",
+        "region": "Alpine tectonic units; Laboratory",
+        "method": "High-pressure high-temperature experiments; kinetic modeling",
+        "onlineDate": "2026-11-04",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "tectonics-geodynamics"
+        ]
+      },
+      {
+        "title": "Global MORBs reveal a warmer present-day ambient mantle and moderate secular cooling of Earth",
+        "doi": "10.1038/s41467-026-79310-1",
+        "authors": "Jérôme Ganne, Ross N. Mitchell, Xiaojun Feng, Prince O. Amponsah",
+        "abstract": "Earth’s mantle temperature controls melting, crust formation and planetary cooling, but its present-day ambient value remains debated. Most geodynamic models assume ~1350 ± 50 °C, calibrated indirectly from experiments and the 6–7 km thickness of oceanic crust. Here we show, using primary-magma thermobarometry on >16,000 mid-ocean ridge basalts—seafloor lavas erupted where tectonic plates diverge—that only ~1% preserve primitive compositions that constrain mantle temperature. Under reduced redox conditions, these melts imply ~1421 °C, a value that would generate crust much thicker than seismic observations unless part of the melt is retained or crystallizes below the seafloor. More oxidized conditions lower estimates to ~1390 °C, reconciling basalt chemistry, crustal thickness and thermobarometers. Comparison with Palaeoproterozoic basalts suggests <150 °C of mantle cooling over 2 billion years. Present-day mantle is therefore modestly warmer than the canonical assumption and is better described by a dominant temperature range, with variability, than by a single value.",
+        "keyPoints": [
+          "Thermobarometry of over 16,000 mid-ocean ridge basalts identifies about 1% as primitive; inferred ambient mantle temperatures vary from about 1,390 to 1,421 °C with redox assumptions.",
+          "More oxidized conditions reconcile basalt chemistry with oceanic crustal thickness, while comparison with Palaeoproterozoic basalts suggests less than 150 °C cooling over 2 billion years."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-79310-1",
+        "journal": "Nature Communications",
+        "region": "Global mid-ocean ridges",
+        "method": "Primary-magma thermobarometry",
+        "onlineDate": "2026-11-04",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "volcanology-magmatism-geothermal",
+          "tectonics-geodynamics"
         ]
       }
     ]
@@ -278,7 +1622,7 @@ const reports = [
   },
   {
     "id": "journal-of-geophysical-research-solid-earth-131-11",
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "journal": "Journal of Geophysical Research: Solid Earth",
     "issue": "Volume 131, Issue 11",
     "issueDate": "2026-11-01",
@@ -508,12 +1852,283 @@ const reports = [
           "seismology-earthquakes",
           "earth-interior-rock-physics"
         ]
+      },
+      {
+        "title": "Tectonics on Early Earth Driven by Earth's Changing Shape During Tidal Recession of the Moon",
+        "doi": "10.1029/2025jb033676",
+        "authors": "S. J. Lock",
+        "abstract": "Few fragments of Earth's earliest crust have survived, and so this formative period of our planet's history is shrouded in mystery. To leverage the limited data available, it is important to understand all the processes that could have shaped our young planet. Here, I explore a previously neglected aspect of early‐Earth dynamics: rotation. Earth after the Moon‐forming impact was rapidly rotating with its rotation rate slowing significantly during the first tens of millions of years after the impact as the Moon tidally receded. Using planetary structure and tidal evolution calculations, I show that the initially distorted structure of Earth would likely have led to significant latitudinal variations in primary crustal thickness. Further, the subsequent changes in Earth's shape in response to its slowing rotation rate could have driven extensive tectonic activity and modulated the response of the crust to other forces. There was extension of the crust in polar regions and convergence in the equatorial regions at rates potentially comparable to those forming the Himalayas today in high‐angular momentum scenarios. Depending on the rheology of the earliest crust, such motions could have led to burial of hydrated and weathered surface material, extensive volcanism, and degassing of Earth's interior. Phase changes due to increases in internal pressure could have led to delamination of parts of the crust, producing early mantle heterogeneities. Hydrated secondary melting of the crust and the production of evolved magmas could explain the emergence of a diversity of rock types within tens of millions of years of Earth's formation.",
+        "keyPoints": [
+          "Earth's first crust would have been thicker at the equator than at the poles due to the planet's rapid rotation",
+          "Change in Earth's shape as its day lengthened provided a strong driver for tectonics during the first millions to tens of millions of years",
+          "Such tectonics could have led to production of more‐felsic rocks and chemically‐distinct mantle domains shortly after Moon formation"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2025jb033676",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Early Earth",
+        "method": "Planetary structure and tidal evolution modeling",
+        "onlineDate": "2026-11-02",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JB033676",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Contrasting Effects of Propagating Versus Focused Uplift on Himalayan Erosion",
+        "doi": "10.1029/2026jb033902",
+        "authors": "Yuqiang Li, Xiaoping Yuan, Chuanqi He, Xiaoming Shen, Junfeng Zhang",
+        "abstract": "The Himalayas have undergone rapid uplift, intense orographic precipitation, and enhanced erosion since the Miocene. Observed correlations among deformation, precipitation, and erosion have motivated contrasting interpretations, ranging from long‐term feedbacks between denudation and ductile crustal extrusion to models dominated by brittle thrust accretion. Here, we distill these competing hypotheses into two end‐member uplift styles—spatially propagating uplift and focused uplift—and use a coupled numerical model of prescribed uplift, orographic precipitation, and surface processes to simulate landscape evolution in the Nepalese Himalaya. Both uplift models reproduce first‐order geomorphological observations, low‐temperature cooling ages, and transient correlation among uplift, precipitation, and erosion. Despite these similarities, the two uplift models yield systematically different long‐term behaviors. Propagating uplift model produces a nonsteady state landscape in which erosion does not balance uplift, whereas focused uplift model establishes a steady state. High‐temperature cooling ages increase gradually from the southern, presently tectonically active zone toward the northern suture under propagating uplift, but exhibit a sharp rise under focused uplift. In addition, propagating uplift model produces sufficient total rock uplift north of the tectonically active zone but underestimates uplift within the active zone, whereas focused uplift generates larger uplift within the active zone while underpredicting uplift farther north. Thus, rather than identifying a single preferred uplift mechanism, our results suggest that combining characteristics of propagating and focused uplift provides a plausible, but non‐unique, interpretation of Himalayan exhumation patterns. This study provides a comparative numerical framework for evaluating uplift‐erosion relationships in large orogenic systems.",
+        "keyPoints": [
+          "Both propagating and focused uplift models reproduce similar correlations among uplift, precipitation, and erosion",
+          "Propagating and focused uplift generate contrasting landscape states but similar first‐order river profile characteristics",
+          "High‐temperature thermochronology, total uplift, and erosion offer constraints for comparing these two uplift scenarios"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb033902",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Nepalese Himalaya",
+        "method": "Coupled uplift, precipitation and landscape-evolution modeling",
+        "onlineDate": "2026-11-02",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB033902",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "An Experimental Study of Particle‐Laden Jet Noise as an Analogue to Tephra‐Laden Volcanic Eruptions",
+        "doi": "10.1029/2026jb034118",
+        "authors": "Gilles Seropian, Julia E. Gestrich, Jörn Sesterhenn, Thomas J. Aubry, James Hickey, Markus Schmid",
+        "abstract": "Explosive volcanic eruptions produce vast amounts of acoustic energy, generally in the infrasound range. For sustained eruptions, infrasound is often dominated by jet noise, a form of noise similar to the sound from human‐made jet engines. Jet noise largely results from the combination of two sound‐producing components: fine‐scale turbulence (FST) and large‐scale turbulence (LST), with distinctive frequency spectra. FST and LST spectra successfully reproduce single‐phase jet noise data (gas‐only), but little research has been directed toward multi‐phase jets, like volcanic jets (gas with solid particles). Here, we report novel experiments investigating the noise produced by particle‐laden jets. We produced both pure‐air and particle‐laden jets (nozzle diameters: 3.5–8 mm) and recorded the resulting sound at observation angles 42–159° (where 180° is the jet's propagation direction). Fitting FST and LST spectra to the particle‐laden noise spectra was less accurate than in the pure‐air case. The most prominent difference is the absence of LST‐dominated noise at high observation angles. We hypothesize that the particles break down large‐scale structures in the jet, thus favoring FST noise generation. Slower jet exit velocities due to the presence of particles may also explain some of the discrepancies observed and will require careful constraining in the future. The effect of particles on jet noise was most easily measured at high observation angles, which are also the most challenging to monitor at active volcanoes. The experiments presented here mark a first step toward integrating experimental, numerical, and observational approaches, to unravel the acoustic signatures of volcanic eruptions.",
+        "keyPoints": [
+          "We performed novel laboratory experiments recording the noise from particle‐laden jets",
+          "The two‐source jet noise model fits the data well for the pure‐air case, but not the particle‐laden case",
+          "Large‐scale turbulence noise was absent from particle‐laden jet noise"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034118",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Laboratory",
+        "method": "Particle-laden jet experiments; acoustic spectral analysis",
+        "onlineDate": "2026-11-04",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034118",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal"
+        ]
+      },
+      {
+        "title": "Quantifying Posterior Uncertainty in Array‐Based Surface Wave Tomography: A Hybrid Strategy Combining Bootstrap and Resolution Matrix",
+        "doi": "10.1029/2026jb034339",
+        "authors": "Lei Pan, Xiaofei Chen, Zhengbo Li, Yanyan Zhang, Jiannan Wang",
+        "abstract": "Array‐based surface wave tomography has significantly enhanced the resolution of crustal imaging; however, rigorous quantification of posterior uncertainty in these regularized inversions remains a critical challenge. Conventional statistical methods, such as raw bootstrap resampling, often underestimate uncertainties in data‐sparse regions due to the dominance of regularization terms. This underestimation creates an artificial precision that risks misinterpreting inversion artifacts as robust structural features. To address this, we propose a hybrid uncertainty quantification strategy tailored for regional‐scale dense arrays, integrating data‐driven bootstrap resampling with model‐based resolution matrix correction. By utilizing the resolution matrix to explicitly debias the bootstrap variance, our approach provides a first‐order uncertainty metric for identifying and down‐weighting poorly constrained model estimates in the inversion's null‐space while retaining sensitivity to data inconsistencies in well‐resolved regions. We applied this workflow to ambient noise data from the ChinArray‐Himalaya project, extracting multimodal dispersion curves via the frequency‐Bessel (F‐J) transform. The derived hybrid uncertainty metric serves as a quantitative validity mask, successfully delineating reliable imaging regions for both fundamental and higher‐order modes, thereby facilitating objective, automated quality control for large‐scale data sets. Semi‐synthetic robustness tests further demonstrate that, unlike analytical or raw bootstrap methods, the hybrid strategy reliably distinguishes among data gaps (null‐spaces) and data conflicts. Ultimately, incorporating this resolution‐corrected uncertainty to weight subsequent 1D shear wave velocity inversions significantly suppresses regularization artifacts, laying a robust statistical foundation for constructing physically reliable 3D structural models.",
+        "keyPoints": [
+          "Raw bootstrap underestimates uncertainty in regularized array tomography because damping heavily dominates in data‐sparse regions",
+          "Our hybrid strategy uses the resolution matrix to correct bootstrap variance, yielding robust uncertainty proxies in the null‐space",
+          "This resolution‐corrected metric acts as a quantitative validity mask, distinguishing data‐supported features from inversion artifacts"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034339",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Himalaya; ChinArray",
+        "method": "Surface-wave tomography; bootstrap; resolution matrix; frequency-Bessel transform",
+        "onlineDate": "2026-11-04",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034339",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Novel Data‐Driven Receiver Function Clustering and Analysis Along the Alaska‐Aleutian Volcanic Arc",
+        "doi": "10.1029/2026jb034393",
+        "authors": "I. V. Wynn, H. A. Janiszewski, C. Wandasan, M. M. Haney, Diana C. Roman",
+        "abstract": "Constraining magma storage and transport through the entire crust at a variety of arc volcanoes is essential to understand how subduction parameters may influence these processes. However, constraints throughout the crust are often limited to volcanoes that either fortuitously have properties that illuminate the entire crustal system, or volcanoes where high‐resolution geophysical imaging has been performed. Seismic receiver functions (RFs) offer sensitivity to the whole crust independent of local seismicity distribution using a few instruments. However, near volcanoes, they are often complex, requiring detailed analysis and potentially non‐unique velocity model solutions. Here, we introduce a novel, data‐driven method to identify and map RF variability using spectral clustering and kernel logistic regression. We apply it to 16 volcanoes in the Aleutian arc, enabling systematic comparisons of RF patterns without need for detailed velocity modeling. We observe that a subset of these volcanoes has RF variability that is spatially well‐separated in the crust, while others appear to have minimal spatial organization. Based on comparisons with previous results, we find that the former tends to occur at volcanoes with relatively simple magma storage systems, and the latter at volcanoes with complex, multi‐layer storage. This suggests that our technique reveals first‐order variability in crustal magmatic architecture. Furthermore, the ability to recover spatially coherent RF patterns shows no clear correlation with along‐arc subduction parameters but instead appears associated with edifice morphology. This work establishes a systematic framework for comparing arc volcanic structure and a foundation for future RF velocity modeling, extendable to other heterogeneous settings.",
+        "keyPoints": [
+          "Receiver function clustering enables arc‐scale comparison of magmatic structure without local seismicity or velocity model inversion",
+          "Clusters at volcanoes with simple, laterally continuous magma systems are spatially coherent but overlap at complex, multi‐level systems",
+          "Clustering relates to edifice morphology rather than along‐arc tectonic trends, indicating volcanic form may relate to magma storage"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034393",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Alaska–Aleutian volcanic arc",
+        "method": "Receiver functions; spectral clustering; kernel logistic regression",
+        "onlineDate": "2026-11-04",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034393",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Denoising Teleseismic Data for Deep Earth Studies Using a Supervised Deep‐Learning Auto‐Encoder: A Case Study of Diffracted Waves From ULVZs",
+        "doi": "10.1029/2026jb034067",
+        "authors": "Stuart Russell, Katrin Hannemann, Carl Martin, Bennet Lindhorst, Waleed Esmail, Christine Thomas",
+        "abstract": "Seismic noise, particularly the microseism generated by the oceans, is a fundamental limitation on using short period (1–10 s) teleseismic data to study the deep Earth. Deep learning auto‐encoders have proven effective at denoising seismic data in other applications. Here, we provide a demonstration of their potential for improving the quality of deep Earth seismic data, using S diff post‐cursors generated by ultra‐low velocity zones (ULVZs) as a case study. We present a computationally efficient and accessible workflow, utilizing a supervised learning process with 1D synthetics and real, global seismic noise. This workflow does not require real teleseismic signals, which are limited in number and quality, and is computationally efficient, not requiring expensive 3D spectral‐element simulations. We present a series of example applications, finding the denoiser to be effective at removing noise and extracting S diff signal despite having not been trained with real teleseismic signals. Furthermore, we provide recommendations on how performance could be improved, including demonstrating transfer learning as an efficient and effective way to improve extraction of specific signals. Lastly we apply denoising to seismic data sampling known ULVZs, identifying previously unreported short‐period signals from several different ULVZs and obtaining observations of the Hawaiian ULVZ along a novel source‐receiver geometry from the East Pacific Rise to Japan, which is perpendicular to previous ray paths. These observations reveal previously undocumented frequency‐ and azimuth‐dependent S diff waveforms associated with ULVZs, demonstrating that denoising can expand observational constraints on deep Earth structure.",
+        "keyPoints": [
+          "A supervised auto‐encoder effectively separates noise and signal in teleseismic traces, elucidating otherwise obscured signals",
+          "Models trained only on global noise and 1D synthetics perform well in a variety of applications including outside of the training paradigm",
+          "We apply denoising to uncover novel ULVZ observations, including short‐period signals and data from a new source‐receiver geometry"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034067",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Deep Earth; Hawaii",
+        "method": "Supervised deep-learning auto-encoder; teleseismic diffracted waves",
+        "onlineDate": "2026-11-05",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034067",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Bayesian Calibration of Dynamic Models of Earthquake Sequences Using Observations From Past Large Earthquakes",
+        "doi": "10.1029/2026jb034422",
+        "authors": "Hojjat Kaveh, Oliver R. A. Dunbar, Jean‐Philippe Avouac, Andrew M. Stuart",
+        "abstract": "Physics‐based models of the earthquake cycle could be used for time‐dependent hazard assessment. For such an application, their parameters must be calibrated so that simulated earthquake sequences reproduce the statistics of past earthquakes, including recurrence statistics and magnitudes. This is challenging because the dynamics are described by nonlinear partial differential equations, initial conditions are unknown, and records of past earthquakes are sparse, incomplete, and noisy. To address this challenge, we present a Bayesian inverse‐problem framework to infer heterogeneous parameters in an earthquake‐cycle model from observations of past large earthquakes. Rather than matching a time‐series of individual events, we exploit ergodicity (long‐term statistics independent of initial conditions) and invert for stationary, spatially distributed summary statistics of event timing and slip, including mean interevent times, coefficients of variation, burstiness, and average coseismic slip, which are quantities that can in principle be estimated from paleoseismic and historical records. Observational noise and event‐detection thresholds are explicitly accounted for in the construction of these statistics. The inverse problem is solved using a derivative‐free ensemble Kalman inversion method, and uncertainty quantification is enhanced by an emulate–sample strategy that leverages machine‐learning for surrogate modeling, in which a Gaussian‐process surrogate of the parameter‐to‐statistics map enables efficient MCMC sampling without further expensive forward simulations. Synthetic experiments with realistic data noise suggest that the model parameters can be inverted from statistical quantities observable from paleoseismology at a limited number of observation points. The framework provides a principled and computationally tractable method to calibrate earthquake‐cycle models, providing a foundation for forecasting.",
+        "keyPoints": [
+          "We develop a Bayesian framework to infer earthquake‐cycle parameters from statistics of past large earthquakes",
+          "The method exploits stationary statistics to avoid estimating unknown initial conditions in chaotic systems",
+          "Ensemble Kalman inversion combined with surrogate modeling enables efficient uncertainty quantification"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034422",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Earthquake-cycle models",
+        "method": "Bayesian inversion; ensemble Kalman; Gaussian-process surrogate",
+        "onlineDate": "2026-11-05",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034422",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "Marine Sediment Imaging With Distributed Acoustic Sensing Offshore Central Chile",
+        "doi": "10.1029/2026jb034065",
+        "authors": "Clara Vernet, Diane Rivet, Alister Trabattoni, Marie Baillet",
+        "abstract": "In subduction zones, shallow crustal faults accommodate part of the tectonic deformation and modulate the distribution of marine sediments. The interplay between active faults and sedimentary basins influences seismic hazards and submarine landslides, making imaging these structures essential to constrain their geometry, physical properties, and contributions to regional geodynamic processes. Distributed acoustic sensing (DAS) offers an opportunity to passively image offshore sediments at high spatial resolution by converting submarine telecom cables into dense seismic arrays. DAS enables ambient seismic noise tomography with a hundred‐meter resolution, revealing detailed velocity structures with strong impedance contrasts and localizing diffracting structures, such as faults and basin edges. In this study, we combine different imaging techniques that rely on both ambient noise and earthquake records from over 2 years of continuous DAS data to investigate marine sediment structures offshore central Chile. We first analyze the scattered wavefields in earthquake recordings to locate structures of strong impedance contrast along the cable at sub‐kilometer scales. We then apply autocorrelation and cross‐correlation of ambient noise to associate those features with faults and basin edges that both produce scattering patterns. Finally, we analyze high‐resolution power spectral density to investigate the relationship between high‐frequency resonances, shallow sedimentary deposits, local attenuation, and basin‐edge effects, and we validate our interpretations using numerical simulations. Together, these methods reveal sedimentary accumulations within basins and fault‐related structures, consistent with regional geological constraints, demonstrating the ability of DAS to resolve fine‐scale structures and its potential for studying offshore faults, sediment dynamics, and site effects.",
+        "keyPoints": [
+          "Crossing complementary distributed acoustic sensing methods enhance high‐resolution imaging of marine sediments and reveal local structures",
+          "Combining the analysis of earthquake scattered wavefields with ambient noise correlations allows to discriminate faults from basin edges",
+          "Comparing measured and simulated earthquake power spectral densities reveals high‐frequency resonances related to shallow sediment deposits"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034065",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Offshore central Chile",
+        "method": "Distributed acoustic sensing; ambient-noise correlation; earthquake scattering",
+        "onlineDate": "2026-11-06",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034065",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "3D Displacement From Shaded Relief Feature Offsets: Multi‐Decadal Deceleration and Secondary Mini‐Sliding at the Slumgullion Landslide, Colorado, USA",
+        "doi": "10.1029/2026jb034517",
+        "authors": "Xie Hu, Kristy F. Tiampo, Roland Bürgmann, William Schulz, Zhong Lu, Ryan Cassotto, Kathryn Materna, Liwei Hu, Zhuoyi Zhao",
+        "abstract": "The Slumgullion landslide in Colorado, USA, is a well‐known natural laboratory for studying mass‐wasting processes, owing to its ∼4 km length and sustained movement averaging a couple of centimeters per day over the past ∼300 years. However, key questions remain about how its margins and internal boundaries evolve, whether the headscarp still supplies material, and whether motion is accelerating or slowing over decadal timescales. Here we conducted offset tracking on light detection and ranging (LiDAR)‐derived shaded relief images to resolve three‐dimensional landslide displacements, revealing previously unrecognized secondary mini‐slides close to Slumgullion's margins. Comparing our results to those from previous displacement studies revealed the landslide's long‐term deceleration of motion since 1939. The secondary failures near the landslide margins and at the headscarp confirm continued material supply to the active slide. The Slumgullion landslide remains structurally dynamic with the maximum shear strain rates at ~1 yr −1 . Despite this activity, toe advance has decelerated by ∼36% since the 1990s. The approach provides a transferable framework for mapping three‐dimensional deformation using high‐resolution shaded relief images for landslides and other geohazards.",
+        "keyPoints": [
+          "Offset tracking on shaded relief images provides 3D landslide movements, revealing multiple mini‐slides close to the landslide margins",
+          "Slumgullion landslide's toe advance decelerated by ∼36% since 1990s",
+          "Slumgullion landslide exhibits high internal strain rates of ∼0.1 yr −1 , two orders of magnitude larger than other slow‐moving landslides"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034517",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Slumgullion landslide, Colorado, USA",
+        "method": "LiDAR shaded-relief offset tracking",
+        "onlineDate": "2026-11-07",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034517",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Wave‐Induced Fluid Flow Observations in Partially Saturated Unconsolidated Soils: Experiments and Modeling",
+        "doi": "10.1029/2026jb034639",
+        "authors": "Guillaume Flood‐Page, Santiago Solazzi, Luc Boutonnier, Jean‐Michel Pereira",
+        "abstract": "Geotechnical research has recently shown interest in the potential of seismic methods of estimating soil‐water content. However, it has so far failed to capitalize on existing studies conducted in the field of rock physics. Crucial wave dispersion mechanisms such as Biot's intrinsic dispersion or wave‐induced fluid flow (WIFF) are thus commonly disregarded. This paper first provides experimental evidence of compression wave dispersion in partially saturated soils. Then, an analytical model for Mesoscopic WIFF is successfully employed to reproduce experimental results, strongly supporting our hypothesis that mesoscopic wave‐induced fluid is responsible for the observed wave dispersion. Calibration of this model also provided a valuable insight into the distribution of pore fluids during the experiment: for water saturations above 99.9%, modeled gas‐filled patches were at the scale of individual pores whereas, for 90% water saturation, these gas‐filled patches were an order of magnitude larger, following a power‐law‐type relationship between size and saturation. Ultimately, this article underlines that (a) major wave dispersion mechanisms can be observed in soils, (b) valuable data can be inferred from observing wave dispersion in partially saturated soils and (c) research into these phenomena would benefit from closer collaboration between geotechnical and geophysical researchers.",
+        "keyPoints": [
+          "Observation of compression wave dispersion in partially saturated unconsolidated sands",
+          "A simple model for mesoscopic wave‐induced fluid flow satisfyingly reproduced observations",
+          "Observed power‐law between the size of the modeled gas patches and soil water saturation"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034639",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Laboratory soils",
+        "method": "Compression-wave experiments; mesoscopic fluid-flow modeling",
+        "onlineDate": "2026-11-07",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034639",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Interpreting Synthetic Aperture Radar Backscatter During Effusive Eruptions: Insights From Rift and Summit Activity at Kīlauea, Island of Hawai'i",
+        "doi": "10.1029/2026jb034913",
+        "authors": "E. W. Dualeh, S. K. Ebmeier, T. J. Wright, M. P. Poland",
+        "abstract": "Synthetic aperture radar (SAR) backscatter has particular advantages for monitoring the progression of effusive eruptions. It does not rely on cloud‐free or daytime satellite acquisitions and is particularly sensitive to surface roughness and local slope changes, providing complementary information to other sensors. However, it is currently less commonly used for volcano monitoring than differential phase, optical or infrared sensors due largely to ambiguities in interpreting radar backscatter signals: the physical properties of volcanic deposits are not simply relatable to magnitude or sign of backscatter change. Nevertheless, SAR backscatter has value for mapping and monitoring flow progression. Here, we carry out a retrospective SAR backscatter analysis of Kīlauea's 2021 summit lava lake and Pu‘u‘ō‘ō crater, including its lava lake and three eruptive episodes from 2011 to 2013, to test the potential of backscatter for mapping lava flow emplacement and tracking subsequent cooling, alteration, and lava lake changes. We examine the inflation and collapse events at Pu‘u‘ō‘ō crater during the same period to assess the geometrical limitations of extracting height measurements using radar shadows. We investigate corrections needed for backscatter analysis, including principal component analysis to reduce instrument‐dependent noise. Our analysis shows that SAR backscatter can provide temporally dense timeseries of crater depth estimates, estimate lava lake area, track lava flow emplacement, and potentially provide information about post‐emplacement changes. This makes backscatter a valuable data set, especially where ground‐based measurements are restricted and optical observations are limited due to cloud coverage, and is complementary to radar phase, coherence, and other SAR sensor data.",
+        "keyPoints": [
+          "Track lava flow emplacement using Synthetic aperture radar (SAR) backscatter timeseries, correcting for satellite‐dependent noise in COSMO‐SkyMed data",
+          "Characterize lava lake surface features and boundaries from SAR backscatter with a comparison across sensors of differing resolution",
+          "Examine effects of crater morphology and radar geometry on height estimates from radar shadow"
+        ],
+        "keyPointsSource": "official-publisher",
+        "link": "https://doi.org/10.1029/2026jb034913",
+        "journal": "Journal of Geophysical Research: Solid Earth",
+        "region": "Kīlauea, Hawai‘i",
+        "method": "SAR backscatter; radar shadow geometry; principal component analysis",
+        "onlineDate": "2026-11-07",
+        "volume": "131",
+        "issueNumber": "11",
+        "pdfLink": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2026JB034913",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "volcanology-magmatism-geothermal",
+          "geodesy-crustal-deformation"
+        ]
       }
     ]
   },
   {
     "id": "earth-and-planetary-science-letters-694",
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "journal": "Earth and Planetary Science Letters",
     "issue": "Volume 694",
     "issueDate": "2026-11-01",
@@ -643,6 +2258,26 @@ const reports = [
         "volume": "694",
         "researchAreas": [
           "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Towards assessing coseismic rupture potential from interseismic viscoelastic coupling",
+        "doi": "10.1016/j.epsl.2026.120323",
+        "authors": "Rumeng Guo, Yijun Zhang, Yang Xiao, Xiongwei Tang, Dechuan Liu, Ye Xu, Jihong Liu, Jingqi Wang, Jingwei Li, Jianqiao Xu, Heping Sun, Yong Zheng",
+        "abstract": "It remains unclear how the spatial variability in interseismic coupling contributes to assessing future seismic rupture patterns, such as the slip magnitude and rupture speed. The 2025 Mw 7.8 Myanmar earthquake provides a rare opportunity to address this question. Herein, we systematically integrate the viscoelastic deformation model, regional slowness-enhanced backprojection, finite fault inversion, and seismic waveform analysis to characterize the interseismic fault coupling and coseismic rupture history associated with the Myanmar event in detail. Our results reveal that the Myanmar event ruptured multiple segments of the Sagaing fault, involving two distinct phases: an initial bilateral rupture followed by a persistent supershear rupture. Notably, this stable supershear rupture spatially coincides with the seismic gap. The interseismic coupling model indicates that the gap is characterized by high stress buildup and low dissipated-to-potential energy ratio ${G}_{c}/{G}_{0}$ (i.e., fracture energy over static energy release rate), indicating a high readiness for supershear rupture. Moreover, the coseismic high-slip regions correlate closely with the strongly coupled zones. The accumulated slip deficit on each fault section since the last major earthquake scales with its respective average coseismic slip, revealing loosely slip-predictable behavior. Our study thus reveals the possibility of assessing the coseismic slip and supershear rupture potential of future earthquakes based on the interseismic coupling and rupture histories of fault systems.",
+        "keyPoints": [
+          "Joint geodetic and seismic modeling links the 2025 Myanmar earthquake’s supershear segment to high interseismic stress buildup and low dissipated-to-potential energy ratio.",
+          "Accumulated slip deficit scales with coseismic slip, suggesting that coupling and rupture histories can constrain future slip and supershear potential."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1016/j.epsl.2026.120323",
+        "journal": "Earth and Planetary Science Letters",
+        "region": "Sagaing fault, Myanmar",
+        "method": "Viscoelastic modeling; backprojection; finite-fault inversion",
+        "onlineDate": "2026-11-01",
+        "volume": "694",
+        "researchAreas": [
+          "seismology-earthquakes"
         ]
       }
     ]
@@ -2820,7 +4455,7 @@ const reports = [
   },
   {
     "id": "nature-communications-2026-10",
-    "date": "2026-11-02",
+    "date": "2026-11-09",
     "journal": "Nature Communications",
     "issue": "October 2026",
     "issueDate": "2026-10-30",
@@ -3052,6 +4687,25 @@ const reports = [
         "volume": "17",
         "pdfLink": "https://www.nature.com/articles/s41467-026-78464-2.pdf",
         "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Organic matter composition modulates its degradation under the combined effects of iron (oxyhydr)oxides and light",
+        "doi": "10.1038/s41467-026-79081-9",
+        "authors": "Dawei Cai, Yandi Hu, Caroline L. Peacock, Suona Zhang, Xudong Yang, Wen Liu, Peng Zhang, Quan Chen, Bo Pan, Jinren Ni",
+        "abstract": "The extent of organic matter (OM) degradation in sunlit surface soils and shallow marine sediments is critical to global carbon and nitrogen cycling. Association with iron (oxyhydr)oxides can reduce degradation, but the role of light in iron–OM interaction is underexplored. Here we show that OM composition determines contrasting responses to iron and light. Carboxyl- and/or hydroxyl-containing OM undergoes oxidation and decarboxylation, releasing carbon dioxide, whereas protein-like carboxyl–amine OM forms cross-linked products through condensation and polymerization, with only limited degradation. Iron and light promote oxidation–decarboxylation by enhancing electron transfer and visible-light absorption, while iron promotes protein unfolding and light may provide energy for polymerization. Under high-irradiance conditions equivalent to one-month cumulative daylight exposure, a conditional assessment of representative sunlight-exposed topsoil OM indicates potential carbon losses of ~8% for carboxyl- and/or hydroxyl-type OM versus ~1% for carboxyl–amine-type OM. Photochemically promoted amide formation may limit OM degradation and carbon loss, informing carbon management and process-based carbon cycle models.",
+        "keyPoints": [
+          "Experiments show that iron and light promote oxidation of carboxyl/hydroxyl organic matter, whereas carboxyl–amine compounds form cross-linked products with limited degradation.",
+          "Precursor composition controls photochemical carbon retention, helping constrain mineral–organic matter interactions in surface soils and shallow sediments."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41467-026-79081-9",
+        "journal": "Nature Communications",
+        "region": "Laboratory; surface soils and shallow marine sediments",
+        "method": "Iron–organic matter photochemical experiments",
+        "onlineDate": "2026-10-26",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
@@ -3396,6 +5050,774 @@ const reports = [
         "pdfLinkSource": "collector",
         "researchAreas": [
           "tectonics-geodynamics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ieee-transactions-on-geoscience-and-remote-sensing-2026-10",
+    "date": "2026-11-09",
+    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+    "issue": "October 2026",
+    "issueDate": "2026-10-29",
+    "source": "",
+    "articles": [
+      {
+        "title": "A 3D finite-difference method for borehole acoustic field in pre-stressed porous formations",
+        "doi": "10.1109/tgrs.2026.3739009",
+        "authors": "Zhiqiang Zhao, Jinxia Liu, Zhiwen Cui",
+        "abstract": "Understanding how in-situ stress affects acoustic wave propagation in fluid-saturated porous formations is important for stress evaluation in reservoirs by sonic logging. We developed a three-dimensional finite-difference time-domain (FDTD) method for borehole acoustic fields in pre-stressed porous formations. The model is based on the acoustoelastic theory of fluid-saturated porous media. We investigated the effects of uniaxial stress on monopole and dipole wavefields, and compared the acoustoelastic responses of dry and fluid-saturated formations. The simulations show that uniaxial stress changes the arrival times, attenuation, and dispersion characteristics of borehole waves. A crossover of flexural-wave dispersion curves under horizontal stress is observed, indicating stress-induced anisotropy. The waveforms and dispersion curves of flexural waves exhibit different responses to stress in dry and fluid-saturated formations. This suggests that fluid-solid coupling must be considered when using sonic logging to estimate stress in fluid-saturated formations. These results provide insights into acoustic wave propagation in a borehole surrounded by a pre-stressed porous formation.",
+        "keyPoints": [
+          "Three-dimensional finite-difference simulations show that uniaxial stress changes borehole-wave travel times, attenuation and dispersion in fluid-saturated porous formations.",
+          "Different flexural-wave stress responses in dry and saturated formations demonstrate the need to account for fluid-solid coupling when inferring reservoir stress from sonic logs."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3739009",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Finite-difference borehole acoustic modeling",
+        "onlineDate": "2026-10-01",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11717539",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "A Novel Electromagnetic Induction-Magnetometer Sensing Approach for Subsurface Conducting Target Detection",
+        "doi": "10.1109/tgrs.2026.3739203",
+        "authors": "Max Orman-Kollmar, Randall Reynolds, Rui Zhang, Benjamin Barrowes, Fridon Shubitidze",
+        "abstract": "This paper presents an approach that can be utilized for detecting deeply buried ferrous and non-ferrous targets by pairing a magnetometer with a time-domain electromagnetic induction (TDEMI) system. Detecting subsurface targets of interest (TOIs) such as munitions and explosives of concern (MEC), buried infrastructure, and mineral or ore deposits necessitates different sensing approaches due to their widely varying target sizes, depths, and material compositions. Since most TOIs contain metallic components, electromagnetic induction (EMI) and magnetometry are common approaches for detection and discrimination. However, both sensing modalities have inherent drawbacks: magnetometers are passive sensors, detecting only ferromagnetic objects through their perturbation of Earth’s magnetic field, and TDEMI systems have a limited detection depth. Magnetometers can possess high sensitivity, which allow for the discernment of small-magnitude perturbations, but magnetometer data provide limited information regarding the material properties of the target. TDEMI sensors, by contrast, are active systems that can detect the secondary field from conducting targets induced by the time-varying primary magnetic field of the sensor. However, the detection of the secondary field response is made difficult by both the signal’s spatial decay (as dictated by the physical limitations of induced dipoles) and its temporal characteristics (as dictated by sensor noise and target electrical properties). This paper investigates a combination of active EMI and rapidly sampled magnetometry to evaluate the feasibility of extracting late-time induced magnetic field responses from MEC, as well as specifically detecting non-ferrous targets with a magnetometer. A test setup was established to conduct repeatable and reliable data collection with a variety of targets, varying geometries, and testing different target material compositions. Target parameters were chosen to facilitate comparative simulations and modeling. Test stand data were subsequently collected, to compare both sensing modalities against each other, as well as different targets’ responses. Finally, targets responses were calculated and compared to the experimental data to verify that the observed data agreed with theoretical expectations. The data indicate that using a magnetometer in conjunction with a TDEMI system allows for deeper target differentiation, as well as sensing of non-ferrous materials with a magnetometer.",
+        "keyPoints": [
+          "Pairing time-domain electromagnetic induction with rapidly sampled magnetometry detects late-time induced responses and allows magnetometer sensing of non-ferrous targets in controlled experiments.",
+          "Comparisons with calculated target responses support deeper target differentiation, extending complementary electromagnetic and magnetic sensing for subsurface detection."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3739203",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Electromagnetic induction and magnetometer sensing",
+        "onlineDate": "2026-10-01",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11718859",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Robust Marine CSEM Signal Enhancement in Low-SNR Environments Using a Mixed Multistable Stochastic Pooling Network",
+        "doi": "10.1109/tgrs.2026.3739277",
+        "authors": "Yihan Tian, Wanyue Zhang, Fan Yang, Suyi Li",
+        "abstract": "The marine controlled-source electromagnetic (MCSEM) method is used to reconstruct deep subsurface resistivity distributions. However, low-frequency ambient noise and instrumental interference reduce the signal-to-noise ratio (SNR) of observed responses and degrade the stability of resistivity inversion. To address this noise-induced inversion degradation under low-SNR conditions, this study proposes a signal enhancement framework that integrates a mixed multistable stochastic resonance (MMSR) model with an adaptive stochastic pooling network (SPN). The MMSR model enhances the target-frequency components of MCSEM responses while suppressing uncorrelated noise. Parallel stochastic resonance nodes are constructed for multichannel signal fusion, allowing the framework to accommodate complex noise patterns. A recursive least squares (RLS) algorithm is then used to adaptively optimize the pooling weights for further signal enhancement. Synthetic results show that the MMSR-SPN method improves the average SNR by 13.79 dB and maintains consistent enhancement performance under varying noise levels. Field datasets further validate its practical applicability. The processed time-series waveforms exhibit more pronounced attenuation and periodic features, attaining a spectrum improvement ratio (SIR) of 14.2. The magnitude-versus-offset and phase-versus-offset curves become smoother and more continuous, and the derived inversion results are consistent with known stratigraphic records. Numerical simulations and field-data experiments confirm that the proposed framework effectively alleviates noise-induced inversion instability, providing a robust signal enhancement solution for geophysical electromagnetic exploration.",
+        "keyPoints": [
+          "A multistable stochastic-resonance and adaptive pooling framework improves average marine CSEM signal-to-noise ratio by 13.79 dB in synthetic tests and enhances field responses.",
+          "Smoother offset-dependent amplitude and phase curves yield inversions consistent with stratigraphic records, reducing noise-driven instability in subsurface resistivity interpretation."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3739277",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Marine CSEM signal enhancement",
+        "onlineDate": "2026-10-01",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11718790",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Novel imaging method based on acoustic vector phased array for detecting multiple anomalies around the well during drilling",
+        "doi": "10.1109/tgrs.2026.3739809",
+        "authors": "Teng Zhao, Gensheng Li, Xiaohua Che, Wenxiao Qiao, Junqiang Lu, Baiyong Men",
+        "abstract": "Real-time detection and evaluation of anomalies such as formation interfaces, faults, fractures, and adjacent wells around the well during drilling is a new requirement in petroleum engineering. The application of acoustic methods to detect anomalies around the well during drilling using deserves research attention. As one such method, existing acoustic reflection imaging while drilling technology suffers from low echo signal-to-noise ratio (SNR) and the insufficient azimuth resolution of the associated imaging method. In this study, by combining theoretical methods, numerical simulations, and experimental tests, a linear phased array (LPA) acoustic transmitter is used while drilling to enhance the acoustic energy radiated to the formation around the well, an acoustic vector phased array (AVPA) receiver is used while drilling to enhance the echo signal received from anomalies, and the acoustic compressed sensing (CS) imaging method while drilling is used to achieve high-resolution real-time localization of multiple anomalies in different azimuths around the well. The results show that the LPA acoustic transmitter can radiate acoustic energy into the formation in a direction perpendicular to the well axis. The particle velocity circumferential component receiving element weakens the direct wave while retaining the echo wave, considerably enhancing the SNR of PP echo. The azimuth resolution of the CS imaging method based on AVPA while drilling is higher than that of the existing three-dimensional spatial scanning imaging method, and the imaging SNR achieved is better than that of the CS imaging method based on an acoustic pressure arc array while drilling. This study will help realize the advancement from near-borehole detection to remote detection around the well during drilling.",
+        "keyPoints": [
+          "Acoustic phased-array transmission and vector reception improve reflection signal quality, while compressed-sensing imaging resolves multiple azimuthal anomalies around a drilling well.",
+          "Theoretical, numerical and experimental comparisons show higher azimuthal resolution than spatial scanning and improved imaging signal-to-noise relative to a pressure-array approach."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3739809",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Acoustic vector phased-array borehole imaging",
+        "onlineDate": "2026-10-02",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11719694",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Efficient Least-Squares Extended Reverse-Time Migration Based on Local Cross-Correlation Gradient Computation",
+        "doi": "10.1109/tgrs.2026.3740413",
+        "authors": "Weixin Yang, Bo Wang, Chongyang Han, Mingkun Zhang, Chi Fang, Wei Wu, Hui Zhou",
+        "abstract": "Least-squares reverse-time migration (LSRTM) improves upon conventional RTM by inverting for a reflectivity model that compensates for the Hessian blurring inherent in adjoint-based imaging. In data-domain LSRTM, however, each iteration requires cross-correlation of the source and adjoint wavefields at identical time steps, necessitating either full wavefield storage or costly reconstruction — a bottleneck that grows prohibitive for large-scale imaging problems. When the migration velocity model is inaccurate, the problem is compounded by cycle-skipping, which traps the inversion in local minima. To address both challenges, we propose a local cross-correlation gradient computation (LCGC) within the least-squares extended RTM (LSERTM) framework. By restricting the cross-correlation to a local time window around the excitation amplitude at each subsurface location, our method avoids source-wavefield reconstruction entirely: each iteration requires only one forward simulation and one adjoint migration. The subsurface-offset extension provides an additional degree of freedom that tolerates velocity errors of up to 10%. Memory demand is further reduced by applying Nyquist sampling to the stored local wavefields. We validate LCGC-LSERTM on layered and modified Marmousi-2 synthetic datasets under both accurate and inaccurate velocity models. With a time window spanning two wavelet periods, LCGC-LSERTM achieves imaging quality indistinguishable from conventional cross-correlation method while reducing the source-wavefield storage requirement to as low as 0.32%. The method matches the noise robustness and wavelet-mismatch tolerance of conventional approach and substantially outperforms excitation-amplitude gradient computation. Our results demonstrate that high-quality extended LSRTM imaging is achievable at a fraction of conventional memory and computational cost, making it practical for routine subsurface characterization even when the velocity model is only approximately known.",
+        "keyPoints": [
+          "Local cross-correlation gradient computation removes source-wavefield reconstruction from extended LSRTM, requiring one forward simulation and one adjoint migration per iteration.",
+          "Tests retain conventional imaging quality while cutting source-wavefield storage to as little as 0.32% and tolerating velocity-model errors up to 10%."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3740413",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Least-squares extended reverse-time migration",
+        "onlineDate": "2026-10-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721392",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Three-Dimensional Spectral-Element Forward Modeling of Induced-Polarization Transient Electromagnetic Responses Based on the Caputo Fractional Derivative and Sum-of-Exponentials Acceleration",
+        "doi": "10.1109/tgrs.2026.3740726",
+        "authors": "Xiaonan Zhang, Xiaoyue Cao, Liangjun Yan, Xin Huang, Xinyu Wang, Lei Zhou",
+        "abstract": "Induced polarization (IP) can produce slow late-time decay, negative transients, and polarity reversals in transient electromagnetic (TEM) data and therefore needs to be considered when interpreting sulfide mineralization, altered fracture zones, and other polarizable targets. This study develops a three-dimensional spectral-element formulation for grounded long-wire TEM electric-field responses in which the Cole–Cole conductive-polarization relation is expressed directly in the time domain using a Caputo fractional derivative. Nonuniform hexahedral spectral elements and high-order vector edge basis functions are used for spatial discretization. To avoid storing and repeatedly evaluating the complete fractional history, the weakly singular memory kernel is approximated by a sum of exponentials (SOE), yielding recursively updated memory variables. The method is validated using a nonpolarizable layered earth, a homogeneous polarizable half-space, a polarizable lowr-esistivity layer, and three-dimensional polarizable bodies. At comparable degrees of freedom, the third-order SEM produces lower errors than the first-order FEM. Under matched numerical conditions, the SOE scheme reduces explicitly allocated fractional-history storage from 7924.91 to 257.25 MB (96.75%) and total runtime by 12.85%–18.17%, while preserving global response accuracy comparable to that of direct L1 convolution. Numerical experiments show that Ex is sensitive to the Cole–Cole parameters, resistivity contrast, target position, and target configuration. A generalized Jiaodong geology-constrained model further demonstrates identifiable late-time responses from deeply buried, low-resistivity, highly polarizable bodies. The proposed formulation provides an efficient forward-modeling basis for the interpretation and future inversion of IP-affected TEM data.",
+        "keyPoints": [
+          "A three-dimensional spectral-element TEM formulation represents Cole-Cole induced polarization with a Caputo fractional derivative and recursively updated sum-of-exponentials memory variables.",
+          "The acceleration reduces allocated fractional-history storage by 96.75% and runtime by 12.85%-18.17% while preserving the accuracy of direct L1 convolution."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3740726",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Spectral-element transient electromagnetic induced-polarization modeling",
+        "onlineDate": "2026-10-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721337",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Physics-informed blind deconvolution for seismic resolution enhancement based on zero-shot learning",
+        "doi": "10.1109/tgrs.2026.3740767",
+        "authors": "Wenshuo Yu, Shiqi Dong, Hongyuan Yang, Xintong Dong",
+        "abstract": "The limited seismic resolution significantly degrades thin beds identification and reservoir characterization. Conventional deconvolution methods often rely on manual parameter tuning, while supervised deep learning (DL) methods require extensive high-fidelity labels. Although some unsupervised methods reduce the dependence on labels, they often lack geophysical interpretability. In addition, most DL-based deconvolution methods assume a known wavelet, which limits their applicability in practical scenarios. To address these challenges, we propose a physics-informed blind deconvolution workflow for seismic resolution enhancement based on zero-shot learning. Specifically, a three-stage progressive optimization strategy is proposed. An initial wavelet is first estimated by amplitude spectrum constraints and phase scanning. A dual-stream time-frequency network (DSTFNet) is then warmed up with the wavelet fixed to obtain a reliable initial reflectivity. Finally, the wavelet and the network parameters are alternately updated to achieve joint refinement of the wavelet and the reflectivity. In addition, we construct a joint loss function consisting of a physics-constrained Huber loss, and an L1 sparsity loss, which enhances physical interpretability and robustness to noise. Experiments on synthetic and field data demonstrate that the proposed method exhibits strong generalization and robustness.",
+        "keyPoints": [
+          "The zero-shot blind-deconvolution workflow progressively estimates the wavelet, initializes reflectivity with a dual-stream time-frequency network, and jointly refines both quantities.",
+          "A physics-constrained Huber loss with L1 sparsity gives the method geophysical interpretability, noise robustness, and strong performance on synthetic and field seismic data."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3740767",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Physics-informed blind seismic deconvolution",
+        "onlineDate": "2026-10-06",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721215",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Large Vision Model–Guided Masked Low-Rank Approximation for Ground-Roll Attenuation",
+        "doi": "10.1109/tgrs.2026.3741082",
+        "authors": "Jiacheng Liao, Feng Qian, Yongjian Guo, Ziyin Fan",
+        "abstract": "Ground roll is a common type of coherent noise in seismic records, and its attenuation remains challenging due to its substantial overlap with useful reflections in localized regions. Existing attenuation methods can be broadly classified into global and local categories according to whether ground-roll-contaminated regions are explicitly identified. Global methods, however, typically impose uniform attenuation on both contaminated and uncontaminated regions, which may result in signal leakage or distortion of reflections. By contrast, local methods restrict attenuation to contaminated regions and are therefore less prone to unnecessary modification of clean areas. However, their performance is often limited by manually designed or simplistic model-based mask estimation strategies. To address these limitations, we propose a large vision model-guided masked low-rank approximation (LVM-LRA) framework for ground-roll attenuation. Within this framework, a promptable LVM is first employed to identify ground-roll-dominant regions in seismic records through multimodal prompting and to generate accurate, fine-grained masks. The estimated masks are then incorporated into an LRA model for ground-roll attenuation. A global low-rank constraint is imposed on the reflection component to preserve event continuity, whereas a mask-guided local low-rank constraint is imposed on the ground-roll component so that its separation is confined to the masked regions. An iterative optimization algorithm based on the alternating direction method of multipliers (ADMM) is further developed to solve the resulting model efficiently. Experiments on synthetic and field datasets demonstrate that the proposed method achieves more effective ground-roll attenuation and better suppresses signal leakage than the baseline methods.",
+        "keyPoints": [
+          "LVM-LRA uses a promptable large vision model to delineate ground-roll regions, then combines a global low-rank reflection constraint with mask-guided local ground-roll separation.",
+          "Synthetic and field tests show more effective ground-roll attenuation and less reflection leakage than baseline methods while avoiding unnecessary changes to clean regions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3741082",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Masked low-rank approximation for seismic ground-roll attenuation",
+        "onlineDate": "2026-10-07",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11723213",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Bilateral Filtering-Guided Adaptive Anisotropic Total Variation Seismic Impedance Inversion",
+        "doi": "10.1109/tgrs.2026.3741197",
+        "authors": "Ziwen Liu, Xuehua Chen, Qingwei Zhao, Wei Jiang, Shengyi Wang",
+        "abstract": "Seismic impedance inversion is a fundamental technique for deriving impedance from seismic data, providing essential information for reservoir characterization. Existing inversion methods can impose lateral constraints to suppress noise and enhance the lateral continuity of inversion results. However, such lateral constraints tend to impair the edge information of complex discontinuous structures while suppressing the noise. As a result, it is difficult to effectively preserve stratigraphic boundaries with these constraints. To address these limitations, this paper proposes a bilateral filtering-guided adaptive anisotropic total variation regularization method for impedance inversion. Different from the conventional approach that serially concatenates inversion and filtering, the key innovation is the construction of an adaptive weight matrix that directly integrates the filtering process into the formulation of the inversion objective function. Consequently, the inversion process is inherently guided by the filtering information, dynamically adjusting the lateral and vertical constraint strengths to suppress noise in flat regions while preserving stratigraphic discontinuities at boundaries. The split bregman algorithm combined with the 2D-Sylvester equation is employed to solve the inversion objective function by decomposing the complex multi-parameter optimization problem into tractable subproblems. Experimental results on synthetic models and field data demonstrate that the proposed method achieves superior performance in inversion accuracy compared with conventional approaches, and effectively balances noise suppression with edge preservation.",
+        "keyPoints": [
+          "Bilateral-filter-guided anisotropic total-variation inversion embeds adaptive smoothing in the seismic impedance objective while preserving stratigraphic discontinuities.",
+          "Synthetic and field tests improve inversion accuracy and balance noise suppression with edge preservation for reservoir characterization."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3741197",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Bilateral-filter-guided adaptive anisotropic total-variation seismic impedance inversion",
+        "onlineDate": "2026-10-08",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11723235",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Full-Waveform Inversion Using Progressive Geological Guidance and Learned Waveform Matching",
+        "doi": "10.1109/tgrs.2026.3741638",
+        "authors": "Liuqing Yang, Min Bai, Dong Zhang, Zixiang Zhou, Xufa Zheng, Hang Xu, Yatong Zhou",
+        "abstract": "Full-waveform inversion (FWI) is highly sensitive to cycle skipping, local minima, and non-uniqueness, particularly when the starting model is smooth and seismic observations provide limited constraints on the subsurface velocity. As a result, waveform matching alone may lead to models that are kinematically acceptable but geologically unreliable. In this study, we propose PGGNeural, a progressive geology-guided neural FWI framework that combines a Siamese representation-based data misfit with sparse well calibration and dip-guided structural regularization. The learned misfit compares observed and simulated shot gathers in a feature space, while the well and dip constraints provide local velocity control and structural guidance during model updating. The proposed framework progressively updates the structural dip guidance as the velocity model evolves, with a weaker dip contribution in the first step and stronger guidance in subsequent steps to stabilize the inversion. Experiments on the BP salt and Marmousi models show that PGGNeural produces more accurate and geologically coherent velocity models than benchmarks, with reduced coherent data residuals and improved reverse time migration imaging responses. Analyses of progressive updating and well control settings further illustrate how geological guidance improves the stability of the inversion pathway and the recovery of complex salt and layered structures. The proposed framework provides a practical way to improve the convergence behavior and geological reliability of neural FWI by combining learned waveform matching with progressive geological constraints.",
+        "keyPoints": [
+          "PGGNeural combines learned waveform matching, sparse well control and progressive dip guidance to improve FWI on BP salt and Marmousi models.",
+          "The framework yields more coherent velocity structures, smaller residuals and improved migration images, reducing sensitivity to geologically unreliable solutions."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3741638",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Global / method-focused",
+        "method": "Progressive geological guidance and learned waveform matching for full-waveform inversion",
+        "onlineDate": "2026-10-08",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11727536",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "The Neuro-Physical Inverter: A Modular Framework for Magnetotelluric Inversion Coupling Ensemble Conditioning with Residual Learning",
+        "doi": "10.1109/tgrs.2026.3740359",
+        "authors": "Jae Deok Kim, Sai Ravela, Rob. L. Evans",
+        "abstract": "We present the Neuro-Physical Inverter (NPI), a modular, uncertainty-aware framework for geophysical inversion that couples ensemble-based conditioning with constrained residual learning, demonstrated in the 1D magnetotelluric (MT) setting as a controlled testbed. The framework operates in two stages. An Ensemble-Conditional Gaussian Process (EnsCGP) conditions a prior ensemble of resistivity models on the observed response, producing a physically admissible reference ensemble. A residual-learning neural network then predicts targeted corrections to this reference, trained on synthetic data and fine-tuned per station for field application through a physics-coupled objective. Because an ensemble is conditioned, refined, and propagated through both stages, every estimate carries an associated ensemble spread. Synthetic experiments show that NPI systematically reduces ensemble-mean error without destabilizing the ensemble. Applied to broadband MT data from the Gabbs Valley geothermal region (Nevada, USA), NPI reduces the across-station mean misfit over the mid-period band while retaining comparable ensemble spread. The propagated ensemble yields a factor of uncertainty that serves as an operational measure of constraint within the assumed model class. Both stages are dimension-agnostic in formulation, and the design principles established here are intended to scale to higher-dimensional parameterizations.",
+        "keyPoints": [
+          "The Neuro-Physical Inverter combines ensemble-conditioned Gaussian-process inference with constrained residual learning to refine 1D magnetotelluric models while propagating ensemble uncertainty.",
+          "Synthetic tests reduce ensemble-mean error, and Gabbs Valley field data show lower mid-period misfit while retaining comparable ensemble spread."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3740359",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Gabbs Valley, Nevada / 1D magnetotelluric testbed",
+        "method": "Ensemble-conditioned residual-learning magnetotelluric inversion",
+        "onlineDate": "2026-10-09",
+        "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11731762",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Terrain-Aware Evaluation of Optimized Sparse Source Sampling and Vibroseis Route Planning for Land Seismic Acquisition",
+        "doi": "10.1109/tgrs.2026.3742735",
+        "authors": "Yi Guo, Tingquan Deng, Rongzhi Lin, Jianwei Ma",
+        "abstract": "Land seismic acquisition must balance geophysical sampling quality with field operational cost, yet source-layout design and vibroseis routing are commonly treated separately.We propose a multi-objective workflow that combines sparse source selection with terrain-aware routing evaluation. Sampling quality is screened by the Second-Peak Suppression Ratio (R_{SPS}), the normalized off-DC peak sidelobe of the sampling-mask Fourier response. Selected sources are connected using terrain-cost shortest paths and an open Traveling Salesman Problem (TSP) tour. Five-dimensional fast multidimensional singular spectrum analysis (FMSSA) is applied only after selection as an independent reconstruction-validation step. In the main synthetic test at a nominal 20% source sampling rate on the complete candidate grid, R_{SPS}-guided simulated annealing (R_{SPS}-SA) reduces R_{SPS} from 0.714 to 0.287 and route length from 13.51 to 11.48 km relative to constrained-regular sampling; no shortest-route claim is made against every baseline. Thirty random-mask FMSSA tests yield an SNR of 19:24 ± 0:83 dB and show no clear monotonic relationship between R_{SPS} and reconstruction SNR in this benchmark. Under predeclared spectral and coverage constraints, one constraint-satisfying route-focused layout shortens the route by about 19% and lowers terrain cost by about 22% relative to the mean of the 30 random layouts with only a 0.17-dB SNR difference. A central-depot multi-vehicle extension further shows the trade-off between aggregate travel and maximum per-vehicle workload. The results support the use of R_{SPS} as a low-cost pre-acquisition spectral-risk diagnostic, not a reconstruction-error predictor, and demonstrate that spectral, reconstruction, and operational metrics should be reported together.",
+        "keyPoints": [
+          "A terrain-aware seismic acquisition workflow combines sparse-source selection and routing; a constrained layout cuts route length about 19% versus random layouts.",
+          "The spectral sampling metric diagnoses acquisition risk but does not predict reconstruction error, so spectral, imaging and operational metrics must be assessed together."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3742735",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Land-seismic terrain / method-focused",
+        "method": "Terrain-aware sparse source sampling and vibroseis route optimization",
+        "onlineDate": "2026-10-12",
+        "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733926",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Breakout-picker: Reducing false positives in deep learning-based borehole breakout characterization from acoustic image logs",
+        "doi": "10.1109/tgrs.2026.3741838",
+        "authors": "Guangyu Wang, Xiaodong Ma, Xinming Wu",
+        "abstract": "Borehole breakouts are stress-induced spalling on the borehole wall, which are identifiable in acoustic image logs as paired zones with near-symmetry azimuths, low acoustic amplitudes, and increased borehole radius. Accurate breakout characterization is crucial for in-situ stress analysis. In recent years, deep learning has been introduced to automate the time-consuming and labor-intensive breakout picking process. However, existing approaches often suffer from misclassification of non-breakout features, leading to high false positive rates. To address this limitation, this study develops a deep learning framework, termed Breakout-picker, with a specific focus on reducing false positives in automatic breakout characterization. Breakout-picker reduces false positives through two strategies. First, the training of Breakout-picker incorporates negative samples of non-breakout features, including natural fractures, keyseats, and logging artifacts. They share similar characteristics with breakouts, such as low acoustic amplitude or locally enlarged borehole radius. These negative training samples enables Breakout-picker to better discriminate true breakouts and similar non-breakout features. Second, candidate breakouts identified by Breakout-picker are further validated by azimuthal symmetry criteria, whereby detections that do not exhibit the near-symmetry characteristics of breakout azimuth are excluded. The performance of Breakout-picker is evaluated using three acoustic image log datasets from different regions. The results demonstrate that Breakout-picker outperforms other automatic methods with higher accuracy and substantially lower false positive rates. By reducing false positives, Breakout-picker enhances the reliability of automatic breakout characterization from acoustic image logs, which in turn benefits in-situ stress analysis based on borehole breakouts.",
+        "keyPoints": [
+          "Breakout-picker reduces false detections by training on non-breakout features and rejecting candidate breakouts that lack the expected near-symmetric azimuths.",
+          "Tests on three regional acoustic-image-log datasets show higher accuracy and substantially fewer false positives, improving automated breakout characterization for in-situ stress analysis."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3741838",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Borehole acoustic image logs / multi-region evaluation",
+        "method": "Deep-learning borehole-breakout picking with negative samples and azimuthal-symmetry validation",
+        "onlineDate": "2026-10-13",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733304",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "A Spectral-Case-Based Depth Retrieval (SCBDR) Method for Intercontinental-Scale Nearshore Waters: An Application in the Mediterranean Sea",
+        "doi": "10.1109/tgrs.2026.3742316",
+        "authors": "Guoping Zhang, Shuai Xing, Ruiyao Kong, Li Chen, Pengcheng Li, Dandi Wang, Ming Gao, Jikun Liu, Xinlei Zhang",
+        "abstract": "Nearshore depths are of great importance for coastal zone management, marine ecological research, and global seafloor mapping, but significant data gaps still exist in nearshore waters due to the high cost and limited spatial coverage of traditional shipborne and airborne methods. Satellite Derived Bathymetry (SDB) can efficiently obtain large-area shallow-water depth information, yet its retrieval accuracy is affected by spatial variations in water optical properties and seabed substrates. Spectral-regression-based SDB typically relies on regional in situ measurements to calibrate empirical spectral-depth relationships, which limits its intercontinental-scale applicability. To address this issue, this study proposes a large-scale spectral-case-based depth retrieval framework, termed Spectral-Case-Based Depth Retrieval (SCBDR). The framework integrates spaceborne bathymetric data from the Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2), airborne LiDAR bathymetry data, and annual composite Sentinel-2 imagery to construct a spectral-depth case database covering multiple seas and diverse optical environments. During retrieval in a study area, representative case sets are first selected from the dataset based on environmental similarity derived from image spectral features, then spectral band importance is adaptively evaluated and effective bands are selected, and finally a depth retrieval model suitable for the study area is established. This method does not require separate empirical model calibration for each study area and can dynamically match appropriate spectral-depth relationships according to local environmental characteristics. The proposed approach is validated along the Mediterranean coast, where spatially continuous bathymetry is generated at 10 m resolution for pixels classified as optically shallow water. Comparison with the resampled EMODnet bathymetric surface yields an overall MAE of 1.49 m and RMSE of 1.69 m. SCBDR maintains stable performance across different Mediterranean countries, with retrieval accuracy slightly superior to ICESat-2 measured depths and spectral-regression-based bathymetry results and markedly better than global elevation models. The results provide high-resolution and spatially continuous shallow-water depth data for the Mediterranean and offer a reproducible technical framework for large-scale shallow-water bathymetric mapping in data-scarce regions.",
+        "keyPoints": [
+          "SCBDR combines satellite and airborne depth data with Sentinel-2 spectral cases to map Mediterranean shallow waters at 10 m resolution, with 1.49 m MAE.",
+          "Environment-matched spectral cases avoid separate local calibration and support large-area bathymetric mapping where in situ data are scarce."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3742316",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Mediterranean Sea nearshore waters",
+        "method": "Spectral case-based satellite bathymetry retrieval",
+        "onlineDate": "2026-10-13",
+        "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733573",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Improving Near-borehole Reflection Imaging and Slowness Estimation Using 3D Wavefield Decomposition of Acoustic Logging Data",
+        "doi": "10.1109/tgrs.2026.3742813",
+        "authors": "Lu Liu, Thierry Tonellot, Hussain Salim, Abdulmohsen Alali",
+        "abstract": "Acoustic logging data are typically dominated by strong direct waves propagating along the borehole, which obscure the weak yet valuable reflected signals needed for near-borehole imaging. Moreover, accurate slowness picking for direct waves can be challenging because of interference from reflected and transmitted waves. Robust decomposition of different wave components is therefore a prerequisite for improving both reflection imaging and velocity analysis. We propose a novel wave decomposition method based on a three-dimensional (3D) sparse Radon transform combined with semblance analysis and a Hilbert autocorrelator. The method separates overlapping wave modes in acoustic logging data by exploiting their distinct slowness and directional characteristics in both common-shot and common-offset gathers. The workflow first maps the data into a high-dimensional sparse domain, where different wave modes become more separable. It then uses semblance analysis to estimate the slowness of dominant linear events in the common-shot domain, followed by dip estimation of direct waves in the common-offset domain using a Hilbert-autocorrelator method. These orientation attributes guide a 3D mask function for selectively isolating direct and reflected waves, including up- and downgoing reflections. Each component is then reconstructed in the time-space domain through an inverse Radon transform. Applications to field monopole and dipole datasets demonstrate that the method significantly improves signal-to-noise ratio (SNR), preserves coherent energy, and enables high-fidelity separation of physically meaningful wave modes. In monopole data, P waves, S/pseudo-Rayleigh waves, Stoneley waves, and reflected waves are isolated; in dipole data, flexural and reflected waves are clearly separated. The extracted reflections improve near-borehole imaging, and using only direct waves for slowness estimation greatly improves semblance continuity and focus.",
+        "keyPoints": [
+          "A 3D sparse Radon workflow separates direct and reflected acoustic-logging waves using semblance and directional attributes in shot and offset gathers.",
+          "Field examples improve near-borehole reflection imaging and slowness estimates by preserving coherent energy and reducing wave-mode interference."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3742813",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Near-borehole formations / method-focused",
+        "method": "3D acoustic-wavefield decomposition for reflection imaging and slowness estimation",
+        "onlineDate": "2026-10-13",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11735196",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Microwave Radiation Modulation of Stressed Rocks by Groundwater Interfaces: Experimental Investigation and Mechanistic Insights",
+        "doi": "10.1109/tgrs.2026.3743297",
+        "authors": "Xin Han, Shanjun Liu, Lianhuan Wei, Wenfang Liu, Ankui Zhu, Huashuo Cui, Mi Wang",
+        "abstract": "Satellite microwave remote sensing has become an important tool for earthquake monitoring, and substantial progress has been made in experimental studies on the mechanisms of pre-earthquake thermal radiation anomalies. However, microwave anomalies prior to earthquakes are frequently observed near water bodies (rivers and lakes), where they manifest as both positive and negative anomalies with amplitudes typically higher than in other areas, suggesting a close association with water. According to microwave radiation transmission theory, strong reflections occur when microwaves encounter a groundwater interface along their propagation path, thereby altering the radiation characteristics of stressed rocks. To this end, laboratory experiments were conducted to investigate the effects of groundwater interfaces on microwave radiation from stressed rocks, considering both the presence or absence of a groundwater interface and concave–convex interface morphologies. The results show that groundwater interfaces significantly amplify the variation amplitude of brightness temperature (T_{B}) in stressed rocks, with the maximum increase in T_{B}variation reaching 3.28 K. Furthermore, concave–convex interfaces produce a more pronounced amplification effect, with the maximum T_{B} variation reaching 14.28 K, which directly influences the positive and negative correlation between stress and T_{B}. These findings provide a plausible explanation for the high amplitude of microwave anomalies observed near water bodies prior to earthquakes, and offer an experimental reference for interpreting positive and negative pre-earthquake T_{B} anomalies. Moreover, this study contributes to a better understanding of seismic microwave anomalies and supports the improvement of earthquake monitoring capabilities.",
+        "keyPoints": [
+          "Laboratory measurements show groundwater interfaces amplify microwave brightness-temperature variations in stressed rocks, with strong effects from interface morphology.",
+          "The experiments offer a possible mechanism for positive and negative microwave anomalies near water bodies, without establishing earthquake forecasting performance."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743297",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Laboratory stressed rocks / groundwater interfaces",
+        "method": "Microwave-radiation experiments on stressed rocks with groundwater interfaces",
+        "onlineDate": "2026-10-13",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11735194",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics",
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Diff-SpaFormer: Efficient Seismic Data Interpolation via Diffusion-Enhanced Sparse Attention Transformer",
+        "doi": "10.1109/tgrs.2026.3743478",
+        "authors": "Xiaoli Wei, Chunxia Zhang, Baisong Jiang, Anxiang Di, Deng Xiong, Changpeng Wang, Jiangshe Zhang, Mingming Gong",
+        "abstract": "Seismic data interpolation is a critical preprocessing step for improving seismic imaging quality and remains a focus of academic innovation. To address the computational inefficiencies caused by extensive iterative resampling in current plug-and-play diffusion interpolation methods, we propose the diffusion-enhanced sparse attention transformer (Diff- SpaFormer), a novel deep learning framework. Our model integrates transformer architectures and diffusion models via a Seismic Prior Extraction Network (SPEN), which serves as a bridge module. Full-layer sparse multi-head attention and feed-forward propagation capture global information distributions, while the diffusion model provides robust prior guidance. To mitigate the computational burden of high-dimensional representations, self-attention is computed along the channel rather than the spatial dimension. We show that using negative squared Euclidean distance to compute sparse affinity matrices better suits seismic data modeling, enabling broader contribution from amplitude feature nodes. An adaptive ReLU function further discards low or irrelevant self-attention values. We conduct training within a single-stage optimization framework, requiring only a few reverse diffusion sampling steps during inference. Extensive experiments demonstrate improved interpolation fidelity and computational efficiency for both random and continuous missing data, offering a new paradigm for high-efficiency seismic data reconstruction under complex geological conditions. Furthermore, experiments on field data under local strong noise, low signal-to-noise ratio, and severe interference conditions further validate the robustness and generalization capability.",
+        "keyPoints": [
+          "Diff-SpaFormer combines sparse channel attention with diffusion-derived seismic priors to improve interpolation fidelity and efficiency for random and continuous missing traces.",
+          "Field-data tests under strong noise and interference support robust reconstruction, while few reverse diffusion steps reduce the computational burden of seismic preprocessing."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743478",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "method-focused",
+        "method": "Diffusion-enhanced sparse attention transformer; seismic interpolation",
+        "onlineDate": "2026-10-15",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738837",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Three-Dimensional Anisotropic Magnetotelluric Inversion with Cross-Gradient and Anisotropic Constraints on Principal-Axis Resistivities",
+        "doi": "10.1109/tgrs.2026.3743624",
+        "authors": "Shengtao Wang, Changhong Lin, Jiantao Ni, Depeng Zhu, Dongyue Xin",
+        "abstract": "Magnetotellurics (MT) is widely used for imaging subsurface electrical structures. Because geological formations commonly exhibit electrical anisotropy, arbitrary anisotropic MT inversion is important for reliable subsurface characterization. However, compared with isotropic inversion, it involves more model parameters, resulting in stronger non-uniqueness and reduced inversion stability. To mitigate these challenges, a three-dimensional arbitrary anisotropic MT inversion method based on the nonlinear conjugate gradient (NLCG) algorithm is developed with principal-axis cross-gradient and anisotropy constraints. The principal-axis cross-gradient constraint promotes structural consistency among the principal-axis resistivity components, whereas the anisotropy constraint regulates their relative magnitudes, providing complementary structural and parameter regularization. The approach is evaluated using synthetic models with increasing structural complexity. Results show that smoothness regularization alone may lead to spurious anomalies and structural distortions. The anisotropy constraint can improve the recovery of principal resistivities and anisotropic parameters in some cases, but its effect depends on model characteristics and geological complexity. In contrast, the principal-axis cross-gradient constraint more consistently improves spatial structural consistency and suppresses structural distortions and spurious anomalies. Joint application of both constraints generally yields more reasonable target geometries, boundary continuity, and parameter distributions, with improved recovery of horizontal rotation angles in several tested cases. These results demonstrate that the joint constraints provide complementary structural and parametric regularization, helping to mitigate the effects of non-uniqueness and improve the reconstruction of complex anisotropic structures.",
+        "keyPoints": [
+          "Three-dimensional anisotropic magnetotelluric inversion combines principal-axis cross-gradient and anisotropy constraints to reduce structural distortions and spurious anomalies in synthetic models.",
+          "Joint constraints provide complementary structural and parameter regularization, improving target geometry and boundary continuity while mitigating inversion non-uniqueness."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743624",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "method-focused",
+        "method": "3D anisotropic magnetotelluric inversion; cross-gradient constraints",
+        "onlineDate": "2026-10-15",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738808",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics",
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Traveltime tomography on triangular meshes via automatic differentiation and a GPU Jacobi forward solver",
+        "doi": "10.1109/tgrs.2026.3743647",
+        "authors": "Xin Chen, Tianze Zhang, Wenyuan Liao, Danping Cao",
+        "abstract": "In seismic wave propagation modeling and inversion, the choice of mesh is critical for both computational accuracy and efficiency. Compared with structured rectangular grids, unstructured triangular meshes offer greater flexibility in accommodating complex geological structures and rugged topography, while enabling finer discretization and more accurate geometric representation. Despite these advantages, tomography studies on triangular meshes remain limited because their high irregularity makes traditional gradient computation approaches, such as the adjoint-state method, mathematically complex and difficult to implement. To address this challenge, we introduce automatic differentiation (AD), which provides accurate and efficient gradient computation on unstructured meshes, thereby enabling traveltime tomography on triangular meshes. The AD method constructs the computational graph during forward modeling, stores the necessary intermediate variables, and applies the chain rule to compute gradients automatically during backpropagation. Because this process is built directly upon the forward modeling, the overall efficiency of AD strongly depends on the performance of the forward solver. To this end, we develop a GPU-oriented traveltime forward modeling algorithm based on Jacobi iterations, whose efficiency makes AD-based tomography practically feasible. We validate the effectiveness of the proposed framework through numerical experiments under irregular topographic conditions. The framework provides a feasible and robust approach for velocity modeling and tomography in geologically complex environments.",
+        "keyPoints": [
+          "Automatic differentiation enables traveltime tomography on triangular meshes, using a GPU Jacobi forward solver to make gradient-based inversion computationally feasible.",
+          "Numerical experiments with irregular topography support velocity reconstruction in complex environments, exploiting unstructured meshes to represent geological geometry."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743647",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "method-focused",
+        "method": "Traveltime tomography; automatic differentiation; GPU Jacobi solver",
+        "onlineDate": "2026-10-15",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738824",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "DBRAMamba: A Gradually Refined Mamba Network Developed for Damaged Building Remote Sensing Assessment From Coarse to Fine After the Earthquake",
+        "doi": "10.1109/tgrs.2026.3743623",
+        "authors": "Yuanhao Wang, Shumin Wang, Ziying Gu, Kunyang Yang, Yitong Wang, Kangsan Yu, Aixia Dou, Zongxu Pan, Wei Ke, Xiangkun Kong, Xuehua Zhang, Duo A",
+        "abstract": "Remote sensing-based assessment of earthquake-induced building damage using pre- and post-event bi-temporal imagery is essential for rapidly determining the spatial distribution and severity of damage after destructive earthquakes. However, reliable assessment remains challenging because cross-temporal imaging differences may generate pseudo-changes, damaged buildings often exhibit fragmented and ambiguous boundaries, and different damage levels are characterized by irregular and highly variable spatial morphologies. To address these challenges, we propose DBRAMamba, a disaster-oriented semantic change detection framework that performs post-earthquake building damage assessment in a coarse-to-fine manner. A Siamese VMamba backbone is employed to extract hierarchical bi-temporal representations. In the change decoder, a Global-Local Contrastive Module (GLCM) combines local temporal contrast with long-range structural context to enhance damage-related changes while suppressing irrelevant cross-temporal differences, and an Edge-Guided Module (EGM) introduces structure-aware boundary information to refine damaged-building localization. In the semantic decoder, a Deformable Edge Refinement Module (DERM) adaptively models irregular damage morphology and refines structural boundaries for damage-level discrimination. Experiments on the Dingri earthquake dataset show that DBRAMamba achieves F^{cd}_{1}, F^{clf}_{1} and F^{o}_{1} scores of 73.99%, 68.80%, and 70.36%, respectively, obtaining the best damage-classification and overall performance among the evaluated semantic change detection methods while maintaining competitive localization accuracy. Cross-scene experiments on the Jishishan earthquake dataset further demonstrate robust transfer performance, where DBRAMamba achieves the highest F^{cd}_{1}, Kappa, and F^{o}_{1}. Under the conventional xBD building damage assessment setting, the adapted DBRAMamba (BDA) also achieves the highest F^{clf}_{1} and F^{o}_{1} among the evaluated CNN-, Transformer-, and Mamba-based approaches. Additional analyses of low-damage regions, non-seismic changes, and regional damage statistics further demonstrate the potential of DBRAMamba for rapid post-earthquake damaged-building mapping and disaster-response-oriented assessment.",
+        "keyPoints": [
+          "DBRAMamba combines temporal contrast and edge-guided refinement to map earthquake-damaged buildings, achieving 70.36% overall F1 on the Dingri dataset.",
+          "Cross-scene Jishishan and xBD tests support transferability for rapid damage assessment, while boundary refinement helps distinguish irregular damage patterns."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743623",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Dingri; Jishishan",
+        "method": "Bi-temporal remote sensing; Mamba semantic change detection",
+        "onlineDate": "2026-10-19",
+        "volume": "64",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739538",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "seismology-earthquakes"
+        ]
+      },
+      {
+        "title": "NPMAG: Normalized Polarization Magnetic Amplitude Gradient Operator for High-Resolution Induced Polarization Imaging Overcoming High-Resistivity Layer",
+        "doi": "10.1109/tgrs.2026.3743874",
+        "authors": "Linhan Cheng, Lihan Sun, Yuanrui Zhou, Quan Xu, Yanzhang Wang",
+        "abstract": "Grounded-electrode spectral induced polarization (SIP) measurements can become difficult beneath resistive cover when unfavorable source grounding and receiver-electrode coupling limit current injection or potential-measurement quality. The grounded-source magnetic induced polarization (MIP) configuration considered here avoids receiver-electrode coupling but still requires adequate source grounding and sufficient transmitted current. Specifically, the ultra-weak secondary magnetic fields are easily masked by background noise, and the inherent volume-smoothing effect of magnetic fields severely blurs anomaly boundaries. To address these challenges, we propose the normalized polarization magnetic amplitude gradient (NPMAG) operator, implemented using unshielded and ultra-high-sensitivity spin-exchange relaxation-free (SERF) quantum magnetometers. This method integrates vector signals with dynamic primary-field weighting to compensate for geometric decay. Numerical simulations spanning four orders of magnitude in cover conductivity show that, under prescribed-current conditions, NPMAG maintains a spatial convergence index above 63% while the modeled electric-potential-difference response broadens markedly. The operator also suppresses off-target responses associated with non-polarizable conductors. Field measurements using a grounded dipole and an unshielded SERF sensor show a focused NPMAG response within the independently constrained ore-body interval and reduced off-target responses associated with a non-polarizable mining goaf.",
+        "keyPoints": [
+          "The NPMAG operator combines vector magnetic signals and dynamic primary-field weighting to sharpen induced-polarization anomalies beneath resistive cover under prescribed-current conditions.",
+          "Synthetic and field tests show focused ore-body responses and reduced off-target anomalies from non-polarizable conductors, while adequate source grounding remains necessary."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3743874",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Magnetic induced polarization; SERF quantum magnetometry",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739553",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Sensing Accuracy Optimization for Multi-UAV SAR Interferometry with Data Offloading",
+        "doi": "10.1109/tgrs.2026.3744734",
+        "authors": "Mohamed-Amine Lahmeri, Pouya Fakharizadeh, Víctor Mustieles-Pérez, Martin Vossiek, Gerhard Krieger, Robert Schober",
+        "abstract": "The integration of unmanned aerial vehicles (UAVs) with radar imaging sensors has revolutionized the monitoring of dynamic and local Earth surface processes by enabling high-resolution and cost-effective remote sensing. This paper investigates the optimization of the sensing accuracy of a UAV swarm deployed to perform multi-baseline interferometric synthetic aperture radar (InSAR) sensing. In conventional single-baseline InSAR systems, only one synthetic aperture radar (SAR) antenna pair acquires two SAR images from two distinct angles to generate a digital elevation model (DEM) of the target area. However, multi-baseline InSAR extends this concept by aggregating multiple acquisitions from different angles, thus, significantly enhancing the vertical accuracy of the DEM. The heavy computations required for this process are performed on the ground and, therefore, the radar data is transmitted in real time to a ground station (GS) via a frequency-division multiple access (FDMA) air-to-ground backhaul link. This work focuses on improving the sensing precision by minimizing the height error of the averaged DEM while simultaneously ensuring sensing and communication quality-of-service (QoS). To this end, the UAV formation, velocity, and communication power allocation are jointly optimized using evolutionary algorithms (EAs). Our approach is benchmarked against established optimization methods, including genetic algorithms (GAs), simulated annealing (SA), and deep reinforcement learning (DRL) techniques. Numerical results show that the proposed solution outperforms these baseline schemes and achieves sub-decimeter vertical accuracy in several scenarios. These findings underline the potential of coordinated UAV swarms for delivering high-precision and real-time Earth observations through radar interferometry.",
+        "keyPoints": [
+          "Joint optimization of UAV formation, velocity and communication power reduces multi-baseline InSAR elevation errors while satisfying sensing and data-offloading constraints.",
+          "Numerical tests achieve sub-decimeter vertical accuracy in several scenarios, supporting coordinated UAV swarms for precise local surface-height observations."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744734",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Multi-UAV InSAR; evolutionary optimization",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741316",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Robust Expectation–Maximization for Covariance Estimation in SIRV Models with Missing Data: Application to InSAR Time Series",
+        "doi": "10.1109/tgrs.2026.3744827",
+        "authors": "M. Cherifi, M. N. El Korso, A. Hippert-Ferrer, Y. Yan",
+        "abstract": "This paper presents a robust Expectation-Maximization framework for covariance estimation in Scale-Invariant Random Vector (SIRV) models with missing data under ignorable missingness mechanisms. By adopting an inverse-gamma prior on the scale variables, the resulting observation model leads to a complex multivariate Student-t distribution and allows closed-form E-step and M-step updates. The proposed algorithm incorporates numerical robustness techniques such as computation reuse for common observation patterns, regularized matrix inversions, and explicit enforcement of Hermitian positive semidefinite structure. Experiments on synthetic data and Sentinel-1 interferograms show effective missing value reconstruction and denoising performance under both MCAR and MNAR scenarios.",
+        "keyPoints": [
+          "A robust expectation–maximization framework estimates covariance and reconstructs missing observations in scale-invariant random-vector models using a complex Student-t formulation.",
+          "Synthetic and Sentinel-1 interferogram experiments show effective missing-value reconstruction and denoising, supporting InSAR time-series processing under incomplete observations."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744827",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Robust expectation–maximization; InSAR covariance estimation",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741298",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Least-Squares Migration for Shallow Water Ocean-Bottom-Node Data",
+        "doi": "10.1109/tgrs.2026.3744879",
+        "authors": "Jianhua Wang, Yubo Yue, Cong Deng, Xianwei Gao, Yandong Wang",
+        "abstract": "In ocean-bottom-node (OBN) data processing, down-going waves are generally employed by mirror migration to compensate for the limited near-seabed illumination of up-going waves. However, for the shallow water OBN data, the efficacy of down-going wave imaging is severely diminished, as the proximity of the virtual mirror receivers to the seabed limits the expansion of the illumination aperture. Data-domain least-squares migration (LSM) is an effective technique to address imaging challenges associated with sparse data acquisition, however its intensive computational overhead severely limits its practical application. In this paper, we present an efficient image-domain LSM suitable for imaging shallow water OBN data. By using an efficient ray-based computation method to generate the pre-stack point-spread-functions (PSFs), we formulate an image-domain LSM to iteratively solve for the pre-stack angle/offset-domain reflectivity model. Leveraging the fact that the interval velocity model is commonly accurate enough to generate well-flattened common-image-gathers (CIGs) during depth migration stage, we incorporate a shaping regularization along the angle/offset direction into the framework of LSM to enhance both event continuity and amplitude fidelity of the resultant LSM CIGs. Meanwhile, we employ the migration image as a curvelet-domain structural guide filter to constrain the misfit gradients to attenuate swing noise across each CIG panel, thereby achieving enhanced shallow structural imaging. Numerical tests on synthetic and field datasets demonstrate that the proposed method can effectively suppress swing noise and acquisition footprints associated with sparse OBN data, and generate superior imaging results with enhanced signal-to-noise ratio (SNR) and amplitude fidelity.",
+        "keyPoints": [
+          "Image-domain least-squares migration uses ray-based point-spread functions, angle/offset regularization and curvelet guidance to improve shallow-water ocean-bottom-node imaging.",
+          "Synthetic and field tests suppress swing noise and acquisition footprints while improving shallow-structure imaging, signal-to-noise ratio and amplitude fidelity."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3744879",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "",
+        "method": "Image-domain least-squares seismic migration; ocean-bottom nodes",
+        "onlineDate": "2026-10-19",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741331",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Bridging the Synthetic-to-Real Domain Gap in Pore-Scale Image Segmentation: Connectivity-Preserving Strategies for Digital Rock Reservoir Characterization",
+        "doi": "10.1109/tgrs.2026.3745602",
+        "authors": "Daniel Eshimiakhe, Qamar Yasin, Mengdi Sun, Bing Wang, David A. Wood, Bo Liu",
+        "abstract": "Accurate characterization of pore structure from micro-computed tomography (micro-CT) images is fundamental to digital rock physics and the prediction of fluid transport in porous media. While deep learning has substantially improved segmentation accuracy, models trained on synthetic datasets often fail to generalize to real geological samples due to domain shift. This generates physically inconsistent pore network reconstructions. Critically, high Dice scores do not guarantee structural fidelity: segmentation outputs may still exhibit fragmented connectivity and loss of percolating pathways, undermining their utility for fluid transport analysis. We present a systematic investigation of domain adaptation strategies for pore-scale segmentation of tight sandstone samples from the Southern Basin of China, with an emphasis on preserving topological connectivity and petrophysical consistency. A physics-informed synthetic dataset was generated using a Gaussian Random Field (GRF) framework parameterized by pore-scale descriptors derived from micro-CT data. This enabled controlled variation of pore geometry and connectivity with known ground truth. Two architectures, U-Net and Swin-UNETR, were evaluated under four training regimes: synthetic-only, direct transfer, fine-tuning, and hybrid learning. A real-only training condition was additionally included to assess the performance of models trained exclusively on labeled real images. Direct transfer to real micro-CT images caused substantial structural degradation: the Connectivity Domain Gap (CDG) remained more than an order of magnitude higher in direct-transfer models (CDG ≈ 1.00) than in fine-tuned models (CDG ≈ 0.06), which also preserved a dominant connected pore network. Fine-tuning consistently produced the most accurate and physically coherent segmentations across all regimes. The Swin-UNETR generally outperformed the U-Net. These results demonstrate that reliable digital rock characterization requires preserving pore network topology beyond voxel-level accuracy alone, and that fine-tuning is the most effective strategy for bridging the synthetic-to-real domain gap under limited annotation conditions.",
+        "keyPoints": [
+          "Fine-tuning synthetic-trained segmentation networks preserves tight-sandstone pore connectivity and reduces the connectivity domain gap from about 1.00 to 0.06.",
+          "Digital rock characterization requires topological fidelity beyond voxel-level accuracy; limited real-image labels can substantially improve physically coherent pore networks."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3745602",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Southern Basin, China",
+        "method": "Micro-CT; digital rock segmentation; domain adaptation",
+        "onlineDate": "2026-10-22",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "A Multi-Task Learning for 3D Seismic Interpretation: Simultaneous Karst Cave and Channel Segmentation with Geology-Informed Loss",
+        "doi": "10.1109/tgrs.2026.3745749",
+        "authors": "Jiaqi Zhao, Binpeng Yan, Rui Pan, Mutian Li, Yongliang Wang",
+        "abstract": "Accurate identification and delineation of karst caves and fluvial channels are of great significance for carbonate reservoir characterization, sedimentary system analysis, hydrocarbon exploration, and groundwater resource management. However, their highly similar seismic responses pose significant challenges, leading to inter-class confusion, ambiguous boundaries, and missed detections in conventional single-task deep learning models. To address these challenges, this study systematically investigates both data construction and model design. At the dataset level, an automated workflow for generating three-dimensional synthetic seismic data based on seismic forward modeling is proposed. This process yields a high-quality training dataset covering multi-scale, multi-form, and complex spatial combinations, providing diverse and geologically meaningful samples for network learning. For model design, a multi-task framework is constructed by integrating a convolutional neural network (CNN), Transformer, and a Dual-branch Strip Attention Module, which enhances effective feature representation by capturing long-range spatial dependencies and multi-scale contextual information. In addition, Geology-Informed Loss function is introduced to incorporate boundary continuity and morphological constraints, thereby promoting geophysically plausibile predictions. Comprehensive experiments on synthetic and multiple field seismic datasets demonstrate that the proposed method accurately and simultaneously delineates the 3D distributions of karst caves and channels. It significantly mitigates inter-class confusion and effectively captures fine-scale details, even in low signal-to-noise ratio and structurally complex environments. This work establishes a robust and automated framework for seismic interpretation by integrating attention-enhanced multi-task learning with geological constraints.",
+        "keyPoints": [
+          "Attention-enhanced multi-task learning with geological constraints jointly delineates karst caves and channels in synthetic and field seismic data, reducing inter-class confusion.",
+          "Geology-informed boundaries and morphology improve automated reservoir interpretation in low-signal and structurally complex settings."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3745749",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "3D seismic interpretation; multi-task learning; geology-informed loss",
+        "onlineDate": "2026-10-22",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "Waveform Unification for Enhancing Cross-Waveform Generalization in Learning-Based GPR Inversion",
+        "doi": "10.1109/tgrs.2026.3746221",
+        "authors": "Haibing Wu, Wanli Ma, Yixiong Jing, Guangming Wang, Olaf Wysocki, Brian Sheil",
+        "abstract": "Ground penetrating radar (GPR), an electromagnetic imaging technique for non-invasive subsurface detection, has broad applications including planetary geophysical surveying, glaciology, archaeology, and civil infrastructure assessment. We envision a future GPR foundation model that can deliver high accuracy and generalizability across diverse scenarios. A critical requirement for this goal is learning unified representations across heterogeneous source waveforms. However, this is hindered by the scarcity of well-annotated GPR datasets. To address this, we propose Waveform Unification, a physics-guided waveform-conversion framework that converts a source-waveform B-scan into the representation expected under a calibrated target waveform. The framework estimates a calibrated, band-limited effective response and converts GPR radargrams into a common waveform representation, thereby reducing waveform-induced differences before downstream inversion. Synthetic and field experiments demonstrate accurate waveform conversion across the tested waveforms and media. Without fine-tuning the inversion networks, Waveform Unification increases layer-reconstruction mean accuracy from 0.511 to 0.902 across four unseen-waveform domains and reduces inclusion-permittivity mean absolute error from 2.296 to 0.100. These results support Waveform Unification as a data-efficient adapter for improving the cross-waveform transfer of learning-based GPR inversion models.",
+        "keyPoints": [
+          "Waveform Unification converts GPR B-scans to a calibrated common waveform, increasing layer-reconstruction mean accuracy from 0.511 to 0.902 across four unseen-waveform domains.",
+          "The adapter improves cross-waveform transfer without fine-tuning inversion networks, reducing inclusion-permittivity mean absolute error from 2.296 to 0.100."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3746221",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "GPR inversion; physics-guided waveform conversion",
+        "onlineDate": "2026-10-22",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "ResNet-Based 15-Arcsec Bathymetric Prediction in the Northwest Pacific Using SWOT-Derived Gravity Data and Multibeam Observations",
+        "doi": "10.1109/tgrs.2026.3745627",
+        "authors": "Dechao An, Wei Feng, Zeyuan Zhang, Baoyu Zhang, Mingzhi Sun, Meng Yang, Min Zhong",
+        "abstract": "To fully exploit the constraining capability of high‑accuracy multibeam echo sounding (MBES) data for bathymetric modeling, this study proposes a deep residual network (ResNet)-based framework for direct bathymetric prediction on a 15-arcsec grid. The framework integrates multisource gravity features derived from the Surface Water and Ocean Topography (SWOT) mission, including gravity anomaly, vertical gravity gradient, and deflection of the vertical, while using MBES data as supervisory information to construct bathymetric models for local regions in the northwestern Pacific Ocean. A ResNet architecture with three stages and six residual blocks is adopted to learn the nonlinear relationship between gravity-field information and bathymetry at wavelengths shorter than 160 km, while the SYSU_Topo model is incorporated to provide the long-wavelength background component. Results show that the proposed framework better resolves fine-scale bathymetric features and fills data-void regions, substantially mitigating the blurring effect in areas lacking shipborne survey tracks. Evaluation on the independent test set shows that the ResNet model achieves an RMSE of 70.13 m and a relative accuracy of 0.83% in Area B (163°E–169°E, 16°N–22°N). In Area C (130°E–140°E, 5°N–15°N), it improves accuracy by approximately 17% relative to GEBCO_2025 and topo_27.1, and outperforms SDUST2023BCO, BATHY-FE, and SYSU_Topo. Cross-region tests show more stable performance for the selected ResNet–feature combination, while Gaussian distance-weight encoding reduces transfer errors and systematic biases relative to absolute coordinates. Overall, the proposed method improves the short- and medium-wavelength bathymetric representation of SYSU_Topo and provides a promising pathway for refining global seafloor topography.",
+        "keyPoints": [
+          "A ResNet integrates SWOT-derived gravity features and multibeam observations to predict 15-arcsec bathymetry, reaching 70.13 m RMSE in an independent northwestern Pacific test area.",
+          "The model resolves finer seafloor features and fills survey gaps; coordinate encoding improves transfer, supporting refinement of short- and medium-wavelength bathymetry."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3745627",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Northwestern Pacific Ocean",
+        "method": "SWOT gravity; multibeam bathymetry; residual neural network",
+        "onlineDate": "2026-10-23",
+        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11745458",
+        "pdfLinkSource": "collector",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "Four-Component Scattering Power Decomposition of Polarimetric GPR Data for Enhanced Subsurface Linear Target Identification",
+        "doi": "10.1109/tgrs.2026.3746323",
+        "authors": "Bin Zhang, Hai Liu, Pei Wu, Zhenjun Zhu, Xu Meng, Xiaoyu Zhang",
+        "abstract": "Ground-penetrating radar (GPR) is widely used for subsurface detection and evaluation. Yet distinguishing different buried objects from radargrams remains challenging. Polarimetric GPR (Pol-GPR) provides richer target scattering information and helps solve this challenge, but existing decomposition methods fail to adequately delineate the dipole-like scattering behavior associated with linear structures such as rebars, pipes, and cracks. To address this limitation, this paper proposes a four-component power decomposition tailored for both fully polarimetric and dual-polarimetric GPR systems. Within Dey’s model-free framework, the method uses R(T_{12}) to define a dipole-like parameter and the corresponding power component. Analytical solutions for an infinitely long PEC cylinder show that R(T_{12}) reflects the difference between the parallel- and perpendicular-polarization responses and varies with target orientation. Laboratory experiments on four typical targets—a metallic sphere, a dihedral, a thin dipole target, and a reinforcing bar (rebar)—demonstrate that the proposed method effectively highlights their dominant scattering mechanisms. Field applications to reinforced concrete inspection and ice crack detection illustrate the practical applicability of the proposed approach in identifying linear targets with dipole-like responses under realistic conditions. These results indicate that the proposed four-component decomposition algorithm and data processing workflow exhibit promising potential for engineering applications using Pol-GPR.",
+        "keyPoints": [
+          "A four-component polarimetric GPR decomposition isolates dipole-like scattering and distinguishes linear buried targets in laboratory and field measurements.",
+          "Tests on reinforced concrete and ice cracks show how the added scattering component improves identification of linear subsurface structures."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3746323",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "Polarimetric GPR; four-component scattering decomposition",
+        "onlineDate": "2026-10-23",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Semi-Supervised-Learning-based Wavelet and Seismic Data Adaptive High-Resolution Reconstruction",
+        "doi": "10.1109/tgrs.2026.3746475",
+        "authors": "Zeming Zhang, Shuliang Wu, Jianhua Geng",
+        "abstract": "Enhancing seismic resolution is crucial for detecting thin geological layers. Traditional physics-driven methods are generalizable but rely heavily on physical approximations, accurate wavelet estimation and stationary assumptions. Data-driven approaches, such as deep learning, offer model-independent mappings from low-resolution to high-resolution seismic data but require large well-logging datasets and lack physical interpretability. To overcome these limitations, we propose a semi-supervised learning framework that jointly integrates seismic data, well-log data, and physical models. Our approach introduces an inverse network to map low-resolution seismic data to broadband reflection coefficients. A key innovation is a forward network with two adaptive submodules: one adaptively corrects the initial source wavelet, and the other simulates non-stationary seismic data, ensuring a physically consistent data match. The inverted reflection coefficients are then convolved with a broadband wavelet to produce a stable, high-resolution reconstruction. Tests on synthetic and field data demonstrate that our method achieves improved resolution and reliable performance, even with limited well-log labels.",
+        "keyPoints": [
+          "A semi-supervised framework combines seismic data, well logs and adaptive physical modeling to reconstruct broadband reflection coefficients and higher-resolution seismic traces.",
+          "Synthetic and field tests show improved resolution with limited well-log labels while accounting for wavelet uncertainty and non-stationary seismic responses."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3746475",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "Semi-supervised learning; seismic resolution enhancement; adaptive wavelet estimation",
+        "onlineDate": "2026-10-23",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "SX-FNO: A Spectral Cross-Gating Fourier Neural Operator for Forward Surrogate Modeling of GPR B-Scans",
+        "doi": "10.1109/tgrs.2026.3746483",
+        "authors": "Wenqiang Ding, Changying Ma, Hongxing Li, Wenwu Tang, Xintong Dong, Bingbing Chen",
+        "abstract": "Repeated ground-penetrating radar (GPR) simulation with finite-difference time-domain (FDTD) solvers remains computationally demanding for heterogeneous media. This study presents SX-FNO, a spectral cross-gating Fourier neural operator for configuration-specific GPR B-scan surrogate modeling. Separate encoders preserve the distinct representations of relative permittivity and electrical conductivity, while Fourier-domain cross-gating models their interaction before global operator learning. A structure-regularized objective further constrains wavefront morphology and localized scattering features. Experiments on heterogeneous models generated with gprMax show that SX-FNO improves reconstruction over standard U-Net and FNO baselines, reproduces trace-level waveform characteristics in the conditioned domain, and substantially reduces inference cost relative to FDTD. The structural regularizer also suppresses unsupported local curvature, complementing conventional point-wise metrics. These results support SX-FNO as an efficient surrogate for repeated generation of conditioned GPR B-scans under a fixed acquisition configuration.",
+        "keyPoints": [
+          "SX-FNO combines separate permittivity and conductivity encoders with spectral cross-gating to improve GPR B-scan reconstruction over U-Net and FNO baselines.",
+          "For a fixed acquisition configuration, the surrogate reduces inference cost relative to FDTD while structural regularization suppresses unsupported local wavefront curvature."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3746483",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "GPR forward modeling; Fourier neural operator",
+        "onlineDate": "2026-10-23",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "A Cross-Gating PINN with Physics-Guided Multi-Scale Spatial Phase for Wavefield Simulation",
+        "doi": "10.1109/tgrs.2026.3746583",
+        "authors": "Daoxuan Li, Zhen’an Yao, Hongxing Li, Wanling Chen, Xiangteng Wang",
+        "abstract": "Physics-Informed Neural Networks (PINNs), as mesh-free solvers for partial differential equations, often encounter the high-frequency fitting predicament caused by spectral bias and local wavefront distortion when solving frequency-domain wave equations (Helmholtz equations). Moreover, traditional data-driven random weight initialization easily introduces unphysical artifacts and computational redundancy in feature space. To address these issues, this paper proposes a novel neural wavefield solver, CG-MSP-PINN, based on physical priors of multi-scale spatial phase and cross-gating mechanisms. First, the physical dispersion relation of the wave equation is explicitly mapped onto Cartesian wave vectors, constructing a feature distribution in wavenumber space with strict physical boundaries to suppress non-physical noise. Second, a dual-band physical feature dictionary is designed: global broadband absolute phase is used to fit macroscopic smooth background, while local single-frequency relative phase captures abrupt variations in the target dominant frequency band. Furthermore, a dual-branch cross-gating fusion architecture is introduced, enabling synergistic representation through bidirectional nonlinear modulation between implicit wavefield characterization via sinusoidal representation networks (SIREN) and explicit multi-scale physical dictionaries. Numerical experiments across frequency bands using Simple and Marmousi models demonstrate that CG-MSP-PINN effectively mitigates scale aliasing problems. Compared to pure SIREN architectures, this method achieves higher wavefield reconstruction accuracy while reducing dependence on spatial collocation density and training duration. This study provides a deep learning solution that takes into account both physical constraints and computational efficiency for seismic exploration and full waveform inversion.",
+        "keyPoints": [
+          "A cross-gating PINN with physically bounded multiscale phase features improves frequency-domain seismic wavefield reconstruction on Simple and Marmousi models.",
+          "The solver reduces spectral aliasing and dependence on spatial sampling density and training duration, supporting efficient seismic exploration and full-waveform inversion."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3746583",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "Physics-informed neural networks; frequency-domain seismic wavefield modeling",
+        "onlineDate": "2026-10-26",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "A Deformation Compensated Offset Tracking for the High-Velocity Glaciers at Greenland Ice Sheet",
+        "doi": "10.1109/tgrs.2026.3747151",
+        "authors": "Ziyin Yao, Gang Li, Yanting Mao, Zhuoqi Chen, Yu Li, Xiao Cheng",
+        "abstract": "Offset tracking (OT) is a primary method for monitoring glacier motion in high-velocity regions, where displacement is typically estimated by template matching in the frequency domain. However, this method relies on the rigid-body shift assumption of the image template and neglects internal deformation within the template, which may reduce coherence and introduce errors in displacement estimation. Here, we propose a deformation compensation method to eliminate the effects of internal deformation within the template. First, a preset deformation field is formed based on a long-term average flow velocity field and the SAR observation geometry. Then the pre-event image is shifted pixel-wise according to the preset deformation field to establish a simulated post-event image. Afterwards, the residual deformation is obtained by performing the OT method between the simulated post-event image and the real post-event image. The final deformation field is the sum of the preset deformation field and the residual. We selected four glaciers in Greenland and applied the proposed method to Sentinel-1 SAR images. The obtained velocity fields were compared with published velocity products and those derived from the traditional OT method. In the top 10% high-velocity regions, compared with the traditional OT method, the proposed method achieves average improvements of 103.84% in spatial coverage and 1.96 in signal-to-noise ratio (SNR); compared with the published velocity products, the spatial coverage improvement averages 92.44%. The results demonstrate that the proposed deformation compensated OT method effectively reduces monitoring failures in high-velocity glacier regions and significantly improves the coverage of velocity fields, especially in high-velocity areas. This research can be further applied to both polar and alpine regions for glacier dynamic studies.",
+        "keyPoints": [
+          "Deformation-compensated offset tracking improves Greenland glacier velocity retrieval by accounting for internal image-template deformation.",
+          "Across four glaciers, spatial coverage in the fastest-flowing areas improves by 103.84% over conventional tracking, reducing monitoring failures and supporting glacier dynamics studies."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3747151",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Greenland",
+        "method": "Sentinel-1 SAR; deformation-compensated offset tracking",
+        "onlineDate": "2026-10-26",
+        "volume": "64",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
+        ]
+      },
+      {
+        "title": "BFDMCA: A Novel Approach for Classification of GPR Images with SHAP Explanations",
+        "doi": "10.1109/tgrs.2026.3747168",
+        "authors": "Buddepu Santhosh Kumar, Swarna Laxmi Panda, Satyakam Baraha, Ajit Kumar Sahoo, Subrata Maiti",
+        "abstract": "Accurate classification of clutter-free images is crucial for precise analysis in ground penetration radar (GPR) imaging. However, significant challenges arise due to limited annotated datasets and the demand for efficient models capable of handling complex subsurface data. Existing methods often struggle to differentiate subtle features critical for accurate classification, where fine details are essential. To address these challenges, the proposed model employs an optimized architecture combined with a multiscale attention mechanism, achieving improved classification accuracy and robustness in GPR imaging. The approach begins with the collection of synthetic and experimental GPR images, followed by data augmentation through conditional generative adversarial networks (CGANs), which enrich data diversity and volume, strengthening classification accuracy. For classification, the model employs the Bidirectional Focal Tversky Dynamic Multiscale Convolutional Neural Network based on AlexNet (BFDMCA), which integrates multiscale convolutional feature extraction with Bidirectional Long Short-Term Memory (Bi-LSTM) and attention mechanisms to capture complementary spatial and sequential information from GPR images. Explainability is supported by Shapley additive explanation (SHAP), which provides insights into critical features and regions, ensuring model transparency and reliability. A lightweight web-based application is also implemented to facilitate real-time visualization of predictions, supporting practical use of the proposed framework.",
+        "keyPoints": [
+          "BFDMCA combines augmented GPR data, multiscale convolution, bidirectional sequence modeling and attention to improve subsurface-image classification.",
+          "SHAP highlights influential image features and regions, adding interpretability to a workflow designed for limited annotated GPR datasets."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3747168",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "method": "GPR classification; multiscale neural networks; SHAP",
+        "onlineDate": "2026-10-26",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "Underground cavity ground-penetrating radar segmentation and quantification based on a fuzzy-aware hierarchical decoding network",
+        "doi": "10.1109/tgrs.2026.3747779",
+        "authors": "Zhongying Li, Yan Chen, Tianxiang Sun, Xincheng Liu, Xiaobin Yang, Chunhui Zhang, Shujie Liu, Xiangfeng Lv, Qingrui Yue",
+        "abstract": "Accurately quantifying underground cavities is critical for predicting ground collapse hazards; however, ground-penetrating radar (GPR) images acquired in engineering practice are often characterized by complex backgrounds and indistinct cavity boundaries. To address these challenges, a fuzzy-aware hierarchical decoding network (FA-HDN) is proposed for underground-cavity segmentation and quantification. The proposed network incorporates fuzzy logic into an encoder–decoder framework by constructing a fuzzy-attention skip-connection mechanism, enabling effective fuzzy-aware information transfer between encoding and decoding stages. Additionally, a granularity-adaptive capturing strategy is introduced to enhance the capability of the model to represent variations in cavity morphology. Furthermore, a cavity semantic topological pyramid and a multiscale semantic upsampling fusion module have been developed to further improve boundary discrimination. Based on FA-HDN segmentation results, a quantitative method for cavity geometric parameter extraction is established. Experimental results show that FA-HDN achieved high performance across all evaluated metrics. Compared with the baseline model, it achieved a maximum relative improvement of 13.6%. Compared with nine mainstream semantic segmentation networks, FA-HDN showed better overall performance while maintaining a lightweight model size of 20.4 MB. The proposed cavity geometric parameter quantification method enables automatic extraction of the cavity burial depth and span, achieving a quantification accuracy of ≥ 97.15% in model experiments. The method was further validated in field projects in Beijing and Guangdong, China, achieving extraction accuracies of ≥90.07% and ≥96.80% for cavity span and burial depth, respectively. These results provide strong technical support for refined detection and quantitative assessment of ground collapse hazards.",
+        "keyPoints": [
+          "A fuzzy-aware hierarchical decoding network segments underground cavities in GPR images, achieving at least 97.15% geometric quantification accuracy in model experiments.",
+          "Field validation in Beijing and Guangdong supports automated cavity depth and span estimation for ground-collapse hazard assessment."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3747779",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Beijing; Guangdong, China",
+        "method": "Ground-penetrating radar; deep learning",
+        "onlineDate": "2026-10-29",
+        "researchAreas": [
+          "geomagnetism-em-applied-geophysics"
+        ]
+      },
+      {
+        "title": "STLSM: A Swin Transformer-Based Framework for Least-squares Seismic Imaging",
+        "doi": "10.1109/tgrs.2026.3748326",
+        "authors": "Wenjing Guo, Jidong Yang, Jiaxing Sun, Jianping Huang, Peng Wang",
+        "abstract": "Data-domain least-squares migration (LSM) yields high-resolution subsurface reflectivity models by solving a linear inverse problem, but at the cost of substantial computational expense. By approximating the Hessian from migrated images, image-domain LSM offers a more efficient and practical imaging strategy; however, its large memory requirements remain a significant challenge. To achieve data-domain LSM-comparable imaging quality without the computational burden of iterative inversion, we present a deep learning-based imaging framework, termed STLSM, built upon a Swin Transformer (ST). The migrated image, source illumination and migration velocity model are used as the input data for the STLSM, and the ground-truth reflectivity serves as the label data to train the network. An efficient multi-head self-attention module is incorporated into the proposed framework to reduce memory consumption and computational cost while preserving the ability to capture global dependencies. In addition, we employ a combined loss function consisting of the mean square error and the structural similarity to improve network training and reconstruction quality. The network is trained on diverse realistic synthetic models to learn the mapping from reverse time migration images to true subsurface reflectivity. Numerical experiments demonstrate that STLSM outperforms both generative adversarial networks-based and standard ST-based methods in terms of structural continuity, amplitude fidelity, noise suppression, and spatial resolution. Quantitative evaluations using structural similarity and peak signal-to-noise ratio metrics further confirm these improvements. The reliability of the results is also evaluated through uncertainty quantification. Finally, field data application with the pretrained model confirms the effectiveness and practical applicability of the proposed approach.",
+        "keyPoints": [
+          "A Swin Transformer framework maps migrated seismic images, illumination and velocity to reflectivity while reducing the memory burden of image-domain least-squares migration.",
+          "Synthetic and field tests show improved structural continuity, amplitude fidelity and resolution, supporting efficient seismic imaging without iterative data-domain inversion."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3748326",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Least-squares seismic imaging; Swin Transformer",
+        "onlineDate": "2026-10-29",
+        "researchAreas": [
+          "earth-interior-rock-physics"
+        ]
+      },
+      {
+        "title": "The Effect Due to Doppler Detuning of Stimulated Raman Transitions in Marine Atom Gravimeter under High Dynamic Conditions",
+        "doi": "10.1109/tgrs.2026.3748443",
+        "authors": "Wushuang Wang, Yuan Cheng, Wenjie Xu, Hang Zhou, Xiaobing Deng, Guochao Wu, Qin Luo, Zhongkun Hu, Minkang Zhou",
+        "abstract": "Atom gravimeters are highly promising for marine gravity surveys due to their inherent advantages of continuous operation, negligible long-term drift, and no mechanical wear. However, their performance under the high dynamic conditions requires further enhancement, particularly in terms of environmental adaptability and noise suppression. External vibrations induce relative motion between the gravimeter sensor head and the atomic cloud, resulting in the Doppler detuning of stimulated Raman transition that has become a primary limitation on gravimeter precision and stability. This study investigates the physical mechanisms of this effect, develops a simplified theoretical model to describe the relative motion, and describes how this motion perturbs the interferometer paths and the final-state probability distribution. Combining vibration correction techniques with high sampling rate inertial sensor data, this study uses fringe probability offset and contrast derived from calibration curves for correction and validated the method’s performance in experiments. This correction method improved the internal consistency accuracy of the atom gravimeter by more than a factor of three under dynamic conditions. This work provides insights that may inform theoretical and engineering approaches to improve the accuracy of atom gravimeters in high dynamic environments, potentially aiding their practical application in geophysical observations.",
+        "keyPoints": [
+          "Modeling Doppler detuning and correcting fringe probability and contrast improves atom-gravimeter internal consistency accuracy by more than threefold under dynamic conditions.",
+          "The correction addresses vibration-induced interferometer errors, supporting marine gravity observations in high-dynamic environments."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1109/tgrs.2026.3748443",
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "region": "Method-focused",
+        "method": "Marine atom gravimetry",
+        "onlineDate": "2026-10-29",
+        "researchAreas": [
+          "geodesy-crustal-deformation"
         ]
       }
     ]
@@ -4227,716 +6649,6 @@ const reports = [
         "issueNumber": "43",
         "pdfLink": "https://www.pnas.org/doi/pdf/10.1073/pnas.2619357123",
         "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ieee-transactions-on-geoscience-and-remote-sensing-2026-10",
-    "date": "2026-11-02",
-    "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-    "issue": "October 2026",
-    "issueDate": "2026-10-26",
-    "source": "",
-    "articles": [
-      {
-        "title": "A 3D finite-difference method for borehole acoustic field in pre-stressed porous formations",
-        "doi": "10.1109/tgrs.2026.3739009",
-        "authors": "Zhiqiang Zhao, Jinxia Liu, Zhiwen Cui",
-        "abstract": "Understanding how in-situ stress affects acoustic wave propagation in fluid-saturated porous formations is important for stress evaluation in reservoirs by sonic logging. We developed a three-dimensional finite-difference time-domain (FDTD) method for borehole acoustic fields in pre-stressed porous formations. The model is based on the acoustoelastic theory of fluid-saturated porous media. We investigated the effects of uniaxial stress on monopole and dipole wavefields, and compared the acoustoelastic responses of dry and fluid-saturated formations. The simulations show that uniaxial stress changes the arrival times, attenuation, and dispersion characteristics of borehole waves. A crossover of flexural-wave dispersion curves under horizontal stress is observed, indicating stress-induced anisotropy. The waveforms and dispersion curves of flexural waves exhibit different responses to stress in dry and fluid-saturated formations. This suggests that fluid-solid coupling must be considered when using sonic logging to estimate stress in fluid-saturated formations. These results provide insights into acoustic wave propagation in a borehole surrounded by a pre-stressed porous formation.",
-        "keyPoints": [
-          "Three-dimensional finite-difference simulations show that uniaxial stress changes borehole-wave travel times, attenuation and dispersion in fluid-saturated porous formations.",
-          "Different flexural-wave stress responses in dry and saturated formations demonstrate the need to account for fluid-solid coupling when inferring reservoir stress from sonic logs."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3739009",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Finite-difference borehole acoustic modeling",
-        "onlineDate": "2026-10-01",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11717539",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "A Novel Electromagnetic Induction-Magnetometer Sensing Approach for Subsurface Conducting Target Detection",
-        "doi": "10.1109/tgrs.2026.3739203",
-        "authors": "Max Orman-Kollmar, Randall Reynolds, Rui Zhang, Benjamin Barrowes, Fridon Shubitidze",
-        "abstract": "This paper presents an approach that can be utilized for detecting deeply buried ferrous and non-ferrous targets by pairing a magnetometer with a time-domain electromagnetic induction (TDEMI) system. Detecting subsurface targets of interest (TOIs) such as munitions and explosives of concern (MEC), buried infrastructure, and mineral or ore deposits necessitates different sensing approaches due to their widely varying target sizes, depths, and material compositions. Since most TOIs contain metallic components, electromagnetic induction (EMI) and magnetometry are common approaches for detection and discrimination. However, both sensing modalities have inherent drawbacks: magnetometers are passive sensors, detecting only ferromagnetic objects through their perturbation of Earth’s magnetic field, and TDEMI systems have a limited detection depth. Magnetometers can possess high sensitivity, which allow for the discernment of small-magnitude perturbations, but magnetometer data provide limited information regarding the material properties of the target. TDEMI sensors, by contrast, are active systems that can detect the secondary field from conducting targets induced by the time-varying primary magnetic field of the sensor. However, the detection of the secondary field response is made difficult by both the signal’s spatial decay (as dictated by the physical limitations of induced dipoles) and its temporal characteristics (as dictated by sensor noise and target electrical properties). This paper investigates a combination of active EMI and rapidly sampled magnetometry to evaluate the feasibility of extracting late-time induced magnetic field responses from MEC, as well as specifically detecting non-ferrous targets with a magnetometer. A test setup was established to conduct repeatable and reliable data collection with a variety of targets, varying geometries, and testing different target material compositions. Target parameters were chosen to facilitate comparative simulations and modeling. Test stand data were subsequently collected, to compare both sensing modalities against each other, as well as different targets’ responses. Finally, targets responses were calculated and compared to the experimental data to verify that the observed data agreed with theoretical expectations. The data indicate that using a magnetometer in conjunction with a TDEMI system allows for deeper target differentiation, as well as sensing of non-ferrous materials with a magnetometer.",
-        "keyPoints": [
-          "Pairing time-domain electromagnetic induction with rapidly sampled magnetometry detects late-time induced responses and allows magnetometer sensing of non-ferrous targets in controlled experiments.",
-          "Comparisons with calculated target responses support deeper target differentiation, extending complementary electromagnetic and magnetic sensing for subsurface detection."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3739203",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Electromagnetic induction and magnetometer sensing",
-        "onlineDate": "2026-10-01",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11718859",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Robust Marine CSEM Signal Enhancement in Low-SNR Environments Using a Mixed Multistable Stochastic Pooling Network",
-        "doi": "10.1109/tgrs.2026.3739277",
-        "authors": "Yihan Tian, Wanyue Zhang, Fan Yang, Suyi Li",
-        "abstract": "The marine controlled-source electromagnetic (MCSEM) method is used to reconstruct deep subsurface resistivity distributions. However, low-frequency ambient noise and instrumental interference reduce the signal-to-noise ratio (SNR) of observed responses and degrade the stability of resistivity inversion. To address this noise-induced inversion degradation under low-SNR conditions, this study proposes a signal enhancement framework that integrates a mixed multistable stochastic resonance (MMSR) model with an adaptive stochastic pooling network (SPN). The MMSR model enhances the target-frequency components of MCSEM responses while suppressing uncorrelated noise. Parallel stochastic resonance nodes are constructed for multichannel signal fusion, allowing the framework to accommodate complex noise patterns. A recursive least squares (RLS) algorithm is then used to adaptively optimize the pooling weights for further signal enhancement. Synthetic results show that the MMSR-SPN method improves the average SNR by 13.79 dB and maintains consistent enhancement performance under varying noise levels. Field datasets further validate its practical applicability. The processed time-series waveforms exhibit more pronounced attenuation and periodic features, attaining a spectrum improvement ratio (SIR) of 14.2. The magnitude-versus-offset and phase-versus-offset curves become smoother and more continuous, and the derived inversion results are consistent with known stratigraphic records. Numerical simulations and field-data experiments confirm that the proposed framework effectively alleviates noise-induced inversion instability, providing a robust signal enhancement solution for geophysical electromagnetic exploration.",
-        "keyPoints": [
-          "A multistable stochastic-resonance and adaptive pooling framework improves average marine CSEM signal-to-noise ratio by 13.79 dB in synthetic tests and enhances field responses.",
-          "Smoother offset-dependent amplitude and phase curves yield inversions consistent with stratigraphic records, reducing noise-driven instability in subsurface resistivity interpretation."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3739277",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Marine CSEM signal enhancement",
-        "onlineDate": "2026-10-01",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11718790",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Novel imaging method based on acoustic vector phased array for detecting multiple anomalies around the well during drilling",
-        "doi": "10.1109/tgrs.2026.3739809",
-        "authors": "Teng Zhao, Gensheng Li, Xiaohua Che, Wenxiao Qiao, Junqiang Lu, Baiyong Men",
-        "abstract": "Real-time detection and evaluation of anomalies such as formation interfaces, faults, fractures, and adjacent wells around the well during drilling is a new requirement in petroleum engineering. The application of acoustic methods to detect anomalies around the well during drilling using deserves research attention. As one such method, existing acoustic reflection imaging while drilling technology suffers from low echo signal-to-noise ratio (SNR) and the insufficient azimuth resolution of the associated imaging method. In this study, by combining theoretical methods, numerical simulations, and experimental tests, a linear phased array (LPA) acoustic transmitter is used while drilling to enhance the acoustic energy radiated to the formation around the well, an acoustic vector phased array (AVPA) receiver is used while drilling to enhance the echo signal received from anomalies, and the acoustic compressed sensing (CS) imaging method while drilling is used to achieve high-resolution real-time localization of multiple anomalies in different azimuths around the well. The results show that the LPA acoustic transmitter can radiate acoustic energy into the formation in a direction perpendicular to the well axis. The particle velocity circumferential component receiving element weakens the direct wave while retaining the echo wave, considerably enhancing the SNR of PP echo. The azimuth resolution of the CS imaging method based on AVPA while drilling is higher than that of the existing three-dimensional spatial scanning imaging method, and the imaging SNR achieved is better than that of the CS imaging method based on an acoustic pressure arc array while drilling. This study will help realize the advancement from near-borehole detection to remote detection around the well during drilling.",
-        "keyPoints": [
-          "Acoustic phased-array transmission and vector reception improve reflection signal quality, while compressed-sensing imaging resolves multiple azimuthal anomalies around a drilling well.",
-          "Theoretical, numerical and experimental comparisons show higher azimuthal resolution than spatial scanning and improved imaging signal-to-noise relative to a pressure-array approach."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3739809",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Acoustic vector phased-array borehole imaging",
-        "onlineDate": "2026-10-02",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11719694",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Efficient Least-Squares Extended Reverse-Time Migration Based on Local Cross-Correlation Gradient Computation",
-        "doi": "10.1109/tgrs.2026.3740413",
-        "authors": "Weixin Yang, Bo Wang, Chongyang Han, Mingkun Zhang, Chi Fang, Wei Wu, Hui Zhou",
-        "abstract": "Least-squares reverse-time migration (LSRTM) improves upon conventional RTM by inverting for a reflectivity model that compensates for the Hessian blurring inherent in adjoint-based imaging. In data-domain LSRTM, however, each iteration requires cross-correlation of the source and adjoint wavefields at identical time steps, necessitating either full wavefield storage or costly reconstruction — a bottleneck that grows prohibitive for large-scale imaging problems. When the migration velocity model is inaccurate, the problem is compounded by cycle-skipping, which traps the inversion in local minima. To address both challenges, we propose a local cross-correlation gradient computation (LCGC) within the least-squares extended RTM (LSERTM) framework. By restricting the cross-correlation to a local time window around the excitation amplitude at each subsurface location, our method avoids source-wavefield reconstruction entirely: each iteration requires only one forward simulation and one adjoint migration. The subsurface-offset extension provides an additional degree of freedom that tolerates velocity errors of up to 10%. Memory demand is further reduced by applying Nyquist sampling to the stored local wavefields. We validate LCGC-LSERTM on layered and modified Marmousi-2 synthetic datasets under both accurate and inaccurate velocity models. With a time window spanning two wavelet periods, LCGC-LSERTM achieves imaging quality indistinguishable from conventional cross-correlation method while reducing the source-wavefield storage requirement to as low as 0.32%. The method matches the noise robustness and wavelet-mismatch tolerance of conventional approach and substantially outperforms excitation-amplitude gradient computation. Our results demonstrate that high-quality extended LSRTM imaging is achievable at a fraction of conventional memory and computational cost, making it practical for routine subsurface characterization even when the velocity model is only approximately known.",
-        "keyPoints": [
-          "Local cross-correlation gradient computation removes source-wavefield reconstruction from extended LSRTM, requiring one forward simulation and one adjoint migration per iteration.",
-          "Tests retain conventional imaging quality while cutting source-wavefield storage to as little as 0.32% and tolerating velocity-model errors up to 10%."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3740413",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Least-squares extended reverse-time migration",
-        "onlineDate": "2026-10-06",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721392",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Three-Dimensional Spectral-Element Forward Modeling of Induced-Polarization Transient Electromagnetic Responses Based on the Caputo Fractional Derivative and Sum-of-Exponentials Acceleration",
-        "doi": "10.1109/tgrs.2026.3740726",
-        "authors": "Xiaonan Zhang, Xiaoyue Cao, Liangjun Yan, Xin Huang, Xinyu Wang, Lei Zhou",
-        "abstract": "Induced polarization (IP) can produce slow late-time decay, negative transients, and polarity reversals in transient electromagnetic (TEM) data and therefore needs to be considered when interpreting sulfide mineralization, altered fracture zones, and other polarizable targets. This study develops a three-dimensional spectral-element formulation for grounded long-wire TEM electric-field responses in which the Cole–Cole conductive-polarization relation is expressed directly in the time domain using a Caputo fractional derivative. Nonuniform hexahedral spectral elements and high-order vector edge basis functions are used for spatial discretization. To avoid storing and repeatedly evaluating the complete fractional history, the weakly singular memory kernel is approximated by a sum of exponentials (SOE), yielding recursively updated memory variables. The method is validated using a nonpolarizable layered earth, a homogeneous polarizable half-space, a polarizable lowr-esistivity layer, and three-dimensional polarizable bodies. At comparable degrees of freedom, the third-order SEM produces lower errors than the first-order FEM. Under matched numerical conditions, the SOE scheme reduces explicitly allocated fractional-history storage from 7924.91 to 257.25 MB (96.75%) and total runtime by 12.85%–18.17%, while preserving global response accuracy comparable to that of direct L1 convolution. Numerical experiments show that Ex is sensitive to the Cole–Cole parameters, resistivity contrast, target position, and target configuration. A generalized Jiaodong geology-constrained model further demonstrates identifiable late-time responses from deeply buried, low-resistivity, highly polarizable bodies. The proposed formulation provides an efficient forward-modeling basis for the interpretation and future inversion of IP-affected TEM data.",
-        "keyPoints": [
-          "A three-dimensional spectral-element TEM formulation represents Cole-Cole induced polarization with a Caputo fractional derivative and recursively updated sum-of-exponentials memory variables.",
-          "The acceleration reduces allocated fractional-history storage by 96.75% and runtime by 12.85%-18.17% while preserving the accuracy of direct L1 convolution."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3740726",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Spectral-element transient electromagnetic induced-polarization modeling",
-        "onlineDate": "2026-10-06",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721337",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Physics-informed blind deconvolution for seismic resolution enhancement based on zero-shot learning",
-        "doi": "10.1109/tgrs.2026.3740767",
-        "authors": "Wenshuo Yu, Shiqi Dong, Hongyuan Yang, Xintong Dong",
-        "abstract": "The limited seismic resolution significantly degrades thin beds identification and reservoir characterization. Conventional deconvolution methods often rely on manual parameter tuning, while supervised deep learning (DL) methods require extensive high-fidelity labels. Although some unsupervised methods reduce the dependence on labels, they often lack geophysical interpretability. In addition, most DL-based deconvolution methods assume a known wavelet, which limits their applicability in practical scenarios. To address these challenges, we propose a physics-informed blind deconvolution workflow for seismic resolution enhancement based on zero-shot learning. Specifically, a three-stage progressive optimization strategy is proposed. An initial wavelet is first estimated by amplitude spectrum constraints and phase scanning. A dual-stream time-frequency network (DSTFNet) is then warmed up with the wavelet fixed to obtain a reliable initial reflectivity. Finally, the wavelet and the network parameters are alternately updated to achieve joint refinement of the wavelet and the reflectivity. In addition, we construct a joint loss function consisting of a physics-constrained Huber loss, and an L1 sparsity loss, which enhances physical interpretability and robustness to noise. Experiments on synthetic and field data demonstrate that the proposed method exhibits strong generalization and robustness.",
-        "keyPoints": [
-          "The zero-shot blind-deconvolution workflow progressively estimates the wavelet, initializes reflectivity with a dual-stream time-frequency network, and jointly refines both quantities.",
-          "A physics-constrained Huber loss with L1 sparsity gives the method geophysical interpretability, noise robustness, and strong performance on synthetic and field seismic data."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3740767",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Physics-informed blind seismic deconvolution",
-        "onlineDate": "2026-10-06",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11721215",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Large Vision Model–Guided Masked Low-Rank Approximation for Ground-Roll Attenuation",
-        "doi": "10.1109/tgrs.2026.3741082",
-        "authors": "Jiacheng Liao, Feng Qian, Yongjian Guo, Ziyin Fan",
-        "abstract": "Ground roll is a common type of coherent noise in seismic records, and its attenuation remains challenging due to its substantial overlap with useful reflections in localized regions. Existing attenuation methods can be broadly classified into global and local categories according to whether ground-roll-contaminated regions are explicitly identified. Global methods, however, typically impose uniform attenuation on both contaminated and uncontaminated regions, which may result in signal leakage or distortion of reflections. By contrast, local methods restrict attenuation to contaminated regions and are therefore less prone to unnecessary modification of clean areas. However, their performance is often limited by manually designed or simplistic model-based mask estimation strategies. To address these limitations, we propose a large vision model-guided masked low-rank approximation (LVM-LRA) framework for ground-roll attenuation. Within this framework, a promptable LVM is first employed to identify ground-roll-dominant regions in seismic records through multimodal prompting and to generate accurate, fine-grained masks. The estimated masks are then incorporated into an LRA model for ground-roll attenuation. A global low-rank constraint is imposed on the reflection component to preserve event continuity, whereas a mask-guided local low-rank constraint is imposed on the ground-roll component so that its separation is confined to the masked regions. An iterative optimization algorithm based on the alternating direction method of multipliers (ADMM) is further developed to solve the resulting model efficiently. Experiments on synthetic and field datasets demonstrate that the proposed method achieves more effective ground-roll attenuation and better suppresses signal leakage than the baseline methods.",
-        "keyPoints": [
-          "LVM-LRA uses a promptable large vision model to delineate ground-roll regions, then combines a global low-rank reflection constraint with mask-guided local ground-roll separation.",
-          "Synthetic and field tests show more effective ground-roll attenuation and less reflection leakage than baseline methods while avoiding unnecessary changes to clean regions."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3741082",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Masked low-rank approximation for seismic ground-roll attenuation",
-        "onlineDate": "2026-10-07",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11723213",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Bilateral Filtering-Guided Adaptive Anisotropic Total Variation Seismic Impedance Inversion",
-        "doi": "10.1109/tgrs.2026.3741197",
-        "authors": "Ziwen Liu, Xuehua Chen, Qingwei Zhao, Wei Jiang, Shengyi Wang",
-        "abstract": "Seismic impedance inversion is a fundamental technique for deriving impedance from seismic data, providing essential information for reservoir characterization. Existing inversion methods can impose lateral constraints to suppress noise and enhance the lateral continuity of inversion results. However, such lateral constraints tend to impair the edge information of complex discontinuous structures while suppressing the noise. As a result, it is difficult to effectively preserve stratigraphic boundaries with these constraints. To address these limitations, this paper proposes a bilateral filtering-guided adaptive anisotropic total variation regularization method for impedance inversion. Different from the conventional approach that serially concatenates inversion and filtering, the key innovation is the construction of an adaptive weight matrix that directly integrates the filtering process into the formulation of the inversion objective function. Consequently, the inversion process is inherently guided by the filtering information, dynamically adjusting the lateral and vertical constraint strengths to suppress noise in flat regions while preserving stratigraphic discontinuities at boundaries. The split bregman algorithm combined with the 2D-Sylvester equation is employed to solve the inversion objective function by decomposing the complex multi-parameter optimization problem into tractable subproblems. Experimental results on synthetic models and field data demonstrate that the proposed method achieves superior performance in inversion accuracy compared with conventional approaches, and effectively balances noise suppression with edge preservation.",
-        "keyPoints": [
-          "Bilateral-filter-guided anisotropic total-variation inversion embeds adaptive smoothing in the seismic impedance objective while preserving stratigraphic discontinuities.",
-          "Synthetic and field tests improve inversion accuracy and balance noise suppression with edge preservation for reservoir characterization."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3741197",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Bilateral-filter-guided adaptive anisotropic total-variation seismic impedance inversion",
-        "onlineDate": "2026-10-08",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11723235",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Full-Waveform Inversion Using Progressive Geological Guidance and Learned Waveform Matching",
-        "doi": "10.1109/tgrs.2026.3741638",
-        "authors": "Liuqing Yang, Min Bai, Dong Zhang, Zixiang Zhou, Xufa Zheng, Hang Xu, Yatong Zhou",
-        "abstract": "Full-waveform inversion (FWI) is highly sensitive to cycle skipping, local minima, and non-uniqueness, particularly when the starting model is smooth and seismic observations provide limited constraints on the subsurface velocity. As a result, waveform matching alone may lead to models that are kinematically acceptable but geologically unreliable. In this study, we propose PGGNeural, a progressive geology-guided neural FWI framework that combines a Siamese representation-based data misfit with sparse well calibration and dip-guided structural regularization. The learned misfit compares observed and simulated shot gathers in a feature space, while the well and dip constraints provide local velocity control and structural guidance during model updating. The proposed framework progressively updates the structural dip guidance as the velocity model evolves, with a weaker dip contribution in the first step and stronger guidance in subsequent steps to stabilize the inversion. Experiments on the BP salt and Marmousi models show that PGGNeural produces more accurate and geologically coherent velocity models than benchmarks, with reduced coherent data residuals and improved reverse time migration imaging responses. Analyses of progressive updating and well control settings further illustrate how geological guidance improves the stability of the inversion pathway and the recovery of complex salt and layered structures. The proposed framework provides a practical way to improve the convergence behavior and geological reliability of neural FWI by combining learned waveform matching with progressive geological constraints.",
-        "keyPoints": [
-          "PGGNeural combines learned waveform matching, sparse well control and progressive dip guidance to improve FWI on BP salt and Marmousi models.",
-          "The framework yields more coherent velocity structures, smaller residuals and improved migration images, reducing sensitivity to geologically unreliable solutions."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3741638",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Global / method-focused",
-        "method": "Progressive geological guidance and learned waveform matching for full-waveform inversion",
-        "onlineDate": "2026-10-08",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11727536",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "The Neuro-Physical Inverter: A Modular Framework for Magnetotelluric Inversion Coupling Ensemble Conditioning with Residual Learning",
-        "doi": "10.1109/tgrs.2026.3740359",
-        "authors": "Jae Deok Kim, Sai Ravela, Rob. L. Evans",
-        "abstract": "We present the Neuro-Physical Inverter (NPI), a modular, uncertainty-aware framework for geophysical inversion that couples ensemble-based conditioning with constrained residual learning, demonstrated in the 1D magnetotelluric (MT) setting as a controlled testbed. The framework operates in two stages. An Ensemble-Conditional Gaussian Process (EnsCGP) conditions a prior ensemble of resistivity models on the observed response, producing a physically admissible reference ensemble. A residual-learning neural network then predicts targeted corrections to this reference, trained on synthetic data and fine-tuned per station for field application through a physics-coupled objective. Because an ensemble is conditioned, refined, and propagated through both stages, every estimate carries an associated ensemble spread. Synthetic experiments show that NPI systematically reduces ensemble-mean error without destabilizing the ensemble. Applied to broadband MT data from the Gabbs Valley geothermal region (Nevada, USA), NPI reduces the across-station mean misfit over the mid-period band while retaining comparable ensemble spread. The propagated ensemble yields a factor of uncertainty that serves as an operational measure of constraint within the assumed model class. Both stages are dimension-agnostic in formulation, and the design principles established here are intended to scale to higher-dimensional parameterizations.",
-        "keyPoints": [
-          "The Neuro-Physical Inverter combines ensemble-conditioned Gaussian-process inference with constrained residual learning to refine 1D magnetotelluric models while propagating ensemble uncertainty.",
-          "Synthetic tests reduce ensemble-mean error, and Gabbs Valley field data show lower mid-period misfit while retaining comparable ensemble spread."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3740359",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Gabbs Valley, Nevada / 1D magnetotelluric testbed",
-        "method": "Ensemble-conditioned residual-learning magnetotelluric inversion",
-        "onlineDate": "2026-10-09",
-        "volume": "64",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11731762",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Terrain-Aware Evaluation of Optimized Sparse Source Sampling and Vibroseis Route Planning for Land Seismic Acquisition",
-        "doi": "10.1109/tgrs.2026.3742735",
-        "authors": "Yi Guo, Tingquan Deng, Rongzhi Lin, Jianwei Ma",
-        "abstract": "Land seismic acquisition must balance geophysical sampling quality with field operational cost, yet source-layout design and vibroseis routing are commonly treated separately.We propose a multi-objective workflow that combines sparse source selection with terrain-aware routing evaluation. Sampling quality is screened by the Second-Peak Suppression Ratio (R_{SPS}), the normalized off-DC peak sidelobe of the sampling-mask Fourier response. Selected sources are connected using terrain-cost shortest paths and an open Traveling Salesman Problem (TSP) tour. Five-dimensional fast multidimensional singular spectrum analysis (FMSSA) is applied only after selection as an independent reconstruction-validation step. In the main synthetic test at a nominal 20% source sampling rate on the complete candidate grid, R_{SPS}-guided simulated annealing (R_{SPS}-SA) reduces R_{SPS} from 0.714 to 0.287 and route length from 13.51 to 11.48 km relative to constrained-regular sampling; no shortest-route claim is made against every baseline. Thirty random-mask FMSSA tests yield an SNR of 19:24 ± 0:83 dB and show no clear monotonic relationship between R_{SPS} and reconstruction SNR in this benchmark. Under predeclared spectral and coverage constraints, one constraint-satisfying route-focused layout shortens the route by about 19% and lowers terrain cost by about 22% relative to the mean of the 30 random layouts with only a 0.17-dB SNR difference. A central-depot multi-vehicle extension further shows the trade-off between aggregate travel and maximum per-vehicle workload. The results support the use of R_{SPS} as a low-cost pre-acquisition spectral-risk diagnostic, not a reconstruction-error predictor, and demonstrate that spectral, reconstruction, and operational metrics should be reported together.",
-        "keyPoints": [
-          "A terrain-aware seismic acquisition workflow combines sparse-source selection and routing; a constrained layout cuts route length about 19% versus random layouts.",
-          "The spectral sampling metric diagnoses acquisition risk but does not predict reconstruction error, so spectral, imaging and operational metrics must be assessed together."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3742735",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Land-seismic terrain / method-focused",
-        "method": "Terrain-aware sparse source sampling and vibroseis route optimization",
-        "onlineDate": "2026-10-12",
-        "volume": "64",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733926",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "seismology-earthquakes",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Breakout-picker: Reducing false positives in deep learning-based borehole breakout characterization from acoustic image logs",
-        "doi": "10.1109/tgrs.2026.3741838",
-        "authors": "Guangyu Wang, Xiaodong Ma, Xinming Wu",
-        "abstract": "Borehole breakouts are stress-induced spalling on the borehole wall, which are identifiable in acoustic image logs as paired zones with near-symmetry azimuths, low acoustic amplitudes, and increased borehole radius. Accurate breakout characterization is crucial for in-situ stress analysis. In recent years, deep learning has been introduced to automate the time-consuming and labor-intensive breakout picking process. However, existing approaches often suffer from misclassification of non-breakout features, leading to high false positive rates. To address this limitation, this study develops a deep learning framework, termed Breakout-picker, with a specific focus on reducing false positives in automatic breakout characterization. Breakout-picker reduces false positives through two strategies. First, the training of Breakout-picker incorporates negative samples of non-breakout features, including natural fractures, keyseats, and logging artifacts. They share similar characteristics with breakouts, such as low acoustic amplitude or locally enlarged borehole radius. These negative training samples enables Breakout-picker to better discriminate true breakouts and similar non-breakout features. Second, candidate breakouts identified by Breakout-picker are further validated by azimuthal symmetry criteria, whereby detections that do not exhibit the near-symmetry characteristics of breakout azimuth are excluded. The performance of Breakout-picker is evaluated using three acoustic image log datasets from different regions. The results demonstrate that Breakout-picker outperforms other automatic methods with higher accuracy and substantially lower false positive rates. By reducing false positives, Breakout-picker enhances the reliability of automatic breakout characterization from acoustic image logs, which in turn benefits in-situ stress analysis based on borehole breakouts.",
-        "keyPoints": [
-          "Breakout-picker reduces false detections by training on non-breakout features and rejecting candidate breakouts that lack the expected near-symmetric azimuths.",
-          "Tests on three regional acoustic-image-log datasets show higher accuracy and substantially fewer false positives, improving automated breakout characterization for in-situ stress analysis."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3741838",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Borehole acoustic image logs / multi-region evaluation",
-        "method": "Deep-learning borehole-breakout picking with negative samples and azimuthal-symmetry validation",
-        "onlineDate": "2026-10-13",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733304",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "A Spectral-Case-Based Depth Retrieval (SCBDR) Method for Intercontinental-Scale Nearshore Waters: An Application in the Mediterranean Sea",
-        "doi": "10.1109/tgrs.2026.3742316",
-        "authors": "Guoping Zhang, Shuai Xing, Ruiyao Kong, Li Chen, Pengcheng Li, Dandi Wang, Ming Gao, Jikun Liu, Xinlei Zhang",
-        "abstract": "Nearshore depths are of great importance for coastal zone management, marine ecological research, and global seafloor mapping, but significant data gaps still exist in nearshore waters due to the high cost and limited spatial coverage of traditional shipborne and airborne methods. Satellite Derived Bathymetry (SDB) can efficiently obtain large-area shallow-water depth information, yet its retrieval accuracy is affected by spatial variations in water optical properties and seabed substrates. Spectral-regression-based SDB typically relies on regional in situ measurements to calibrate empirical spectral-depth relationships, which limits its intercontinental-scale applicability. To address this issue, this study proposes a large-scale spectral-case-based depth retrieval framework, termed Spectral-Case-Based Depth Retrieval (SCBDR). The framework integrates spaceborne bathymetric data from the Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2), airborne LiDAR bathymetry data, and annual composite Sentinel-2 imagery to construct a spectral-depth case database covering multiple seas and diverse optical environments. During retrieval in a study area, representative case sets are first selected from the dataset based on environmental similarity derived from image spectral features, then spectral band importance is adaptively evaluated and effective bands are selected, and finally a depth retrieval model suitable for the study area is established. This method does not require separate empirical model calibration for each study area and can dynamically match appropriate spectral-depth relationships according to local environmental characteristics. The proposed approach is validated along the Mediterranean coast, where spatially continuous bathymetry is generated at 10 m resolution for pixels classified as optically shallow water. Comparison with the resampled EMODnet bathymetric surface yields an overall MAE of 1.49 m and RMSE of 1.69 m. SCBDR maintains stable performance across different Mediterranean countries, with retrieval accuracy slightly superior to ICESat-2 measured depths and spectral-regression-based bathymetry results and markedly better than global elevation models. The results provide high-resolution and spatially continuous shallow-water depth data for the Mediterranean and offer a reproducible technical framework for large-scale shallow-water bathymetric mapping in data-scarce regions.",
-        "keyPoints": [
-          "SCBDR combines satellite and airborne depth data with Sentinel-2 spectral cases to map Mediterranean shallow waters at 10 m resolution, with 1.49 m MAE.",
-          "Environment-matched spectral cases avoid separate local calibration and support large-area bathymetric mapping where in situ data are scarce."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3742316",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Mediterranean Sea nearshore waters",
-        "method": "Spectral case-based satellite bathymetry retrieval",
-        "onlineDate": "2026-10-13",
-        "volume": "64",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11733573",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Improving Near-borehole Reflection Imaging and Slowness Estimation Using 3D Wavefield Decomposition of Acoustic Logging Data",
-        "doi": "10.1109/tgrs.2026.3742813",
-        "authors": "Lu Liu, Thierry Tonellot, Hussain Salim, Abdulmohsen Alali",
-        "abstract": "Acoustic logging data are typically dominated by strong direct waves propagating along the borehole, which obscure the weak yet valuable reflected signals needed for near-borehole imaging. Moreover, accurate slowness picking for direct waves can be challenging because of interference from reflected and transmitted waves. Robust decomposition of different wave components is therefore a prerequisite for improving both reflection imaging and velocity analysis. We propose a novel wave decomposition method based on a three-dimensional (3D) sparse Radon transform combined with semblance analysis and a Hilbert autocorrelator. The method separates overlapping wave modes in acoustic logging data by exploiting their distinct slowness and directional characteristics in both common-shot and common-offset gathers. The workflow first maps the data into a high-dimensional sparse domain, where different wave modes become more separable. It then uses semblance analysis to estimate the slowness of dominant linear events in the common-shot domain, followed by dip estimation of direct waves in the common-offset domain using a Hilbert-autocorrelator method. These orientation attributes guide a 3D mask function for selectively isolating direct and reflected waves, including up- and downgoing reflections. Each component is then reconstructed in the time-space domain through an inverse Radon transform. Applications to field monopole and dipole datasets demonstrate that the method significantly improves signal-to-noise ratio (SNR), preserves coherent energy, and enables high-fidelity separation of physically meaningful wave modes. In monopole data, P waves, S/pseudo-Rayleigh waves, Stoneley waves, and reflected waves are isolated; in dipole data, flexural and reflected waves are clearly separated. The extracted reflections improve near-borehole imaging, and using only direct waves for slowness estimation greatly improves semblance continuity and focus.",
-        "keyPoints": [
-          "A 3D sparse Radon workflow separates direct and reflected acoustic-logging waves using semblance and directional attributes in shot and offset gathers.",
-          "Field examples improve near-borehole reflection imaging and slowness estimates by preserving coherent energy and reducing wave-mode interference."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3742813",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Near-borehole formations / method-focused",
-        "method": "3D acoustic-wavefield decomposition for reflection imaging and slowness estimation",
-        "onlineDate": "2026-10-13",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11735196",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Microwave Radiation Modulation of Stressed Rocks by Groundwater Interfaces: Experimental Investigation and Mechanistic Insights",
-        "doi": "10.1109/tgrs.2026.3743297",
-        "authors": "Xin Han, Shanjun Liu, Lianhuan Wei, Wenfang Liu, Ankui Zhu, Huashuo Cui, Mi Wang",
-        "abstract": "Satellite microwave remote sensing has become an important tool for earthquake monitoring, and substantial progress has been made in experimental studies on the mechanisms of pre-earthquake thermal radiation anomalies. However, microwave anomalies prior to earthquakes are frequently observed near water bodies (rivers and lakes), where they manifest as both positive and negative anomalies with amplitudes typically higher than in other areas, suggesting a close association with water. According to microwave radiation transmission theory, strong reflections occur when microwaves encounter a groundwater interface along their propagation path, thereby altering the radiation characteristics of stressed rocks. To this end, laboratory experiments were conducted to investigate the effects of groundwater interfaces on microwave radiation from stressed rocks, considering both the presence or absence of a groundwater interface and concave–convex interface morphologies. The results show that groundwater interfaces significantly amplify the variation amplitude of brightness temperature (T_{B}) in stressed rocks, with the maximum increase in T_{B}variation reaching 3.28 K. Furthermore, concave–convex interfaces produce a more pronounced amplification effect, with the maximum T_{B} variation reaching 14.28 K, which directly influences the positive and negative correlation between stress and T_{B}. These findings provide a plausible explanation for the high amplitude of microwave anomalies observed near water bodies prior to earthquakes, and offer an experimental reference for interpreting positive and negative pre-earthquake T_{B} anomalies. Moreover, this study contributes to a better understanding of seismic microwave anomalies and supports the improvement of earthquake monitoring capabilities.",
-        "keyPoints": [
-          "Laboratory measurements show groundwater interfaces amplify microwave brightness-temperature variations in stressed rocks, with strong effects from interface morphology.",
-          "The experiments offer a possible mechanism for positive and negative microwave anomalies near water bodies, without establishing earthquake forecasting performance."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743297",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Laboratory stressed rocks / groundwater interfaces",
-        "method": "Microwave-radiation experiments on stressed rocks with groundwater interfaces",
-        "onlineDate": "2026-10-13",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11735194",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics",
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Diff-SpaFormer: Efficient Seismic Data Interpolation via Diffusion-Enhanced Sparse Attention Transformer",
-        "doi": "10.1109/tgrs.2026.3743478",
-        "authors": "Xiaoli Wei, Chunxia Zhang, Baisong Jiang, Anxiang Di, Deng Xiong, Changpeng Wang, Jiangshe Zhang, Mingming Gong",
-        "abstract": "Seismic data interpolation is a critical preprocessing step for improving seismic imaging quality and remains a focus of academic innovation. To address the computational inefficiencies caused by extensive iterative resampling in current plug-and-play diffusion interpolation methods, we propose the diffusion-enhanced sparse attention transformer (Diff- SpaFormer), a novel deep learning framework. Our model integrates transformer architectures and diffusion models via a Seismic Prior Extraction Network (SPEN), which serves as a bridge module. Full-layer sparse multi-head attention and feed-forward propagation capture global information distributions, while the diffusion model provides robust prior guidance. To mitigate the computational burden of high-dimensional representations, self-attention is computed along the channel rather than the spatial dimension. We show that using negative squared Euclidean distance to compute sparse affinity matrices better suits seismic data modeling, enabling broader contribution from amplitude feature nodes. An adaptive ReLU function further discards low or irrelevant self-attention values. We conduct training within a single-stage optimization framework, requiring only a few reverse diffusion sampling steps during inference. Extensive experiments demonstrate improved interpolation fidelity and computational efficiency for both random and continuous missing data, offering a new paradigm for high-efficiency seismic data reconstruction under complex geological conditions. Furthermore, experiments on field data under local strong noise, low signal-to-noise ratio, and severe interference conditions further validate the robustness and generalization capability.",
-        "keyPoints": [
-          "Diff-SpaFormer combines sparse channel attention with diffusion-derived seismic priors to improve interpolation fidelity and efficiency for random and continuous missing traces.",
-          "Field-data tests under strong noise and interference support robust reconstruction, while few reverse diffusion steps reduce the computational burden of seismic preprocessing."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743478",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "method-focused",
-        "method": "Diffusion-enhanced sparse attention transformer; seismic interpolation",
-        "onlineDate": "2026-10-15",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738837",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "seismology-earthquakes",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Three-Dimensional Anisotropic Magnetotelluric Inversion with Cross-Gradient and Anisotropic Constraints on Principal-Axis Resistivities",
-        "doi": "10.1109/tgrs.2026.3743624",
-        "authors": "Shengtao Wang, Changhong Lin, Jiantao Ni, Depeng Zhu, Dongyue Xin",
-        "abstract": "Magnetotellurics (MT) is widely used for imaging subsurface electrical structures. Because geological formations commonly exhibit electrical anisotropy, arbitrary anisotropic MT inversion is important for reliable subsurface characterization. However, compared with isotropic inversion, it involves more model parameters, resulting in stronger non-uniqueness and reduced inversion stability. To mitigate these challenges, a three-dimensional arbitrary anisotropic MT inversion method based on the nonlinear conjugate gradient (NLCG) algorithm is developed with principal-axis cross-gradient and anisotropy constraints. The principal-axis cross-gradient constraint promotes structural consistency among the principal-axis resistivity components, whereas the anisotropy constraint regulates their relative magnitudes, providing complementary structural and parameter regularization. The approach is evaluated using synthetic models with increasing structural complexity. Results show that smoothness regularization alone may lead to spurious anomalies and structural distortions. The anisotropy constraint can improve the recovery of principal resistivities and anisotropic parameters in some cases, but its effect depends on model characteristics and geological complexity. In contrast, the principal-axis cross-gradient constraint more consistently improves spatial structural consistency and suppresses structural distortions and spurious anomalies. Joint application of both constraints generally yields more reasonable target geometries, boundary continuity, and parameter distributions, with improved recovery of horizontal rotation angles in several tested cases. These results demonstrate that the joint constraints provide complementary structural and parametric regularization, helping to mitigate the effects of non-uniqueness and improve the reconstruction of complex anisotropic structures.",
-        "keyPoints": [
-          "Three-dimensional anisotropic magnetotelluric inversion combines principal-axis cross-gradient and anisotropy constraints to reduce structural distortions and spurious anomalies in synthetic models.",
-          "Joint constraints provide complementary structural and parameter regularization, improving target geometry and boundary continuity while mitigating inversion non-uniqueness."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743624",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "method-focused",
-        "method": "3D anisotropic magnetotelluric inversion; cross-gradient constraints",
-        "onlineDate": "2026-10-15",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738808",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics",
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Traveltime tomography on triangular meshes via automatic differentiation and a GPU Jacobi forward solver",
-        "doi": "10.1109/tgrs.2026.3743647",
-        "authors": "Xin Chen, Tianze Zhang, Wenyuan Liao, Danping Cao",
-        "abstract": "In seismic wave propagation modeling and inversion, the choice of mesh is critical for both computational accuracy and efficiency. Compared with structured rectangular grids, unstructured triangular meshes offer greater flexibility in accommodating complex geological structures and rugged topography, while enabling finer discretization and more accurate geometric representation. Despite these advantages, tomography studies on triangular meshes remain limited because their high irregularity makes traditional gradient computation approaches, such as the adjoint-state method, mathematically complex and difficult to implement. To address this challenge, we introduce automatic differentiation (AD), which provides accurate and efficient gradient computation on unstructured meshes, thereby enabling traveltime tomography on triangular meshes. The AD method constructs the computational graph during forward modeling, stores the necessary intermediate variables, and applies the chain rule to compute gradients automatically during backpropagation. Because this process is built directly upon the forward modeling, the overall efficiency of AD strongly depends on the performance of the forward solver. To this end, we develop a GPU-oriented traveltime forward modeling algorithm based on Jacobi iterations, whose efficiency makes AD-based tomography practically feasible. We validate the effectiveness of the proposed framework through numerical experiments under irregular topographic conditions. The framework provides a feasible and robust approach for velocity modeling and tomography in geologically complex environments.",
-        "keyPoints": [
-          "Automatic differentiation enables traveltime tomography on triangular meshes, using a GPU Jacobi forward solver to make gradient-based inversion computationally feasible.",
-          "Numerical experiments with irregular topography support velocity reconstruction in complex environments, exploiting unstructured meshes to represent geological geometry."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743647",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "method-focused",
-        "method": "Traveltime tomography; automatic differentiation; GPU Jacobi solver",
-        "onlineDate": "2026-10-15",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11738824",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "DBRAMamba: A Gradually Refined Mamba Network Developed for Damaged Building Remote Sensing Assessment From Coarse to Fine After the Earthquake",
-        "doi": "10.1109/tgrs.2026.3743623",
-        "authors": "Yuanhao Wang, Shumin Wang, Ziying Gu, Kunyang Yang, Yitong Wang, Kangsan Yu, Aixia Dou, Zongxu Pan, Wei Ke, Xiangkun Kong, Xuehua Zhang, Duo A",
-        "abstract": "Remote sensing-based assessment of earthquake-induced building damage using pre- and post-event bi-temporal imagery is essential for rapidly determining the spatial distribution and severity of damage after destructive earthquakes. However, reliable assessment remains challenging because cross-temporal imaging differences may generate pseudo-changes, damaged buildings often exhibit fragmented and ambiguous boundaries, and different damage levels are characterized by irregular and highly variable spatial morphologies. To address these challenges, we propose DBRAMamba, a disaster-oriented semantic change detection framework that performs post-earthquake building damage assessment in a coarse-to-fine manner. A Siamese VMamba backbone is employed to extract hierarchical bi-temporal representations. In the change decoder, a Global-Local Contrastive Module (GLCM) combines local temporal contrast with long-range structural context to enhance damage-related changes while suppressing irrelevant cross-temporal differences, and an Edge-Guided Module (EGM) introduces structure-aware boundary information to refine damaged-building localization. In the semantic decoder, a Deformable Edge Refinement Module (DERM) adaptively models irregular damage morphology and refines structural boundaries for damage-level discrimination. Experiments on the Dingri earthquake dataset show that DBRAMamba achieves F^{cd}_{1}, F^{clf}_{1} and F^{o}_{1} scores of 73.99%, 68.80%, and 70.36%, respectively, obtaining the best damage-classification and overall performance among the evaluated semantic change detection methods while maintaining competitive localization accuracy. Cross-scene experiments on the Jishishan earthquake dataset further demonstrate robust transfer performance, where DBRAMamba achieves the highest F^{cd}_{1}, Kappa, and F^{o}_{1}. Under the conventional xBD building damage assessment setting, the adapted DBRAMamba (BDA) also achieves the highest F^{clf}_{1} and F^{o}_{1} among the evaluated CNN-, Transformer-, and Mamba-based approaches. Additional analyses of low-damage regions, non-seismic changes, and regional damage statistics further demonstrate the potential of DBRAMamba for rapid post-earthquake damaged-building mapping and disaster-response-oriented assessment.",
-        "keyPoints": [
-          "DBRAMamba combines temporal contrast and edge-guided refinement to map earthquake-damaged buildings, achieving 70.36% overall F1 on the Dingri dataset.",
-          "Cross-scene Jishishan and xBD tests support transferability for rapid damage assessment, while boundary refinement helps distinguish irregular damage patterns."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743623",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Dingri; Jishishan",
-        "method": "Bi-temporal remote sensing; Mamba semantic change detection",
-        "onlineDate": "2026-10-19",
-        "volume": "64",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739538",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "seismology-earthquakes"
-        ]
-      },
-      {
-        "title": "NPMAG: Normalized Polarization Magnetic Amplitude Gradient Operator for High-Resolution Induced Polarization Imaging Overcoming High-Resistivity Layer",
-        "doi": "10.1109/tgrs.2026.3743874",
-        "authors": "Linhan Cheng, Lihan Sun, Yuanrui Zhou, Quan Xu, Yanzhang Wang",
-        "abstract": "Grounded-electrode spectral induced polarization (SIP) measurements can become difficult beneath resistive cover when unfavorable source grounding and receiver-electrode coupling limit current injection or potential-measurement quality. The grounded-source magnetic induced polarization (MIP) configuration considered here avoids receiver-electrode coupling but still requires adequate source grounding and sufficient transmitted current. Specifically, the ultra-weak secondary magnetic fields are easily masked by background noise, and the inherent volume-smoothing effect of magnetic fields severely blurs anomaly boundaries. To address these challenges, we propose the normalized polarization magnetic amplitude gradient (NPMAG) operator, implemented using unshielded and ultra-high-sensitivity spin-exchange relaxation-free (SERF) quantum magnetometers. This method integrates vector signals with dynamic primary-field weighting to compensate for geometric decay. Numerical simulations spanning four orders of magnitude in cover conductivity show that, under prescribed-current conditions, NPMAG maintains a spatial convergence index above 63% while the modeled electric-potential-difference response broadens markedly. The operator also suppresses off-target responses associated with non-polarizable conductors. Field measurements using a grounded dipole and an unshielded SERF sensor show a focused NPMAG response within the independently constrained ore-body interval and reduced off-target responses associated with a non-polarizable mining goaf.",
-        "keyPoints": [
-          "The NPMAG operator combines vector magnetic signals and dynamic primary-field weighting to sharpen induced-polarization anomalies beneath resistive cover under prescribed-current conditions.",
-          "Synthetic and field tests show focused ore-body responses and reduced off-target anomalies from non-polarizable conductors, while adequate source grounding remains necessary."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3743874",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "",
-        "method": "Magnetic induced polarization; SERF quantum magnetometry",
-        "onlineDate": "2026-10-19",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11739553",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Sensing Accuracy Optimization for Multi-UAV SAR Interferometry with Data Offloading",
-        "doi": "10.1109/tgrs.2026.3744734",
-        "authors": "Mohamed-Amine Lahmeri, Pouya Fakharizadeh, Víctor Mustieles-Pérez, Martin Vossiek, Gerhard Krieger, Robert Schober",
-        "abstract": "The integration of unmanned aerial vehicles (UAVs) with radar imaging sensors has revolutionized the monitoring of dynamic and local Earth surface processes by enabling high-resolution and cost-effective remote sensing. This paper investigates the optimization of the sensing accuracy of a UAV swarm deployed to perform multi-baseline interferometric synthetic aperture radar (InSAR) sensing. In conventional single-baseline InSAR systems, only one synthetic aperture radar (SAR) antenna pair acquires two SAR images from two distinct angles to generate a digital elevation model (DEM) of the target area. However, multi-baseline InSAR extends this concept by aggregating multiple acquisitions from different angles, thus, significantly enhancing the vertical accuracy of the DEM. The heavy computations required for this process are performed on the ground and, therefore, the radar data is transmitted in real time to a ground station (GS) via a frequency-division multiple access (FDMA) air-to-ground backhaul link. This work focuses on improving the sensing precision by minimizing the height error of the averaged DEM while simultaneously ensuring sensing and communication quality-of-service (QoS). To this end, the UAV formation, velocity, and communication power allocation are jointly optimized using evolutionary algorithms (EAs). Our approach is benchmarked against established optimization methods, including genetic algorithms (GAs), simulated annealing (SA), and deep reinforcement learning (DRL) techniques. Numerical results show that the proposed solution outperforms these baseline schemes and achieves sub-decimeter vertical accuracy in several scenarios. These findings underline the potential of coordinated UAV swarms for delivering high-precision and real-time Earth observations through radar interferometry.",
-        "keyPoints": [
-          "Joint optimization of UAV formation, velocity and communication power reduces multi-baseline InSAR elevation errors while satisfying sensing and data-offloading constraints.",
-          "Numerical tests achieve sub-decimeter vertical accuracy in several scenarios, supporting coordinated UAV swarms for precise local surface-height observations."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3744734",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "",
-        "method": "Multi-UAV InSAR; evolutionary optimization",
-        "onlineDate": "2026-10-19",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741316",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation"
-        ]
-      },
-      {
-        "title": "Robust Expectation–Maximization for Covariance Estimation in SIRV Models with Missing Data: Application to InSAR Time Series",
-        "doi": "10.1109/tgrs.2026.3744827",
-        "authors": "M. Cherifi, M. N. El Korso, A. Hippert-Ferrer, Y. Yan",
-        "abstract": "This paper presents a robust Expectation-Maximization framework for covariance estimation in Scale-Invariant Random Vector (SIRV) models with missing data under ignorable missingness mechanisms. By adopting an inverse-gamma prior on the scale variables, the resulting observation model leads to a complex multivariate Student-t distribution and allows closed-form E-step and M-step updates. The proposed algorithm incorporates numerical robustness techniques such as computation reuse for common observation patterns, regularized matrix inversions, and explicit enforcement of Hermitian positive semidefinite structure. Experiments on synthetic data and Sentinel-1 interferograms show effective missing value reconstruction and denoising performance under both MCAR and MNAR scenarios.",
-        "keyPoints": [
-          "A robust expectation–maximization framework estimates covariance and reconstructs missing observations in scale-invariant random-vector models using a complex Student-t formulation.",
-          "Synthetic and Sentinel-1 interferogram experiments show effective missing-value reconstruction and denoising, supporting InSAR time-series processing under incomplete observations."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3744827",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "",
-        "method": "Robust expectation–maximization; InSAR covariance estimation",
-        "onlineDate": "2026-10-19",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741298",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation"
-        ]
-      },
-      {
-        "title": "Least-Squares Migration for Shallow Water Ocean-Bottom-Node Data",
-        "doi": "10.1109/tgrs.2026.3744879",
-        "authors": "Jianhua Wang, Yubo Yue, Cong Deng, Xianwei Gao, Yandong Wang",
-        "abstract": "In ocean-bottom-node (OBN) data processing, down-going waves are generally employed by mirror migration to compensate for the limited near-seabed illumination of up-going waves. However, for the shallow water OBN data, the efficacy of down-going wave imaging is severely diminished, as the proximity of the virtual mirror receivers to the seabed limits the expansion of the illumination aperture. Data-domain least-squares migration (LSM) is an effective technique to address imaging challenges associated with sparse data acquisition, however its intensive computational overhead severely limits its practical application. In this paper, we present an efficient image-domain LSM suitable for imaging shallow water OBN data. By using an efficient ray-based computation method to generate the pre-stack point-spread-functions (PSFs), we formulate an image-domain LSM to iteratively solve for the pre-stack angle/offset-domain reflectivity model. Leveraging the fact that the interval velocity model is commonly accurate enough to generate well-flattened common-image-gathers (CIGs) during depth migration stage, we incorporate a shaping regularization along the angle/offset direction into the framework of LSM to enhance both event continuity and amplitude fidelity of the resultant LSM CIGs. Meanwhile, we employ the migration image as a curvelet-domain structural guide filter to constrain the misfit gradients to attenuate swing noise across each CIG panel, thereby achieving enhanced shallow structural imaging. Numerical tests on synthetic and field datasets demonstrate that the proposed method can effectively suppress swing noise and acquisition footprints associated with sparse OBN data, and generate superior imaging results with enhanced signal-to-noise ratio (SNR) and amplitude fidelity.",
-        "keyPoints": [
-          "Image-domain least-squares migration uses ray-based point-spread functions, angle/offset regularization and curvelet guidance to improve shallow-water ocean-bottom-node imaging.",
-          "Synthetic and field tests suppress swing noise and acquisition footprints while improving shallow-structure imaging, signal-to-noise ratio and amplitude fidelity."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3744879",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "",
-        "method": "Image-domain least-squares seismic migration; ocean-bottom nodes",
-        "onlineDate": "2026-10-19",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11741331",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Bridging the Synthetic-to-Real Domain Gap in Pore-Scale Image Segmentation: Connectivity-Preserving Strategies for Digital Rock Reservoir Characterization",
-        "doi": "10.1109/tgrs.2026.3745602",
-        "authors": "Daniel Eshimiakhe, Qamar Yasin, Mengdi Sun, Bing Wang, David A. Wood, Bo Liu",
-        "abstract": "Accurate characterization of pore structure from micro-computed tomography (micro-CT) images is fundamental to digital rock physics and the prediction of fluid transport in porous media. While deep learning has substantially improved segmentation accuracy, models trained on synthetic datasets often fail to generalize to real geological samples due to domain shift. This generates physically inconsistent pore network reconstructions. Critically, high Dice scores do not guarantee structural fidelity: segmentation outputs may still exhibit fragmented connectivity and loss of percolating pathways, undermining their utility for fluid transport analysis. We present a systematic investigation of domain adaptation strategies for pore-scale segmentation of tight sandstone samples from the Southern Basin of China, with an emphasis on preserving topological connectivity and petrophysical consistency. A physics-informed synthetic dataset was generated using a Gaussian Random Field (GRF) framework parameterized by pore-scale descriptors derived from micro-CT data. This enabled controlled variation of pore geometry and connectivity with known ground truth. Two architectures, U-Net and Swin-UNETR, were evaluated under four training regimes: synthetic-only, direct transfer, fine-tuning, and hybrid learning. A real-only training condition was additionally included to assess the performance of models trained exclusively on labeled real images. Direct transfer to real micro-CT images caused substantial structural degradation: the Connectivity Domain Gap (CDG) remained more than an order of magnitude higher in direct-transfer models (CDG ≈ 1.00) than in fine-tuned models (CDG ≈ 0.06), which also preserved a dominant connected pore network. Fine-tuning consistently produced the most accurate and physically coherent segmentations across all regimes. The Swin-UNETR generally outperformed the U-Net. These results demonstrate that reliable digital rock characterization requires preserving pore network topology beyond voxel-level accuracy alone, and that fine-tuning is the most effective strategy for bridging the synthetic-to-real domain gap under limited annotation conditions.",
-        "keyPoints": [
-          "Fine-tuning synthetic-trained segmentation networks preserves tight-sandstone pore connectivity and reduces the connectivity domain gap from about 1.00 to 0.06.",
-          "Digital rock characterization requires topological fidelity beyond voxel-level accuracy; limited real-image labels can substantially improve physically coherent pore networks."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3745602",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Southern Basin, China",
-        "method": "Micro-CT; digital rock segmentation; domain adaptation",
-        "onlineDate": "2026-10-22",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "A Multi-Task Learning for 3D Seismic Interpretation: Simultaneous Karst Cave and Channel Segmentation with Geology-Informed Loss",
-        "doi": "10.1109/tgrs.2026.3745749",
-        "authors": "Jiaqi Zhao, Binpeng Yan, Rui Pan, Mutian Li, Yongliang Wang",
-        "abstract": "Accurate identification and delineation of karst caves and fluvial channels are of great significance for carbonate reservoir characterization, sedimentary system analysis, hydrocarbon exploration, and groundwater resource management. However, their highly similar seismic responses pose significant challenges, leading to inter-class confusion, ambiguous boundaries, and missed detections in conventional single-task deep learning models. To address these challenges, this study systematically investigates both data construction and model design. At the dataset level, an automated workflow for generating three-dimensional synthetic seismic data based on seismic forward modeling is proposed. This process yields a high-quality training dataset covering multi-scale, multi-form, and complex spatial combinations, providing diverse and geologically meaningful samples for network learning. For model design, a multi-task framework is constructed by integrating a convolutional neural network (CNN), Transformer, and a Dual-branch Strip Attention Module, which enhances effective feature representation by capturing long-range spatial dependencies and multi-scale contextual information. In addition, Geology-Informed Loss function is introduced to incorporate boundary continuity and morphological constraints, thereby promoting geophysically plausibile predictions. Comprehensive experiments on synthetic and multiple field seismic datasets demonstrate that the proposed method accurately and simultaneously delineates the 3D distributions of karst caves and channels. It significantly mitigates inter-class confusion and effectively captures fine-scale details, even in low signal-to-noise ratio and structurally complex environments. This work establishes a robust and automated framework for seismic interpretation by integrating attention-enhanced multi-task learning with geological constraints.",
-        "keyPoints": [
-          "Attention-enhanced multi-task learning with geological constraints jointly delineates karst caves and channels in synthetic and field seismic data, reducing inter-class confusion.",
-          "Geology-informed boundaries and morphology improve automated reservoir interpretation in low-signal and structurally complex settings."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3745749",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "3D seismic interpretation; multi-task learning; geology-informed loss",
-        "onlineDate": "2026-10-22",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "Waveform Unification for Enhancing Cross-Waveform Generalization in Learning-Based GPR Inversion",
-        "doi": "10.1109/tgrs.2026.3746221",
-        "authors": "Haibing Wu, Wanli Ma, Yixiong Jing, Guangming Wang, Olaf Wysocki, Brian Sheil",
-        "abstract": "Ground penetrating radar (GPR), an electromagnetic imaging technique for non-invasive subsurface detection, has broad applications including planetary geophysical surveying, glaciology, archaeology, and civil infrastructure assessment. We envision a future GPR foundation model that can deliver high accuracy and generalizability across diverse scenarios. A critical requirement for this goal is learning unified representations across heterogeneous source waveforms. However, this is hindered by the scarcity of well-annotated GPR datasets. To address this, we propose Waveform Unification, a physics-guided waveform-conversion framework that converts a source-waveform B-scan into the representation expected under a calibrated target waveform. The framework estimates a calibrated, band-limited effective response and converts GPR radargrams into a common waveform representation, thereby reducing waveform-induced differences before downstream inversion. Synthetic and field experiments demonstrate accurate waveform conversion across the tested waveforms and media. Without fine-tuning the inversion networks, Waveform Unification increases layer-reconstruction mean accuracy from 0.511 to 0.902 across four unseen-waveform domains and reduces inclusion-permittivity mean absolute error from 2.296 to 0.100. These results support Waveform Unification as a data-efficient adapter for improving the cross-waveform transfer of learning-based GPR inversion models.",
-        "keyPoints": [
-          "Waveform Unification converts GPR B-scans to a calibrated common waveform, increasing layer-reconstruction mean accuracy from 0.511 to 0.902 across four unseen-waveform domains.",
-          "The adapter improves cross-waveform transfer without fine-tuning inversion networks, reducing inclusion-permittivity mean absolute error from 2.296 to 0.100."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3746221",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "GPR inversion; physics-guided waveform conversion",
-        "onlineDate": "2026-10-22",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "ResNet-Based 15-Arcsec Bathymetric Prediction in the Northwest Pacific Using SWOT-Derived Gravity Data and Multibeam Observations",
-        "doi": "10.1109/tgrs.2026.3745627",
-        "authors": "Dechao An, Wei Feng, Zeyuan Zhang, Baoyu Zhang, Mingzhi Sun, Meng Yang, Min Zhong",
-        "abstract": "To fully exploit the constraining capability of high‑accuracy multibeam echo sounding (MBES) data for bathymetric modeling, this study proposes a deep residual network (ResNet)-based framework for direct bathymetric prediction on a 15-arcsec grid. The framework integrates multisource gravity features derived from the Surface Water and Ocean Topography (SWOT) mission, including gravity anomaly, vertical gravity gradient, and deflection of the vertical, while using MBES data as supervisory information to construct bathymetric models for local regions in the northwestern Pacific Ocean. A ResNet architecture with three stages and six residual blocks is adopted to learn the nonlinear relationship between gravity-field information and bathymetry at wavelengths shorter than 160 km, while the SYSU_Topo model is incorporated to provide the long-wavelength background component. Results show that the proposed framework better resolves fine-scale bathymetric features and fills data-void regions, substantially mitigating the blurring effect in areas lacking shipborne survey tracks. Evaluation on the independent test set shows that the ResNet model achieves an RMSE of 70.13 m and a relative accuracy of 0.83% in Area B (163°E–169°E, 16°N–22°N). In Area C (130°E–140°E, 5°N–15°N), it improves accuracy by approximately 17% relative to GEBCO_2025 and topo_27.1, and outperforms SDUST2023BCO, BATHY-FE, and SYSU_Topo. Cross-region tests show more stable performance for the selected ResNet–feature combination, while Gaussian distance-weight encoding reduces transfer errors and systematic biases relative to absolute coordinates. Overall, the proposed method improves the short- and medium-wavelength bathymetric representation of SYSU_Topo and provides a promising pathway for refining global seafloor topography.",
-        "keyPoints": [
-          "A ResNet integrates SWOT-derived gravity features and multibeam observations to predict 15-arcsec bathymetry, reaching 70.13 m RMSE in an independent northwestern Pacific test area.",
-          "The model resolves finer seafloor features and fills survey gaps; coordinate encoding improves transfer, supporting refinement of short- and medium-wavelength bathymetry."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3745627",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Northwestern Pacific Ocean",
-        "method": "SWOT gravity; multibeam bathymetry; residual neural network",
-        "onlineDate": "2026-10-23",
-        "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11745458",
-        "pdfLinkSource": "collector",
-        "researchAreas": [
-          "geodesy-crustal-deformation"
-        ]
-      },
-      {
-        "title": "Four-Component Scattering Power Decomposition of Polarimetric GPR Data for Enhanced Subsurface Linear Target Identification",
-        "doi": "10.1109/tgrs.2026.3746323",
-        "authors": "Bin Zhang, Hai Liu, Pei Wu, Zhenjun Zhu, Xu Meng, Xiaoyu Zhang",
-        "abstract": "Ground-penetrating radar (GPR) is widely used for subsurface detection and evaluation. Yet distinguishing different buried objects from radargrams remains challenging. Polarimetric GPR (Pol-GPR) provides richer target scattering information and helps solve this challenge, but existing decomposition methods fail to adequately delineate the dipole-like scattering behavior associated with linear structures such as rebars, pipes, and cracks. To address this limitation, this paper proposes a four-component power decomposition tailored for both fully polarimetric and dual-polarimetric GPR systems. Within Dey’s model-free framework, the method uses R(T_{12}) to define a dipole-like parameter and the corresponding power component. Analytical solutions for an infinitely long PEC cylinder show that R(T_{12}) reflects the difference between the parallel- and perpendicular-polarization responses and varies with target orientation. Laboratory experiments on four typical targets—a metallic sphere, a dihedral, a thin dipole target, and a reinforcing bar (rebar)—demonstrate that the proposed method effectively highlights their dominant scattering mechanisms. Field applications to reinforced concrete inspection and ice crack detection illustrate the practical applicability of the proposed approach in identifying linear targets with dipole-like responses under realistic conditions. These results indicate that the proposed four-component decomposition algorithm and data processing workflow exhibit promising potential for engineering applications using Pol-GPR.",
-        "keyPoints": [
-          "A four-component polarimetric GPR decomposition isolates dipole-like scattering and distinguishes linear buried targets in laboratory and field measurements.",
-          "Tests on reinforced concrete and ice cracks show how the added scattering component improves identification of linear subsurface structures."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3746323",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "Polarimetric GPR; four-component scattering decomposition",
-        "onlineDate": "2026-10-23",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "Semi-Supervised-Learning-based Wavelet and Seismic Data Adaptive High-Resolution Reconstruction",
-        "doi": "10.1109/tgrs.2026.3746475",
-        "authors": "Zeming Zhang, Shuliang Wu, Jianhua Geng",
-        "abstract": "Enhancing seismic resolution is crucial for detecting thin geological layers. Traditional physics-driven methods are generalizable but rely heavily on physical approximations, accurate wavelet estimation and stationary assumptions. Data-driven approaches, such as deep learning, offer model-independent mappings from low-resolution to high-resolution seismic data but require large well-logging datasets and lack physical interpretability. To overcome these limitations, we propose a semi-supervised learning framework that jointly integrates seismic data, well-log data, and physical models. Our approach introduces an inverse network to map low-resolution seismic data to broadband reflection coefficients. A key innovation is a forward network with two adaptive submodules: one adaptively corrects the initial source wavelet, and the other simulates non-stationary seismic data, ensuring a physically consistent data match. The inverted reflection coefficients are then convolved with a broadband wavelet to produce a stable, high-resolution reconstruction. Tests on synthetic and field data demonstrate that our method achieves improved resolution and reliable performance, even with limited well-log labels.",
-        "keyPoints": [
-          "A semi-supervised framework combines seismic data, well logs and adaptive physical modeling to reconstruct broadband reflection coefficients and higher-resolution seismic traces.",
-          "Synthetic and field tests show improved resolution with limited well-log labels while accounting for wavelet uncertainty and non-stationary seismic responses."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3746475",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "Semi-supervised learning; seismic resolution enhancement; adaptive wavelet estimation",
-        "onlineDate": "2026-10-23",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "SX-FNO: A Spectral Cross-Gating Fourier Neural Operator for Forward Surrogate Modeling of GPR B-Scans",
-        "doi": "10.1109/tgrs.2026.3746483",
-        "authors": "Wenqiang Ding, Changying Ma, Hongxing Li, Wenwu Tang, Xintong Dong, Bingbing Chen",
-        "abstract": "Repeated ground-penetrating radar (GPR) simulation with finite-difference time-domain (FDTD) solvers remains computationally demanding for heterogeneous media. This study presents SX-FNO, a spectral cross-gating Fourier neural operator for configuration-specific GPR B-scan surrogate modeling. Separate encoders preserve the distinct representations of relative permittivity and electrical conductivity, while Fourier-domain cross-gating models their interaction before global operator learning. A structure-regularized objective further constrains wavefront morphology and localized scattering features. Experiments on heterogeneous models generated with gprMax show that SX-FNO improves reconstruction over standard U-Net and FNO baselines, reproduces trace-level waveform characteristics in the conditioned domain, and substantially reduces inference cost relative to FDTD. The structural regularizer also suppresses unsupported local curvature, complementing conventional point-wise metrics. These results support SX-FNO as an efficient surrogate for repeated generation of conditioned GPR B-scans under a fixed acquisition configuration.",
-        "keyPoints": [
-          "SX-FNO combines separate permittivity and conductivity encoders with spectral cross-gating to improve GPR B-scan reconstruction over U-Net and FNO baselines.",
-          "For a fixed acquisition configuration, the surrogate reduces inference cost relative to FDTD while structural regularization suppresses unsupported local wavefront curvature."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3746483",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "GPR forward modeling; Fourier neural operator",
-        "onlineDate": "2026-10-23",
-        "researchAreas": [
-          "geomagnetism-em-applied-geophysics"
-        ]
-      },
-      {
-        "title": "A Cross-Gating PINN with Physics-Guided Multi-Scale Spatial Phase for Wavefield Simulation",
-        "doi": "10.1109/tgrs.2026.3746583",
-        "authors": "Daoxuan Li, Zhen’an Yao, Hongxing Li, Wanling Chen, Xiangteng Wang",
-        "abstract": "Physics-Informed Neural Networks (PINNs), as mesh-free solvers for partial differential equations, often encounter the high-frequency fitting predicament caused by spectral bias and local wavefront distortion when solving frequency-domain wave equations (Helmholtz equations). Moreover, traditional data-driven random weight initialization easily introduces unphysical artifacts and computational redundancy in feature space. To address these issues, this paper proposes a novel neural wavefield solver, CG-MSP-PINN, based on physical priors of multi-scale spatial phase and cross-gating mechanisms. First, the physical dispersion relation of the wave equation is explicitly mapped onto Cartesian wave vectors, constructing a feature distribution in wavenumber space with strict physical boundaries to suppress non-physical noise. Second, a dual-band physical feature dictionary is designed: global broadband absolute phase is used to fit macroscopic smooth background, while local single-frequency relative phase captures abrupt variations in the target dominant frequency band. Furthermore, a dual-branch cross-gating fusion architecture is introduced, enabling synergistic representation through bidirectional nonlinear modulation between implicit wavefield characterization via sinusoidal representation networks (SIREN) and explicit multi-scale physical dictionaries. Numerical experiments across frequency bands using Simple and Marmousi models demonstrate that CG-MSP-PINN effectively mitigates scale aliasing problems. Compared to pure SIREN architectures, this method achieves higher wavefield reconstruction accuracy while reducing dependence on spatial collocation density and training duration. This study provides a deep learning solution that takes into account both physical constraints and computational efficiency for seismic exploration and full waveform inversion.",
-        "keyPoints": [
-          "A cross-gating PINN with physically bounded multiscale phase features improves frequency-domain seismic wavefield reconstruction on Simple and Marmousi models.",
-          "The solver reduces spectral aliasing and dependence on spatial sampling density and training duration, supporting efficient seismic exploration and full-waveform inversion."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3746583",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "Physics-informed neural networks; frequency-domain seismic wavefield modeling",
-        "onlineDate": "2026-10-26",
-        "researchAreas": [
-          "earth-interior-rock-physics"
-        ]
-      },
-      {
-        "title": "A Deformation Compensated Offset Tracking for the High-Velocity Glaciers at Greenland Ice Sheet",
-        "doi": "10.1109/tgrs.2026.3747151",
-        "authors": "Ziyin Yao, Gang Li, Yanting Mao, Zhuoqi Chen, Yu Li, Xiao Cheng",
-        "abstract": "Offset tracking (OT) is a primary method for monitoring glacier motion in high-velocity regions, where displacement is typically estimated by template matching in the frequency domain. However, this method relies on the rigid-body shift assumption of the image template and neglects internal deformation within the template, which may reduce coherence and introduce errors in displacement estimation. Here, we propose a deformation compensation method to eliminate the effects of internal deformation within the template. First, a preset deformation field is formed based on a long-term average flow velocity field and the SAR observation geometry. Then the pre-event image is shifted pixel-wise according to the preset deformation field to establish a simulated post-event image. Afterwards, the residual deformation is obtained by performing the OT method between the simulated post-event image and the real post-event image. The final deformation field is the sum of the preset deformation field and the residual. We selected four glaciers in Greenland and applied the proposed method to Sentinel-1 SAR images. The obtained velocity fields were compared with published velocity products and those derived from the traditional OT method. In the top 10% high-velocity regions, compared with the traditional OT method, the proposed method achieves average improvements of 103.84% in spatial coverage and 1.96 in signal-to-noise ratio (SNR); compared with the published velocity products, the spatial coverage improvement averages 92.44%. The results demonstrate that the proposed deformation compensated OT method effectively reduces monitoring failures in high-velocity glacier regions and significantly improves the coverage of velocity fields, especially in high-velocity areas. This research can be further applied to both polar and alpine regions for glacier dynamic studies.",
-        "keyPoints": [
-          "Deformation-compensated offset tracking improves Greenland glacier velocity retrieval by accounting for internal image-template deformation.",
-          "Across four glaciers, spatial coverage in the fastest-flowing areas improves by 103.84% over conventional tracking, reducing monitoring failures and supporting glacier dynamics studies."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3747151",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "region": "Greenland",
-        "method": "Sentinel-1 SAR; deformation-compensated offset tracking",
-        "onlineDate": "2026-10-26",
-        "researchAreas": [
-          "geodesy-crustal-deformation"
-        ]
-      },
-      {
-        "title": "BFDMCA: A Novel Approach for Classification of GPR Images with SHAP Explanations",
-        "doi": "10.1109/tgrs.2026.3747168",
-        "authors": "Buddepu Santhosh Kumar, Swarna Laxmi Panda, Satyakam Baraha, Ajit Kumar Sahoo, Subrata Maiti",
-        "abstract": "Accurate classification of clutter-free images is crucial for precise analysis in ground penetration radar (GPR) imaging. However, significant challenges arise due to limited annotated datasets and the demand for efficient models capable of handling complex subsurface data. Existing methods often struggle to differentiate subtle features critical for accurate classification, where fine details are essential. To address these challenges, the proposed model employs an optimized architecture combined with a multiscale attention mechanism, achieving improved classification accuracy and robustness in GPR imaging. The approach begins with the collection of synthetic and experimental GPR images, followed by data augmentation through conditional generative adversarial networks (CGANs), which enrich data diversity and volume, strengthening classification accuracy. For classification, the model employs the Bidirectional Focal Tversky Dynamic Multiscale Convolutional Neural Network based on AlexNet (BFDMCA), which integrates multiscale convolutional feature extraction with Bidirectional Long Short-Term Memory (Bi-LSTM) and attention mechanisms to capture complementary spatial and sequential information from GPR images. Explainability is supported by Shapley additive explanation (SHAP), which provides insights into critical features and regions, ensuring model transparency and reliability. A lightweight web-based application is also implemented to facilitate real-time visualization of predictions, supporting practical use of the proposed framework.",
-        "keyPoints": [
-          "BFDMCA combines augmented GPR data, multiscale convolution, bidirectional sequence modeling and attention to improve subsurface-image classification.",
-          "SHAP highlights influential image features and regions, adding interpretability to a workflow designed for limited annotated GPR datasets."
-        ],
-        "keyPointsSource": "ai-generated",
-        "link": "https://doi.org/10.1109/tgrs.2026.3747168",
-        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
-        "method": "GPR classification; multiscale neural networks; SHAP",
-        "onlineDate": "2026-10-26",
         "researchAreas": [
           "geomagnetism-em-applied-geophysics"
         ]
