@@ -362,6 +362,40 @@ const reports = [
     ]
   },
   {
+    "id": "nature-659-8141",
+    "date": "2026-11-16",
+    "journal": "Nature",
+    "issue": "Volume 659, Issue 8141",
+    "issueDate": "2026-11-19",
+    "source": "",
+    "articles": [
+      {
+        "title": "Hadean mantle depletion and 3.95-Gyr subduction implied by North China rocks",
+        "doi": "10.1038/s41586-026-11280-2",
+        "authors": "Hangqiang Xie, Chunyan Dong, Pengchuan Li, Rongfeng Ge, Simon A. Wilde, Shoujie Liu, Dunyi Liu, Yusheng Wan",
+        "abstract": "The scarcity of terrestrial rocks older than 3.9 billion years (Gyr) has hindered our understanding of Earth’s early evolution, fuelling persistent debates on how and when the first continental crust formed and plate tectonics started. At present, the only unequivocally documented >3.9-Gyr-old rocks are from the Acasta Gneiss Complex, Canada. Here we report a 3.95-Gyr-old trondhjemitic gneiss from eastern Hebei, North China Craton, in which primary magmatic zircon records elevated δ18O values (average +6.77 ± 0.23‰) and positive εHf(t) values (weighted mean +1.45 ± 0.27). This suggests a low-temperature altered basaltic source that originated from a mantle depleted in the Hadean. In contrast to the low-pressure origin inferred for the roughly 4.0-Gyr-old Idiwhaa unit in Acasta, the 3.95-Gyr-old trondhjemitic gneiss reported here exhibits geochemical signatures attributed to a high-pressure origin. Thermodynamic and trace element modelling demonstrate that its parental magma formed by means of low-degree (8–16%) melting of basaltic crust at >1.6 GPa and 740–820 °C, suggesting rapid burial of (near-)surface-altered oceanic crust to mantle depths along a cool thermal gradient. We propose that this rapid burial was most likely achieved through a transient subduction event.",
+        "keyPoints": [
+          "A 3.95-Gyr-old North China gneiss records Hadean mantle depletion and melting of altered basaltic crust above 1.6 GPa at 740–820 °C.",
+          "The inferred rapid burial along a cool thermal gradient supports a transient subduction event in the early history of continental crust."
+        ],
+        "keyPointsSource": "ai-generated",
+        "link": "https://doi.org/10.1038/s41586-026-11280-2",
+        "journal": "Nature",
+        "region": "Eastern Hebei, North China Craton",
+        "method": "Zircon isotope geochemistry; thermodynamic and trace-element modelling",
+        "onlineDate": "2026-11-11",
+        "volume": "659",
+        "issueNumber": "8141",
+        "pdfLink": "https://www.nature.com/articles/s41586-026-11280-2.pdf",
+        "pdfLinkSource": "crossref-pdf",
+        "researchAreas": [
+          "tectonics-geodynamics",
+          "earth-interior-rock-physics"
+        ]
+      }
+    ]
+  },
+  {
     "id": "proceedings-of-the-national-academy-of-sciences-of-the-united-states-of-america-123-46",
     "date": "2026-11-16",
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -17014,6 +17048,11 @@ const reports = [
         "doi": "10.1038/s41467-026-76194-z",
         "authors": "Quan Zhang, Pascal Audet, Cong Ji, Clément Estève",
         "abstract": "Divergent plate boundaries drive magmatism and plate spreading, yet their role in whole-mantle convection remains unclear, as most systems are submarine. When spreading centres subduct, slab windows open pathways for asthenospheric and potentially deeper mantle upwelling. Here we use 20 years of teleseismic P-to-S receiver functions from 429 stations to map the 410 and 660 km discontinuities beneath western Canada. Common-conversion-point stacking reveals coherent double depressions across a slab window formed by the subducted Resurrection/Farallon Ridge system, in contrast to the adjacent craton. Mineral physics and seismic tomography constraints indicate mantle transition zone temperature anomalies of 100-300 K that follow the slab-window geometry. Monte Carlo estimates of constrained whole-mantle geotherms further suggest a warmer-than-average lower mantle. Together, these observations suggest that the fossil slab window provides a conduit for lower-mantle heat into the upper mantle and lithosphere, contributing to long-term uplift of the Canadian Cordillera.",
+        "keyPoints": [
+          "Receiver functions from 429 stations reveal paired depressions of the 410 and 660 km discontinuities beneath the western Canadian slab window.",
+          "Temperature anomalies of 100–300 K and geotherm estimates suggest the fossil slab window channels lower-mantle heat toward the Cordillera."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-76194-z",
         "journal": "Nature Communications",
         "region": "Western Canada",
@@ -17116,6 +17155,11 @@ const reports = [
         "doi": "10.1038/s41467-026-76463-x",
         "authors": "Sheng Zhu, Yangfan Deng, Yi-Gang Xu, Yun Chen, Zhou Zhang, Hong-Yan Li, Zhong-Hai Li, Shui-Jiong Wang, Xin Wang, Keith Priestley",
         "abstract": "Stagnant slabs transport cold, hydrous, and compositionally distinct materials into the mantle transition zone (MTZ). Intraplate volcanism above these slabs documents the geochemical imprints of recycled subducted components. Yet the recycled mechanism remains elusive, largely because slab geometry and thermochemical state within the MTZ are difficult to constrain. Here we use receiver-function imaging to resolve the morphology and properties of seismic discontinuities within the MTZ beneath Northeast China. Integrating mineral physics modeling, we develop a joint inversion to quantify spatial variations in temperature, composition, and water content, enabling us to track the stagnant Pacific slab and associated thermochemical anomalies. We determine the westward extent and internal heterogeneity of the stagnant slab, identifying a drop-shaped penetration segment and a lens-shaped weakened zone without through-going tearing. The upper MTZ above the slab shows near-ambient temperatures, basalt enrichment ( ~ 0.4), and water enrichment ( ~ 0.38 wt%), reflecting an upward slab flux. Peak fluxes are concentrated above the slab lens and slab edge, spatially coinciding with two volcanic clusters. We propose that focused, water-driven upwelling induced by slab heterogeneity was responsible for intraplate volcanism in Northeast China, and that slab-scale heterogeneity may be widespread in stagnant slabs globally, driving focused crustal recycling and intraplate volcanic clustering.",
+        "keyPoints": [
+          "Receiver functions and mineral-physics inversion reveal a heterogeneous stagnant Pacific slab beneath Northeast China, without through-going tearing.",
+          "Water- and basalt-enriched mantle above the slab lens and edge coincides with volcanic clusters, consistent with focused upwelling and crustal recycling."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-76463-x",
         "journal": "Nature Communications",
         "region": "Northeast China",
@@ -17156,6 +17200,11 @@ const reports = [
         "doi": "10.1038/s41467-026-76803-x",
         "authors": "Xinyue Zhang, Wei Wei, Youyue Zhang, Zhu Mao, Ningyu Sun, Daoyuan Sun, Wei Leng, Takashi Yoshino, Izumi Mashino, Tomoo Katsura, Jiewen Li, Wancai Li, Jung-Fu Lin",
         "abstract": "Carbon cycling into Earth’s deep interior regulates melting, redox state, and volatile transport, yet its imprint on mantle seismic structure remains unclear. A potential seismic expressure of deep carbon cycling is the sporadic splitting of the 520-km discontinuity, expressed as a secondary reflector near 560 km beneath slabs and mantle upwellings, has been attributed to davemaoite (CaSiO3) exsolution, although its shear-wave properties cannot produce the required 2–4% impedance contrast. We conduct high pressure-temperature experiments (~20 GPa, 1200–1600 °C) to determine how carbonate-altered oceanic crust reorganizes mantle layering. Here we show that carbonate addition drives Ca-Mg exchange with silicates, increases Ca incorporation into silicates under Fe-rich conditions, and enhances davemaoite exsolution. This process yields 12–33(2) vol.% davemaoite near ~ 560 km, sufficient to match impedance contrasts observed. Davemaoite-rich crust could be recycled by mantle plumes, accounting for the 560-km reflector beneath hot regions. Subducted carbonates thus reshape mineral equilibria, reinforce chemical stratification, and generate persistent seismic signatures of deep carbon cycling.",
+        "keyPoints": [
+          "High-pressure experiments show carbonate addition enhances davemaoite exsolution in recycled oceanic crust.",
+          "The inferred 12–33(2) vol.% davemaoite near 560 km can account for the seismic reflector associated with splitting of the 520-km discontinuity."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-76803-x",
         "journal": "Nature Communications",
         "method": "High-pressure mineral-physics experiments",
@@ -21708,6 +21757,11 @@ const reports = [
         "doi": "10.1038/s41467-026-75639-9",
         "authors": "Danian Shi, Yang Shen, Rongtao Zhao, Jianyu Shi, Changxin Chen, Xiaoming Xu, Yongqian Zhang, Yao Xu, Hua Xiang, Yan Liu, Yan Yang",
         "abstract": "Slab stagnation in the mantle transition zone is critical for the mantle dynamics and evolution of Earth’s interior but remains poorly understood. Here we present seismic images that show two key features near Eurasia’s northeastern margin: 1) a 700-km-deep, 400-km-wide discontinuity within the slab stagnation zone, matching the akimotoite-bridgmanite transition in an anhydrous basaltic assemblage at adiabatic temperature of ~ 1000 K, and 2) the 660-km discontinuity depressed below the Clapeyron slope of the post-spinel phase transition by ~ 15 and ~ 10 km, likely induced by water, respectively in front of the Pacific plate and at the center of the slab stagnation zone. Our mineral physics modeling indicates that slab stagnation is initiated and sustained predominantly by buoyancy from the excess depressions in the pyrolite and harzburgite mantle and aided by buoyancy of the dry basaltic assemblage in the uppermost lower mantle.",
+        "keyPoints": [
+          "Seismic images identify a 700-km-deep discontinuity in the stagnant slab and water-related depressions of the 660-km discontinuity.",
+          "Mineral-physics models attribute slab stagnation mainly to buoyancy from wet harzburgite and pyrolite, aided by a dry basaltic assemblage."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-75639-9",
         "journal": "Nature Communications",
         "method": "Seismic imaging and mineral-physics modeling",
@@ -30752,6 +30806,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.119996",
         "authors": "Alessio Rovere, Tamara Pico, Gabriel Tagliaro, Ciro Cerrone, Luca Lämmle, Archimedes Perez Filho, Karla Rubio-Sandoval, Luigi Jovane, Jerry X. Mitrovica, Christopher G. Piecuch, Giovanni Scicchitano",
         "abstract": "Sea-level reconstructions are critical benchmarks for testing models of ice-sheet stability and climate change. Their interpretation, however, is complicated by sea-level changes driven by diﬀerent processes, among which the Earth’s response to sediment loading. Here we show that incorporating sediment isostasy reduces long-standing discrepancies among Marine Isotopic Stage (MIS) 5a and 5e records from the Río de la Plata estuary by up to an order of magnitude, demonstrating that regional sedimentary histories can shift relative sea-level estimates by several meters compared to traditional GIA-based approaches. We further demonstrate that sediment loading has influenced relative sea level throughout the Holocene and continues to aﬀect modern tide-gauge records from the area. These findings underscore the importance of regionally resolved sedimentation histories, in contrast to approaches based solely on global compilations, and highlight the need for expanded shelf coring and seismic surveys.",
+        "keyPoints": [
+          "Including sediment loading reduces discrepancies among Río de la Plata MIS 5a and 5e sea-level records by up to an order of magnitude.",
+          "Sediment isostasy shifts regional relative sea level by several meters and affects Holocene and modern tide-gauge records."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.119996",
         "journal": "Earth and Planetary Science Letters",
         "region": "Río de la Plata",
@@ -30767,6 +30826,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2026.120007",
         "authors": "Alexander W. Tully, Greig A. Paterson",
         "abstract": "The strength of Earth’s magnetic field over geological time (paleointensity) offers critical insights into planetary evolution, for which igneous rocks serve as the primary archive for recovering absolute paleointensities. The reliability of different lithologies in preserving these magnetic signals remains debated. We investigate the relationship between lithology and both bulk domain stability, a proxy for paleointensity reliability, and magnetic unblocking behavior. Our results demonstrate that bulk domain stability decreases and unblocking sharpness increases with silica content, reflecting the influence of viscosity and cooling rate on magnetic grain size distribution. Lower-silica, less-evolved extrusive rocks more consistently yield robust paleointensity data, with higher alkali content further enhancing reliability. These findings establish that lithological composition exerts a strong measurable control on the fidelity of paleomagnetic records. This improved understanding enables more informed selection of materials and reassessment of existing data, thereby enhancing reconstructions of Earth’s geomagnetic field history.",
+        "keyPoints": [
+          "Bulk magnetic domain stability decreases while unblocking sharpness increases with rock silica content.",
+          "Lower-silica extrusive rocks, particularly those richer in alkalis, more reliably preserve absolute paleointensity signals."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2026.120007",
         "journal": "Earth and Planetary Science Letters",
         "method": "Rock magnetism and paleointensity analysis",
@@ -31137,6 +31201,11 @@ const reports = [
         "doi": "10.1109/tgrs.2026.3695266",
         "authors": "Eunsil Park, Hyunmin Kim, Honggeun Jo, Michael J. Pyrcz",
         "abstract": "Reliable prediction of coupled hydraulic–geomechanical behavior is essential for safe, long-term geological carbon storage (GCS). However, limited and spatially sparse observations from injection sites create large uncertainties in reservoir properties, reducing the reliability of CO₂ migration forecasts and monitoring, measurement, and verification programs. We present an integrated thermal–hydrological–mechanical data-assimilation framework using the Ensemble Smoother with Multiple Data Assimilation (ES-MDA) to jointly assimilate multi-physics and multi-scale observations. The framework combines time-series bottom-hole pressure (BHP) and spatial surface deformation data to constrain key hydraulic and geomechanical parameters in a fully coupled manner. We demonstrate the workflow in a 3-D channelized anticlinal aquifer model after performing sensitivity analysis, revealing updates to key reservoir parameters, including (1) hydraulic, (2) geomechanical, (3) wellbore design, and (4) reservoir/aquifer properties. BHP-only assimilation constrains permeability, well-skin factors, and sandstone relative-permeability parameters, whereas joint BHP–deformation assimilation further sharpens these flow-related estimates and improves the estimation of aquifer thickness and elastic properties, notably enhancing the centering of posterior Young’s moduli in sandstone and shaly sandstone. Joint assimilation also yields narrower posterior ensembles and lower mean squared errors during both the three-year assimilation period and the subsequent two-year forecast, enabling more reliable predictions of future reservoir pressure and surface deformation. This study shows that critical reservoir properties, including saturation-dependent relative-permeability functions and the Young’s modulus of the sandstone layer, can be robustly quantified by integrating both BHP and deformation data. The proposed multi-scale ES-MDA framework reduces predictive uncertainty, improves reservoir characterization, and supports secure, large-scale deployment of GCS.",
+        "keyPoints": [
+          "Joint assimilation of bottom-hole pressure and surface deformation better constrains hydraulic and elastic properties of a modeled CO₂ storage reservoir than pressure alone.",
+          "The multiscale ES-MDA framework narrows posterior ensembles and reduces pressure and deformation forecast errors over a subsequent two-year period."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1109/tgrs.2026.3695266",
         "journal": "IEEE Transactions on Geoscience and Remote Sensing",
         "method": "Deformation and borehole-pressure data assimilation",
@@ -33301,6 +33370,11 @@ const reports = [
         "doi": "10.1038/s41467-026-72210-4",
         "authors": "Yong-Jae Kim, Gaia Righi, Orlando R. Deluigi, Eduardo M. Bringa, Thomas E. Lockard, Robert E. Rudd, Carlos J. Ruestes, Camelia V. Stan, Christopher E. Wehrenberg, Arianna E. Gleason, Marc A. Meyers, Hye-Sook Park",
         "abstract": "Iron (Fe) is a primary constituent of terrestrial planetary cores, yet its rheological properties under extreme conditions remain uncertain. Here we present direct measurements of Fe strength at 310-430 GPa pressures and 3700-5800 K temperatures, obtained using Rayleigh-Taylor (RT) instability experiments at the National Ignition Facility. Single-crystal α-Fe samples with [001] and [111] orientations are shock-ramp compressed past the α-ε transition along paths approaching Earth’s inner core conditions. We find that ε-Fe derived from [001] α-Fe is consistently stronger (11-20 GPa) than that from [111] α-Fe (8-18 GPa), contrary to the trend at ambient conditions. Large-scale molecular dynamics simulations reproduce this atypical strength anisotropy and attribute it to microstructural evolution during the phase transition and subsequent ε-phase plasticity. Ripple growth analysis further constrains viscosities of 100-170 Pa·s under the driven conditions. Our results provide experimental benchmarks for Fe rheology at inner-core conditions, with implications for seismic anisotropy and the geodynamo.",
+        "keyPoints": [
+          "Experiments at 310–430 GPa and 3700–5800 K find ε-Fe derived from [001] α-Fe is stronger than ε-Fe derived from [111] α-Fe.",
+          "Molecular dynamics links this reversed strength anisotropy to microstructural evolution; ripple growth constrains driven-state viscosities to 100–170 Pa·s."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-72210-4",
         "journal": "Nature Communications",
         "method": "High-pressure iron strength experiments",
@@ -34998,6 +35072,11 @@ const reports = [
         "doi": "10.1038/s41467-026-71541-6",
         "authors": "Piero Poli, Fabrice Ardhuin, Tomoya Takano, Stefania Tarantino",
         "abstract": "The interaction between the atmosphere, hydrosphere, and solid Earth can result in the generation of complex seismological signals, offering significant insights into remote and enigmatic physical processes. Among these signals, the persistent narrow-band seismic energy observed in the Gulf of Guinea remains unexplained. Initially thought to reflect merely the propagation of oceanic swells, these signals have more recently been linked to the interaction between the ocean and the solid Earth. However, the quantitative relationship between oceanic activity and the occurrence of these signals remains unproven, and the underlying generation mechanism is not fully understood. In this study, we quantitatively explore the relationship between bursts of seismic energy and the passage of swells generated by distant storms in the Southern Ocean. Through an interdisciplinary analysis of seismological data, ocean wave models, and satellite altimeter data, here we report spatial, frequency and time-dependent patterns that suggest seismic signals may be associated with resonance cracks dynamically triggered by swell activity.",
+        "keyPoints": [
+          "Seismic, wave-model and satellite-altimetry data link bursts of 26 s and 16 s seismic peaks in the Gulf of Guinea to distant Southern Ocean swells.",
+          "The spatial, frequency and timing patterns are consistent with swell-triggered resonance cracks as a possible generation mechanism."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-71541-6",
         "journal": "Nature Communications",
         "method": "Seismic spectral analysis",
@@ -35014,6 +35093,11 @@ const reports = [
         "doi": "10.1038/s41467-026-72060-0",
         "authors": "Geoffrey H. Howarth, Andrea Giuliani, Merrily M. Tau, Ronghua Cai, Jingao Liu",
         "abstract": "CLIPPIRs (Cullinan-like, large, inclusion-poor, pure, irregular, resorbed) are the rarest and most exceptional gem-quality diamonds, but their occurrence is reported in few kimberlites. Despite their light carbon isotopic composition indicating a genetic link with subducted slabs, the nature of their growth substrate is poorly constrained. Using olivine geochemistry as a proxy of the composition and depth of entrained mantle wall-rock, we show that CLIPPIRs are predominantly associated with Fe-rich kimberlites sampling vertically extensive, Fe-rich domains at the base of the lithosphere. These domains have light oxygen and heavy iron isotopic signatures, consistent with hydrothermally-altered oceanic crust. The geographic association and Fe-C-O isotopic affinity between CLIPPIR and other sub-lithospheric diamonds with these Fe-rich domains suggests a common origin. Partial retrogression of majorite inclusions is consistent with a model in which subducted CLIPPIR substrate was accreted to the lithosphere by buoyant mantle upwelling, following temporary stalling within the mantle transition zone. Subsequent interaction between early kimberlitic melts and these domains produced megacrysts at the base of the lithosphere. These megacrysts were then sampled along with CLIPPIR and other sub-lithospheric diamonds by ascending kimberlite melts. Beyond providing the largest diamonds, these Fe-rich, isotopically anomalous domains contribute to the isotopic heterogeneity of intraplate magmas globally.",
+        "keyPoints": [
+          "CLIPPIR diamonds occur preferentially in Fe-rich kimberlites that sample Fe-rich domains near the lithosphere base.",
+          "Olivine chemistry and Fe–O isotopes support a hydrothermally altered oceanic-crust origin for these domains and a shared substrate for sub-lithospheric diamonds."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-72060-0",
         "journal": "Nature Communications",
         "method": "Kimberlite olivine and iron-isotope analysis",
@@ -35063,6 +35147,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03400-7",
         "authors": "Yuya Akamatsu, Masakazu Fujii, Yumiko Harigane, Tetsuya Sakuyama, Yuzuru Yamamoto, Nana Kamiya, Katsuyoshi Michibayashi",
         "abstract": "Forearc crust that formed at nascent subduction zones contains key evidence regarding Earth’s tectonic evolution, but its nature and underlying formation processes remain unclear. Key geological records are hidden within the deep oceanic lithosphere, highlighting the need to extract information from geophysical data by establishing clear links between rock physical properties and geological processes. Here we show that the petrophysical properties of drillcores from the Izu–Bonin arc, including forearc basalt and boninite, can be linked to the tectonic and magmatic processes experienced by these rocks. Our results indicate that the rocks which formed during forearc spreading have elevated crack densities due to intensive brittle deformation, whereas those produced by subsequent off-axis volcanism remain comparatively pristine. Petrophysics-based interpretation of the seismic velocity structure reveals that off-axis volcanic units intruded the cracked forearc crust. This provides geophysical evidence for distinct volcanic processes during nascent forearc evolution, thereby highlighting the importance of combining petrophysical and geophysical data when investigating crustal geological processes.",
+        "keyPoints": [
+          "Izu–Bonin forearc drillcores show elevated crack densities in rocks formed during forearc spreading, while later off-axis volcanic rocks remain relatively pristine.",
+          "Petrophysical interpretation of seismic velocities indicates that off-axis volcanic units intruded the cracked forearc crust."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03400-7",
         "journal": "Communications Earth & Environment",
         "region": "Izu–Bonin–Mariana forearc",
@@ -35081,6 +35170,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03492-1",
         "authors": "Yu Wang, Ashok Dahal, Cees J. van Westen, Tolga Gorum, Hakan Tanyaş",
         "abstract": "After major earthquakes, reconstruction and resettlement decisions are often made without fully accounting for cascading hazards, exposing communities to landslide risk. Strong ground shaking can alter hillslope mechanics, yet regional patterns of post-seismic strength change remain poorly constrained. Here we present a physics-based inversion framework that integrates radar satellite deformation measurements with mechanical models based on the Mohr–Coulomb and Hoek–Brown failure criteria to estimate spatial variations in hillslope strength. Applied across 51,287 km2 affected by the 2023 Kahramanmaraş earthquake sequence in Türkiye, the framework quantifies weakening and strengthening of slopes. The resulting strength maps indicate that approximately 1.6 km2 of settlements lie on weakened hillslopes, while about 2.4 km2 of downslope areas may be exposed to slope failure because of their proximity to weakened slopes. New settlements are also being constructed on weakened terrain. These results provide a basis for assessing post-seismic landslide risk and informing safer resettlement.",
+        "keyPoints": [
+          "A radar and mechanical-model inversion maps hillslope strength changes across 51,287 km² affected by the 2023 Kahramanmaraş earthquakes.",
+          "About 1.6 km² of settlements occupy weakened hillslopes, and new settlements are also being built on weakened terrain."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03492-1",
         "journal": "Communications Earth & Environment",
         "region": "Türkiye",
@@ -39452,6 +39546,11 @@ const reports = [
         "doi": "10.1038/s43247-025-03003-8",
         "authors": "Thomas King, Sergio C. Vinciguerra",
         "abstract": "Fault nucleation and growth are central to earthquake hazard. Here we analyse fault development in Alzo granite under triaxial confining pressures of 5–40 MPa using a time-delay neural network applied to multi-parameter acoustic-emission data. The model integrates waveform attributes (peak delay, scattering) with occurrence metrics (event rates, Gutenberg–Richter b-value, spatial fractal dimension) to track the transition from distributed microcracking to localised faulting. Genetic algorithms optimise the network, which dynamically weights parameters to characterise fault growth. We find three phases consistent across pressures: microcrack nucleation marked by scattering changes; fault growth captured by evolving spatial and magnitude distributions; and coalescence with rapid peak delay increases and b-value change. The model predicts stress-drop timing and size across pressures and failure mechanisms, from axial splitting to shear localisation, linking waveform features to physically interpretable phases of deformation.",
+        "keyPoints": [
+          "A time-delay neural network identifies microcrack nucleation, fault growth and coalescence in granite acoustic-emission data across 5–40 MPa confining pressure.",
+          "Waveform and occurrence metrics predict stress-drop timing and size across axial-splitting and shear-localization failure modes."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-025-03003-8",
         "journal": "Communications Earth & Environment",
         "method": "Triaxial granite acoustic-emission analysis",
@@ -39469,6 +39568,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03373-7",
         "authors": "Nicolò Parrino, Francesco Caldareri, Pierfrancesco Burrato, Mimmo Palano, Salvatore Stramondo, Valeria Lo Presti, Mauro Agate, Maurizio Gasparo Morticelli, Attilio Sulli",
         "abstract": "Active tectonics and coastal deformation predispose continental margins to submarine gravitational instability and canyon head retreat. Here we investigate the drivers of this susceptibility along the Italian coasts. We analyze a dataset of over 2700 canyon heads using a multi-parametric susceptibility model that integrates bathymetry, instrumental seismicity, uplift rates, and crustal deformation fields derived from satellite geodesy. Results indicate that proximity to river mouths and regional seismicity are primary drivers of retreat susceptibility, suggesting that such susceptibility characterizes canyon dynamics at least since the establishment of the current tectonic regime. By integrating these results with demographic exposure data, we identify priority areas for mitigating natural disasters such as landslide-generated tsunamis and coastal erosion in highly populated regions.",
+        "keyPoints": [
+          "Analysis of more than 2700 Italian submarine canyon heads identifies river-mouth proximity and regional seismicity as primary predictors of retreat susceptibility.",
+          "Combining canyon susceptibility with demographic exposure highlights coastal areas where landslide-related hazards warrant attention."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03373-7",
         "journal": "Communications Earth & Environment",
         "region": "Italian coasts",
@@ -39486,6 +39590,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03325-1",
         "authors": "Guoguang Wei, Kejie Chen, Mingjia Li, Kai Huang, Qing Zhu, Linguo Yuan, Luca Dal Zilio",
         "abstract": "Major (M ≥ 7) continental normal-fault earthquakes are rare, and the potential for low-angle ( < 30°) fault slip in such events remains highly debated. The 2025 Mw 7.1 Tingri earthquake provides a pivotal case study. Here our Bayesian inversion of geodetic data reveals complex slip on a west-dipping main fault dipping at 45-55° and a synthetic, low-angle splay fault dipping at 27°. Aftershock seismicity confirms the coexistence of both steeply and shallowly dipping fault segments. Coulomb stress modeling shows the main fault slip partially loaded the splay, while stress inversion of regional historical seismicity indicates a pre-stress regime that promoted instability on the low-angle splay. This demonstrates a cascading process, enabled by the pre-stress environment and co-seismic stress transfer, which together facilitated the low-angle faulting. Our findings suggest the mechanical viability of low-angle faulting in major normal-fault earthquakes, refining models of fault activation and seismic rupture dynamics in continental extensional regions.",
+        "keyPoints": [
+          "Geodetic inversion of the 2025 Mw 7.1 Tingri earthquake resolves slip on a steep main fault and a 27° low-angle splay fault.",
+          "Historical pre-stress and coseismic stress transfer together promoted the splay fault's activation during this major normal-fault earthquake."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03325-1",
         "journal": "Communications Earth & Environment",
         "region": "Tingri, Tibetan Plateau",
@@ -43223,6 +43332,11 @@ const reports = [
         "doi": "10.1038/s41467-026-69485-y",
         "authors": "Meredith Townsend, Pablo Moreno-Yaeger, Andrew Harp, Christian Huber, Brad S. Singer",
         "abstract": "Growing evidence indicates that glacial cycles influence volcanic activity, yet the physical mechanisms linking glaciation to magmatic processes in continental arcs remain unclear. We integrate realistic ice and topographic loads with a dike model to evaluate how glaciation modulated magma ascent beneath Mocho-Choshuenco, Chile, during the Last Glacial Maximum (LGM). Ice loading generates a crustal stress “pinch point” that causes dikes rising from lower-crustal reservoirs to stall deeper than under ice-free conditions, effectively shutting off recharge to shallow magma reservoirs. This mechanism explains the ~2-3 km increase in magma storage depth and reduced eruption rates during the LGM without invoking changes in mantle melt supply or reservoir strength. Shutting off recharge also favors magma differentiation, setting the stage for more explosive silicic eruptions during deglaciation once recharge resumes. We identify a parsimonious explanation for glacially-driven shifts in magma composition, storage depth, and eruption rate at Mocho-Choshuenco and arc volcanoes worldwide.",
+        "keyPoints": [
+          "Ice loading during the Last Glacial Maximum created a crustal stress pinch point that stalled dikes beneath Chile's Mocho-Choshuenco volcano.",
+          "The modeled loss of shallow recharge explains deeper magma storage and reduced eruption rates during glaciation, with differentiation favored before deglaciation."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-69485-y",
         "journal": "Nature Communications",
         "method": "Crustal-stress and dike-propagation modeling",
@@ -45828,6 +45942,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2025.119792",
         "authors": "Yiran Wang, Aron J. Meltzner, Michael E. Oskin, Jennifer Quye-Sawyer, Lin Thu Aung, Noelynna Ramos",
         "abstract": "The accurate dating of Quaternary coral terraces has long been challenging due to recrystallization of aragonite corals. Here, we present an approach to infer terrace age based on (1) the linkage between sea-level drop and river knickpoint formation and (2) the history of sea-level rise and fall recorded by the elevation–age relationship of knickpoints. Our study in northwestern Luzon, Philippines, combines field surveys, sedimentological analysis, and topographic and river-profile analysis, through which we map the coral reef terrace extent and correlate terrace outer edges to the initiation location of major knickpoints in adjacent river profiles. Through χ transformation, the knickpoint retreat distance is equivalent to knickpoint/terrace age, and therefore the elevation–retreat distance relationship of the knickpoints can be used to determine the age of the correlated terrace. Using this method, we deduce that the lower coral reef terrace sequences (T1-T4) correspond to Marine Isotope Stages (MIS) 5a, 5c, 5e, and 7a, respectively. Furthermore, we suggest the coastal area is gently tilting seaward with an average uplift rate of ∼1 m/kyr, and the highest terrace surface (420–440 m) may be more than 400 kyr old. We propose that this technique offers a promising solution for dating coral reef terraces in uplifting coastal regions where absolute age-dating techniques fail due to diagenetic alteration, and for terraces associated with bedrock rivers that developed before the penultimate glacial period.",
+        "keyPoints": [
+          "River-knickpoint retreat provides an indirect age measure for coral reef terraces affected by diagenetic alteration.",
+          "Applied in northwestern Luzon, the method assigns terraces T1–T4 to MIS 5a, 5c, 5e and 7a and indicates roughly 1 m/kyr of coastal uplift."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2025.119792",
         "journal": "Earth and Planetary Science Letters",
         "method": "Knickpoint retreat and coral-terrace dating",
@@ -45885,6 +46004,11 @@ const reports = [
         "doi": "10.1016/j.epsl.2025.119808",
         "authors": "Kevin Shao, Seulgi Moon, Gen K. Li, Peter J. Haproff, An Yin, Lee B. Corbett, Paul R. Bierman, Marina O. Argueta, Alan J. Hidy",
         "abstract": "• Erosion rates show varying relationships with topographic metrics in the Himalaya • Climate-driven erosional efficiency differs by lithology • Erosional efficiency from metasedimentary rocks correlates with extreme rainfall • Extreme precipitation on tectonically active, steep slopes drives high efficiency Although climate can strongly influence erosional efficiency (i.e., erosion rate for a given topography), demonstrating its impact in tectonically active areas has been challenging due to other confounding controlling factors, such as lithology. Here, we show that 10 Be-derived erosion rates and efficiencies in the Himalayan orogen exhibit distinct relationships with climatic factors depending on lithology. We compile 173 10 Be-derived, basin-averaged erosion rates across the orogen, including 12 newly measured rates from the Dibang and Lohit valleys in the easternmost Himalaya, regions characterized by high precipitation magnitudes and variability. We group basins based on lithologies separated by orogen-scale thrust faults and quantify erosional efficiency coefficients based on the relationships between erosion rates and topographic metrics. Our results show that erosion rates and erosional efficiency from sedimentary and metasedimentary rocks along the Himalayan range front display a positive, nonlinear correlation with climatic factors, such as the number of extreme rainfall events and mean annual precipitation rates. In contrast, erosion rates from crystalline lithologies in the hanging wall of the Main Central thrust show a strong correlation with fluvial topography, whereas erosional efficiency shows no statistically significant correlation with climatic factors. Rapid erosion rates and high erosional efficiencies in the eastern Himalayan range front are likely driven by extreme precipitation on tectonically active, steep slopes composed of mechanically weak metasedimentary rocks. Our findings highlight the importance of the interplay between controlling factors, which include tectonics, lithology, and climate, that drive surface erosion and influence the topographic evolution of orogenic systems.",
+        "keyPoints": [
+          "Across 173 Himalayan basins, erosion efficiency in sedimentary and metasedimentary rocks rises nonlinearly with rainfall and extreme precipitation.",
+          "Crystalline-rock erosion tracks fluvial topography, while its efficiency shows no significant relationship with climate variables."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1016/j.epsl.2025.119808",
         "journal": "Earth and Planetary Science Letters",
         "region": "Himalaya",
@@ -46131,6 +46255,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03190-y",
         "authors": "Huilin Chen, Chisheng Wang, Jose Fernandez, Huawei Hou, Ling Chang, Qingquan Li",
         "abstract": "Climate change and land subsidence are altering relative sea levels and compounding risks across European coasts, yet vulnerability assessments at this scale remain limited. Here we integrate 100-meter Interferometric Synthetic Aperture Radar measurements (2019–2023) with land-cover, population, and socioeconomic data to assess physical and social dimensions of coastal exposure. Northern Europe shows uplift exceeding 5 mm per year, while subsidence is prevalent in Mediterranean regions. Wetlands experience the largest downward motion (2.3 ± 3.1 mm per year) despite covering a small share of coastal areas. Under a middle-of-the-road climate scenario for 2050, roughly 94,000 square kilometers of coastal land, nearly 25 million residents, and 8 million buildings may face inundation. Vulnerability is disproportionately elevated among older adults, marginalized populations, and economically constrained regions facing heightened exposure yet limited adaptive capacity. These findings provide a scientific basis for directing adaptation resources where physical hazards and social inequalities converge.",
+        "keyPoints": [
+          "InSAR measurements show widespread Mediterranean coastal subsidence and northern European uplift exceeding 5 mm per year.",
+          "Under a 2050 middle-of-the-road scenario, inundation could affect about 94,000 km², 25 million residents and 8 million buildings, with unequal social vulnerability."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03190-y",
         "journal": "Communications Earth & Environment",
         "region": "European coasts",
@@ -46217,6 +46346,11 @@ const reports = [
         "doi": "10.1038/s43247-026-03235-2",
         "authors": "Yun Yang, Lawrence Opoku Boampong, Haylea Nisbet, Chelsea W. Neil, Hari Viswanathan",
         "abstract": "Efficient carbon dioxide mineralization in silicate-rich formations depends on reaction rates within fracture networks, yet the role of fracture microstructure remains poorly constrained. We investigated how fracture aperture and surface roughness influence mineralization by reacting synthetic forsteritic olivine fractures with controlled apertures (0.5–1.6 millimeters) and roughness (6–16 micrometers) with supercritical carbon dioxide at 13.7 megapascals and 185 degrees Celsius. Optical microscopy and Raman spectroscopy showed that rougher fracture surfaces promoted iron oxide precipitation, which passivated olivine surfaces, limiting magnesium availability for carbonate formation while removing iron as a reactant. These effects were more pronounced in smaller-aperture fractures. A geochemical model incorporating surface topography and passivation reproduced the observed trends, confirming that increased roughness can reduce reactivity despite greater surface area. Our results demonstrate that fracture microstructure strongly influences iron oxide passivation and carbon dioxide mineralization, with important implications for predicting long-term performance of engineered carbon dioxide storage systems.",
+        "keyPoints": [
+          "Rougher olivine fracture surfaces promote iron oxide precipitation that passivates surfaces and limits magnesium supply for carbonate formation.",
+          "Passivation is strongest in narrower fractures; a geochemical model reproduces the observed decline in reactivity despite increased surface area."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s43247-026-03235-2",
         "journal": "Communications Earth & Environment",
         "method": "Olivine-fracture reactive-flow experiments",
@@ -46912,6 +47046,11 @@ const reports = [
         "doi": "10.1038/s41467-026-68572-4",
         "authors": "Tao Liu, Zhicheng Jing",
         "abstract": "The composition of Earth’s Fe-rich liquid outer core has long been debated. Available models incorporating light elements, such as Si, O, C, S, and H, cannot explain the seismically low velocity layer in the uppermost outer core (E′ layer). Here we employ first-principles molecular dynamics simulations to determine the density and sound velocity (\\({V}_{P}\\)) of Fe-Mg liquids under outer core conditions, which were unknown previously. Results show that the presence of Mg slightly decreases the \\({V}_{P}\\) of liquid Fe, in contrast to the enhancing effects of other light elements. Our modeling suggests that 0.5-1.79 wt% Mg is required to match seismically observed core densities and velocities. Such amount of Mg could have entered the outermost outer core following the Moon-forming giant impact, thereby providing a viable explanation for the formation of the E′ layer and contributing to the slight Mg depletion in the bulk silicate Earth relative to chondritic meteorites.",
+        "keyPoints": [
+          "First-principles simulations find that dissolved Mg lowers liquid iron sound velocity under outer-core conditions, unlike other commonly modeled light elements.",
+          "An estimated 0.5–1.79 wt% Mg could reconcile observed density and velocity in the outermost core's seismic low-velocity layer."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-68572-4",
         "journal": "Nature Communications",
         "method": "Iron-magnesium liquid mineral-physics modeling",
@@ -46928,6 +47067,11 @@ const reports = [
         "doi": "10.1038/s41467-026-68341-3",
         "authors": "Jie Liu, Xuanmei Fan, Tristram Hales, Erin L. Harvey, A. Joshua West, John D. Jansen, Xiaolu Tang, Qiang Xu",
         "abstract": "Earthquakes and seismically-induced landslides accelerate carbon export from mountains by eroding hillslope soil carbon. However, a quantitative understanding of their net contribution to carbon cycling remains incomplete. Using the 2008 Mw 7.9 Wenchuan Earthquake which generated the largest landslide volume in recent history, we quantify its carbon mass balance accounting for storage, loss, and transport within the ensuing sediment cascade. Thanks to post-event revegetation and extensive intermontane sediment storage, we show that the earthquake boosted Longmenshan carbon mass by ~10%. Given the stability of these deposits and low rates of carbon export, we anticipate this landslide carbon will persist for centuries to millennia before gradually declining. In effect, we demonstrate that earthquakes and landslides function as capacitors, regulating carbon storage and discharge across mountain belts over time. This suggests frequent landslides in seismically-active mountains may lead to a net carbon sequestration, providing a critical and direct link between tectonics and the carbon cycle.",
+        "keyPoints": [
+          "The 2008 Wenchuan earthquake increased the Longmenshan carbon mass by about 10% through landslide sediment storage and post-event revegetation.",
+          "Slow carbon export suggests earthquake-derived landslide carbon may persist for centuries to millennia before gradually declining."
+        ],
+        "keyPointsSource": "ai-generated",
         "link": "https://doi.org/10.1038/s41467-026-68341-3",
         "journal": "Nature Communications",
         "region": "Longmenshan, China",
@@ -48498,6 +48642,12 @@ const reports = [
         "doi": "10.1029/2025gl119116",
         "authors": "Clemens Moser, Adrián Flores Orozco",
         "abstract": "For hydrogeological management of seasonally frozen soils, or permafrost, the quantification of ice and water content is key. Changes in electrical conductivity are commonly used to monitor ice‐to‐water ratios but hard rocks, ice and air are all highly resistive materials. The high‐frequency polarization of ice (kHz range) offers a suitable alternative to the conductivity, but field investigations at such frequencies are still challenging. Here, we demonstrate the polarization of blank ice features in solid rocks at low frequencies (1–100 Hz). We identify two polarization effects: (a) an increase in the response due to the polarization of charges in the electrical double layer formed at the ice‐water‐rock interface; (b) an even larger response due to the non‐equilibrium freezing potential taking place during ice formation. We demonstrate that these effects can be used to image ice features, for instance, during ground‐ice formation and degradation.",
+        "keyPoints": [
+          "Blank ice features in solid rocks polarize between 1 and 100 Hz",
+          "During the rapid formation of ice in clefts the Workman Reynolds freezing potential results in large induced polarization effects",
+          "Considering low‐frequency polarization at the ice‐water interface is needed for hydrogeological interpretation of geoelectrical data"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl119116",
         "journal": "Geophysical Research Letters",
         "method": "Low-frequency electrical polarization experiments",
@@ -48516,6 +48666,12 @@ const reports = [
         "doi": "10.1029/2025gl116702",
         "authors": "Gongheng Zhang, Chunquan Yu, Zhengbo Li, Xiaofei Chen, Caiwang Shi, Xuping Feng, Fanchang Meng, Bo Li",
         "abstract": "Ambient noise cross‐correlations enable the extraction of multimodal surface waves, yet resolving their complex dispersion characteristics is essential for robust subsurface imaging. Using dense array data from the North China Plain, we resolve multicomponent multimodal Rayleigh and Love wave dispersion with unprecedented detail. The results reveal several distinct dispersion characteristics, including stronger excitation of higher modes on horizontal components, opposite polarity of the first higher mode on the ZR‐RZ component, and a switching of the dominant Rayleigh mode between vertical and horizontal components at low frequencies. We also identify and confirm mode kissing between fundamental and first higher Rayleigh modes and guided P modes arising from normal mode and leaky mode coupling. These dispersion characteristics are primarily controlled by the shallow low‐velocity sediments, which govern frequency‐dependent mode excitation, polarity, and energy partitioning. Integrating these multicomponent multimodal observations improves the physical interpretability and reliability of subsurface imaging.",
+        "keyPoints": [
+          "Dense‐array ambient noise data reveal distinct multicomponent surface wave dispersion characteristics in the North China Plain",
+          "Rayleigh wave mode kissing is identified and verified, along with guided P modes caused by normal mode and leaky mode coupling",
+          "Integrating multicomponent multimodes provides robust constraints on subsurface velocity structures"
+        ],
+        "keyPointsSource": "official-publisher",
         "link": "https://doi.org/10.1029/2025gl116702",
         "journal": "Geophysical Research Letters",
         "method": "Ambient-noise surface-wave dispersion",
